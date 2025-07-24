@@ -1,0 +1,8 @@
+site_name: Tino Docs Hub
+plugins:
+  - search
+  - monorepo
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
