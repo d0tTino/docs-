@@ -4,20 +4,17 @@ from __future__ import annotations
 
 import argparse
 import pickle
-import re
 from pathlib import Path
 from typing import Iterable, List
 
 import markdown
 
 
-TOKEN_REGEX = re.compile(r"\b\w+\b", re.UNICODE)
-
-
 def ingest_markdown(path: Path, chunk_size: int = 500) -> Iterable[str]:
     """Yield token chunks from markdown files."""
     text = Path(path).read_text(encoding="utf-8")
-    tokens = TOKEN_REGEX.findall(markdown.markdown(text))
+    html = markdown.markdown(text)
+    tokens = html.split()
     for i in range(0, len(tokens), chunk_size):
         yield " ".join(tokens[i : i + chunk_size])
 
