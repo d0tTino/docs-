@@ -11,6 +11,28 @@ This repository aggregates documentation and research across multiple projects.
 - `_project-docs/` – submodule mounts for individual projects
 - `scripts/` – helper scripts including ingest utilities
 
+## Project Documentation Submodules
+
+Project documentation lives in separate repositories added to
+`_project-docs/` as git submodules. Add a new project by running:
+
+```bash
+git submodule add <repository-url> _project-docs/<project-folder>
+```
+
+After cloning the docs hub or when new submodules are added, initialize
+them with:
+
+```bash
+git submodule update --init --recursive
+```
+
+To fetch updates from all submodules later on, run:
+
+```bash
+git submodule update --remote
+```
+
 ## Building the Docs
 
 Install dependencies and build the site with [MkDocs](https://www.mkdocs.org/):
