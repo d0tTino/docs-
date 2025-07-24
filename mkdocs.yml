@@ -1,4 +1,5 @@
 site_name: Tino Docs Hub
+theme: material
 plugins:
   - search
   - monorepo
