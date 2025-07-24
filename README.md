@@ -21,3 +21,11 @@ mkdocs serve
 ```
 
 The site is deployed via GitHub Actions on every push that modifies docs.
+
+## Development Setup
+
+Configure git to use the repository's hooks:
+
+```bash
+scripts/setup_hooks.sh
+```
