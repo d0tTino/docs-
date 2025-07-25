@@ -49,4 +49,3 @@ def test_migrate_old_docs_git_commands(tmp_path):
     assert commands[1].startswith("clone https://github.com/d0tTino/d0tTino.git")
     assert commands[2].startswith("-C") and "filter-repo" in commands[2]
     assert commands[3].startswith("-C") and commands[3].endswith("+HEAD:d0tTino-import")
-
