@@ -78,6 +78,7 @@ scripts/setup_hooks.sh
 You can import configuration and prompt snippets from the old
 [`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository.
 Ensure `git-filter-repo` is installed (for example via `pip install git-filter-repo` or your package manager) before running the script.
+
 Run the migration script from the repository root:
 
 ```bash
