@@ -1,1 +1,5 @@
 markdown
+mkdocs
+mkdocs-material
+mkdocs-monorepo-plugin
+pytest
