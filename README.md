@@ -33,9 +33,10 @@ To fetch updates from all submodules later on, run:
 git submodule update --remote
 ```
 
+
 ## Building the Docs
 
-Install dependencies and build the site with [MkDocs](https://www.mkdocs.org/):
+Install Python packages and build the site with [MkDocs](https://www.mkdocs.org/):
 
 ```bash
 pip install mkdocs mkdocs-material mkdocs-monorepo-plugin
@@ -44,15 +45,25 @@ mkdocs serve
 
 The site is deployed via GitHub Actions on every push that modifies docs.
 
-## Development Setup
+## Installing Node Dependencies
 
-Configure git to use the repository's hooks:
+Install Node packages for optional tooling such as markdown linting:
+
+```bash
+npm install
+```
+
+This installs development dependencies defined in `package.json`.
+
+## Setting Up Git Hooks
+
+Configure git to use the repository's hooks by running the helper script:
 
 ```bash
 scripts/setup_hooks.sh
 ```
 
-## Importing Legacy Docs
+## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
 [`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository.
