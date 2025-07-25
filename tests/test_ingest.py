@@ -75,3 +75,9 @@ def test_vector_db_query(tmp_path):
     assert db.query("gamma delta") == ["gamma delta"]
     results = db.query("some query", top_k=2)
     assert len(results) == 2
+
+
+def test_ingest_empty_file(tmp_path):
+    md_file = tmp_path / "empty.md"
+    md_file.write_text("")
+    assert list(ingest_markdown(md_file)) == []
