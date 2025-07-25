@@ -34,6 +34,11 @@ def test_migrate_old_docs_git_commands(tmp_path):
     )
     fake_git.chmod(0o755)
 
+    # Provide a dummy git-filter-repo command for the script check
+    fake_filter_repo = tmp_path / "git-filter-repo"
+    fake_filter_repo.write_text("#!/bin/sh\nexit 0\n")
+    fake_filter_repo.chmod(0o755)
+
     env = os.environ.copy()
     env.update({
         "PATH": f"{tmp_path}:{env['PATH']}",
