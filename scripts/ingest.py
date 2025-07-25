@@ -6,15 +6,17 @@ import argparse
 import pickle
 from pathlib import Path
 from typing import Iterable, List
+import re
 
 import markdown
 
 
 def ingest_markdown(path: Path, chunk_size: int = 500) -> Iterable[str]:
-    """Yield token chunks from markdown files."""
+    """Yield token chunks from a markdown file converted to plain text."""
     text = Path(path).read_text(encoding="utf-8")
     html = markdown.markdown(text)
-    tokens = html.split()
+    plain_text = re.sub(r"<[^>]+>", "", html)
+    tokens = plain_text.split()
     for i in range(0, len(tokens), chunk_size):
         yield " ".join(tokens[i : i + chunk_size])
 
@@ -43,8 +45,9 @@ class VectorDB:
 
 
 def main() -> None:
+    """CLI entry point for ingesting markdown into a vector database."""
     parser = argparse.ArgumentParser(
-        description="Ingest markdown into a vector database"
+        description="Ingest markdown into a vector database",
     )
     parser.add_argument("input", type=Path, help="Markdown file to ingest")
     parser.add_argument(
@@ -54,9 +57,16 @@ def main() -> None:
         default=Path("vector_db.pkl"),
         help="Database file",
     )
+    parser.add_argument(
+        "--chunk-size",
+        dest="chunk_size",
+        type=int,
+        default=500,
+        help="Number of tokens per chunk",
+    )
     args = parser.parse_args()
 
-    chunks = list(ingest_markdown(args.input))
+    chunks = list(ingest_markdown(args.input, chunk_size=args.chunk_size))
     db = VectorDB(args.db)
     db.add_texts(chunks)
 

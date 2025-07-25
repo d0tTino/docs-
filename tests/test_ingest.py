@@ -17,11 +17,11 @@ def test_ingest_chunking(tmp_path):
     chunks = list(ingest_markdown(md_file, chunk_size=3))
 
     assert chunks == [
-        "<p>This is a",
+        "This is a",
         "simple test file",
         "with enough words",
         "to form multiple",
-        "chunks.</p>",
+        "chunks.",
     ]
 
 
@@ -39,7 +39,7 @@ def test_db_upload_stub(tmp_path):
         upload_stub(chunk)
 
     assert uploaded == [
-        "<p>Alpha beta",
+        "Alpha beta",
         "gamma delta",
-        "epsilon zeta</p>",
+        "epsilon zeta",
     ]
