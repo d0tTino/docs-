@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import pickle
+import re
 from pathlib import Path
 from typing import Iterable, List
 import re
@@ -15,8 +16,9 @@ def ingest_markdown(path: Path, chunk_size: int = 500) -> Iterable[str]:
     """Yield token chunks from a markdown file converted to plain text."""
     text = Path(path).read_text(encoding="utf-8")
     html = markdown.markdown(text)
-    plain_text = re.sub(r"<[^>]+>", "", html)
-    tokens = plain_text.split()
+    plain = re.sub(r"<[^>]+>", "", html)
+    tokens = plain.split()
+
     for i in range(0, len(tokens), chunk_size):
         yield " ".join(tokens[i : i + chunk_size])
 
@@ -62,7 +64,8 @@ def main() -> None:
         dest="chunk_size",
         type=int,
         default=500,
-        help="Number of tokens per chunk",
+        help="Tokens per chunk",
+
     )
     args = parser.parse_args()
 

@@ -1,4 +1,5 @@
 from pathlib import Path
+import subprocess
 import sys
 
 import pytest
@@ -6,7 +7,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from scripts.ingest import ingest_markdown
+from scripts.ingest import ingest_markdown, VectorDB
 
 
 def test_ingest_chunking(tmp_path):
@@ -25,21 +26,28 @@ def test_ingest_chunking(tmp_path):
     ]
 
 
-def test_db_upload_stub(tmp_path):
+def test_cli_chunk_size_and_persistence(tmp_path):
     content = "Alpha beta gamma delta epsilon zeta"
     md_file = tmp_path / "upload.md"
     md_file.write_text(content)
 
-    uploaded = []
+    db_file = tmp_path / "db.pkl"
 
-    def upload_stub(chunk):
-        uploaded.append(chunk)
+    subprocess.run(
+        [
+            sys.executable,
+            str(ROOT / "scripts/ingest.py"),
+            str(md_file),
+            "--db",
+            str(db_file),
+            "--chunk-size",
+            "2",
+        ],
+        check=True,
+    )
 
-    for chunk in ingest_markdown(md_file, chunk_size=2):
-        upload_stub(chunk)
+    db = VectorDB(db_file)
+    assert len(db.data) == 3
 
-    assert uploaded == [
-        "Alpha beta",
-        "gamma delta",
-        "epsilon zeta",
-    ]
+    reloaded = VectorDB(db_file)
+    assert reloaded.data == db.data
