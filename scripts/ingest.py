@@ -20,7 +20,7 @@ def ingest_markdown(path: Path, chunk_size: int = 500) -> Iterable[str]:
     tokens = plain.split()
 
     for i in range(0, len(tokens), chunk_size):
-        yield " ".join(tokens[i : i + chunk_size])
+        yield " ".join(tokens[i:i + chunk_size])
 
 
 def embed(text: str) -> List[float]:

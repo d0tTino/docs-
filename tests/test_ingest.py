@@ -2,12 +2,9 @@ from pathlib import Path
 import subprocess
 import sys
 
-import pytest
-
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
-
-from scripts.ingest import ingest_markdown, VectorDB, embed
+from scripts.ingest import ingest_markdown, VectorDB  # noqa: E402
 
 
 def test_ingest_chunking(tmp_path):
