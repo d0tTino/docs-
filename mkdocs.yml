@@ -13,6 +13,7 @@ nav:
   - AI Research:
       - Overview: ai-research/index.md
       - Logical Chunking: ai-research/logical-chunking.md
+      - Reverse Engineering Codex: ai-research/reverse-engineering-codex.md
   - Arduino: arduino/index.md
   - Terminal Workflow: terminal-workflow/index.md
   - Culture Project: culture-project/index.md
