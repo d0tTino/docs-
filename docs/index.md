@@ -33,7 +33,6 @@ To fetch updates from all submodules later on, run:
 git submodule update --remote
 ```
 
-
 ## After Cloning
 
 Set up Git LFS and repository hooks after cloning:
