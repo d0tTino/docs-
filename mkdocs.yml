@@ -14,6 +14,7 @@ nav:
       - Overview: ai-research/index.md
       - Logical Chunking: ai-research/logical-chunking.md
       - Reverse Engineering Codex: ai-research/reverse-engineering-codex.md
+      - DeepThought-ReThought Roadmap: ai-research/strategic-roadmap-deepthought.md
   - Arduino: arduino/index.md
   - Terminal Workflow: terminal-workflow/index.md
   - Culture Project: culture-project/index.md
