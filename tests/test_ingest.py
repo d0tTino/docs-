@@ -7,7 +7,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from scripts.ingest import ingest_markdown, VectorDB
+from scripts.ingest import ingest_markdown, VectorDB, embed
 
 
 def test_ingest_chunking(tmp_path):
@@ -51,3 +51,15 @@ def test_cli_chunk_size_and_persistence(tmp_path):
 
     reloaded = VectorDB(db_file)
     assert reloaded.data == db.data
+
+
+def test_embed_deterministic():
+    script = (
+        "import sys; "
+        f"sys.path.append('{str(ROOT)}'); "
+        "from scripts.ingest import embed; "
+        "print(embed('deterministic'))"
+    )
+    result1 = subprocess.check_output([sys.executable, "-c", script])
+    result2 = subprocess.check_output([sys.executable, "-c", script])
+    assert result1 == result2

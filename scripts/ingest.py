@@ -7,7 +7,7 @@ import pickle
 import re
 from pathlib import Path
 from typing import Iterable, List
-import re
+import hashlib
 
 import markdown
 
@@ -25,7 +25,9 @@ def ingest_markdown(path: Path, chunk_size: int = 500) -> Iterable[str]:
 
 def embed(text: str) -> List[float]:
     """Return a simple numeric embedding for ``text``."""
-    return [float(hash(text) % 1000000)]
+    digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    value = int(digest, 16) % 1000000
+    return [float(value)]
 
 
 class VectorDB:
