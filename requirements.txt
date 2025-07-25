@@ -3,3 +3,4 @@ mkdocs
 mkdocs-material
 mkdocs-monorepo-plugin
 pytest
+flake8
