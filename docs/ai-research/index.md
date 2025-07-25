@@ -1,5 +1,5 @@
 ---
-title: "Terminal Workflow Index"
+title: "AI Research"
 tags: [sample, docs]
 project: sample-project
 updated: 2025-01-01

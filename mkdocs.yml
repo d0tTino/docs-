@@ -1,5 +1,6 @@
 site_name: Tino Docs Hub
 theme: material
+docs_dir: docs
 plugins:
   - search
   - monorepo
@@ -7,3 +8,11 @@ markdown_extensions:
   - toc:
       permalink: true
   - admonition
+nav:
+  - Home: index.md
+  - AI Research:
+      - Overview: ai-research/index.md
+      - Logical Chunking: ai-research/logical-chunking.md
+  - Arduino: arduino/index.md
+  - Terminal Workflow: terminal-workflow/index.md
+  - Culture Project: culture-project/index.md
