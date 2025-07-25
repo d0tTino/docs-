@@ -34,6 +34,17 @@ git submodule update --remote
 ```
 
 
+## After Cloning
+
+Set up Git LFS and repository hooks after cloning:
+
+```bash
+git lfs install
+scripts/setup_hooks.sh
+```
+
+The hooks enforce Markdown linting with `pre-commit`.
+
 ## Building the Docs
 
 Install Python packages and build the site with [MkDocs](https://www.mkdocs.org/):
