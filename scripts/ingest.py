@@ -47,6 +47,21 @@ class VectorDB:
         with self.path.open("wb") as f:
             pickle.dump(self.data, f)
 
+    def query(self, text: str, top_k: int = 1) -> List[str]:
+        """Return the ``top_k`` most similar chunks to ``text``."""
+        if not self.data:
+            return []
+        target = embed(text)
+        scored = [
+            (
+                sum((e - t) ** 2 for e, t in zip(vec, target)) ** 0.5,
+                chunk,
+            )
+            for vec, chunk in self.data
+        ]
+        scored.sort(key=lambda x: x[0])
+        return [c for _, c in scored[:top_k]]
+
 
 def main() -> None:
     """CLI entry point for ingesting markdown into a vector database."""
