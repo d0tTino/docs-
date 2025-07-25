@@ -33,7 +33,6 @@ To fetch updates from all submodules later on, run:
 git submodule update --remote
 ```
 
-
 ## After Cloning
 
 Set up Git LFS and repository hooks after cloning:
@@ -90,4 +89,22 @@ called `d0tTino-import`. Merge that branch to incorporate the history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
+```
+
+## Ingesting and Querying Markdown
+
+The `scripts/ingest.py` helper can store markdown chunks in a simple
+vector database and retrieve them later:
+
+```bash
+# Build the database
+python scripts/ingest.py docs/example.md --db vector_db.pkl
+
+# Query for similar text
+python - <<'EOF'
+from pathlib import Path
+from scripts.ingest import VectorDB
+db = VectorDB(Path('vector_db.pkl'))
+print(db.query('search text'))
+EOF
 ```
