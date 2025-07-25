@@ -12,6 +12,12 @@ set -euo pipefail
 REPO_ROOT=$(git rev-parse --show-toplevel)
 TMP_DIR=$(mktemp -d)
 
+# Ensure git-filter-repo is installed before proceeding
+if ! command -v git-filter-repo >/dev/null; then
+    echo "git-filter-repo is required. Install it and retry." >&2
+    exit 1
+fi
+
 # Clone the legacy repo
 git clone https://github.com/d0tTino/d0tTino.git "$TMP_DIR"
 

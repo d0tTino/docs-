@@ -34,6 +34,11 @@ def test_migrate_old_docs_git_commands(tmp_path):
     )
     fake_git.chmod(0o755)
 
+    # Provide a dummy git-filter-repo command for the script check
+    fake_filter_repo = tmp_path / "git-filter-repo"
+    fake_filter_repo.write_text("#!/bin/sh\nexit 0\n")
+    fake_filter_repo.chmod(0o755)
+
     env = os.environ.copy()
     env.update({
         "PATH": f"{tmp_path}:{env['PATH']}",
@@ -49,4 +54,3 @@ def test_migrate_old_docs_git_commands(tmp_path):
     assert commands[1].startswith("clone https://github.com/d0tTino/d0tTino.git")
     assert commands[2].startswith("-C") and "filter-repo" in commands[2]
     assert commands[3].startswith("-C") and commands[3].endswith("+HEAD:d0tTino-import")
-
