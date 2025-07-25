@@ -51,3 +51,21 @@ Configure git to use the repository's hooks:
 ```bash
 scripts/setup_hooks.sh
 ```
+
+## Importing Legacy Docs
+
+You can import configuration and prompt snippets from the old
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository.
+Run the migration script from the repository root:
+
+```bash
+scripts/migrate_old_docs.sh
+```
+
+The script clones the legacy repo, filters only the documentation
+files using `git filter-repo`, and fetches the result as a local branch
+called `d0tTino-import`. Merge that branch to incorporate the history:
+
+```bash
+git merge d0tTino-import --allow-unrelated-histories
+```
