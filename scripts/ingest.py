@@ -7,16 +7,18 @@ import pickle
 import re
 from pathlib import Path
 from typing import Iterable, List
+import re
 
 import markdown
 
 
 def ingest_markdown(path: Path, chunk_size: int = 500) -> Iterable[str]:
-    """Yield token chunks from markdown files."""
+    """Yield token chunks from a markdown file converted to plain text."""
     text = Path(path).read_text(encoding="utf-8")
     html = markdown.markdown(text)
     plain = re.sub(r"<[^>]+>", "", html)
     tokens = plain.split()
+
     for i in range(0, len(tokens), chunk_size):
         yield " ".join(tokens[i : i + chunk_size])
 
@@ -45,8 +47,9 @@ class VectorDB:
 
 
 def main() -> None:
+    """CLI entry point for ingesting markdown into a vector database."""
     parser = argparse.ArgumentParser(
-        description="Ingest markdown into a vector database"
+        description="Ingest markdown into a vector database",
     )
     parser.add_argument("input", type=Path, help="Markdown file to ingest")
     parser.add_argument(
@@ -62,6 +65,7 @@ def main() -> None:
         type=int,
         default=500,
         help="Tokens per chunk",
+
     )
     args = parser.parse_args()
 
