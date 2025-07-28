@@ -10,6 +10,7 @@ This repository aggregates documentation and research across multiple projects.
 - `culture-project/` – organizational culture project
 - `_project-docs/` – submodule mounts for individual projects
 - `scripts/` – helper scripts including ingest utilities
+- `playbooks/` – workflow and container playbooks
 
 ## Project Documentation Submodules
 
