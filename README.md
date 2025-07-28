@@ -10,6 +10,7 @@ This repository aggregates documentation and research across multiple projects.
 - `culture-project/` – organizational culture project
 - `_project-docs/` – submodule mounts for individual projects
 - `scripts/` – helper scripts including ingest utilities
+- `playbooks/` – workflow and container playbooks
 
 ## Project Documentation Submodules
 
@@ -30,7 +31,13 @@ git submodule update --init --recursive
 To fetch updates from all submodules later on, run:
 
 ```bash
-git submodule update --remote
+git submodule update --remote --recursive
+```
+
+Alternatively run the helper script:
+
+```bash
+scripts/bulk_submodule_update.sh
 ```
 
 ## After Cloning
@@ -46,10 +53,11 @@ The hooks enforce Markdown linting with `pre-commit`.
 
 ## Building the Docs
 
-Install Python packages and build the site with [MkDocs](https://www.mkdocs.org/):
+Install Python packages from `requirements.txt` so all dependencies
+(MkDocs, pytest, flake8) install consistently, then build the site:
 
 ```bash
-pip install mkdocs mkdocs-material mkdocs-monorepo-plugin
+pip install -r requirements.txt
 mkdocs serve
 ```
 

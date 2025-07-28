@@ -22,4 +22,6 @@ nav:
   - Cyberpunk Cookbook: cyberpunk-cookbook.md
   - An Audit of an Oracle: audit-of-an-oracle.md
   - Inspiring Figures: inspiring-figures.md
+  - Security:
+      - Threat Model: security/threat-model.md
 
