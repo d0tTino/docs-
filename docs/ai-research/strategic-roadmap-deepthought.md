@@ -44,8 +44,9 @@ This report proposes a three-pronged strategic roadmap to bridge this gap:
 
 The proposed roadmap is projected to increase the probability of achieving the
 project's core AGI chatbot vision from an estimated baseline of
-\(P_\text{Success}^{\text{baseline}} = 0.35\) to a posterior probability of
-\(P_\text{Success}^{\text{posterior}} = 0.75\). This is achieved by de-risking
+\(P\_\text{Success}^{\text{baseline}} = 0.35\) to a posterior probability of
+\(P\_\text{Success}^{\text{posterior}} = 0.75\). This is achieved by de-risking
+
 key architectural dependencies and aligning development effort directly with the
 highest-impact product features.
 
