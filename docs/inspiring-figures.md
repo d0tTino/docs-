@@ -1,5 +1,5 @@
 ---
-title: "notable Figures"
+title: "Notable Figures"
 tags: [inspiration, research]
 updated: 2025-07-27
 ---
