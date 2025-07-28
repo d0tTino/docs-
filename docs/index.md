@@ -13,15 +13,15 @@ This repository aggregates documentation and research across multiple projects.
 
 ## Project Documentation Submodules
 
-Project documentation lives in separate repositories added to
-`_project-docs/` as git submodules. Add a new project by running:
+Project documentation lives in separate repositories added to `_project-docs/`
+as git submodules. Add a new project by running:
 
 ```bash
 git submodule add <repository-url> _project-docs/<project-folder>
 ```
 
-After cloning the docs hub or when new submodules are added, initialize
-them with:
+After cloning the docs hub or when new submodules are added, initialize them
+with:
 
 ```bash
 git submodule update --init --recursive
@@ -46,7 +46,8 @@ The hooks enforce Markdown linting with `pre-commit`.
 
 ## Building the Docs
 
-Install Python packages and build the site with [MkDocs](https://www.mkdocs.org/):
+Install Python packages and build the site with
+[MkDocs](https://www.mkdocs.org/):
 
 ```bash
 pip install mkdocs mkdocs-material mkdocs-monorepo-plugin
@@ -76,10 +77,10 @@ scripts/setup_hooks.sh
 ## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
-[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository.
-Before running the script you must have
-[`git-filter-repo`](https://github.com/newren/git-filter-repo)
-available. Install it with:
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Before
+running the script you must have
+[`git-filter-repo`](https://github.com/newren/git-filter-repo) available.
+Install it with:
 
 ```bash
 pip install git-filter-repo
@@ -91,9 +92,9 @@ Run the migration script from the repository root:
 scripts/migrate_old_docs.sh
 ```
 
-The script clones the legacy repo, filters only the documentation
-files using `git filter-repo`, and fetches the result as a local branch
-called `d0tTino-import`. Merge that branch to incorporate the history:
+The script clones the legacy repo, filters only the documentation files using
+`git filter-repo`, and fetches the result as a local branch called
+`d0tTino-import`. Merge that branch to incorporate the history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
