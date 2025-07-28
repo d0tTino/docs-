@@ -53,11 +53,11 @@ The hooks enforce Markdown linting with `pre-commit`.
 
 ## Building the Docs
 
-Install Python packages and build the site with
+Install Python packages from `requirements.txt` and build the site with
 [MkDocs](https://www.mkdocs.org/):
 
 ```bash
-pip install mkdocs mkdocs-material mkdocs-monorepo-plugin
+pip install -r requirements.txt
 mkdocs serve
 ```
 
