@@ -30,7 +30,13 @@ git submodule update --init --recursive
 To fetch updates from all submodules later on, run:
 
 ```bash
-git submodule update --remote
+git submodule update --remote --recursive
+```
+
+Alternatively run the helper script:
+
+```bash
+scripts/bulk_submodule_update.sh
 ```
 
 ## After Cloning
