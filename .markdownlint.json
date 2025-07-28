@@ -2,5 +2,15 @@
   "default": true,
   "MD013": false,
   "MD025": false,
+  "MD029": false,
+  "MD034": false,
+  "MD036": false,
+  "MD022": false,
+  "MD032": false,
+  "MD058": false,
+  "MD033": false,
+  "MD012": false,
+  "MD026": false,
+  "MD040": false,
   "ignores": ["node_modules"]
 }
