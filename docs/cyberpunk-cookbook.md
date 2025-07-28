@@ -10,11 +10,11 @@ updated: 2025-07-28
 
 - [Wave 1: Foundations](#wave-1-foundations)
 - [Wave 2: Threat Mapping](#wave-2-threat-mapping)
-- [Wave 3: Privacy & OPSEC](#wave-3-privacy-opsec)
-- [Wave 3: Legal Countermeasures & Rights Navigation](#wave-3-legal-countermeasures-rights-navigation)
+- [Wave 3: Privacy & OPSEC](#wave-3-privacy--opsec)
+- [Wave 3: Legal Countermeasures & Rights Navigation](#wave-3-legal-countermeasures--rights-navigation)
 - [Wave 4: Hands-On Hardening](#wave-4-hands-on-hardening)
-- [Wave 4: Reconnaissance & Open-Source Intelligence](#wave-4-reconnaissance-open-source-intelligence)
-- [Wave 5: Cognitive Security & Influence Defense](#wave-5-cognitive-security-influence-defense)
+- [Wave 4: Reconnaissance & Open-Source Intelligence](#wave-4-reconnaissance--open-source-intelligence)
+- [Wave 5: Cognitive Security & Influence Defense](#wave-5-cognitive-security--influence-defense)
 - [References](#references)
 
 ## Wave 1: Foundations
