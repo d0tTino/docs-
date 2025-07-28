@@ -13,6 +13,7 @@ updated: 2025-07-25
 - [Wave 3: Privacy & OPSEC](#wave-3-privacy--opsec)
 - [Wave 3: Legal Countermeasures & Rights Navigation](#wave-3-legal-countermeasures--rights-navigation)
 - [Wave 4: Hands-On Hardening](#wave-4-hands-on-hardening)
+- [Wave 4: Reconnaissance & Open-Source Intelligence](#wave-4-reconnaissance--open-source-intelligence)
 - [References](#references)
 
 ## Wave 1: Foundations
@@ -3961,6 +3962,498 @@ Bernstein v. United States Department of States (District Court of California)
 (1997) | The First Amendment Encyclopedia - Free Speech Center, accessed July
 25, 2025,
 https://firstamendment.mtsu.edu/article/bernstein-v-united-states-department-of-states-district-court-of-california/
+
+## Wave 4: Reconnaissance & Open-Source Intelligence
+
+### Introduction: The Panopticon's Blind Spot
+
+This manual provides the tactical playbook for reconnaissance in the concrete dystopia. It is the operationalization of the "Technical Fluency" mindset articulated in Wave 1: the ability to comprehend, appropriate, and repurpose the instruments of power.1 In a world governed by the control of information, Open-Source Intelligence (OSINT) is the act of seizing the means of intelligence production. It is the method by which the individual operator can turn the all-seeing eye of the corporate-state sovereign back upon itself, exposing both its architecture and one's own unwilling participation within it.
+The methodology presented here is a direct countermeasure to the threats mapped in Wave 2.1 It is a disciplined craft, not a dark art. The traditional intelligence cycle—Planning, Collection, Processing, Analysis, and Dissemination—is adapted for the lone operative.2 Planning is dictated by the operator's personal threat model. Collection is bounded by law and ethics. Processing transforms raw data into structured knowledge. Analysis reveals the patterns of power and vulnerability. Dissemination, for the operator, is not about producing reports for a bureaucracy, but about hardening one's own defenses and informing the actions of a trusted network.
+Before proceeding, the operator must internalize the primary legal boundary condition. This entire manual operates within the framework of lawful, passive reconnaissance. The line between OSINT and illegal intrusion is defined by statutes like the U.S. Computer Fraud and Abuse Act (CFAA).4 The landmark Supreme Court ruling in Van Buren v. United States clarified this line, establishing a "gates-up-or-down" standard.1 The techniques in this guide are designed to collect intelligence from publicly accessible sources—the "gates-up" world. Any action that involves bypassing a technical access control, such as a password prompt or a firewall, is not OSINT; it is a criminal act. This is the ethical fence. Crossing it is a tactical error with severe strategic consequences. All operations must be conducted with a clear understanding of the jurisdictional heat map detailed in Wave 3; an action that is low-risk in a "Green" jurisdiction may be a prosecutable offense in an "Amber" or "Red" one.1
+
+### Part I: The Operator's Toolchain
+
+The effectiveness of any intelligence operation is contingent on the quality of its tools. The modern OSINT landscape is a bifurcated reality. On one side are the powerful, integrated, and expensive commercial platforms wielded by the state and corporate adversaries mapped in Wave 2.1 Platforms like Maltego Professional, with annual licenses costing thousands of euros 6, and Intelligence X, with API access priced at €7,000 per year 8, represent a significant resource advantage for incumbent powers. This creates a capabilities gap. The independent operator cannot compete on budget.
+Therefore, the operator's advantage must be derived from superior tradecraft and a mastery of the open-source arsenal. The focus on Free and Open-Source Software (FOSS) is a strategic necessity, forcing a deeper understanding of how tools function and how they can be chained together to replicate the capabilities of their commercial counterparts. This section provides a catalog of the essential toolchain, evaluated on three core metrics:
+Cost: The financial barrier to entry. Scored as Free, Freemium (free tier with paid upgrades), or Commercial.
+Learning Curve: The time and technical skill required for proficient use. Scored on a 1-5 scale (1=Trivial, 5=Expert).
+Legal Risk: The potential for the tool's use to cross the line from passive collection to active, potentially unauthorized, interaction with a target system. Scored on a 1-5 scale (1=Low, 5=High). This risk is highly dependent on the operator's location and the target's jurisdiction, as defined in the Wave 3 heat map.1
+The following table, which forms the basis of the osint_toolchain_catalog.xlsx deliverable, is the operator's strategic reference for assembling a mission-appropriate toolkit.
+
+| Tool Name | Category | Description | Latest Version (2024-2025) | License | Cost Model | Learning Curve (1-5) | Legal Risk (1-5) | Legal Risk Notes |
+|-----------|----------|-------------|---------------------------|---------|------------|----------------------|------------------|-----------------|
+| SpiderFoot | Automated Framework | Automates the collection of OSINT across hundreds of data sources. Can be run via web UI or CLI. | 4.0 10 | MIT 11 | Free (Open Source), Commercial (HX) | 3 | 2 | Primarily passive. Active modules (port scanning, web spidering) increase risk. Use in "Amber" jurisdictions (UK, US) could be construed as unauthorized probing.1 |
+| Maltego | Automated Framework | A graphical link analysis tool for visualizing relationships between entities from diverse data sources via "Transforms." | Basic/Pro/Org Plans (2025) 13 | Proprietary Commercial 14 | Freemium (Basic), Commercial (Pro: €5000/yr 6) | 4 | 1 | Relies on passive API calls ("Transforms") to third-party data sources. Very low risk of direct unauthorized access. |
+| Lampyre | Automated Framework | AI-driven data analysis platform with over 100 pre-configured requests for OSINT gathering and visualization. | 2025 Release 15 | Proprietary Commercial | Commercial (Monthly plans from ~$59) 16 | 3 | 1 | Functions as a hub for passive API requests to external services, minimizing direct target interaction. |
+| Recon-ng | Recon Framework | A modular web reconnaissance framework with a Metasploit-like interface, focused on passive data gathering. | 5.1.2 17 | GPL-3.0-only 18 | Free | 4 | 1 | The core framework is entirely passive. Legal risk is dependent on the specific modules used, but the default set is low-risk. |
+| theHarvester | Data Enumeration | Gathers emails, subdomains, hosts, employee names, open ports, and banners from public sources like search engines. | 4.8.0 19 | MIT / Apache 2.0 (Varies by fork) 20 | Free | 2 | 1 | Scrapes public search engine results. Post-Van Buren, this carries minimal CFAA risk as it does not bypass technical access controls.1 |
+| Metagoofil | Metadata Analysis | Extracts metadata from public documents (pdf, doc, xls, etc.) found on a target domain. | 1.2.0 (Kali Package) 23 | GPL-2.0 24 | Free | 2 | 1 | Downloads publicly available files. Low risk, as it does not involve unauthorized access to non-public systems. |
+| Shodan | Infrastructure Analysis | A search engine for internet-connected devices. Identifies open ports, services, and vulnerabilities from its own scan data. | N/A (Web Service) | Proprietary Commercial | Freemium (API from $49 one-time) 25 | 3 | 1 | Searching a public database of pre-existing scan data is a passive activity. It is not performing a new scan on the target. |
+| Censys | Infrastructure Analysis | An internet-wide scanning platform that provides data on hosts, websites, and certificates. | N/A (Web Service) | Proprietary Commercial | Freemium (Community Free, Paid API) 26 | 3 | 1 | Like Shodan, searching the Censys database is a passive, low-risk activity. |
+| Bellingcat Toolkit | Resource Collection | A curated collection of hundreds of OSINT tools and resources for investigative journalism and human rights research. | 2024-2025 27 | N/A (Collection) | Free | 2 | 1 | A meta-resource. The legal risk is associated with the individual tools it links to, not the toolkit itself. |
+| OSINT Framework | Resource Collection | A web-based framework that categorizes and links to a vast number of OSINT tools and resources. | N/A (Web Service) | N/A (Collection) | Free | 1 | 1 | A directory of other tools. Risk is determined by the tools used from the framework.2 |
+| Sherlock | Username Enumeration | Hunts for social media accounts across a large number of sites based on a given username. | 0.4.1 (PyPI) 29 | MIT 29 | Free | 1 | 1 | Performs public, unauthenticated checks against websites. Low risk of violating ToS or CFAA. |
+| Nexfil | Username Enumeration | Finds profiles by username across over 360 websites, designed for speed and low false-positives. | N/A (GitHub project) | Unspecified | Free | 1 | 1 | Performs public, unauthenticated checks against websites. Low risk. |
+| GHunt | Google Account Analysis | Gathers detailed information about a Google account from a target's Gmail address or Gaia ID. | 2024-2025 31 | AGPL-3.0 32 | Free | 3 | 2 | Interacts directly with Google's APIs. Aggressive or automated use could violate Google's ToS. Post-Van Buren, CFAA prosecution risk for ToS violation alone is low, but not zero.1 |
+| Have I Been Pwned? | Breach Data Analysis | A searchable database of data breaches containing information on pwned accounts and passwords. | N/A (Web Service) | Proprietary | Freemium (Free web, paid API from $4.50/mo) 33 | 1 | 1 | Querying a public database is a passive, low-risk activity. |
+| Intelligence X | Dark Web & Leak Search | A search engine and data archive that indexes the dark web, document platforms, and public data leaks. | N/A (Web Service) | Proprietary Commercial | Freemium (Limited), Commercial (API €7000/yr) 8 | 3 | 1 | Passively searching an archive of already-collected data is low risk. |
+| BuiltWith | Technology Profiling | Identifies the technology stack of a website, including CMS, frameworks, analytics, and advertising networks. | 3.6 (Chrome Ext) 36 | Proprietary Commercial | Freemium (Limited), Commercial (from $295/mo) 36 | 1 | 1 | Passively analyzes web page source code and headers. Low risk. |
+| Wappalyzer | Technology Profiling | A technology profiler that uncovers technologies used on websites, similar to BuiltWith. | 6.10.85 39 | Proprietary Commercial | Freemium (Limited), Commercial (from $250/mo) 39 | 1 | 1 | Passively analyzes web page source code and headers. Low risk. |
+| ExifTool | Metadata Analysis | A command-line tool for reading, writing, and editing meta information in a wide variety of file types. | 13.33 43 | Artistic License 2.0 (Perl) 43 | Free | 3 | 1 | A local tool for analyzing files already in your possession. Risk is associated with how the files were obtained, not the tool's use. |
+| Social Analyzer | Social Media Analysis | An API & CLI tool for finding a person's potential profiles across over 900 social media sites. | 0.45 44 | AGPL-3.0-or-later 44 | Free | 2 | 1 | Performs public, unauthenticated checks against websites. Low risk. |
+| Social-Searcher | Social Media Monitoring | A real-time search engine for monitoring mentions, users, and trends across social networks and the web. | N/A (Web Service) | Proprietary Commercial | Freemium, Commercial (from €16.49/mo) 45 | 2 | 1 | Queries public APIs and web data. Low risk. |
+
+### Part II: Know Thy Footprint — A Self-Reconnaissance Protocol
+
+You cannot defend an attack surface you do not comprehend. The first target of any operator must be themselves. Self-reconnaissance is the foundational act of operational security (OPSEC). It is the process of systematically discovering your own digital exhaust to understand what an adversary can learn about you from open sources.49 This audit reveals vulnerabilities to doxing, identity theft, and targeted social engineering, allowing you to take corrective action before an adversary does. This section, which forms the content of the self_recon_guide.pdf, provides a disciplined protocol for this self-audit.
+
+#### Step-by-Step Self-Audit Protocol
+
+This protocol should be executed from a sterile environment, as detailed in Wave 3, to avoid linking your reconnaissance activity to your primary identity.1
+1. **Identity Enumeration (Google Dorking):** Begin with broad searches for your name and known aliases using advanced search operators. This establishes a baseline of your public exposure.
+   - `"Your Name"` — Simple name search.
+   - `"Your Name" AND "Your City"` — Narrow results geographically.
+   - `site:linkedin.com "Your Name"` — Search for professional profiles.
+   - `filetype:pdf "Your Name"` — Search for your name within PDF documents, which often include resumes, publications, or official records.
+2. **Email Address Enumeration:** Discover where your email addresses are publicly exposed. Use a tool like theHarvester against any personal domains you own or search engines for your known email addresses.
+
+   ```bash
+   theHarvester -d yourdomain.com -b google
+   ```
+
+   Or in a search engine:
+
+   ```text
+   "your.email@domain.com"
+   ```
+
+3. **Username Cross-Referencing:** Map your presence across the web using your common usernames. This reveals forgotten accounts and connections between different online personas. Tools like Sherlock and Nexfil automate this process across hundreds of websites.
+
+   ```bash
+   sherlock yourusername
+   python3 nexfil.py -u yourusername
+   ```
+
+4. **Leaked Credential and Breach Analysis:** The most critical step is to determine if your credentials have been compromised in known data breaches. This data is the primary fuel for credential stuffing attacks. Query databases like Have I Been Pwned? and Intelligence X with every email address discovered in the previous steps.
+   - Visit `haveibeenpwned.com` and enter your email addresses.
+   - Use the search function on `intelx.io` to query for your emails and usernames in public data leaks.
+5. **Metadata Trace Analysis:** Your own files can betray you. Metadata embedded in photos (EXIF) and documents can reveal your location, the devices you use, and the software on your systems.
+
+   ```bash
+   # Navigate to the directory in a terminal.
+   exiftool -r -gps:all       # Find all GPS data
+   exiftool -r -creator -author  # Find all author/creator data
+   ```
+
+   **Legal Tripwire:** Before sharing any image or document, strip its metadata. On Windows, right-click the file, select *Properties > Details*, and click *Remove Properties and Personal Information*. On Mac, third-party tools are required.
+6. **Infrastructure Footprint Analysis:** If you run any personal servers, websites, or have a static home IP address, you have an external infrastructure footprint. Use internet-wide scanners to see your network as an attacker would.
+   - On Shodan, search for your home IP address or personal domain.
+   - On Censys, perform a host search for your IP or a certificate search for your domain.
+
+#### Automating the Audit: The SpiderFoot Correlation Workflow
+
+A manual audit is a static snapshot. Your digital footprint is dynamic. Automation is required for continuous monitoring. SpiderFoot's correlation engine, configured via YAML, can be used to create a persistent self-reconnaissance workflow that automatically flags new exposures.
+
+The following YAML template, `self_recon_workflow.yaml`, provides a starting point. It defines a set of rules to collect and analyze data related to a personal identity, raising alerts for high-risk findings. This workflow assumes you have set up SpiderFoot and are familiar with its basic operation.
+
+```yaml
+# self_recon_workflow.yaml
+# A SpiderFoot correlation workflow for continuous self-reconnaissance.
+# To run: sf.py -C <scan_id> -r self_recon_workflow.yaml
+# Based on SpiderFoot Correlation Engine Documentation [63]
+
+# Rule 1: Alert on any new data breach exposure for primary email addresses.
+- id: self_recon_breach_alert
+  version: 1.0
+  meta:
+    name: "ALERT: Primary Email Address Found in New Data Breach"
+    description: "Triggers a HIGH risk alert if a monitored email address is identified in a data breach by the HaveIBeenPwned module."
+    risk: HIGH
+  collect:
+    - method: exact
+      field: module
+      value: sfp_haveibeenpwned
+    - method: exact
+      field: type
+      value: DATA_BREACH
+    - method: exact
+      field: entity.data
+      value: 
+        - "your.primary.email@domain.com"
+        - "your.secondary.email@domain.com"
+
+# Rule 2: Identify social media profile sprawl for a given username.
+- id: self_recon_profile_sprawl
+  version: 1.0
+  meta:
+    name: "INFO: Widespread Social Media Presence Identified"
+    description: "Identifies if a single username is found on more than 10 social media platforms, indicating a large, potentially hard-to-manage footprint."
+    risk: MEDIUM
+  collect:
+    - method: exact
+      field: module
+      value: sfp_sherlock
+    - method: exact
+      field: type
+      value: SOCIAL_MEDIA
+    - method: exact
+      field: entity.data
+      value: "your_primary_username"
+  analysis:
+    - method: threshold
+      field: data
+      count_unique_only: true
+      minimum: 10
+
+# Rule 3: Detect unintended exposure of physical location via metadata.
+- id: self_recon_geotag_leak
+  version: 1.0
+  meta:
+    name: "ALERT: Geolocation Data Found in Publicly Hosted File"
+    description: "Triggers a HIGH risk alert if any file collected from the target domain contains GPS coordinates."
+    risk: HIGH
+  collect:
+    - method: exact
+      field: type
+      value: GEOINFO
+    - method: exact
+      field: source.type
+      value: RAW_FILE_META_DATA
+```
+
+### Part III: Mapping the Leviathan — A Target Reconnaissance Playbook
+
+The same OSINT principles used for self-auditing can be applied to map the architectures of power that surveil you. This section provides two distinct playbooks for corporate and government reconnaissance. The objective is not intrusion, but understanding—to make the invisible structures of control visible.
+
+#### Playbook 1: Corporate Reconnaissance
+
+The objective is to map a corporation's digital and physical infrastructure, identify key personnel, and understand its technological dependencies, revealing its attack surface and operational logic.3
+1. **Corporate Structure and Leadership:** Use public registries like OpenCorporates and national Secretary of State websites to find official filings, registration details, and the names of corporate officers.64
+2. **Domain and IP Infrastructure:** Enumerate the target's digital real estate.
+   - Use theHarvester and tools like DNSdumpster to discover subdomains, mail servers, and DNS records.
+   - Feed the discovered domains and IP ranges into Shodan and Censys to map the external network perimeter.
+3. **Technology Stack Profiling:** A company's choice of technology reveals its dependencies and potential supply chain vulnerabilities. Use browser extensions like Wappalyzer or BuiltWith to analyze the target's primary websites.
+4. **Personnel Identification:** Map the human element of the organization using Google Dorking with LinkedIn.
+5. **Internal Data Leakage via Metadata:** Use Metagoofil to automatically download public documents from the target's domain and analyze metadata with ExifTool.
+
+#### Playbook 2: Government Agency Reconnaissance
+
+The objective is to map an agency's digital infrastructure, its critical dependencies on private sector contractors, and its physical footprint.66
+1. **Public Records and Official Disclosures:** Targeted search engine queries (`site:.gov`, `site:.mil`) uncover official reports, budgets, and public data.
+2. **Contractual Dependency Mapping:** Use government spending databases like USAspending.gov to identify the agency's primary technology contractors.
+3. **Infrastructure and Physical Location Mapping:** Use Shodan and Censys with filters for known government Autonomous System Numbers to map the agency's internet-facing infrastructure. Analyze satellite imagery for physical layout intelligence.51
+
+### The Ethical Fence: The Van Buren Line
+
+The critical distinction for every operator is the line between legal reconnaissance and illegal intrusion. This is not a gray area; it is a bright red line defined by law.69 The Computer Fraud and Abuse Act (CFAA) criminalizes "accessing a computer without authorization" or "exceeding authorized access".4
+For years, prosecutors argued that merely violating a website's terms of service constituted "exceeding authorized access." The Supreme Court's 2021 decision in *Van Buren v. United States* decisively rejected this interpretation.1 The Court established a "gates-up-or-down" standard: an individual only "exceeds authorized access" when they circumvent a technical barrier they are forbidden from bypassing. Accessing information that is publicly available, even for an improper purpose, is not a crime under the CFAA.1
+This ruling provides a clear ethical and legal fence for the OSINT operator:
+- **Legal & Low-Risk (Gates-Up):** Using tools like theHarvester, Metagoofil, or Sherlock to scrape publicly accessible data. Querying public databases like Shodan, Censys, or HaveIBeenPwned?.
+- **Illegal & High-Risk (Gates-Down):** Using a tool like Nmap to actively scan a target's network or attempting to bypass login screens. Such actions constitute unauthorized access and are crimes under the CFAA.
+This playbook exclusively endorses passive techniques. Any operator who proceeds to active scanning or exploitation is no longer conducting OSINT; they are committing a federal crime with severe penalties.4
+
+### Part IV: Structuring the Hunt — Mapping Intelligence to ATT&CK
+
+Raw data is noise. To be useful, intelligence must be structured. The MITRE ATT&CK framework is the global standard for cataloging adversary tactics and techniques based on real-world observations. Mapping OSINT findings to ATT&CK transforms a simple list of indicators into a structured understanding of an adversary's potential capabilities and a target's vulnerabilities.
+
+#### Reconnaissance Mapping Guide (TA0043)
+
+- **Finding:** A list of subdomains and IP addresses discovered via theHarvester.
+  - **Mapping:** T1590.002 (DNS) and T1590.005 (IP Addresses) under T1590: Gather Victim Network Information.
+- **Finding:** Employee names and email addresses scraped from a company's website.
+  - **Mapping:** T1589.003 (Employee Names) and T1589.002 (Email Addresses) under T1589: Gather Victim Identity Information.
+- **Finding:** An exposed database service identified via Shodan.
+  - **Mapping:** T1595.001 (Scanning IP Blocks) under T1595: Active Scanning.
+- **Finding:** Source code for an internal application found on GitHub.
+  - **Mapping:** T1593.003 (Code Repositories) under T1593: Search Open Websites/Domains.
+
+#### Resource Development Mapping Guide (TA0042)
+
+- **Finding:** WHOIS records show typosquatting domains recently registered.
+  - **Mapping:** T1583.001 (Domains) under T1583: Acquire Infrastructure.
+- **Finding:** A social media profile impersonating an executive appears.
+  - **Mapping:** T1585.001 (Social Media Accounts) under T1585: Establish Accounts.
+- **Finding:** Compromised credentials for sale on a dark web marketplace.
+  - **Mapping:** T1586.002 (Email Accounts) under T1586: Compromise Accounts.
+
+The following CSV structure is ready for import into threat intelligence platforms or visualization tools like the ATT&CK Navigator.
+
+```csv
+indicator_value,indicator_type,tactic_id,tactic_name,technique_id,technique_name,subtechnique_id,subtechnique_name,source_tool,notes
+"mail.corp.com",subdomain,TA0043,Reconnaissance,T1590,Gather Victim Network Information,T1590.002,DNS,theHarvester,"Discovered via Google search module"
+"198.51.100.12",ip_address,TA0043,Reconnaissance,T1595,Active Scanning,T1595.001,Scanning IP Blocks,Shodan,"Exposed RDP port 3389"
+"jane.doe@corp.com",email_address,TA0043,Reconnaissance,T1589,Gather Victim Identity Information,T1589.002,Email Addresses,Metagoofil,"Found in metadata of public PDF"
+"corp-login-portal.com",domain,TA0042,Resource Development,T1583,Acquire Infrastructure,T1583.001,Domains,WHOIS,"Typosquatting domain registered last week, likely for phishing"
+```
+
+### Part V: The Continuous Watch — An Automated Intelligence Pipeline
+
+A one-time reconnaissance scan is a photograph of a moving target; it becomes obsolete the moment it is taken. The operator's adversaries employ continuous, automated monitoring to detect new weaknesses. To maintain effective OPSEC and situational awareness, the operator must achieve parity. This section outlines a containerized stack that automates the OSINT lifecycle: periodic collection with SpiderFoot, storage and analysis in a Threat Intelligence Platform (TIP), and visualization in Grafana.
+
+#### Architecture Overview
+
+The pipeline follows a simple, robust data flow:
+1. **Scheduler (Cron):** A host-level cron job triggers the collection script at a regular interval (e.g., daily).
+2. **Collector (SpiderFoot):** A shell script uses the SpiderFoot CLI to launch a passive scan against a defined target.
+3. **Storage & Analysis (OpenCTI/MISP):** Scan results are ingested into a TIP. OpenCTI is recommended for its strong STIX2-based data model and ATT&CK integration, while MISP is a powerful alternative.
+4. **Visualization (Grafana):** Dashboards connect to the TIP and other public data sources to provide a high-level overview.
+5. **Plausible Deniability (Cron):** A second cron job periodically runs a purge script to delete data older than a set retention period.
+
+#### docker-compose.yml
+
+```yaml
+# docker-compose.yml
+# A continuous intelligence pipeline for the solo operator.
+# Services: SpiderFoot (Collector), OpenCTI (TIP), Grafana (Dashboard)
+# Dependencies: Elasticsearch, Redis, RabbitMQ, MinIO, Postgres
+
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ELASTIC_MEMORY_SIZE=${ELASTIC_MEMORY_SIZE:-4G}
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.2
+    volumes:
+      - redisdata:/data
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:3.12-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_DEFAULT_USER:-guest}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_DEFAULT_PASS:-guest}
+    volumes:
+      - amqpdata:/var/lib/rabbitmq
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio:RELEASE.2023-07-21T21-12-44Z
+    volumes:
+      - s3data:/data
+    environment:
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
+    command: server /data
+    restart: unless-stopped
+
+  opencti:
+    image: opencti/platform:6.1
+    environment:
+      - NODE_OPTIONS=--max-old-space-size=8192
+      - APP__PORT=8080
+      - APP__BASE_URL=${OPENCTI_BASE_URL}
+      - APP__ADMIN__EMAIL=${OPENCTI_ADMIN_EMAIL}
+      - APP__ADMIN__PASSWORD=${OPENCTI_ADMIN_PASSWORD}
+      - APP__ADMIN__TOKEN=${OPENCTI_ADMIN_TOKEN}
+      - REDIS__HOSTNAME=redis
+      - ELASTICSEARCH__URL=http://elasticsearch:9200
+      - RABBITMQ__HOSTNAME=rabbitmq
+      - RABBITMQ__USERNAME=${RABBITMQ_DEFAULT_USER:-guest}
+      - RABBITMQ__PASSWORD=${RABBITMQ_DEFAULT_PASS:-guest}
+      - MINIO__ENDPOINT=minio
+      - MINIO__ACCESS_KEY=${MINIO_ROOT_USER}
+      - MINIO__SECRET_KEY=${MINIO_ROOT_PASSWORD}
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+      - elasticsearch
+      - rabbitmq
+      - minio
+    restart: unless-stopped
+
+  worker:
+    image: opencti/worker:6.1
+    environment:
+      - OPENCTI_URL=http://opencti:8080
+      - OPENCTI_TOKEN=${OPENCTI_ADMIN_TOKEN}
+      - WORKER_LOG_LEVEL=info
+    depends_on:
+      - opencti
+    restart: unless-stopped
+
+  spiderfoot:
+    image: smicallef/spiderfoot:4.0
+    ports:
+      - "5001:5001"
+    volumes:
+      - sfdata:/home/spiderfoot/spiderfoot.db
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana-oss:10.4.2
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafanadata:/var/lib/grafana
+      - ./dashboards:/etc/grafana/provisioning/dashboards
+    restart: unless-stopped
+
+volumes:
+  esdata:
+  redisdata:
+  amqpdata:
+  s3data:
+  sfdata:
+  grafanadata:
+```
+
+#### Grafana Dashboards
+
+
+`cve_dashboard.json`
+
+```json
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "panels": [
+    {
+      "datasource": "JSON API",
+      "type": "table",
+      "title": "CVE Threat Feed",
+      "options": {
+        "columns": [
+          { "jsonPath": "$.vulnerabilities[*].cve.id", "name": "CVE ID" },
+          { "jsonPath": "$.vulnerabilities[*].cve.published", "name": "Published", "type": "time" },
+          { "jsonPath": "$.vulnerabilities[*].cve.descriptions[?(@.lang=='en')].value", "name": "Description" },
+          { "jsonPath": "$.vulnerabilities[*].cve.metrics.cvssMetricV31.cvssData.baseScore", "name": "Score" }
+        ]
+      }
+    }
+  ],
+  "title": "CVE Threat Feed",
+  "version": 1
+}
+```
+
+`social_trends_dashboard.json`
+
+```json
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "title": "Social Media Trends",
+  "panels": [
+    {
+      "datasource": "JSON API",
+      "type": "table",
+      "title": "Trends",
+      "options": {
+        "columns": [
+          { "jsonPath": "$.trends[*].topic", "name": "Topic" },
+          { "jsonPath": "$.trends[*].volume", "name": "Volume" }
+        ]
+      }
+    }
+  ]
+}
+```
+
+#### Automation Scripts
+
+
+`run_scan.sh`
+
+```bash
+#!/bin/bash
+# run_scan.sh - Executes a passive SpiderFoot scan.
+
+TARGET=$1
+OUTPUT_FILE="/path/to/shared/volume/scan_results_$(date +%F).json"
+SPIDERFOOT_HOST="http://127.0.0.1:5001"
+
+if [ -z "$TARGET" ]; then
+  echo "Usage: $0 <target>"
+  exit 1
+fi
+
+echo "Starting passive scan on ${TARGET}..."
+docker exec intel_pipeline_docker-spiderfoot-1 /bin/sh -c \
+  "/usr/bin/python3 /home/spiderfoot/sf.py -s '${TARGET}' -u passive -o json > /tmp/results.json"
+
+docker cp intel_pipeline_docker-spiderfoot-1:/tmp/results.json ${OUTPUT_FILE}
+
+echo "Scan complete. Results saved to ${OUTPUT_FILE}"
+# Add logic here to ingest ${OUTPUT_FILE} into OpenCTI/MISP via their APIs.
+```
+
+`purge_data.sh`
+
+```bash
+#!/bin/bash
+# purge_data.sh - Purges old reports from OpenCTI for data retention.
+
+# Requires pip install pycti
+export OPENCTI_URL='http://localhost:8080'
+export OPENCTI_TOKEN='YOUR_ADMIN_TOKEN_FROM_.ENV'
+RETENTION_DAYS=30
+
+echo "Purging reports older than ${RETENTION_DAYS} days..."
+
+python3 - <<END
+import os
+from pycti import OpenCTIApiClient
+from datetime import datetime, timedelta, timezone
+
+api_url = os.environ.get('OPENCTI_URL')
+api_token = os.environ.get('OPENCTI_TOKEN')
+retention_days = int("${RETENTION_DAYS}")
+
+api = OpenCTIApiClient(api_url, api_token)
+
+cutoff_date = datetime.now(timezone.utc) - timedelta(days=retention_days)
+cutoff_iso = cutoff_date.isoformat().replace("+00:00", "Z")
+
+print(f"Cutoff date: {cutoff_iso}")
+
+old_reports = api.report.list(
+    filters=[{"key": "created_at", "values": [cutoff_iso], "operator": "lt"}]
+)
+
+if not old_reports:
+    print("No old reports to purge.")
+    exit()
+
+for report in old_reports:
+    print(f"Deleting report: {report['name']} (ID: {report['id']})")
+    try:
+        api.stix_domain_object.delete(id=report['id'])
+        print(f"Successfully deleted {report['name']}.")
+    except Exception as e:
+        print(f"Error deleting report {report['name']}: {e}")
+
+print("Purge complete.")
+END
+```
+
+`crontab.example`
+
+```cron
+# Schedule daily self-recon scan at 01:00
+0 1 * * * /path/to/scripts/run_scan.sh "your.email@domain.com" >> /var/log/osint_pipeline.log 2>&1
+
+# Schedule weekly data purge at 03:00 on Sunday
+0 3 * * 0 /path/to/scripts/purge_data.sh >> /var/log/osint_pipeline.log 2>&1
+```
+
+### Conclusion: The Asymmetric Advantage
+
+This manual provides the doctrine, toolchain, and operational procedures for conducting reconnaissance in the modern information battlespace. By systematically mapping your own digital footprint, you transform yourself from a passive target into a hardened one. By understanding the architectures of corporate and state power, you convert abstract anxieties into concrete systems. Knowledge, applied with discipline, is a force multiplier. By mastering OSINT and building an automated pipeline for continuous awareness, the operator achieves a critical asymmetric advantage. The real work begins now.
+
 ## References
 
 - Van Buren v. United States - Ballotpedia, accessed July 25, 2025,
