@@ -81,3 +81,9 @@ def test_ingest_empty_file(tmp_path):
     md_file = tmp_path / "empty.md"
     md_file.write_text("")
     assert list(ingest_markdown(md_file)) == []
+
+
+def test_vector_db_query_empty(tmp_path):
+    db_file = tmp_path / "empty.pkl"
+    db = VectorDB(db_file)
+    assert db.query("anything") == []
