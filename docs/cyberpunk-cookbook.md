@@ -4,9 +4,26 @@ tags: [manifesto, cyberpunk]
 updated: 2025-07-25
 ---
 
-Cyberpunk Cookbook — Wave 1: Foundations Part I: Theses and Lineage 1.0
-Introduction: The Concrete Dystopia 1.1 The Thesis: Seizing the Masters'
-Technology This document is a foundational text for a new understanding of our
+# Cyberpunk Cookbook
+
+## Table of Contents
+
+- [Wave 1: Foundations](#wave-1-foundations)
+- [Wave 2: Threat Mapping](#wave-2-threat-mapping)
+- [Wave 3: Privacy & OPSEC](#wave-3-privacy--opsec)
+- [Wave 3: Legal Countermeasures & Rights Navigation](#wave-3-legal-countermeasures--rights-navigation)
+- [Wave 4: Hands-On Hardening](#wave-4-hands-on-hardening)
+- [References](#references)
+
+## Wave 1: Foundations
+
+### Part I: Theses and Lineage
+
+#### 1.0 Introduction: The Concrete Dystopia
+
+#### 1.1 The Thesis: Seizing the Masters' Technology
+
+This document is a foundational text for a new understanding of our
 contemporary condition. It posits a single, functional thesis: A cyberpunk
 seizes the masters' technology and turns it against them. This is not a
 statement of aesthetic preference for neon-drenched cityscapes or bio-mechanical
@@ -36,7 +53,9 @@ structure modern life. The cyberpunk is the man or woman against the machine,
 the David against the corporate-state Goliath, armed not with a sling, but with
 the very code and data that constitutes the giant's power.2
 
-1.2 Stripping the Chrome: From Science Fiction to Socio-Technical Reality To
+#### 1.2 Stripping the Chrome: From Science Fiction to Socio-Technical Reality
+
+To
 ground this manifesto in the present, we must first strip the chrome from the
 concept of "cyberpunk." The genre's aesthetic—the rain-slicked streets, the
 Japanese kanji, the cybernetic implants—while culturally significant, is a
@@ -891,8 +910,11 @@ Telegram: Hackers in China Disrupted Service During Hong Kong ..., accessed July
 25, 2025,
 https://www.defenseone.com/technology/2019/06/telegram-hackers-china-disrupted-service-during-hong-kong-protests/157698/
 
-Real-World Cyberpunk Manifesto — Wave 2: Threat Mapping Introduction: From
-Thesis to Threat Assessment This report operationalizes the central thesis of
+## Wave 2: Threat Mapping
+
+### Introduction: From Thesis to Threat Assessment
+
+This report operationalizes the central thesis of
 Wave 1—seizing the masters' technology and turning it against them—by providing
 a granular, actionable intelligence map of the contemporary threat landscape.1
 The foundational analysis of Wave 1 established the philosophical and historical
@@ -1765,8 +1787,11 @@ Wide Acclaim for President Trump's Visionary AI Action Plan - The White House,
 accessed July 25, 2025,
 https://www.whitehouse.gov/articles/2025/07/wide-acclaim-for-president-trumps-visionary-ai-action-plan/
 
-Real-World Cyberpunk Manifesto — Wave 3: Privacy & OPSEC Introduction: From
-Threat Map to Tactical Playbook This manual serves as the tactical execution of
+## Wave 3: Privacy & OPSEC
+
+### Introduction: From Threat Map to Tactical Playbook
+
+This manual serves as the tactical execution of
 the strategic intelligence provided in Wave 2: Threat Mapping. It translates the
 philosophical "why" of Wave 1: Foundations and the strategic "what" of Wave 2
 into an actionable "how".1 The core objective is to equip the motivated
@@ -3178,8 +3203,11 @@ https://community.frame.work/t/how-do-the-camera-and-microphone-switches-work/42
 Choosing Your Hardware - Privacy Guides, accessed July 25, 2025,
 https://www.privacyguides.org/en/basics/hardware/
 
-Real-World Cyberpunk Manifesto — Wave 3: Legal Countermeasures & Rights
-Navigation Introduction: The Law as Code and Weapon This manual operationalizes
+## Wave 3: Legal Countermeasures & Rights Navigation
+
+### Introduction: The Law as Code and Weapon
+
+This manual operationalizes
 a critical doctrine for survival in the contemporary landscape: the law is not
 merely a set of rules but a system of control, a form of code that defines the
 architecture of the digital battlespace. To navigate this environment is to
@@ -3809,13 +3837,17 @@ Your Rights" guides published by the EFF to inform their initial response. The
 operator's task is to understand these different roles and know who to call when
 a specific threat emerges.
 
-Conclusion: From Legal Awareness to Hardened Defense You now grasp the courts
+### Conclusion: From Legal Awareness to Hardened Defense
+
+You now grasp the courts
 and statutes—the legal code that governs the digital battlespace. You have the
 intelligence to anticipate attacks and the precedents to mount a defense. But
 legal knowledge alone is an incomplete shield. The adversary's first move is
 often technical, not judicial. The next step is to harden the targets: your
 devices, your communications, and your online behavior. Wave 4 provides the
 technical toolkit to build your fortress.
+
+## Wave 4: Hands-On Hardening
 
 Works cited Cyberpunk Threat and Power Analysis United States: Freedom on the
 Net 2024 Country Report | Freedom ..., accessed July 25, 2025,
@@ -3929,90 +3961,92 @@ Bernstein v. United States Department of States (District Court of California)
 (1997) | The First Amendment Encyclopedia - Free Speech Center, accessed July
 25, 2025,
 https://firstamendment.mtsu.edu/article/bernstein-v-united-states-department-of-states-district-court-of-california/
-Van Buren v. United States - Ballotpedia, accessed July 25, 2025,
-https://ballotpedia.org/Van_Buren_v._United_States Van Buren v. United States -
-Epic.org, accessed July 25, 2025,
-https://epic.org/documents/van-buren-v-united-states/ Diverse six-justice
-majority rejects broad reading of computer-fraud ..., accessed July 25, 2025,
-https://www.scotusblog.com/2021/06/diverse-six-justice-majority-rejects-broad-reading-of-computer-fraud-law/
-How the Schrems II Decision Changed Privacy Law - TrustArc, accessed July 25,
-2025, https://trustarc.com/resource/schrems-ii-decision-changed-privacy-law/ The
-CJEU Judgement in the Schrems II Case - European Parliament, accessed July 25,
-2025,
-https://www.europarl.europa.eu/RegData/etudes/ATAG/2020/652073/EPRS_ATA(2020)652073_EN.pdf
-Schrems II and Beyond: EU-US International Data Transfers - Cookiebot, accessed
-July 25, 2025, https://www.cookiebot.com/en/schrems-ii-privacy-shield/ Riley v.
-California | EBSCO Research Starters, accessed July 25, 2025,
-https://www.ebsco.com/research-starters/law/riley-v-california Riley v.
-California - Epic.org, accessed July 25, 2025,
-https://epic.org/documents/riley-v-california-2/ Riley v. California | Oyez,
-accessed July 25, 2025, https://www.oyez.org/cases/2013/13-132 Kyllo v. United
-States - UMKC School of Law, accessed July 25, 2025,
-https://law2.umkc.edu/faculty/projects/ftrials/conlaw/kyllo.htm Kyllo v. United
-States | Oyez, accessed July 25, 2025, https://www.oyez.org/cases/2000/99-8508
-Titles - S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July
-25, 2025, https://www.congress.gov/bill/118th-congress/senate-bill/560/titles
-Actions - S.299 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
-2025, https://www.congress.gov/bill/117th-congress/senate-bill/299/all-actions
-Titles - H.R.3421 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
-2025, https://www.congress.gov/bill/117th-congress/house-bill/3421/titles Text -
-S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July 25, 2025,
-https://www.congress.gov/bill/118th-congress/senate-bill/560/text Fact Sheet:
-President Donald J. Trump Signs GENIUS Act into Law - The White House, accessed
-July 25, 2025,
-https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/
-Congress Passes GENIUS Act: Landmark Framework for Payment ..., accessed July
-25, 2025,
-https://www.pillsburylaw.com/en/news-and-insights/congress-genius-act-framework-stablecoin-digital-asset-regulation-us.html
-EU AI Act: first regulation on artificial intelligence | Topics - European
-Parliament, accessed July 25, 2025,
-https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence
-AI Act | Shaping Europe's digital future, accessed July 25, 2025,
-https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai EU
-Artificial Intelligence Act | Up-to-date developments and ..., accessed July 25,
-2025, https://artificialintelligenceact.eu/ The EU's Digital Services Act -
-European Commission, accessed July 25, 2025,
-https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en
-Digital Services Act - Wikipedia, accessed July 25, 2025,
-https://en.wikipedia.org/wiki/Digital_Services_Act A guide to the Digital
-Services Act, the EU's new law to rein in Big Tech - AlgorithmWatch, accessed
-July 25, 2025, https://algorithmwatch.org/en/dsa-explained/ The Digital Service
-Act: Overview and Key Obligations - WILLIAM FRY, accessed July 25, 2025,
-https://www.williamfry.com/knowledge/the-digital-service-act-overview-and-key-obligations/
-Unpacking the EU Digital Services Act (DSA) - ADF International, accessed July
-25, 2025, https://adfinternational.org/article/digital-services-act-unpacked
-Subpoena Defense Resources | Electronic Frontier Foundation, accessed July 25,
-2025, https://www.eff.org/issues/file-sharing/subpoena-defense Rule 45. Subpoena
-| Federal Rules of Civil Procedure | US Law - Law.Cornell.Edu, accessed July 25,
-2025, https://www.law.cornell.edu/rules/frcp/rule_45 100 Mile Border Zone |
-American Civil Liberties Union, accessed July 25, 2025,
-https://www.aclu.org/know-your-rights/border-zone Can Border Agents Search Your
-Electronic Devices? It's ..., accessed July 25, 2025,
-https://www.aclutx.org/en/news/can-border-agents-search-your-electronic-devices-its-complicated
-Legal Victories | Electronic Frontier Foundation, accessed July 25, 2025,
-https://www.eff.org/legal-victories Know Your Rights | Electronic Frontier
-Foundation, accessed July 25, 2025, https://www.eff.org/issues/know-your-rights
-Privacy & Technology | American Civil Liberties Union, accessed July 25, 2025,
-https://www.aclu.org/issues/privacy-technology Internet Privacy | American Civil
-Liberties Union, accessed July 25, 2025,
-https://www.aclu.org/issues/privacy-technology/internet-privacy Mass
-Surveillance - Privacy International, accessed July 25, 2025,
-https://privacyinternational.org/learn/mass-surveillance Privacy International -
-Wikipedia, accessed July 25, 2025,
-https://en.wikipedia.org/wiki/Privacy_International Privacy International's
-submission to the UN High Commissioner for Human Rights' report on the practical
-application of the - ohchr, accessed July 25, 2025,
-https://www.ohchr.org/sites/default/files/2022-03/PrivacyInternational.pdf
-www.google.com, accessed July 25, 2025,
-https://www.google.com/search?q=list+of+digital+rights+organizations+worldwide
-Partners directory - Tactical Tech, accessed July 25, 2025,
-https://tacticaltech.org/partners/ The Whistleblower Protection Programs |
-Whistleblower Protection ..., accessed July 25, 2025,
-https://www.whistleblowers.gov/ Department of Defense > Whistleblower and DoD
-Hotline > Cash Awards Program, accessed July 25, 2025,
-https://www.dodig.mil/Whistleblower-and-DoD-Hotline/Cash-Awards-Program/ Probono
-Legal Technology Services - Connecting Justice Communities, accessed July 25,
-2025, https://www.connectingjusticecommunities.com/about/ What We Do - Pro Bono
-Net, accessed July 25, 2025, https://www.probono.net/our-work/ IP Law Clinic |
-Law School | Baylor University, accessed July 25, 2025,
-https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
+## References
+
+- Van Buren v. United States - Ballotpedia, accessed July 25, 2025,
+- https://ballotpedia.org/Van_Buren_v._United_States Van Buren v. United States -
+- Epic.org, accessed July 25, 2025,
+- https://epic.org/documents/van-buren-v-united-states/ Diverse six-justice
+- majority rejects broad reading of computer-fraud ..., accessed July 25, 2025,
+- https://www.scotusblog.com/2021/06/diverse-six-justice-majority-rejects-broad-reading-of-computer-fraud-law/
+- How the Schrems II Decision Changed Privacy Law - TrustArc, accessed July 25,
+- 2025, https://trustarc.com/resource/schrems-ii-decision-changed-privacy-law/ The
+- CJEU Judgement in the Schrems II Case - European Parliament, accessed July 25,
+- 2025,
+- https://www.europarl.europa.eu/RegData/etudes/ATAG/2020/652073/EPRS_ATA(2020)652073_EN.pdf
+- Schrems II and Beyond: EU-US International Data Transfers - Cookiebot, accessed
+- July 25, 2025, https://www.cookiebot.com/en/schrems-ii-privacy-shield/ Riley v.
+- California | EBSCO Research Starters, accessed July 25, 2025,
+- https://www.ebsco.com/research-starters/law/riley-v-california Riley v.
+- California - Epic.org, accessed July 25, 2025,
+- https://epic.org/documents/riley-v-california-2/ Riley v. California | Oyez,
+- accessed July 25, 2025, https://www.oyez.org/cases/2013/13-132 Kyllo v. United
+- States - UMKC School of Law, accessed July 25, 2025,
+- https://law2.umkc.edu/faculty/projects/ftrials/conlaw/kyllo.htm Kyllo v. United
+- States | Oyez, accessed July 25, 2025, https://www.oyez.org/cases/2000/99-8508
+- Titles - S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July
+- 25, 2025, https://www.congress.gov/bill/118th-congress/senate-bill/560/titles
+- Actions - S.299 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
+- 2025, https://www.congress.gov/bill/117th-congress/senate-bill/299/all-actions
+- Titles - H.R.3421 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
+- 2025, https://www.congress.gov/bill/117th-congress/house-bill/3421/titles Text -
+- S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July 25, 2025,
+- https://www.congress.gov/bill/118th-congress/senate-bill/560/text Fact Sheet:
+- President Donald J. Trump Signs GENIUS Act into Law - The White House, accessed
+- July 25, 2025,
+- https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/
+- Congress Passes GENIUS Act: Landmark Framework for Payment ..., accessed July
+- 25, 2025,
+- https://www.pillsburylaw.com/en/news-and-insights/congress-genius-act-framework-stablecoin-digital-asset-regulation-us.html
+- EU AI Act: first regulation on artificial intelligence | Topics - European
+- Parliament, accessed July 25, 2025,
+- https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence
+- AI Act | Shaping Europe's digital future, accessed July 25, 2025,
+- https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai EU
+- Artificial Intelligence Act | Up-to-date developments and ..., accessed July 25,
+- 2025, https://artificialintelligenceact.eu/ The EU's Digital Services Act -
+- European Commission, accessed July 25, 2025,
+- https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en
+- Digital Services Act - Wikipedia, accessed July 25, 2025,
+- https://en.wikipedia.org/wiki/Digital_Services_Act A guide to the Digital
+- Services Act, the EU's new law to rein in Big Tech - AlgorithmWatch, accessed
+- July 25, 2025, https://algorithmwatch.org/en/dsa-explained/ The Digital Service
+- Act: Overview and Key Obligations - WILLIAM FRY, accessed July 25, 2025,
+- https://www.williamfry.com/knowledge/the-digital-service-act-overview-and-key-obligations/
+- Unpacking the EU Digital Services Act (DSA) - ADF International, accessed July
+- 25, 2025, https://adfinternational.org/article/digital-services-act-unpacked
+- Subpoena Defense Resources | Electronic Frontier Foundation, accessed July 25,
+- 2025, https://www.eff.org/issues/file-sharing/subpoena-defense Rule 45. Subpoena
+- | Federal Rules of Civil Procedure | US Law - Law.Cornell.Edu, accessed July 25,
+- 2025, https://www.law.cornell.edu/rules/frcp/rule_45 100 Mile Border Zone |
+- American Civil Liberties Union, accessed July 25, 2025,
+- https://www.aclu.org/know-your-rights/border-zone Can Border Agents Search Your
+- Electronic Devices? It's ..., accessed July 25, 2025,
+- https://www.aclutx.org/en/news/can-border-agents-search-your-electronic-devices-its-complicated
+- Legal Victories | Electronic Frontier Foundation, accessed July 25, 2025,
+- https://www.eff.org/legal-victories Know Your Rights | Electronic Frontier
+- Foundation, accessed July 25, 2025, https://www.eff.org/issues/know-your-rights
+- Privacy & Technology | American Civil Liberties Union, accessed July 25, 2025,
+- https://www.aclu.org/issues/privacy-technology Internet Privacy | American Civil
+- Liberties Union, accessed July 25, 2025,
+- https://www.aclu.org/issues/privacy-technology/internet-privacy Mass
+- Surveillance - Privacy International, accessed July 25, 2025,
+- https://privacyinternational.org/learn/mass-surveillance Privacy International -
+- Wikipedia, accessed July 25, 2025,
+- https://en.wikipedia.org/wiki/Privacy_International Privacy International's
+- submission to the UN High Commissioner for Human Rights' report on the practical
+- application of the - ohchr, accessed July 25, 2025,
+- https://www.ohchr.org/sites/default/files/2022-03/PrivacyInternational.pdf
+- www.google.com, accessed July 25, 2025,
+- https://www.google.com/search?q=list+of+digital+rights+organizations+worldwide
+- Partners directory - Tactical Tech, accessed July 25, 2025,
+- https://tacticaltech.org/partners/ The Whistleblower Protection Programs |
+- Whistleblower Protection ..., accessed July 25, 2025,
+- https://www.whistleblowers.gov/ Department of Defense > Whistleblower and DoD
+- Hotline > Cash Awards Program, accessed July 25, 2025,
+- https://www.dodig.mil/Whistleblower-and-DoD-Hotline/Cash-Awards-Program/ Probono
+- Legal Technology Services - Connecting Justice Communities, accessed July 25,
+- 2025, https://www.connectingjusticecommunities.com/about/ What We Do - Pro Bono
+- Net, accessed July 25, 2025, https://www.probono.net/our-work/ IP Law Clinic |
+- Law School | Baylor University, accessed July 25, 2025,
+- https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
