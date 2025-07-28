@@ -1,7 +1,7 @@
 ---
 title: "Cyberpunk Cookbook"
 tags: [manifesto, cyberpunk]
-updated: 2025-07-25
+updated: 2025-07-28
 ---
 
 # Cyberpunk Cookbook
@@ -14,6 +14,7 @@ updated: 2025-07-25
 - [Wave 3: Legal Countermeasures & Rights Navigation](#wave-3-legal-countermeasures--rights-navigation)
 - [Wave 4: Hands-On Hardening](#wave-4-hands-on-hardening)
 - [Wave 4: Reconnaissance & Open-Source Intelligence](#wave-4-reconnaissance--open-source-intelligence)
+- [Wave 5: Cognitive Security & Influence Defense](#wave-5-cognitive-security--influence-defense)
 - [References](#references)
 
 ## Wave 1: Foundations
@@ -4543,3 +4544,264 @@ This manual provides the doctrine, toolchain, and operational procedures for con
 - Net, accessed July 25, 2025, https://www.probono.net/our-work/ IP Law Clinic |
 - Law School | Baylor University, accessed July 25, 2025,
 - https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
+## Wave 5: Cognitive Security & Influence Defense
+
+### Introduction: The Battlefield of Belief
+
+#### Preamble: The Final Attack Surface
+The human mind is the final attack surface. In the asymmetrical conflicts of the 21st century, the architectures of control mapped in previous waves—the "Sovereign Eye" of state surveillance and the "Platform Raj" of corporate monopolies—achieve their ultimate victory not by controlling infrastructure, but by controlling perception.1 The operational security (OPSEC) detailed in Wave 3 and the financial security (FINSEC) of Wave 4 are necessary prerequisites for survival, but cognitive security (COGSEC) is the decisive layer.1 A hardened endpoint is useless if the operator's judgment is compromised. A sovereign wallet is meaningless if the operator's motivations are manipulated. The war for autonomy will be won or lost on the battlefield of belief.
+### Doctrine: From Passive Consumption to Active Defense
+The default state of the modern citizen is one of passive information consumption, a condition that renders them a perpetually vulnerable target for influence operations. The objective of this manual is to transform the operator from a passive target into an active defender. It provides a doctrinal framework and a tactical toolkit for waging a defensive war on the cognitive plane. This is the operationalization of the "Radical Autonomy" mindset from Wave 1: the reclamation of the sovereign self from systems designed to predict, modify, and control it.1
+### Part I: The Cognitive Attack Surface — A Taxonomy of Influence
+
+#### Conceptual Framework: Synthesizing the Kill Chain
+To effectively defend against influence operations, an operator must first understand the complete attack chain. Frameworks like the military-derived DISARM are invaluable for mapping the lifecycle of a campaign, from planning to execution.2 However, a purely operational view is insufficient. A deeper understanding requires integrating the psychological model of the Cognitive Attack Taxonomy (CAT), which details the underlying cognitive vulnerabilities that allow these campaigns to succeed.5
+These frameworks, though originating in different domains—cybersecurity, psychology, military intelligence—share a common logical structure: an adversary identifies a weakness, develops a method to leverage it, and deploys specific tools to execute the attack. For the cyberpunk operator, neither a purely psychological nor a purely operational model is enough. An effective defense requires a synthesized framework that maps the entire kill chain, from a single cognitive bias in an individual's mind to a state-level narrative warfare campaign. This allows the operator to recognize that a seemingly personal "thinking error" is, in fact, a strategic target in a larger conflict. The CAT explains why an attack works (e.g., it exploits the vulnerability of Loss Aversion), while DISARM explains how an actor operationalizes that attack (e.g., using the technique of "Leverage Conspiracy Theory Narratives").4 The following taxonomy makes these connections explicit, providing a holistic and actionable threat model structured as:
+Vulnerability -> Exploit -> Tactic, Technique, and Procedure (TTP).
+#### The Taxonomy
+The cognitive attack surface can be visualized as a three-layered structure, where high-level vulnerabilities are targeted by specific exploits, which are in turn delivered by concrete TTPs.
+##### Layer 1: Vulnerabilities (The Attack Surface)
+These are the inherent, exploitable properties of human and systemic cognition.
+Cognitive: Natural mental shortcuts (heuristics) and systematic errors in thinking (biases) that are hardwired into human cognition. Key examples include Anchoring Bias, Confirmation Bias, Motivated Reasoning, and the Bandwagon Effect.7
+Emotional: Primal emotional responses that can override rational thought. Influence operations are frequently designed to trigger and weaponize fear, outrage, and the deep-seated need for social belonging.9
+Systemic: Weaknesses within the modern information ecosystem itself. These include the formation of ideological echo chambers, the existence of "data voids" where reliable information is scarce, and the tendency of platform algorithms to amplify emotionally charged and sensational content.4
+##### Layer 2: Exploits (The Weaponization)
+These are the general mechanisms used to target the vulnerabilities identified above.
+Memetic Payloads: Self-replicating packets of information—images, slogans, hashtags, short videos—designed for high-velocity, low-friction propagation across social networks. Their power lies in their ability to bypass critical analysis and embed themselves in cultural discourse.11
+Cognitive Overload: A deliberate tactic to overwhelm a target's critical thinking faculties by bombarding them with excessive, contradictory, or emotionally charged information. This induces a state of confusion, decision paralysis, and increased susceptibility to simple, authoritative "solutions".13
+Narrative Warfare: The strategic construction of overarching stories or frames to shape perception, legitimize a desired conclusion, and delegitimize opposing views. This moves beyond individual facts to control the context in which those facts are interpreted.2
+##### Layer 3: Tactics, Techniques, and Procedures (The Deployment)
+These are the specific, observable actions taken by threat actors to deliver exploits. The table below provides a comparative analysis of the signature TTPs employed by different categories of influence actors. Understanding these distinct operational playbooks is critical for attributing attacks and anticipating future moves.
+Table 1: Comparative TTPs of Influence Actors
+
+| Threat Actor | Primary Objective | Signature TTPs | Illustrative Examples |
+| --- | --- | --- | --- |
+| **State Actors** | Geopolitical Influence, Domestic Control | LLM-Based Astroturfing: Using Large Language Models to generate seemingly authentic, human-like content at scale to create the illusion of grassroots support or consensus.<br><br>Deepfake Propaganda: Creating highly realistic but entirely fabricated audio, image, or video content to defame opponents, create false evidence, or sow confusion.<br><br>Exploiting Data Voids: Identifying search terms with little to no high-quality information and flooding the results with propaganda before legitimate sources can respond. | An AI-generated audio clip of a political candidate supposedly admitting to election fraud surfaces days before an election.17 A state-backed operation uses deepfake videos to promote a false "secret history" of a rival nation's leader.19 |
+| **Corporate Actors** | Commercial Gain, Shaping Consumer Behavior | Psychological Micro-Targeting: Analyzing vast datasets of personal information (browsing habits, purchase history, social interactions) to identify and exploit individual psychological vulnerabilities with tailored advertising.<br><br>Consent Fatigue Engineering: Designing user interfaces with complex, confusing, or persistent prompts to wear down a user's resistance to sharing data.<br><br>Reputation Laundering: Employing PR firms and SEO tactics to suppress negative information and amplify positive narratives. | A political campaign uses data from brokers to target voters with high neuroticism scores with fear-based messaging.21 A company uses tracking pixels and social plugins to build a detailed profile of a user's interests to sell them products they were just researching.20 |
+| **Decentralized/Ideological Groups** | Social Disruption, Recruitment, Radicalization | Memetic Warfare: The rapid creation and dissemination of culturally resonant, often humorous or shocking, image macros and slogans to dominate a narrative space (e.g., "The Great Meme War").<br><br>Swarming & Harassment: Coordinated, high-volume targeting of individuals with abusive messages to silence them or drive them off a platform.<br><br>Hashtag Hijacking: Taking over a trending hashtag to inject an unrelated or oppositional message into a larger conversation. | Supporters of a political candidate in 2016 use forums like 4chan and Reddit to create and spread memes that dominate social media platforms.11 A group organizes to mass-report the accounts of journalists critical of their ideology to trigger automated platform suspensions. |
+| **AI-Enabled Systems** | Varies by Deployer (Scale & Autonomy) | Autonomous Fake News Networks: AI-generated websites that produce low-quality, often nonsensical articles at a massive scale to generate ad revenue and pollute the information ecosystem.<br><br>AI-Powered Bot Armies: Networks of automated accounts that are cheaper to run and more difficult to detect than previous generations of bots, used to amplify content and create a false sense of consensus.<br><br>Generative Content Flooding: Using AI to create a "firehose of falsehoods," overwhelming fact-checkers and making it difficult for users to distinguish real from synthetic content. | The number of AI-enabled fake news sites, operating with little to no human supervision, increases tenfold in a single year.22 An AI-powered bot army is used to embed deceptive stories within seemingly innocuous, AI-written news websites to lend them credibility.17 |
+
+
+### Part II: The Operator's Gymnasium — A Bias & Fallacy Workbook
+
+#### Primer: The Two Modes of Reasoning
+Influence operations are designed to exploit a fundamental duality in human cognition. When individuals are motivated by accuracy goals, they engage in more complex, effortful reasoning to arrive at the most objective conclusion possible. However, when they are driven by directional goals—the desire to reach a specific, preferred conclusion—they engage in motivated reasoning, selectively seeking and interpreting evidence to support their pre-existing beliefs.23 The purpose of propaganda and disinformation is to push the target from the former state into the latter, replacing critical inquiry with emotional confirmation. The following exercises are designed to build the mental musculature necessary to recognize and resist this shift.
+#### The 25 Exercises
+This workbook provides 25 modules to train the operator in identifying, interrogating, and inoculating against the most common cognitive biases and logical fallacies. Each module follows a four-part structure.
+##### Sample Module 1: Anchoring Bias
+IDENTIFY: The tendency to rely too heavily on the first piece of information offered (the "anchor") when making decisions. All subsequent information is interpreted through the lens of this initial anchor, skewing judgment.7
+EXEMPLIFY: "A news article leads with the headline 'Proposed budget cut of $500 Million threatens city services.' All subsequent discussion is framed by the $500M figure, even if the more important fact is the total budget size or the percentage of the cut."
+INTERROGATE: "Analyze the following product negotiation: 'This handcrafted watch is valued at $2,000, but for you, today only, it's $750.' Identify the anchor. What is its intended effect? What critical information is missing to make a rational decision?"
+INOCULATE: Counter-heuristic: "When presented with a number, consciously ignore it and ask: 'What is the independent, objective value here? What are the comparables?'"
+##### Sample Module 2: Bandwagon Effect
+IDENTIFY: The tendency to adopt certain behaviors or beliefs because many others are doing so. This is driven by a deep-seated human desire for social conformity and the fear of missing out (FOMO).27
+EXEMPLIFY: "A social media post promoting a political candidate is flooded with comments like 'Everyone I know is voting for them!' and has tens of thousands of likes. This creates the illusion of an unstoppable, popular consensus, leveraging social proof to sway undecided individuals".28
+INTERROGATE: "You see a new cryptocurrency being promoted on X. Many accounts you follow are reposting it, and the hashtag is trending. What psychological pressures are at play? List three steps you would take to verify its legitimacy before investing."
+INOCULATE: Counter-heuristic: "Popularity is not a proxy for validity. Ask: 'What is the evidence, independent of the crowd's opinion?'"
+#### Table 2: The Cognitive Glitch Index
+This table serves as a quick-reference field guide for the operator, enabling the rapid diagnosis of cognitive manipulation in a real-time information environment.
+
+| Bias/Fallacy Name | One-Sentence Definition | Inoculation Question |
+| --- | --- | --- |
+| Anchoring Bias | Over-relying on the first piece of information received. | What is the objective value, ignoring the initial number? |
+| Availability Heuristic | Overestimating the likelihood of events that are more easily recalled in memory. | Is this truly common, or just memorable/recent? |
+| Bandwagon Effect | Adopting a belief because a large number of other people hold it. | What is the evidence, independent of the crowd's opinion? |
+| Confirmation Bias | Seeking and favoring information that confirms pre-existing beliefs. | What would evidence that disproves my belief look like? |
+| Motivated Reasoning | Processing information in a way that aligns with a desired conclusion. | Am I evaluating this evidence to find the truth, or to support my side? |
+| Dunning-Kruger Effect | The tendency for unskilled individuals to overestimate their ability. | What are the known unknowns here? Who is a genuine expert? |
+| Sunk Cost Fallacy | Continuing an endeavor due to previously invested resources (time, money). | If I were starting today, would this still be the rational choice? |
+| Survivorship Bias | Focusing on the "survivors" of a process and ignoring the failures. | What am I not seeing? Who didn't make it? |
+| Negativity Bias | Giving more weight to negative experiences than positive ones. | Is the situation truly this bad, or is my attention being focused on the negative? |
+| Fundamental Attribution Error | Attributing others' behavior to character while attributing one's own to circumstances. | What situational factors could have caused this behavior? |
+| ...and 15 others |  |  |
+
+
+
+
+
+### Part III: The Discipline of Perception — A Digital-Diet Protocol
+
+#### Doctrine: From Information Overload to Cognitive Load Management
+The modern information environment is not merely characterized by "too much information"; it is defined by the weaponization of cognitive overload. This deliberate strategy aims to exhaust an individual's mental resources, inducing decision paralysis, frustration, anger, and a passive acceptance of simplistic narratives.13 This protocol is not about avoidance but about building discipline. It is a training regimen designed to increase cognitive stamina and reclaim control over one's attentional resources.
+#### The Protocol
+This protocol is divided into three phases, moving from a hard reset to a sustainable, disciplined practice of information consumption.
+##### Phase 1: The Information Fast
+A periodic, complete disconnection from the news cycle is an essential act of mental hygiene.
+Rationale: Constant exposure to a negative and crisis-driven news cycle is physiologically taxing. Evidence indicates that taking a break can lead to a measurable reduction in the stress hormone cortisol, improved ability to focus, a more balanced emotional state, and better sleep quality.35 It creates the mental space necessary for deep thought and self-reflection.
+Procedure: A 72-hour fast is a good starting point. 1. Set Intentions: Clearly define the goal (e.g., to reduce anxiety, to focus on a project). 2. Define Parameters: Delete news and social media apps from mobile devices. Use browser blockers on desktops. 3. Inform Network: Let close contacts know you will be less responsive. 4. Engage Alternatives: Replace the time normally spent consuming media with intentional activities: reading a book, exercising, spending time in nature, or working on a creative project.36
+##### Phase 2: The Triage Protocol
+For periods of active engagement, these heuristics help manage information flow and prevent overload.
+Source Curation: Instead of relying on algorithmic feeds, actively cultivate a small, manageable, and politically diverse list of high-quality information sources. Intentionally ignore the firehose of low-grade content.
+"No-Scroll" Hours: Designate specific periods of the day as screen-free zones, particularly the first hour after waking and the hour before sleep. This prevents the mindless, passive scrolling that dulls the senses and disrupts natural cognitive rhythms.37
+Emotional Gating: This is a mindfulness practice. When a piece of content triggers a strong emotional response (anger, fear, excitement), recognize this as a deliberate goal of the content's creator. Consciously pause before engaging, sharing, or even continuing to read. This short circuits the emotional hijacking that disinformation relies upon.39
+##### Phase 3: Intentional Re-engagement
+This phase shifts the operator from a passive recipient to an active seeker of information.
+Query-Based Consumption: Do not simply open a feed to see "what's happening." Approach information with a specific question or a defined learning objective. This transforms the act of reading from passive entertainment to active research.
+Batch Processing: Schedule discrete, time-boxed sessions for news consumption (e.g., 20 minutes at midday). This prevents the constant, low-level distraction of a 24/7 news cycle and allows for focused engagement followed by focused work.
+### Part IV: The Counter-Narrative Toolkit — Debunking & Prebunking
+
+#### Doctrine: The Spectrum of Cognitive Defense
+An effective cognitive defense strategy requires a multi-layered, defense-in-depth approach. The tools in this section are not interchangeable; they are suited for different stages of the information lifecycle. Misinformation spreads approximately six times faster than the truth, which means that reactive, post-hoc debunking is always an uphill and often losing battle.40 Therefore, the most efficient and effective strategy is proactive defense through psychological inoculation, or "prebunking".41 When a new piece of information is encountered in real-time, a rapid triage method like SIFT is necessary to avoid wasting cognitive resources on low-quality or malicious content.43 Only when a piece of misinformation has already gained significant traction and poses a clear threat is a full, structured debunking using a framework like Fact-Myth-Fallacy warranted.44 This tiered approach optimizes the operator's limited time and attention.
+#### The Toolkit
+This section provides step-by-step protocols for each layer of cognitive defense.
+##### Protocol 1: Prebunking (Psychological Inoculation)
+Mechanism: Based on medical inoculation, this theory posits that exposing people to a weakened dose of a manipulation technique allows them to build "mental antibodies," making them more resistant to future, stronger attempts at persuasion. It builds resilience by teaching people to spot the techniques of manipulation, rather than just individual false claims.41
+Procedure:
+Threat: Begin with an explicit warning that a manipulative attempt is imminent. For example: "Powerful groups often try to discredit scientific consensus by using fake experts." This puts the recipient on guard.
+Refutational Preemption: Provide a "micro-dose" of the manipulation technique and then immediately refute it. For example: "You might see a post that quotes 'Dr. John Smith, PhD' claiming climate change is a hoax. However, a quick investigation reveals Dr. Smith's degree is in an unrelated field and his research is funded by the fossil fuel industry. This is a classic 'fake expert' tactic."
+##### Protocol 2: Real-Time Triage (The SIFT Method)
+Mechanism: A four-step heuristic developed by digital literacy expert Mike Caulfield for the rapid evaluation of online sources. It is designed to be used in seconds, not hours, to make a quick, informed judgment about whether a source is worth engaging with.43
+Procedure:
+Stop: The moment you land on an unfamiliar page, pause. Check your emotional reaction. Ask yourself: "Do I know this website? What is its reputation?"
+Investigate the Source: Do not read the article yet. Open a new tab and perform a quick search on the source itself. What do other, more reliable sources (like Wikipedia or fact-checking sites) say about its bias and accuracy? This is called "lateral reading."
+Find Better Coverage: Often, you care about the claim, not the specific article that brought it to you. Ignore the source you're on and find trusted, expert reporting on the same topic. This allows you to "trade up" to a higher-quality source.
+Trace Claims to the Original Context: If a source quotes a study, cites a statistic, or shows a video clip, go "upstream." Find the original study, the full quote, or the complete video. Much of online misinformation works by stripping content of its original context.
+##### Protocol 3: Structured Debunking (The Fact-Myth-Fallacy Framework)
+Mechanism: A structured argument designed to dislodge a sticky piece of misinformation and replace it with a durable, memorable fact. It works by not only providing the correct information but also explaining why the misinformation is wrong, which helps resolve the cognitive dissonance created by conflicting accounts.40
+Procedure:
+Lead with the FACT: Start with a simple, clear, and compelling statement of the truth. This serves as the new anchor for the audience's understanding. The headline and first sentence should be the fact.
+Warn about the MYTH: Briefly introduce the piece of misinformation you are about to debunk, explicitly flagging it as a myth. For example: "However, a common myth claims that..." Mention the myth only once to avoid reinforcing it.
+Explain the FALLACY: This is the critical step. Explain the rhetorical technique or logical fallacy the myth uses to mislead people. For example: "This myth uses a 'fake expert' fallacy by presenting a person with an irrelevant credential as an authority on the topic." This empowers the audience by teaching them to recognize the manipulation technique.
+End with the FACT: Conclude by reiterating the core fact. The truth should be the first and last thing the audience remembers.
+### Part V: The Sentinel Protocol — A Mind-Hygiene Dashboard Specification
+
+#### Doctrine: Quantifying the Cognitive Environment
+The cyberpunk ethos demands technical fluency and the imperative to build one's own tools.1 An operator uses security software to monitor network traffic for threats; they must also use cognitive tools to monitor their
+information traffic for manipulation. This specification outlines a browser extension designed to make the invisible forces of algorithmic curation, emotional manipulation, and narrative bias visible and measurable. It provides the operator with persistent, quantitative situational awareness of their own cognitive environment.
+
+#### The Specification
+The following is a JSON specification defining the data structure and logic for a browser extension that analyzes a user's social media feed or a collection of open browser tabs.
+
+```json
+{
+  "specVersion": "1.0",
+  "dashboardName": "Mind-Hygiene Dashboard",
+  "analysis": {
+    "id": "analysis-uuid-12345",
+    "timestamp": "2025-07-28T14:30:00Z",
+    "analyzedUrls": [
+      "https://twitter.com/home",
+      "https://news.example.com/article1",
+      "https://opinion.anotherexample.org/oped2"
+    ],
+    "overallScores": {
+      "sourceDiversityScore": {
+        "value": 35.5,
+        "scale": "0-100",
+        "description": "Measures the distribution of sources across the political bias spectrum. Higher scores indicate greater diversity; lower scores indicate an echo chamber.",
+        "logic": "Calculated using the Gini coefficient on the distribution of sources across five bias categories (Left, Lean Left, Center, Lean Right, Right). A score of 100 is perfect diversity; a score of 0 is a perfect monoculture.",
+        "dataSources": ["AllSides API", "Ad Fontes Media API"]
+      },
+      "emotionalChargeScore": {
+        "value": -0.45,
+        "scale": "-1.0 to +1.0",
+        "description": "The average compound sentiment of all text content. Negative values indicate negative sentiment; positive values indicate positive sentiment.",
+        "logic": "Calculates the average VADER compound sentiment score for all analyzed text blocks.",
+        "dataSources": ["NLTK VADER Lexicon"]
+      },
+      "outrageDensityScore": {
+        "value": 15.2,
+        "scale": "0-100",
+        "description": "The percentage of analyzed text blocks identified as containing moral-emotional or outrage language.",
+        "logic": "Text is analyzed for linguistic markers of outrage, including ad hominem attacks, sensationalism, high-arousal negative emotion words, and excessive punctuation.",
+        "dataSources": ["Custom NLP model trained on toxic comment datasets"]
+      }
+    },
+    "sourceBreakdown": {
+      "Left": 10,
+      "Center": 5,
+      "Right": 20
+    },
+    "topEmotionWords": [
+      {"word": "outrage", "frequency": 25, "sentiment": -0.8},
+      {"word": "disaster", "frequency": 18, "sentiment": -0.75},
+      {"word": "threat", "frequency": 15, "sentiment": -0.6}
+    ]
+  }
+}
+```
+
+#### Data Source Integration Notes:
+sourceDiversityScore: This metric relies on API access to established media bias rating services. AllSides provides ratings based on blind surveys, editorial reviews, and community feedback.58
+Ad Fontes Media uses a rigorous methodology involving politically balanced, multi-analyst panels to rate content for both bias and reliability.62 Integrating both provides a more robust and cross-validated assessment.
+emotionalChargeScore: This is best implemented using a lexicon-based model like VADER (Valence Aware Dictionary and sEntiment Reasoner). VADER is specifically tuned for the nuances of social media text, accounting for capitalization, punctuation, slang, and emoji to produce a normalized compound score from -1 (most negative) to +1 (most positive).69
+outrageDensityScore: This requires a more sophisticated linguistic analysis. Research into online outrage identifies key features such as the use of moral-emotional language, ad hominem attacks, overgeneralizations, and sensationalism.9 This score would be calculated by a model trained to recognize these specific linguistic patterns.
+
+### Conclusion: Toward Cognitive Sovereignty
+This manual has provided a comprehensive doctrine for cognitive defense. The Taxonomy of Influence provides the threat map of the modern information battlefield. The Bias & Fallacy Workbook serves to harden the individual operator against psychological exploits. The Digital-Diet Protocol is a training regimen for building cognitive resilience and stamina. The Counter-Narrative Toolkit provides the active measures for both proactive and reactive defense. Finally, the Mind-Hygiene Dashboard offers a blueprint for building a tool that provides persistent, quantitative situational awareness.
+Together, these components form a coherent strategy for achieving cognitive sovereignty. This is not a final destination but a continuous, disciplined practice. It is the application of the core cyberpunk ethos to the internal world of thought and perception. In an age of computational propaganda, weaponized narratives, and algorithmically curated reality, the first and most important system an operator must learn to hack is their own mind.
+### Works cited
+Real‑World Cyberpunk Manifesto — Wave 1: Foundations
+arxiv.org, accessed July 27, 2025, https://arxiv.org/html/2502.11827v1
+DISARM Framework - "Mendeleev's table" of information operations and campaigns, accessed July 27, 2025, https://project-athena.eu/disarm-framework-mendeleevs-table-of-information-operations-and-campaigns/
+Disarm Framework Explorer: Welcome to DISARM, accessed July 27, 2025, https://disarmframework.herokuapp.com/
+Interpreting the Cognitive Attack Taxonomy, accessed July 27, 2025, https://cognitiveattacktaxonomy.org/index.php/Interpreting_the_Cognitive_Attack_Taxonomy
+Hacking Things That Think :: Security Bsides Las Vegas 2024 - pretalx, accessed July 27, 2025, https://pretalx.com/bsideslv24/talk/WRFBJB/
+Cognitive Biases: An In-depth Look at 20 Common Mental Traps, accessed July 27, 2025, https://achology.com/psychology/20-common-cognitive-biases/
+List of Cognitive Biases and Heuristics - The Decision Lab, accessed July 27, 2025, https://thedecisionlab.com/biases
+(PDF) Outrage as Language of Social Media Discourse: Analysing ..., accessed July 27, 2025, https://www.researchgate.net/publication/371867741_Outrage_as_Language_of_Social_Media_Discourse_Analysing_Prevalence_and_Effects
+How social learning amplifies moral outrage expression in online social networks - PMC, accessed July 27, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC8363141/
+Memetic warfare - Wikipedia, accessed July 27, 2025, https://en.wikipedia.org/wiki/Memetic_warfare
+Quickie Post — What is Memetic War? - Empathy Guru, accessed July 27, 2025, https://empathy.guru/2024/01/27/quickie-post-what-is-memetic-war/
+Psychological Manipulation: How It Works and How to Recognize It ..., accessed July 27, 2025, https://mentalzon.com/en/post/2329/psychological-manipulation-how-it-works-and-how-to-recognize-it
+Cognitive overload: Info paralysis - Mayo Clinic Health System, accessed July 27, 2025, https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/cognitive-overload
+Network-informed Prompt Engineering against Organized Astroturf Campaigns under Extreme Class Imbalance - arXiv, accessed July 27, 2025, https://arxiv.org/pdf/2501.11849
+Network-informed Prompt Engineering against Organized Astroturf Campaigns under Extreme Class Imbalance - arXiv, accessed July 27, 2025, https://arxiv.org/html/2501.11849v1
+AI-pocalypse Now? Disinformation, AI, and the Super Election Year ..., accessed July 27, 2025, https://securityconference.org/en/publications/analyses/ai-pocalypse-disinformation-super-election-year/
+Don't fall for deepfakes this election. - Microsoft News, accessed July 27, 2025, https://news.microsoft.com/ai-deepfakes-elections/
+2024 Deepfakes and Election Disinformation Report: Key Findings & Mitigation Strategies, accessed July 27, 2025, https://www.recordedfuture.com/research/targets-objectives-emerging-tactics-political-deepfakes
+Microtargeting | ICO, accessed July 27, 2025, https://ico.org.uk/for-the-public/microtargeting/
+Microtargeting - Wikipedia, accessed July 27, 2025, https://en.wikipedia.org/wiki/Microtargeting
+AI and Misinformation - 2024 Dean's Report, accessed July 27, 2025, https://2024.jou.ufl.edu/page/ai-and-misinformation
+Motivated Reasoning and Its Applications to Life, accessed July 27, 2025, https://www.scirp.org/journal/paperinformation?paperid=129961
+Motivated Reasoning: How To Detect And Mitigate Its Risks – ij, accessed July 27, 2025, https://ivanjureta.com/motivated-reasoning-how-to-detect-and-mitigate-its-risks/
+Anchoring Bias - The Decision Lab, accessed July 27, 2025, https://thedecisionlab.com/biases/anchoring-bias
+What is anchoring bias? Examples and tips for better decisions - BetterUp, accessed July 27, 2025, https://www.betterup.com/blog/anchoring-bias
+The Bandwagon Effect: Why People Tend to Follow the Crowd ..., accessed July 27, 2025, https://effectiviology.com/bandwagon/
+Unveiling the Truth: Bandwagon Propaganda's Hidden Agenda - Trajectory Hub, accessed July 27, 2025, https://trajdash.usc.edu/bandwagon-propaganda
+Bandwagon Effect - The Decision Lab, accessed July 27, 2025, https://thedecisionlab.com/biases/bandwagon-effect
+The Bandwagon Effect: Definition And Psychology - Octet Design Studio, accessed July 27, 2025, https://octet.design/journal/bandwagon-effect/
+Riding the Bandwagon: The Psychology Behind Conformity and Influence, accessed July 27, 2025, https://blog.mindpeers.co/riding-the-bandwagon-the-psychology-behind-conformity-and-influence
+Cognitive Biases — The Bandwagon Effect | by Michael Gearon - Medium, accessed July 27, 2025, https://michaelgearon.medium.com/cognitive-biases-social-proof-the-bandwagon-effect-42aa07781fcc
+The Bandwagon Effect in Rhetoric - Number Analytics, accessed July 27, 2025, https://www.numberanalytics.com/blog/bandwagon-effect-rhetoric
+Bandwagon Effect: Leveraging Social Proof in Customer Experience - Renascence.io, accessed July 27, 2025, https://www.renascence.io/journal/bandwagon-effect-leveraging-social-proof-in-customer-experience
+How a News Fast Helps Your Physical and Mental Health | Willingway, accessed July 27, 2025, https://willingway.com/how-a-news-fast-helps-your-physical-and-mental-health/
+The Power of Media Fasting: How to Reclaim Your Calm - The Anxiety Coaches Podcast, accessed July 27, 2025, https://www.theanxietycoachespodcast.com/blog/the-power-of-media-fasting-how-to-reclaim-your-calm/
+Is Your Screentime Average More Than 6 Hours? Here's 11 Small ..., accessed July 27, 2025, https://www.calendar.com/blog/is-your-screentime-average-more-than-6-hours-heres-11-small-ways-to-end-mindless-scrolling-that-actually-work/
+Stop Scrolling Your Day Away: How to Reduce Social Media Use | UNC Health Talk, accessed July 27, 2025, https://healthtalk.unchealthcare.org/stop-scrolling-your-day-away-how-to-reduce-social-media-use/
+Getting your facts straight: Tips on media literacy - Cornell University Library, accessed July 27, 2025, https://www.library.cornell.edu/about/news/getting-your-facts-straight-tips-on-media-literacy/
+Fact, Myth, Fallacy: Unraveling Misinformation in Climate Science and Beyond, accessed July 27, 2025, https://www.charitytoday.co.uk/how-misinformation-can-impact-all-of-us/
+Inoculation theory - Wikipedia, accessed July 27, 2025, https://en.wikipedia.org/wiki/Inoculation_theory
+Inoculation Theory: A beginners Guide, accessed July 27, 2025, https://inoculation.science/inoculation-theory-a-beginners-guide/
+SIFT (The Four Moves) - Hapgood, accessed July 27, 2025, https://hapgood.us/2019/06/19/sift-the-four-moves/
+Structuring Your Argument - Misinformation - KSJ Handbook, accessed July 27, 2025, https://ksjhandbook.org/misinformation/structuring-your-argument/
+Inoculation Theory - (Social Psychology) - Vocab, Definition, Explanations | Fiveable, accessed July 27, 2025, https://library.fiveable.me/key-terms/social-psychology/inoculation-theory
+Inoculation Theory | NSI, accessed July 27, 2025, https://nsiteam.com/social/wp-content/uploads/2020/12/Quick-Look_Inoculation-Theory_FINAL.pdf
+Inoculation Theory: The Ultimate Guide, accessed July 27, 2025, https://www.numberanalytics.com/blog/inoculation-theory-ultimate-guide
+“SIFT”: A Method for Evaluating Information Sources, accessed July 27, 2025, https://www.smu.ca/webfiles/SIFT_Method_final.pdf
+SIFT Method - Dare to know, accessed July 27, 2025, https://docs.bartonccc.edu/stuservices/library/information-literacy/the-sift-method.pdf
+The SIFT Method – Introduction to College Research - Pressbooks.pub, accessed July 27, 2025, https://pressbooks.pub/introtocollegeresearch/chapter/the-sift-method/
+Media literacy - Wikipedia, accessed July 27, 2025, https://en.wikipedia.org/wiki/Media_literacy
+on SIFTing, SIFTing, and SIFTing… - AISL Independent Ideas, accessed July 27, 2025, https://aislnews.org/on-sifting-sifting-sifting/
+How to template: Debunking identified misinformation - UNSW, accessed July 27, 2025, https://www.unsw.edu.au/content/dam/pdfs/law/kaldor/resource/2025-04-debunk-how-to-template.pdf
+Structure of an effective debunking - Bifrost, accessed July 27, 2025, https://bifrostonline.org/structure-of-an-effective-debunking/
+Best Practices for Debunking Misinformation - Lab Manager, accessed July 27, 2025, https://www.labmanager.com/best-practices-for-debunking-misinformation-28879
+FACT MYTH/MISCONCEPTION FALLACY GUIDE TO - edX, accessed July 27, 2025, https://prod-edxapp.edx-cdn.org/assets/courseware/v1/245bfbf19b59ded4f20e2a30097480aa/asset-v1:UQx+Denial101x+2T2015+type@asset+block/Debunking_One-Pager.pdf
+How to debunk misinformation - YouTube, accessed July 27, 2025, https://www.youtube.com/watch?v=6I37HD444aI
+AllSides - Wikipedia, accessed July 27, 2025, https://en.wikipedia.org/wiki/AllSides
+Here's how the AllSides Media Bias Chart™ differs from other media bias charts: • Data is gathered from many people across t, accessed July 27, 2025, https://cahier-de-prepa.fr/mpsi2-pothier/download?id=1769
+Media Bias Ratings from AllSides.com - GitHub, accessed July 27, 2025, https://github.com/favstats/AllSideR
+Ratings based on online, U.S. political content only, accessed July 27, 2025, https://gcp-web.sjsu.edu/diversity/docs/israel-hamas-dialogue/allsides_media_bias_chart_version_92.pdf
+Ad Fontes Media: Home, accessed July 27, 2025, https://adfontesmedia.com/
+Methodology | Ad Fontes Media, accessed July 27, 2025, https://adfontesmedia.com/methodology/
+Ad Fontes Media - Wikipedia, accessed July 27, 2025, https://en.wikipedia.org/wiki/Ad_Fontes_Media
+On the Media Bias and Reliability | Ad Fontes Media, accessed July 27, 2025, https://adfontesmedia.com/on-the-media-bias-and-reliability/
+Simplified Rating Methodology for Beginners - Ad Fontes Media, accessed July 27, 2025, https://www.adfontesmedia.com/wp-content/uploads/2019/10/Simplified-Rating-Methodology-for-Beginners-1.pdf
+Content Analysis Methodology Paper | Ad Fontes Media, accessed July 27, 2025, https://adfontesmedia.com/methodology-white-paper/
+Static Media Bias Chart - Ad Fontes Media, accessed July 27, 2025, https://adfontesmedia.com/static-mbc/
+8 Best Python Sentiment Analysis Libraries | BairesDev, accessed July 27, 2025, https://www.bairesdev.com/blog/best-python-sentiment-analysis-libraries/
+Python libraries for sentiment analysis - Kaggle, accessed July 27, 2025, https://www.kaggle.com/discussions/getting-started/517315
+Sentiment Analysis in Python: Libraries, Models & Examples - ClicData, accessed July 27, 2025, https://www.clicdata.com/blog/sentiment-analysis-in-python/
+(PDF) Linguistic Analysis of Toxic Language on Social Media - ResearchGate, accessed July 27, 2025, https://www.researchgate.net/publication/366824579_Linguistic_Analysis_of_Toxic_Language_on_Social_Media
+Hate Lingo: A Target-based Linguistic Analysis of Hate Speech in Social Media - Elizabeth Belding's, accessed July 27, 2025, https://ebelding.cs.ucsb.edu/sites/default/files/publications/hate-lingo-target.pdf
+The language of outrage | The Journal of Social Media in Society, accessed July 27, 2025, https://www.thejsms.org/index.php/JSMS/article/view/733
