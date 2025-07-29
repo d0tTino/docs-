@@ -1,4 +1,5 @@
 site_name: Tino Docs Hub
+site_description: Central hub for project documentation
 theme: material
 docs_dir: docs
 plugins:
@@ -21,6 +22,7 @@ nav:
       - Peaks and Freezes: ai-research/peaks-and-freezes.md
       - Agentic SWE Discontinuity Forecast: ai-research/agentic-swe-discontinuity-forecast.md
       - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
+      - You Weren't Supposed to Invent Infinite Jest: ai-research/you-werent-supposed-to-invent-infinite-jest.md
   - Arduino: arduino/index.md
   - Terminal Workflow: terminal-workflow/index.md
   - Culture Project: culture-project/index.md
