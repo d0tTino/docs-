@@ -16,7 +16,8 @@ def test_setup_hooks_sets_hooks_path(tmp_path):
     result = subprocess.check_output(
         ["git", "config", "--get", "core.hooksPath"], cwd=repo
     ).decode().strip()
-    assert result == ".githooks"
+    expected = str(repo / ".githooks")
+    assert result == expected
 
 
 def test_migrate_old_docs_git_commands(tmp_path):
