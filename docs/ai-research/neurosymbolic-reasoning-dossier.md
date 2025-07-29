@@ -87,12 +87,15 @@ A neural predicate is a special type of probabilistic fact whose probabilities a
 nn(mq​,t)::q(t,u1​);…;q(t,un​)←b1​,…,bm​.
 This statement is interpreted as follows: given an input term t, the neural network identified by m_q is executed. The network produces a probability distribution (e.g., via a softmax layer) over a set of possible outcomes {u1​,…,un​}. The probability of the atom q(t,ui​) being true is then set to the i-th value in the network's output distribution.16 The network m_q is an external, often pre-trained, deep learning model, such as a PyTorch-based convolutional neural network (CNN).
 The canonical example used to illustrate DeepProbLog's power is the task of adding numbers represented by MNIST images.16 A purely neural approach would struggle to learn the abstract rules of addition and generalize. In DeepProbLog, this knowledge is encoded explicitly in a simple logic program:
+
 ```Prolog
 addition(ImageX, ImageY, Sum) :-
     digit(ImageX, NumX),
     digit(ImageY, NumY),
     Sum is NumX + NumY.
+
 ```
+
 Here, digit(Image, Number) is a neural predicate. The digit predicate is backed by a CNN that takes an MNIST image and outputs a probability distribution over the integers 0 through 9. The logic program can then use these probabilistic outputs from the neural perception module to reason about their sum, effectively combining sub-symbolic perception with symbolic arithmetic.
 ### End-to-End Learning and Inference
 
@@ -113,6 +116,7 @@ This formula is already in Disjunctive Normal Form. To confirm it is a Strict DN
 #### PyTorch LBM Implementation
 
 The following Python code defines a LBM class in PyTorch that takes an SDNF formula (represented as a list of clauses) and constructs the corresponding RBM.
+
 ```python
 import torch
 import torch.nn as nn
@@ -213,6 +217,7 @@ print(f"\nValid assignments for ({variables}):\n{valid_assignments}")
 # Expected output for (A, B, C): [[1, 0, 0], [0, 0, 1], [1, 0, 1], [0, 0, 0]]
 
 ```
+
 | Logical Element | RBM Component | Parameter Setting Rule |
 | --- | --- | --- |
 | Propositional variable $x_i$ | Visible unit $v_i$ | Binary state (0 or 1) represents truth value. |
@@ -226,6 +231,7 @@ Table 2: LBM-RBM Parameter Mapping. This table provides the explicit rules for t
 ### Step 2: The Guardrail Mechanism via Logit Processing
 
 With the LBM able to produce a complete set of logically valid outputs, the next step is to create a mechanism to force the LLM to generate only those outputs. This is achieved by manipulating the model's output logits at each generation step using a custom LogitsProcessor from the Hugging Face transformers library.36 The processor will act as a real-time mask, allowing only tokens that lead towards a valid final state.
+
 ```python
 from transformers import LogitsProcessor
 
@@ -289,9 +295,11 @@ class LBMGuardrail(LogitsProcessor):
 
         return scores
 ```
+
 ### Step 3: The Integrated Generation Loop
 
 The final step combines the LBM, the LogitsProcessor, and the llama-3-13B model. A critical consideration here is managing VRAM to stay within the 12 GB limit of an RTX 4080. This is achieved primarily through model quantization.37
+
 ```python
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
@@ -379,6 +387,7 @@ generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print("\n--- LLM Generation (Unconstrained) ---")
 print(generated_text)
 ```
+
 This integrated script demonstrates the full pipeline. Loading an 8B parameter model in 4-bit precision requires approximately 5-6 GB of VRAM, and a 13B model requires around 8-9 GB, leaving sufficient memory for the KV cache during generation and for the small LBM, thus satisfying the hardware constraints.38
 ## A Rigorous Evaluation Harness
 
