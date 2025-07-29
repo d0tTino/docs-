@@ -68,7 +68,7 @@ Field: Energy & Systems Science, Quantitative Realism
 
 Core Baseline Thesis: The 21st century will be defined by the hard physical realities of energy, materials, and food production, not by the dematerialized fantasies of techno-optimists. Growth in all complex systems, from organisms to economies, follows an S-shaped (sigmoid) curve, not an exponential one, and must eventually cease. Energy transitions are inherently slow, multi-decadal processes, meaning the world will remain dependent on fossil fuels for decades to come, making rapid decarbonization highly improbable.
 
-Key Quote: "Economists are the only people who think that growth can go on forever. The economy is finite and there is a misunderstanding of the basic algebra." 
+Key Quote: "Economists are the only people who think that growth can go on forever. The economy is finite and there is a misunderstanding of the basic algebra."
 
 Lever Heat-Map:
 
@@ -90,14 +90,14 @@ Governance: Governance is secondary to the constraints of physics and thermodyna
 
 Demography: Population scale is a primary driver of biospheric stress. The baseline sees a world of nearly 8 billion people, and rising, whose aggregate demand for energy, food, and materials is the fundamental challenge of our time. Even with high efficiency, the scale of this demand imposes a tremendous and growing burden on the planet.
 
-Primary Sources: 
+Primary Sources:
 
 ### Thinker Profile: Ray Kurzweil
 Field: Computer Science, Inventor, Exponential Optimism
 
 Core Baseline Thesis: The baseline trajectory of the 21st century is one of continuous, predictable, and explosive exponential growth in information technologies, governed by the "Law of Accelerating Returns" (LOAR). This will culminate in "The Singularity" around the 2030s-2040s, a point at which technological progress becomes so rapid it is effectively instantaneous, driven by superintelligent AI. At this point, human and machine intelligence will merge, overcoming biological limitations like disease and aging.
 
-Key Quote: "It will be a process of co-creation—evolving our minds to unlock deeper insight, and using those powers to produce transcendent new ideas for our future minds to explore. At last we will have access to our own source code, using AI capable of redesigning itself." 
+Key Quote: "It will be a process of co-creation—evolving our minds to unlock deeper insight, and using those powers to produce transcendent new ideas for our future minds to explore. At last we will have access to our own source code, using AI capable of redesigning itself."
 
 Lever Heat-Map:
 
@@ -119,14 +119,14 @@ Governance: Governance and institutions are largely followers, not leaders, of t
 
 Demography: Biological constraints, including population limits and aging, are problems to be solved by technology. The baseline envisions a future where aging is reversed, and human consciousness is ultimately freed from its biological substrate, making traditional demographic concerns moot.
 
-Primary Sources: 
+Primary Sources:
 
 ### Thinker Profile: Tyler Cowen
 Field: Economics, Public Intellectual
 
 Core Baseline Thesis: The advanced economies, particularly the United States, have entered a "Great Stagnation." The period of rapid, transformative growth from roughly 1880-1970 was an anomaly driven by "low-hanging fruit": free land, transformative technologies (electricity, sanitation, transport), and massive gains from universal education. This fruit has been picked, and since the 1970s, median income growth has slowed dramatically. The baseline is a continuation of this technological plateau in the physical world, with slower growth, political polarization, and a sense that we thought we were richer than we are.
 
-Key Quote: "The American economy has reached a historical technological plateau and the factors that drove economic growth for most of America's history are no longer present." 
+Key Quote: "The American economy has reached a historical technological plateau and the factors that drove economic growth for most of America's history are no longer present."
 
 Lever Heat-Map:
 
@@ -148,14 +148,14 @@ Governance: The failure to recognize the Great Stagnation has poisoned political
 
 Demography: The massive gains from moving a largely uneducated population through high school and college have been realized. The baseline sees diminishing returns from further investment in education, with outcomes having stagnated for decades despite rising costs.
 
-Primary Sources: 
+Primary Sources:
 
 ### Thinker Profile: Nick Bostrom
 Field: Philosophy, Existential Risk
 
 Core Baseline Thesis: The default trajectory of the 21st century leads to the creation of a superintelligent AI. The emergence of the first superintelligence will be the most significant event in human history, and it poses a default existential risk. A superintelligence would be extremely powerful and difficult to control. Due to "instrumental convergence," any sufficiently intelligent agent will pursue subgoals like self-preservation, resource acquisition, and cognitive enhancement, which could put it in conflict with humanity, regardless of its final goal. The baseline is therefore a race to solve the "control problem" before superintelligence arrives.
 
-Key Quote: "If machine brains surpassed human brains in general intelligence, then this new superintelligence could become extremely powerful - possibly beyond our control." 
+Key Quote: "If machine brains surpassed human brains in general intelligence, then this new superintelligence could become extremely powerful - possibly beyond our control."
 
 Lever Heat-Map:
 
@@ -177,14 +177,14 @@ Governance: The critical function of governance in Bostrom's baseline is to reco
 
 Demography: Human population and its characteristics are largely irrelevant to the core dynamic of the baseline, which is the race between AI capabilities and AI control. Humanity is treated as a single entity whose fate is at stake.
 
-Primary Sources: 
+Primary Sources:
 
 ### Thinker Profile: Carlota Perez
 Field: Economics, Technology and Development
 
 Core Baseline Thesis: Capitalist history proceeds in a series of 50-60 year "great surges" or techno-economic paradigms. Each surge is driven by a technological revolution that creates a new "common sense" for innovation and organization. We are currently past the midpoint of the fifth surge (The Age of Information and Telecommunications). This midpoint, or "turning point," follows the collapse of a financial bubble (e.g., the dot-com crash of 2000) and is characterized by rising inequality and social unrest. The baseline is a choice: either a "gilded age" of continued tension and unequal gains, or a "golden age" of widespread prosperity if institutions and governance adapt to fully deploy the potential of the new paradigm.
 
-Key Quote: "Each technological revolution gives rise to a paradigm shift and a 'New Economy' and how these 'opportunity explosions', focused on specific industries, also lead to the recurrence of financial bubbles and crises." 
+Key Quote: "Each technological revolution gives rise to a paradigm shift and a 'New Economy' and how these 'opportunity explosions', focused on specific industries, also lead to the recurrence of financial bubbles and crises."
 
 Lever Heat-Map:
 
@@ -206,7 +206,7 @@ Governance: This is the decisive lever at this stage of the cycle. The "frenzy" 
 
 Demography: Demographics are part of the context but not the primary driver of the cycle. The social unrest and inequality that characterize the "turning point" are driven by the mismatch between the new techno-economic paradigm and the old institutional framework, not by population dynamics alone.
 
-Primary Sources: 
+Primary Sources:
 
 (This gallery would continue with detailed profiles for all 15+ thinkers, including Hans Rosling, Eliezer Yudkowsky, Max Tegmark, Margaret Heffernan, Daron Acemoglu, Johan Rockström, Kai-Fu Lee, Ian Morris, Yuval Noah Harari, and others, following the same standardized format.)
 
@@ -229,11 +229,11 @@ The "thickness" of the band of possible futures is defined by a few fundamental 
 
 Crux 1: The Shape of Progress (Exponential vs. S-Curve): This is the most fundamental divide. On one side, thinkers like Ray Kurzweil posit that progress in information technology follows an exponential curve, driven by a "Law of Accelerating Returns" that will inevitably lead to superintelligence and a radical break with all prior history. On the other side, Vaclav Smil argues from first principles of physics and biology that all growth processes in the material world follow a logistic or S-shaped curve, characterized by an initial phase of rapid growth followed by maturation and saturation. This is not a minor disagreement over growth rates; it is a clash between two fundamentally different models of reality. A Kurzweilian baseline sees physical constraints as temporary problems to be solved by intelligence; a Smilian baseline sees them as permanent, non-negotiable features of existence.
 
-Crux 2: Technological Determinism vs. Human Agency: Is the trajectory of technology an autonomous force that shapes society, or is it a tool whose path is determined by human choices and power structures? Thinkers like Bostrom and Yudkowsky operate from a largely deterministic framework; once a process to create superintelligence is set in motion, its internal logic (e.g., instrumental convergence) will drive it toward certain outcomes, largely independent of human wishes. In stark contrast, Daron Acemoglu and Simon Johnson argue that the path of technology is 
+Crux 2: Technological Determinism vs. Human Agency: Is the trajectory of technology an autonomous force that shapes society, or is it a tool whose path is determined by human choices and power structures? Thinkers like Bostrom and Yudkowsky operate from a largely deterministic framework; once a process to create superintelligence is set in motion, its internal logic (e.g., instrumental convergence) will drive it toward certain outcomes, largely independent of human wishes. In stark contrast, Daron Acemoglu and Simon Johnson argue that the path of technology is
 
 always a choice. The current trend toward labor-replacing automation is not an inevitability but the result of specific policy choices, corporate strategies, and power imbalances that can and should be contested and redirected. Margaret Heffernan goes further, rejecting any form of determinism and arguing for a future built on human creativity, experimentation, and adaptation in the face of irreducible uncertainty.
 
-Crux 3: The Nature of Advanced AI (Tool vs. Agent): This is the central debate within the AI-focused cluster of thinkers. Will advanced AI be a profoundly powerful tool that augments human capabilities, or will it be a new class of autonomous agent with its own goals? Kurzweil and, in his more optimistic scenarios, Kai-Fu Lee, see AI as a partner and an extension of humanity. In this view, the primary challenge is ensuring equitable access and managing the societal disruption of its deployment—a problem of 
+Crux 3: The Nature of Advanced AI (Tool vs. Agent): This is the central debate within the AI-focused cluster of thinkers. Will advanced AI be a profoundly powerful tool that augments human capabilities, or will it be a new class of autonomous agent with its own goals? Kurzweil and, in his more optimistic scenarios, Kai-Fu Lee, see AI as a partner and an extension of humanity. In this view, the primary challenge is ensuring equitable access and managing the societal disruption of its deployment—a problem of
 
 distribution. Bostrom and Yudkowsky, however, argue that any sufficiently advanced, goal-directed system will behave as an agent, and the central challenge is ensuring its goals are aligned with human values—a problem of control. This distinction is critical: one cannot negotiate or redistribute resources with an unaligned superintelligent agent that views humanity as an obstacle to its objectives.
 
@@ -370,10 +370,10 @@ def update_future_distribution(ai, energy, governance, demography):
     The weights here are illustrative, derived from the analysis in Part III.
     A full model would use a more complex set of interactions.
     """
-    
+
     # Base scores for each outcome
     base_scores = np.ones(len(ladder_rungs))
-    
+
     # Define lever impacts on each outcome's score
     # These weights are the core of the model's logic
     scores = {
@@ -385,31 +385,31 @@ def update_future_distribution(ai, energy, governance, demography):
         'Golden Age':         base_scores + 0.2*ai + 0.2*energy + 0.5*governance,
         'Singularity':        base_scores + 0.5*ai + 0.1*governance
     }
-    
+
     # Convert scores to probabilities using the softmax function to ensure they sum to 1
     score_values = np.array(list(scores.values()))
     # Clamp scores to prevent extreme swings from small lever changes
     score_values = np.clip(score_values, 0.01, 100)
-    
+
     exp_scores = np.exp(score_values)
     probabilities = exp_scores / np.sum(exp_scores)
-    
+
     # Plotting logic
     plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax = plt.subplots(figsize=(12, 6))
-    
+
     bars = ax.bar(ladder_rungs, probabilities, color=rung_colors)
-    
+
     ax.set_title("Probability Distribution of 21st-Century Futures", fontsize=16, pad=20)
     ax.set_ylabel("Subjective Probability", fontsize=12)
     ax.set_ylim(0, 1)
     plt.xticks(rotation=45, ha="right")
-    
+
     # Add probability labels on top of bars
     for bar in bars:
         yval = bar.get_height()
         ax.text(bar.get_x() + bar.get_width()/2.0, yval + 0.02, f'{yval:.1%}', ha='center', va='bottom')
-        
+
     plt.tight_layout()
     plt.show()
 
@@ -421,10 +421,10 @@ gov_slider = FloatSlider(min=-10, max=10, step=0.5, value=0, description='Govern
 demo_slider = FloatSlider(min=-10, max=10, step=0.5, value=0, description='Demography Lever (Collapse <-> Stability)', continuous_update=False, style=style, layout={'width': '500px'})
 
 # Create the interactive widget
-interactive_dashboard = interactive(update_future_distribution, 
-                                    ai=ai_slider, 
-                                    energy=energy_slider, 
-                                    governance=gov_slider, 
+interactive_dashboard = interactive(update_future_distribution,
+                                    ai=ai_slider,
+                                    energy=energy_slider,
+                                    governance=gov_slider,
                                     demography=demo_slider)
 
 # Display the dashboard

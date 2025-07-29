@@ -117,7 +117,7 @@ graph TD
         style A1 fill:#cde,stroke:#333,stroke-width:2px
         style B1 fill:#cde,stroke:#333,stroke-width:2px
     end
-    
+
     subgraph Cycle 2
         A1 & B1 -- Fabricate All Mechanical Parts For --> C1(New PnP)
         C0 -- Assembles Basic Electronics For --> A1 & B1
@@ -228,26 +228,26 @@ sequenceDiagram
     S-->>FM: Plan(Task_List, Material_Reqs)
     FM->>HW: CheckInventory(Material_Reqs)
     HW-->>FM: InventoryStatus(OK)
-    
+
     FM->>S: ScheduleTasks(Task_List)
     S-->>FM: Scheduled_Jobs(Machine_Assignments, Timelines)
-    
+
     loop For each job in Scheduled_Jobs
         FM->>R: RouteJob(Job_Details)
         R->>HW: Execute(CNC_Job_GCode)
-        
+
         Note over HW: CNC machine runs...
         HW-->>M: Telemetry(spindle_vibration=HIGH)
-        
+
         M->>FM: Alert(PredictiveFailure(CNC_1, prob=0.85))
         activate FM
-        
+
         FM->>S: RequestReschedule(failed_machine="CNC_1")
         S-->>FM: UpdatedPlan(rerouted_jobs)
-        
+
         FM->>M: ScheduleMaintenance(CNC_1, task="BearingCheck")
         M-->>FM: Ack(Maintenance_Scheduled)
-        
+
         FM->>R: RouteJob(Updated_Job_Details_for_CNC_2)
         R->>HW: Execute(CNC_Job_GCode_on_CNC_2)
         deactivate FM
@@ -280,7 +280,7 @@ class MaintenanceSignature(dspy.Signature):
     """Given a stream of machine telemetry data, assess the machine's health.
     Identify any predictive failure modes and suggest a specific maintenance action.
     If no issues are found, respond with 'Nominal'."""
-    
+
     telemetry_data = dspy.InputField(desc="JSON object of sensor readings (e.g., vibration, temp, power draw)")
     machine_type = dspy.InputField(desc="Type of machine (e.g., CNC Mill, 3D Printer)")
     health_assessment = dspy.OutputField(desc="A brief assessment of the machine's status.")

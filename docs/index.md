@@ -2,6 +2,15 @@
 
 This repository aggregates documentation and research across multiple projects.
 
+## Quickstart
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Visit <http://127.0.0.1:8000> to preview the site locally.
+
 ## Directory Structure
 
 - `ai-research/` – AI and machine learning notes
@@ -11,6 +20,26 @@ This repository aggregates documentation and research across multiple projects.
 - `_project-docs/` – submodule mounts for individual projects
 - `scripts/` – helper scripts including ingest utilities
 - `playbooks/` – workflow and container playbooks
+
+## Research Docs
+
+The `ai-research/` folder collects design notes and technical dossiers for
+ongoing experiments. Key documents include:
+
+- [Strategic R&D Roadmap for DeepThought-ReThought](ai-research/strategic-roadmap-deepthought.md)
+- [Reverse-Engineering OpenAI Codex](ai-research/reverse-engineering-codex.md)
+- [Seed-Factory Feasibility Dossier](ai-research/seed-factory-feasibility-dossier.md)
+- [Agentic SWE Discontinuity Forecast](ai-research/agentic-swe-discontinuity-forecast.md)
+- [Energy-Efficient Swarm](ai-research/energy-efficient-swarm.md)
+- [Neurosymbolic Reasoning Dossier](ai-research/neurosymbolic-reasoning-dossier.md)
+- [Friend or Foe PRD](ai-research/discord-friend-foe-prd.md)
+- [Logical Chunking Strategies](ai-research/logical-chunking.md)
+- [Peaks and Freezes](ai-research/peaks-and-freezes.md)
+- [Thick Band of 21st-Century Possibilities](ai-research/thick-band-of-21st-century-possibilities.md)
+- [You Weren't Supposed to Invent Infinite Jest](ai-research/you-werent-supposed-to-invent-infinite-jest.md)
+
+See [ai-research/index.md](ai-research/index.md) for additional context and any
+newly added reports.
 
 ## Project Documentation Submodules
 
@@ -61,8 +90,7 @@ mkdocs serve
 
 Visit http://127.0.0.1:8000 to preview the site locally.
 
-The site automatically deploys via GitHub Actions whenever you push updates to
-Markdown files or `mkdocs.yml`.
+The site automatically deploys via GitHub Actions whenever you push updates to Markdown files or `mkdocs.yml`.
 
 ## Installing Node Dependencies
 
@@ -85,8 +113,7 @@ scripts/setup_hooks.sh
 ## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
-[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository.
-Ensure `git-filter-repo` is installed (for example via `pip install git-filter-repo` or your package manager) before running the script.
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure `git-filter-repo` is installed (for example via `pip install git-filter-repo` or your package manager) before running the script.
 
 Run the migration script from the repository root:
 
@@ -94,9 +121,7 @@ Run the migration script from the repository root:
 scripts/migrate_old_docs.sh
 ```
 
-The script clones the legacy repo, filters only the documentation
-files using `git filter-repo`, and fetches the result as a local branch
-called `d0tTino-import`. Merge that branch to incorporate the history:
+The script clones the legacy repo, filters only the documentation files using `git filter-repo`, and fetches the result as a local branch called `d0tTino-import`. Merge that branch to incorporate the history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
