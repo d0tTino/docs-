@@ -52,16 +52,17 @@ scripts/setup_hooks.sh
 The hooks enforce Markdown linting with `pre-commit`.
 
 ## Building the Docs
-
-Install Python packages from `requirements.txt` so all dependencies
-(MkDocs, pytest, flake8) install consistently, then build the site:
+Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs, pytest, flake8) install consistently, then launch the dev server:
 
 ```bash
 pip install -r requirements.txt
 mkdocs serve
 ```
 
-The site is deployed via GitHub Actions on every push that modifies docs.
+Visit http://127.0.0.1:8000 to preview the site locally.
+
+The site automatically deploys via GitHub Actions whenever you push updates to
+Markdown files or `mkdocs.yml`.
 
 ## Installing Node Dependencies
 
@@ -71,7 +72,7 @@ Install Node packages for optional tooling such as markdown linting:
 npm install
 ```
 
-This installs development dependencies defined in `package.json`.
+This installs development dependencies defined in `package.json`, such as `markdownlint-cli` for linting.
 
 ## Setting Up Git Hooks
 

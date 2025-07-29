@@ -14,15 +14,15 @@ This repository aggregates documentation and research across multiple projects.
 
 ## Project Documentation Submodules
 
-Project documentation lives in separate repositories added to `_project-docs/`
-as git submodules. Add a new project by running:
+Project documentation lives in separate repositories added to
+`_project-docs/` as git submodules. Add a new project by running:
 
 ```bash
 git submodule add <repository-url> _project-docs/<project-folder>
 ```
 
-After cloning the docs hub or when new submodules are added, initialize them
-with:
+After cloning the docs hub or when new submodules are added, initialize
+them with:
 
 ```bash
 git submodule update --init --recursive
@@ -52,16 +52,17 @@ scripts/setup_hooks.sh
 The hooks enforce Markdown linting with `pre-commit`.
 
 ## Building the Docs
-
-Install Python packages from `requirements.txt` and build the site with
-[MkDocs](https://www.mkdocs.org/):
+Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs, pytest, flake8) install consistently, then launch the dev server:
 
 ```bash
 pip install -r requirements.txt
 mkdocs serve
 ```
 
-The site is deployed via GitHub Actions on every push that modifies docs.
+Visit http://127.0.0.1:8000 to preview the site locally.
+
+The site automatically deploys via GitHub Actions whenever you push updates to
+Markdown files or `mkdocs.yml`.
 
 ## Installing Node Dependencies
 
@@ -71,7 +72,7 @@ Install Node packages for optional tooling such as markdown linting:
 npm install
 ```
 
-This installs development dependencies defined in `package.json`.
+This installs development dependencies defined in `package.json`, such as `markdownlint-cli` for linting.
 
 ## Setting Up Git Hooks
 
@@ -84,14 +85,8 @@ scripts/setup_hooks.sh
 ## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
-[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Before
-running the script you must have
-[`git-filter-repo`](https://github.com/newren/git-filter-repo) available.
-Install it with:
-
-```bash
-pip install git-filter-repo
-```
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository.
+Ensure `git-filter-repo` is installed (for example via `pip install git-filter-repo` or your package manager) before running the script.
 
 Run the migration script from the repository root:
 
@@ -99,10 +94,28 @@ Run the migration script from the repository root:
 scripts/migrate_old_docs.sh
 ```
 
-The script clones the legacy repo, filters only the documentation files using
-`git filter-repo`, and fetches the result as a local branch called
-`d0tTino-import`. Merge that branch to incorporate the history:
+The script clones the legacy repo, filters only the documentation
+files using `git filter-repo`, and fetches the result as a local branch
+called `d0tTino-import`. Merge that branch to incorporate the history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
+```
+
+## Ingesting and Querying Markdown
+
+The `scripts/ingest.py` helper can store markdown chunks in a simple
+vector database and retrieve them later:
+
+```bash
+# Build the database
+python scripts/ingest.py docs/example.md --db vector_db.pkl
+
+# Query for similar text
+python - <<'EOF'
+from pathlib import Path
+from scripts.ingest import VectorDB
+db = VectorDB(Path('vector_db.pkl'))
+print(db.query('search text'))
+EOF
 ```
