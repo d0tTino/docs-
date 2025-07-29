@@ -11,6 +11,7 @@ set -euo pipefail
 
 REPO_ROOT=$(git rev-parse --show-toplevel)
 TMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TMP_DIR"' EXIT
 
 # Ensure git-filter-repo is installed before proceeding
 if ! command -v git-filter-repo >/dev/null; then
