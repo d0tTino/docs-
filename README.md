@@ -4,10 +4,7 @@ This repository aggregates documentation and research across multiple projects.
 
 ## Quickstart
 
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
+For setup instructions, see [docs/index.md](docs/index.md).
 
 Visit <http://127.0.0.1:8000> to preview the site locally.
 
