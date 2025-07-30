@@ -60,16 +60,16 @@ For the cyberpunk operator, this presents a strategic choice based on the threat
 
 The following table provides a strategic comparison of these two leading protocols.
 
-| Feature | Monero (Seraphis/FCMP++) | Firo (Lelantus Spark) |
-| --- | --- | --- |
-| **Core Privacy Model** | Full-Chain Membership Proof (FCMP) | Shielded Pool (Burn-and-Redeem) |
-| **Anonymity Set** | The entire blockchain history (potentially 100,000,000+ outputs) 5 | The entire set of shielded coins (e.g., >65,000) 11 |
-| **Trusted Setup** | No | No 14 |
-| **Recipient Privacy** | Jamtis addresses with view tags 8 | Spark addresses (non-interactive, one-time) 10 |
-| **View Key Support** | Multi-tiered (e.g., scanning-only, full view) 8 | Full incoming and outgoing view keys 10 |
-| **Multisig Support** | Simple implementation, comparable to previous versions 6 | Efficient, based on modified Chaum-Pedersen proofs 14 |
-| **Primary Advantage** | Universal, mandatory privacy; massive anonymity set protects against metadata analysis. | Very large, static anonymity set; strong recipient privacy; no reliance on decoy selection heuristics. |
-| **Primary Trade-off** | Requires a complex, network-wide address migration. | The act of "shielding" funds from a transparent address to a private one is a visible event. |
+| Feature                | Monero (Seraphis/FCMP++)                                                                | Firo (Lelantus Spark)                                                                                  |
+| ---------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Core Privacy Model** | Full-Chain Membership Proof (FCMP)                                                      | Shielded Pool (Burn-and-Redeem)                                                                        |
+| **Anonymity Set**      | The entire blockchain history (potentially 100,000,000+ outputs) 5                      | The entire set of shielded coins (e.g., >65,000) 11                                                    |
+| **Trusted Setup**      | No                                                                                      | No 14                                                                                                  |
+| **Recipient Privacy**  | Jamtis addresses with view tags 8                                                       | Spark addresses (non-interactive, one-time) 10                                                         |
+| **View Key Support**   | Multi-tiered (e.g., scanning-only, full view) 8                                         | Full incoming and outgoing view keys 10                                                                |
+| **Multisig Support**   | Simple implementation, comparable to previous versions 6                                | Efficient, based on modified Chaum-Pedersen proofs 14                                                  |
+| **Primary Advantage**  | Universal, mandatory privacy; massive anonymity set protects against metadata analysis. | Very large, static anonymity set; strong recipient privacy; no reliance on decoy selection heuristics. |
+| **Primary Trade-off**  | Requires a complex, network-wide address migration.                                     | The act of "shielding" funds from a transparent address to a private one is a visible event.           |
 
 ### Chapter 2: Navigating the Regulatory Dragnet
 
@@ -156,12 +156,12 @@ The choice of device involves a trade-off. An operator whose primary threat is a
 
 The following table provides a comparative overview of the leading hardware wallets in 2025.
 
-| Device | Secure Element | Firmware Source | Air-Gap Method | Bitcoin-Only Option | Key Feature |
-| --- | --- | --- | --- | --- | --- |
-| Coldcard Mk4 | Dual SE (from different vendors) 39 | Open-Source 41 | PSBT via microSD 44 | Yes (Default) 41 | Advanced duress PINs (decoy, brick) 39 |
-| Trezor Safe 3 | EAL6+ Certified SE 37 | Open-Source 42 | N/A (USB) | No | Shamir Backup support 37 |
-| Ledger Flex | EAL6+ Certified SE 38 | Closed-Source 40 | N/A (USB/Bluetooth) | No | Large touchscreen, wireless capability 38 |
-| BitBox02 | Dual-chip (Secure Element + general MCU) 36 | Open-Source 36 | N/A (USB) | Yes | Instant microSD card backup 36 |
+| Device        | Secure Element                              | Firmware Source  | Air-Gap Method      | Bitcoin-Only Option | Key Feature                               |
+| ------------- | ------------------------------------------- | ---------------- | ------------------- | ------------------- | ----------------------------------------- |
+| Coldcard Mk4  | Dual SE (from different vendors) 39         | Open-Source 41   | PSBT via microSD 44 | Yes (Default) 41    | Advanced duress PINs (decoy, brick) 39    |
+| Trezor Safe 3 | EAL6+ Certified SE 37                       | Open-Source 42   | N/A (USB)           | No                  | Shamir Backup support 37                  |
+| Ledger Flex   | EAL6+ Certified SE 38                       | Closed-Source 40 | N/A (USB/Bluetooth) | No                  | Large touchscreen, wireless capability 38 |
+| BitBox02      | Dual-chip (Secure Element + general MCU) 36 | Open-Source 36   | N/A (USB)           | Yes                 | Instant microSD card backup 36            |
 
 ### Chapter 6: Architecting a Multisignature Bastion
 
@@ -458,11 +458,11 @@ if pool_address == "0x0000000000000000000000000000000000000000":
 else:
     print(f"Pool Address: {pool_address}")
     pool_contract = w3.eth.contract(address=pool_address, abi=POOL_ABI)
-    
+
     # Read the 'slot0' storage slot of the pool
     slot0 = pool_contract.functions.slot0().call()
     current_tick = slot0
-    
+
     # The price of token0 in terms of token1 is 1.0001^tick
     # For WETH/USDC, price of WETH in USDC is 1.0001^tick / 10^(18-6)
     price = (1.0001 ** current_tick) / (10**12)
@@ -472,6 +472,7 @@ else:
 ```
 
 ### Works cited
+
 Cyberpunk Threat and Power Analysis
 MONERO [XMR] REPORT - Scaling New Heights in Blockchain Performance: 2025 Portfolio / Part Two, accessed July 25, 2025, https://www.thestandard.io/blog/monero-xmr-report---scaling-new-heights-in-blockchain-performance-2025-portfolio-part-two-6
 Developer Opportunities at the Monero Project, accessed July 25, 2025, https://www.getmonero.org/it/2023/02/02/seraphis-jamtis-developer-opportunities.html
