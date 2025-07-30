@@ -5587,95 +5587,6 @@ END
 
 This manual provides the doctrine, toolchain, and operational procedures for conducting reconnaissance in the modern information battlespace. By systematically mapping your own digital footprint, you transform yourself from a passive target into a hardened one. By understanding the architectures of corporate and state power, you convert abstract anxieties into concrete systems. Knowledge, applied with discipline, is a force multiplier. By mastering OSINT and building an automated pipeline for continuous awareness, the operator achieves a critical asymmetric advantage. The real work begins now.
 
-## References
-
-- Van Buren v. United States - Ballotpedia, accessed July 25, 2025,
-- https://ballotpedia.org/Van_Buren_v._United_States Van Buren v. United States -
-- Epic.org, accessed July 25, 2025,
-- https://epic.org/documents/van-buren-v-united-states/ Diverse six-justice
-- majority rejects broad reading of computer-fraud ..., accessed July 25, 2025,
-- https://www.scotusblog.com/2021/06/diverse-six-justice-majority-rejects-broad-reading-of-computer-fraud-law/
-- How the Schrems II Decision Changed Privacy Law - TrustArc, accessed July 25,
-- 2025, https://trustarc.com/resource/schrems-ii-decision-changed-privacy-law/ The
-- CJEU Judgement in the Schrems II Case - European Parliament, accessed July 25,
-- 2025,
-- https://www.europarl.europa.eu/RegData/etudes/ATAG/2020/652073/EPRS_ATA(2020)652073_EN.pdf
-- Schrems II and Beyond: EU-US International Data Transfers - Cookiebot, accessed
-- July 25, 2025, https://www.cookiebot.com/en/schrems-ii-privacy-shield/ Riley v.
-- California | EBSCO Research Starters, accessed July 25, 2025,
-- https://www.ebsco.com/research-starters/law/riley-v-california Riley v.
-- California - Epic.org, accessed July 25, 2025,
-- https://epic.org/documents/riley-v-california-2/ Riley v. California | Oyez,
-- accessed July 25, 2025, https://www.oyez.org/cases/2013/13-132 Kyllo v. United
-- States - UMKC School of Law, accessed July 25, 2025,
-- https://law2.umkc.edu/faculty/projects/ftrials/conlaw/kyllo.htm Kyllo v. United
-- States | Oyez, accessed July 25, 2025, https://www.oyez.org/cases/2000/99-8508
-- Titles - S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July
-- 25, 2025, https://www.congress.gov/bill/118th-congress/senate-bill/560/titles
-- Actions - S.299 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
-- 2025, https://www.congress.gov/bill/117th-congress/senate-bill/299/all-actions
-- Titles - H.R.3421 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
-- 2025, https://www.congress.gov/bill/117th-congress/house-bill/3421/titles Text -
-- S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July 25, 2025,
-- https://www.congress.gov/bill/118th-congress/senate-bill/560/text Fact Sheet:
-- President Donald J. Trump Signs GENIUS Act into Law - The White House, accessed
-- July 25, 2025,
-- https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/
-- Congress Passes GENIUS Act: Landmark Framework for Payment ..., accessed July
-- 25, 2025,
-- https://www.pillsburylaw.com/en/news-and-insights/congress-genius-act-framework-stablecoin-digital-asset-regulation-us.html
-- EU AI Act: first regulation on artificial intelligence | Topics - European
-- Parliament, accessed July 25, 2025,
-- https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence
-- AI Act | Shaping Europe's digital future, accessed July 25, 2025,
-- https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai EU
-- Artificial Intelligence Act | Up-to-date developments and ..., accessed July 25,
-- 2025, https://artificialintelligenceact.eu/ The EU's Digital Services Act -
-- European Commission, accessed July 25, 2025,
-- https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en
-- Digital Services Act - Wikipedia, accessed July 25, 2025,
-- https://en.wikipedia.org/wiki/Digital_Services_Act A guide to the Digital
-- Services Act, the EU's new law to rein in Big Tech - AlgorithmWatch, accessed
-- July 25, 2025, https://algorithmwatch.org/en/dsa-explained/ The Digital Service
-- Act: Overview and Key Obligations - WILLIAM FRY, accessed July 25, 2025,
-- https://www.williamfry.com/knowledge/the-digital-service-act-overview-and-key-obligations/
-- Unpacking the EU Digital Services Act (DSA) - ADF International, accessed July
-- 25, 2025, https://adfinternational.org/article/digital-services-act-unpacked
-- Subpoena Defense Resources | Electronic Frontier Foundation, accessed July 25,
-- 2025, https://www.eff.org/issues/file-sharing/subpoena-defense Rule 45. Subpoena
-- | Federal Rules of Civil Procedure | US Law - Law.Cornell.Edu, accessed July 25,
-- 2025, https://www.law.cornell.edu/rules/frcp/rule_45 100 Mile Border Zone |
-- American Civil Liberties Union, accessed July 25, 2025,
-- https://www.aclu.org/know-your-rights/border-zone Can Border Agents Search Your
-- Electronic Devices? It's ..., accessed July 25, 2025,
-- https://www.aclutx.org/en/news/can-border-agents-search-your-electronic-devices-its-complicated
-- Legal Victories | Electronic Frontier Foundation, accessed July 25, 2025,
-- https://www.eff.org/legal-victories Know Your Rights | Electronic Frontier
-- Foundation, accessed July 25, 2025, https://www.eff.org/issues/know-your-rights
-- Privacy & Technology | American Civil Liberties Union, accessed July 25, 2025,
-- https://www.aclu.org/issues/privacy-technology Internet Privacy | American Civil
-- Liberties Union, accessed July 25, 2025,
-- https://www.aclu.org/issues/privacy-technology/internet-privacy Mass
-- Surveillance - Privacy International, accessed July 25, 2025,
-- https://privacyinternational.org/learn/mass-surveillance Privacy International -
-- Wikipedia, accessed July 25, 2025,
-- https://en.wikipedia.org/wiki/Privacy_International Privacy International's
-- submission to the UN High Commissioner for Human Rights' report on the practical
-- application of the - ohchr, accessed July 25, 2025,
-- https://www.ohchr.org/sites/default/files/2022-03/PrivacyInternational.pdf
-- www.google.com, accessed July 25, 2025,
-- https://www.google.com/search?q=list+of+digital+rights+organizations+worldwide
-- Partners directory - Tactical Tech, accessed July 25, 2025,
-- https://tacticaltech.org/partners/ The Whistleblower Protection Programs |
-- Whistleblower Protection ..., accessed July 25, 2025,
-- https://www.whistleblowers.gov/ Department of Defense > Whistleblower and DoD
-- Hotline > Cash Awards Program, accessed July 25, 2025,
-- https://www.dodig.mil/Whistleblower-and-DoD-Hotline/Cash-Awards-Program/ Probono
-- Legal Technology Services - Connecting Justice Communities, accessed July 25,
-- 2025, https://www.connectingjusticecommunities.com/about/ What We Do - Pro Bono
-- Net, accessed July 25, 2025, https://www.probono.net/our-work/ IP Law Clinic |
-- Law School | Baylor University, accessed July 25, 2025,
-- https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
 
 ## Wave 5: Cognitive Security & Influence Defense
 
@@ -6283,3 +6194,92 @@ DARPA selects Microsoft to continue the development of a utility-scale quantum c
 When a Quantum Computer Is Able to Break Our Encryption, It Won't Be a Secret | Lawfare, accessed July 25, 2025, https://www.lawfaremedia.org/article/when-a-quantum-computer-is-able-to-break-our-encryption-it-wont-be-a-secret
 Privacy advocates cry foul after WEF publishes plans for personal ..., accessed July 25, 2025, https://www.311institute.com/privacy-advocates-cry-foul-after-wef-publishes-plans-for-personal-carbon-credits/
 National Quantum Initiative, accessed July 25, 2025, https://www.quantum.gov/
+## References
+
+- Van Buren v. United States - Ballotpedia, accessed July 25, 2025,
+- https://ballotpedia.org/Van_Buren_v._United_States Van Buren v. United States -
+- Epic.org, accessed July 25, 2025,
+- https://epic.org/documents/van-buren-v-united-states/ Diverse six-justice
+- majority rejects broad reading of computer-fraud ..., accessed July 25, 2025,
+- https://www.scotusblog.com/2021/06/diverse-six-justice-majority-rejects-broad-reading-of-computer-fraud-law/
+- How the Schrems II Decision Changed Privacy Law - TrustArc, accessed July 25,
+- 2025, https://trustarc.com/resource/schrems-ii-decision-changed-privacy-law/ The
+- CJEU Judgement in the Schrems II Case - European Parliament, accessed July 25,
+- 2025,
+- https://www.europarl.europa.eu/RegData/etudes/ATAG/2020/652073/EPRS_ATA(2020)652073_EN.pdf
+- Schrems II and Beyond: EU-US International Data Transfers - Cookiebot, accessed
+- July 25, 2025, https://www.cookiebot.com/en/schrems-ii-privacy-shield/ Riley v.
+- California | EBSCO Research Starters, accessed July 25, 2025,
+- https://www.ebsco.com/research-starters/law/riley-v-california Riley v.
+- California - Epic.org, accessed July 25, 2025,
+- https://epic.org/documents/riley-v-california-2/ Riley v. California | Oyez,
+- accessed July 25, 2025, https://www.oyez.org/cases/2013/13-132 Kyllo v. United
+- States - UMKC School of Law, accessed July 25, 2025,
+- https://law2.umkc.edu/faculty/projects/ftrials/conlaw/kyllo.htm Kyllo v. United
+- States | Oyez, accessed July 25, 2025, https://www.oyez.org/cases/2000/99-8508
+- Titles - S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July
+- 25, 2025, https://www.congress.gov/bill/118th-congress/senate-bill/560/titles
+- Actions - S.299 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
+- 2025, https://www.congress.gov/bill/117th-congress/senate-bill/299/all-actions
+- Titles - H.R.3421 - 117th Congress (2021-2022): SAFE TECH Act, accessed July 25,
+- 2025, https://www.congress.gov/bill/117th-congress/house-bill/3421/titles Text -
+- S.560 - 118th Congress (2023-2024): SAFE TECH Act ..., accessed July 25, 2025,
+- https://www.congress.gov/bill/118th-congress/senate-bill/560/text Fact Sheet:
+- President Donald J. Trump Signs GENIUS Act into Law - The White House, accessed
+- July 25, 2025,
+- https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/
+- Congress Passes GENIUS Act: Landmark Framework for Payment ..., accessed July
+- 25, 2025,
+- https://www.pillsburylaw.com/en/news-and-insights/congress-genius-act-framework-stablecoin-digital-asset-regulation-us.html
+- EU AI Act: first regulation on artificial intelligence | Topics - European
+- Parliament, accessed July 25, 2025,
+- https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence
+- AI Act | Shaping Europe's digital future, accessed July 25, 2025,
+- https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai EU
+- Artificial Intelligence Act | Up-to-date developments and ..., accessed July 25,
+- 2025, https://artificialintelligenceact.eu/ The EU's Digital Services Act -
+- European Commission, accessed July 25, 2025,
+- https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en
+- Digital Services Act - Wikipedia, accessed July 25, 2025,
+- https://en.wikipedia.org/wiki/Digital_Services_Act A guide to the Digital
+- Services Act, the EU's new law to rein in Big Tech - AlgorithmWatch, accessed
+- July 25, 2025, https://algorithmwatch.org/en/dsa-explained/ The Digital Service
+- Act: Overview and Key Obligations - WILLIAM FRY, accessed July 25, 2025,
+- https://www.williamfry.com/knowledge/the-digital-service-act-overview-and-key-obligations/
+- Unpacking the EU Digital Services Act (DSA) - ADF International, accessed July
+- 25, 2025, https://adfinternational.org/article/digital-services-act-unpacked
+- Subpoena Defense Resources | Electronic Frontier Foundation, accessed July 25,
+- 2025, https://www.eff.org/issues/file-sharing/subpoena-defense Rule 45. Subpoena
+- | Federal Rules of Civil Procedure | US Law - Law.Cornell.Edu, accessed July 25,
+- 2025, https://www.law.cornell.edu/rules/frcp/rule_45 100 Mile Border Zone |
+- American Civil Liberties Union, accessed July 25, 2025,
+- https://www.aclu.org/know-your-rights/border-zone Can Border Agents Search Your
+- Electronic Devices? It's ..., accessed July 25, 2025,
+- https://www.aclutx.org/en/news/can-border-agents-search-your-electronic-devices-its-complicated
+- Legal Victories | Electronic Frontier Foundation, accessed July 25, 2025,
+- https://www.eff.org/legal-victories Know Your Rights | Electronic Frontier
+- Foundation, accessed July 25, 2025, https://www.eff.org/issues/know-your-rights
+- Privacy & Technology | American Civil Liberties Union, accessed July 25, 2025,
+- https://www.aclu.org/issues/privacy-technology Internet Privacy | American Civil
+- Liberties Union, accessed July 25, 2025,
+- https://www.aclu.org/issues/privacy-technology/internet-privacy Mass
+- Surveillance - Privacy International, accessed July 25, 2025,
+- https://privacyinternational.org/learn/mass-surveillance Privacy International -
+- Wikipedia, accessed July 25, 2025,
+- https://en.wikipedia.org/wiki/Privacy_International Privacy International's
+- submission to the UN High Commissioner for Human Rights' report on the practical
+- application of the - ohchr, accessed July 25, 2025,
+- https://www.ohchr.org/sites/default/files/2022-03/PrivacyInternational.pdf
+- www.google.com, accessed July 25, 2025,
+- https://www.google.com/search?q=list+of+digital+rights+organizations+worldwide
+- Partners directory - Tactical Tech, accessed July 25, 2025,
+- https://tacticaltech.org/partners/ The Whistleblower Protection Programs |
+- Whistleblower Protection ..., accessed July 25, 2025,
+- https://www.whistleblowers.gov/ Department of Defense > Whistleblower and DoD
+- Hotline > Cash Awards Program, accessed July 25, 2025,
+- https://www.dodig.mil/Whistleblower-and-DoD-Hotline/Cash-Awards-Program/ Probono
+- Legal Technology Services - Connecting Justice Communities, accessed July 25,
+- 2025, https://www.connectingjusticecommunities.com/about/ What We Do - Pro Bono
+- Net, accessed July 25, 2025, https://www.probono.net/our-work/ IP Law Clinic |
+- Law School | Baylor University, accessed July 25, 2025,
+- https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
