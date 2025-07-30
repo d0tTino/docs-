@@ -15,6 +15,7 @@ updated: 2025-07-28
 - [Wave 3: Decentralized Infrastructure](#wave-3-decentralized-infrastructure)
 - [Wave 4: Hands-On Hardening](#wave-4-hands-on-hardening)
 - [Wave 4: Reconnaissance & Open-Source Intelligence](#wave-4-reconnaissance--open-source-intelligence)
+- [Wave 4: Money & Autonomy](wave4-money-autonomy.md)
 - [Wave 5: Cognitive Security & Influence Defense](#wave-5-cognitive-security--influence-defense)
 - [Wave 6: Futures](#wave-6-futures)
 - [Wave 7: The Cyberpunk Mind](#wave-7-the-cyberpunk-mind)
