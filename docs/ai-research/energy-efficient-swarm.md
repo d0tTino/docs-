@@ -4,6 +4,7 @@ tags: [ai-research, llm, energy, multi-agent]
 project: ai-research
 updated: 2025-07-28
 ---
+
 # The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs
 
 ## Section 1: The Foundation - Model Quantization for VRAM-Constrained Environments
@@ -303,7 +304,7 @@ and returns the result. Result Publication: The agent node receives the response
 graph's final state, and the graph execution concludes. The scheduler service then publishes the
 final result to an output topic, e.g., results.completed. Pseudocode for the LangGraph Router:
 
-``` python
+```python
 from typing import TypedDict, Annotated, Literal
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
@@ -363,7 +364,6 @@ app = workflow.compile()
 
 # The NATS subscriber would then call app.invoke(...)
 ```
-
 
 ## Section 4: The Power Profile - Achieving Sub-220W Operation
 
@@ -469,7 +469,7 @@ reproducibility and eliminate dependency conflicts, the entire stack is defined 
 docker-compose.yml file. This allows the complete environment to be instantiated with a single
 docker compose up command. \# docker-compose.yml configuration
 
-``` yaml
+```yaml
 # docker-compose.yml
 # A reproducible runtime stack for a multi-agent, multi-LLM system.
 

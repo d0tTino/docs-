@@ -81,6 +81,7 @@ scripts/setup_hooks.sh
 The hooks enforce Markdown linting with `pre-commit`.
 
 ## Building the Docs
+
 Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs, pytest, flake8) install consistently, then launch the dev server:
 
 ```bash
