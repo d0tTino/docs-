@@ -110,13 +110,15 @@ scripts/setup_hooks.sh
 
 ## Running Tests
 
-Before running the test suite, install the project's Python dependencies:
+Install all Python dependencies **before** running the test suite:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Once dependencies are installed, verify the environment by executing the tests:
+The tests rely on the packages listed in `requirements.txt`, such as
+`markdown`. If you encounter an import error for `markdown`, ensure the
+dependencies were installed correctly.
 
 ```bash
 pytest
