@@ -1,20 +1,21 @@
-# Local Docker Build
+# Local Build
 
-Follow these steps to build and preview the documentation site inside a container.
+This repository no longer provides a Dockerfile. Instead you can run MkDocs
+directly after installing the Python dependencies.
 
-1. Ensure Docker is installed on your system.
-2. Build the image from the repository root:
-
-   ```bash
-   docker build -t docs-site -f Dockerfile .
-   ```
-
-3. Run the container and expose port 8000:
+1. Ensure Python 3.11 or higher is available on your system.
+2. Install the required packages:
 
    ```bash
-   docker run --rm -p 8000:8000 docs-site
+   pip install -r requirements.txt
    ```
 
-4. Open `http://localhost:8000` to preview the site served by MkDocs.
+3. Launch the development server:
 
-The Dockerfile installs dependencies and invokes `mkdocs serve` so you can iterate locally without affecting your host environment.
+   ```bash
+   mkdocs serve
+   ```
+
+4. Open `http://127.0.0.1:8000` to preview the site.
+
+Running MkDocs locally mirrors the commands used in the CI workflow.
