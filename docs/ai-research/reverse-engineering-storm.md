@@ -366,6 +366,7 @@ This decoupled architecture ensures that the proprietary "open-core" features (e
 This subsection provides language-agnostic pseudocode for the most critical algorithms, derived from the analysis of the research papers. This serves as the primary specification for the clean-room development team.
 
 # 7.3.1 Perspective Generation Algorithm
+
 ```pseudo
 FUNCTION generate_perspectives(topic):
   // Step 1: Get related topics from LLM
@@ -391,6 +392,7 @@ FUNCTION generate_perspectives(topic):
 ```
 
 # 7.3.2 Co-STORM Discourse Management Loop
+
 ```pseudo
 FUNCTION run_costorm_discourse(topic, user_goal):
   // Initialization
@@ -581,6 +583,7 @@ Export to Sheets
 This appendix contains the complete, language-agnostic pseudocode for the core algorithms, serving as the clean-room specification for developers.
 
 # 10.2.1 Full STORM-Wiki Pipeline Algorithm
+
 ```pseudo
 FUNCTION run_storm_wiki_pipeline(topic, user_goal):
   // Phase 1: Knowledge Curation via Simulated Conversation
@@ -640,6 +643,7 @@ FUNCTION run_storm_wiki_pipeline(topic, user_goal):
 This is a collection of key prompt templates that define the behavior of the LLM agents. They are presented here in a generalized format.
 
 # 10.3.1 Perspective Generation Prompt
+
 ```
 You are an expert Wikipedia editor. You are tasked with brainstorming perspectives for a new article on the topic: "{topic}".
 Based on the tables of contents from related articles provided below, identify 5 diverse and comprehensive perspectives. A perspective should be a short phrase describing a specific focus or angle for research.
@@ -656,6 +660,7 @@ Based on the tables of contents from related articles provided below, identify 5
 ```
 
 # 10.3.2 Conversational Writer (Question Asker) Prompt
+
 ```
 You are an experienced Wikipedia writer with a specific focus when researching the topic. Your goal is to ask good questions to an expert to gather useful information for your article.
 Only ask one question at a time. Do not repeat questions from the conversation history.
@@ -668,6 +673,7 @@ Your specific perspective: {perspective}
 ```
 
 # 10.3.3 Grounded Expert (Answer Generator) Prompt
+
 ```
 You are a topic expert. Answer the user's question based *only* on the provided search results. Synthesize the information into a coherent answer. Make sure every sentence is supported by the gathered information. Cite the sources using the format.
 
@@ -679,6 +685,7 @@ You are a topic expert. Answer the user's question based *only* on the provided 
 ```
 
 # 10.3.4 Co-STORM Moderator Prompt
+
 ```
 You are a moderator for a discussion about the topic: "{topic}". Your role is to keep the conversation engaging and comprehensive.
 The following information has been retrieved from a search but has not yet been discussed by the experts.
