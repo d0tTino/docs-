@@ -1,3 +1,10 @@
+---
+title: "Tino Docs Hub"
+tags: [docs]
+project: docs-hub
+updated: 2025-07-29
+---
+
 # Tino Docs Hub
 
 This repository aggregates documentation and research across multiple projects.
