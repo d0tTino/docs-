@@ -400,241 +400,182 @@ Maintain secure, offline, and geographically distributed backups of all critical
 
 numberanalytics.com
 The Evolution of Cyberpunk - Number Analytics
-Opens in a new window
 
 gamefaqs.gamespot.com
 Is Cyberpunk lore based straight off of Neuromancer? (Book & game spoilers) - GameFAQs
-Opens in a new window
 
 lysator.liu.se
 ice - Lysator
-Opens in a new window
 
 reddit.com
 So, what's the significance of ice? : r/cyberpunkgame - Reddit
-Opens in a new window
 
 reddit.com
 How do I play a Netrunner : r/cyberpunk2020 - Reddit
-Opens in a new window
 
 altchar.com
 Cyberpunk 2077 stepped away from Neuromancer Netrunning - AltChar
-Opens in a new window
 
 youtube.com
 Cyberpunk 2077 - NetWatch EXPLAINED under 3 minutes - YouTube
-Opens in a new window
 
 reddit.com
 Reading Neuromancer and Count Zero made me realize what this game could have been : r/cyberpunkgame - Reddit
-Opens in a new window
 
 youtube.com
 Neuromancer: The Origin of Cyberpunk | A Horrifying Dystopia - YouTube
-Opens in a new window
 
 youtube.com
 Cyberpunk 2077 - Braindance & Its History! (Lore!) - YouTube
-Opens in a new window
 
 youtube.com
 What is Cyberpunk 2077 Braindance & How Is It Used? Cyberpunk Lore (Cyberpunk Braindance) - YouTube
-Opens in a new window
 
 youtube.com
 All Objectives In Evelyn Parker's Braindance | The Information Main Quest | Cyberpunk 2077
-Opens in a new window
 
 youtube.com
 Everything You Need to Know About Braindance! Lore Dive! - YouTube
-Opens in a new window
 
 reddit.com
 So how do Quickhack builds work in lore? : r/cyberpunkgame - Reddit
-Opens in a new window
 
 Real‑World Cyberpunk Manifesto — Wave 1: Foundations
 
 scribd.com
 Netrunner Quick 1 Page Guide - Cyberpunk 2020 | PDF - Scribd
-Opens in a new window
 
 cyberpunk2077.wiki.fextralife.com
 Quickhacks | Cyberpunk 2077 Wiki - FextraLife
-Opens in a new window
 
 netrunner-2077.webflow.io
 Cyberpunk 2077 Lore: Braindance - NETRUNNER 2077
-Opens in a new window
 
 en.wikipedia.org
 Intrusion Countermeasures Electronics - Wikipedia
-Opens in a new window
 
 usa.kaspersky.com
 The Hacker's Toolkit according to Cyberpunk 2020 | Kaspersky ...
-Opens in a new window
 
 reddit.com
 Red vs 2020 Netrunning : r/cyberpunk2020 - Reddit
-Opens in a new window
 
 youtube.com
 Everything You Need to Know About the Blackwall and DataKrash | Cyberpunk 2077 Lore
-Opens in a new window
 
 youtube.com
 A.I. Caused The Datakrash! [Game Lore & Theories] #cyberpunk2077 #cyberpunk #ps5 #spacejb - YouTube
-Opens in a new window
 
 screenrant.com
 Cyberpunk 2077: Who Rache Bartmoss Really Was - Screen Rant
-Opens in a new window
 
 reddit.com
 How do you picture Netrunning in meat space : r/cyberpunkred - Reddit
-Opens in a new window
 
 reddit.com
 An Argument for Cyberpunk 2020's Netrunning - Try it instead of Red : r/rpg - Reddit
-Opens in a new window
 
 rtalsoriangames.com
 Kitbashing: Netrunning - R. Talsorian Games
-Opens in a new window
 
 reddit.com
 How exactly does "Meatspace" and Netspace interact/how do you describe Netrunning in the narrative? : r/cyberpunkred - Reddit
-Opens in a new window
 
 youtube.com
 Cyberpunk 2077 Lore - The Net, Netrunning Gear & Rache Bartmoss! - YouTube
-Opens in a new window
 
 youtube.com
 Cyberpunk 2077 Lore | Being A Netrunner Within The Cyberpunk Universe - YouTube
-Opens in a new window
 
 youtube.com
 Cyberpunk 2077 prequel 'RED' is Released (First impressions, lore & more) - YouTube
-Opens in a new window
 
 youtube.com
 Netrunner | Cyberpunk 2077 Lore and World Explained - YouTube
-Opens in a new window
 
 en.wikipedia.org
 Neuromancer - Wikipedia
-Opens in a new window
 
 press.cdprojektred.com
 Cyberpunk 2077 - The Board Game Crowdfunding Campaign is Live! - Press Center
-Opens in a new window
 
 en.wikipedia.org
 Cyberpunk 2077 - Wikipedia
-Opens in a new window
 
 en.wikipedia.org
 Cyberpunk (role-playing game) - Wikipedia
-Opens in a new window
 
 reddit.com
 Cyberpunk 2020 and RED : r/cyberpunkgame - Reddit
-Opens in a new window
 
 snort.org
 Snort - Network Intrusion Detection & Prevention System
-Opens in a new window
 
 levelblue.com
 Open Source IDS Tools: Comparing Suricata, Snort, Bro (Zeek), Linux - LevelBlue
-Opens in a new window
 
 suricata.io
 Suricata: Home
-Opens in a new window
 
 stamus-networks.com
 Open Source Intrusion Detection Tools - Stamus Networks
-Opens in a new window
 
 logz.io
 Top 5 open-source HIDS systems - Logz.io
-Opens in a new window
 
 learn.g2.com
 My Top 7 EDR Software Picks After Hours of Research
-Opens in a new window
 
 evolvesecurity.com
 Tools of the Trade: Exploitation and Beyond with Metasploit - Evolve Security
-Opens in a new window
 
 malpedia.caad.fkie.fraunhofer.de
 Cobalt Strike (Malware Family) - Malpedia
-Opens in a new window
 
 thectoclub.com
 25 Best EDR Tools Reviewed in 2025 - The CTO Club
-Opens in a new window
 
 vectra.ai
 What is Cobalt Strike? - Vectra AI
-Opens in a new window
 
 hackviser.com
 Metasploit - Hackviser
-Opens in a new window
 
 imperva.com
 What Is Cobalt Strike | Advanced Threats and Defenses - Imperva
-Opens in a new window
 
 evolvesecurity.com
 SQLmap: Uncovering and Exploiting SQL Injection Vulnerabilities - Evolve Security
-Opens in a new window
 
 malpedia.caad.fkie.fraunhofer.de
 Cobalt Strike (Malware Family) - Malpedia
-Opens in a new window
 
 thectoclub.com
 25 Best EDR Tools Reviewed in 2025 - The CTO Club
-Opens in a new window
 
 vectra.ai
 What is Cobalt Strike? - Vectra AI
-Opens in a new window
 
 hackviser.com
 Metasploit - Hackviser
-Opens in a new window
 
 imperva.com
 What Is Metasploit | Tools & Components Explained - Imperva
-Opens in a new window
 
 attack.mitre.org
 Initial Access, Tactic TA0001 - Enterprise - MITRE ATT&CK®
-Opens in a new window
 
 fluidattacks.com
 What is red teaming? - Fluid Attacks
-Opens in a new window
 
 blog.gitguardian.com
 What are MITRE ATT&CK initial access techniques - GitGuardian Blog
-Opens in a new window
 
 futurelearn.com
 Penetration Testing Execution Standard (PTES) - FutureLearn
-Opens in a new window
 
 kirkpatrickprice.com
 Stages of Penetration Testing According to PTES - KirkpatrickPrice
-Opens in a new window
 
 Cyberpunk Social Engineering, Trust Networks
 
@@ -642,749 +583,563 @@ Cyberpunk Manifesto — Wave 3: Privacy & OPSEC
 
 arxiv.org
 FaultLine: Automated Proof-of-Vulnerability Generation using LLM Agents - arXiv
-Opens in a new window
 
 trendmicro.com
 Trend Micro State of AI Security Report 1H 2025
-Opens in a new window
 
 reddit.com
 Datafortresses and Netrunning; what makes a Datafortress? : r/cyberpunk2020 - Reddit
-Opens in a new window
 
 rtalsoriangames.com
 Cyberpunk - R. Talsorian Games
-Opens in a new window
 
 synack.com
 Red Teaming vs Penetration Testing: Understanding the Differences - Synack
-Opens in a new window
 
 medium.com
 AI-Powered & Automated Vulnerability Discovery: The Future of Pentesting Has Arrived | by Ekene Joseph | Jul, 2025 | Medium
-Opens in a new window
 
 engineering.nyu.edu
 NYU Tandon researchers develop AI agent that solves cybersecurity challenges autonomously
-Opens in a new window
 
 github.com
 OSS-Fuzz - continuous fuzzing for open source software. - GitHub
-Opens in a new window
 
 code-intelligence.com
 Top Fuzz Testing Tools of 2025: Feature Comparison - Code Intelligence
-Opens in a new window
 
 wolfssl.com
 AI-automated fuzz testing uncovered a vulnerability in wolfSSL
-Opens in a new window
 
 blog.shellnetsecurity.com
 Revolutionizing Vulnerability Discovery with AI-Powered Fuzzing
-Opens in a new window
 
 nccgroup.com
 Pentesting V. Red Teaming V. Bug Bounty - NCC Group
-Opens in a new window
 
 edendata.com
 Differentiating a Bug Bounty vs. a Penetration Test - Eden Data
-Opens in a new window
 
 cobalt.io
 Pentesting vs Bug Bounty: Which is Better for Your Company's Security? - Cobalt
-Opens in a new window
 
 github.com
 usb-rubber-ducky · GitHub Topics
-Opens in a new window
 
 eagleeyet.net
 Kali Linux Red vs. Kali Linux Purple: Exploring Offensive and Defensive Cybersecurity
-Opens in a new window
 
 codelivly.com
 Kali Purple: The New Face of Defensive Cybersecurity - Codelivly
-Opens in a new window
 
 linuxsecurity.com
 Parrot OS 6.4 Release Overview: Key Updates and Features for Admins - Linux Security
-Opens in a new window
 
 github.com
 hackrf-wiki/HackRF-One.md at master · dodgymike/hackrf-wiki - GitHub
-Opens in a new window
 
 parrotsec.org
 Parrot 6.4 Release Notes
-Opens in a new window
 
 greatscottgadgets.com
 HackRF One - Great Scott Gadgets
-Opens in a new window
 
 en.wikipedia.org
 Flipper Zero - Wikipedia
-Opens in a new window
 
 cybersectools.com
 Ghidra Software Reverse Engineering Framework | CyberSecTools
-Opens in a new window
 
 en.wikipedia.org
 John the Ripper - Wikipedia
-Opens in a new window
 
 flipperzero.one
 Flipper Zero — Portable Multi-tool Device for Geeks
-Opens in a new window
 
 helpnetsecurity.com
 Ghidra: Open-source software reverse engineering framework - Help Net Security
-Opens in a new window
 
 hackviser.com
 John the Ripper | Hackviser
-Opens in a new window
 
 michigan.gov
 Cyber Snapshot - State of Michigan
-Opens in a new window
 
 varonis.com
 How to Use Ghidra to Reverse Engineer Malware - Varonis
-Opens in a new window
 
 esecurityplanet.com
 John the Ripper: Password Cracking Tutorial and Review - eSecurity Planet
-Opens in a new window
 
 cisa.gov
 sqlmap - CISA
-Opens in a new window
 
 kali.org
 sqlmap | Kali Linux Tools
-Opens in a new window
 
 evolvesecurity.com
 SQLmap: Uncovering and Exploiting SQL Injection Vulnerabilities - Evolve Security
-Opens in a new window
 
 redcanary.com
 BloodHound - Red Canary Threat Detection Report
-Opens in a new window
 
 bloodhound.readthedocs.io
 BloodHound: Six Degrees of Domain Admin — BloodHound 4.3.1 documentation
-Opens in a new window
 
 cyberpanel.net
 BlackArch Linux Download & Install Guide (Security Distro) - CyberPanel
-Opens in a new window
 
 blog.netwrix.com
 Finding Abusable Active Directory Permissions with BloodHound - Netwrix Blog
-Opens in a new window
 
 blackarch.org
 Download BlackArch
-Opens in a new window
 
 kali.org
 dirb | Kali Linux Tools
-Opens in a new window
 
 kali.org
 gobuster | Kali Linux Tools
-Opens in a new window
 
 hackertarget.com
 Gobuster tutorial - HackerTarget.com
-Opens in a new window
 
 en.wikipedia.org
 Computer Misuse Act 1990 - Wikipedia
-Opens in a new window
 
 termsfeed.com
 Computer Misuse Act 1990 - TermsFeed
-Opens in a new window
 
 ikandp.co.uk
 Computer Misuse Act Offences
-Opens in a new window
 
 vaia.com
 Computer Misuse Act: Summary & Examples - Vaia
-Opens in a new window
 
 freeprivacypolicy.com
 The Computer Misuse Act 1990 - Free Privacy Policy
-Opens in a new window
 
 gdpr-info.eu
 Art. 32 GDPR – Security of processing - General Data Protection Regulation (GDPR)
-Opens in a new window
 
 imperva.com
 GDPR Article 32 | Imperva
-Opens in a new window
 
 wileyconnect.com
 Federal Cybersecurity Policy in 2025: What to Watch in Changing Times - Wiley Connect
-Opens in a new window
 
 docs.alertlogic.com
 GDPR Article 32: Security of Processing - Alert Logic Product Documentation
-Opens in a new window
 
 Real-World Cyberpunk Manifesto — Wave 4: Reconnaissance & Open-Source Intelligence
 
 youtube.com
 Living off Microsoft Copilot - YouTube
-Opens in a new window
 
 algorithmwatch.org
 A guide to the Digital Services Act, the EU's new law to rein in Big Tech - AlgorithmWatch
-Opens in a new window
 
 ec.europa.eu
 Questions and answers on the Digital Services Act* - European Commission
-Opens in a new window
 
 adfinternational.org
 Unpacking the EU Digital Services Act (DSA) - ADF International
-Opens in a new window
 
 researchgate.net
 A Quantum-Resistant Cryptography for Secure IoT Communication Using Novel QRC_BIKAES Framework - ResearchGate
-Opens in a new window
 
 blumenthal.senate.gov
 Kids Online Safety Act (KOSA) - Senator Richard Blumenthal
-Opens in a new window
 
 brookings.edu
 Children's online safety laws are failing LGBTQ+ youth - Brookings Institution
-Opens in a new window
 
 eff.org
 The Kids Online Safety Act Will Make the Internet Worse for Everyone
-Opens in a new window
 
 transformativeworks.org
 KOSA and Other Bad Internet Bills | Organization for Transformative Works
-Opens in a new window
 
 en.wikipedia.org
 Kids Online Safety Act - Wikipedia
-Opens in a new window
 
 tryhackme.com
 Simple CTF - TryHackMe
-Opens in a new window
 
 academy.hackthebox.com
 HTB Academy: Best Online Cybersecurity Courses & Certifications
-Opens in a new window
 
 youtube.com
 VLAN Setup from Scratch: OPNsense + Proxmox + Switch (Complete Guide) - YouTube
-Opens in a new window
 
 molware.org
 Proxmox Homelab | m0lware Cybersecurity Blog
-Opens in a new window
 
 medium.com
 Homelab learning: Configuring pfSense in Proxmox VE for isolation and traffic routing
-Opens in a new window
 
 reddit.com
 How to setup Proxmox with pfSense & VLAN´s - Reddit
-Opens in a new window
 
 openkritis.de
 NIS2 in Germany (NIS2UmsuCG) - OpenKRITIS
-Opens in a new window
 
 benheater.com
 Create a pfSense Firewall for Our Proxmox Lab - 0xBEN
-Opens in a new window
 
 forum.proxmox.com
 [SOLVED] - Setup a Lab-LAN within Proxmox
-Opens in a new window
 
 techradar.com
 The EU could be scanning your chats by October 2025 – here's everything we know
-Opens in a new window
 
 technologylawdispatch.com
 Germany's government plans to introduce a statutory 'right to encryption' for users of messaging and cloud storage services | Technology Law Dispatch
-Opens in a new window
 
 cov.com
 Brazil's Supreme Court to Strike Down Internet Governance Safe Harbor Clause
-Opens in a new window
 
 asiapacific.ca
 Japan's New Cybersecurity Law Signals More Offensive Posture
-Opens in a new window
 
 japantimes.co.jp
 Japan enacts active cyberdefense law
-Opens in a new window
 
 centerforcybersecuritypolicy.org
 Japan's new Active Cyber Defense Law: A Strategic Evolution in National Cybersecurity
-Opens in a new window
 
 cgs.illinois.edu
 Webinar Recording: Kainen Bell, "Resisting Digital Surveillance in Brazil: Preliminary Fieldwork on AI and Facial Recognition at Carnaval" | Center for Global Studies | Illinois
-Opens in a new window
 
 eff.org
 Brazil's Internet Intermediary Liability Rules Under Trial: What Are the Risks?
-Opens in a new window
 
 internetsociety.org
 Internet Impact Brief: Proposals to Regulate Digital Platforms In Brazil, Potential Impacts in the Internet
-Opens in a new window
 
 therecord.media
 Japan enacts new Active Cyberdefense Law allowing for offensive cyber operations
-Opens in a new window
 
 cisa.gov
 National Security Memorandum on Critical Infrastructure Security ...
-Opens in a new window
 
 insights2techinfo.com
 Quantum Computing and its Potential Impact on IoT Security
-Opens in a new window
 
 triaxiomsecurity.com
 What is the Penetration Testing Execution Standard? » Triaxiom ...
-Opens in a new window
 
 blogs.nvidia.com
 Discover How AI Is Revolutionizing Cybersecurity at Black Hat and ...
-Opens in a new window
 
 securinc.io
 Differences Between Penetration Testing, Bug Bounty and Red ...
-Opens in a new window
 
 ## Sources read but not used in the report
 
 gamesradar.com
 Best anime: 25 essential shows to watch in 2025 - GamesRadar
-Opens in a new window
 
 en.wikipedia.org
 Cyberpunk - Wikipedia
-Opens in a new window
 
 reddit.com
 Is Netrunner/Android in the same universe as Cyberpunk 2077? - Reddit
-Opens in a new window
 
 twingate.com
 What is an ICE? Origins, Functions & Implementation - Twingate
-Opens in a new window
 
 reddit.com
 What is Netrunning? : r/cyberpunk2020 - Reddit
-Opens in a new window
 
 thegamingden.github.io
 Intrusion Countermeasures - The Ends of The Matrix
-Opens in a new window
 
 youtube.com
 Netrunning Tutorial: Part One | Cyberpunk 2020 - YouTube
-Opens in a new window
 
 youtube.com
 The Netrunning Example | Cyberpunk Red in a Nutshell #8 - YouTube
-Opens in a new window
 
 youtube.com
 Cyberpunk 2077 Lore - Braindance Explained - YouTube
-Opens in a new window
 
 gamefaqs.gamespot.com
 Does uh someone want to explain how quickhacks work? - Cyberpunk 2077 - GameFAQs
-Opens in a new window
 
 steamcommunity.com
 Explain Cyberware to Me, Please :: Cyberpunk 2077 Genel Tartışmalar - Steam Community
-Opens in a new window
 
 reddit.com
 People familiar with Cyberpunk lore, what's the deal with quick hacking? - Reddit
-Opens in a new window
 
 youtube.com
 All Quickhacks Ranked Worst to Best in Cyberpunk 2077 2.3 - YouTube
-Opens in a new window
 
 store.steampowered.com
 Cyberpunk 2077 on Steam
-Opens in a new window
 
 blog.playstation.com
 PlayStation Plus Game Catalog for July: Cyberpunk 2077, Abiotic Factor, Banishers: Ghosts of New Eden and more
-Opens in a new window
 
 realmedia.ucsf.edu
 Cyberpunk Release Date - Media Innovation Hub
-Opens in a new window
 
 steamcommunity.com
 Netrunning seems like the worst job :: Cyberpunk 2077 Story Discussions [SPOILERS]
-Opens in a new window
 
 youtube.com
 Discusssing Cyberpunk 2020 Conversions & Netrunners With James Hutt - YouTube
-Opens in a new window
 
 youtube.com
 Datakrash Mastermind & Legend - Rache Bartmoss | Cyberpunk Lore - YouTube
-Opens in a new window
 
 dicebreaker.com
 Cyberpunk Red RPG has a release date and price, launching alongside Cyberpunk 2077 | Dicebreaker
-Opens in a new window
 
 youtube.com
 The Netrunner : Role Breakdown Episode 8 For Cyberpunk Red And 2020. - YouTube
-Opens in a new window
 
 reddit.com
 Can we make canon that "DataKrash" is now "Dead Internet Theory"? - Reddit
-Opens in a new window
 
 dicebreaker.com
 Cyberpunk Red RPG rulebook gets a tentative new release date - Dicebreaker
-Opens in a new window
 
 m.youtube.com
 The Man Who Destroyed the Internet: Rache Bartmoss | Cyberpunk Lore - YouTube
-Opens in a new window
 
 pcgamesn.com
 Cyberpunk 2077 gets a tabletop prequel this August - PCGamesN
-Opens in a new window
 
 enworld.org
 Cyberpunk Red Review (It's Only Three Years Old) - EN World
-Opens in a new window
 
 theguardian.com
 Cyberpunk 2077: how 2020's biggest video game launch turned into a shambles
-Opens in a new window
 
 goodreads.com
 Neuromancer by William Gibson | Goodreads
-Opens in a new window
 
 simple.wikipedia.org
 Neuromancer - Simple English Wikipedia, the free encyclopedia
-Opens in a new window
 
 shakespeareandcompany.com
 Neuromancer by William Gibson | Shakespeare & Company
-Opens in a new window
 
 elitistbookreviews.com
 Review: Neuromancer by William Gibson - Elitist Book Reviews
-Opens in a new window
 
 dicebreaker.com
 Cyberpunk Red RPG release date delayed after coronavirus 'gut punch' | Dicebreaker
-Opens in a new window
 
 m.youtube.com
 Cyberpunk 2077 2.0 - The Speed Daemon Netrunner build (Very Hard) - YouTube
-Opens in a new window
 
 hackthebox.com
 A step-by-step guide to the Metasploit Framework - HackTheBox
-Opens in a new window
 
 cobaltstrike.com
 Features | Beacon, C2 Profiles, Arsenal Kit, and More | Cobalt Strike
-Opens in a new window
 
 docs.rapid7.com
 About Post-Exploitation | Metasploit Documentation - Docs | © Rapid7
-Opens in a new window
 
 cloud.google.com
 Defining Cobalt Strike Components & BEACON | Google Cloud Blog
-Opens in a new window
 
 offsec.com
 Post Module Reference - Metasploit Unleashed - OffSec
-Opens in a new window
 
 youtube.com
 Netrunning: Basic and Advanced Tactics For Cyberpunk Red ...
-Opens in a new window
 
 mindpointgroup.com
 Social Engineering: Open-Source Intelligence (OSINT) - MindPoint Group
-Opens in a new window
 
 webasha.com
 Essential Tools and Technologies Every Penetration Tester Should Master for Effective Security Assessments | Comprehensive Guide
-Opens in a new window
 
 mindgard.ai
 Red Team Operations: 5 Phases of Engagement - Mindgard AI
-Opens in a new window
 
 lockheedmartin.com
 Cyber Kill Chain® | Lockheed Martin
-Opens in a new window
 
 bluevoyant.com
 Penetration Testing: Complete Guide to Process, Types, and Tools - BlueVoyant
-Opens in a new window
 
 corelight.com
 What Is the Cyber Kill Chain? (7 Steps + How to Improve) | Corelight
-Opens in a new window
 
 redcanary.com
 Initial Access | Red Canary Threat Detection Report
-Opens in a new window
 
 securityboulevard.com
 The Five Stages of the Red Team Methodology - Security Boulevard
-Opens in a new window
 
 strikegraph.com
 Penetration Testing: Phases, Steps, Timeline & AI Streamlining - Strike Graph
-Opens in a new window
 
 fortra.com
 Learn the Cyber Kill Chain. Stage One: Reconnaissance | Fortra
-Opens in a new window
 
 manageengine.com
 Initial access techniques and mitigation - ManageEngine
-Opens in a new window
 
 datami.ee
 Penetration Testing Execution Standard: 7 PTES Stages – Datami
-Opens in a new window
 
 qualysec.com
 Penetration Testing Execution Standard (PTES) – 2025 Guide - Qualysec
-Opens in a new window
 
 scribd.com
 Cyberpunk 2020 - Datafortress 2020 - GM Screen Elite Edition - Scribd
-Opens in a new window
 
 wjarr.com
 Automated security testing in DevSecOps pipelines: Integrating AI-based vulnerability discovery and compliance validation - World Journal of Advanced Research and Reviews
-Opens in a new window
 
 m.youtube.com
 Netrunning Tutorial Pt 1 Data Fortresses - YouTube
-Opens in a new window
 
 writeups.letsyouandhimfight.com
 Cyberpunk 2020 by SirPhoebos - RPG Writeups
-Opens in a new window
 
 blackfog.com
 Understanding the Biggest AI Security Vulnerabilities of 2025 | BlackFog
-Opens in a new window
 
 mindgard.ai
 31 Best Tools for Red Teaming (2025): Mitigating Bias, AI Vulnerabilities - Mindgard
-Opens in a new window
 
 rtalsoriangames.com
 Unlocking Datafortress 2020: The Combat Zone - R. Talsorian Games
-Opens in a new window
 
 researchgate.net
 (PDF) AI for Automated Vulnerability Assessment and Patch Management in Cloud Systems
-Opens in a new window
 
 a16z.com
 Next-Gen Pentesting: AI Empowers the Good Guys | Andreessen Horowitz
-Opens in a new window
 
 reddit.com
 What is the difference between Ethical hacking and penetration testing? - Reddit
-Opens in a new window
 
 linuxsecurity.com
 Parrot OS 6.2 Release: New Security Tools and Performance Enhancements
-Opens in a new window
 
 youtube.com
 20 Things You MUST DO After Installing Kali Purple - YouTube
-Opens in a new window
 
 docs.flipper.net
 125 kHz RFID - Flipper Zero - Documentation
-Opens in a new window
 
 distrowatch.com
 BlackArch Linux - DistroWatch.com
-Opens in a new window
 
 quest.com
 Attack Path Management Software | SpecterOps BloodHound Enterprise
-Opens in a new window
 
 sourceforge.net
 BlackArch Linux Reviews in 2025 - SourceForge
-Opens in a new window
 
 legislation.gov.uk
 Computer Misuse Act 1990 - Legislation.gov.uk
-Opens in a new window
 
 globalpolicywatch.com
 U.S. Government Issues Cybersecurity Warning to Critical Infrastructure Operators and Others | Global Policy Watch
-Opens in a new window
 
 bitlyft.com
 Cyber Threats to U.S. Critical Infrastructure: What's Going On and How to Stay Prepared
-Opens in a new window
 
 gibsondunn.com
 U.S. Cybersecurity and Data Privacy Review and Outlook – 2025 - Gibson Dunn
-Opens in a new window
 
 insidegovernmentcontracts.com
 May 2025 Cybersecurity Developments Under the Trump Administration
-Opens in a new window
 
 gdprlocal.com
 GDPR Article 32 Explained
-Opens in a new window
 
 isms.online
 How to Demonstrate Compliance With GDPR Article 32 | ISMS.online
-Opens in a new window
 
 nyujilp.org
 Breaching the Unknown: Five Lessons from GDPR Article 32 Fines - NYU Journal of International Law and Politics
-Opens in a new window
 
 brennancenter.org
 FISA Section 702 Backdoor Searches: Myths and Facts | Brennan Center for Justice
-Opens in a new window
 
 eff.org
 VICTORY! Federal Court (Finally) Rules Backdoor Searches of 702 Data Unconstitutional
-Opens in a new window
 
 digitalcommons.lmunet.edu
 Fourth and Fifth Circuits Split Over Geofencing in Fourth Amendment Interpretation - LMU Institutional Repository
-Opens in a new window
 
 brennancenter.org
 Congress Must Close Backdoor Search Loophole by Requiring Warrant/FISA Title I Order for U.S. Person Queries | Brennan Center for Justice
-Opens in a new window
 
 msba.org
 Exploring the Legal Implications of Geofence Warrants: Insights From United States v. Chatrie | Maryland State Bar Association
-Opens in a new window
 
 brennancenter.org
 What's Next for Reforming Section 702 of the Foreign Intelligence Surveillance Act
-Opens in a new window
 
 harvardlawreview.org
 Much Ado About Geofence Warrants - Harvard Law Review
-Opens in a new window
 
 brennancenter.org
 Vote "YES" on Amendment to Close Backdoor Search Loophole by Requiring Warrant/FISA Title I Order for U.S. Person Queries | Brennan Center for Justice
-Opens in a new window
 
 thefinancialexpress.com.bd
 How social business can power a sustainable future | The Financial Express
-Opens in a new window
 
 commission.europa.eu
 The EU's Digital Services Act - European Commission
-Opens in a new window
 
 daiglelawgroup.com
 Dividing Lines: The Fourth Circuit's Take on Geofence Warrants in United States v. Chatrie Amid Growing Circuit Split
-Opens in a new window
 
 lw.com
 The Digital Services Act: Practical Implications for Online Services and Platforms - Latham & Watkins LLP
-Opens in a new window
 
 scholarship.shu.edu
 The Fifth Circuit's Categorical Ban on Geofence Warrants Amid Broader Trends in State Legislation - eRepository @ Seton Hall
-Opens in a new window
 
 congress.gov
 Geofence Warrants and the Fourth Amendment - Congress.gov
-Opens in a new window
 
 researchgate.net
 Implementation of Quantum Cryptography for Securing IoT Devices - ResearchGate
-Opens in a new window
 
 acyd.fiu.edu
 A Quantum Resistant Security for Resource-Constrained IoT Device Encryption - Analytics for Cyber Defense (ACyD) Lab
-Opens in a new window
 
 pmc.ncbi.nlm.nih.gov
 Secure IoT in the Era of Quantum Computers—Where Are the Bottlenecks? - PMC
-Opens in a new window
 
 brennancenter.org
 Closing Section 702's Front-Door Search Loophole: A Critical Protection for Americans | Brennan Center for Justice
-Opens in a new window
 
 eff.org
 The Kids Online Safety Act is Still A Huge Danger to Our Rights Online
-Opens in a new window
 
 iclg.com
 Data Protection Laws and Regulations Report 2025 Germany - ICLG.com
-Opens in a new window
 
 hoganlovells.com
 The NIS2 Directive in Germany: Looking Ahead - Hogan Lovells
-Opens in a new window
 
 privacymatters.dlapiper.com
 Germany: New government plans to centralize data protection supervision and reduce regulation for small and medium-sized companies | Privacy Matters
-Opens in a new window
 
 cov.com
 Brazil's Digital Policy in 2025: AI, Cloud, Cyber, Data Centers, and Social Media
-Opens in a new window
 
 juncyber.com
 Japan's Cyber Law 2025: A New Direction in Defense
-Opens in a new window
 
 practiceguides.chambers.com
 Cybersecurity 2025 - Japan - Global Practice Guides - Chambers and Partners
-Opens in a new window
 
 freedomhouse.org
 Brazil: Freedom in the World 2025 Country Report
-Opens in a new window
 
