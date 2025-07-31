@@ -511,6 +511,9 @@ Extract Signature and Raw Body: Upon receiving a webhook, extract the Base64-enc
 Perform Cryptographic Verification: Use a standard cryptography library to verify the signature. The signature is an RSA signature using the SHA-256 hash algorithm and PSS padding.
 While the official Wise documentation lacks a Python-specific example for this process 28, the logic can be constructed by combining their description with standard cryptographic practices.
 Python Example: Verifying a Webhook Signature with cryptography
+
+**Warning:** The following public key is **sample data only**. Obtain the real key from Wise before deploying your application. Consider loading the key from a secure environment variable or configuration file instead of hardcoding it.
+
 This example uses FastAPI to define a webhook endpoint and the cryptography library to perform the verification.
 
 ```python
@@ -521,13 +524,15 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding, rsa
 from cryptography.hazmat.primitives import serialization
 from cryptography.exceptions import InvalidSignature
+import os
 
 # --- Configuration ---
 
 # This public key should be securely stored and fetched for the correct environment.
+# Example of loading from an environment variable or configuration file:
+# WISE_SANDBOX_PUBLIC_KEY_PEM = os.getenv("WISE_PUBLIC_KEY_PEM")
 
-# This is a placeholder and MUST be replaced with the actual Wise public key.
-
+# Sample key for demonstration purposes only. Replace with the real Wise key.
 WISE_SANDBOX_PUBLIC_KEY_PEM = """
 -----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA38qV/4sA/4sA/4sA/4sA
