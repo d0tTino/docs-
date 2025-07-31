@@ -75,7 +75,7 @@ git lfs install
 scripts/setup_hooks.sh
 ```
 
-The hooks enforce Markdown linting with `pre-commit`.
+The hooks enforce Markdown and Python linting via the `.githooks/pre-commit` script, which runs `markdownlint-cli` and `flake8`.
 
 ## Building the Docs
 
