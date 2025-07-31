@@ -162,7 +162,7 @@ graph TD
     subgraph Reasoning Engine
         AppServer -- "1. Request(Query, ConversationID)" --> ContextManager
         ContextManager -- "2. Retrieve/Update History" --> DialogueStateDB
-        
+
         subgraph Knowledge & Context Augmentation
             ContextManager -- "3. Is knowledge required?" --> RAG_Service
             RAG_Service -- "4. Similarity Search" --> VectorDB
@@ -232,7 +232,7 @@ The input token is processed only by these k selected experts.
 The final output of the MoE layer is the weighted sum of the outputs from the k active experts, with the weights derived from their softmax scores.
 
 #### 6.1.2. Load Balancing
-A critical challenge in training MoE models is the tendency for the gating network to converge on routing most tokens to a small subset of "favorite" experts, leaving other experts under-trained and wasting model capacity. This is known as routing collapse. To counteract this, an 
+A critical challenge in training MoE models is the tendency for the gating network to converge on routing most tokens to a small subset of "favorite" experts, leaving other experts under-trained and wasting model capacity. This is known as routing collapse. To counteract this, an
 
 auxiliary load balancing loss is added to the model's main loss function during training.
 
@@ -267,7 +267,7 @@ Based on public capabilities of GPT-4 class models.
 The standard self-attention mechanism, with its computational and memory complexity of O(n^2) where n is the sequence length, is a major bottleneck for long context windows. A 32k context window would require computing a 32k x 32k attention matrix, which is computationally prohibitive. To overcome this, the system employs a sparse attention mechanism.
 
 #### 6.2.1. Attention Block Architecture
-Dynamic analysis of memory access patterns during long-context inference reveals non-sequential, block-wise reads. This strongly suggests the use of a block-based sparse attention mechanism rather than simple sliding-window attention. This architecture aligns with recent research such as Mixture of Block Attention (MoBA), which partitions the context into fixed-size blocks. For each query token (or block of query tokens), a lightweight gating mechanism, similar to the MoE router, dynamically selects the most relevant historical key/value blocks to attend to. This allows every token to potentially access information from any part of the long context history, but only computes the expensive attention scores for a small, relevant subset of blocks, reducing the complexity from 
+Dynamic analysis of memory access patterns during long-context inference reveals non-sequential, block-wise reads. This strongly suggests the use of a block-based sparse attention mechanism rather than simple sliding-window attention. This architecture aligns with recent research such as Mixture of Block Attention (MoBA), which partitions the context into fixed-size blocks. For each query token (or block of query tokens), a lightweight gating mechanism, similar to the MoE router, dynamically selects the most relevant historical key/value blocks to attend to. This allows every token to potentially access information from any part of the long context history, but only computes the expensive attention scores for a small, relevant subset of blocks, reducing the complexity from
 
 O(n^2) to closer to O(n * sqrt(n)) or O(n * log n).
 
@@ -303,7 +303,7 @@ Data Ingestion & Indexing (Offline): External documents (e.g., technical documen
 
 Querying (Online): When a user asks a question, the retriever component takes the query text and uses the same embedding model to convert it into a query vector.
 
-Similarity Search: The retriever performs an approximate nearest neighbor (ANN) search in the vector database to find the document chunks whose embeddings are most semantically similar (i.e., closest in vector space) to the query vector. The top 
+Similarity Search: The retriever performs an approximate nearest neighbor (ANN) search in the vector database to find the document chunks whose embeddings are most semantically similar (i.e., closest in vector space) to the query vector. The top
 
 N most relevant chunks are returned.
 
@@ -387,22 +387,22 @@ The architecture will be hardened against the most critical LLM-specific vulnera
 
 OWASP IDVulnerability NameArchitectural Component at RiskProposed Mitigation Strategy
 LLM01Prompt InjectionContext Management Service
-Implement strict separation of trusted system instructions and untrusted user input using templating. Sanitize user inputs to detect and neutralize instruction-like language. Implement privilege control so the LLM cannot access sensitive downstream systems. 
+Implement strict separation of trusted system instructions and untrusted user input using templating. Sanitize user inputs to detect and neutralize instruction-like language. Implement privilege control so the LLM cannot access sensitive downstream systems.
 
 LLM02Insecure Output HandlingApplication Server
-Treat all LLM outputs as untrusted user input. Sanitize and validate all outputs before they are passed to other systems or rendered in a user interface to prevent XSS, CSRF, and other downstream attacks. 
+Treat all LLM outputs as untrusted user input. Sanitize and validate all outputs before they are passed to other systems or rendered in a user interface to prevent XSS, CSRF, and other downstream attacks.
 
 LLM03Training Data PoisoningData Ingestion Pipeline (CT)
-Implement a data supply chain security program. Track data provenance using ML-BOM. Use anomaly detection to filter adversarial or biased data during ingestion. Rigorously vet all third-party data sources. 
+Implement a data supply chain security program. Track data provenance using ML-BOM. Use anomaly detection to filter adversarial or biased data during ingestion. Rigorously vet all third-party data sources.
 
 LLM04Model Denial of ServiceAPI Gateway / App Server
-Implement strict API rate limiting per user/IP. Enforce a maximum input length for prompts to prevent resource exhaustion attacks from exceptionally long and complex queries. Monitor resource utilization for anomalous spikes. 
+Implement strict API rate limiting per user/IP. Enforce a maximum input length for prompts to prevent resource exhaustion attacks from exceptionally long and complex queries. Monitor resource utilization for anomalous spikes.
 
 LLM06Sensitive Information DisclosureAll Components
-Implement aggressive data sanitization and PII detection on all inputs to prevent sensitive data from entering the system. The RAG pipeline must enforce the access controls of the underlying data sources. Fine-tune the model to refuse to discuss or reveal sensitive topics. 
+Implement aggressive data sanitization and PII detection on all inputs to prevent sensitive data from entering the system. The RAG pipeline must enforce the access controls of the underlying data sources. Fine-tune the model to refuse to discuss or reveal sensitive topics.
 
 LLM10Model TheftModel Registry / Inference Server
-Enforce strict access controls on model artifacts. Encrypt model weights at rest and in transit. Implement digital watermarking techniques to trace the origin of leaked models. Secure inference endpoints with robust authentication. 
+Enforce strict access controls on model artifacts. Encrypt model weights at rest and in transit. Implement digital watermarking techniques to trace the origin of leaked models. Secure inference endpoints with robust authentication.
 
 ### 8.2. Mitigation Strategies in Detail
 Prompt Injection (LLM01): This is the most critical vulnerability for LLM applications. The primary defense is to establish a clear trust boundary between the instructions crafted by the developers and the input provided by the user. The Context Management Service is the ideal place to enforce this. It must use a secure templating engine that clearly delineates and escapes user-provided content before concatenating it with the system prompt. Furthermore, the LLM should be granted minimal privileges; it should not have direct access to execute arbitrary code or query sensitive databases. Any actions it requests should be mediated by the Application Server, which can enforce its own access control policies.
@@ -467,10 +467,10 @@ FUNCTION MoE_Layer_Forward(input_tokens, experts, gating_network, k, load_balanc
   // 1. Gating / Routing
   logits = gating_network.forward(input_tokens) // Shape: [num_tokens, N]
   gates = Softmax(logits) // Shape: [num_tokens, N]
-  
+
   // 2. Top-k Selection
   top_k_gates, top_k_indices = TopK(gates, k) // Shapes: [num_tokens, k]
-  
+
   // 3. Load Balancing Loss Calculation (for training)
   tokens_per_expert = CountTokensPerExpert(top_k_indices, N)
   mean_gates_per_expert = Mean(gates, axis=0)
@@ -478,26 +478,26 @@ FUNCTION MoE_Layer_Forward(input_tokens, experts, gating_network, k, load_balanc
 
   // 4. Dispatch to Experts and Combine
   final_output = Zeros(shape=[num_tokens, hidden_dim])
-  
+
   FOR i IN 1..N: // Iterate through each expert
     // Find which tokens were routed to this expert
     token_indices_for_expert_i, gate_values = GetRoutedTokens(i, top_k_indices, top_k_gates)
-    
+
     if IsEmpty(token_indices_for_expert_i):
       continue
-      
+
     // Select the relevant tokens
     expert_input = input_tokens[token_indices_for_expert_i]
-    
+
     // Process tokens through the expert
     expert_output = experts[i].forward(expert_input)
-    
+
     // Weight the expert output by its gate value
     weighted_output = expert_output * gate_values
-    
+
     // Add the weighted output to the final result (scatter operation)
     final_output.scatter_add(token_indices_for_expert_i, weighted_output)
-    
+
   RETURN final_output, load_balancing_loss
 ```
 
@@ -513,11 +513,11 @@ FUNCTION Retrieve_Documents(query_string, embedding_model, vector_db, top_n):
 
   // 1. Embed the query
   query_vector = embedding_model.embed(query_string)
-  
+
   // 2. Perform Similarity Search
   // This is an approximate nearest neighbor (ANN) search
   retrieved_results = vector_db.search(query_vector, k=top_n)
-  
+
   // 3. Extract and Format Documents
   // retrieved_results contains IDs and similarity scores
   document_chunks =
@@ -525,7 +525,7 @@ FUNCTION Retrieve_Documents(query_string, embedding_model, vector_db, top_n):
     document_id = result.id
     document_text = vector_db.getDocumentText(document_id)
     document_chunks.append(document_text)
-    
+
   RETURN document_chunks
 ```
 
@@ -542,22 +542,22 @@ FUNCTION Calculate_DPO_Loss(policy_model, ref_model, prompt, winning_response, l
   // 1. Calculate log probabilities for the winning response
   log_probs_policy_win = policy_model.log_probability(prompt, winning_response)
   log_probs_ref_win = ref_model.log_probability(prompt, winning_response)
-  
+
   // 2. Calculate log probabilities for the losing response
   log_probs_policy_lose = policy_model.log_probability(prompt, losing_response)
   log_probs_ref_lose = ref_model.log_probability(prompt, losing_response)
-  
+
   // 3. Calculate the log probability ratios
   pi_log_ratio_win = log_probs_policy_win - log_probs_ref_win
   pi_log_ratio_lose = log_probs_policy_lose - log_probs_ref_lose
-  
+
   // 4. Calculate the core term of the loss
   logits = pi_log_ratio_win - pi_log_ratio_lose
-  
+
   // 5. Apply the loss function
   // This is equivalent to a logistic loss
   loss = -LogSigmoid(beta * logits)
-  
+
   RETURN loss
 ```
 
