@@ -13,6 +13,7 @@ navigation sidebar.
 
 - [Strategic R&D Roadmap for DeepThought-ReThought](strategic-roadmap-deepthought.md)
 - [Reverse-Engineering OpenAI Codex](reverse-engineering-codex.md)
+- [Reverse-Engineering GPT-o3 Multi-Turn Reasoning](reverse-engineering-gpt-o3.md)
 - [Reverse-Engineering Grok 4 Heavy](reverse-engineering-grok4-heavy.md)
 - [Seed-Factory Feasibility Dossier](seed-factory-feasibility-dossier.md)
 - [Agentic SWE Discontinuity Forecast](agentic-swe-discontinuity-forecast.md)
