@@ -218,6 +218,7 @@ Python Example: Generating a UUID
 import uuid
 ```
 
+```python
 def generate_idempotency_key() -> str:
 """
 Generates a V4 UUID suitable for use as a customerTransactionId.
@@ -252,6 +253,7 @@ idempotency_key = generate_idempotency_key()
 
 transfer_payload = create_transfer_payload(recipient_id=12345, quote_id="some-quote-uuid")
 print(transfer_payload)
+```
 
 ## Comparative Analysis of Idempotency Models
 
@@ -406,7 +408,6 @@ import random
 import logging
 from functools import wraps
 from typing import Callable, Any
-```
 
 import httpx
 
@@ -483,6 +484,7 @@ return response.json()
 # # Handle final failure after all retries
 
 # log_final_failure(e)
+```
 
 ## Asynchronous Status Tracking with Webhooks
 
@@ -519,7 +521,6 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding, rsa
 from cryptography.hazmat.primitives import serialization
 from cryptography.exceptions import InvalidSignature
-```
 
 # --- Configuration ---
 
@@ -601,6 +602,7 @@ new_status = data.get("current_state")
             # ---------------------------
     else:
         logging.info(f"Received non-transfer event: {event_type}")
+```
 
 ### 5.3 Processing the Event Payload
 
