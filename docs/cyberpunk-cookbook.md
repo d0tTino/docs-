@@ -23,6 +23,7 @@ This document is provided for research purposes only and does not constitute leg
 - [Wave 6: Futures](#wave-6-futures)
 - [Wave 7: The Cyberpunk Mind](#wave-7-the-cyberpunk-mind)
 - [Wave 9: Social Engineering & Trust Networks](#wave-9-social-engineering--trust-networks)
+- [Internet Anonymity – Past, Present Crackdowns, and the Cyberpunk Response](internet-anonymity-cyberpunk-response.md)
 - [References](#references)
 
 ## Wave 1: Foundations
