@@ -5,7 +5,8 @@ project: docs-hub
 updated: 2025-07-30
 ---
 
-This document is provided for research purposes only and does not constitute legal or financial advice.
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
 
 # Cyberpunk Cookbook
 
