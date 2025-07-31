@@ -537,7 +537,7 @@ Freelance Crypto Platforms: Pay & Get Paid in Cryptocurrency - Tangem, accessed 
 Crypto Bug Bounties: How to Get Started - Coinmetro, accessed July 25, 2025, https://www.coinmetro.com/learning-lab/crypto-bug-bounties-how-to-get-started
 Everything You Need to Know About Gitcoin, accessed July 25, 2025, https://www.gitcoin.co/blog/everything-you-need-to-know-about-gitcoin
 Integrating Standard Bounties | Gitcoin Blog, accessed July 25, 2025, https://www.gitcoin.co/blog/integrating-standard-bounties
-SkillSwap – App to exchage knowledge, accessed July 25, 2025, http://skill-swap.com/
+SkillSwap – App to exchange knowledge, accessed July 25, 2025, http://skill-swap.com/
 SkillSwap - HackQuest, accessed July 25, 2025, https://www.hackquest.io/projects/skillswap-5a48f85c
 Digital assets | Internal Revenue Service, accessed July 25, 2025, https://www.irs.gov/filing/digital-assets
 How Is Crypto Taxed? (2025) IRS Rules and How to File | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/learn/crypto-taxes-how-to-report/
