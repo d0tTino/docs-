@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-27
 ---
 
+# Strategic R&D Roadmap for the DeepThought-ReThought Initiative
+
 Strategic R&D Roadmap for the DeepThought-ReThought Initiative: A Bayesian
 Synthesis for Maximizing Expected Value
 
