@@ -1,6 +1,7 @@
 ---
 title: "Cyberpunk Cookbook"
 tags: [manifesto, cyberpunk]
+project: docs-hub
 updated: 2025-07-30
 ---
 

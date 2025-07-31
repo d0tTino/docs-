@@ -1,6 +1,7 @@
 ---
 title: "An Audit of an Oracle"
 tags: [kurzweil, futurism]
+project: docs-hub
 updated: 2025-07-28
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Real-World Cyberpunk Manifesto — Wave 4: Money & Autonomy"
 tags: [cyberpunk, finance]
+project: docs-hub
 updated: 2025-07-29
 ---
 

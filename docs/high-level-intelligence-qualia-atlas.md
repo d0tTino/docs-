@@ -1,6 +1,7 @@
 ---
 title: "The High-Level Intelligence Qualia Atlas"
 tags: [research, cognition]
+project: docs-hub
 updated: 2025-07-29
 ---
 

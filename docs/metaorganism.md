@@ -1,6 +1,7 @@
 ---
 title: "The Metaorganism: A New Framework for Organizational Evolution"
 tags: [organizational-theory, research]
+project: docs-hub
 updated: 2025-06-20
 ---
 
