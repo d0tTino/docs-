@@ -81,7 +81,7 @@ Whistleblowing and Accountability: Anonymity is an essential enabler for whistle
 Safety for Marginalized and Vulnerable Groups: For communities facing systemic discrimination or violence, such as LGBTQ+ individuals in parts of the Middle East or ethnic minorities in authoritarian states, anonymous communication is a lifeline. It allows them to build communities, share resources, and access support safely, away from the eyes of hostile authorities or societal groups.
 
 2.2 The Cyberpunk Ethos: The Apostate Technologist
-Within the ideological framework of cyberpunk, anonymity is not merely a defensive shield but an active tool of resistance. This is embodied in the archetype of the "apostate technologist"—an individual with a deep, insider's understanding of technological systems who chooses to reject the agenda of their creators and repurpose that technology for their own ends. This ethos is a direct expression of the core mindsets detailed throughout the 
+Within the ideological framework of cyberpunk, anonymity is not merely a defensive shield but an active tool of resistance. This is embodied in the archetype of the "apostate technologist"—an individual with a deep, insider's understanding of technological systems who chooses to reject the agenda of their creators and repurpose that technology for their own ends. This ethos is a direct expression of the core mindsets detailed throughout the
 
 Real-World Cyberpunk Manifesto series: "Radical Autonomy," "Technical Fluency," and the central praxis of "seizing the masters' technology and turning it against them".
 
