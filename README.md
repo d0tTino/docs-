@@ -108,6 +108,20 @@ Configure git to use the repository's hooks by running the helper script:
 scripts/setup_hooks.sh
 ```
 
+## Running Tests
+
+Before running the test suite, install the project's Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Once dependencies are installed, verify the environment by executing the tests:
+
+```bash
+pytest
+```
+
 ## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
