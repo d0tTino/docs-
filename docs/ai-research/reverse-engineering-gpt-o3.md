@@ -269,7 +269,7 @@ The standard self-attention mechanism, with its computational and memory complex
 #### 6.2.1. Attention Block Architecture
 Dynamic analysis of memory access patterns during long-context inference reveals non-sequential, block-wise reads. This strongly suggests the use of a block-based sparse attention mechanism rather than simple sliding-window attention. This architecture aligns with recent research such as Mixture of Block Attention (MoBA), which partitions the context into fixed-size blocks. For each query token (or block of query tokens), a lightweight gating mechanism, similar to the MoE router, dynamically selects the most relevant historical key/value blocks to attend to. This allows every token to potentially access information from any part of the long context history, but only computes the expensive attention scores for a small, relevant subset of blocks, reducing the complexity from
 
-O(n^2) to closer to O(n * sqrt(n)) or O(n * log n).
+O(n^2) to closer to O(n \* sqrt(n)) or O(n \* log n).
 
 #### 6.2.2. Sparsity Patterns
 The system likely uses a hybrid approach to sparsity, combining fixed, predictable patterns with learned, dynamic ones to optimize for different types of dependencies :
