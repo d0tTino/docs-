@@ -192,352 +192,121 @@ Create Environments that Nurture Diverse Talents: The ultimate goal should not b
 
 Sources used in the report
 
-able.ac
-What is abstract thinking? 10 ideas to improve your skills - able.ac
-
-researchonline.nd.edu.au
-Phenomenology and educational research - ResearchOnline@ND
-
-researchgate.net
-How similar are fluid cognition and general intelligence? A developmental neuroscience perspective on fluid cognition as an aspect of human cognitive ability - ResearchGate
-
-mdpi.com
-Crystallized Intelligence, Fluid Intelligence, and Need for Cognition: Their Longitudinal Relations in Adolescence - MDPI
-
-researchgate.net
-Creativity and Intelligence: Brain Networks That Link and Differentiate the Expression of Genius - ResearchGate
-
-researchgate.net
-Executive Function and Metacognition: Relations and Measure on High Intellectual Ability and Typical Schoolchildren - ResearchGate
-
-ebsco.com
-Ability testing and bias | EBSCO Research Starters
-
-pmc.ncbi.nlm.nih.gov
-Modern Assessments of Intelligence Must Be Fair and Equitable - PMC - PubMed Central
-
-sw.leadershipacademy.nhs.uk
-The ethics of talent management
-
-youtube.com
-How to Live with Gifted Intensity | Intellectual Emotional Social and Sensory - YouTube
-
-reddit.com
-A high IQ can paralyze people with over-analysis sometimes. : r/mensa - Reddit
-
-people.uncw.edu
-Advanced by Design - UNCW Faculty and Staff Web Pages
-
-exceptionalchildren.org
-2024 Initial Practice-Based Professional Preparation Standards | Council for Exceptional Children
-
-reddit.com
-People with an iq of 140+, what does a day in your life look like? : r/Gifted - Reddit
-
-researchgate.net
-(PDF) Relationship between subjective cognitive concerns and objective neurocognitive performance in primary medical versus primary psychiatric populations - ResearchGate
-
-pure.psu.edu
-Relationship between subjective report and objective assessment of neurocognitive functioning in persons with multiple sclerosis - Penn State Research Database
-
-aptitude-test-prep.com
-The Complete Guide for Raven's Advanced Progressive Matrices - Aptitude Test Prep
-
-jobtestprep.com
-Raven's Progressive Matrices Test- Questions & Online Practice - JobTestPrep
-
-expiwell.com
-What is the Experience Sampling Method? The Strategy for Real-Time Data Collection
-
-psychologicalscience.org
-Real-Time Research: How the Experience Sampling Method Is Changing Psychology
-
-dementiainduct.eu
-Experience Sampling Method (ESM) - INDUCT Guidance
-
-biorxiv.org
-Neural correlates differ between crystallized and fluid intelligence in ...
-
-eric.ed.gov
-ED658774 - The Experience of Being Gifted and Talented ... - ERIC
-
-pmc.ncbi.nlm.nih.gov
-The Idiosyncrasy Principle: A New Look at Qualia - PMC
-
-transformationsnetwork.com
-Unexpected Consequences of Growing Up Gifted
-
-researchgate.net
-(PDF) How Metacognition Supports Giftedness in Leadership: A ...
-
-education.udel.edu
-RECOMMENDATIONS FOR TEACHING GIFTED STUDENTS IN ...
-
-udig.com
-Bridging the Gap Between an Idea and Its Impact - UDig
-
-ger.mercy.edu
-What Cognitive Neuroscience Tells Us About Creativity Education: A Literature Review
-
-eis-coaching.com
-High Potentials at the Workplace - Coaching - Beratung - Kommunikation-Kreativität -Trainings -Workshops
-
-researchgate.net
-(PDF) Neurobiology of intelligence: Science and ethics - ResearchGate
-
-decisionneurosciencelab.org
-Dorsolateral prefrontal contributions to human intelligence - Decision Neuroscience Laboratory
-
-pespmc1.vub.ac.be
-Gifted People and their Problems
-
-researchgate.net
-Overexcitabilities and Psychological Issues among Gifted Learners at Higher Education Level - ResearchGate
-
-positivedisintegration.com
-The Impact of Giftedness on Psychological Weil-Being: What Does the Empirical Literature Say? - Positive Disintegration
-
-ncbi.nlm.nih.gov
-Modern Assessments of Intelligence Must Be Fair and Equitable - PMC
-
-apa.org
-Executive Control of Cognitive Processes in Task Switching
-
-digitalcommons.liberty.edu
-Adult Perceptions of the Experience of Being Identified "Talented and Gifted" as Children: A Phenomenological Study - Liberty University
-
-en.wikipedia.org
-Genetic Studies of Genius - Wikipedia
-
-verywellmind.com
-How Lewis Terman Influenced the Field of Psychology - Verywell Mind
-
-stanfordmag.org
-The Vexing Legacy of Lewis Terman | STANFORD magazine
-
-pmc.ncbi.nlm.nih.gov
-Dorsolateral Prefrontal Contributions to Human Intelligence - PMC
-
-journalppw.com
-Winners Of Science Competitions: Psychological Challenges Facing ...
-
-pmc.ncbi.nlm.nih.gov
-Intelligence, creativity, and cognitive control: The common and ...
-
-researchgate.net
-A qualitative phenomenological analysis of the subjective experience and understanding of the at risk mental state - ResearchGate
-
-frontiersin.org
-The Fewer Reasons, the More You Like It! How Decision-Making Heuristics of Image Quality Estimation Exploit the Content of Subjective Experience - Frontiers
-
-brootc.com
-Talented and Passionate Employees: to be Exploited or Constrained or Managed
-
-coachhub.com
-A Guide on Identifying and Developing Your High Potential Employees - CoachHub
-
-research.usq.edu.au
-GIFTED ADULTS IN THE WORKPLACE: A SYSTEMATIC LITERATURE REVIEW - University of Southern Queensland Repository
-
-en.wikipedia.org
-en.wikipedia.org
-
-reddit.com
-People say abstract thought requires a high IQ but doesn't it take the same amount of intelligence to know why 1 + 1 = 2 as it does to understand some complex scientific theory? : r/AskScienceDiscussion - Reddit
-
-pmc.ncbi.nlm.nih.gov
-A qualitative phenomenological analysis of the subjective experience and understanding of the at risk mental state - PubMed Central
-
-k12accountability.org
-the meaning and experience of giftedness at work: a heuristic inquiry - K12 Accountability
-
-reddit.com
-People with high iq, what is your thought process when you want to understand something? (mention your IQ if you don't mind, it's still optional) : r/mensa - Reddit
-
-pmc.ncbi.nlm.nih.gov
-Executive Functions - PMC - PubMed Central
-
-medium.com
-How do people with High IQs think, from a social, intellectual, and practical point of view? | by Brecht Corbeel | Medium
-
-happyneuronpro.com
-What are Executive Functions? - HappyNeuron Pro
-
-fasp.memberclicks.net
-Executive Functions: A General Overview
-
-researchgate.net
-Executive Function Models with Components - ResearchGate
-
-npnhub.com
-The Neuroscience of Curiosity: How Your Brain Learns Best - npnHub
-
-elearn.eb.com
-Neuroscience and Psychology of Curiosity: The Key to Engaging Minds in the Classroom
-
-cogneurosociety.org
-Curiosity and Reward as Motivational Drivers in Learning - Cognitive Neuroscience Society
-
-direct.mit.edu
-Broad brain networks support curiosity-motivated incidental learning of naturalistic dynamic stimuli with and without monetary incentives | Imaging Neuroscience - MIT Press Direct
-
-psychologytoday.com
-The Truth About the "Termites" | Psychology Today
-
-files.eric.ed.gov
-The Strengths, Needs and Vulnerabilities of Gifted Employees - ERIC
-
-medium.com
-Do people with high IQs think differently? | by Brecht Corbeel | Medium
-
-sengifted.org
-Giftedness in the Work Environment: Backgrounds and Practical ...
-
-files.eric.ed.gov
-Exceptionally Gifted Children: Long-Term Outcomes of ... - ERIC
-
-pmc.ncbi.nlm.nih.gov
-The psychology and neuroscience of curiosity - PMC
-
-gefi.stanford.edu
-Readings | Global Executive Function Initiative
-
+- What is abstract thinking? 10 ideas to improve your skills - able.ac (able.ac)
+- Phenomenology and educational research - ResearchOnline@ND (researchonline.nd.edu.au)
+- How similar are fluid cognition and general intelligence? A developmental neuroscience perspective on fluid cognition as an aspect of human cognitive ability - ResearchGate (researchgate.net)
+- Crystallized Intelligence, Fluid Intelligence, and Need for Cognition: Their Longitudinal Relations in Adolescence - MDPI (mdpi.com)
+- Creativity and Intelligence: Brain Networks That Link and Differentiate the Expression of Genius - ResearchGate (researchgate.net)
+- Executive Function and Metacognition: Relations and Measure on High Intellectual Ability and Typical Schoolchildren - ResearchGate (researchgate.net)
+- Ability testing and bias | EBSCO Research Starters (ebsco.com)
+- Modern Assessments of Intelligence Must Be Fair and Equitable - PMC - PubMed Central (pmc.ncbi.nlm.nih.gov)
+- The ethics of talent management (sw.leadershipacademy.nhs.uk)
+- How to Live with Gifted Intensity | Intellectual Emotional Social and Sensory - YouTube (youtube.com)
+- A high IQ can paralyze people with over-analysis sometimes. : r/mensa - Reddit (reddit.com)
+- Advanced by Design - UNCW Faculty and Staff Web Pages (people.uncw.edu)
+- 2024 Initial Practice-Based Professional Preparation Standards | Council for Exceptional Children (exceptionalchildren.org)
+- People with an iq of 140+, what does a day in your life look like? : r/Gifted - Reddit (reddit.com)
+- (PDF) Relationship between subjective cognitive concerns and objective neurocognitive performance in primary medical versus primary psychiatric populations - ResearchGate (researchgate.net)
+- Relationship between subjective report and objective assessment of neurocognitive functioning in persons with multiple sclerosis - Penn State Research Database (pure.psu.edu)
+- The Complete Guide for Raven's Advanced Progressive Matrices - Aptitude Test Prep (aptitude-test-prep.com)
+- Raven's Progressive Matrices Test- Questions & Online Practice - JobTestPrep (jobtestprep.com)
+- What is the Experience Sampling Method? The Strategy for Real-Time Data Collection (expiwell.com)
+- Real-Time Research: How the Experience Sampling Method Is Changing Psychology (psychologicalscience.org)
+- Experience Sampling Method (ESM) - INDUCT Guidance (dementiainduct.eu)
+- Neural correlates differ between crystallized and fluid intelligence in ... (biorxiv.org)
+- ED658774 - The Experience of Being Gifted and Talented ... - ERIC (eric.ed.gov)
+- The Idiosyncrasy Principle: A New Look at Qualia - PMC (pmc.ncbi.nlm.nih.gov)
+- Unexpected Consequences of Growing Up Gifted (transformationsnetwork.com)
+- (PDF) How Metacognition Supports Giftedness in Leadership: A ... (researchgate.net)
+- RECOMMENDATIONS FOR TEACHING GIFTED STUDENTS IN ... (education.udel.edu)
+- Bridging the Gap Between an Idea and Its Impact - UDig (udig.com)
+- What Cognitive Neuroscience Tells Us About Creativity Education: A Literature Review (ger.mercy.edu)
+- High Potentials at the Workplace - Coaching - Beratung - Kommunikation-Kreativität -Trainings -Workshops (eis-coaching.com)
+- (PDF) Neurobiology of intelligence: Science and ethics - ResearchGate (researchgate.net)
+- Dorsolateral prefrontal contributions to human intelligence - Decision Neuroscience Laboratory (decisionneurosciencelab.org)
+- Gifted People and their Problems (pespmc1.vub.ac.be)
+- Overexcitabilities and Psychological Issues among Gifted Learners at Higher Education Level - ResearchGate (researchgate.net)
+- The Impact of Giftedness on Psychological Weil-Being: What Does the Empirical Literature Say? - Positive Disintegration (positivedisintegration.com)
+- Modern Assessments of Intelligence Must Be Fair and Equitable - PMC (ncbi.nlm.nih.gov)
+- Executive Control of Cognitive Processes in Task Switching (apa.org)
+- Adult Perceptions of the Experience of Being Identified "Talented and Gifted" as Children: A Phenomenological Study - Liberty University (digitalcommons.liberty.edu)
+- Genetic Studies of Genius - Wikipedia (en.wikipedia.org)
+- How Lewis Terman Influenced the Field of Psychology - Verywell Mind (verywellmind.com)
+- The Vexing Legacy of Lewis Terman | STANFORD magazine (stanfordmag.org)
+- Dorsolateral Prefrontal Contributions to Human Intelligence - PMC (pmc.ncbi.nlm.nih.gov)
+- Winners Of Science Competitions: Psychological Challenges Facing ... (journalppw.com)
+- Intelligence, creativity, and cognitive control: The common and ... (pmc.ncbi.nlm.nih.gov)
+- A qualitative phenomenological analysis of the subjective experience and understanding of the at risk mental state - ResearchGate (researchgate.net)
+- The Fewer Reasons, the More You Like It! How Decision-Making Heuristics of Image Quality Estimation Exploit the Content of Subjective Experience - Frontiers (frontiersin.org)
+- Talented and Passionate Employees: to be Exploited or Constrained or Managed (brootc.com)
+- A Guide on Identifying and Developing Your High Potential Employees - CoachHub (coachhub.com)
+- GIFTED ADULTS IN THE WORKPLACE: A SYSTEMATIC LITERATURE REVIEW - University of Southern Queensland Repository (research.usq.edu.au)
+- en.wikipedia.org (en.wikipedia.org)
+- People say abstract thought requires a high IQ but doesn't it take the same amount of intelligence to know why 1 + 1 = 2 as it does to understand some complex scientific theory? : r/AskScienceDiscussion - Reddit (reddit.com)
+- A qualitative phenomenological analysis of the subjective experience and understanding of the at risk mental state - PubMed Central (pmc.ncbi.nlm.nih.gov)
+- the meaning and experience of giftedness at work: a heuristic inquiry - K12 Accountability (k12accountability.org)
+- People with high iq, what is your thought process when you want to understand something? (mention your IQ if you don't mind, it's still optional) : r/mensa - Reddit (reddit.com)
+- Executive Functions - PMC - PubMed Central (pmc.ncbi.nlm.nih.gov)
+- How do people with High IQs think, from a social, intellectual, and practical point of view? | by Brecht Corbeel | Medium (medium.com)
+- What are Executive Functions? - HappyNeuron Pro (happyneuronpro.com)
+- Executive Functions: A General Overview (fasp.memberclicks.net)
+- Executive Function Models with Components - ResearchGate (researchgate.net)
+- The Neuroscience of Curiosity: How Your Brain Learns Best - npnHub (npnhub.com)
+- Neuroscience and Psychology of Curiosity: The Key to Engaging Minds in the Classroom (elearn.eb.com)
+- Curiosity and Reward as Motivational Drivers in Learning - Cognitive Neuroscience Society (cogneurosociety.org)
+- Broad brain networks support curiosity-motivated incidental learning of naturalistic dynamic stimuli with and without monetary incentives | Imaging Neuroscience - MIT Press Direct (direct.mit.edu)
+- The Truth About the "Termites" | Psychology Today (psychologytoday.com)
+- The Strengths, Needs and Vulnerabilities of Gifted Employees - ERIC (files.eric.ed.gov)
+- Do people with high IQs think differently? | by Brecht Corbeel | Medium (medium.com)
+- Giftedness in the Work Environment: Backgrounds and Practical ... (sengifted.org)
+- Exceptionally Gifted Children: Long-Term Outcomes of ... - ERIC (files.eric.ed.gov)
+- The psychology and neuroscience of curiosity - PMC (pmc.ncbi.nlm.nih.gov)
+- Readings | Global Executive Function Initiative (gefi.stanford.edu)
 Sources read but not used in the report
 
-frontiersin.org
-Giftedness identification and cognitive, physiological and psychological characteristics of gifted children: a systematic review - Frontiers
-
-uaf.edu
-Academic and practical intelligence: A case study of the Yup'ik in Alaska
-
-hpcwire.com
-LLNL and Partners Propose Data-Driven Approach to Bridge AI and Computational Science Models - HPCwire
-
-pmc.ncbi.nlm.nih.gov
-Where innovations flourish: an ethnographic and archaeological overview of hunter–gatherer learning contexts - PubMed Central
-
-creativethinkinghub.com
-The link between a high IQ and high creativity
-
-pmc.ncbi.nlm.nih.gov
-Can Task-Switching Training Enhance Executive Control Functioning in Children with Attention Deficit/-Hyperactivity Disorder? - PMC
-
-en.wikipedia.org
-Neuroscience and intelligence - Wikipedia
-
-pubmed.ncbi.nlm.nih.gov
-Executive control of cognitive processes in task switching - PubMed
-
-researchgate.net
-An Integrated Model of Cognitive Control in Task Switching - ResearchGate
-
-frontiersin.org
-Editorial: Multitasking: Executive Functioning in Dual-Task and Task Switching Situations
-
-pmc.ncbi.nlm.nih.gov
-Neuropsychology of prefrontal cortex - PMC - PubMed Central
-
-mdpi.com
-Task Switching: On the Relation of Cognitive Flexibility with Cognitive Capacity - MDPI
-
-citeseerx.ist.psu.edu
-NEUROBIOLOGY OF INTELLIGENCE: SCIENCE AND ETHICS - CiteSeerX
-
-researchgate.net
-(PDF) Gifted adults in work - ResearchGate
-
-pmc.ncbi.nlm.nih.gov
-High Cognitive Ability and Mental Health: Findings from a Large Community Sample of Adolescents - PMC
-
-pubmed.ncbi.nlm.nih.gov
-An auto-analytic ethnographic study of operational decision-making in urgent care - PubMed
-
-researchgate.net
-(PDF) Using cognitive ethnography to study instruction - ResearchGate
-
-researchgate.net
-(PDF) Putting Ethnography to Work: The Case for a Cognitive Ethnography of Design
-
-epicpeople.org
-Hybrid Methodology: Combining Ethnography, Cognitive Science, and Machine Learning to Inform the Development of Context-Aware Personal Computing and Assistive Technology - EPIC
-
-classes.matthewjbrown.net
-Putting ethnography to work: the case for a cognitive ethnographty of design
-
-verywellmind.com
-Are High IQ People More Successful? - Verywell Mind
-
-adata.org
-Reasonable Accommodations in the Workplace - ADA National Network
-
-core.ac.uk
-Exploring Gifted Adults' Perception of Giftedness in their Pursuit of Graduate Education Adrienne Sauder, B.A. Department of Gra - CORE
-
-bath.ac.uk
-New IQ research shows why smarter people make better decisions - University of Bath
-
-adainfo.org
-Best Practices in Developing Reasonable Accommodations in the Workplace: Findings Based on the Research Literature
-
-pmc.ncbi.nlm.nih.gov
-Bringing Giftedness to Bear: Generativity, Meaningfulness, and Self-Control as Resources for a Happy Life Among Gifted Adults
-
-pmc.ncbi.nlm.nih.gov
-The nature and nurture of high IQ: An extended sensitive period for intellectual development
-
-bbi.syr.edu
-Workplace accommodations: Evidence based outcomes - Burton Blatt Institute
-
-pmc.ncbi.nlm.nih.gov
-Adolescent IQ and Survival in the Wisconsin Longitudinal Study - PMC
-
-psychology.stackexchange.com
-IQ Test stability longitudinal study - Psychology & Neuroscience Stack Exchange
-
-davidsongifted.org
-Gifted Adults in Work - Davidson Institute
-
-scirp.org
-Is There a Relationship between High IQ Scores and Positive Life Outcomes? A Critical Review - Scirp.org.
-
-digitalcommons.du.edu
-Empathy and Understanding: The Impact of Gifted Adults in the Field of Gifted Education - Digital Commons @ DU
-
-rxteach.com
-The Nurture of Intelligence: Insights from the Terman Study - RxTeach
-
-tandfonline.com
-Looking Back on Lessons Learned: Gifted Adults Reflect on Their Experiences in Advanced Classes - Taylor & Francis Online
-
-files.eric.ed.gov
-Title of the Column Goes Here Looking Like This Lewis Terman: Genetic Study of Genius— Elementary School Students - ERIC
-
-pages.ucsd.edu
-Using Cognitive Ethnography to Study Instruction - University of ...
-
-en.wikipedia.org
-Flynn effect - Wikipedia
-
-simplypsychology.org
-Vygotsky's Sociocultural Theory of Cognitive Development - Simply Psychology
-
-pubmed.ncbi.nlm.nih.gov
-[Models of executive control and functions (I)] - PubMed
-
-frontiersin.org
-The effects of physical exercise on cognitive function in adolescents: a systematic review and meta-analysis - Frontiers
-
-pmc.ncbi.nlm.nih.gov
-Neuroanatomical Substrates of Executive Functions: Beyond Prefrontal Structures - PMC
-
-files.eric.ed.gov
-Giftedness in the Long Term - Joan Freeman - ERIC
-
-news.vanderbilt.edu
-Longitudinal study of gifted children featured in 'Nature' - Vanderbilt University
-
-researchgate.net
-(PDF) "We are not that!: A focus group study with gifted adults ...
-
-osf.io
-Identifying and supporting gifted youth - OSF
+- Giftedness identification and cognitive, physiological and psychological characteristics of gifted children: a systematic review - Frontiers (frontiersin.org)
+- Academic and practical intelligence: A case study of the Yup'ik in Alaska (uaf.edu)
+- LLNL and Partners Propose Data-Driven Approach to Bridge AI and Computational Science Models - HPCwire (hpcwire.com)
+- Where innovations flourish: an ethnographic and archaeological overview of hunter–gatherer learning contexts - PubMed Central (pmc.ncbi.nlm.nih.gov)
+- The link between a high IQ and high creativity (creativethinkinghub.com)
+- Can Task-Switching Training Enhance Executive Control Functioning in Children with Attention Deficit/-Hyperactivity Disorder? - PMC (pmc.ncbi.nlm.nih.gov)
+- Neuroscience and intelligence - Wikipedia (en.wikipedia.org)
+- Executive control of cognitive processes in task switching - PubMed (pubmed.ncbi.nlm.nih.gov)
+- An Integrated Model of Cognitive Control in Task Switching - ResearchGate (researchgate.net)
+- Editorial: Multitasking: Executive Functioning in Dual-Task and Task Switching Situations (frontiersin.org)
+- Neuropsychology of prefrontal cortex - PMC - PubMed Central (pmc.ncbi.nlm.nih.gov)
+- Task Switching: On the Relation of Cognitive Flexibility with Cognitive Capacity - MDPI (mdpi.com)
+- NEUROBIOLOGY OF INTELLIGENCE: SCIENCE AND ETHICS - CiteSeerX (citeseerx.ist.psu.edu)
+- (PDF) Gifted adults in work - ResearchGate (researchgate.net)
+- High Cognitive Ability and Mental Health: Findings from a Large Community Sample of Adolescents - PMC (pmc.ncbi.nlm.nih.gov)
+- An auto-analytic ethnographic study of operational decision-making in urgent care - PubMed (pubmed.ncbi.nlm.nih.gov)
+- (PDF) Using cognitive ethnography to study instruction - ResearchGate (researchgate.net)
+- (PDF) Putting Ethnography to Work: The Case for a Cognitive Ethnography of Design (researchgate.net)
+- Hybrid Methodology: Combining Ethnography, Cognitive Science, and Machine Learning to Inform the Development of Context-Aware Personal Computing and Assistive Technology - EPIC (epicpeople.org)
+- Putting ethnography to work: the case for a cognitive ethnographty of design (classes.matthewjbrown.net)
+- Are High IQ People More Successful? - Verywell Mind (verywellmind.com)
+- Reasonable Accommodations in the Workplace - ADA National Network (adata.org)
+- Exploring Gifted Adults' Perception of Giftedness in their Pursuit of Graduate Education Adrienne Sauder, B.A. Department of Gra - CORE (core.ac.uk)
+- New IQ research shows why smarter people make better decisions - University of Bath (bath.ac.uk)
+- Best Practices in Developing Reasonable Accommodations in the Workplace: Findings Based on the Research Literature (adainfo.org)
+- Bringing Giftedness to Bear: Generativity, Meaningfulness, and Self-Control as Resources for a Happy Life Among Gifted Adults (pmc.ncbi.nlm.nih.gov)
+- The nature and nurture of high IQ: An extended sensitive period for intellectual development (pmc.ncbi.nlm.nih.gov)
+- Workplace accommodations: Evidence based outcomes - Burton Blatt Institute (bbi.syr.edu)
+- Adolescent IQ and Survival in the Wisconsin Longitudinal Study - PMC (pmc.ncbi.nlm.nih.gov)
+- IQ Test stability longitudinal study - Psychology & Neuroscience Stack Exchange (psychology.stackexchange.com)
+- Gifted Adults in Work - Davidson Institute (davidsongifted.org)
+- Is There a Relationship between High IQ Scores and Positive Life Outcomes? A Critical Review - Scirp.org. (scirp.org)
+- Empathy and Understanding: The Impact of Gifted Adults in the Field of Gifted Education - Digital Commons @ DU (digitalcommons.du.edu)
+- The Nurture of Intelligence: Insights from the Terman Study - RxTeach (rxteach.com)
+- Looking Back on Lessons Learned: Gifted Adults Reflect on Their Experiences in Advanced Classes - Taylor & Francis Online (tandfonline.com)
+- Title of the Column Goes Here Looking Like This Lewis Terman: Genetic Study of Genius— Elementary School Students - ERIC (files.eric.ed.gov)
+- Using Cognitive Ethnography to Study Instruction - University of ... (pages.ucsd.edu)
+- Flynn effect - Wikipedia (en.wikipedia.org)
+- Vygotsky's Sociocultural Theory of Cognitive Development - Simply Psychology (simplypsychology.org)
+- [Models of executive control and functions (I)] - PubMed (pubmed.ncbi.nlm.nih.gov)
+- The effects of physical exercise on cognitive function in adolescents: a systematic review and meta-analysis - Frontiers (frontiersin.org)
+- Neuroanatomical Substrates of Executive Functions: Beyond Prefrontal Structures - PMC (pmc.ncbi.nlm.nih.gov)
+- Giftedness in the Long Term - Joan Freeman - ERIC (files.eric.ed.gov)
+- Longitudinal study of gifted children featured in 'Nature' - Vanderbilt University (news.vanderbilt.edu)
+- (PDF) "We are not that!: A focus group study with gifted adults ... (researchgate.net)
+- Identifying and supporting gifted youth - OSF (osf.io)

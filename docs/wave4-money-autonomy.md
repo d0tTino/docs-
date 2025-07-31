@@ -517,43 +517,43 @@ Central Bank Digital Currencies - Congress.gov, accessed July 25, 2025, https://
 Hardware wallet comparison 2025: Ledger, Trezor, BitBox, accessed July 25, 2025, https://bitbox.swiss/bitbox02/compare-hardware-wallets/
 Best Crypto Hardware Wallets for 2025: Reviews & Top Picks, accessed July 25, 2025, https://cointelegraph.com/learn/articles/best-crypto-hardware-wallets
 The 5 Best Hardware Wallets [2025] - Ledger, Trezor, Tangem and, accessed July 25, 2025, https://www.hardwarewalletonline.com/top-5-hardware-wallets-2025/
-COLDCARD Mk4 review | Is it safe? | Finder.com, accessed July 25, 2025, https://www.finder.com/cryptocurrency/wallets/coldcard-mk4-review
-Top 9 Cryptocurrency Hardware Wallets for 2025 | Security Researcher Review, accessed July 25, 2025, https://patrickalphac.medium.com/top-9-cryptocurrency-hardware-wallets-for-2025-security-researcher-review-9fcb16d771e0
-Coldcard Mk4 Review: 3 Things to Know [2024] - Buy Bitcoin Worldwide, accessed July 25, 2025, https://buybitcoinworldwide.com/wallets/coldcard/
-Trezor Model T Review - Best Hardware Wallets - Cryptotesters.com, accessed July 25, 2025, https://cryptotesters.com/best-hardware-wallets/trezor-model-t-review
-Bitcoin Air-Gapped Wallets: What Are They and How Do They Work - Lightspark, accessed July 25, 2025, https://www.lightspark.com/glossary/air-gapped-wallet
-ColdCard Wallet Review 2025 - CryptoVantage, accessed July 25, 2025, https://www.cryptovantage.com/best-crypto-wallets/coldcard/
-Using Multisig Wallets to Secure Your Crypto Assets | BitPay, accessed July 25, 2025, https://www.bitpay.com/blog/multisig-wallet-security
-Mastering the Multisig Wallet: Your Guide to Enhanced Security - OneSafe Blog, accessed July 25, 2025, https://www.onesafe.io/blog/multisig-wallets-guide-benefits-challenges-best-practices
-Quick Start Guide - Sparrow Wallet, accessed July 25, 2025, https://sparrowwallet.com/docs/quick-start.html
-Sparrow Wallet - Bitcoiner.Guide, accessed July 25, 2025, https://bitcoiner.guide/sparrow/
-Sparrow Wallet - Multisig.Guide, accessed July 25, 2025, https://bitcoiner.guide/multisig/recover/
-10 Steps to Set Up a Multi-Signature Wallet - Krayon, accessed July 25, 2025, https://www.krayondigital.com/blog/10-steps-to-set-up-a-multi-signature-wallet
-7.1: Creating a Partially Signed Bitcoin Transaction - GitHub, accessed July 25, 2025, https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/07_1_Creating_a_Partially_Signed_Bitcoin_Transaction.md
-BIP 0174 - Bitcoin Wiki, accessed July 25, 2025, https://en.bitcoin.it/wiki/BIP_0174
-Electrum 2/2 PSBT Multi-sig - Keystone Support, accessed July 25, 2025, https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/electrum/electrum-2-2-psbt-multi-signature
-Decentralized freelancing marketplace - CryptoTask, accessed July 25, 2025, https://www.cryptotask.org/
-8 Freelance Websites that Pay in Crypto - Fuspay, accessed July 25, 2025, https://fuspay.us/freelance-websites-that-pay-in-crypto/
-Freelance Crypto Platforms: Pay & Get Paid in Cryptocurrency - Tangem, accessed July 25, 2025, https://tangem.com/en/blog/post/cryptocurrency-platforms-for-freelance-work/
-Crypto Bug Bounties: How to Get Started - Coinmetro, accessed July 25, 2025, https://www.coinmetro.com/learning-lab/crypto-bug-bounties-how-to-get-started
-Everything You Need to Know About Gitcoin, accessed July 25, 2025, https://www.gitcoin.co/blog/everything-you-need-to-know-about-gitcoin
-Integrating Standard Bounties | Gitcoin Blog, accessed July 25, 2025, https://www.gitcoin.co/blog/integrating-standard-bounties
-SkillSwap – App to exchange knowledge, accessed July 25, 2025, http://skill-swap.com/
-SkillSwap - HackQuest, accessed July 25, 2025, https://www.hackquest.io/projects/skillswap-5a48f85c
-Digital assets | Internal Revenue Service, accessed July 25, 2025, https://www.irs.gov/filing/digital-assets
-How Is Crypto Taxed? (2025) IRS Rules and How to File | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/learn/crypto-taxes-how-to-report/
-Taxpayers need to report crypto, other digital asset transactions on their tax return - IRS, accessed July 25, 2025, https://www.irs.gov/newsroom/taxpayers-need-to-report-crypto-other-digital-asset-transactions-on-their-tax-return
-Your Crypto Tax Guide - TurboTax - Intuit, accessed July 25, 2025, https://turbotax.intuit.com/tax-tips/investments-and-taxes/your-cryptocurrency-tax-guide/L4k3xiFjB
-Crypto Taxes USA: Expert Guide for 2025 [IRS Rules] - CoinTracking, accessed July 25, 2025, https://cointracking.info/crypto-taxes-us
-Crypto Cost Basis: Easy Guide to Methods and Calculations 2025 | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/learn/crypto-cost-basis/
-How to Calculate Crypto Capital Gains Tax in 2025 (from a CPA) | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/crypto-capital-gains-tax/
-Crypto tax guide - Fidelity Investments, accessed July 25, 2025, https://www.fidelity.com/learning-center/trading-investing/crypto/crypto-tax-guide
-Ultimate 2025 US Crypto Tax Guide [IRS Rules] - Blockpit, accessed July 25, 2025, https://www.blockpit.io/tax-guides/crypto-tax-usa
-Passive Income in Crypto: A Guide to Staking, Lending, and Yield ..., accessed July 25, 2025, https://www.coinmetro.com/learning-lab/passive-income-in-crypto
-Stake with Lido | Lido, accessed July 25, 2025, https://stake.lido.fi/
-How to get started in DeFi - Coinbase, accessed July 25, 2025, https://www.coinbase.com/learn/wallet/how-to-get-started-in-defi
-Understanding DeFi Yield Farming: Comprehensive Guide for Beginners - Antier Solutions, accessed July 25, 2025, https://www.antiersolutions.com/blogs/understanding-defi-yield-farming-a-comprehensive-beginners-guide-to-earning-passive-income/
-OWASP Smart Contract Top 10, accessed July 25, 2025, https://owasp.org/www-project-smart-contract-top-10/
+- COLDCARD Mk4 review | Is it safe? | Finder.com, accessed July 25, 2025, https://www.finder.com/cryptocurrency/wallets/coldcard-mk4-review
+- Top 9 Cryptocurrency Hardware Wallets for 2025 | Security Researcher Review, accessed July 25, 2025, https://patrickalphac.medium.com/top-9-cryptocurrency-hardware-wallets-for-2025-security-researcher-review-9fcb16d771e0
+- Coldcard Mk4 Review: 3 Things to Know [2024] - Buy Bitcoin Worldwide, accessed July 25, 2025, https://buybitcoinworldwide.com/wallets/coldcard/
+- Trezor Model T Review - Best Hardware Wallets - Cryptotesters.com, accessed July 25, 2025, https://cryptotesters.com/best-hardware-wallets/trezor-model-t-review
+- Bitcoin Air-Gapped Wallets: What Are They and How Do They Work - Lightspark, accessed July 25, 2025, https://www.lightspark.com/glossary/air-gapped-wallet
+- ColdCard Wallet Review 2025 - CryptoVantage, accessed July 25, 2025, https://www.cryptovantage.com/best-crypto-wallets/coldcard/
+- Using Multisig Wallets to Secure Your Crypto Assets | BitPay, accessed July 25, 2025, https://www.bitpay.com/blog/multisig-wallet-security
+- Mastering the Multisig Wallet: Your Guide to Enhanced Security - OneSafe Blog, accessed July 25, 2025, https://www.onesafe.io/blog/multisig-wallets-guide-benefits-challenges-best-practices
+- Quick Start Guide - Sparrow Wallet, accessed July 25, 2025, https://sparrowwallet.com/docs/quick-start.html
+- Sparrow Wallet - Bitcoiner.Guide, accessed July 25, 2025, https://bitcoiner.guide/sparrow/
+- Sparrow Wallet - Multisig.Guide, accessed July 25, 2025, https://bitcoiner.guide/multisig/recover/
+- 10 Steps to Set Up a Multi-Signature Wallet - Krayon, accessed July 25, 2025, https://www.krayondigital.com/blog/10-steps-to-set-up-a-multi-signature-wallet
+- 7.1: Creating a Partially Signed Bitcoin Transaction - GitHub, accessed July 25, 2025, https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/07_1_Creating_a_Partially_Signed_Bitcoin_Transaction.md
+- BIP 0174 - Bitcoin Wiki, accessed July 25, 2025, https://en.bitcoin.it/wiki/BIP_0174
+- Electrum 2/2 PSBT Multi-sig - Keystone Support, accessed July 25, 2025, https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/electrum/electrum-2-2-psbt-multi-signature
+- Decentralized freelancing marketplace - CryptoTask, accessed July 25, 2025, https://www.cryptotask.org/
+- 8 Freelance Websites that Pay in Crypto - Fuspay, accessed July 25, 2025, https://fuspay.us/freelance-websites-that-pay-in-crypto/
+- Freelance Crypto Platforms: Pay & Get Paid in Cryptocurrency - Tangem, accessed July 25, 2025, https://tangem.com/en/blog/post/cryptocurrency-platforms-for-freelance-work/
+- Crypto Bug Bounties: How to Get Started - Coinmetro, accessed July 25, 2025, https://www.coinmetro.com/learning-lab/crypto-bug-bounties-how-to-get-started
+- Everything You Need to Know About Gitcoin, accessed July 25, 2025, https://www.gitcoin.co/blog/everything-you-need-to-know-about-gitcoin
+- Integrating Standard Bounties | Gitcoin Blog, accessed July 25, 2025, https://www.gitcoin.co/blog/integrating-standard-bounties
+- SkillSwap – App to exchange knowledge, accessed July 25, 2025, http://skill-swap.com/
+- SkillSwap - HackQuest, accessed July 25, 2025, https://www.hackquest.io/projects/skillswap-5a48f85c
+- Digital assets | Internal Revenue Service, accessed July 25, 2025, https://www.irs.gov/filing/digital-assets
+- How Is Crypto Taxed? (2025) IRS Rules and How to File | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/learn/crypto-taxes-how-to-report/
+- Taxpayers need to report crypto, other digital asset transactions on their tax return - IRS, accessed July 25, 2025, https://www.irs.gov/newsroom/taxpayers-need-to-report-crypto-other-digital-asset-transactions-on-their-tax-return
+- Your Crypto Tax Guide - TurboTax - Intuit, accessed July 25, 2025, https://turbotax.intuit.com/tax-tips/investments-and-taxes/your-cryptocurrency-tax-guide/L4k3xiFjB
+- Crypto Taxes USA: Expert Guide for 2025 [IRS Rules] - CoinTracking, accessed July 25, 2025, https://cointracking.info/crypto-taxes-us
+- Crypto Cost Basis: Easy Guide to Methods and Calculations 2025 | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/learn/crypto-cost-basis/
+- How to Calculate Crypto Capital Gains Tax in 2025 (from a CPA) | Gordon Law Group, accessed July 25, 2025, https://gordonlaw.com/crypto-capital-gains-tax/
+- Crypto tax guide - Fidelity Investments, accessed July 25, 2025, https://www.fidelity.com/learning-center/trading-investing/crypto/crypto-tax-guide
+- Ultimate 2025 US Crypto Tax Guide [IRS Rules] - Blockpit, accessed July 25, 2025, https://www.blockpit.io/tax-guides/crypto-tax-usa
+- Passive Income in Crypto: A Guide to Staking, Lending, and Yield ..., accessed July 25, 2025, https://www.coinmetro.com/learning-lab/passive-income-in-crypto
+- Stake with Lido | Lido, accessed July 25, 2025, https://stake.lido.fi/
+- How to get started in DeFi - Coinbase, accessed July 25, 2025, https://www.coinbase.com/learn/wallet/how-to-get-started-in-defi
+- Understanding DeFi Yield Farming: Comprehensive Guide for Beginners - Antier Solutions, accessed July 25, 2025, https://www.antiersolutions.com/blogs/understanding-defi-yield-farming-a-comprehensive-beginners-guide-to-earning-passive-income/
+- OWASP Smart Contract Top 10, accessed July 25, 2025, https://owasp.org/www-project-smart-contract-top-10/
 
 ### References
 
