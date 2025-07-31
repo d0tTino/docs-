@@ -292,661 +292,227 @@ The struggle for anonymity is the frontline of the broader war for cognitive lib
 
 ## Sources used in the report
 
-cs.odu.edu
-Anonymity – Good or Bad??
-
-numberanalytics.com
-The Philosophy of Anonymity in IT - Number Analytics
-
-rnz.co.nz
-Anonymity on the internet and fighting extremism - RNZ
-
-en.wikipedia.org
-Anonymous post - Wikipedia
-
-en.wikipedia.org
-QAnon - Wikipedia
-
-en.wikipedia.org
-en.wikipedia.org
-
-meegle.com
-Zero-Knowledge Proof History - Meegle
-
-cryptoexchange.com
-What is Monero? What is XMR? | Cryptoexchange.com
-
-en.wikipedia.org
-Zero-knowledge proof - Wikipedia
-
-en.wikipedia.org
-Monero - Wikipedia
-
-coinmarketcap.com
-Monero price today, XMR to USD live price, marketcap and chart | CoinMarketCap
-
-this.deakin.edu.au
-The dark web | this. - Deakin University
-
-ooni.org
-The Tor Project | OONI - Open Observatory of Network Interference
-
-identityiq.com
-The Origins and History of the Dark Web | IdentityIQ
-
-en.wikipedia.org
-Anonymous (hacker group) - Wikipedia
-
-history.com
-Edward Snowden discloses U.S. government operations | June 5, 2013 - History.com
-
-whistleblowers.org
-The case of Edward Snowden - National Whistleblower Center
-
-en.wikipedia.org
-Whistleblowing - Wikipedia
-
-en.wikipedia.org
-Cypherpunk - Wikipedia
-
-faceup.com
-The History of Whistleblowing: How Speaking Up Changed Society | FaceUp Blog
-
-navex.com
-A History of Whistleblowing in America - NAVEX
-
-en.wikipedia.org
-en.wikipedia.org
-
-coinmarketcap.com
-The First Crypto War | CoinMarketCap
-
-firstmonday.org
-View of First Monday Interviews: David Chaum
-
-decrypt.co
-What was DigiCash? - Decrypt
-
-en.wikipedia.org
-David Chaum - Wikipedia
-
-scholarship.law.ufl.edu
-Disclosure's Effects: WikiLeaks and Transparency - UF Law Scholarship Repository
-
-en.wikipedia.org
-WikiLeaks - Wikipedia
-
-digitalcommons.pace.edu
-The Impact of Wikileaks on the Public Opinion of Online Privacy - Digital Commons @ Pace
-
+- Anonymity – Good or Bad?? (cs.odu.edu)
+- The Philosophy of Anonymity in IT - Number Analytics (numberanalytics.com)
+- Anonymity on the internet and fighting extremism - RNZ (rnz.co.nz)
+- Anonymous post - Wikipedia (en.wikipedia.org)
+- QAnon - Wikipedia (en.wikipedia.org)
+- en.wikipedia.org (en.wikipedia.org)
+- Zero-Knowledge Proof History - Meegle (meegle.com)
+- What is Monero? What is XMR? | Cryptoexchange.com (cryptoexchange.com)
+- Zero-knowledge proof - Wikipedia (en.wikipedia.org)
+- Monero - Wikipedia (en.wikipedia.org)
+- Monero price today, XMR to USD live price, marketcap and chart | CoinMarketCap (coinmarketcap.com)
+- The dark web | this. - Deakin University (this.deakin.edu.au)
+- The Tor Project | OONI - Open Observatory of Network Interference (ooni.org)
+- The Origins and History of the Dark Web | IdentityIQ (identityiq.com)
+- Anonymous (hacker group) - Wikipedia (en.wikipedia.org)
+- Edward Snowden discloses U.S. government operations | June 5, 2013 - History.com (history.com)
+- The case of Edward Snowden - National Whistleblower Center (whistleblowers.org)
+- Whistleblowing - Wikipedia (en.wikipedia.org)
+- Cypherpunk - Wikipedia (en.wikipedia.org)
+- The History of Whistleblowing: How Speaking Up Changed Society | FaceUp Blog (faceup.com)
+- A History of Whistleblowing in America - NAVEX (navex.com)
+- en.wikipedia.org (en.wikipedia.org)
+- The First Crypto War | CoinMarketCap (coinmarketcap.com)
+- View of First Monday Interviews: David Chaum (firstmonday.org)
+- What was DigiCash? - Decrypt (decrypt.co)
+- David Chaum - Wikipedia (en.wikipedia.org)
+- Disclosure's Effects: WikiLeaks and Transparency - UF Law Scholarship Repository (scholarship.law.ufl.edu)
+- WikiLeaks - Wikipedia (en.wikipedia.org)
+- The Impact of Wikileaks on the Public Opinion of Online Privacy - Digital Commons @ Pace (digitalcommons.pace.edu)
 Cyberpunk Manifesto — Wave 7: The Cyberpunk Mind
 
-circularise.com
-Zero-knowledge proofs explained in 3 examples - Circularise
-
-getmonero.org
-About Monero | Monero - secure, private, untraceable
-
-torproject.org
-History - Tor Project
-
-pmc.ncbi.nlm.nih.gov
-Online Masquerade: Redesigning the Internet for Free Speech ...
-
-freehaven.net
-First Monday: Prospects for Remailers - The Free Haven Project
-
-en.wikipedia.org
-Internet censorship in Russia - Wikipedia
-
-en.wikipedia.org
-ARPANET - Wikipedia
-
-darpa.mil
-ARPANET | DARPA
-
-geeksforgeeks.org
-ARPANET Full Form - Advanced Research Projects Agency NET - GeeksforGeeks
-
-nordvpn.com
-What is ARPANET? The creation of the internet - NordVPN
-
-newsweek.com
-China's New Internet Law Raises Privacy Fears for 1 Billion Users - Newsweek
-
-en.wikipedia.org
-Internet real-name system in China - Wikipedia
-
-en.wikipedia.org
-Internet censorship in China - Wikipedia
-
-cjr.org
-An Anonymous Iranian Reporter on Life in Tehran - Columbia Journalism Review
-
-sciencedaily.com
-Dissidents under authoritarian rule: Staying anonymous yet trustworthy - ScienceDaily
-
-lingwistyka.edu.pl
-Internet culture of anonymity - Lingwistyka.edu.pl
-
-media.mit.edu
-Overview ‹ 4chan and /b/: Anonymity and Ephemerality - MIT Media Lab
-
-thebullhornnews.com
-The Dark Side of 4chan: Exploring the Dangers of an Unmoderated Online Community
-
-wordpress.cs.vt.edu
-4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large Online Community
-
-firstmonday.org
-View of User unknown: 4chan, anonymity and contingency | First Monday
-
-researchgate.net
-(PDF) 4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large Online Community - ResearchGate
-
-thespinoff.co.nz
-Can internet anonymity survive in a world of online extremism? - The Spinoff
-
-thespinoff.co.nz
-Can internet anonymity survive in a world of online extremism? - The Spinoff
-
-columbia.edu
-www.columbia.edu
-
-britannica.com
-4chan and 8chan (8kun) | Origins, Uses, Conspiracy Theories, Far ...
-
-investopedia.com
-DigiCash: Meaning, History, Implications - Investopedia
-
-americanscientist.org
-Cypherpunks Write Code | American Scientist
-
-journals.uchicago.edu
-From busting cults to breeding cults : Anonymous h/acktivism vs. the ...
-
-theguardian.com
-Edward Snowden: the whistleblower behind the NSA surveillance ...
-
-communicationstudies.uiowa.edu
-WikiLeaks and the problem of anonymity: a network control ...
-
+- Zero-knowledge proofs explained in 3 examples - Circularise (circularise.com)
+- About Monero | Monero - secure, private, untraceable (getmonero.org)
+- History - Tor Project (torproject.org)
+- Online Masquerade: Redesigning the Internet for Free Speech ... (pmc.ncbi.nlm.nih.gov)
+- First Monday: Prospects for Remailers - The Free Haven Project (freehaven.net)
+- Internet censorship in Russia - Wikipedia (en.wikipedia.org)
+- ARPANET - Wikipedia (en.wikipedia.org)
+- ARPANET | DARPA (darpa.mil)
+- ARPANET Full Form - Advanced Research Projects Agency NET - GeeksforGeeks (geeksforgeeks.org)
+- What is ARPANET? The creation of the internet - NordVPN (nordvpn.com)
+- China's New Internet Law Raises Privacy Fears for 1 Billion Users - Newsweek (newsweek.com)
+- Internet real-name system in China - Wikipedia (en.wikipedia.org)
+- Internet censorship in China - Wikipedia (en.wikipedia.org)
+- An Anonymous Iranian Reporter on Life in Tehran - Columbia Journalism Review (cjr.org)
+- Dissidents under authoritarian rule: Staying anonymous yet trustworthy - ScienceDaily (sciencedaily.com)
+- Internet culture of anonymity - Lingwistyka.edu.pl (lingwistyka.edu.pl)
+- Overview ‹ 4chan and /b/: Anonymity and Ephemerality - MIT Media Lab (media.mit.edu)
+- The Dark Side of 4chan: Exploring the Dangers of an Unmoderated Online Community (thebullhornnews.com)
+- 4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large Online Community (wordpress.cs.vt.edu)
+- View of User unknown: 4chan, anonymity and contingency | First Monday (firstmonday.org)
+- (PDF) 4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large Online Community - ResearchGate (researchgate.net)
+- Can internet anonymity survive in a world of online extremism? - The Spinoff (thespinoff.co.nz)
+- Can internet anonymity survive in a world of online extremism? - The Spinoff (thespinoff.co.nz)
+- www.columbia.edu (columbia.edu)
+- 4chan and 8chan (8kun) | Origins, Uses, Conspiracy Theories, Far ... (britannica.com)
+- DigiCash: Meaning, History, Implications - Investopedia (investopedia.com)
+- Cypherpunks Write Code | American Scientist (americanscientist.org)
+- From busting cults to breeding cults : Anonymous h/acktivism vs. the ... (journals.uchicago.edu)
+- Edward Snowden: the whistleblower behind the NSA surveillance ... (theguardian.com)
+- WikiLeaks and the problem of anonymity: a network control ... (communicationstudies.uiowa.edu)
 
 ## Sources read but not used in the report
 
-researchgate.net
-History of the Internet and Introduction to the Anonymous Web - ResearchGate
-
-numberanalytics.com
-The Philosophy of Surveillance and Anonymity - Number Analytics
-
-radicalphilosophy.com
-Harry Halpin · The Philosophy of Anonymous: Ontological Politics without Identity (2012)
-
-youtube.com
-What Happens When Technology Goes Too Far? | A Cyberpunk Future - YouTube
-
-reddit.com
-What would concensus look like in Cyberpunk 2077? : r/WhiteWolfRPG - Reddit
-
-reddit.com
-Agree or disagree? Cyberpunk isn't an aesthetic it's an ethos - Reddit
-
-youtube.com
-Cyberpunk 2077 - The Role of a Techie Class - YouTube
-
-en.wikipedia.org
-Timeline of events associated with Anonymous - Wikipedia
-
-britannica.com
-Anonymous | Definition, History, Purpose, Mask, & Facts | Britannica
-
-proxyelite.info
-Evolution of Internet Anonymity Tools: Tracing Proxies to Privacy - ProxyElite
-
-quantumzeitgeist.com
-The Cypherpunks: How Cryptography Activists Built Internet Privacy - Quantum Zeitgeist
-
-whistleblowersinternational.com
-WHISTLEBLOWING HISTORY OVERVIEW
-
-thecairoreview.com
-A History of Whistleblowers and Document Leaks - The Cairo Review of Global Affairs
-
-taylorfrancis.com
-The Cypherpunks | 3 | Crypto Wars | Craig Jarvis | Taylor & Francis eB
-
-academic.oup.com
-Human Rights and Hacktivism: The Cases of Wikileaks and Anonymous - Oxford Academic
-
-publications.archivists.org.au
-WikiLeaks and Web 2.0: privacy, security and other things that keep me awake
-
-tandfonline.com
-Full article: INTERNET Prehistory: ARPANET Chronology - Taylor & Francis Online
-
-aspiretech.com
-Looking Back at ARPANET - Aspire Technical Solutions
-
-blog.tibcert.org
-New Digital ID proposal of China – A nail in the coffin for user privacy and online anonymity?
-
-csis.org
-Shrinking Anonymity in Chinese Cyberspace - CSIS
-
-reddit.com
-China tightens internet controls with new centralized form of virtual ID - Reddit
-
-hrw.org
-“We Will Find You”: A Global Look at How Governments Repress Nationals Abroad | HRW
-
-freespeechunion.org
-Silencing dissent across borders: the free speech crisis of transnational repression
-
-cepa.org
-Talking Turkey: Ankara Punishes Online Dissent - CEPA
-
-iphronline.org
-Turkmenistan: NGOs document widening crackdown on dissent - IPHR
-
-mlpp.pressbooks.pub
-8chan – Clickbait, Bias, and Propaganda in Information Networks - Minnesota Libraries Publishing Project
-
-internetmatters.org
-What is 4chan and why is it controversial? - Internet Matters
-
-projects.csail.mit.edu
-4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large Online Community - MIT CSAIL
-
-activism.net
-The Crypto Anarchist Manifesto - Activism.net
-
-freedomhouse.org
-Egypt: Freedom on the Net 2022 Country Report
-
-freedomhouse.org
-Egypt: Freedom on the Net 2024 Country Report
-
-freedomhouse.org
-Belarus: Freedom on the Net 2022 Country Report
-
-article19.org
-Egypt: 2018 Law on the Organisation of Press, Media and the Supreme Council of Media - Article 19
-
-freedomhouse.org
-Belarus: New decree severely limits right to anonymity online - ARTICLE 19
-
-thecairoreview.com
-Amid Global Challenges to the Profession, Egyptian Journalism Goes Soul Searching
-
-amnesty.org
-Human rights in Belarus - Amnesty International
-
-docs.un.org
-A/73/380 - General Assembly
-
-state.gov
-2023 Country Reports on Human Rights Practices: Belarus - State Department
-
-qz.com
-For Quartz members—Hong Kong protests, anonymity, and fintech
-
-usenix.org
-Collective Information Security in Large-Scale Urban Protests: the Case of Hong Kong - USENIX
-
-sites.uab.edu
-The Abuse of Facial Recognition Technology in the Hong Kong Protests - University of Alabama at Birmingham
-
-portswigger.net
-Secure communication: Beleaguered Hong Kong dissidents seek refuge on 'digital underground' | The Daily Swig - PortSwigger
-
-homepage.ntu.edu.tw
-Relational tactics and trust in high-risk activism: Anonymity, preexisting ties, and bonding in Hong Kong's 2019–2020 protests
-
-digitalrightswatch.org.au
-Anonymity online is important - Digital Rights Watch
-
-eff.org
-The Growing Threat of Cybercrime Law Abuse: LGBTQ+ Rights in MENA and the UN Cybercrime Draft Convention | Electronic Frontier Foundation
-
-citizenlab.ca
-No Access: LGBTIQ Website Censorship in Six Countries - The Citizen Lab
-
-opensecrets.org
-KOSA Lobbying Profile • OpenSecrets
-
-hansard.parliament.uk
-Online Safety Act: Implementation - Hansard - UK Parliament
-
-researchbriefings.files.parliament.uk
-The Online Safety Bill: A reading list - UK Parliament
-
-support.discord.com
-What's Changing for UK Users Due to the UK Online Safety Act - Discord Support
-
-internetsociety.org
-UK Online Safety Act - Internet Society
-
-firstamendment.mtsu.edu
-Kids Online Safety Act | The First Amendment Encyclopedia - Free Speech Center
-
-er.educause.edu
-Senate Reintroduces Kids Online Safety Act - EDUCAUSE Review
-
-youtube.com
-Client Side Scanning - See What You See - The Matrix is Complete! - YouTube
-
-legis1.com
-Meta Platforms Pours Nearly $8M into Lobbying as TAKE IT DOWN Act Passes Congress
-
-internetsociety.org
-Client-Side Scanning – UK Case - Internet Society
-
-digital-strategy.ec.europa.eu
-The Digital Services Act package | Shaping Europe's digital future - European Union
-
-globsec.org
-5 Principles for the EU Digital Services Act | GLOBSEC - A Global Think Tank
-
-academic.oup.com
-EU Digital Services Act: what does it mean for online advertising and adtech? | International Journal of Law and Information Technology | Oxford Academic
-
-eff.org
-The Kids Online Safety Act (KOSA) - Electronic Frontier Foundation
-
-consumerchoicecenter.org
-Backlash Against the UK Online Safety Act is Well Deserved - Consumer Choice Center
-
-natlawreview.com
-Consequences of UK Online Safety Act for Service Providers - The National Law Review
-
-canada.ca
-Access to Information and Privacy - Canada.ca
-
-en.wikipedia.org
-Internet censorship in India - Wikipedia
-
-justice.gc.ca
-Canada's Privacy Act - Department of Justice Canada
-
-wilmerhale.com
-India Passes Long Awaited Privacy Law - WilmerHale
-
-homeaffairs.gov.au
-Web privacy - Department of Home Affairs
-
-esafety.gov.au
-Anonymity and identity shielding - eSafety Commissioner
-
-superlawyers.com
-How Technology Platforms Are Categorized Shapes Their Regulation - Super Lawyers
-
-en.wikipedia.org
-National Registration Identity Card - Wikipedia
-
-congress.gov
-All Info - S.264 - 118th Congress (2023-2024): Lobbying Disclosure Improvement Act
-
-shorensteincenter.org
-We need a Freedom of Information Act for Big Tech - Shorenstein Center
-
-reedsmith.com
-Singapore issues advisory restricting use of national identification numbers | Perspectives
-
-numberanalytics.com
-The Impact of Net Neutrality on Tech - Number Analytics
-
-tech.gov.sg
-Digital identity | Government Technology Agency (GovTech)
-
-monolith.law
-Online Defamation and Privacy Infringement | MONOLITH LAW OFFICE | Tokyo, Japan
-
-connectontech.bakermckenzie.com
-Brazil: The Supreme Court (STF) establishes that Article 19 of the Brazilian Internet Legal Framework is partially unconstitutional, creating a new regime of civil liability - Connect On Tech
-
-eff.org
-Major Setback for Intermediary Liability in Brazil: How Did We Get Here?
-
-opt-insight.com
-Privacy laws in Brazil - OptInsight
-
-meity.gov.in
-www.meity.gov.in
-
-fedlex.admin.ch
-SR 235.1 - Federal Act of 25 September 2020 on D... | Fedlex
-
-legislation.govt.nz
-Films, Videos, and Publications Classification Act 1993 No 94 (as at ...
-
-en.wikipedia.org
-2022–2023 Pentagon document leaks - Wikipedia
-
-jbsa.mil
-CYBER HYGIENE | Classified document leaks spur new focus on safe handling - Joint Base San Antonio
-
-en.wikipedia.org
-United States government group chat leaks - Wikipedia
-
-privacytools.io
-How is the Five Eyes Intelligence Alliance Related to Your Privacy? - PrivacyTools.io
-
-privacy.org.nz
-Office of the Privacy Commissioner | Privacy Act 2020
-
-government.se
-Freedom of expression and freedom to demonstrate in Sweden - Government.se
-
-privacy.org.nz
-What are your privacy rights? - Office of the Privacy Commissioner
-
-dlapiperdataprotection.com
-Data protection laws in New Zealand
-
-mobicip.com
-The Impact of Explicit Content on Teens: Parental Guide | Mobicip
-
-iclg.com
-Data Protection Laws and Regulations Report 2025 Indonesia - ICLG.com
-
-researchgate.net
-(PDF) INCORPORATING DIGITAL TOOLS TO PROMOTE CRITICAL THINKING SKILLS IN CHILDREN - ResearchGate
-
-direct.mit.edu
-Conducting Developmental Research Online vs. In-Person: A Meta-Analysis - MIT Press Direct
-
-pureportal.strath.ac.uk
-Online Age Verification: Government Legislation, Supplier Responsibilization, and Public Perceptions | Children 2024 - University of Strathclyde
-
-aclunc.org
-Big Tech is Trying to Burn Privacy to the Ground–And They're Using Big Tobacco's Strategy to Do It - The ACLU of Northern California
-
-iapp.org
-Tech lobbyists impacting state privacy laws - IAPP
-
-michalsons.com
-The Ethiopian Data Protection Law - the PDPP - Michalsons
-
-dlapiperdataprotection.com
-Data protection laws in Ethiopia
-
-mdpi.com
-A Comparison of Parenting Strategies in a Digital Environment: A Systematic Literature Review - MDPI
-
-direct.mit.edu
-Conducting Developmental Research Online vs. In-Person: A Meta-Analysis | Open Mind
-
-iclg.com
-Data Protection Laws and Regulations Report 2025 Israel - ICLG.com
-
-gov.il
-The Privacy Protection Authority - Gov.il
-
-stuff.coffeecode.net
-Online Privacy Law: Israel | Law Library of Congress
-
-business.privacybee.com
-Guide to Israel's Protection of Privacy Law
-
-cato.org
-Online Age Verification Could Create More Problems than it Solves ...
-
-waseda.jp
-Current Topics of Japanese Law No.2022-3 “Japanese Law and Social Media” （Ruben E. Rodriguez Samudio (Assistant Professor, Graduate School of Law）） – Institute of Comparative Law, Waseda University
-
-dlapiperdataprotection.com
-Data protection laws in France
-
-healthmatters.nyp.org
-How Social Media Use Affects Adolescent Brain Development - Health Matters - NewYork-Presbyterian
-
-en.wikipedia.org
-Internet censorship in France - Wikipedia
-
-apa.org
-APA chief scientist outlines potential harms, benefits of social media for kids
-
-en.wikipedia.org
-Five Eyes - Wikipedia
-
-afn.bynder.com
-2024 TRC Report Card
-
-klobuchar.senate.gov
-Klobuchar Opening Remarks on Protecting Online Data - News Releases
-
-africaninternetrights.org
-Privacy And Personal Data Protection - African Declaration on Internet Rights and Freedoms
-
-facebookpapers.com
-The Facebook Papers -
-
-techdirt.com
-Content Moderation Case Study: Twitter Removes Account For Pointing Users To Leaked Documents Obtained By A Hacking Collective (June 2020) - Techdirt.
-
-dataguidance.com
-General overview of Ethiopia's first personal data protection proclamation in light of the EU GDPR | Opinion | DataGuidance
-
-cipit.org
-Ethiopia's Personal Data Protection Proclamation of 2024 and its Budding Digital Identity Regime - Centre for Intellectual Property and Information Technology Law
-
-loc.gov
-Egypt: Law on Personal Data Implemented - The Library of Congress
-
-tandfonline.com
-Full article: A critical assessment of the impact of Egyptian laws on information access and dissemination by journalists
-
-didomi.io
-Indonesia's new data protection law: everything you need to know - Didomi
-
-law.nirmauni.ac.in
-Data Privacy Protection in India - Institute of Law - NIRMA UNIVERSITY
-
-iclg.com
-Data Protection Laws and Regulations Report 2025 Mexico - ICLG.com
-
-dlapiperdataprotection.com
-Data protection laws in Nigeria
-
-cookieyes.com
-Brazil's LGPD: Guide to the Data Protection Law - CookieYes
-
-en.wikipedia.org
-Censorship in Brazil - Wikipedia
-
-bmj.de
-Themen - BMJV
-
-ppc.go.jp
-Laws and Policies |PPC Personal Information Protection ...
-
-vertu.com
-Top 10 Security Mobile Phones in 2025: Your Ultimate Guide - VERTU® Official Site
-
-csosa.gov
-Online FOIA Request - CSOSA
-
-gsa.gov
-Freedom of Information Act (FOIA) - GSA
-
-subscriber.politicopro.com
-Lutnick says U.S. will continue to press EU on digital services taxes - POLITICO Pro
-
-uscis.gov
-Request Records through the Freedom of Information Act or Privacy Act - USCIS
-
-malwarebytes.com
-VPN use rises following Online Safety Act's age verification controls - Malwarebytes
-
-home-affairs.ec.europa.eu
-ONLINE RADICALISATION - Migration and Home Affairs
-
-jbs.cam.ac.uk
-How digital media impacts child development - News & insight
-
-pmc.ncbi.nlm.nih.gov
-What are the effects of different elements of media on radicalization outcomes? A systematic review - PubMed Central
-
-oii.ox.ac.uk
-Internet Filtering: And Why It Doesn't Really Help Protect Teens - OII
-
-publications.aap.org
-Digital Screen Media and Cognitive Development | Pediatrics - AAP Publications
-
-hansard.parliament.uk
-Extremism Review - Hansard - UK Parliament
-
-elysee.fr
-Joint Statement: Christchurch Call Leaders' Summit 2023. | Élysée
-
-news.ycombinator.com
-According to the link you provided, it does seem to be ahead of stock Android (a... | Hacker News
-
-dlapiperdataprotection.com
-Data protection laws in Germany
-
-techradar.com
-After the UK, online age verification is landing in the EU - TechRadar
-
-usresistnews.org
-Profits and Protests at Palantir (Technology Policy Brief #152) - USRESIST NEWS
-
-natlawreview.com
-Five Eyes Agencies Release Cybersecurity Guide to Counter PRC-Lin
-
-homeaffairs.gov.au
-Five Country Ministerial Statement on Countering the Illicit Use of Online Spaces
-
-japan.go.jp
-Social Network Moderation Policy of JapanGov - The Government of Japan
-
-sbs.com.au
-Tech firms unveil secret US govt requests | SBS News
-
-polity.org.za
-Balancing Privacy and Business Interests - The Intersection of POPIA, RICA, and Workplace Surveillance in South Africa - Polity.org
-
-article19.org
-Ethiopia: Computer Crime Proclamation - Article 19
-
-eff.org
-Ethiopia's New Cybercrime Law Allows for More Efficient and Systematic Prosecution of Online Speech
-
-icj.org
-Indonesia: Newly revised ITE Law threatens freedom of expression and must be amended
-
-indonesiaatmelbourne.unimelb.edu.au
-Indonesia is one of the world's largest democracies, but it's weaponising defamation laws to smother dissent
-
-loc.gov
-Mexico: New Transparency and Data Protection Laws Enacted | Library of Congress
-
-courthousenews.com
-Mexico approves security reforms allowing military to collect personal data
-
-moglen.law.columbia.edu
-KibongChoFirstPaper - LawNetSoc - TWiki - Eben Moglen
-
-christchurchcall.com
-The Christchurch Call
+- History of the Internet and Introduction to the Anonymous Web - ResearchGate (researchgate.net)
+- The Philosophy of Surveillance and Anonymity - Number Analytics (numberanalytics.com)
+- Harry Halpin · The Philosophy of Anonymous: Ontological Politics without Identity (2012) (radicalphilosophy.com)
+- What Happens When Technology Goes Too Far? | A Cyberpunk Future - YouTube (youtube.com)
+- What would concensus look like in Cyberpunk 2077? : r/WhiteWolfRPG - Reddit (reddit.com)
+- Agree or disagree? Cyberpunk isn't an aesthetic it's an ethos - Reddit (reddit.com)
+- Cyberpunk 2077 - The Role of a Techie Class - YouTube (youtube.com)
+- Timeline of events associated with Anonymous - Wikipedia (en.wikipedia.org)
+- Anonymous | Definition, History, Purpose, Mask, & Facts | Britannica (britannica.com)
+- Evolution of Internet Anonymity Tools: Tracing Proxies to Privacy - ProxyElite (proxyelite.info)
+
+- The Cypherpunks: How Cryptography Activists Built Internet Privacy - Quantum Zeitgeist (quantumzeitgeist.com)
+- WHISTLEBLOWING HISTORY OVERVIEW (whistleblowersinternational.com)
+- A History of Whistleblowers and Document Leaks - The Cairo Review of Global Affairs (thecairoreview.com)
+- The Cypherpunks | 3 | Crypto Wars | Craig Jarvis | Taylor & Francis eB (taylorfrancis.com)
+- Human Rights and Hacktivism: The Cases of Wikileaks and Anonymous - Oxford Academic (academic.oup.com)
+- WikiLeaks and Web 2.0: privacy, security and other things that keep me awake (publications.archivists.org.au)
+- Full article: INTERNET Prehistory: ARPANET Chronology - Taylor & Francis Online (tandfonline.com)
+- Looking Back at ARPANET - Aspire Technical Solutions (aspiretech.com)
+- New Digital ID proposal of China – A nail in the coffin for user privacy and online anonymity? (blog.tibcert.org)
+- Shrinking Anonymity in Chinese Cyberspace - CSIS (csis.org)
+- China tightens internet controls with new centralized form of virtual ID - Reddit (reddit.com)
+- “We Will Find You”: A Global Look at How Governments Repress Nationals Abroad | HRW (hrw.org)
+- Silencing dissent across borders: the free speech crisis of transnational repression (freespeechunion.org)
+- Talking Turkey: Ankara Punishes Online Dissent - CEPA (cepa.org)
+- Turkmenistan: NGOs document widening crackdown on dissent - IPHR (iphronline.org)
+- 8chan – Clickbait, Bias, and Propaganda in Information Networks - Minnesota Libraries Publishing Project (mlpp.pressbooks.pub)
+- What is 4chan and why is it controversial? - Internet Matters (internetmatters.org)
+- 4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large Online Community - MIT CSAIL (projects.csail.mit.edu)
+- The Crypto Anarchist Manifesto - Activism.net (activism.net)
+- Egypt: Freedom on the Net 2022 Country Report (freedomhouse.org)
+- Egypt: Freedom on the Net 2024 Country Report (freedomhouse.org)
+- Belarus: Freedom on the Net 2022 Country Report (freedomhouse.org)
+- Egypt: 2018 Law on the Organisation of Press, Media and the Supreme Council of Media - Article 19 (article19.org)
+- Belarus: New decree severely limits right to anonymity online - ARTICLE 19 (freedomhouse.org)
+- Amid Global Challenges to the Profession, Egyptian Journalism Goes Soul Searching (thecairoreview.com)
+- Human rights in Belarus - Amnesty International (amnesty.org)
+- A/73/380 - General Assembly (docs.un.org)
+- 2023 Country Reports on Human Rights Practices: Belarus - State Department (state.gov)
+- For Quartz members—Hong Kong protests, anonymity, and fintech (qz.com)
+- Collective Information Security in Large-Scale Urban Protests: the Case of Hong Kong - USENIX (usenix.org)
+- The Abuse of Facial Recognition Technology in the Hong Kong Protests - University of Alabama at Birmingham (sites.uab.edu)
+- Secure communication: Beleaguered Hong Kong dissidents seek refuge on 'digital underground' | The Daily Swig - PortSwigger (portswigger.net)
+- Relational tactics and trust in high-risk activism: Anonymity, preexisting ties, and bonding in Hong Kong's 2019–2020 protests (homepage.ntu.edu.tw)
+- Anonymity online is important - Digital Rights Watch (digitalrightswatch.org.au)
+- The Growing Threat of Cybercrime Law Abuse: LGBTQ+ Rights in MENA and the UN Cybercrime Draft Convention | Electronic Frontier Foundation (eff.org)
+- No Access: LGBTIQ Website Censorship in Six Countries - The Citizen Lab (citizenlab.ca)
+- KOSA Lobbying Profile • OpenSecrets (opensecrets.org)
+- Online Safety Act: Implementation - Hansard - UK Parliament (hansard.parliament.uk)
+- The Online Safety Bill: A reading list - UK Parliament (researchbriefings.files.parliament.uk)
+- What's Changing for UK Users Due to the UK Online Safety Act - Discord Support (support.discord.com)
+- UK Online Safety Act - Internet Society (internetsociety.org)
+- Kids Online Safety Act | The First Amendment Encyclopedia - Free Speech Center (firstamendment.mtsu.edu)
+- Senate Reintroduces Kids Online Safety Act - EDUCAUSE Review (er.educause.edu)
+- Client Side Scanning - See What You See - The Matrix is Complete! - YouTube (youtube.com)
+- Meta Platforms Pours Nearly $8M into Lobbying as TAKE IT DOWN Act Passes Congress (legis1.com)
+- Client-Side Scanning – UK Case - Internet Society (internetsociety.org)
+- The Digital Services Act package | Shaping Europe's digital future - European Union (digital-strategy.ec.europa.eu)
+- 5 Principles for the EU Digital Services Act | GLOBSEC - A Global Think Tank (globsec.org)
+- EU Digital Services Act: what does it mean for online advertising and adtech? | International Journal of Law and Information Technology | Oxford Academic (academic.oup.com)
+- The Kids Online Safety Act (KOSA) - Electronic Frontier Foundation (eff.org)
+- Backlash Against the UK Online Safety Act is Well Deserved - Consumer Choice Center (consumerchoicecenter.org)
+- Consequences of UK Online Safety Act for Service Providers - The National Law Review (natlawreview.com)
+- Access to Information and Privacy - Canada.ca (canada.ca)
+- Internet censorship in India - Wikipedia (en.wikipedia.org)
+- Canada's Privacy Act - Department of Justice Canada (justice.gc.ca)
+- India Passes Long Awaited Privacy Law - WilmerHale (wilmerhale.com)
+- Web privacy - Department of Home Affairs (homeaffairs.gov.au)
+- Anonymity and identity shielding - eSafety Commissioner (esafety.gov.au)
+- How Technology Platforms Are Categorized Shapes Their Regulation - Super Lawyers (superlawyers.com)
+- National Registration Identity Card - Wikipedia (en.wikipedia.org)
+- All Info - S.264 - 118th Congress (2023-2024): Lobbying Disclosure Improvement Act (congress.gov)
+- We need a Freedom of Information Act for Big Tech - Shorenstein Center (shorensteincenter.org)
+- Singapore issues advisory restricting use of national identification numbers | Perspectives (reedsmith.com)
+- The Impact of Net Neutrality on Tech - Number Analytics (numberanalytics.com)
+- Digital identity | Government Technology Agency (GovTech) (tech.gov.sg)
+- Online Defamation and Privacy Infringement | MONOLITH LAW OFFICE | Tokyo, Japan (monolith.law)
+- Brazil: The Supreme Court (STF) establishes that Article 19 of the Brazilian Internet Legal Framework is partially unconstitutional, creating a new regime of civil liability - Connect On Tech (connectontech.bakermckenzie.com)
+- Major Setback for Intermediary Liability in Brazil: How Did We Get Here? (eff.org)
+- Privacy laws in Brazil - OptInsight (opt-insight.com)
+- www.meity.gov.in (meity.gov.in)
+- SR 235.1 - Federal Act of 25 September 2020 on D... | Fedlex (fedlex.admin.ch)
+- Films, Videos, and Publications Classification Act 1993 No 94 (as at ... (legislation.govt.nz)
+- 2022–2023 Pentagon document leaks - Wikipedia (en.wikipedia.org)
+- CYBER HYGIENE | Classified document leaks spur new focus on safe handling - Joint Base San Antonio (jbsa.mil)
+- United States government group chat leaks - Wikipedia (en.wikipedia.org)
+- How is the Five Eyes Intelligence Alliance Related to Your Privacy? - PrivacyTools.io (privacytools.io)
+- Office of the Privacy Commissioner | Privacy Act 2020 (privacy.org.nz)
+- Freedom of expression and freedom to demonstrate in Sweden - Government.se (government.se)
+- What are your privacy rights? - Office of the Privacy Commissioner (privacy.org.nz)
+- Data protection laws in New Zealand (dlapiperdataprotection.com)
+- The Impact of Explicit Content on Teens: Parental Guide | Mobicip (mobicip.com)
+- Data Protection Laws and Regulations Report 2025 Indonesia - ICLG.com (iclg.com)
+- (PDF) INCORPORATING DIGITAL TOOLS TO PROMOTE CRITICAL THINKING SKILLS IN CHILDREN - ResearchGate (researchgate.net)
+- Conducting Developmental Research Online vs. In-Person: A Meta-Analysis - MIT Press Direct (direct.mit.edu)
+- Online Age Verification: Government Legislation, Supplier Responsibilization, and Public Perceptions | Children 2024 - University of Strathclyde (pureportal.strath.ac.uk)
+- Big Tech is Trying to Burn Privacy to the Ground–And They're Using Big Tobacco's Strategy to Do It - The ACLU of Northern California (aclunc.org)
+- Tech lobbyists impacting state privacy laws - IAPP (iapp.org)
+- The Ethiopian Data Protection Law - the PDPP - Michalsons (michalsons.com)
+- Data protection laws in Ethiopia (dlapiperdataprotection.com)
+- A Comparison of Parenting Strategies in a Digital Environment: A Systematic Literature Review - MDPI (mdpi.com)
+- Conducting Developmental Research Online vs. In-Person: A Meta-Analysis | Open Mind (direct.mit.edu)
+- Data Protection Laws and Regulations Report 2025 Israel - ICLG.com (iclg.com)
+- The Privacy Protection Authority - Gov.il (gov.il)
+- Online Privacy Law: Israel | Law Library of Congress (stuff.coffeecode.net)
+- Guide to Israel's Protection of Privacy Law (business.privacybee.com)
+- Online Age Verification Could Create More Problems than it Solves ... (cato.org)
+- Current Topics of Japanese Law No.2022-3 “Japanese Law and Social Media” （Ruben E. Rodriguez Samudio (Assistant Professor, Graduate School of Law）） – Institute of Comparative Law, Waseda University (waseda.jp)
+- Data protection laws in France (dlapiperdataprotection.com)
+- How Social Media Use Affects Adolescent Brain Development - Health Matters - NewYork-Presbyterian (healthmatters.nyp.org)
+- Internet censorship in France - Wikipedia (en.wikipedia.org)
+- APA chief scientist outlines potential harms, benefits of social media for kids (apa.org)
+- Five Eyes - Wikipedia (en.wikipedia.org)
+- 2024 TRC Report Card (afn.bynder.com)
+- Klobuchar Opening Remarks on Protecting Online Data - News Releases (klobuchar.senate.gov)
+- Privacy And Personal Data Protection - African Declaration on Internet Rights and Freedoms (africaninternetrights.org)
+- The Facebook Papers - (facebookpapers.com)
+- Content Moderation Case Study: Twitter Removes Account For Pointing Users To Leaked Documents Obtained By A Hacking Collective (June 2020) - Techdirt. (techdirt.com)
+- General overview of Ethiopia's first personal data protection proclamation in light of the EU GDPR | Opinion | DataGuidance (dataguidance.com)
+- Ethiopia's Personal Data Protection Proclamation of 2024 and its Budding Digital Identity Regime - Centre for Intellectual Property and Information Technology Law (cipit.org)
+- Egypt: Law on Personal Data Implemented - The Library of Congress (loc.gov)
+- Full article: A critical assessment of the impact of Egyptian laws on information access and dissemination by journalists (tandfonline.com)
+- Indonesia's new data protection law: everything you need to know - Didomi (didomi.io)
+- Data Privacy Protection in India - Institute of Law - NIRMA UNIVERSITY (law.nirmauni.ac.in)
+- Data Protection Laws and Regulations Report 2025 Mexico - ICLG.com (iclg.com)
+- Data protection laws in Nigeria (dlapiperdataprotection.com)
+- Brazil's LGPD: Guide to the Data Protection Law - CookieYes (cookieyes.com)
+- Censorship in Brazil - Wikipedia (en.wikipedia.org)
+- Themen - BMJV (bmj.de)
+- Laws and Policies |PPC Personal Information Protection ... (ppc.go.jp)
+- Top 10 Security Mobile Phones in 2025: Your Ultimate Guide - VERTU® Official Site (vertu.com)
+- Online FOIA Request - CSOSA (csosa.gov)
+- Freedom of Information Act (FOIA) - GSA (gsa.gov)
+- Lutnick says U.S. will continue to press EU on digital services taxes - POLITICO Pro (subscriber.politicopro.com)
+- Request Records through the Freedom of Information Act or Privacy Act - USCIS (uscis.gov)
+- VPN use rises following Online Safety Act's age verification controls - Malwarebytes (malwarebytes.com)
+- ONLINE RADICALISATION - Migration and Home Affairs (home-affairs.ec.europa.eu)
+- How digital media impacts child development - News & insight (jbs.cam.ac.uk)
+- What are the effects of different elements of media on radicalization outcomes? A systematic review - PubMed Central (pmc.ncbi.nlm.nih.gov)
+- Internet Filtering: And Why It Doesn't Really Help Protect Teens - OII (oii.ox.ac.uk)
+- Digital Screen Media and Cognitive Development | Pediatrics - AAP Publications (publications.aap.org)
+- Extremism Review - Hansard - UK Parliament (hansard.parliament.uk)
+- Joint Statement: Christchurch Call Leaders' Summit 2023. | Élysée (elysee.fr)
+- According to the link you provided, it does seem to be ahead of stock Android (a... | Hacker News (news.ycombinator.com)
+- Data protection laws in Germany (dlapiperdataprotection.com)
+- After the UK, online age verification is landing in the EU - TechRadar (techradar.com)
+- Profits and Protests at Palantir (Technology Policy Brief #152) - USRESIST NEWS (usresistnews.org)
+- Five Eyes Agencies Release Cybersecurity Guide to Counter PRC-Lin (natlawreview.com)
+- Five Country Ministerial Statement on Countering the Illicit Use of Online Spaces (homeaffairs.gov.au)
+- Social Network Moderation Policy of JapanGov - The Government of Japan (japan.go.jp)
+- Tech firms unveil secret US govt requests | SBS News (sbs.com.au)
+- Balancing Privacy and Business Interests - The Intersection of POPIA, RICA, and Workplace Surveillance in South Africa - Polity.org (polity.org.za)
+- Ethiopia: Computer Crime Proclamation - Article 19 (article19.org)
+- Ethiopia's New Cybercrime Law Allows for More Efficient and Systematic Prosecution of Online Speech (eff.org)
+- Indonesia: Newly revised ITE Law threatens freedom of expression and must be amended (icj.org)
+- Indonesia is one of the world's largest democracies, but it's weaponising defamation laws to smother dissent (indonesiaatmelbourne.unimelb.edu.au)
+- Mexico: New Transparency and Data Protection Laws Enacted | Library of Congress (loc.gov)
+- Mexico approves security reforms allowing military to collect personal data (courthousenews.com)
+- KibongChoFirstPaper - LawNetSoc - TWiki - Eben Moglen (moglen.law.columbia.edu)
+- The Christchurch Call (christchurchcall.com)

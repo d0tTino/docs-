@@ -528,403 +528,139 @@ Tags: Strategy, Monitoring, Crux, Uncertainty
 
 Sources used in the report
 
-mcrit.com
-mcrit.com
-
-en.wikipedia.org
-Business as usual (business) - Wikipedia
-
-energy.sustainability-directory.com
-Baseline Scenarios - Energy → Sustainability Directory
-
-aisafety.info
-aisafety.info
-
-andyhinesight.com
-Fun with scenario archetypes | Hinesight....for Foresight
-
-planvivo.org
-Baseline Scenario | Plan Vivo Foundation
-
-speedcommerce.com
-Business As Usual (BAU) Definition - Speed Commerce
-
-ipcc.ch
-Glossary — Global Warming of 1.5 ºC - IPCC
-
-innovate-d.com
-Consistency through macroeconomic baseline scenarios - innovate.d
-
-mdpi.com
-How Much Human-Caused Global Warming Should We Expect with Business-As-Usual (BAU) Climate Policies? A Semi-Empirical Assessment - MDPI
-
-ebsco.com
-Utopia (concept) | EBSCO Research Starters
-
-resilience.org
-Business as Usual - Resilience.org
-
-maize.io
-A brief history of utopia - MAIZE
-
-etymonline.com
-Utopia - Etymology, Origin & Meaning
-
-en.wikipedia.org
-Utopia - Wikipedia
-
-aisafety.info
-What is "p(doom)"? - AISafety.info
-
-sofi.com
-Tail Risk, Fat Tails, and What They Mean for Investors - SoFi
-
-babylonwealth.com
-Understanding Tail Risk and how to protect your investments - Babylon Wealth Management
-
-thetradinganalyst.com
-Understanding Tail Risk: Meaning, Mechanics, Strategy - The Trading Analyst
-
-candor.co
-Tail Risk: Be Aware of Extreme Case Scenarios - Candor
-
-dgap.org
-Business-As-Usual Scenario | DGAP
-
-ebsco.com
-Dystopia | EBSCO Research Starters
-
-pauseai.info
-pauseai.info
-
-en.wikipedia.org
-P(doom) - Wikipedia
-
-psychologytoday.com
-What Is the Probability of AI Doom? - Psychology Today
-
-felloai.com
-What Is P(Doom) and How Likely Is AI to End Humanity?
-
-betterevaluation.org
-Foresight evaluation - Better Evaluation
-
-britannica.com
-Utopia | Definition, Examples, & Facts | Britannica
-
-investopedia.com
-Understanding Tail Risk and the Odds of Portfolio Losses - Investopedia
-
-quantifiedstrategies.com
-Nassim Nicholas Taleb – Barbell Trading Strategy (Overview, Options And Philosophy) - QuantifiedStrategies.com
-
-en.wikipedia.org
-Taleb distribution - Wikipedia
-
-ai-cio.com
-Tail Risk Hedges Are Vital for Investors Now, Argues Black Swan Theory Guy - Ai-CIO
-
-en.wikipedia.org
-Dystopia - Wikipedia
-
-global.oup.com
-Dystopia - Hardcover - Gregory Claeys - Oxford University Press
-
-fema.gov
-Guidebook | FEMA.gov
-
-oxfordreference.com
-Dystopia - Oxford Reference
-
-pauseai.info
-List of p(doom) values - Pause AI
-
-rep.routledge.com
-Utopianism - Routledge Encyclopedia of Philosophy
-
-medium.com
-The Logic of Risk Taking. A central chapter that crystallizes all… | by ...
-
-digitalcommons.butler.edu
-THIS is the Bad Place: What Dystopian Literature Tells Us About Oppression and Resistance
-
-mcrit.com
-Foresight & Scenario-based methods - Mcrit
-
-readwritethink.org
-Dystopias: Definition and Characteristics - ReadWriteThink.org
-
-macrosynergy.com
-macrosynergy.com
-
-gisf.ngo
-Scenario Planning - Global Interagency Security Forum
-
-cdnsm5-ss15.sharpschool.com
-Definition and Characteristics of a Dystopian Novel (1).docx - SharpSchool
-
-macrosynergy.com
-The dangerous disregard for fat tails in quantitative finance | Macrosynergy
-
-higherlogicdownload.s3.amazonaws.com
-A GUIDE TO STRATEGIC FORESIGHT
-
-studiobinder.com
-What is Dystopian Fiction? Definition and Characteristics - StudioBinder
-
-differentiatedteaching.com
-What is Dystopian Literature? Key Features & Examples - Differentiated Teaching
-
-en.wikipedia.org
-Fat-tailed distribution - Wikipedia
-
-ideology-theory-practice.org
-Dystopia and social theory - IDEOLOGY THEORY PRACTICE
-
-polytechnique-insights.com
-The scenario method: an aid to strategic planning - Polytechnique Insights
-
-en.wikipedia.org
-en.wikipedia.org
-
-en.wikipedia.org
-Planetary boundaries - Wikipedia
-
-ig.ft.com
-Uncharted by Margaret Heffernan - Financial Times
-
-mercatus.org
-The Great Stagnation | Mercatus Center
-
-youtube.com
-Eliezer Yudkowsky: Artificial Intelligence and the End of Humanity - YouTube
-
-barnesandnoble.com
-Superintelligence: Paths, Dangers, Strategies by Nick Bostrom, Paperback - Barnes & Noble
-
-goodreads.com
-Growth: From Microorganisms to Megacities (Mit Press) by Vaclav Smil - Goodreads
-
-goodreads.com
-Factfulness: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think by Hans Rosling | Goodreads
-
-nationalreview.com
-The End of the Future | National Review
-
-summrize.com
-Homo Deus by Yuval Noah Harari Book Summary
-
-lit.newcity.com
-Review: Ray Kurzweil's “The Singularity Is Nearer ... - Newcity Lit
-
-en.wikipedia.org
-The Great Stagnation - Wikipedia
-
-fivebooks.com
-Growth by Vaclav Smil - Five Books Expert Reviews
-
-www2.internationalinsurance.org
-Carlota Perez Technological Revolutions And Financial Capital - Free PDF Download
-
-e-elgar.com
-Technological Revolutions and Financial Capital - Edward Elgar Publishing
-
-carlotaperez.org
-Technological Revolutions, Paradigm Shifts and Socio-Institutional Change - Carlota Perez
-
-kaifulee.medium.com
-AI and the Human Future: Net Positive | by Kai-Fu Lee | Medium
-
-carlotaperez.org
-Carlota Perez
-
-researchgate.net
-Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages | Request PDF - ResearchGate
-
-simonandschuster.com
-Uncharted | Book by Margaret Heffernan | Official Publisher Page ...
-
-en.wikipedia.org
-Superintelligence: Paths, Dangers, Strategies - Wikipedia
-
-en.wikipedia.org
-Eliezer Yudkowsky - Wikipedia
-
-medium.com
-The West's Current Dominance Explored in Why the West Rules | by ...
-
-en.wikipedia.org
-Factfulness - Wikipedia
-
-cato.org
-Book Review: Power and Progress | Cato Institute
-
-stockholmresilience.org
-Planetary boundaries - Stockholm Resilience Centre
-
-en.wikipedia.org
-Technological Revolutions and Financial Capital - Wikipedia
-
+- mcrit.com (mcrit.com)
+- Business as usual (business) - Wikipedia (en.wikipedia.org)
+- Baseline Scenarios - Energy → Sustainability Directory (energy.sustainability-directory.com)
+- aisafety.info (aisafety.info)
+- Fun with scenario archetypes | Hinesight....for Foresight (andyhinesight.com)
+- Baseline Scenario | Plan Vivo Foundation (planvivo.org)
+- Business As Usual (BAU) Definition - Speed Commerce (speedcommerce.com)
+- Glossary — Global Warming of 1.5 ºC - IPCC (ipcc.ch)
+- Consistency through macroeconomic baseline scenarios - innovate.d (innovate-d.com)
+- How Much Human-Caused Global Warming Should We Expect with Business-As-Usual (BAU) Climate Policies? A Semi-Empirical Assessment - MDPI (mdpi.com)
+- Utopia (concept) | EBSCO Research Starters (ebsco.com)
+- Business as Usual - Resilience.org (resilience.org)
+- A brief history of utopia - MAIZE (maize.io)
+- Utopia - Etymology, Origin & Meaning (etymonline.com)
+- Utopia - Wikipedia (en.wikipedia.org)
+- What is "p(doom)?" - AISafety.info (aisafety.info)
+
+- Tail Risk, Fat Tails, and What They Mean for Investors - SoFi (sofi.com)
+- Understanding Tail Risk and how to protect your investments - Babylon Wealth Management (babylonwealth.com)
+- Understanding Tail Risk: Meaning, Mechanics, Strategy - The Trading Analyst (thetradinganalyst.com)
+- Tail Risk: Be Aware of Extreme Case Scenarios - Candor (candor.co)
+- Business-As-Usual Scenario | DGAP (dgap.org)
+- Dystopia | EBSCO Research Starters (ebsco.com)
+- pauseai.info (pauseai.info)
+- What Is the Probability of AI Doom? - Psychology Today (psychologytoday.com)
+- What Is P(Doom) and How Likely Is AI to End Humanity? (felloai.com)
+- Foresight evaluation - Better Evaluation (betterevaluation.org)
+- Utopia | Definition, Examples, & Facts | Britannica (britannica.com)
+- Understanding Tail Risk and the Odds of Portfolio Losses - Investopedia (investopedia.com)
+- Nassim Nicholas Taleb – Barbell Trading Strategy (Overview, Options And Philosophy) - QuantifiedStrategies.com (quantifiedstrategies.com)
+- Taleb distribution - Wikipedia (en.wikipedia.org)
+- Tail Risk Hedges Are Vital for Investors Now, Argues Black Swan Theory Guy - Ai-CIO (ai-cio.com)
+- Dystopia - Wikipedia (en.wikipedia.org)
+- Dystopia - Hardcover - Gregory Claeys - Oxford University Press (global.oup.com)
+- Guidebook | FEMA.gov (fema.gov)
+- Dystopia - Oxford Reference (oxfordreference.com)
+- List of p(doom) values - Pause AI (pauseai.info)
+
+- Utopianism - Routledge Encyclopedia of Philosophy (rep.routledge.com)
+- The Logic of Risk Taking. A central chapter that crystallizes all… | by ... (medium.com)
+- THIS is the Bad Place: What Dystopian Literature Tells Us About Oppression and Resistance (digitalcommons.butler.edu)
+- Foresight & Scenario-based methods - Mcrit (mcrit.com)
+- Dystopias: Definition and Characteristics - ReadWriteThink.org (readwritethink.org)
+- macrosynergy.com (macrosynergy.com)
+- Scenario Planning - Global Interagency Security Forum (gisf.ngo)
+- Definition and Characteristics of a Dystopian Novel (1).docx - SharpSchool (cdnsm5-ss15.sharpschool.com)
+- The dangerous disregard for fat tails in quantitative finance | Macrosynergy (macrosynergy.com)
+- A GUIDE TO STRATEGIC FORESIGHT (higherlogicdownload.s3.amazonaws.com)
+- What is Dystopian Fiction? Definition and Characteristics - StudioBinder (studiobinder.com)
+- What is Dystopian Literature? Key Features & Examples - Differentiated Teaching (differentiatedteaching.com)
+- Fat-tailed distribution - Wikipedia (en.wikipedia.org)
+- Dystopia and social theory - IDEOLOGY THEORY PRACTICE (ideology-theory-practice.org)
+- The scenario method: an aid to strategic planning - Polytechnique Insights (polytechnique-insights.com)
+- en.wikipedia.org (en.wikipedia.org)
+- Planetary boundaries - Wikipedia (en.wikipedia.org)
+- Uncharted by Margaret Heffernan - Financial Times (ig.ft.com)
+- The Great Stagnation | Mercatus Center (mercatus.org)
+- Eliezer Yudkowsky: Artificial Intelligence and the End of Humanity - YouTube (youtube.com)
+- Superintelligence: Paths, Dangers, Strategies by Nick Bostrom, Paperback - Barnes & Noble (barnesandnoble.com)
+- Growth: From Microorganisms to Megacities (Mit Press) by Vaclav Smil - Goodreads (goodreads.com)
+- Factfulness: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think by Hans Rosling | Goodreads (goodreads.com)
+- The End of the Future | National Review (nationalreview.com)
+- Homo Deus by Yuval Noah Harari Book Summary (summrize.com)
+- Review: Ray Kurzweil's “The Singularity Is Nearer ... - Newcity Lit (lit.newcity.com)
+- The Great Stagnation - Wikipedia (en.wikipedia.org)
+- Growth by Vaclav Smil - Five Books Expert Reviews (fivebooks.com)
+- Carlota Perez Technological Revolutions And Financial Capital - Free PDF Download (www2.internationalinsurance.org)
+- Technological Revolutions and Financial Capital - Edward Elgar Publishing (e-elgar.com)
+- Technological Revolutions, Paradigm Shifts and Socio-Institutional Change - Carlota Perez (carlotaperez.org)
+- AI and the Human Future: Net Positive | by Kai-Fu Lee | Medium (kaifulee.medium.com)
+- Carlota Perez (carlotaperez.org)
+- Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages | Request PDF - ResearchGate (researchgate.net)
+- Uncharted | Book by Margaret Heffernan | Official Publisher Page ... (simonandschuster.com)
+- Superintelligence: Paths, Dangers, Strategies - Wikipedia (en.wikipedia.org)
+- Eliezer Yudkowsky - Wikipedia (en.wikipedia.org)
+- The West's Current Dominance Explored in Why the West Rules | by ... (medium.com)
+- Factfulness - Wikipedia (en.wikipedia.org)
+- Book Review: Power and Progress | Cato Institute (cato.org)
+- Planetary boundaries - Stockholm Resilience Centre (stockholmresilience.org)
+- Technological Revolutions and Financial Capital - Wikipedia (en.wikipedia.org)
 Sources read but not used in the report
 
-reddit.com
-A primer on p(doom) : r/singularity - Reddit
-
-blog.biocomm.ai
-What is P(doom)? P(doom) is the percentage chance that AI scientists think AI is going to wipe out all of humanity. This is what Bing and ChatGPT and Leading AI Researchers say about P(doom).
-
-thehedgefundjournal.com
-Tail Risk - The Hedge Fund Journal
-
-plato.stanford.edu
-Conservatism - Stanford Encyclopedia of Philosophy
-
-laccei.org
-Foresight by scenarios - a literature review - LACCEI.org
-
-wealthyeducation.com
-Tail Risk (Updated 2023) - Wealthy Education
-
-plato.stanford.edu
-Robert Nozick's Political Philosophy
-
-researchgate.net
-(PDF) Scenario analysis in foresight: AG2020 - ResearchGate
-
-eclass.uoa.gr
-Thomas More - Stanford Encyclopedia of Philosophy
-
-yccd.edu
-Foresight: an introduction | YCCD
-
-plato.stanford.edu
-Notes to Robert Nozick's Political Philosophy
-
-oxfordlearnersdictionaries.com
-dystopia noun - Definition, pictures, pronunciation and usage notes | Oxford Advanced American Dictionary at OxfordLearnersDictionaries.com
-
-oxfordlearnersdictionaries.com
-dystopia noun - Definition, pictures, pronunciation and usage notes | Oxford Advanced Learner's Dictionary at OxfordLearnersDictionaries.com
-
-torch.ox.ac.uk
-Dystopia Today - TORCH | The Oxford Research Centre in the Humanities
-
-scirp.org
-An Analysis of Dystopian Political Philosophy in Nineteen Eighty Four—in Rousseau's Social Contract View - Scientific Research Publishing
-
-elibrary.imf.org
-How to Implement Strategic Foresight (and Why) in - IMF eLibrary
-
-bookmap.com
-What are Fat Tails in Trading? - Bookmap
-
-learnsignal.com
-Fat Tail - Learnsignal
-
-risk.net
-Fat tails definition - Risk.net
-
-shapingtomorrow.com
-Practical Foresight Guide Chapter 3 – Methods - Shaping Tomorrow
-
-en.wikipedia.org
-en.wikipedia.org
-
-harvard.com
-Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity (Paperback) | Harvard Book Store
-
-barnesandnoble.com
-Uncharted: How to Navigate the Future by Margaret Heffernan, Paperback - Barnes & Noble
-
-oskareggert.com
-Life 3.0 (Max Tegmark)- Book Summary, Notes & Highlights - Oskar Eggert
-
-lesswrong.com
-AI Risk Skepticism - LessWrong
-
-startuparchive.org
-Peter Thiel on how to think about the future - Startup Archive
-
-stanfordreview.org
-Is it the End of the Future? - The Stanford Review
-
-reddit.com
-The End of the Future. Peter Thiel, CEO of Paypal and Stanford philosophy graduate believes the GFC is only a symptom of what is fundamentally a slow-down in the progress of science and technology in the past several decades. : r/PhilosophyofScience - Reddit
-
-hoover.org
-Peter Thiel On “The Straussian Moment” - Hoover Institution
-
-readingraphics.com
-Book Summary - Homo Deus: A Brief History Of Tomorrow - Readingraphics
-
-kenjudd.org
-Academic Freedom Conference: The End of the Future with Peter Thiel - Kenneth L. Judd
-
-medium.com
-“The Future of Humanity: A Summary of 'Homo Deus: A Brief History of Tomorrow'” | by Joe Rogan Podcast Book Club | Medium
-
-thenerdreich.com
-Silicon Valley's New Religion: Peter Thiel's Tech Apocalypse - The Nerd Reich
-
-fourminutebooks.com
-Homo Deus Summary (Yuval Noah Harari) | 3 Lessons in 4 Min - Four Minute Books
-
-en.wikipedia.org
-Homo Deus: A Brief History of Tomorrow - Wikipedia
-
-youtube.com
-Homo Deus: A BRIEF HISTORY OF TOMORROW with Yuval Noah Harari - YouTube
-
-unherd.com
-Peter Thiel's visions of Apocalypse - UnHerd
-
-classics.stanford.edu
-Why the West Rules--for Now: The Patterns of History, and What They Reveal About the Future - Stanford Classics
-
-aisuperpowers.com
-AI SUPERPOWERS new book by Kai-Fu Lee of Sinovation Ventures
-
-barnesandnoble.com
-Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity by Daron Acemoglu, Simon Johnson, Paperback | Barnes & Noble®
-
-stockholmresilience.org
-New quantifications: Planetary Boundaries in the future - Stockholm Resilience Centre
-
-ncuscr.org
-AI Superpowers - NCUSCR
-
-independent.org
-Book Review: Power and Progress: Our Thousand-Year Struggle over Technology and Prosperity, Daron Acemoglu and Simon Johnson - Independent Institute
-
-humanefutureofwork.com
-AI Super-powers by Kai-Fu Lee - Humane Future of Work
-
-tellus.org
-Bounding the Planetary Future: Why We Need a Great Transition - Tellus Institute
-
-thebreakthrough.org
-How Planetary Boundaries Captured Science, Health, and Finance
-
-issues.org
-Power and Progress | Review - Issues in Science and Technology
-
-ncuscr.org
-Kai-Fu Lee on the Future of AI in the United States and China | U.S.-China Insights
-
-macroecointern.dk
-Planetary Boundaries guide humanityˇs future on Earth - PDF.js viewer - macroecointern.dk
-
-ig.ft.com
-Power and Progress by Daron Acemoglu, Simon Johnson - Financial Times
-
-shapingwork.mit.edu
-Book Review: Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity
-
-news.mongabay.com
-Planetary boundary pioneer Johan Rockström awarded 2024 Tyler Prize - Mongabay
-
-en.wikipedia.org
-Life 3.0 - Wikipedia
-
-thinkingaheadinstitute.org
-Book review: AI superpowers - China, Silicon Valley, and the new ...
+- A primer on p(doom) : r/singularity - Reddit (reddit.com)
+- What is P(doom)? P(doom) is the percentage chance that AI scientists think AI is going to wipe out all of humanity. This is what Bing and ChatGPT and Leading AI Researchers say about P(doom). (blog.biocomm.ai)
+- Tail Risk - The Hedge Fund Journal (thehedgefundjournal.com)
+- Conservatism - Stanford Encyclopedia of Philosophy (plato.stanford.edu)
+- Foresight by scenarios - a literature review - LACCEI.org (laccei.org)
+- Tail Risk (Updated 2023) - Wealthy Education (wealthyeducation.com)
+- Robert Nozick's Political Philosophy (plato.stanford.edu)
+- (PDF) Scenario analysis in foresight: AG2020 - ResearchGate (researchgate.net)
+- Thomas More - Stanford Encyclopedia of Philosophy (eclass.uoa.gr)
+- Foresight: an introduction | YCCD (yccd.edu)
+- Notes to Robert Nozick's Political Philosophy (plato.stanford.edu)
+- dystopia noun - Definition, pictures, pronunciation and usage notes | Oxford Advanced American Dictionary at OxfordLearnersDictionaries.com (oxfordlearnersdictionaries.com)
+- dystopia noun - Definition, pictures, pronunciation and usage notes | Oxford Advanced Learner's Dictionary at OxfordLearnersDictionaries.com (oxfordlearnersdictionaries.com)
+- Dystopia Today - TORCH | The Oxford Research Centre in the Humanities (torch.ox.ac.uk)
+- An Analysis of Dystopian Political Philosophy in Nineteen Eighty Four—in Rousseau's Social Contract View - Scientific Research Publishing (scirp.org)
+- How to Implement Strategic Foresight (and Why) in - IMF eLibrary (elibrary.imf.org)
+- What are Fat Tails in Trading? - Bookmap (bookmap.com)
+- Fat Tail - Learnsignal (learnsignal.com)
+- Fat tails definition - Risk.net (risk.net)
+- Practical Foresight Guide Chapter 3 – Methods - Shaping Tomorrow (shapingtomorrow.com)
+- en.wikipedia.org (en.wikipedia.org)
+- Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity (Paperback) | Harvard Book Store (harvard.com)
+- Uncharted: How to Navigate the Future by Margaret Heffernan, Paperback - Barnes & Noble (barnesandnoble.com)
+- Life 3.0 (Max Tegmark)- Book Summary, Notes & Highlights - Oskar Eggert (oskareggert.com)
+- AI Risk Skepticism - LessWrong (lesswrong.com)
+- Peter Thiel on how to think about the future - Startup Archive (startuparchive.org)
+- Is it the End of the Future? - The Stanford Review (stanfordreview.org)
+- The End of the Future. Peter Thiel, CEO of Paypal and Stanford philosophy graduate believes the GFC is only a symptom of what is fundamentally a slow-down in the progress of science and technology in the past several decades. : r/PhilosophyofScience - Reddit (reddit.com)
+- Peter Thiel On “The Straussian Moment” - Hoover Institution (hoover.org)
+- Book Summary - Homo Deus: A Brief History Of Tomorrow - Readingraphics (readingraphics.com)
+- Academic Freedom Conference: The End of the Future with Peter Thiel - Kenneth L. Judd (kenjudd.org)
+- “The Future of Humanity: A Summary of 'Homo Deus: A Brief History of Tomorrow'” | by Joe Rogan Podcast Book Club | Medium (medium.com)
+- Silicon Valley's New Religion: Peter Thiel's Tech Apocalypse - The Nerd Reich (thenerdreich.com)
+- Homo Deus Summary (Yuval Noah Harari) | 3 Lessons in 4 Min - Four Minute Books (fourminutebooks.com)
+- Homo Deus: A Brief History of Tomorrow - Wikipedia (en.wikipedia.org)
+- Homo Deus: A BRIEF HISTORY OF TOMORROW with Yuval Noah Harari - YouTube (youtube.com)
+- Peter Thiel's visions of Apocalypse - UnHerd (unherd.com)
+- Why the West Rules--for Now: The Patterns of History, and What They Reveal About the Future - Stanford Classics (classics.stanford.edu)
+- AI SUPERPOWERS new book by Kai-Fu Lee of Sinovation Ventures (aisuperpowers.com)
+- Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity by Daron Acemoglu, Simon Johnson, Paperback | Barnes & Noble® (barnesandnoble.com)
+- New quantifications: Planetary Boundaries in the future - Stockholm Resilience Centre (stockholmresilience.org)
+- AI Superpowers - NCUSCR (ncuscr.org)
+- Book Review: Power and Progress: Our Thousand-Year Struggle over Technology and Prosperity, Daron Acemoglu and Simon Johnson - Independent Institute (independent.org)
+- AI Super-powers by Kai-Fu Lee - Humane Future of Work (humanefutureofwork.com)
+- Bounding the Planetary Future: Why We Need a Great Transition - Tellus Institute (tellus.org)
+- How Planetary Boundaries Captured Science, Health, and Finance (thebreakthrough.org)
+- Power and Progress | Review - Issues in Science and Technology (issues.org)
+- Kai-Fu Lee on the Future of AI in the United States and China | U.S.-China Insights (ncuscr.org)
+- Planetary Boundaries guide humanityˇs future on Earth - PDF.js viewer - macroecointern.dk (macroecointern.dk)
+- Power and Progress by Daron Acemoglu, Simon Johnson - Financial Times (ig.ft.com)
+- Book Review: Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity (shapingwork.mit.edu)
+- Planetary boundary pioneer Johan Rockström awarded 2024 Tyler Prize - Mongabay (news.mongabay.com)
+- Life 3.0 - Wikipedia (en.wikipedia.org)
+- Book review: AI superpowers - China, Silicon Valley, and the new ... (thinkingaheadinstitute.org)

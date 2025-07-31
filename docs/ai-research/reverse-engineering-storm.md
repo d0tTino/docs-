@@ -723,242 +723,85 @@ VectorRM: A specific Retrieval Module in STORM that uses a vector database (Qdra
 
 Sources used in the report
 
-copyrightalliance.org
-Section 1201: Technology Protection Measures - Copyright Alliance
-
-ttconsultants.com
-Digging Deeper: Reverse Engineering & Infringement Laws |TTC - TT Consultants
-
-law.cornell.edu
-17 U.S. Code § 1201 - Circumvention of copyright protection systems - Law.Cornell.Edu
-
-blog.stackademic.com
-STORM: Stanford's Revolutionary Research Tool Harnessing the Power of Agents and Agentic Workflows | by Lakshmi narayana .U | Stackademic
-
-faheyiplaw.com
-The Do's and Don'ts of Reverse Engineering: Guidelines for Ethical Competition and Reducing Legal Risk
-
-fossa.com
-Open Source Licenses 101: Apache License 2.0 | FOSSA Blog
-
-snyk.io
-Apache License 2.0 Explained | Apache 2.0 Uses, Benefits & Requirements - Snyk
-
-en.wikipedia.org
-Apache License - Wikipedia
-
-memgraph.com
-Apache License 2.0 - Memgraph
-
-thedispatch.ai
-The Dispatch Report: GitHub Repo Analysis: stanford-oval/storm
-
-thedispatch.ai
-The Dispatch Report: GitHub Repo Analysis: stanford-oval/storm
-
-github.com
-storm/examples/storm_examples/README.md at main · stanford-oval/storm - GitHub
-
-aclanthology.org
-Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models - ACL Anthology
-
-bolespot.com
-Technical Analysis of Stanford OVAL STORM Framework - bolespot
-
-arxiv.org
-arXiv:2402.14207v2 [cs.CL] 8 Apr 2024
-
-the-decoder.com
-Stanford AI experiment "STORM" generates Wikipedia-style articles - The Decoder
-
-medium.com
-Stanford STORM Explained: AI That Writes and Curates Smarter | by Teendifferent - Medium
-
-opencv.org
-Top GitHub Projects of Jan 2025 - OpenCV
-
-dev.to
-Code Explanation: "STORM: Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking" - DEV Community
-
-pydigger.com
-knowledge-storm - PyDigger
-
-storm-project.stanford.edu
-| Stanford STORM Research Project
-
-arxiv.org
-Assisting in Writing Wikipedia-like Articles From Scratch with Large ...
-
-pypi.org
-knowledge-storm - PyPI
-
-activestate.com
-How To Check For Python Dependencies With Package Managers - ActiveState
-
-pypi.org
-knowledge-storm - PyPI
-
-securityguide.github.io
-Dependency check for Python - ThoughtWorks Security Guide
-
-deps.dev
-knowledge-storm | PyPI - Open Source Insights
-
-stackoverflow.com
-How to find a Python package's dependencies - Stack Overflow
-
-github.com
-Releases · stanford-oval/storm - GitHub
-
-arxiv.org
-arxiv.org
-
-github.com
-stanford-oval/storm: An LLM-powered knowledge curation ... - GitHub
-
-github.com
-storm/requirements.txt at main · stanford-oval/storm · GitHub
-
-aclanthology.org
-Into the Unknown Unknowns: Engaged Human ... - ACL Anthology
-
+- Section 1201: Technology Protection Measures - Copyright Alliance (copyrightalliance.org)
+- Digging Deeper: Reverse Engineering & Infringement Laws |TTC - TT Consultants (ttconsultants.com)
+- 17 U.S. Code § 1201 - Circumvention of copyright protection systems - Law.Cornell.Edu (law.cornell.edu)
+- STORM: Stanford's Revolutionary Research Tool Harnessing the Power of Agents and Agentic Workflows | by Lakshmi narayana .U | Stackademic (blog.stackademic.com)
+- The Do's and Don'ts of Reverse Engineering: Guidelines for Ethical Competition and Reducing Legal Risk (faheyiplaw.com)
+- Open Source Licenses 101: Apache License 2.0 | FOSSA Blog (fossa.com)
+- Apache License 2.0 Explained | Apache 2.0 Uses, Benefits & Requirements - Snyk (snyk.io)
+- Apache License - Wikipedia (en.wikipedia.org)
+- Apache License 2.0 - Memgraph (memgraph.com)
+- The Dispatch Report: GitHub Repo Analysis: stanford-oval/storm (thedispatch.ai)
+- The Dispatch Report: GitHub Repo Analysis: stanford-oval/storm (thedispatch.ai)
+- storm/examples/storm_examples/README.md at main · stanford-oval/storm - GitHub (github.com)
+- Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models - ACL Anthology (aclanthology.org)
+- Technical Analysis of Stanford OVAL STORM Framework - bolespot (bolespot.com)
+- arXiv:2402.14207v2 [cs.CL] 8 Apr 2024 (arxiv.org)
+- Stanford AI experiment "STORM" generates Wikipedia-style articles - The Decoder (the-decoder.com)
+- Stanford STORM Explained: AI That Writes and Curates Smarter | by Teendifferent - Medium (medium.com)
+- Top GitHub Projects of Jan 2025 - OpenCV (opencv.org)
+- Code Explanation: "STORM: Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking" - DEV Community (dev.to)
+- knowledge-storm - PyDigger (pydigger.com)
+- | Stanford STORM Research Project (storm-project.stanford.edu)
+- Assisting in Writing Wikipedia-like Articles From Scratch with Large ... (arxiv.org)
+- knowledge-storm - PyPI (pypi.org)
+- How To Check For Python Dependencies With Package Managers - ActiveState (activestate.com)
+- knowledge-storm - PyPI (pypi.org)
+- Dependency check for Python - ThoughtWorks Security Guide (securityguide.github.io)
+- knowledge-storm | PyPI - Open Source Insights (deps.dev)
+- How to find a Python package's dependencies - Stack Overflow (stackoverflow.com)
+- Releases · stanford-oval/storm - GitHub (github.com)
+- arxiv.org (arxiv.org)
+- stanford-oval/storm: An LLM-powered knowledge curation ... - GitHub (github.com)
+- storm/requirements.txt at main · stanford-oval/storm · GitHub (github.com)
+- Into the Unknown Unknowns: Engaged Human ... - ACL Anthology (aclanthology.org)
 
 Sources read but not used in the report
 
-medium.com
-Stanford STORM: Revolutionizing AI-Powered Knowledge Curation | by Cogni Down Under
-
-direct.mit.edu
-3 Interoperability under the DMCA - MIT Press Direct
-
-techlearning.com
-STORM: Teaching With The Stanford-Designed AI System | Tech & Learning
-
-iipsj.org
-What is Section 1201 Digital Millennium Copyright Act?: A Legislative Primer - Institute for Intellectual Property and Social Justice
-
-tldrlegal.com
-Apache License 2.0 (Apache-2.0) Explained in Plain English - TLDRLegal
-
-are.na
-stanford-oval/storm: An LLM-powered knowledge curation system that researches a topic and generates a full-length r... | Are.na
-
-qdrant.tech
+- Stanford STORM: Revolutionizing AI-Powered Knowledge Curation | by Cogni Down Under (medium.com)
+- 3 Interoperability under the DMCA - MIT Press Direct (direct.mit.edu)
+- STORM: Teaching With The Stanford-Designed AI System | Tech & Learning (techlearning.com)
+- What is Section 1201 Digital Millennium Copyright Act?: A Legislative Primer - Institute for Intellectual Property and Social Justice (iipsj.org)
+- Apache License 2.0 (Apache-2.0) Explained in Plain English - TLDRLegal (tldrlegal.com)
+- stanford-oval/storm: An LLM-powered knowledge curation system that researches a topic and generates a full-length r... | Are.na (are.na)
 Stanford DSPy - Qdrant
-
-docs.notdiamond.ai
-DSPy tutorial - What is Not Diamond?
-
-dev.to
-Using DSPy to Enhance Prompt Engineering with OpenAI APIs - DEV Community
-
-github.com
-dspy/docs/docs/learn/programming/overview.md at main · stanfordnlp/dspy - GitHub
-
-dspy.ai
-Tutorials Overview - DSPy
-
-github.com
-dspy/docs/docs/learn/programming/overview.md at main · stanfordnlp/dspy - GitHub
-
-dspy.ai
-Tutorial: Retrieval-Augmented Generation (RAG) - DSPy
-
-ibm.com
-DSPy Tutorial | IBM
-
-docs.databricks.com
-Build generative AI apps using DSPy on Databricks
-
-youtube.com
-Easiest Tutorial to Learn DSPy with LLM Example - YouTube
-
-datacamp.com
-What Is DSPy? How It Works, Use Cases, and Resources - DataCamp
-
-github.com
-Activity · stanford-oval/storm - GitHub
-
-githubtree.mgks.dev
-stanford-oval/storm: STORM: Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking. - GitHub repo explorer
-
-github.com
-Pull requests · stanford-oval/storm - GitHub
-
-github.com
-Issues · stanford-oval/storm - GitHub
-
-dspy.ai
-DSPy
-
-brajeshwar.com
-Stanford University's STORM - Brajeshwar
-
-aclanthology.org
-Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models - ACL Anthology
-
-wallyboston.com
-STORM: A Stanford University AI Writing System - Wally Boston
-
-jamiiforums.com
-STORM: Stanford's AI Revolution in Research and Content Creation | JamiiForums
-
-blog.acer.com
-STORM by Stanford University: The AI Model for Academic and Research Purposes
-
-marktechpost.com
-STORM: An AI-Powered Writing System for the Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking - MarkTechPost
-
-digitalocean.com
-Running Stanford OVAL's STORM Mistral demo with DSPy - DigitalOcean
-
-oval.cs.stanford.edu
-Stanford OVAL — Home
-
-github.com
-Co-STORM · assafelovic gpt-researcher · Discussion #816 - GitHub
-
-storm.genie.stanford.edu
-STORM - Stanford University
-
-youtube.com
-Co-Storm: FREE AI TOOL by STANFORD can convert TOPICS to LONG ARTICLES!
-
-dustingram.com
-Why PyPI Doesn't Know Your Projects Dependencies - Dustin Ingram
-
-aclanthology.org
-Yijia Shao - ACL Anthology
-
-2024.emnlp.org
-Findings - EMNLP 2024
-
-youtube.com
-Python - Checking Package Dependencies! - YouTube
-
-aclanthology.org
-Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations - ACL Anthology
-
-aimodels.fyi
-Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations | AI Research Paper Details - AIModels.fyi
-
-github.com
-tweag/FawltyDeps: Python dependency checker - GitHub
-
-researchgate.net
-Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations - ResearchGate
-
-tweag.io
-Announcing FawltyDeps - a dependency checker for your Python code - Tweag
-
-towardsdatascience.com
-Running the STORM AI research system with your local documents - Towards Data Science
-
-semanticscholar.org
-Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations - Semantic Scholar
-
-zhuanzhi.ai
-Into the Unknown Unknowns: Engaged Human Learning through
-
-blog.inedo.com
-Python Dependencies Management: pip show, pip tree, pip list etc. - Inedo Blog
+- Stanford DSPy - Qdrant (qdrant.tech)
+- Using DSPy to Enhance Prompt Engineering with OpenAI APIs - DEV Community (dev.to)
+- dspy/docs/docs/learn/programming/overview.md at main · stanfordnlp/dspy - GitHub (github.com)
+- Tutorials Overview - DSPy (dspy.ai)
+- dspy/docs/docs/learn/programming/overview.md at main · stanfordnlp/dspy - GitHub (github.com)
+- Tutorial: Retrieval-Augmented Generation (RAG) - DSPy (dspy.ai)
+- DSPy Tutorial | IBM (ibm.com)
+- Build generative AI apps using DSPy on Databricks (docs.databricks.com)
+- Easiest Tutorial to Learn DSPy with LLM Example - YouTube (youtube.com)
+- What Is DSPy? How It Works, Use Cases, and Resources - DataCamp (datacamp.com)
+- Activity · stanford-oval/storm - GitHub (github.com)
+- stanford-oval/storm: STORM: Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking. - GitHub repo explorer (githubtree.mgks.dev)
+- Pull requests · stanford-oval/storm - GitHub (github.com)
+- Issues · stanford-oval/storm - GitHub (github.com)
+- DSPy (dspy.ai)
+- Stanford University's STORM - Brajeshwar (brajeshwar.com)
+- Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models - ACL Anthology (aclanthology.org)
+- STORM: A Stanford University AI Writing System - Wally Boston (wallyboston.com)
+- STORM: Stanford's AI Revolution in Research and Content Creation | JamiiForums (jamiiforums.com)
+- STORM by Stanford University: The AI Model for Academic and Research Purposes (blog.acer.com)
+- STORM: An AI-Powered Writing System for the Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking - MarkTechPost (marktechpost.com)
+- Running Stanford OVAL's STORM Mistral demo with DSPy - DigitalOcean (digitalocean.com)
+- Stanford OVAL — Home (oval.cs.stanford.edu)
+- Co-STORM · assafelovic gpt-researcher · Discussion #816 - GitHub (github.com)
+- STORM - Stanford University (storm.genie.stanford.edu)
+- Co-Storm: FREE AI TOOL by STANFORD can convert TOPICS to LONG ARTICLES! (youtube.com)
+- Why PyPI Doesn't Know Your Projects Dependencies - Dustin Ingram (dustingram.com)
+- Yijia Shao - ACL Anthology (aclanthology.org)
+- Findings - EMNLP 2024 (2024.emnlp.org)
+- Python - Checking Package Dependencies! - YouTube (youtube.com)
+- Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations - ACL Anthology (aclanthology.org)
+- Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations | AI Research Paper Details - AIModels.fyi (aimodels.fyi)
+- tweag/FawltyDeps: Python dependency checker - GitHub (github.com)
+- Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations - ResearchGate (researchgate.net)
+- Announcing FawltyDeps - a dependency checker for your Python code - Tweag (tweag.io)
+- Running the STORM AI research system with your local documents - Towards Data Science (towardsdatascience.com)
+- Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations - Semantic Scholar (semanticscholar.org)
+- Into the Unknown Unknowns: Engaged Human Learning through (zhuanzhi.ai)
+- Python Dependencies Management: pip show, pip tree, pip list etc. - Inedo Blog (blog.inedo.com)
