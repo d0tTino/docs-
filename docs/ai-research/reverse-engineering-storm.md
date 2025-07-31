@@ -8,13 +8,13 @@ updated: 2025-07-30
 # Reverse-Engineering Design Report: stanford-oval/storm
 # 1.0 Executive Summary
 # 1.1 System Synopsis
-This report provides a comprehensive reverse-engineering analysis of the Stanford OVAL project known as STORM (Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking). STORM is a sophisticated knowledge curation system designed to automate the research and generation of long-form, citation-backed articles on a given topic, emulating the structure and depth of Wikipedia entries. The system architecture is fundamentally constructed upon the 
+This report provides a comprehensive reverse-engineering analysis of the Stanford OVAL project known as STORM (Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking). STORM is a sophisticated knowledge curation system designed to automate the research and generation of long-form, citation-backed articles on a given topic, emulating the structure and depth of Wikipedia entries. The system architecture is fundamentally constructed upon the
 
 dspy programming framework, a declarative paradigm that facilitates the creation of modular and complex pipelines for Large Language Models (LLMs).
 
-The analysis distinguishes between two major evolutionary stages of the system. The initial implementation, referred to as STORM-Wiki, focuses on a fully automated pipeline for generating articles. It conducts research, formulates an outline, and writes content without direct human intervention. The more recent and advanced iteration, 
+The analysis distinguishes between two major evolutionary stages of the system. The initial implementation, referred to as STORM-Wiki, focuses on a fully automated pipeline for generating articles. It conducts research, formulates an outline, and writes content without direct human intervention. The more recent and advanced iteration,
 
-Co-STORM, introduces a collaborative, human-in-the-loop discourse model. This version transforms the system from a simple generator into an interactive research assistant, allowing users to guide and participate in the knowledge discovery process. Both variants are distributed as a unified Python package, 
+Co-STORM, introduces a collaborative, human-in-the-loop discourse model. This version transforms the system from a simple generator into an interactive research assistant, allowing users to guide and participate in the knowledge discovery process. Both variants are distributed as a unified Python package,
 
 knowledge-storm.
 
@@ -41,7 +41,7 @@ Based on these findings, the strategic recommendation is to proceed with the re-
 
 # 2.0 Scope & Legal Constraints
 # 2.1 Target System Definition
-The scope of this Reverse-Engineering Design Report (REDR) is the software project known as STORM, developed by the Stanford OVAL lab and hosted at the public GitHub repository stanford-oval/storm. The analysis covers the full functionality encapsulated within the 
+The scope of this Reverse-Engineering Design Report (REDR) is the software project known as STORM, developed by the Stanford OVAL lab and hosted at the public GitHub repository stanford-oval/storm. The analysis covers the full functionality encapsulated within the
 
 knowledge-storm Python package, from its earlier versions (e.g., 0.2.x) to the latest releases that integrate the Co-STORM functionality (v1.0.0 and beyond). The scope encompasses a detailed examination of the system's core logic, the agentic methodologies described in its associated research, the data processing pipelines, and the operational modes of both the automated STORM-Wiki variant and the interactive Co-STORM variant.
 
@@ -52,7 +52,7 @@ The legal framework governing the re-implementation is defined by the licenses o
 The stanford-oval/storm project itself is licensed under the MIT License. This is a permissive open-source license that grants extremely broad permissions. Specifically, it allows any party to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" with the sole condition that the original copyright notice and the permission notice are included in all copies or substantial portions of the software. The MIT license does not contain any "copyleft" provisions, meaning that derivative works are not required to be released under the same license. This is a critical factor, as it permits the creation of a proprietary, open-core product that leverages the knowledge gained from analyzing the original source code.
 
 # 2.2.2 Dependency Licenses (Primarily Apache 2.0)
-A comprehensive audit of the project's dependencies reveals a significant reliance on third-party packages licensed under the Apache License 2.0. Key dependencies, including the core 
+A comprehensive audit of the project's dependencies reveals a significant reliance on third-party packages licensed under the Apache License 2.0. Key dependencies, including the core
 
 dspy-ai framework and libraries from the langchain and sentence-transformers ecosystems, fall under this license. The Apache License 2.0 is also a permissive license, compatible with proprietary commercial use, but it carries specific obligations that must be met.
 
@@ -127,9 +127,9 @@ Export to Sheets
 A full analysis, including transitive dependencies, is provided in Appendix 10.1. The prevalence of permissive licenses (MIT, Apache-2.0, BSD) reinforces the feasibility of a commercial open-core model.
 
 # 3.2 Tooling and Runtimes
-The project specifies a minimum Python version of >=3.10 in its package metadata. The official installation instructions recommend using the 
+The project specifies a minimum Python version of >=3.10 in its package metadata. The official installation instructions recommend using the
 
-conda environment manager to create a dedicated environment, suggesting python=3.11 as a stable target. For this analysis, the full dependency graph was resolved using 
+conda environment manager to create a dedicated environment, suggesting python=3.11 as a stable target. For this analysis, the full dependency graph was resolved using
 
 pipdeptree, a standard utility for visualizing dependency trees in an installed environment. The re-implementation should target Python 3.11+ to ensure compatibility with the latest versions of the core dependency ecosystem.
 
@@ -164,7 +164,7 @@ API Call Interception: Employing network proxies and patching the litellm and re
 State Inspection: Setting breakpoints at critical junctures in the code to inspect the state of key variables and objects in memory. For instance, examining the conversation_history object after each turn in the simulated dialogue or inspecting the mind_map object after it was updated by the DiscourseManager in Co-STORM. This provided a clear picture of how data is transformed as it moves through the pipeline.
 
 # 4.3 Architecture Reconstruction
-The findings from both static and dynamic analysis were synthesized to reconstruct the system's architecture. This process was guided by the principles of the C4 model (Context, Container, Component, Code) to create layered views of the system. An initial high-level component diagram was drafted based on the module structure described in the codebase and the system diagrams in the research papers. This initial diagram was then iteratively refined and enriched with concrete details uncovered during dynamic analysis. For example, the precise sequence of 
+The findings from both static and dynamic analysis were synthesized to reconstruct the system's architecture. This process was guided by the principles of the C4 model (Context, Container, Component, Code) to create layered views of the system. An initial high-level component diagram was drafted based on the module structure described in the codebase and the system diagrams in the research papers. This initial diagram was then iteratively refined and enriched with concrete details uncovered during dynamic analysis. For example, the precise sequence of
 
 dspy.Module invocations within the CoStormRunner's step method was mapped out and added to the component interaction view. The final, consolidated architectural diagram is presented in Section 5.0.
 
@@ -233,7 +233,7 @@ graph TD
         Orchestrator -- "Manages Control Flow" --> "Core Pipelines"
         ArticleGen -- "Output: Generated Report" --> U
         MindMap -- "Output: Generated Report / Mind Map" --> U
-        
+
         "Core Pipelines" -- "Invoke LLM" --> LM_Interface
         "Core Pipelines" -- "Retrieve Info" --> RM_Interface
     end
@@ -261,16 +261,16 @@ The primary control flow of the application is managed by two main orchestrator 
 
 The STORMWikiRunner is responsible for the fully automated article generation pipeline. Its run method takes a series of boolean flags (--do-research, --do-generate-outline, --do-generate-article, --do-polish-article) that determine which stages of the pipeline to execute. This design allows for granular control and the ability to resume a failed run from an intermediate stage by loading previously generated artifacts from an output directory.
 
-The CoStormRunner handles the more complex, interactive Co-STORM workflow. It introduces methods tailored for a turn-based, stateful interaction. The 
+The CoStormRunner handles the more complex, interactive Co-STORM workflow. It introduces methods tailored for a turn-based, stateful interaction. The
 
-warm_start() method initializes the discourse, and the step() method advances the conversation by one turn. The step() method can be called with or without a user_utterance, allowing the system to either proceed with its own agentic logic or react to human input. This event-driven structure is fundamentally different from the linear execution of the 
+warm_start() method initializes the discourse, and the step() method advances the conversation by one turn. The step() method can be called with or without a user_utterance, allowing the system to either proceed with its own agentic logic or react to human input. This event-driven structure is fundamentally different from the linear execution of the
 
 STORMWikiRunner. Both runners are responsible for initializing all required dependencies, such as the language model and retrieval model configurations, and passing them to the downstream pipeline modules.
 
 # 6.2 Core STORM-Wiki Pipeline Modules (storm_wiki/modules/)
 The automated STORM-Wiki pipeline is composed of a series of dspy.Module subclasses, each responsible for a distinct phase of the process as described in the NAACL research paper.
 
-Knowledge Curation: This module implements the core research phase. It begins by generating a set of diverse "perspectives" on the input topic by analyzing the tables of contents of related Wikipedia articles. It then enters a loop, simulating a conversation for each perspective. In each turn, a "writer" agent asks a question, and an "expert" agent answers it by first breaking the question into search engine queries, retrieving information, and then synthesizing an answer grounded in the search results. This entire conversational process is encapsulated within 
+Knowledge Curation: This module implements the core research phase. It begins by generating a set of diverse "perspectives" on the input topic by analyzing the tables of contents of related Wikipedia articles. It then enters a loop, simulating a conversation for each perspective. In each turn, a "writer" agent asks a question, and an "expert" agent answers it by first breaking the question into search engine queries, retrieving information, and then synthesizing an answer grounded in the search results. This entire conversational process is encapsulated within
 
 dspy.Modules with specific signatures to guide the LLM's behavior.
 
@@ -281,7 +281,7 @@ Article Generation: This module consumes the final outline and the collected kno
 Article Polishing: This is the final stage in the pipeline. It takes the concatenated, section-by-section generated article and performs refinement tasks. This includes generating a lead summary for the entire article and removing redundant information to improve overall coherence and readability.
 
 # 6.3 Collaborative Discourse Engine (collaborative_storm/engine.py)
-The heart of the Co-STORM system is the DiscourseManager, a component found within the collaborative_storm engine. This manager implements the "turn management policy" that orchestrates the complex, multi-agent conversation. Unlike the linear flow of STORM-Wiki, the 
+The heart of the Co-STORM system is the DiscourseManager, a component found within the collaborative_storm engine. This manager implements the "turn management policy" that orchestrates the complex, multi-agent conversation. Unlike the linear flow of STORM-Wiki, the
 
 DiscourseManager is a state machine that decides which agent should act in the next turn. Its responsibilities include:
 
@@ -298,7 +298,7 @@ Invoking the logic to update the dynamic mind map with the new information.
 This component is the central nervous system of the collaborative experience, enabling the fluid, turn-based interaction that defines Co-STORM.
 
 # 6.4 Co-STORM Agent Implementations (collaborative_storm/modules/co_storm_agents.py)
-The collaborative discourse is populated by several types of agents, each with a distinct role as described in the EMNLP paper and project documentation. These agents are implemented as 
+The collaborative discourse is populated by several types of agents, each with a distinct role as described in the EMNLP paper and project documentation. These agents are implemented as
 
 dspy.Modules with specialized prompts.
 
@@ -313,7 +313,7 @@ A significant architectural strength of the STORM project is its abstraction of 
 
 In response to community interest in using a wider variety of models, including local and open-source options, the developers made a strategic decision to integrate the litellm library.
 
-litellm acts as a universal adapter, providing a single, consistent API to call hundreds of different LLM providers. This refactoring dramatically simplifies the codebase and empowers users to easily swap out backend models without altering the core application logic. This move from a set of specific implementations to a single, generalized interface is a key lesson, and the re-implementation should adopt this 
+litellm acts as a universal adapter, providing a single, consistent API to call hundreds of different LLM providers. This refactoring dramatically simplifies the codebase and empowers users to easily swap out backend models without altering the core application logic. This move from a set of specific implementations to a single, generalized interface is a key lesson, and the re-implementation should adopt this
 
 litellm-based strategy from the outset.
 
@@ -322,7 +322,7 @@ Similar to the language model interface, the system uses a consistent, abstracte
 
 The core of each retriever is its forward method, which takes a string query as input and is expected to return a list of dspy.Example objects or similar passage structures. This uniform interface allows the orchestration engine to treat all retrievers interchangeably.
 
-The introduction of VectorRM is particularly noteworthy. This module allows the system to be grounded in a user's private document corpus instead of the public internet. It uses 
+The introduction of VectorRM is particularly noteworthy. This module allows the system to be grounded in a user's private document corpus instead of the public internet. It uses
 
 sentence-transformers to generate embeddings and qdrant-client to interact with a Qdrant vector database, which stores and searches the document vectors. This capability significantly expands the system's applicability to enterprise use cases involving proprietary data.
 
@@ -331,7 +331,7 @@ The two operational modes of the system utilize different primary data structure
 
 Knowledge Base (STORM-Wiki): In the automated pipeline, the primary state container is a relatively simple "knowledge base." This consists of the full transcripts of the simulated conversations and the collection of all documents retrieved from the web. This data is typically held in memory during a run and serialized to JSON or text files in a specified output directory for persistence and debugging.
 
-Mind Map (Co-STORM): Co-STORM employs a more sophisticated data structure: the dynamic mind map. The EMNLP research paper describes this as a hierarchical structure that organizes the information uncovered during the discourse. Its purpose is to provide the user with a structured, evolving overview of the topic, which helps reduce the cognitive load of following a long and complex conversation. The implementation likely uses a tree-based data structure, such as nested dictionaries or custom node objects. This mind map is updated by the 
+Mind Map (Co-STORM): Co-STORM employs a more sophisticated data structure: the dynamic mind map. The EMNLP research paper describes this as a hierarchical structure that organizes the information uncovered during the discourse. Its purpose is to provide the user with a structured, evolving overview of the topic, which helps reduce the cognitive load of following a long and complex conversation. The implementation likely uses a tree-based data structure, such as nested dictionaries or custom node objects. This mind map is updated by the
 
 DiscourseManager after each conversational turn, integrating new information into the appropriate place in the hierarchy. This structure is central to Co-STORM's user experience and its goal of facilitating engaged learning.
 
@@ -379,14 +379,14 @@ FUNCTION generate_perspectives(topic):
     IF wiki_page exists:
       toc = wiki_page.get_table_of_contents()
       all_tocs += toc + "\n"
-  
+
   // Step 3: Generate perspectives from TOCs
   perspectives_prompt = format_prompt("Given these TOCs:\n{all_tocs}\n\nGenerate 5 diverse perspectives for writing about: {topic}")
   perspectives = LLM.call(perspectives_prompt)
-  
+
   // Step 4: Add a base perspective
   perspectives.add("A basic fact writer focusing on broadly covering the topic.")
-  
+
   RETURN perspectives
 ```
 
@@ -421,7 +421,7 @@ FUNCTION run_costorm_discourse(topic, user_goal):
     ELSE IF next_agent is ExpertAgent:
       // Expert answers or asks follow-up
       agent_output = next_agent.generate_response(discourse_history)
-    
+
     // 4. Update state
     current_turn = create_turn(next_agent.role, agent_output)
     discourse_history.append(current_turn)
@@ -472,7 +472,7 @@ Export to Sheets
 # 8.1 Dependency Vulnerability Scan
 The software supply chain is a critical vector for security vulnerabilities. The re-implementation project must incorporate automated dependency scanning from its inception. The dependency manifest detailed in Appendix 10.1 will serve as the initial baseline for this scan.
 
-A process will be established within the CI/CD pipeline (as described in Section 7.4) to run a vulnerability scanner like safety  or a commercial tool like Snyk against the project's 
+A process will be established within the CI/CD pipeline (as described in Section 7.4) to run a vulnerability scanner like safety  or a commercial tool like Snyk against the project's
 
 requirements.txt file on every build. This tool checks installed packages against a continuously updated database of known Common Vulnerabilities and Exposures (CVEs). Any build that introduces a dependency with a high-severity vulnerability will be automatically failed, preventing vulnerable code from being merged into the main branch. A policy for reviewing and addressing medium and low-severity vulnerabilities will also be established.
 
@@ -586,10 +586,10 @@ FUNCTION run_storm_wiki_pipeline(topic, user_goal):
   // Phase 1: Knowledge Curation via Simulated Conversation
   print("Phase 1: Generating perspectives...")
   perspectives = generate_perspectives(topic) // From 7.3.1
-  
+
   conversation_history = {}
   retrieved_documents = new Set()
-  
+
   FOR each p IN perspectives:
     print("Simulating conversation for perspective: {p}...")
     single_conversation =
@@ -597,15 +597,15 @@ FUNCTION run_storm_wiki_pipeline(topic, user_goal):
       // Writer asks a question
       writer_prompt = format_writer_prompt(topic, p, single_conversation)
       question = LLM.call(writer_prompt)
-      
+
       // Expert answers the question
       search_queries = generate_search_queries(question)
       sources = SearchAPI.search_and_filter(search_queries)
       retrieved_documents.add(sources)
-      
+
       expert_prompt = format_expert_prompt(question, sources)
       answer = LLM.call(expert_prompt)
-      
+
       single_conversation.append({ "question": question, "answer": answer })
     conversation_history[p] = single_conversation
 
@@ -613,26 +613,26 @@ FUNCTION run_storm_wiki_pipeline(topic, user_goal):
   print("Phase 2: Generating outline...")
   initial_outline_prompt = format_prompt("Generate a draft outline for: {topic}")
   draft_outline = LLM.call(initial_outline_prompt)
-  
+
   refine_outline_prompt = format_prompt("Refine this outline:\n{draft_outline}\n\nUsing this research:\n{conversation_history}")
   final_outline = LLM.call(refine_outline_prompt)
-  
+
   // Phase 3: Article Generation
   print("Phase 3: Generating article...")
   full_article_text = ""
   outline_sections = parse_outline(final_outline)
-  
+
   FOR each section IN outline_sections:
     relevant_docs = find_relevant_docs(section.title, retrieved_documents)
     section_prompt = format_prompt("Write the '{section.title}' section of an article on {topic}, using these sources:\n{relevant_docs}")
     section_content = LLM.call(section_prompt)
     full_article_text += "\n## " + section.title + "\n" + section_content
-    
+
   // Phase 4: Article Polishing
   print("Phase 4: Polishing article...")
   polish_prompt = format_prompt("Add a lead summary and remove redundancies from this article:\n{full_article_text}")
   polished_article = LLM.call(polish_prompt)
-  
+
   RETURN polished_article
 ```
 

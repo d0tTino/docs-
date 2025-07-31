@@ -27,7 +27,7 @@ The inferred architecture of the Grok 4 Heavy framework is a hierarchical, multi
 
 ### 1.3 Re-implementation Strategy
 
-A functionally equivalent, open-core implementation is technically feasible using existing open-source technologies. The proposed blueprint avoids direct cloning of proprietary models and instead focuses on recreating the architectural patterns and interaction logic of the framework. The strategy involves a hybrid approach, leveraging the strengths of multiple open-source multi-agent frameworks. CrewAI is recommended for its high-level, role-based abstractions to define the Orchestrator and Expert Agent roles, providing a structured and manageable workflow. The underlying agent-to-agent communication fabric would be implemented using 
+A functionally equivalent, open-core implementation is technically feasible using existing open-source technologies. The proposed blueprint avoids direct cloning of proprietary models and instead focuses on recreating the architectural patterns and interaction logic of the framework. The strategy involves a hybrid approach, leveraging the strengths of multiple open-source multi-agent frameworks. CrewAI is recommended for its high-level, role-based abstractions to define the Orchestrator and Expert Agent roles, providing a structured and manageable workflow. The underlying agent-to-agent communication fabric would be implemented using
 
 AutoGen for its flexible, event-driven, and conversational capabilities, which better model the dynamic "study group" interaction.
 
@@ -85,9 +85,9 @@ Table 3.1: Analysis Toolchain
 The following table specifies the software toolchain used for this analysis. The selection of these tools directly informs the methods and potential findings of the reverse-engineering process. For example, the choice of Ghidra provides powerful decompilation and collaborative analysis features, while Frida enables sophisticated dynamic instrumentation and API hooking.
 
 Tool Name\tVersion\tSHA-256 Hash (Tool Binary)\tPurpose
-Ghidra\t11.1.2_PUBLIC\te3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\t\nStatic Analysis, Decompilation, Sleigh Processor Definition 
+Ghidra\t11.1.2_PUBLIC\te3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\t\nStatic Analysis, Decompilation, Sleigh Processor Definition
 
-Frida Toolkit\t16.3.3\ta1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2\t\nDynamic Analysis, API Hooking, Memory Inspection 
+Frida Toolkit\t16.3.3\ta1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2\t\nDynamic Analysis, API Hooking, Memory Inspection
 
 Wireshark\t4.2.5\tf5e6d7c8b9a0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6\tNetwork Protocol Analysis (for API interactions)
 QEMU\t8.2.2\tb9a8c7d6e5f4d3c2b1a09f8e7d6c5b4a3d2c1b0a9f8e7d6c5b4a3d2c1b0a9f8e\tSystem Emulation (for sandboxed dynamic analysis)
@@ -119,7 +119,7 @@ Symbolic Execution: Where control flow is highly complex or obfuscated, symbolic
 
 Dynamic analysis involves observing the software during execution to understand its runtime behavior, data flows, and interactions with the operating system and network.
 
-API Hooking with Frida: The Frida toolkit is the primary tool for dynamic analysis. Scripts are developed to inject into the running 
+API Hooking with Frida: The Frida toolkit is the primary tool for dynamic analysis. Scripts are developed to inject into the running
 
 grok_heavy_client.exe process and hook key functions within libgrok_agent.dll. This allows for the interception of function calls in real-time to inspect arguments (e.g., serialized task objects), return values (e.g., agent results), and the flow of data between the orchestrator and the agent runtime.
 
@@ -211,7 +211,7 @@ Task Decomposition Algorithm: The decomposition process is likely implemented vi
 
 Agent Routing: Once the task graph is created, the Orchestrator routes each sub-task to the most appropriate agent in the pool. This routing decision is likely based on metadata associated with each agent (e.g., {'agent_id': 'agent_001', 'specialization': 'python_code_generation', 'version': '1.2'}). This aligns with the "supervisor/router" pattern where a coordinator directs requests to specialized agents.
 
-Consensus Management: A key feature of Grok 4 Heavy is its ability to "compare answers" and perform "error checking". This implies the Orchestrator manages a peer-review or consensus loop. After an agent (e.g., 
+Consensus Management: A key feature of Grok 4 Heavy is its ability to "compare answers" and perform "error checking". This implies the Orchestrator manages a peer-review or consensus loop. After an agent (e.g.,
 
 CodeGen) completes a task, the Orchestrator would assign its output to a CritiqueAgent. The CritiqueAgent's role is to evaluate the result for correctness, coherence, and adherence to constraints. If the critique is negative or suggests improvements, the Orchestrator can loop back, assigning a new refinement task to the original agent or a different one. This iterative refinement process is key to improving accuracy and reducing hallucinations.
 
@@ -262,17 +262,17 @@ To construct a legally compliant, open-core implementation, all proprietary comp
 
 Proprietary Component\tInferred Function\tFOSS Replacement(s)\tLicense\tRationale
 Grok 4 Base Model\tCore LLM Engine\tMixtral 8x22B, Llama 3 70B\tApache 2.0\t
-State-of-the-art, open-weight MoE and dense models that can be fine-tuned. 
+State-of-the-art, open-weight MoE and dense models that can be fine-tuned.
 
 Orchestrator Logic\tTask Decomposition & Routing\tAutoGen, CrewAI\tMIT / Apache 2.0\t
-Mature, well-documented open-source frameworks for multi-agent systems. 
+Mature, well-documented open-source frameworks for multi-agent systems.
 
 Implicit Coordination Bus\tShared Memory Broadcast\tRedis (Pub/Sub), Apache Kafka\tMIT / Apache 2.0\t
-High-performance, scalable messaging systems capable of emulating a global broadcast bus. 
+High-performance, scalable messaging systems capable of emulating a global broadcast bus.
 
 Explicit Protocol\tTask/Tool Communication\tgRPC, HTTP/REST with Pydantic\tApache 2.0 / MIT\tStandard, efficient, and well-supported protocols for building microservices.
 Vector Database\tRAG for Data Synthesis Agent\tQdrant, Weaviate, Milvus\tApache 2.0\t
-Scalable, open-source vector search engines for retrieval-augmented generation. 
+Scalable, open-source vector search engines for retrieval-augmented generation.
 
 ## 7.0 Re-implementation Blueprint
 
@@ -497,9 +497,9 @@ TaskResult* route_task_to_agent(Task* pTask, AgentPool* pPool) {
     // Iterate through the pool to find the best agent
     for (int i = 0; i < pPool->agent_count; i++) {
         Agent* current_agent = pPool->agents[i];
-        if (is_agent_available(current_agent) && 
+        if (is_agent_available(current_agent) &&
             strcmp(current_agent->specialization, required_specialization) == 0) {
-            
+
             // Simple routing: pick the first available.
             // A more complex implementation might score agents based on version or load.
             best_agent = current_agent;
