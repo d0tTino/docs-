@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
+This document is provided for research purposes only and does not constitute legal or financial advice.
+
 Introduction: From OPSEC to FINSEC — The Financial Counter-Attack
 This manual marks the fourth wave of the strategic doctrine initiated in this series. It transitions from the defensive postures of operational security (OPSEC), detailed in Wave 3, to the proactive measures of financial security (FINSEC). The core argument of this text is that financial autonomy is not a tangential objective but a critical, non-negotiable enabler of the "Radical Autonomy" mindset articulated in Wave 1[^1] The capacity for authentic thought, dissent, and action is fundamentally compromised when one's ability to acquire, store, and transact value is contingent upon permission from the very corporate-state sovereigns whose architectures of control were mapped in Wave 2[^1] A kill switch on your bank account is a kill switch on your dissent.
 This wave, therefore, serves as the direct tactical response to the financial control vectors identified in the Threat Matrix[^1] The looming threats of Programmable Central Bank Digital Currencies (CBDCs) and the legislative co-option of digital assets via frameworks like the U.S. GENIUS Act and the EU's MiCA regulation are not future hypotheticals; they are the legal and technical foundations of a new, more efficient financial panopticon being constructed in the present[^1] The techniques detailed herein are not theoretical financial advice; they are concrete countermeasures designed to build a resilient, parallel financial existence, immune to these emerging systems of surveillance and control.
