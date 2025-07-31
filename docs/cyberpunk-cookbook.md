@@ -7373,6 +7373,6 @@ Reid Interrogation - Emergent Justice, accessed July 28, 2025, https://emergentj
 - Law School | Baylor University, accessed July 25, 2025,
 - https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
 
-### References
+### Footnotes
 
 [^1]: See the previous waves for context on Radical Autonomy and the Threat Matrix.
