@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
+# Real-World Cyberpunk Manifesto — Wave 4: Money & Autonomy
+
 This document is provided for research purposes only and does not constitute legal or financial advice.
 
 Introduction: From OPSEC to FINSEC — The Financial Counter-Attack
