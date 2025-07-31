@@ -616,7 +616,7 @@ The Payout Lifecycle is Asynchronous: A 201 Created response for a transfer is a
 Webhook Security is Paramount: An unverified webhook endpoint is an open door for fraudulent activity. Verifying the X-Signature-SHA256 header is a critical security measure. Recommendation: Implement the RSA-SHA256 signature verification logic detailed in Section 5.2. This process—using Wise's public key to verify the signature against the raw request body—must be performed on every incoming webhook before its payload is processed. Requests with invalid signatures must be rejected immediately.
 By adopting these principles, an engineering team can move beyond a simple API integration to build a truly robust, secure, and scalable global payout platform. The patterns described—from stateful idempotency key management to event-driven status tracking—are not specific to Wise but represent best practices for any mission-critical financial system operating in a distributed environment. The result will be a system that is not only capable of automating payments but is also resilient to the inevitable failures of network communication, ensuring operational integrity and maintaining user trust.
 
-## Works cited
+## Works cited — Idempotency
 
 Payouts for businesses - Wise, accessed July 13, 2025, https://wise.com/gb/business/payouts
 Wise API: seamless integrations for your business, accessed July 13, 2025, https://wise.com/us/business/api

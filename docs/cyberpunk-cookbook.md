@@ -4817,7 +4817,7 @@ d-scale-additions-expected-in-2025/
 46 url:
 https://www.hubs.com/get/trends/
 
-#### Works cited
+#### Works cited — Self-Reliant Future
 
 Cyberpunk Survival Manifesto Research Plan
 The Rise & Rise of a Manifesto. Rules for life, business and… | by Ben Rennie
@@ -6690,7 +6690,7 @@ A curated selection of core concepts from this manifesto, designed for rapid dis
 - "Computation brings humanity more darkness than enlightenment." — James Bridle, New Dark Age 11
 - "A cyberpunk seizes the masters' technology and turns it against them." — Wave 1: Foundations 10
 
-#### Works cited
+#### Works cited — Signal Pack
 
 The Enlightenment | History of Western Civilization II - Lumen Learning, accessed July 25, 2025, https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-enlightenment/
 www.cato.org, accessed July 25, 2025, https://www.cato.org/policy-report/march/april-2018/how-enlightenment-gave-us-peace-prosperity-progress#:~:text=Rather%20than%20trying%20to%20shape,of%20reason%20to%20human%20betterment.
@@ -7182,7 +7182,7 @@ In the final layer of asymmetric conflict, the human protocol reigns supreme. Th
 The synthesis of these elements forms a coherent strategy for survival and action. The offensive tactics detailed in the Attack/Defense Matrix provide the tools to navigate and influence hostile social architectures. The defensive structures of the Trust-Network Blueprint provide the means to build resilient, clandestine alliances. The protocol-level verification of the Reputation-Ledger offers a technical solution to the problem of trust in an anonymous world, a necessary shield against the coming wave of AI-driven deception. Finally, the personal discipline instilled by the Soft-Skill Drills hardens the individual operator, transforming them from a vulnerability into a hardened asset.
 In the concrete dystopia, the ability to deconstruct, manipulate, and—most importantly—to build and verify genuine trust is the ultimate asymmetric advantage. It is both the weapon and the shield.
 
-### Works cited
+### Works cited — Trust Protocols
 
 Cyberpunk Manifesto — Wave 3: Privacy & OPSEC
 Social Engineering Beyond Phishing: New Tactics and How to Combat Them - AuditBoard, accessed July 28, 2025, https://auditboard.com/blog/social-engineering-beyond-phishing-new-tactics-and-how-to-combat-them

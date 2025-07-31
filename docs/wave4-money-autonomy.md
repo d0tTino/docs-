@@ -471,7 +471,7 @@ else:
     print(f"Approximate Price of WETH in USDC: ${price:.2f}")
 ```
 
-### Works cited
+### Works cited — Wave 4
 
 Cyberpunk Threat and Power Analysis
 MONERO [XMR] REPORT - Scaling New Heights in Blockchain Performance: 2025 Portfolio / Part Two, accessed July 25, 2025, https://www.thestandard.io/blog/monero-xmr-report---scaling-new-heights-in-blockchain-performance-2025-portfolio-part-two-6
