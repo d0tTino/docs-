@@ -1,6 +1,7 @@
 ---
 title: "Add Hours to Your Day? Debunking Productivity Frameworks"
 tags: [productivity, research]
+project: docs-hub
 updated: 2025-07-29
 ---
 

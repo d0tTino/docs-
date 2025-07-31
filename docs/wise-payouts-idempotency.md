@@ -1,6 +1,7 @@
 ---
 title: "End-to-End Wise Payouts with Idempotency Keys"
 tags: [finance, payouts]
+project: docs-hub
 updated: 2025-07-30
 ---
 

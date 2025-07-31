@@ -1,3 +1,6 @@
 node_modules
 
 _project-docs/
+
+docs/cyberpunk-cookbook.md
+docs/wise-payouts-idempotency.md

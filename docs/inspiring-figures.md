@@ -1,6 +1,7 @@
 ---
 title: "Notable Figures"
 tags: [inspiration, research]
+project: docs-hub
 updated: 2025-07-27
 ---
 

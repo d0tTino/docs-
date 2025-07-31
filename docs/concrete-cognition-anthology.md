@@ -1,6 +1,7 @@
 ---
 title: "The Concrete Cognition Anthology"
 tags: [research, cognition]
+project: docs-hub
 updated: 2025-07-28
 ---
 
