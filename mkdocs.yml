@@ -24,12 +24,15 @@ nav:
       - Agentic SWE Discontinuity Forecast: ai-research/agentic-swe-discontinuity-forecast.md
       - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
       - You Weren't Supposed to Invent Infinite Jest: ai-research/you-werent-supposed-to-invent-infinite-jest.md
+      - Reverse Engineering GPT-o3: ai-research/reverse-engineering-gpt-o3.md
+      - Reverse Engineering Storm: ai-research/reverse-engineering-storm.md
+      - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
   - Arduino: arduino/index.md
   - Terminal Workflow: terminal-workflow/index.md
   - Culture Project: culture-project/index.md
   - Cyberpunk Cookbook: cyberpunk-cookbook.md
   - Netrunning Research: netrunning-fiction-reality.md
-  - Wave 4: Money & Autonomy: wave4-money-autonomy.md
+  - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
   - Internet Anonymity Research: internet-anonymity-cyberpunk-response.md
   - An Audit of an Oracle: audit-of-an-oracle.md
   - Inspiring Figures: inspiring-figures.md
