@@ -608,7 +608,7 @@ Sources used in the report
 - Book Review: Power and Progress | Cato Institute (cato.org)
 - Planetary boundaries - Stockholm Resilience Centre (stockholmresilience.org)
 - Technological Revolutions and Financial Capital - Wikipedia (en.wikipedia.org)
-Sources read but not used in the report
+  Sources read but not used in the report
 
 - A primer on p(doom) : r/singularity - Reddit (reddit.com)
 - What is P(doom)? P(doom) is the percentage chance that AI scientists think AI is going to wipe out all of humanity. This is what Bing and ChatGPT and Leading AI Researchers say about P(doom). (blog.biocomm.ai)
