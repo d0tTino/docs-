@@ -25,4 +25,5 @@ navigation sidebar.
 - [Peaks and Freezes](peaks-and-freezes.md)
 - [Thick Band of 21st-Century Possibilities](thick-band-of-21st-century-possibilities.md)
 - [You Weren't Supposed to Invent Infinite Jest](you-werent-supposed-to-invent-infinite-jest.md)
+- [The Cognitive Architecture of Artificial Societies](cognitive-architecture-of-artificial-societies.md)
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)

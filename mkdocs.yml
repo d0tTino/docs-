@@ -27,6 +27,7 @@ nav:
       - Reverse Engineering GPT-o3: ai-research/reverse-engineering-gpt-o3.md
       - Reverse Engineering Storm: ai-research/reverse-engineering-storm.md
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
+      - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
       - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
   - Arduino: arduino/index.md
   - Terminal Workflow: terminal-workflow/index.md
