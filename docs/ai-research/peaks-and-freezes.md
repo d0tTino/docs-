@@ -530,22 +530,22 @@ into a four-stroke engine that powers both its ascent and its descent:The
   a systemic vulnerability to platform shifts.The following table provides
   a comparative summary of the major AI hype cycles, distilling the key
 
-| Metric | The Golden Years (1956-1980) | The Expert Systems Boom (1980-1993) | The Deep Learning Era (2012-Present) |
-| --- | --- | --- | --- |
-| Key Technologies | Symbolic AI (Logic Theorist), Perceptrons, Machine Translation | Expert Systems, LISP Programming Language | Deep Learning (CNNs, Transformers), Generative AI |
-| Primary Funding | Government (DARPA) | Corporate R&D, Venture Capital | Venture Capital (Mega-Scale) |
-| Key Players | John McCarthy, Marvin Minsky, Simon & Newell; MIT, Stanford, CMU | Edward Feigenbaum; Symbolics, Lisp Machines Inc., DEC | Geoffrey Hinton, Yann LeCun, Yoshua Bengio; OpenAI, Google/DeepMind, Meta, NVIDIA |
-| Boom Trigger | Dartmouth Workshop; "astonishing" early demos; promise of AGI | XCON's commercial success; Japan's Fifth Generation Project | AlexNet's ImageNet victory; confluence of algorithms, big data, and GPU compute |
-| Winter Trigger | ALPAC & Lighthill Reports; combinatorial explosion; DARPA funding cuts | LISP machine market collapse (platform shift); high TCO of expert systems; failure of 5th Gen/SCI projects | Potential Triggers: Compute bottlenecks, economic unsustainability, regulatory fragmentation |
+| Metric           | The Golden Years (1956-1980)                                           | The Expert Systems Boom (1980-1993)                                                                        | The Deep Learning Era (2012-Present)                                                         |
+| ---------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Key Technologies | Symbolic AI (Logic Theorist), Perceptrons, Machine Translation         | Expert Systems, LISP Programming Language                                                                  | Deep Learning (CNNs, Transformers), Generative AI                                            |
+| Primary Funding  | Government (DARPA)                                                     | Corporate R&D, Venture Capital                                                                             | Venture Capital (Mega-Scale)                                                                 |
+| Key Players      | John McCarthy, Marvin Minsky, Simon & Newell; MIT, Stanford, CMU       | Edward Feigenbaum; Symbolics, Lisp Machines Inc., DEC                                                      | Geoffrey Hinton, Yann LeCun, Yoshua Bengio; OpenAI, Google/DeepMind, Meta, NVIDIA            |
+| Boom Trigger     | Dartmouth Workshop; "astonishing" early demos; promise of AGI          | XCON's commercial success; Japan's Fifth Generation Project                                                | AlexNet's ImageNet victory; confluence of algorithms, big data, and GPU compute              |
+| Winter Trigger   | ALPAC & Lighthill Reports; combinatorial explosion; DARPA funding cuts | LISP machine market collapse (platform shift); high TCO of expert systems; failure of 5th Gen/SCI projects | Potential Triggers: Compute bottlenecks, economic unsustainability, regulatory fragmentation |
 
-  structured comparison reveals the evolution of the AI industry while
-  underscoring the consistency of the underlying cycle. The funding source
-  has decentralized from a single government agency to a global venture
-  capital market, the key technologies have shifted from logic-based rules to
-  data-driven statistics, and the scale of both investment and capability has
-  grown exponentially. Yet, the fundamental dynamic of promise, amplification,
-  investment, and disillusionment remains the engine of progress and peril in the
-  field of Artificial Intelligence.
+structured comparison reveals the evolution of the AI industry while
+underscoring the consistency of the underlying cycle. The funding source
+has decentralized from a single government agency to a global venture
+capital market, the key technologies have shifted from logic-based rules to
+data-driven statistics, and the scale of both investment and capability has
+grown exponentially. Yet, the fundamental dynamic of promise, amplification,
+investment, and disillusionment remains the engine of progress and peril in the
+field of Artificial Intelligence.
 
 ### 6. Storm Clouds on the Horizon? Identifying the Headwinds for the Current AI Boom
 

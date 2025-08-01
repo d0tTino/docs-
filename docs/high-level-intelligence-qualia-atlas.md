@@ -262,7 +262,7 @@ Sources used in the report
 - Exceptionally Gifted Children: Long-Term Outcomes of ... - ERIC (files.eric.ed.gov)
 - The psychology and neuroscience of curiosity - PMC (pmc.ncbi.nlm.nih.gov)
 - Readings | Global Executive Function Initiative (gefi.stanford.edu)
-Sources read but not used in the report
+  Sources read but not used in the report
 
 - Giftedness identification and cognitive, physiological and psychological characteristics of gifted children: a systematic review - Frontiers (frontiersin.org)
 - Academic and practical intelligence: A case study of the Yup'ik in Alaska (uaf.edu)

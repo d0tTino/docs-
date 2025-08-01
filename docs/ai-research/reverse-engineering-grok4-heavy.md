@@ -100,7 +100,6 @@ grok_heavy_client.exe\tPE64 Executable\tdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef
 libgrok_agent.dll\tPE64 DLL\tcafebabecafebabecafebabecafebabecafebabecafebabecafebabecafebabe\tShared library containing the core agent execution runtime, task management, and communication stubs.
 grok_mem_coord.sys\tKernel Driver\tbaadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d\tA hypothetical kernel-mode driver to facilitate high-speed, cross-process shared memory for the implicit coordination subsystem.
 
-
 ## 4.0 Methodology
 
 The reconstruction of the Grok 4 Heavy framework's architecture is achieved through a multi-pronged methodology that combines static analysis, dynamic instrumentation, and an iterative process of architectural modeling. This approach allows for the cross-validation of findings and the development of a comprehensive system model, from low-level code constructs to high-level component interactions.
@@ -576,5 +575,4 @@ Example 2: Redis Pub/Sub Message for a Shared Memory Update
 
 ### 10.4 Bibliography
 
-A complete list of all sources  through  and  through  would be included here in a standard bibliographic format (e.g., APA).
-
+A complete list of all sources through and through would be included here in a standard bibliographic format (e.g., APA).
