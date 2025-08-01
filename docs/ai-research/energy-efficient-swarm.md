@@ -27,64 +27,65 @@ the system architecture. GGUF (GPT-Generated Unified Format): GGUF has emerged a
 standard in the local LLM community, primarily due to its exceptional flexibility. Its core design
 principle is to be backend-agnostic, enabling execution on both CPUs and GPUs. The most critical
 feature for this project is its native support for layer-splitting, a technique where a model's
-layers can be strategically divided between GPU VRAM and system RAM.1 This allows for a granular
+layers can be strategically divided between GPU VRAM and system RAM.^1 This allows for a granular
 trade-off between performance and memory usage; the most frequently used and performance-critical
 layers (e.g., attention layers) can be loaded into VRAM for maximum speed, while less critical
 layers are offloaded to the much larger, albeit slower, system RAM. This capability is expertly
 leveraged by inference engines like llama.cpp, making GGUF the premier format for environments with
-severe VRAM constraints.1 AWQ (Activation-Aware Weight Quantization): AWQ is a sophisticated
+severe VRAM constraints.^1 AWQ (Activation-Aware Weight Quantization): AWQ is a sophisticated
 post-training quantization (PTQ) method that operates on the principle that not all weights are
 equally important. By analyzing the activation magnitudes during a calibration pass, AWQ identifies
 and preserves the precision of "salient" weights that are most critical to the model's performance,
-while more aggressively quantizing less important ones.1 This activation-aware approach has proven
+while more aggressively quantizing less important ones.^1 This activation-aware approach has proven
 particularly effective for instruction-tuned and multi-modal LLMs, often yielding superior
 performance preservation compared to more naive quantization schemes. AWQ is heavily optimized for
 GPU-only inference and is well-supported by high-performance runtimes such as NVIDIA's TensorRT-LLM
-and LMDeploy.3 GPTQ (Generalized Post-Training Quantization): GPTQ is another widely adopted PTQ
+and LMDeploy.^3 GPTQ (Generalized Post-Training Quantization): GPTQ is another widely adopted PTQ
 method that focuses on GPU inference. It employs a layer-wise quantization approach that uses
 approximate second-order Hessian information to minimize quantization error, achieving a strong
-balance between compression and accuracy.1 Like AWQ, GPTQ is designed for scenarios where the entire
+balance between compression and accuracy.^1 Like AWQ, GPTQ is designed for scenarios where the entire
 model can reside within GPU VRAM and is supported by a wide range of GPU hardware and inference
 backends. QLoRA and FlexGen: It is important to distinguish between quantization formats and the
 techniques or engines that use them. QLoRA is a parameter-efficient fine-tuning (PEFT) method, not
 an inference format. It involves quantizing a base model to 4-bits (using a format called NF4) and
-then training small, low-rank adapters on top of it.6 While highly effective for reducing memory
+then training small, low-rank adapters on top of it.^6 While highly effective for reducing memory
 during training, the output is a set of adapter weights, not a standalone quantized model for
 deployment. FlexGen is an inference engine designed for high-throughput generation on severely
-resource-constrained hardware, such as a single 16 GB GPU running a 175-billion parameter model.8 It
+resource-constrained hardware, such as a single 16 GB GPU running a 175-billion parameter model.^8 It
 achieves this through an aggressive offloading strategy that pages model tensors (weights,
 activations, and the KV cache) not just to CPU RAM but also to disk storage (e.g., NVMe SSDs).
 FlexGen internally uses 4-bit group-wise quantization to compress these tensors and minimize I/O
-overhead.10 While a powerful demonstration of VRAM optimization, its reliance on disk I/O introduces
+overhead.^10 While a powerful demonstration of VRAM optimization, its reliance on disk I/O introduces
 significant latency, making it unsuitable for the project's target of ≤800 ms per agent turn.
 However, it remains a valuable tool for risk mitigation and non-interactive, batch-processing tasks.
 
-1.2 Preserving Intelligence: Mitigating Reasoning Degradation on MMLU & GSM8K The primary risk of
-aggressive 4-bit quantization is not a subtle drop in perplexity but a catastrophic degradation of a
+### 1.2 Preserving Intelligence: Mitigating Reasoning Degradation on MMLU & GSM8K
+
+The primary risk of aggressive 4-bit quantization is not a subtle drop in perplexity but a catastrophic degradation of a
 model's complex reasoning abilities. This is the single greatest threat to the viability of a
 multi-agent system, where agents are often tasked with specialized reasoning. Empirical studies have
 quantified this degradation starkly: one analysis reported an average quality drop of 12% across
 multiple benchmarks, with performance on the Grade School Math (GSM8K) benchmark plummeting by
-28%.12 Another recent study on mathematical reasoning found that quantization can degrade accuracy
-by as much as 69.81% on complex benchmarks like MATH and AIME.13 An agent that cannot reason is
+28%.^12 Another recent study on mathematical reasoning found that quantization can degrade accuracy
+by as much as 69.81% on complex benchmarks like MATH and AIME.^13 An agent that cannot reason is
 ineffective, regardless of how efficiently it runs. Recent research has not only identified the
 cause of this degradation but has also proposed actionable mitigation strategies. The Root Cause:
 Activation Outliers: The performance collapse is not due to a uniform loss of information. Instead,
 it is primarily caused by the emergence of extreme outliers in the activation tensors during
-inference.15 These outliers, which can be orders of magnitude larger than typical activation values,
+inference.^15 These outliers, which can be orders of magnitude larger than typical activation values,
 force the quantization algorithm to use a very large scaling factor. This "stretches" the
 quantization grid to accommodate the outlier, leaving very few discrete quantization levels for the
 vast majority of normal-value activations, resulting in a massive loss of information and
-precision.16 Critically, these outliers are now understood to be a byproduct of standard LLM
+precision.^16 Critically, these outliers are now understood to be a byproduct of standard LLM
 pre-training methodologies, particularly the use of adaptive optimizers like Adam and certain
-normalization schemes, rather than an inherent property of the Transformer architecture itself.15
+normalization schemes, rather than an inherent property of the Transformer architecture itself.^15
 Mitigation Strategy 1: Outlier-Safe Pre-Training (OSP): The most fundamental solution is to prevent
 outliers from forming in the first place. The "Outlier-Safe Pre-Training" (OSP) framework proposes a
-set of practical guidelines for training quantization-friendly LLMs from scratch.15 By replacing the
+set of practical guidelines for training quantization-friendly LLMs from scratch.^15 By replacing the
 Adam optimizer with alternatives like Muon and using techniques such as Single-Scale RMSNorm, OSP
 produces models that are inherently free of activation outliers. An OSP-trained model, when
 subjected to aggressive 4-bit quantization, demonstrates dramatically superior performance
-preservation compared to a traditionally trained model.18 This provides a clear directive for model
+preservation compared to a traditionally trained model.^18 This provides a clear directive for model
 selection: to maximize post-quantization quality, George should prioritize models that are
 explicitly advertised as being trained using OSP or similar quantization-aware techniques.
 Mitigation Strategy 2: In-situ Correction with "Silver Bullet" Datasets (InfiJanice): For existing
@@ -103,8 +104,9 @@ without harming its general capabilities. This transforms the problem of poor qu
 performance from an immutable fact into a solvable engineering challenge, providing an actionable
 recipe to repair and enhance the chosen agent models.
 
-1.3 Recommendation: The Optimal Format for a 4-7B Parameter Swarm on 16GB VRAM Based on the analysis
-of the project's core constraints, GGUF is the recommended quantization format for the multi-agent
+### 1.3 Recommendation: The Optimal Format for a 4-7B Parameter Swarm on 16GB VRAM
+
+Based on the analysis of the project's core constraints, GGUF is the recommended quantization format for the multi-agent
 system. The justification for this choice is not based on a single metric like raw speed but on the
 holistic requirements of the system architecture. The primary, non-negotiable constraint is fitting
 at least five 7-billion parameter models onto a single 16 GB GPU. A 4-bit quantized 7B model
