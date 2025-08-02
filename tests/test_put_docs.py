@@ -28,11 +28,8 @@ def test_put_doc_append(tmp_path: Path, monkeypatch):
     com_store.add_comment("doc1", "L1", "user1", "note")
     token = token_store.create_token("agent1").token
     calls = []
-
-    def fake_notify(doc_id, summary):
-        calls.append((doc_id, summary))
-
-    monkeypatch.setattr(api, "_notify_comments", fake_notify)
+    monkeypatch.setattr(api, "_notify_comments", lambda d, s: calls.append((d, s)))
+    monkeypatch.setattr(api, "post_event", lambda e: None)
 
     res = client.put(
         "/docs/doc1",
@@ -54,6 +51,7 @@ def test_put_doc_replace(tmp_path: Path, monkeypatch):
     rev_store.save_document("doc1", "hello", "agent1")
     token = token_store.create_token("agent1").token
     monkeypatch.setattr(api, "_notify_comments", lambda d, s: None)
+    monkeypatch.setattr(api, "post_event", lambda e: None)
 
     res = client.put(
         "/docs/doc1",

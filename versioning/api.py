@@ -11,6 +11,7 @@ from .store import RevisionStore
 from comments.store import CommentStore
 from .render import render_document
 from agentauth import TokenStore
+from ume.events import EventPayload, post_event
 
 app = FastAPI()
 _store = RevisionStore(Path("revision_store.json"))
@@ -38,6 +39,7 @@ class CommentCreate(BaseModel):
     section_ref: str
     author_id: str
     body: str
+    correlation_id: Optional[str] = None
 
 
 class CommentUpdate(BaseModel):
@@ -50,6 +52,7 @@ class DocUpdate(BaseModel):
     author_id: str
     summary: str
     append: bool = True
+    correlation_id: Optional[str] = None
 
 
 class TokenCreate(BaseModel):
@@ -74,6 +77,17 @@ def create_comment(doc_id: str, payload: CommentCreate):
     comment = _comment_store.add_comment(
         doc_id, payload.section_ref, payload.author_id, payload.body
     )
+    revs = _store.list_revisions(doc_id)
+    rev_id = revs[-1]["version"] if revs else None
+    event = EventPayload(
+        document_id=doc_id,
+        event_type="comment_created",
+        author_id=payload.author_id,
+        timestamp=comment.created_at,
+        revision_id=rev_id,
+        correlation_id=payload.correlation_id,
+    )
+    post_event(event)
     return comment
 
 
@@ -114,6 +128,15 @@ def update_document(
     current = revs[-1]["content"] if revs else ""
     new_content = current + payload.content if payload.append else payload.content
     revision = _store.save_document(doc_id, new_content, payload.author_id)
+    event = EventPayload(
+        document_id=doc_id,
+        event_type="revision_created",
+        author_id=payload.author_id,
+        timestamp=revision.timestamp,
+        revision_id=revision.version,
+        correlation_id=payload.correlation_id,
+    )
+    post_event(event)
     _notify_comments(doc_id, payload.summary)
     return revision
 

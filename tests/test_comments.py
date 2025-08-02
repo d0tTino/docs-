@@ -25,6 +25,7 @@ def test_comment_endpoints(tmp_path: Path, monkeypatch):
     com_store = CommentStore(tmp_path / "com.json")
     monkeypatch.setattr(api, "_store", rev_store)
     monkeypatch.setattr(api, "_comment_store", com_store)
+    monkeypatch.setattr(api, "post_event", lambda e: None)
     client = TestClient(api.app)
 
     rev_store.save_document("doc1", "line1\nline2", "user1")
