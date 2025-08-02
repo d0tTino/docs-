@@ -82,3 +82,34 @@ def test_put_doc_auth(tmp_path: Path):
         },
     )
     assert res.status_code == 401
+
+
+def test_put_doc_conflict(tmp_path: Path, monkeypatch):
+    client, rev_store, com_store, token_store = setup_app(tmp_path)
+    rev_store.save_document("doc1", "hello", "agent1")
+    token = token_store.create_token("agent1").token
+    monkeypatch.setattr(api, "_notify_comments", lambda d, s: None)
+    monkeypatch.setattr(api, "post_event", lambda e: None)
+
+    res = client.put(
+        "/docs/doc1",
+        headers={"Authorization": f"Bearer {token}"},
+        json={
+            "content": " world",
+            "author_id": "agent1",
+            "summary": "append test",
+            "append": True,
+            "base_version": 0,
+        },
+    )
+    assert res.status_code == 409
+    assert "diff" in res.json()["detail"]
+
+
+def test_diff_endpoint(tmp_path: Path):
+    client, rev_store, com_store, token_store = setup_app(tmp_path)
+    rev_store.save_document("doc1", "a", "agent1")
+    rev_store.save_document("doc1", "ab", "agent1")
+    res = client.get("/docs/doc1/diff/1/2")
+    assert res.status_code == 200
+    assert "-a" in res.json()["diff"]

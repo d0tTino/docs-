@@ -52,6 +52,7 @@ class DocUpdate(BaseModel):
     author_id: str
     summary: str
     append: bool = True
+    base_version: Optional[int] = None
     correlation_id: Optional[str] = None
 
 
@@ -70,6 +71,15 @@ def get_revision(doc_id: str, version: int):
     if revision is None:
         raise HTTPException(status_code=404, detail="Revision not found")
     return revision
+
+
+@app.get("/docs/{doc_id}/diff/{from_version}/{to_version}")
+def diff_revisions(doc_id: str, from_version: int, to_version: int):
+    try:
+        diff = _store.diff_revisions(doc_id, from_version, to_version)
+    except ValueError:
+        raise HTTPException(status_code=404, detail="Revision not found")
+    return {"diff": diff}
 
 
 @app.post("/docs/{doc_id}/comments")
@@ -126,6 +136,16 @@ def update_document(
         raise HTTPException(status_code=403, detail="author_id must match token")
     revs = _store.list_revisions(doc_id)
     current = revs[-1]["content"] if revs else ""
+    latest_version = revs[-1]["version"] if revs else 0
+    if payload.base_version is not None and payload.base_version != latest_version:
+        try:
+            diff = _store.diff_revisions(doc_id, payload.base_version, latest_version)
+        except ValueError:
+            diff = ""
+        raise HTTPException(
+            status_code=409,
+            detail={"diff": diff, "latest": latest_version},
+        )
     new_content = current + payload.content if payload.append else payload.content
     revision = _store.save_document(doc_id, new_content, payload.author_id)
     event = EventPayload(

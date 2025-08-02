@@ -78,3 +78,23 @@ class RevisionStore:
         if target is None:
             raise ValueError("Revision not found")
         return self.save_document(document_id, target["content"], author_id)
+
+    def diff_revisions(
+        self, document_id: str, from_version: int, to_version: int
+    ) -> str:
+        """Return unified diff between two revisions.
+
+        Raises ``ValueError`` if either revision does not exist.
+        """
+        rev_from = self.get_revision(document_id, from_version)
+        rev_to = self.get_revision(document_id, to_version)
+        if rev_from is None or rev_to is None:
+            raise ValueError("Revision not found")
+        return "".join(
+            difflib.unified_diff(
+                rev_from["content"].splitlines(keepends=True),
+                rev_to["content"].splitlines(keepends=True),
+                fromfile=f"v{from_version}",
+                tofile=f"v{to_version}",
+            )
+        )
