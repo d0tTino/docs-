@@ -15,7 +15,9 @@ def render_document(
     lines = content.splitlines()
     for c in comments:
         ref = c["section_ref"]
-        anchor = f"[comment:{c['comment_id']}]"
+        unresolved = c.get("status") != "resolved"
+        anchor = f"[comment:{c['comment_id']}{'!' if unresolved else ''}]"
+        c["unresolved"] = unresolved
         if ref.startswith("L"):
             try:
                 _, end = ref[1:].split("-")
