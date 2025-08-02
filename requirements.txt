@@ -4,3 +4,4 @@ mkdocs-material
 mkdocs-monorepo-plugin
 pytest
 flake8
+fastapi
