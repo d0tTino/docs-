@@ -47,6 +47,44 @@ def test_comment_endpoints(tmp_path: Path, monkeypatch):
     assert "[comment:" in rendered["content"]
 
 
+def test_toggle_comment_status(tmp_path: Path, monkeypatch):
+    rev_store = RevisionStore(tmp_path / "rev.sqlite")
+    com_store = CommentStore(tmp_path / "com.sqlite")
+    monkeypatch.setattr(api, "_store", rev_store)
+    monkeypatch.setattr(api, "_comment_store", com_store)
+    monkeypatch.setattr(api, "post_event", lambda e: None)
+    client = TestClient(api.app)
+
+    rev_store.save_document("doc", "content", "u1")
+    comment = com_store.add_comment("doc", "L1", "u1", "n")
+
+    res = client.post(f"/comments/{comment.comment_id}/toggle")
+    assert res.status_code == 200
+    assert res.json()["status"] == "resolved"
+    res = client.post(f"/comments/{comment.comment_id}/toggle")
+    assert res.json()["status"] == "open"
+
+
+def test_document_view_endpoint(tmp_path: Path, monkeypatch):
+    rev_store = RevisionStore(tmp_path / "rev.sqlite")
+    com_store = CommentStore(tmp_path / "com.sqlite")
+    monkeypatch.setattr(api, "_store", rev_store)
+    monkeypatch.setattr(api, "_comment_store", com_store)
+    monkeypatch.setattr(api, "post_event", lambda e: None)
+    client = TestClient(api.app)
+
+    rev_store.save_document("doc", "line1", "u1")
+    rev_store.save_document("doc", "line1\nline2", "u1")
+    com_store.add_comment("doc", "L1", "u2", "note")
+
+    res = client.get("/docs/doc/view")
+    data = res.json()
+    assert data["content"].startswith("line1")
+    assert len(data["comments"]) == 1
+    assert len(data["revisions"]) == 2
+    assert data["revisions"][1]["diff"]
+
+
 def test_concurrent_comment_writes(tmp_path: Path):
     store = CommentStore(tmp_path / "db.sqlite")
 

@@ -1,5 +1,6 @@
 from pathlib import Path
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from fastapi.testclient import TestClient
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -159,3 +160,33 @@ def test_resolve_doc_conflict(tmp_path: Path, monkeypatch):
     )
     assert res.status_code == 409
     assert res.json()["detail"]["conflicts"]
+
+
+def test_concurrent_edits(tmp_path: Path, monkeypatch):
+    client, rev_store, com_store, token_store = setup_app(tmp_path)
+    rev_store.save_document("doc", "start", "agent1")
+    token = token_store.create_token("agent1").token
+    monkeypatch.setattr(api, "_notify_comments", lambda d, s: None)
+    monkeypatch.setattr(api, "post_event", lambda e: None)
+
+    def edit(content: str):
+        return client.put(
+            "/docs/doc",
+            headers={"Authorization": f"Bearer {token}"},
+            json={
+                "content": content,
+                "author_id": "agent1",
+                "summary": "e",
+                "append": False,
+                "base_version": 1,
+            },
+        )
+
+    with ThreadPoolExecutor(max_workers=2) as ex:
+        f1 = ex.submit(edit, "alpha")
+        f2 = ex.submit(edit, "beta")
+        r1, r2 = f1.result(), f2.result()
+    statuses = {r1.status_code, r2.status_code}
+    assert statuses == {200, 409}
+    conflict = r1 if r1.status_code == 409 else r2
+    assert "conflicts" in conflict.json()["detail"]
