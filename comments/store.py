@@ -40,6 +40,12 @@ class CommentStore:
                 )
                 """
             )
+            # Ensure fast lookups when listing comments for a document.
+            # `IF NOT EXISTS` allows this to run against existing databases
+            # without failing if the index has already been created.
+            db.execute(
+                "CREATE INDEX IF NOT EXISTS idx_comments_doc ON comments(document_id)"
+            )
 
     def add_comment(
         self, document_id: str, section_ref: str, author_id: str, body: str
