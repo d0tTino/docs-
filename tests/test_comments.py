@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
 from comments.store import CommentStore  # noqa: E402
+from db import get_db  # noqa: E402
 from versioning.store import RevisionStore  # noqa: E402
 from agentauth.store import TokenStore  # noqa: E402
 from versioning import api  # noqa: E402
@@ -20,6 +21,27 @@ def test_comment_store(tmp_path: Path):
 
     store.update_comment(1, status="resolved")
     assert store.get_comment(1)["status"] == "resolved"
+
+
+def test_comment_index_and_listing(tmp_path: Path):
+    store = CommentStore(tmp_path / "db.sqlite")
+    # populate multiple documents
+    for i in range(3):
+        store.add_comment("doc1", f"L{i}", "u", f"n{i}")
+    for i in range(2):
+        store.add_comment("doc2", f"L{i}", "u", f"m{i}")
+
+    # listing should return only the requested document's comments
+    comments = store.list_comments("doc1")
+    assert len(comments) == 3
+
+    # ensure the query plan uses the index for fast lookups
+    with get_db(store.path) as db:
+        plan = db.execute(
+            "EXPLAIN QUERY PLAN SELECT * FROM comments WHERE document_id=?",
+            ("doc1",),
+        ).fetchone()[3]
+    assert "USING INDEX idx_comments_doc" in plan
 
 
 def test_comment_endpoints(tmp_path: Path, monkeypatch):
