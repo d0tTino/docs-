@@ -2,6 +2,12 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import List, Optional
+import logging
+import time
+import smtplib
+from email.message import EmailMessage
+
+import requests
 
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
@@ -31,15 +37,46 @@ def _get_agent(credentials: HTTPAuthorizationCredentials = Depends(_security)) -
 
 
 def _notify_comments(doc_id: str, summary: str) -> None:
-    """Placeholder notification workflow for document comments."""
+    """Notify authors of comments on ``doc_id`` about a new revision."""
     for c in _comment_store.list_comments(doc_id):
-        # Real implementation could notify comment authors here
-        print(f"Notify comment {c['comment_id']} on {doc_id}: {summary}")
+        payload = {
+            "document_id": doc_id,
+            "event_type": "revision_created",
+            "summary": summary,
+            "comment_id": c["comment_id"],
+        }
+        _send_notification(c["author_id"], "email", payload)
 
 
 def _send_notification(subscriber_id: str, channel: str, payload: dict) -> None:
-    """Placeholder dispatcher for notifications."""
-    print(f"Notify {subscriber_id} via {channel}: {payload}")
+    """Dispatch notifications via supported channels with retries."""
+    attempts = 3
+    for attempt in range(1, attempts + 1):
+        try:
+            if channel == "email":
+                msg = EmailMessage()
+                msg["Subject"] = f"{payload['event_type']} for {payload['document_id']}"
+                msg["From"] = "noreply@example.com"
+                msg["To"] = f"{subscriber_id}@example.com"
+                msg.set_content(str(payload))
+                with smtplib.SMTP("localhost") as smtp:
+                    smtp.send_message(msg)
+            else:
+                url = f"http://{subscriber_id}.invalid/{channel}"
+                requests.post(
+                    url,
+                    json={"subscriber_id": subscriber_id, **payload},
+                    timeout=3,
+                )
+            return
+        except Exception as exc:  # pragma: no cover - logging is the focus
+            logging.error("Notification attempt %s failed: %s", attempt, exc)
+            if attempt == attempts:
+                logging.error(
+                    "Giving up on notifying %s via %s", subscriber_id, channel
+                )
+            else:
+                time.sleep(0.5)
 
 
 def _notify_subscribers(
