@@ -203,6 +203,28 @@ def diff_revisions(doc_id: str, from_version: int, to_version: int):
     return {"diff": diff}
 
 
+@app.get("/docs/{doc_id}/view")
+def document_view(doc_id: str):
+    """Return document content, comments and revision history with diffs."""
+    revisions = _store.list_revisions(doc_id)
+    content = revisions[-1]["content"] if revisions else ""
+    comments = _comment_store.list_comments(doc_id)
+    history = []
+    previous = ""
+    for rev in revisions:
+        diff = "".join(
+            difflib.unified_diff(
+                previous.splitlines(keepends=True),
+                rev["content"].splitlines(keepends=True),
+                fromfile=f"v{rev['version']-1}",
+                tofile=f"v{rev['version']}",
+            )
+        )
+        history.append({**rev, "diff": diff})
+        previous = rev["content"]
+    return {"content": content, "comments": comments, "revisions": history}
+
+
 @app.post("/docs/{doc_id}/comments")
 def create_comment(doc_id: str, payload: CommentCreate):
     comment = _comment_store.add_comment(
@@ -238,6 +260,16 @@ def update_comment(comment_id: int, payload: CommentUpdate):
     if comment is None:
         raise HTTPException(status_code=404, detail="Comment not found")
     return comment
+
+
+@app.post("/comments/{comment_id}/toggle")
+def toggle_comment(comment_id: int):
+    """Flip comment status between ``open`` and ``resolved``."""
+    comment = _comment_store.get_comment(comment_id)
+    if comment is None:
+        raise HTTPException(status_code=404, detail="Comment not found")
+    new_status = "open" if comment["status"] == "resolved" else "resolved"
+    return _comment_store.update_comment(comment_id, status=new_status)
 
 
 @app.post("/docs/{doc_id}/subscriptions")
