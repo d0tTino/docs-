@@ -226,7 +226,11 @@ def document_view(doc_id: str):
 
 
 @app.post("/docs/{doc_id}/comments")
-def create_comment(doc_id: str, payload: CommentCreate):
+def create_comment(
+    doc_id: str, payload: CommentCreate, agent_id: str = Depends(_get_agent)
+):
+    if payload.author_id != agent_id:
+        raise HTTPException(status_code=403, detail="author_id must match token")
     comment = _comment_store.add_comment(
         doc_id, payload.section_ref, payload.author_id, payload.body
     )
@@ -253,45 +257,60 @@ def list_comments(doc_id: str):
 
 
 @app.patch("/comments/{comment_id}")
-def update_comment(comment_id: int, payload: CommentUpdate):
-    comment = _comment_store.update_comment(
+def update_comment(
+    comment_id: int, payload: CommentUpdate, agent_id: str = Depends(_get_agent)
+):
+    existing = _comment_store.get_comment(comment_id)
+    if existing is None:
+        raise HTTPException(status_code=404, detail="Comment not found")
+    if existing["author_id"] != agent_id:
+        raise HTTPException(status_code=403, detail="author_id must match token")
+    return _comment_store.update_comment(
         comment_id, body=payload.body, status=payload.status
     )
-    if comment is None:
-        raise HTTPException(status_code=404, detail="Comment not found")
-    return comment
 
 
 @app.post("/comments/{comment_id}/toggle")
-def toggle_comment(comment_id: int):
+def toggle_comment(comment_id: int, agent_id: str = Depends(_get_agent)):
     """Flip comment status between ``open`` and ``resolved``."""
     comment = _comment_store.get_comment(comment_id)
     if comment is None:
         raise HTTPException(status_code=404, detail="Comment not found")
+    if comment["author_id"] != agent_id:
+        raise HTTPException(status_code=403, detail="author_id must match token")
     new_status = "open" if comment["status"] == "resolved" else "resolved"
     return _comment_store.update_comment(comment_id, status=new_status)
 
 
 @app.post("/docs/{doc_id}/subscriptions")
-def upsert_subscription(doc_id: str, payload: SubscriptionUpdate):
+def upsert_subscription(
+    doc_id: str, payload: SubscriptionUpdate, agent_id: str = Depends(_get_agent)
+):
     _subscription_store.subscribe(doc_id, payload.subscriber_id, payload.channels)
     return {"status": "subscribed"}
 
 
 @app.delete("/docs/{doc_id}/subscriptions/{subscriber_id}")
-def delete_subscription(doc_id: str, subscriber_id: str):
+def delete_subscription(
+    doc_id: str, subscriber_id: str, agent_id: str = Depends(_get_agent)
+):
     _subscription_store.unsubscribe(doc_id, subscriber_id)
     return {"status": "unsubscribed"}
 
 
 @app.post("/tokens")
-def create_token(payload: TokenCreate):
+def create_token(payload: TokenCreate, agent_id: str = Depends(_get_agent)):
+    if payload.agent_id != agent_id:
+        raise HTTPException(status_code=403, detail="agent_id must match token")
     token = _token_store.create_token(payload.agent_id)
     return token
 
 
 @app.delete("/tokens/{token}")
-def delete_token(token: str):
+def delete_token(token: str, agent_id: str = Depends(_get_agent)):
+    token_agent = _token_store.verify(token)
+    if token_agent != agent_id:
+        raise HTTPException(status_code=403, detail="token does not belong to agent")
     _token_store.delete_token(token)
     return {"status": "deleted"}
 

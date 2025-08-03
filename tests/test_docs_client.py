@@ -67,7 +67,7 @@ def test_create_comment(tmp_path: Path):
     res = client.create_comment(
         "doc1",
         section_ref="L1",
-        author_id="user1",
+        author_id="agent1",
         body="note",
         correlation_id="corr-2",
     )
