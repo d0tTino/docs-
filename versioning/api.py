@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import List, Optional
+from typing import Dict, List, Optional
 import logging
+import difflib
 import time
 import smtplib
 from email.message import EmailMessage
@@ -99,6 +100,49 @@ def _notify_subscribers(
             _send_notification(sub["subscriber_id"], channel, payload)
 
 
+def _find_conflicts(
+    base: str, incoming: str, current: str
+) -> List[Dict[str, List[int]]]:
+    """Return ranges of lines that conflict between ``incoming`` and ``current``.
+
+    Ranges are expressed as lists of ``[start, end]`` indices for the base,
+    incoming, and current contents so clients can present inline merge UI.
+    """
+    base_lines = base.splitlines()
+    inc_lines = incoming.splitlines()
+    cur_lines = current.splitlines()
+    ours = [
+        op
+        for op in difflib.SequenceMatcher(None, base_lines, inc_lines).get_opcodes()
+        if op[0] != "equal"
+    ]
+    theirs = [
+        op
+        for op in difflib.SequenceMatcher(None, base_lines, cur_lines).get_opcodes()
+        if op[0] != "equal"
+    ]
+    conflicts: List[Dict[str, List[int]]] = []
+    i = j = 0
+    while i < len(ours) and j < len(theirs):
+        _, oi1, oi2, oj1, oj2 = ours[i]
+        _, ti1, ti2, tj1, tj2 = theirs[j]
+        start = max(oi1, ti1)
+        end = min(oi2, ti2)
+        if start < end and inc_lines[oj1:oj2] != cur_lines[tj1:tj2]:
+            conflicts.append(
+                {
+                    "base": [start, end],
+                    "incoming": [oj1, oj2],
+                    "current": [tj1, tj2],
+                }
+            )
+        if oi2 <= ti2:
+            i += 1
+        if ti2 <= oi2:
+            j += 1
+    return conflicts
+
+
 class CommentCreate(BaseModel):
     section_ref: str
     author_id: str
@@ -117,6 +161,14 @@ class DocUpdate(BaseModel):
     summary: str
     append: bool = True
     base_version: Optional[int] = None
+    correlation_id: Optional[str] = None
+
+
+class DocResolve(BaseModel):
+    content: str
+    author_id: str
+    summary: str
+    base_version: int
     correlation_id: Optional[str] = None
 
 
@@ -224,14 +276,63 @@ def update_document(
     if payload.base_version is not None and payload.base_version != latest_version:
         try:
             diff = _store.diff_revisions(doc_id, payload.base_version, latest_version)
+            base_rev = _store.get_revision(doc_id, payload.base_version)
+            base_content = base_rev["content"] if base_rev else ""
+            conflicts = _find_conflicts(base_content, payload.content, current)
         except ValueError:
             diff = ""
+            conflicts = []
         raise HTTPException(
             status_code=409,
-            detail={"diff": diff, "latest": latest_version},
+            detail={
+                "diff": diff,
+                "latest": latest_version,
+                "conflicts": conflicts,
+            },
         )
     new_content = current + payload.content if payload.append else payload.content
     revision = _store.save_document(doc_id, new_content, payload.author_id)
+    event = EventPayload(
+        document_id=doc_id,
+        event_type="revision_created",
+        author_id=payload.author_id,
+        timestamp=revision.timestamp,
+        revision_id=revision.version,
+        correlation_id=payload.correlation_id,
+    )
+    post_event(event)
+    _notify_subscribers(doc_id, "revision_created", revision_id=revision.version)
+    _notify_comments(doc_id, payload.summary)
+    return revision
+
+
+@app.post("/docs/{doc_id}/resolve")
+def resolve_document(
+    doc_id: str, payload: DocResolve, agent_id: str = Depends(_get_agent)
+):
+    if payload.author_id != agent_id:
+        raise HTTPException(status_code=403, detail="author_id must match token")
+    revs = _store.list_revisions(doc_id)
+    current = revs[-1]["content"] if revs else ""
+    latest_version = revs[-1]["version"] if revs else 0
+    if payload.base_version != latest_version:
+        try:
+            diff = _store.diff_revisions(doc_id, payload.base_version, latest_version)
+            base_rev = _store.get_revision(doc_id, payload.base_version)
+            base_content = base_rev["content"] if base_rev else ""
+            conflicts = _find_conflicts(base_content, payload.content, current)
+        except ValueError:
+            diff = ""
+            conflicts = []
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "diff": diff,
+                "latest": latest_version,
+                "conflicts": conflicts,
+            },
+        )
+    revision = _store.save_document(doc_id, payload.content, payload.author_id)
     event = EventPayload(
         document_id=doc_id,
         event_type="revision_created",
