@@ -64,11 +64,12 @@ def _send_notification(subscriber_id: str, channel: str, payload: dict) -> None:
                     smtp.send_message(msg)
             else:
                 url = f"http://{subscriber_id}.invalid/{channel}"
-                requests.post(
+                response = requests.post(
                     url,
                     json={"subscriber_id": subscriber_id, **payload},
                     timeout=3,
                 )
+                response.raise_for_status()
             return
         except Exception as exc:  # pragma: no cover - logging is the focus
             logging.error("Notification attempt %s failed: %s", attempt, exc)
@@ -77,7 +78,7 @@ def _send_notification(subscriber_id: str, channel: str, payload: dict) -> None:
                     "Giving up on notifying %s via %s", subscriber_id, channel
                 )
             else:
-                time.sleep(0.5)
+                time.sleep(min(0.5 * 2 ** (attempt - 1), 5))
 
 
 def _notify_subscribers(
