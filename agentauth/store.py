@@ -8,6 +8,8 @@ from pathlib import Path
 from secrets import token_hex
 from typing import Dict, Optional
 
+from filelock import FileLock
+
 
 @dataclass
 class Token:
@@ -22,14 +24,19 @@ class TokenStore:
     def __init__(self, path: Path, ttl: int = 3600):
         self.path = path
         self.ttl = ttl
-        if path.exists():
-            self.data: Dict[str, Dict[str, int]] = json.loads(path.read_text())
-        else:
-            self.data = {}
+        self.lock = FileLock(str(path) + ".lock")
+        with self.lock:
+            if path.exists():
+                self.data: Dict[str, Dict[str, int]] = json.loads(path.read_text())
+            else:
+                self.data = {}
         self.cleanup()
 
     def _write(self) -> None:
-        self.path.write_text(json.dumps(self.data, indent=2))
+        with self.lock:
+            tmp_path = self.path.with_name(self.path.name + ".tmp")
+            tmp_path.write_text(json.dumps(self.data, indent=2))
+            tmp_path.replace(self.path)
 
     def _now(self) -> int:
         return int(time.time())
@@ -70,17 +77,21 @@ class TokenStore:
 
 def migrate_tokens_file(path: Path, ttl: int = 3600) -> None:
     """Migrate a plaintext token file to hashed format with expiration."""
-    if not path.exists():
-        return
-    try:
-        data = json.loads(path.read_text())
-    except json.JSONDecodeError:
-        return
-    if data and all(isinstance(v, dict) and "agent_id" in v for v in data.values()):
-        return
-    now = int(time.time())
-    new_data = {}
-    for token, agent_id in data.items():
-        digest = hashlib.sha256(token.encode()).hexdigest()
-        new_data[digest] = {"agent_id": agent_id, "expires": now + ttl}
-    path.write_text(json.dumps(new_data, indent=2))
+    lock = FileLock(str(path) + ".lock")
+    with lock:
+        if not path.exists():
+            return
+        try:
+            data = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            return
+        if data and all(isinstance(v, dict) and "agent_id" in v for v in data.values()):
+            return
+        now = int(time.time())
+        new_data = {}
+        for token, agent_id in data.items():
+            digest = hashlib.sha256(token.encode()).hexdigest()
+            new_data[digest] = {"agent_id": agent_id, "expires": now + ttl}
+        tmp_path = path.with_name(path.name + ".tmp")
+        tmp_path.write_text(json.dumps(new_data, indent=2))
+        tmp_path.replace(path)
