@@ -12,8 +12,8 @@ from agentauth.store import TokenStore  # noqa: E402
 
 
 def setup_app(tmp_path: Path):
-    rev_store = RevisionStore(tmp_path / "rev.json")
-    com_store = CommentStore(tmp_path / "com.json")
+    rev_store = RevisionStore(tmp_path / "rev.sqlite")
+    com_store = CommentStore(tmp_path / "com.sqlite")
     token_store = TokenStore(tmp_path / "tok.json")
     api._store = rev_store
     api._comment_store = com_store

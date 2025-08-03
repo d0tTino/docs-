@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List
+
+from db import get_db
 
 
 @dataclass
@@ -16,47 +18,58 @@ class Subscription:
 
 
 class SubscriptionStore:
-    """Persist and retrieve notification subscriptions."""
+    """Persist and retrieve notification subscriptions using SQLite."""
 
     def __init__(self, path: Path):
         self.path = path
-        if path.exists():
-            self.data: List[Dict] = json.loads(path.read_text()).get(
-                "subscriptions", []
+        with get_db(self.path) as db:
+            db.execute(
+                """
+                CREATE TABLE IF NOT EXISTS subscriptions (
+                    document_id TEXT,
+                    subscriber_id TEXT,
+                    channels TEXT,
+                    PRIMARY KEY (document_id, subscriber_id)
+                )
+                """
             )
-        else:
-            self.data = []
-
-    def _write(self) -> None:
-        self.path.write_text(json.dumps({"subscriptions": self.data}, indent=2))
 
     def subscribe(
         self, document_id: str, subscriber_id: str, channels: List[str]
     ) -> None:
         """Add or update a subscription."""
-        for sub in self.data:
-            if (
-                sub["document_id"] == document_id
-                and sub["subscriber_id"] == subscriber_id
-            ):
-                sub["channels"] = channels
-                self._write()
-                return
-        self.data.append(asdict(Subscription(document_id, subscriber_id, channels)))
-        self._write()
+        with get_db(self.path) as db:
+            db.execute(
+                """
+                INSERT INTO subscriptions (document_id, subscriber_id, channels)
+                VALUES (?, ?, ?)
+                ON CONFLICT(document_id, subscriber_id)
+                    DO UPDATE SET channels=excluded.channels
+                """,
+                (document_id, subscriber_id, json.dumps(channels)),
+            )
 
     def unsubscribe(self, document_id: str, subscriber_id: str) -> None:
         """Remove a subscription if present."""
-        self.data = [
-            s
-            for s in self.data
-            if not (
-                s["document_id"] == document_id
-                and s["subscriber_id"] == subscriber_id
+        with get_db(self.path) as db:
+            db.execute(
+                "DELETE FROM subscriptions WHERE document_id=? AND subscriber_id=?",
+                (document_id, subscriber_id),
             )
-        ]
-        self._write()
 
     def get_subscribers(self, document_id: str) -> List[Dict]:
         """Return all subscriptions for ``document_id``."""
-        return [s for s in self.data if s["document_id"] == document_id]
+        with get_db(self.path) as db:
+            rows = db.execute(
+                """
+                SELECT document_id, subscriber_id, channels
+                FROM subscriptions WHERE document_id=?
+                """,
+                (document_id,),
+            ).fetchall()
+        result: List[Dict] = []
+        for row in rows:
+            data = dict(row)
+            data["channels"] = json.loads(data["channels"])
+            result.append(data)
+        return result
