@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Optional
+from typing import List, Optional
 
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
@@ -11,12 +11,14 @@ from .store import RevisionStore
 from comments.store import CommentStore
 from .render import render_document
 from agentauth import TokenStore
+from notifications import SubscriptionStore
 from ume.events import EventPayload, post_event
 
 app = FastAPI()
 _store = RevisionStore(Path("revision_store.json"))
 _comment_store = CommentStore(Path("comments_store.json"))
 _token_store = TokenStore(Path("api_tokens.json"))
+_subscription_store = SubscriptionStore(Path("subscriptions_store.json"))
 
 _security = HTTPBearer()
 
@@ -33,6 +35,31 @@ def _notify_comments(doc_id: str, summary: str) -> None:
     for c in _comment_store.list_comments(doc_id):
         # Real implementation could notify comment authors here
         print(f"Notify comment {c['comment_id']} on {doc_id}: {summary}")
+
+
+def _send_notification(subscriber_id: str, channel: str, payload: dict) -> None:
+    """Placeholder dispatcher for notifications."""
+    print(f"Notify {subscriber_id} via {channel}: {payload}")
+
+
+def _notify_subscribers(
+    doc_id: str,
+    event_type: str,
+    revision_id: Optional[int] = None,
+    comment_id: Optional[int] = None,
+) -> None:
+    """Send notifications to all subscribers of ``doc_id``."""
+    link = f"/docs/{doc_id}/comments/{comment_id}" if comment_id else None
+    payload = {
+        "document_id": doc_id,
+        "event_type": event_type,
+        "revision_id": revision_id,
+    }
+    if link:
+        payload["comment_link"] = link
+    for sub in _subscription_store.get_subscribers(doc_id):
+        for channel in sub["channels"]:
+            _send_notification(sub["subscriber_id"], channel, payload)
 
 
 class CommentCreate(BaseModel):
@@ -54,6 +81,11 @@ class DocUpdate(BaseModel):
     append: bool = True
     base_version: Optional[int] = None
     correlation_id: Optional[str] = None
+
+
+class SubscriptionUpdate(BaseModel):
+    subscriber_id: str
+    channels: List[str]
 
 
 class TokenCreate(BaseModel):
@@ -98,6 +130,9 @@ def create_comment(doc_id: str, payload: CommentCreate):
         correlation_id=payload.correlation_id,
     )
     post_event(event)
+    _notify_subscribers(
+        doc_id, "comment_created", revision_id=rev_id, comment_id=comment.comment_id
+    )
     return comment
 
 
@@ -114,6 +149,18 @@ def update_comment(comment_id: int, payload: CommentUpdate):
     if comment is None:
         raise HTTPException(status_code=404, detail="Comment not found")
     return comment
+
+
+@app.post("/docs/{doc_id}/subscriptions")
+def upsert_subscription(doc_id: str, payload: SubscriptionUpdate):
+    _subscription_store.subscribe(doc_id, payload.subscriber_id, payload.channels)
+    return {"status": "subscribed"}
+
+
+@app.delete("/docs/{doc_id}/subscriptions/{subscriber_id}")
+def delete_subscription(doc_id: str, subscriber_id: str):
+    _subscription_store.unsubscribe(doc_id, subscriber_id)
+    return {"status": "unsubscribed"}
 
 
 @app.post("/tokens")
@@ -157,6 +204,7 @@ def update_document(
         correlation_id=payload.correlation_id,
     )
     post_event(event)
+    _notify_subscribers(doc_id, "revision_created", revision_id=revision.version)
     _notify_comments(doc_id, payload.summary)
     return revision
 
