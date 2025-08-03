@@ -70,15 +70,29 @@ class RevisionStore:
             ).fetchone()
         return row["content"] if row else ""
 
-    def save_document(self, document_id: str, content: str, author_id: str) -> Revision:
-        """Record a new revision for ``document_id``."""
+    def save_document(
+        self,
+        document_id: str,
+        content: str,
+        author_id: str,
+        base_version: Optional[int] = None,
+    ) -> Revision:
+        """Record a new revision for ``document_id``.
+
+        If ``base_version`` is provided the operation will fail with ``ValueError``
+        when the stored latest version does not match, allowing callers to
+        implement optimistic locking.
+        """
         with get_db(self.path) as db:
             row = db.execute(
-                "SELECT content FROM revisions WHERE document_id=?\n"
+                "SELECT version, content FROM revisions WHERE document_id=?\n"
                 "ORDER BY version DESC LIMIT 1",
                 (document_id,),
             ).fetchone()
             previous = row["content"] if row else ""
+            latest = row["version"] if row else 0
+            if base_version is not None and base_version != latest:
+                raise ValueError("Version mismatch")
             diff = "".join(
                 difflib.unified_diff(
                     previous.splitlines(keepends=True),
@@ -87,13 +101,7 @@ class RevisionStore:
                     tofile="current",
                 )
             )
-            version = (
-                db.execute(
-                    "SELECT COALESCE(MAX(version), 0) + 1 "
-                    "FROM revisions WHERE document_id=?",
-                    (document_id,),
-                ).fetchone()[0]
-            )
+            version = latest + 1
             revision = Revision(
                 document_id=document_id,
                 version=version,

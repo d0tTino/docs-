@@ -204,11 +204,34 @@ def diff_revisions(doc_id: str, from_version: int, to_version: int):
 
 
 @app.get("/docs/{doc_id}/view")
-def document_view(doc_id: str):
-    """Return document content, comments and revision history with diffs."""
+def document_view(doc_id: str, latest_only: bool = True):
+    """Return document content, comments and revision history with diffs.
+
+    ``latest_only`` limits diff generation to just the most recent revision,
+    avoiding expensive work when a document has many revisions.  Passing
+    ``latest_only=false`` retains the original behaviour of producing diffs for
+    every revision.
+    """
     revisions = _store.list_revisions(doc_id)
     content = revisions[-1]["content"] if revisions else ""
     comments = _comment_store.list_comments(doc_id)
+
+    if latest_only:
+        history = [{**rev, "diff": ""} for rev in revisions]
+        if revisions:
+            prev = revisions[-2]["content"] if len(revisions) > 1 else ""
+            last = revisions[-1]
+            diff = "".join(
+                difflib.unified_diff(
+                    prev.splitlines(keepends=True),
+                    last["content"].splitlines(keepends=True),
+                    fromfile=f"v{last['version']-1}",
+                    tofile=f"v{last['version']}",
+                )
+            )
+            history[-1]["diff"] = diff
+        return {"content": content, "comments": comments, "revisions": history}
+
     history = []
     previous = ""
     for rev in revisions:
@@ -326,7 +349,9 @@ def update_document(
     latest_version = revs[-1]["version"] if revs else 0
     if payload.base_version is not None and payload.base_version != latest_version:
         try:
-            diff = _store.diff_revisions(doc_id, payload.base_version, latest_version)
+            diff = _store.diff_revisions(
+                doc_id, payload.base_version, latest_version
+            )
             base_rev = _store.get_revision(doc_id, payload.base_version)
             base_content = base_rev["content"] if base_rev else ""
             conflicts = _find_conflicts(base_content, payload.content, current)
@@ -342,7 +367,30 @@ def update_document(
             },
         )
     new_content = current + payload.content if payload.append else payload.content
-    revision = _store.save_document(doc_id, new_content, payload.author_id)
+    try:
+        revision = _store.save_document(
+            doc_id, new_content, payload.author_id, latest_version
+        )
+    except ValueError:
+        revs = _store.list_revisions(doc_id)
+        latest_version = revs[-1]["version"] if revs else 0
+        current = revs[-1]["content"] if revs else ""
+        try:
+            diff = _store.diff_revisions(
+                doc_id, payload.base_version or latest_version, latest_version
+            )
+            base_rev = _store.get_revision(
+                doc_id, payload.base_version or latest_version
+            )
+            base_content = base_rev["content"] if base_rev else ""
+            conflicts = _find_conflicts(base_content, payload.content, current)
+        except ValueError:
+            diff = ""
+            conflicts = []
+        raise HTTPException(
+            status_code=409,
+            detail={"diff": diff, "latest": latest_version, "conflicts": conflicts},
+        )
     event = EventPayload(
         document_id=doc_id,
         event_type="revision_created",
@@ -368,7 +416,9 @@ def resolve_document(
     latest_version = revs[-1]["version"] if revs else 0
     if payload.base_version != latest_version:
         try:
-            diff = _store.diff_revisions(doc_id, payload.base_version, latest_version)
+            diff = _store.diff_revisions(
+                doc_id, payload.base_version, latest_version
+            )
             base_rev = _store.get_revision(doc_id, payload.base_version)
             base_content = base_rev["content"] if base_rev else ""
             conflicts = _find_conflicts(base_content, payload.content, current)
@@ -383,7 +433,28 @@ def resolve_document(
                 "conflicts": conflicts,
             },
         )
-    revision = _store.save_document(doc_id, payload.content, payload.author_id)
+    try:
+        revision = _store.save_document(
+            doc_id, payload.content, payload.author_id, latest_version
+        )
+    except ValueError:
+        revs = _store.list_revisions(doc_id)
+        latest_version = revs[-1]["version"] if revs else 0
+        current = revs[-1]["content"] if revs else ""
+        try:
+            diff = _store.diff_revisions(
+                doc_id, payload.base_version, latest_version
+            )
+            base_rev = _store.get_revision(doc_id, payload.base_version)
+            base_content = base_rev["content"] if base_rev else ""
+            conflicts = _find_conflicts(base_content, payload.content, current)
+        except ValueError:
+            diff = ""
+            conflicts = []
+        raise HTTPException(
+            status_code=409,
+            detail={"diff": diff, "latest": latest_version, "conflicts": conflicts},
+        )
     event = EventPayload(
         document_id=doc_id,
         event_type="revision_created",

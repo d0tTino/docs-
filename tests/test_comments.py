@@ -89,6 +89,7 @@ def test_document_view_endpoint(tmp_path: Path, monkeypatch):
     assert data["content"].startswith("line1")
     assert len(data["comments"]) == 1
     assert len(data["revisions"]) == 2
+    assert data["revisions"][0]["diff"] == ""
     assert data["revisions"][1]["diff"]
 
 
