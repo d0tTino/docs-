@@ -69,11 +69,16 @@ def test_revision_notification(tmp_path: Path, monkeypatch):
 def test_comment_notification_unsub(tmp_path: Path, monkeypatch):
     client, rev_store, com_store, token_store, sub_store = setup_app(tmp_path)
     rev_store.save_document("doc1", "hello", "agent1")
+    token_user1 = token_store.create_token("user1").token
     client.post(
         "/docs/doc1/subscriptions",
+        headers={"Authorization": f"Bearer {token_user1}"},
         json={"subscriber_id": "user1", "channels": ["webhook"]},
     )
-    client.delete("/docs/doc1/subscriptions/user1")
+    client.delete(
+        "/docs/doc1/subscriptions/user1",
+        headers={"Authorization": f"Bearer {token_user1}"},
+    )
 
     calls = []
     monkeypatch.setattr(
@@ -81,8 +86,10 @@ def test_comment_notification_unsub(tmp_path: Path, monkeypatch):
     )
     monkeypatch.setattr(api, "post_event", lambda e: None)
 
+    token_u1 = token_store.create_token("u1").token
     res = client.post(
         "/docs/doc1/comments",
+        headers={"Authorization": f"Bearer {token_u1}"},
         json={"section_ref": "L1", "author_id": "u1", "body": "note"},
     )
     assert res.status_code == 200
@@ -92,8 +99,10 @@ def test_comment_notification_unsub(tmp_path: Path, monkeypatch):
 def test_comment_notification_payload(tmp_path: Path, monkeypatch):
     client, rev_store, com_store, token_store, sub_store = setup_app(tmp_path)
     rev = rev_store.save_document("doc1", "hello", "agent1")
+    token_user1 = token_store.create_token("user1").token
     client.post(
         "/docs/doc1/subscriptions",
+        headers={"Authorization": f"Bearer {token_user1}"},
         json={"subscriber_id": "user1", "channels": ["webhook"]},
     )
 
@@ -105,8 +114,10 @@ def test_comment_notification_payload(tmp_path: Path, monkeypatch):
     monkeypatch.setattr(requests, "post", fake_post)
     monkeypatch.setattr(api, "post_event", lambda e: None)
 
+    token_u1 = token_store.create_token("u1").token
     res = client.post(
         "/docs/doc1/comments",
+        headers={"Authorization": f"Bearer {token_u1}"},
         json={"section_ref": "L1", "author_id": "u1", "body": "note"},
     )
     assert res.status_code == 200
