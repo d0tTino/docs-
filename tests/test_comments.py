@@ -1,5 +1,6 @@
 from pathlib import Path
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from fastapi.testclient import TestClient
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,7 +12,7 @@ from versioning import api  # noqa: E402
 
 
 def test_comment_store(tmp_path: Path):
-    store = CommentStore(tmp_path / "db.json")
+    store = CommentStore(tmp_path / "db.sqlite")
     c1 = store.add_comment("doc1", "L1-2", "user1", "note")
     assert c1.comment_id == 1
     assert store.list_comments("doc1")[0]["body"] == "note"
@@ -21,8 +22,8 @@ def test_comment_store(tmp_path: Path):
 
 
 def test_comment_endpoints(tmp_path: Path, monkeypatch):
-    rev_store = RevisionStore(tmp_path / "rev.json")
-    com_store = CommentStore(tmp_path / "com.json")
+    rev_store = RevisionStore(tmp_path / "rev.sqlite")
+    com_store = CommentStore(tmp_path / "com.sqlite")
     monkeypatch.setattr(api, "_store", rev_store)
     monkeypatch.setattr(api, "_comment_store", com_store)
     monkeypatch.setattr(api, "post_event", lambda e: None)
@@ -44,3 +45,17 @@ def test_comment_endpoints(tmp_path: Path, monkeypatch):
 
     rendered = client.get("/docs/doc1/render").json()
     assert "[comment:" in rendered["content"]
+
+
+def test_concurrent_comment_writes(tmp_path: Path):
+    store = CommentStore(tmp_path / "db.sqlite")
+
+    def add(idx: int):
+        store.add_comment("doc", "L1", "u", f"n{idx}")
+
+    with ThreadPoolExecutor(max_workers=5) as ex:
+        ex.map(add, range(5))
+
+    comments = store.list_comments("doc")
+    assert len(comments) == 5
+    assert [c["comment_id"] for c in comments] == [1, 2, 3, 4, 5]

@@ -20,7 +20,7 @@ def main() -> None:
     parser.add_argument(
         "--db",
         type=Path,
-        default=Path("revision_store.json"),
+        default=Path("revision_store.sqlite"),
         help="Revision database file",
     )
     args = parser.parse_args()

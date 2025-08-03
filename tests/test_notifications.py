@@ -1,4 +1,5 @@
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 from fastapi.testclient import TestClient
 import sys
 import smtplib
@@ -15,10 +16,10 @@ from notifications.store import SubscriptionStore  # noqa: E402
 
 
 def setup_app(tmp_path: Path):
-    rev_store = RevisionStore(tmp_path / "rev.json")
-    com_store = CommentStore(tmp_path / "com.json")
+    rev_store = RevisionStore(tmp_path / "rev.sqlite")
+    com_store = CommentStore(tmp_path / "com.sqlite")
     token_store = TokenStore(tmp_path / "tok.json")
-    sub_store = SubscriptionStore(tmp_path / "sub.json")
+    sub_store = SubscriptionStore(tmp_path / "sub.sqlite")
     api._store = rev_store
     api._comment_store = com_store
     api._token_store = token_store
@@ -150,3 +151,16 @@ def test_comment_author_notified_on_revision(tmp_path: Path, monkeypatch):
     )
     assert res.status_code == 200
     assert len(sent) == 1
+
+
+def test_concurrent_subscribe(tmp_path: Path):
+    store = SubscriptionStore(tmp_path / "sub.sqlite")
+
+    def sub(i: int):
+        store.subscribe("doc", f"u{i}", ["email"])
+
+    with ThreadPoolExecutor(max_workers=5) as ex:
+        ex.map(sub, range(5))
+
+    subs = store.get_subscribers("doc")
+    assert len(subs) == 5

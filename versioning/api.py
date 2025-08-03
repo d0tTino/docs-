@@ -21,10 +21,10 @@ from notifications import SubscriptionStore
 from ume.events import EventPayload, post_event
 
 app = FastAPI()
-_store = RevisionStore(Path("revision_store.json"))
-_comment_store = CommentStore(Path("comments_store.json"))
+_store = RevisionStore(Path("revision_store.sqlite"))
+_comment_store = CommentStore(Path("comments_store.sqlite"))
 _token_store = TokenStore(Path("api_tokens.json"))
-_subscription_store = SubscriptionStore(Path("subscriptions_store.json"))
+_subscription_store = SubscriptionStore(Path("subscriptions_store.sqlite"))
 
 _security = HTTPBearer()
 
