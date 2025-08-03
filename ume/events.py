@@ -9,7 +9,7 @@ import requests
 
 UME_EVENT_ENDPOINT = "https://ume.example.com/events"
 MAX_RETRIES = 3
-RETRY_DELAY = 1  # seconds
+MAX_BACKOFF = 30  # seconds
 
 
 @dataclass
@@ -25,19 +25,25 @@ class EventPayload:
 def post_event(event: EventPayload) -> None:
     """POST an event to the UME ingestion endpoint with retries."""
     payload = asdict(event)
+    last_exc: Optional[Exception] = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             res = requests.post(UME_EVENT_ENDPOINT, json=payload, timeout=5)
             res.raise_for_status()
             return
         except Exception as exc:  # pragma: no cover - logging of all failures
+            last_exc = exc
             logging.warning(
                 "Failed to send UME event (attempt %s/%s): %s",
                 attempt,
                 MAX_RETRIES,
                 exc,
             )
-            time.sleep(RETRY_DELAY)
+            if attempt < MAX_RETRIES:
+                delay = min(2 ** attempt, MAX_BACKOFF)
+                time.sleep(delay)
     logging.error(
         "Giving up sending UME event after %s attempts", MAX_RETRIES
     )
+    if last_exc is not None:
+        raise last_exc
