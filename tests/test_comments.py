@@ -8,6 +8,7 @@ sys.path.append(str(ROOT))
 
 from comments.store import CommentStore  # noqa: E402
 from versioning.store import RevisionStore  # noqa: E402
+from agentauth.store import TokenStore  # noqa: E402
 from versioning import api  # noqa: E402
 
 
@@ -24,10 +25,13 @@ def test_comment_store(tmp_path: Path):
 def test_comment_endpoints(tmp_path: Path, monkeypatch):
     rev_store = RevisionStore(tmp_path / "rev.sqlite")
     com_store = CommentStore(tmp_path / "com.sqlite")
+    tok_store = TokenStore(tmp_path / "tok.json")
     monkeypatch.setattr(api, "_store", rev_store)
     monkeypatch.setattr(api, "_comment_store", com_store)
+    monkeypatch.setattr(api, "_token_store", tok_store)
     monkeypatch.setattr(api, "post_event", lambda e: None)
-    client = TestClient(api.app)
+    token = tok_store.create_token("user1").token
+    client = TestClient(api.app, headers={"Authorization": f"Bearer {token}"})
 
     rev_store.save_document("doc1", "line1\nline2", "user1")
     res = client.post(
@@ -50,10 +54,13 @@ def test_comment_endpoints(tmp_path: Path, monkeypatch):
 def test_toggle_comment_status(tmp_path: Path, monkeypatch):
     rev_store = RevisionStore(tmp_path / "rev.sqlite")
     com_store = CommentStore(tmp_path / "com.sqlite")
+    tok_store = TokenStore(tmp_path / "tok.json")
     monkeypatch.setattr(api, "_store", rev_store)
     monkeypatch.setattr(api, "_comment_store", com_store)
+    monkeypatch.setattr(api, "_token_store", tok_store)
     monkeypatch.setattr(api, "post_event", lambda e: None)
-    client = TestClient(api.app)
+    token = tok_store.create_token("u1").token
+    client = TestClient(api.app, headers={"Authorization": f"Bearer {token}"})
 
     rev_store.save_document("doc", "content", "u1")
     comment = com_store.add_comment("doc", "L1", "u1", "n")
