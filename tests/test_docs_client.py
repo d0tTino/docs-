@@ -72,4 +72,4 @@ def test_create_comment(tmp_path: Path):
         correlation_id="corr-2",
     )
     assert res["body"] == "note"
-    assert com_store.list_comments("doc1")[0]["body"] == "note"
+    assert com_store.list_comments("doc1")[0].body == "note"
