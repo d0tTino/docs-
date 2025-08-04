@@ -26,7 +26,7 @@ class CommentStore:
 
     def __init__(self, path: Path):
         self.path = path
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             db.execute(
                 """
                 CREATE TABLE IF NOT EXISTS comments (
@@ -51,7 +51,7 @@ class CommentStore:
         self, document_id: str, section_ref: str, author_id: str, body: str
     ) -> Comment:
         now = datetime.now(timezone.utc).isoformat()
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             cur = db.execute(
                 """
                 INSERT INTO comments (
@@ -82,7 +82,7 @@ class CommentStore:
         return Comment(**data)
 
     def list_comments(self, document_id: str) -> List[Comment]:
-        with get_db(self.path) as db:
+        with get_db(self.path, "read") as db:
             rows = db.execute(
                 """
                 SELECT
@@ -100,7 +100,7 @@ class CommentStore:
         return [self._row_to_comment(row) for row in rows]
 
     def get_comment(self, comment_id: int) -> Optional[Comment]:
-        with get_db(self.path) as db:
+        with get_db(self.path, "read") as db:
             row = db.execute(
                 """
                 SELECT
@@ -120,7 +120,7 @@ class CommentStore:
     def update_comment(
         self, comment_id: int, body: Optional[str] = None, status: Optional[str] = None
     ) -> Optional[Comment]:
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             row = db.execute(
                 """
                 SELECT

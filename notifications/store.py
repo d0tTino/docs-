@@ -22,7 +22,7 @@ class SubscriptionStore:
 
     def __init__(self, path: Path):
         self.path = path
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             db.execute(
                 """
                 CREATE TABLE IF NOT EXISTS subscriptions (
@@ -38,7 +38,7 @@ class SubscriptionStore:
         self, document_id: str, subscriber_id: str, channels: List[str]
     ) -> None:
         """Add or update a subscription."""
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             db.execute(
                 """
                 INSERT INTO subscriptions (document_id, subscriber_id, channels)
@@ -51,7 +51,7 @@ class SubscriptionStore:
 
     def unsubscribe(self, document_id: str, subscriber_id: str) -> None:
         """Remove a subscription if present."""
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             db.execute(
                 "DELETE FROM subscriptions WHERE document_id=? AND subscriber_id=?",
                 (document_id, subscriber_id),
@@ -59,7 +59,7 @@ class SubscriptionStore:
 
     def get_subscribers(self, document_id: str) -> List[Dict]:
         """Return all subscriptions for ``document_id``."""
-        with get_db(self.path) as db:
+        with get_db(self.path, "read") as db:
             rows = db.execute(
                 """
                 SELECT document_id, subscriber_id, channels

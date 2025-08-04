@@ -36,7 +36,7 @@ def test_comment_index_and_listing(tmp_path: Path):
     assert len(comments) == 3
 
     # ensure the query plan uses the index for fast lookups
-    with get_db(store.path) as db:
+    with get_db(store.path, "read") as db:
         plan = db.execute(
             "EXPLAIN QUERY PLAN SELECT * FROM comments WHERE document_id=?",
             ("doc1",),

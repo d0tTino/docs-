@@ -26,7 +26,7 @@ class RevisionStore:
 
     def __init__(self, path: Path):
         self.path = path
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             db.execute(
                 """
                 CREATE TABLE IF NOT EXISTS revisions (
@@ -43,7 +43,7 @@ class RevisionStore:
 
     def list_revisions(self, document_id: str) -> List[Dict]:
         """Return all revisions for ``document_id``."""
-        with get_db(self.path) as db:
+        with get_db(self.path, "read") as db:
             rows = db.execute(
                 "SELECT document_id, version, author_id, timestamp, diff, content\n"
                 "FROM revisions WHERE document_id=? ORDER BY version",
@@ -53,7 +53,7 @@ class RevisionStore:
 
     def get_revision(self, document_id: str, version: int) -> Optional[Dict]:
         """Retrieve a specific revision."""
-        with get_db(self.path) as db:
+        with get_db(self.path, "read") as db:
             row = db.execute(
                 "SELECT document_id, version, author_id, timestamp, diff, content\n"
                 "FROM revisions WHERE document_id=? AND version=?",
@@ -62,7 +62,7 @@ class RevisionStore:
         return dict(row) if row else None
 
     def _latest_content(self, document_id: str) -> str:
-        with get_db(self.path) as db:
+        with get_db(self.path, "read") as db:
             row = db.execute(
                 "SELECT content FROM revisions WHERE document_id=?\n"
                 "ORDER BY version DESC LIMIT 1",
@@ -83,7 +83,7 @@ class RevisionStore:
         when the stored latest version does not match, allowing callers to
         implement optimistic locking.
         """
-        with get_db(self.path) as db:
+        with get_db(self.path, "write") as db:
             row = db.execute(
                 "SELECT version, content FROM revisions WHERE document_id=?\n"
                 "ORDER BY version DESC LIMIT 1",
