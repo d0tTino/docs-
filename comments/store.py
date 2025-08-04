@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from db import get_db
 
@@ -77,7 +77,11 @@ class CommentStore:
             created_at=now,
         )
 
-    def list_comments(self, document_id: str) -> List[Dict]:
+    def _row_to_comment(self, row) -> Comment:
+        data = dict(row)
+        return Comment(**data)
+
+    def list_comments(self, document_id: str) -> List[Comment]:
         with get_db(self.path) as db:
             rows = db.execute(
                 """
@@ -93,9 +97,9 @@ class CommentStore:
                 """,
                 (document_id,),
             ).fetchall()
-        return [dict(row) for row in rows]
+        return [self._row_to_comment(row) for row in rows]
 
-    def get_comment(self, comment_id: int) -> Optional[Dict]:
+    def get_comment(self, comment_id: int) -> Optional[Comment]:
         with get_db(self.path) as db:
             row = db.execute(
                 """
@@ -111,11 +115,11 @@ class CommentStore:
                 """,
                 (comment_id,),
             ).fetchone()
-        return dict(row) if row else None
+        return self._row_to_comment(row) if row else None
 
     def update_comment(
         self, comment_id: int, body: Optional[str] = None, status: Optional[str] = None
-    ) -> Optional[Dict]:
+    ) -> Optional[Comment]:
         with get_db(self.path) as db:
             row = db.execute(
                 """
@@ -142,4 +146,4 @@ class CommentStore:
                 "UPDATE comments SET body=?, status=? WHERE comment_id=?",
                 (data["body"], data["status"], comment_id),
             )
-        return data
+        return Comment(**data)

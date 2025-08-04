@@ -17,10 +17,10 @@ def test_comment_store(tmp_path: Path):
     store = CommentStore(tmp_path / "db.sqlite")
     c1 = store.add_comment("doc1", "L1-2", "user1", "note")
     assert c1.comment_id == 1
-    assert store.list_comments("doc1")[0]["body"] == "note"
+    assert store.list_comments("doc1")[0].body == "note"
 
     store.update_comment(1, status="resolved")
-    assert store.get_comment(1)["status"] == "resolved"
+    assert store.get_comment(1).status == "resolved"
 
 
 def test_comment_index_and_listing(tmp_path: Path):
@@ -126,4 +126,4 @@ def test_concurrent_comment_writes(tmp_path: Path):
 
     comments = store.list_comments("doc")
     assert len(comments) == 5
-    assert [c["comment_id"] for c in comments] == [1, 2, 3, 4, 5]
+    assert [c.comment_id for c in comments] == [1, 2, 3, 4, 5]

@@ -44,9 +44,9 @@ def _notify_comments(doc_id: str, summary: str) -> None:
             "document_id": doc_id,
             "event_type": "revision_created",
             "summary": summary,
-            "comment_id": c["comment_id"],
+            "comment_id": c.comment_id,
         }
-        _send_notification(c["author_id"], "email", payload)
+        _send_notification(c.author_id, "email", payload)
 
 
 def _send_notification(subscriber_id: str, channel: str, payload: dict) -> None:
@@ -287,7 +287,7 @@ def update_comment(
     existing = _comment_store.get_comment(comment_id)
     if existing is None:
         raise HTTPException(status_code=404, detail="Comment not found")
-    if existing["author_id"] != agent_id:
+    if existing.author_id != agent_id:
         raise HTTPException(status_code=403, detail="author_id must match token")
     return _comment_store.update_comment(
         comment_id, body=payload.body, status=payload.status
@@ -300,9 +300,9 @@ def toggle_comment(comment_id: int, agent_id: str = Depends(_get_agent)):
     comment = _comment_store.get_comment(comment_id)
     if comment is None:
         raise HTTPException(status_code=404, detail="Comment not found")
-    if comment["author_id"] != agent_id:
+    if comment.author_id != agent_id:
         raise HTTPException(status_code=403, detail="author_id must match token")
-    new_status = "open" if comment["status"] == "resolved" else "resolved"
+    new_status = "open" if comment.status == "resolved" else "resolved"
     return _comment_store.update_comment(comment_id, status=new_status)
 
 
