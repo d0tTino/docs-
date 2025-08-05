@@ -70,6 +70,13 @@ class RevisionStore:
             ).fetchone()
         return row["content"] if row else ""
 
+    def latest_content(self, document_id: str) -> str:
+        """Return the latest content for ``document_id``.
+
+        This is a public wrapper around :meth:`_latest_content`.
+        """
+        return self._latest_content(document_id)
+
     def save_document(
         self,
         document_id: str,

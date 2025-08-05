@@ -11,7 +11,7 @@ def render_document(
     doc_id: str, rev_store: RevisionStore, comment_store: CommentStore
 ) -> Dict[str, str | List[Dict]]:
     """Return document content with comment anchors."""
-    content = rev_store._latest_content(doc_id)
+    content = rev_store.latest_content(doc_id)
     comments = comment_store.list_comments(doc_id)
     lines = content.splitlines()
     rendered_comments = []
