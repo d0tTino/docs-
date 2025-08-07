@@ -1,3 +1,10 @@
+---
+title: "Versioning API"
+tags: [api]
+project: docs-hub
+updated: 2025-08-07
+---
+
 # Versioning API
 
 The document service supports optimistic concurrency control. Updating a
