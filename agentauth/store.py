@@ -25,18 +25,21 @@ class TokenStore:
         self.path = path
         self.ttl = ttl
         self.lock = FileLock(str(path) + ".lock")
+        self.data: Dict[str, Dict[str, int]] = {}
         with self.lock:
-            if path.exists():
-                self.data: Dict[str, Dict[str, int]] = json.loads(path.read_text())
-            else:
-                self.data = {}
-        self.cleanup()
+            self._load()
+            self._cleanup()
+
+    def _load(self) -> None:
+        if self.path.exists():
+            self.data = json.loads(self.path.read_text())
+        else:
+            self.data = {}
 
     def _write(self) -> None:
-        with self.lock:
-            tmp_path = self.path.with_name(self.path.name + ".tmp")
-            tmp_path.write_text(json.dumps(self.data, indent=2))
-            tmp_path.replace(self.path)
+        tmp_path = self.path.with_name(self.path.name + ".tmp")
+        tmp_path.write_text(json.dumps(self.data, indent=2))
+        tmp_path.replace(self.path)
 
     def _now(self) -> int:
         return int(time.time())
@@ -45,34 +48,47 @@ class TokenStore:
         return hashlib.sha256(token.encode()).hexdigest()
 
     def create_token(self, agent_id: str) -> Token:
-        token = token_hex(16)
-        digest = self._digest(token)
-        expires = self._now() + self.ttl
-        self.data[digest] = {"agent_id": agent_id, "expires": expires}
-        self._write()
-        return Token(token=token, agent_id=agent_id, expires=expires)
+        with self.lock:
+            self._load()
+            self._cleanup()
+            token = token_hex(16)
+            digest = self._digest(token)
+            expires = self._now() + self.ttl
+            self.data[digest] = {"agent_id": agent_id, "expires": expires}
+            self._write()
+            return Token(token=token, agent_id=agent_id, expires=expires)
 
     def delete_token(self, token: str) -> None:
-        digest = self._digest(token)
-        if digest in self.data:
-            del self.data[digest]
-            self._write()
+        with self.lock:
+            self._load()
+            self._cleanup()
+            digest = self._digest(token)
+            if digest in self.data:
+                del self.data[digest]
+                self._write()
 
     def verify(self, token: str) -> Optional[str]:
-        self.cleanup()
-        digest = self._digest(token)
-        info = self.data.get(digest)
-        if info and info["expires"] > self._now():
-            return info["agent_id"]
-        return None
+        with self.lock:
+            self._load()
+            self._cleanup()
+            digest = self._digest(token)
+            info = self.data.get(digest)
+            if info and info["expires"] > self._now():
+                return info["agent_id"]
+            return None
 
-    def cleanup(self) -> None:
+    def _cleanup(self) -> None:
         now = self._now()
         expired = [d for d, info in self.data.items() if info["expires"] <= now]
         if expired:
             for d in expired:
                 del self.data[d]
             self._write()
+
+    def cleanup(self) -> None:
+        with self.lock:
+            self._load()
+            self._cleanup()
 
 
 def migrate_tokens_file(path: Path, ttl: int = 3600) -> None:
