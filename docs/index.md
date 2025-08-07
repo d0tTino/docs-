@@ -85,11 +85,13 @@ git lfs install
 scripts/setup_hooks.sh
 ```
 
-The hooks enforce Markdown and Python linting via the `.githooks/pre-commit` script, which runs `markdownlint-cli` and `flake8`.
+The hooks enforce Markdown and Python linting via the `.githooks/pre-commit` script,
+which runs `markdownlint-cli` and `flake8`.
 
 ## Building the Docs
 
-Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs, pytest, flake8) install consistently, then launch the dev server:
+Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs,
+pytest, flake8) install consistently, then launch the dev server:
 
 ```bash
 pip install -r requirements.txt
@@ -121,7 +123,9 @@ scripts/setup_hooks.sh
 ## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
-[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure `git-filter-repo` is installed (for example via `pip install git-filter-repo` or your package manager) before running the script.
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure
+`git-filter-repo` is installed (for example via `pip install git-filter-repo` or
+your package manager) before running the script.
 
 Run the migration script from the repository root:
 
@@ -129,7 +133,9 @@ Run the migration script from the repository root:
 scripts/migrate_old_docs.sh
 ```
 
-The script clones the legacy repo, filters only the documentation files using `git filter-repo`, and fetches the result as a local branch called `d0tTino-import`. Merge that branch to incorporate the history:
+The script clones the legacy repo, filters only the documentation files using
+`git filter-repo`, and fetches the result as a local branch called
+`d0tTino-import`. Merge that branch to incorporate the history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
