@@ -1,7 +1,7 @@
 ---
 title: "Logical Chunking Strategies"
 tags: [rag, chunking, ai-research]
-project: culture
+project: ai-research
 updated: 2025-07-24
 ---
 
