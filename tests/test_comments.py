@@ -2,6 +2,7 @@ from pathlib import Path
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from fastapi.testclient import TestClient
+import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
@@ -21,6 +22,9 @@ def test_comment_store(tmp_path: Path):
 
     store.update_comment(1, status="resolved")
     assert store.get_comment(1).status == "resolved"
+
+    with pytest.raises(ValueError):
+        store.update_comment(1, status="invalid")
 
 
 def test_comment_index_and_listing(tmp_path: Path):
@@ -69,6 +73,9 @@ def test_comment_endpoints(tmp_path: Path, monkeypatch):
     res = client.patch(f"/comments/{cid}", json={"status": "resolved"})
     assert res.json()["status"] == "resolved"
 
+    res = client.patch(f"/comments/{cid}", json={"status": "bad"})
+    assert res.status_code == 400
+
     rendered = client.get("/docs/doc1/render").json()
     assert "[comment:" in rendered["content"]
 
@@ -92,6 +99,14 @@ def test_toggle_comment_status(tmp_path: Path, monkeypatch):
     assert res.json()["status"] == "resolved"
     res = client.post(f"/comments/{comment.comment_id}/toggle")
     assert res.json()["status"] == "open"
+
+    with get_db(com_store.path, "write") as db:
+        db.execute(
+            "UPDATE comments SET status='weird' WHERE comment_id=?",
+            (comment.comment_id,),
+        )
+    res = client.post(f"/comments/{comment.comment_id}/toggle")
+    assert res.status_code == 400
 
 
 def test_document_view_endpoint(tmp_path: Path, monkeypatch):
