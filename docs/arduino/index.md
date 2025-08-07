@@ -1,8 +1,8 @@
 ---
 title: "Arduino"
-tags: [sample, docs]
-project: sample-project
-updated: 2025-01-01
+tags: [hardware, microcontroller]
+project: arduino
+updated: 2025-08-07
 ---
 
 # Overview
