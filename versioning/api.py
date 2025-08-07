@@ -15,7 +15,7 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel
 
 from .store import RevisionStore
-from comments.store import CommentStore
+from comments.store import Comment, CommentStore
 from .render import render_document
 from agentauth import TokenStore
 from notifications import SubscriptionStore
@@ -252,7 +252,7 @@ def document_view(doc_id: str, latest_only: bool = True):
 @app.post("/docs/{doc_id}/comments")
 def create_comment(
     doc_id: str, payload: CommentCreate, agent_id: str = Depends(_get_agent)
-):
+) -> Comment:
     if payload.author_id != agent_id:
         raise HTTPException(status_code=403, detail="author_id must match token")
     comment = _comment_store.add_comment(
@@ -276,14 +276,14 @@ def create_comment(
 
 
 @app.get("/docs/{doc_id}/comments")
-def list_comments(doc_id: str):
+def list_comments(doc_id: str) -> List[Comment]:
     return _comment_store.list_comments(doc_id)
 
 
 @app.patch("/comments/{comment_id}")
 def update_comment(
     comment_id: int, payload: CommentUpdate, agent_id: str = Depends(_get_agent)
-):
+) -> Comment:
     existing = _comment_store.get_comment(comment_id)
     if existing is None:
         raise HTTPException(status_code=404, detail="Comment not found")
@@ -295,7 +295,7 @@ def update_comment(
 
 
 @app.post("/comments/{comment_id}/toggle")
-def toggle_comment(comment_id: int, agent_id: str = Depends(_get_agent)):
+def toggle_comment(comment_id: int, agent_id: str = Depends(_get_agent)) -> Comment:
     """Flip comment status between ``open`` and ``resolved``."""
     comment = _comment_store.get_comment(comment_id)
     if comment is None:

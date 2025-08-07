@@ -137,13 +137,13 @@ class CommentStore:
             ).fetchone()
             if row is None:
                 return None
-            data = dict(row)
+            comment = self._row_to_comment(row)
             if body is not None:
-                data["body"] = body
+                comment.body = body
             if status is not None:
-                data["status"] = status
+                comment.status = status
             db.execute(
                 "UPDATE comments SET body=?, status=? WHERE comment_id=?",
-                (data["body"], data["status"], comment_id),
+                (comment.body, comment.status, comment_id),
             )
-        return Comment(**data)
+        return comment
