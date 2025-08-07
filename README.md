@@ -10,7 +10,7 @@ Visit <http://127.0.0.1:8000> to preview the site locally.
 
 ## Directory Structure
 
-- `ai-research/` – AI and machine learning notes
+- `docs/ai-research/` – AI and machine learning notes
 - `arduino/` – hardware and firmware references
 - `terminal-workflow/` – command-line tips and workflows
 - `culture-project/` – organizational culture project
@@ -20,22 +20,22 @@ Visit <http://127.0.0.1:8000> to preview the site locally.
 
 ## Research Docs
 
-The `ai-research/` folder collects design notes and technical dossiers for
+The `docs/ai-research/` folder collects design notes and technical dossiers for
 ongoing experiments. Key documents include:
 
-- [Strategic R&D Roadmap for DeepThought-ReThought](ai-research/strategic-roadmap-deepthought.md)
-- [Reverse-Engineering OpenAI Codex](ai-research/reverse-engineering-codex.md)
-- [Seed-Factory Feasibility Dossier](ai-research/seed-factory-feasibility-dossier.md)
-- [Agentic SWE Discontinuity Forecast](ai-research/agentic-swe-discontinuity-forecast.md)
-- [Energy-Efficient Swarm](ai-research/energy-efficient-swarm.md)
-- [Neurosymbolic Reasoning Dossier](ai-research/neurosymbolic-reasoning-dossier.md)
-- [Friend or Foe PRD](ai-research/discord-friend-foe-prd.md)
-- [Logical Chunking Strategies](ai-research/logical-chunking.md)
-- [Peaks and Freezes](ai-research/peaks-and-freezes.md)
-- [Thick Band of 21st-Century Possibilities](ai-research/thick-band-of-21st-century-possibilities.md)
-- [You Weren't Supposed to Invent Infinite Jest](ai-research/you-werent-supposed-to-invent-infinite-jest.md)
+- [Strategic R&D Roadmap for DeepThought-ReThought](docs/ai-research/strategic-roadmap-deepthought.md)
+- [Reverse-Engineering OpenAI Codex](docs/ai-research/reverse-engineering-codex.md)
+- [Seed-Factory Feasibility Dossier](docs/ai-research/seed-factory-feasibility-dossier.md)
+- [Agentic SWE Discontinuity Forecast](docs/ai-research/agentic-swe-discontinuity-forecast.md)
+- [Energy-Efficient Swarm](docs/ai-research/energy-efficient-swarm.md)
+- [Neurosymbolic Reasoning Dossier](docs/ai-research/neurosymbolic-reasoning-dossier.md)
+- [Friend or Foe PRD](docs/ai-research/discord-friend-foe-prd.md)
+- [Logical Chunking Strategies](docs/ai-research/logical-chunking.md)
+- [Peaks and Freezes](docs/ai-research/peaks-and-freezes.md)
+- [Thick Band of 21st-Century Possibilities](docs/ai-research/thick-band-of-21st-century-possibilities.md)
+- [You Weren't Supposed to Invent Infinite Jest](docs/ai-research/you-werent-supposed-to-invent-infinite-jest.md)
 
-See [ai-research/index.md](ai-research/index.md) for additional context and any
+See [docs/ai-research/index.md](docs/ai-research/index.md) for additional context and any
 newly added reports.
 
 ## Project Documentation Submodules
