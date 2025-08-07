@@ -1,8 +1,8 @@
 ---
 title: "Terminal Workflow"
-tags: [sample, docs]
-project: sample-project
-updated: 2025-01-01
+tags: [command-line, workflow]
+project: terminal-workflow
+updated: 2025-08-07
 ---
 
 # Getting started

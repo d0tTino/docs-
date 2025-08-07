@@ -8,6 +8,7 @@ updated: 2025-07-30
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal or financial advice.
 
+
 # End-to-End Wise Payouts with Idempotency Keys: A Technical Integration Specification
 
 ## Introduction: The Imperative for Resilient Payouts
