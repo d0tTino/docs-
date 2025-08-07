@@ -45,4 +45,6 @@ nav:
   - Security:
       - Threat Model: security/threat-model.md
   - Wise Payouts with Idempotency Keys: wise-payouts-idempotency.md
+  - Friendly Face of Power: friendly-face-of-power.md
+  - Versioning API: versioning-api.md
 
