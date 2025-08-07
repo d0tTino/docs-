@@ -8,7 +8,7 @@ updated: 2025-07-29
 # Real-World Cyberpunk Manifesto — Wave 4: Money & Autonomy
 
 !!! note "Disclaimer"
-This document is provided for research purposes only and does not constitute legal or financial advice.
+    This document is provided for research purposes only and does not constitute legal or financial advice.
 
 Introduction: From OPSEC to FINSEC — The Financial Counter-Attack
 This manual marks the fourth wave of the strategic doctrine initiated in this series. It transitions from the defensive postures of operational security (OPSEC), detailed in Wave 3, to the proactive measures of financial security (FINSEC). The core argument of this text is that financial autonomy is not a tangential objective but a critical, non-negotiable enabler of the "Radical Autonomy" mindset articulated in Wave 1[^1] The capacity for authentic thought, dissent, and action is fundamentally compromised when one's ability to acquire, store, and transact value is contingent upon permission from the very corporate-state sovereigns whose architectures of control were mapped in Wave 2[^1] A kill switch on your bank account is a kill switch on your dissent.
