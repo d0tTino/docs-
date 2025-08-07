@@ -5,7 +5,9 @@ project: docs-hub
 updated: 2025-07-30
 ---
 
---8<-- "_snippets/disclaimer.md"
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 
 # The Friendly Face of Power: An Analysis of Soft Aesthetics, Corporate Integration, and Digital Control in Modern Authoritarianism
 ## Introduction: Revisiting Bertram Gross's Prophecy
