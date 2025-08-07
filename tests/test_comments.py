@@ -7,7 +7,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from comments.store import CommentStore  # noqa: E402
+from comments.store import Comment, CommentStore  # noqa: E402
 from db import get_db  # noqa: E402
 from versioning.store import RevisionStore  # noqa: E402
 from agentauth.store import TokenStore  # noqa: E402
@@ -18,10 +18,16 @@ def test_comment_store(tmp_path: Path):
     store = CommentStore(tmp_path / "db.sqlite")
     c1 = store.add_comment("doc1", "L1-2", "user1", "note")
     assert c1.comment_id == 1
-    assert store.list_comments("doc1")[0].body == "note"
+    comments = store.list_comments("doc1")
+    assert isinstance(comments[0], Comment)
+    assert comments[0].body == "note"
 
-    store.update_comment(1, status="resolved")
-    assert store.get_comment(1).status == "resolved"
+    updated = store.update_comment(1, status="resolved")
+    assert isinstance(updated, Comment)
+    assert updated.status == "resolved"
+    fetched = store.get_comment(1)
+    assert isinstance(fetched, Comment)
+    assert fetched.status == "resolved"
 
     with pytest.raises(ValueError):
         store.update_comment(1, status="invalid")

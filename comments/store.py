@@ -150,28 +150,14 @@ class CommentStore:
             ).fetchone()
             if row is None:
                 return None
-            data = dict(row)
+            comment = self._row_to_comment(row)
             if body is not None:
-                data["body"] = body
+                comment.body = body
             if status is not None:
-                if status not in {s.value for s in CommentStatus}:
-                    raise ValueError(f"Invalid status: {status}")
-                data["status"] = status
+                comment.status = status
+
             db.execute(
                 "UPDATE comments SET body=?, status=? WHERE comment_id=?",
-                (data["body"], data["status"], comment_id),
+                (comment.body, comment.status, comment_id),
             )
-        return Comment(**data)
-
-    def toggle_comment(self, comment_id: int) -> Optional[Comment]:
-        comment = self.get_comment(comment_id)
-        if comment is None:
-            return None
-        if comment.status not in {s.value for s in CommentStatus}:
-            raise ValueError(f"Invalid status: {comment.status}")
-        new_status = (
-            CommentStatus.RESOLVED.value
-            if comment.status == CommentStatus.OPEN.value
-            else CommentStatus.OPEN.value
-        )
-        return self.update_comment(comment_id, status=new_status)
+        return comment
