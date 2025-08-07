@@ -1,3 +1,5 @@
 #!/bin/sh
 npx -y markdownlint-cli "**/*.md"
 flake8 --exclude node_modules
+files=$(git diff --cached --name-only --diff-filter=ACM -- 'docs/ai-research/*.md')
+[ -z "$files" ] || python scripts/lint_research_docs.py $files

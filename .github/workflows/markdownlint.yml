@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
@@ -16,3 +18,12 @@ jobs:
         run: npm install
       - name: Run markdownlint
         run: npx markdownlint-cli "**/*.md"
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Check AI research docs for mid-word splits
+        run: |
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- 'docs/ai-research/*.md')
+          if [ -n "$files" ]; then
+            python scripts/lint_research_docs.py $files
+          fi

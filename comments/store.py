@@ -154,10 +154,46 @@ class CommentStore:
             if body is not None:
                 comment.body = body
             if status is not None:
-                comment.status = status
+                try:
+                    comment.status = CommentStatus(status).value
+                except ValueError as exc:
+                    raise ValueError("Invalid status") from exc
 
             db.execute(
                 "UPDATE comments SET body=?, status=? WHERE comment_id=?",
                 (comment.body, comment.status, comment_id),
             )
+        return comment
+
+    def toggle_comment(self, comment_id: int) -> Comment:
+        """Flip a comment's status between ``open`` and ``resolved``."""
+        with get_db(self.path, "write") as db:
+            row = db.execute(
+                """
+                SELECT
+                    comment_id,
+                    document_id,
+                    section_ref,
+                    author_id,
+                    body,
+                    status,
+                    created_at
+                FROM comments WHERE comment_id=?
+                """,
+                (comment_id,),
+            ).fetchone()
+            if row is None:
+                raise ValueError("Comment not found")
+            comment = self._row_to_comment(row)
+            if comment.status == CommentStatus.OPEN.value:
+                new_status = CommentStatus.RESOLVED.value
+            elif comment.status == CommentStatus.RESOLVED.value:
+                new_status = CommentStatus.OPEN.value
+            else:
+                raise ValueError(f"Cannot toggle unknown status: {comment.status}")
+            db.execute(
+                "UPDATE comments SET status=? WHERE comment_id=?",
+                (new_status, comment_id),
+            )
+        comment.status = new_status
         return comment
