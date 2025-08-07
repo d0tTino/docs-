@@ -289,9 +289,12 @@ def update_comment(
         raise HTTPException(status_code=404, detail="Comment not found")
     if existing.author_id != agent_id:
         raise HTTPException(status_code=403, detail="author_id must match token")
-    return _comment_store.update_comment(
-        comment_id, body=payload.body, status=payload.status
-    )
+    try:
+        return _comment_store.update_comment(
+            comment_id, body=payload.body, status=payload.status
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 @app.post("/comments/{comment_id}/toggle")
@@ -302,8 +305,10 @@ def toggle_comment(comment_id: int, agent_id: str = Depends(_get_agent)):
         raise HTTPException(status_code=404, detail="Comment not found")
     if comment.author_id != agent_id:
         raise HTTPException(status_code=403, detail="author_id must match token")
-    new_status = "open" if comment.status == "resolved" else "resolved"
-    return _comment_store.update_comment(comment_id, status=new_status)
+    try:
+        return _comment_store.toggle_comment(comment_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 @app.post("/docs/{doc_id}/subscriptions")

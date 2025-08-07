@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from enum import Enum
 from pathlib import Path
 from typing import List, Optional
 
@@ -19,6 +20,11 @@ class Comment:
     body: str
     status: str
     created_at: str
+
+
+class CommentStatus(str, Enum):
+    OPEN = "open"
+    RESOLVED = "resolved"
 
 
 class CommentStore:
@@ -64,7 +70,14 @@ class CommentStore:
                 )
                 VALUES (?, ?, ?, ?, ?, ?)
                 """,
-                (document_id, section_ref, author_id, body, "open", now),
+                (
+                    document_id,
+                    section_ref,
+                    author_id,
+                    body,
+                    CommentStatus.OPEN.value,
+                    now,
+                ),
             )
             comment_id = cur.lastrowid
         return Comment(
@@ -73,7 +86,7 @@ class CommentStore:
             section_ref=section_ref,
             author_id=author_id,
             body=body,
-            status="open",
+            status=CommentStatus.OPEN.value,
             created_at=now,
         )
 
@@ -141,9 +154,24 @@ class CommentStore:
             if body is not None:
                 data["body"] = body
             if status is not None:
+                if status not in {s.value for s in CommentStatus}:
+                    raise ValueError(f"Invalid status: {status}")
                 data["status"] = status
             db.execute(
                 "UPDATE comments SET body=?, status=? WHERE comment_id=?",
                 (data["body"], data["status"], comment_id),
             )
         return Comment(**data)
+
+    def toggle_comment(self, comment_id: int) -> Optional[Comment]:
+        comment = self.get_comment(comment_id)
+        if comment is None:
+            return None
+        if comment.status not in {s.value for s in CommentStatus}:
+            raise ValueError(f"Invalid status: {comment.status}")
+        new_status = (
+            CommentStatus.RESOLVED.value
+            if comment.status == CommentStatus.OPEN.value
+            else CommentStatus.OPEN.value
+        )
+        return self.update_comment(comment_id, status=new_status)
