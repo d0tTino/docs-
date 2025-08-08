@@ -50,21 +50,21 @@ conflict. The core cyberpunk trope of "high tech, low life" has shed its
 science-fictional skin to reveal the stark reality of the 21st century: the
 immense, concentrated power of networked technology wielded by a handful of
 corporate and state sovereigns, and the precarious existence of the billions who
-live within these architectures of control.1 The struggle is no longer for
+live within these architectures of control.[^arch-control] The struggle is no longer for
 territory in the physical sense, but for agency within the digital. The
 cyberpunk protagonist of fiction—the renegade hacker, the street-samurai, the
 data courier operating on the margins of a corporate-dominated world—is an
-archetype born from the anxieties of the late 20th century.2 This manifesto
+archetype born from the anxieties of the late 20th century.[^cyberpunk-anxiety] This manifesto
 argues that this archetype is now an operational necessity. The console cowboy
 of William Gibson's Neuromancer, jacking into the "consensual hallucination" of
 the matrix, has been superseded by the citizen investigator geolocating war
 crimes from a laptop, the activist coordinating a protest through encrypted
-channels, and the whistleblower leaking data that exposes systemic corruption.2
+channels, and the whistleblower leaking data that exposes systemic corruption.[^cyberpunk-anxiety]
 The fight is not in a simulated cyberspace, but in the real-world systems of
 algorithmic governance, platform economies, and pervasive surveillance that
 structure modern life. The cyberpunk is the man or woman against the machine,
 the David against the corporate-state Goliath, armed not with a sling, but with
-the very code and data that constitutes the giant's power.2
+the very code and data that constitutes the giant's power.[^cyberpunk-anxiety]
 
 #### 1.2 Stripping the Chrome: From Science Fiction to Socio-Technical Reality
 
@@ -75,17 +75,17 @@ Japanese kanji, the cybernetic implants—while culturally significant, is a
 distraction from its core philosophical and political critique. The essential
 themes that pioneering authors like William Gibson, Bruce Sterling, and Philip
 K. Dick explored are no longer speculative fictions; they are documented
-socio-technical realities.1 The hyper-commodification of culture, the rise of an
+socio-technical realities.[^arch-control] The hyper-commodification of culture, the rise of an
 information economy, the blurring lines between human and artificial, and the
 ascendancy of corporate power over that of the nation-state are the defining
-features of our era.2 This manifesto, therefore, moves the analysis from the
+features of our era.[^cyberpunk-anxiety] This manifesto, therefore, moves the analysis from the
 fictional matrix to the concrete architectures of modern control. The antagonist
 is not a rogue AI in a distant future, but the actually existing systems of
 "surveillance capitalism" that claim human experience as a free resource to be
-mined for behavioral predictions.4 The dystopia is not a far-off possibility; it
+mined for behavioral predictions.[^surveillance-cap] The dystopia is not a far-off possibility; it
 is the mundane reality of algorithmic curation that creates personalized
 "reality tunnels," the erosion of privacy that chills dissent, and the platform
-ecosystems that enforce market dependence.6 The objective is to provide a
+ecosystems that enforce market dependence.[^platform-dependence] The objective is to provide a
 clear-eyed assessment of the tools, tactics, and mindsets required to navigate
 and resist this concrete dystopia. We discard the fantasy of the future to
 better analyze the strategic realities of the present. 2.0 The Ghost in the
@@ -7376,5 +7376,13 @@ Reid Interrogation - Emergent Justice, accessed July 28, 2025, https://emergentj
 - https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
 
 ### Footnotes
+
+[^arch-control]: Shoshana Zuboff, *The Age of Surveillance Capitalism* (PublicAffairs, 2019) details how networked technologies enable architectures of control.
+
+[^cyberpunk-anxiety]: William Gibson's *Neuromancer* (Ace, 1984) captures the late-20th-century anxieties that shaped the cyberpunk archetype.
+
+[^surveillance-cap]: Zuboff, *The Age of Surveillance Capitalism*, explains how data extraction drives behavioral predictions.
+
+[^platform-dependence]: Cory Doctorow, *Information Doesn't Want to Be Free* (McSweeney's, 2014) discusses how platform ecosystems foster market dependence.
 
 [^1]: See the previous waves for context on Radical Autonomy and the Threat Matrix.
