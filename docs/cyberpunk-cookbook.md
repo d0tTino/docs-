@@ -16,15 +16,15 @@ updated: 2025-07-30
 - [Wave 1: Foundations](#wave-1-foundations)
 - [Wave 2: Threat Mapping](#wave-2-threat-mapping)
 - [Wave 3: Privacy & OPSEC](#wave-3-privacy--opsec)
-- [Wave 3: Legal Countermeasures & Rights Navigation](#wave-3-legal-countermeasures--rights-navigation)
-- [Wave 3: Decentralized Infrastructure](#wave-3-decentralized-infrastructure)
-- [Wave 4: Hands-On Hardening](#wave-4-hands-on-hardening)
-- [Wave 4: Reconnaissance & Open-Source Intelligence](#wave-4-reconnaissance--open-source-intelligence)
-- [Wave 4: Money & Autonomy](wave4-money-autonomy.md)
-- [Wave 5: Cognitive Security & Influence Defense](#wave-5-cognitive-security--influence-defense)
-- [Wave 6: Futures](#wave-6-futures)
-- [Wave 7: The Cyberpunk Mind](#wave-7-the-cyberpunk-mind)
-- [Wave 9: Social Engineering & Trust Networks](#wave-9-social-engineering--trust-networks)
+ - [Wave 4: Legal Countermeasures & Rights Navigation](#wave-4-legal-countermeasures--rights-navigation)
+ - [Wave 5: Decentralized Infrastructure](#wave-5-decentralized-infrastructure)
+ - [Wave 6: Hands-On Hardening](#wave-6-hands-on-hardening)
+ - [Wave 7: Reconnaissance & Open-Source Intelligence](#wave-7-reconnaissance--open-source-intelligence)
+ - [Wave 8: Money & Autonomy](wave4-money-autonomy.md)
+ - [Wave 9: Cognitive Security & Influence Defense](#wave-9-cognitive-security--influence-defense)
+ - [Wave 10: Futures](#wave-10-futures)
+ - [Wave 11: The Cyberpunk Mind](#wave-11-the-cyberpunk-mind)
+ - [Wave 12: Social Engineering & Trust Networks](#wave-12-social-engineering--trust-networks)
 - [Internet Anonymity – Past, Present Crackdowns, and the Cyberpunk Response](internet-anonymity-cyberpunk-response.md)
 - [References](#references)
 
@@ -3216,7 +3216,7 @@ https://community.frame.work/t/how-do-the-camera-and-microphone-switches-work/42
 Choosing Your Hardware - Privacy Guides, accessed July 25, 2025,
 https://www.privacyguides.org/en/basics/hardware/
 
-## Wave 3: Legal Countermeasures & Rights Navigation
+## Wave 4: Legal Countermeasures & Rights Navigation
 
 ### Introduction: The Law as Code and Weapon
 
@@ -3627,7 +3627,7 @@ surveilled and controllable, extension of the traditional banking system. For
 the operator, this makes reliance on GENIUS-compliant stablecoins a significant
 risk, as their funds can be frozen or seized by a central authority at any time.
 This elevates the strategic importance of truly decentralized,
-censorship-resistant assets, as detailed in Wave 5.
+censorship-resistant assets, as detailed in Wave 8.
 
 EU AI Act Status: Enacted in the European Union in August 2024, with provisions
 coming into force in a staggered approach through 2026.1 Core Function: To
@@ -3857,10 +3857,10 @@ and statutes—the legal code that governs the digital battlespace. You have the
 intelligence to anticipate attacks and the precedents to mount a defense. But
 legal knowledge alone is an incomplete shield. The adversary's first move is
 often technical, not judicial. The next step is to harden the targets: your
-devices, your communications, and your online behavior. Wave 4 provides the
+devices, your communications, and your online behavior. Wave 6 provides the
 technical toolkit to build your fortress.
 
-## Wave 3: Decentralized Infrastructure
+## Wave 5: Decentralized Infrastructure
 
 Real-World Cyberpunk Survival Manifesto: Part 3: Decentralized Infrastructure
 
@@ -4978,7 +4978,7 @@ The Rise & Rise of a Manifesto. Rules for life, business and… | by Ben Rennie
   Radiocrafts AS RC1892HP-RIIM-DK DEVELOPMENT KIT FOR RIIM, accessed July 23,
   2025, https://www.easybom.com/p/rc1892hpriimdk-radiocrafts-as-28182520
 
-## Wave 4: Hands-On Hardening
+## Wave 6: Hands-On Hardening
 
 Works cited Cyberpunk Threat and Power Analysis United States: Freedom on the
 Net 2024 Country Report | Freedom ..., accessed July 25, 2025,
@@ -5093,7 +5093,7 @@ Bernstein v. United States Department of States (District Court of California)
 25, 2025,
 https://firstamendment.mtsu.edu/article/bernstein-v-united-states-department-of-states-district-court-of-california/
 
-## Wave 4: Reconnaissance & Open-Source Intelligence
+## Wave 7: Reconnaissance & Open-Source Intelligence
 
 ### Introduction: The Panopticon's Blind Spot
 
@@ -5639,14 +5639,14 @@ END
 This manual provides the doctrine, toolchain,
 and operational procedures for conducting reconnaissance in the modern information battlespace. By systematically mapping your own digital footprint, you transform yourself from a passive target into a hardened one. By understanding the architectures of corporate and state power, you convert abstract anxieties into concrete systems. Knowledge, applied with discipline, is a force multiplier. By mastering OSINT and building an automated pipeline for continuous awareness, the operator achieves a critical asymmetric advantage. The real work begins now.
 
-## Wave 5: Cognitive Security & Influence Defense
+## Wave 9: Cognitive Security & Influence Defense
 
 ### Introduction: The Battlefield of Belief
 
 #### Preamble: The Final Attack Surface
 
 The human mind is the final attack surface. In the asymmetrical conflicts of the 21st century,
-the architectures of control mapped in previous waves—the "Sovereign Eye" of state surveillance and the "Platform Raj" of corporate monopolies—achieve their ultimate victory not by controlling infrastructure, but by controlling perception.1 The operational security (OPSEC) detailed in Wave 3 and the financial security (FINSEC) of Wave 4 are necessary prerequisites for survival, but cognitive security (COGSEC) is the decisive layer.1 A hardened endpoint is useless if the operator's judgment is compromised. A sovereign wallet is meaningless if the operator's motivations are manipulated. The war for autonomy will be won or lost on the battlefield of belief.
+the architectures of control mapped in previous waves—the "Sovereign Eye" of state surveillance and the "Platform Raj" of corporate monopolies—achieve their ultimate victory not by controlling infrastructure, but by controlling perception.1 The operational security (OPSEC) detailed in Wave 3 and the financial security (FINSEC) of Wave 8 are necessary prerequisites for survival, but cognitive security (COGSEC) is the decisive layer.1 A hardened endpoint is useless if the operator's judgment is compromised. A sovereign wallet is meaningless if the operator's motivations are manipulated. The war for autonomy will be won or lost on the battlefield of belief.
 
 ### Doctrine: From Passive Consumption to Active Defense
 
@@ -6053,7 +6053,7 @@ https://ebelding.cs.ucsb.edu/sites/default/files/publications/hate-lingo-target.
 The language of outrage | The Journal of Social Media in Society, accessed July 27, 2025,
 https://www.thejsms.org/index.php/JSMS/article/view/733
 
-## Wave 6: Futures
+## Wave 10: Futures
 
 ### Introduction: The Strategic Horizon
 
@@ -6155,7 +6155,7 @@ social justification for a new, pervasive architecture of social control. The "b
 ##### Survival Tactics (Defensive Countermeasures) — Greenbait & Switch
 
 **The Financial Counter-Attack:** The primary defense is the creation and maintenance of a parallel financial existence,
-employing the tools and protocols detailed in Wave 4[^1] This involves acquiring value through non-regulated channels and transacting in untraceable, privacy-preserving digital assets like Monero. By making economic activity illegible to the state's ledger, the operator's consumption patterns cannot be fed into the carbon tracking and social credit algorithms. The use of physical cash for all possible local transactions becomes a critical act of resistance.
+employing the tools and protocols detailed in Wave 8[^1] This involves acquiring value through non-regulated channels and transacting in untraceable, privacy-preserving digital assets like Monero. By making economic activity illegible to the state's ledger, the operator's consumption patterns cannot be fed into the carbon tracking and social credit algorithms. The use of physical cash for all possible local transactions becomes a critical act of resistance.
 **Physical and Energetic Resilience:** A significant portion of an individual's trackable carbon footprint comes from
 metered energy consumption at home. Implementing the energy autonomy strategies from Wave 5—specifically, the design and construction of a sovereign solar and battery microgrid—becomes a crucial countermeasure.1 This is not merely a tactic for surviving blackouts, but a strategy to minimize one's official, legible energy consumption, thereby starving the tracking system of data at its source.
 **Data Anonymization and Obfuscation:** The system relies on the constant, passive aggregation of behavioral data.
@@ -6171,7 +6171,7 @@ All digital activities must be shielded using the privacy-preserving tools from 
   An operator can undermine this legitimacy by documenting and publicizing the system's flaws. This could involve demonstrating how the carbon-tracking algorithms are wildly inaccurate, how they can be easily tricked, or how they disproportionately penalize lower-income individuals. By exposing the system as arbitrary and unjust, one can foster widespread public distrust and resistance.
 
 The "Greenbait & Switch" scenario illustrates a dangerous convergence of financial and social control.
-The public's legitimate concern over climate change provides the perfect political cover for the implementation of what is, fundamentally, an unprecedented architecture of surveillance and behavioral engineering. The "bait" is the promise of a technocratic solution to a complex collective action problem. The "switch" occurs when this infrastructure, once established, is repurposed for broader social control. Money ceases to be a neutral medium of exchange and becomes an active instrument of state policy, enforced directly at the point of transaction. What begins as a tax on airline tickets can easily become a restriction on purchasing certain books, a penalty for donating to unapproved political causes, or a block on transactions for failing to comply with public health mandates. This is the ultimate realization of the "Programmable Panopticon" threat identified in Wave 4, where a kill switch on your bank account becomes a kill switch on your dissent.1
+The public's legitimate concern over climate change provides the perfect political cover for the implementation of what is, fundamentally, an unprecedented architecture of surveillance and behavioral engineering. The "bait" is the promise of a technocratic solution to a complex collective action problem. The "switch" occurs when this infrastructure, once established, is repurposed for broader social control. Money ceases to be a neutral medium of exchange and becomes an active instrument of state policy, enforced directly at the point of transaction. What begins as a tax on airline tickets can easily become a restriction on purchasing certain books, a penalty for donating to unapproved political causes, or a block on transactions for failing to comply with public health mandates. This is the ultimate realization of the "Programmable Panopticon" threat identified in Wave 8, where a kill switch on your bank account becomes a kill switch on your dissent.1
 
 The "bait" is a suite of popular, convenient,
 and initially voluntary financial tools and incentives designed to promote sustainable behavior.
@@ -6207,7 +6207,7 @@ creating a top-to-bottom framework of behavioral engineering where a citizens fi
 ##### Additional Survival Tactics — Greenbait & Switch
 
 **The Financial Counter-Attack:** The primary defense is the creation and maintenance of a parallel financial existence,
-employing the tools and protocols detailed in Wave 4[^1] This involves acquiring value through non-regulated channels and transacting in untraceable, privacy-preserving digital assets like Monero. By making economic activity illegible to the state's ledger, the operator's consumption patterns cannot be fed into the carbon tracking and social credit algorithms. The use of physical cash for all possible local transactions becomes a critical act of resistance.
+employing the tools and protocols detailed in Wave 8[^1] This involves acquiring value through non-regulated channels and transacting in untraceable, privacy-preserving digital assets like Monero. By making economic activity illegible to the state's ledger, the operator's consumption patterns cannot be fed into the carbon tracking and social credit algorithms. The use of physical cash for all possible local transactions becomes a critical act of resistance.
 **Physical and Energetic Resilience:** A significant portion of an individual's trackable carbon footprint comes from
 metered energy consumption at home. Implementing the energy autonomy strategies from Wave 5—specifically, the design and construction of a sovereign solar and battery microgrid—becomes a crucial countermeasure.1 This is not merely a tactic for surviving blackouts, but a strategy to minimize one's official, legible energy consumption, thereby starving the tracking system of data at its source.
 **Data Anonymization and Obfuscation:** The system relies on the constant, passive aggregation of behavioral data.
@@ -6227,7 +6227,7 @@ All digital activities must be shielded using the privacy-preserving tools from 
   The "switch" occurs when this infrastructure, once established, is repurposed for broader social control.
   Money ceases to be a neutral medium of exchange and becomes an active instrument of state policy,
   enforced directly at the point of transaction. What begins as a tax on airline tickets can easily become a restriction on purchasing certain books, a penalty for donating to unapproved political causes, or a block on transactions for failing to comply with public health mandates.
-  This is the ultimate realization of the "Programmable Panopticon" threat identified in Wave 4,
+  This is the ultimate realization of the "Programmable Panopticon" threat identified in Wave 8,
   where a kill switch on your bank account becomes a kill switch on your dissent.1
 
 #### Scenario 3: Quantum Crack
@@ -6402,7 +6402,7 @@ the "Quantum Crack" event in the blue lane has an arrow pointing to the "Digital
 
 ### Works cited — Appendix
 
-Real-World Cyberpunk Manifesto — Wave 4: Money & Autonomy
+Real-World Cyberpunk Manifesto — Wave 8: Money & Autonomy
 AI Monopolies Are Coming. Now's the Time to Stop Them ..., accessed July 25, 2025,
 https://www.techpolicy.press/ai-monopolies-are-coming-nows-the-time-to-stop-them/
 Platform Capitalism and the Gig Economy - A History of Domestic Work and Worker Organizing, accessed July 25, 2025,
@@ -6499,9 +6499,9 @@ https://www.lawfaremedia.org/article/when-a-quantum-computer-is-able-to-break-ou
 Privacy advocates cry foul after WEF publishes plans for personal ..., accessed July 25, 2025,
 https://www.311institute.com/privacy-advocates-cry-foul-after-wef-publishes-plans-for-personal-carbon-credits/
 
-## Wave 7: The Cyberpunk Mind
+## Wave 11: The Cyberpunk Mind
 
-### Real-World Cyberpunk Manifesto — Wave 7: The Cyberpunk Mind
+### Real-World Cyberpunk Manifesto — Wave 11: The Cyberpunk Mind
 
 #### Part I: The Essay
 
@@ -6678,14 +6678,14 @@ This book is the techno-pessimist's handbook. Bridle argues that our networked w
 
 A curated selection of core concepts from this manifesto, designed for rapid dissemination across secure channels.
 
-- The cyberpunk mind is born from a broken promise: the Enlightenment's grand narrative of progress, shattered by the reality of technological control. — Wave 7: The Cyberpunk Mind
-- We inhabit a 'concrete dystopia,' not as a future to be feared, but as a present to be analyzed. This analysis is the first act of resistance. — Wave 7: The Cyberpunk Mind
-- Postmodernism is the 'incredulity towards metanarratives.' Cyberpunk is what you do the day after you stop believing. — Wave 7: The Cyberpunk Mind
-- The famous formula is not "high tech, low life." It is "high tech is low life." The technology is the instrument that produces the precarity. — Wave 7: The Cyberpunk Mind
-- In a world of simulation, technical fluency is the only form of reality testing. Hacking is epistemology. — Wave 7: The Cyberpunk Mind
-- We must distinguish the operating system from the desktop theme. The mindsets are the ideology; the neon and chrome are just marketing. — Wave 7: The Cyberpunk Mind
-- Praxis is the rejection of nihilism. It is the decision to build a lifeboat, not just to curse the storm. — Wave 7: The Cyberpunk Mind
-- The cyberpunk operates with pessimistic optimism: a pessimistic diagnosis of the system, an optimistic belief in their own agency. — Wave 7: The Cyberpunk Mind
+- The cyberpunk mind is born from a broken promise: the Enlightenment's grand narrative of progress, shattered by the reality of technological control. — Wave 11: The Cyberpunk Mind
+- We inhabit a 'concrete dystopia,' not as a future to be feared, but as a present to be analyzed. This analysis is the first act of resistance. — Wave 11: The Cyberpunk Mind
+- Postmodernism is the 'incredulity towards metanarratives.' Cyberpunk is what you do the day after you stop believing. — Wave 11: The Cyberpunk Mind
+- The famous formula is not "high tech, low life." It is "high tech is low life." The technology is the instrument that produces the precarity. — Wave 11: The Cyberpunk Mind
+- In a world of simulation, technical fluency is the only form of reality testing. Hacking is epistemology. — Wave 11: The Cyberpunk Mind
+- We must distinguish the operating system from the desktop theme. The mindsets are the ideology; the neon and chrome are just marketing. — Wave 11: The Cyberpunk Mind
+- Praxis is the rejection of nihilism. It is the decision to build a lifeboat, not just to curse the storm. — Wave 11: The Cyberpunk Mind
+- The cyberpunk operates with pessimistic optimism: a pessimistic diagnosis of the system, an optimistic belief in their own agency. — Wave 11: The Cyberpunk Mind
 - "The future is already here – it's just not evenly distributed." — William Gibson 60
 - "The street finds its own uses for things." — William Gibson, Burning Chrome 31
 - "If you want to think seriously about the future, you have to think historically." — Bruce Sterling 30
@@ -6707,7 +6707,7 @@ Jean-François Lyotard | Literary Theory and Criticism Class Notes - Fiveable, a
 The Postmodern Condition by Jean-François Lyotard | Issue 157 | Philosophy Now, accessed July 25, 2025, https://philosophynow.org/issues/157/The_Postmodern_Condition_by_Jean-Francois_Lyotard
 Summary: The Postmodern Condition: A Report on Knowledge - emergent by design, accessed July 25, 2025, https://emergentbydesign.com/2012/01/29/reflection-the-postmodern-condition-a-report-on-knowledge/
 Post-human and cyberpunk literature | American Literature – 1860 to Present Class Notes, accessed July 25, 2025, https://library.fiveable.me/american-literature-since-1860/unit-12/post-human-cyberpunk-literature/study-guide/KJMvkZOD6uea2rro
-Real-World Cyberpunk Manifesto — Wave 4: Money & Autonomy
+Real-World Cyberpunk Manifesto — Wave 8: Money & Autonomy
 James Bridle / New Dark Age, accessed July 25, 2025, https://jamesbridle.com/books/new-dark-age
 www.versobooks.com, accessed July 25, 2025, https://www.versobooks.com/products/640-new-dark-age#:~:text=In%20his%20brilliant%20new%20work,the%20hollowing%20out%20of%20empathy.
 Postmodernism, or, the Cultural Logic of Late Capitalism Summary ..., accessed July 25, 2025, https://www.supersummary.com/postmodernism-or-the-cultural-logic-of-late-capitalism/summary/
@@ -6761,14 +6761,14 @@ The future is already here—It's just not very evenly distributed | ACM Interac
 Quote by William Gibson: “The future is already here – it's just not evenly distributed.” - Goodreads, accessed July 25, 2025, https://www.goodreads.com/quotes/681-the-future-is-already-here-it-s-just-not-evenly
 National Quantum Initiative, accessed July 25, 2025, https://www.quantum.gov/
 
-## Wave 9: Social Engineering & Trust Networks
+## Wave 12: Social Engineering & Trust Networks
 
-### Real-World Cyberpunk Manifesto — Wave 9: Social Engineering & Trust Networks
+### Real-World Cyberpunk Manifesto — Wave 12: Social Engineering & Trust Networks
 
 Introduction: The Human Protocol as Attack Surface
 
 Preamble: The Final Layer of Asymmetric Conflict
-As the doctrines of technical and financial security mature, the architectures of control adapt. The hardened endpoint, detailed in Wave 3, and the sovereign wallet, architected in Wave 4, force the adversary to shift their focus from the silicon to the carbon.1 The human operator is the final attack surface, the ultimate layer of asymmetric conflict where the protocols are not written in code but are etched into millennia of cognitive evolution. This is the battlespace of belief, trust, and perception, where a compromised judgment is more catastrophic than a compromised server, and a manipulated motivation can nullify the most robust cryptographic defenses.1
+As the doctrines of technical and financial security mature, the architectures of control adapt. The hardened endpoint, detailed in Wave 3, and the sovereign wallet, architected in Wave 8, force the adversary to shift their focus from the silicon to the carbon.1 The human operator is the final attack surface, the ultimate layer of asymmetric conflict where the protocols are not written in code but are etched into millennia of cognitive evolution. This is the battlespace of belief, trust, and perception, where a compromised judgment is more catastrophic than a compromised server, and a manipulated motivation can nullify the most robust cryptographic defenses.1
 The war for autonomy will be won or lost at this human layer. The tools of this conflict are not exploits and payloads but persuasion and deception. The vulnerabilities are not buffer overflows but cognitive biases. In this arena, trust is simultaneously the most potent weapon and the most exploitable weakness.
 
 Doctrine: From Target to Operator
@@ -6784,7 +6784,7 @@ This section deconstructs the art of social engineering into a systematic framew
 Social engineering is the weaponization of human psychology.2 It functions by exploiting the cognitive shortcuts (heuristics) and systemic errors in thinking (biases) that are hardwired into human cognition.1 These "cognitive glitches," such as the deference to authority, the desire for reciprocation, or the fear of scarcity, are not flaws but efficiency mechanisms for navigating a complex world. A social engineer treats these heuristics as exploitable APIs in the human cognitive stack, crafting inputs designed to elicit a predictable and desired output.5
 The lifecycle of a sophisticated social engineering attack follows a clear, four-stage kill chain 3:
 
-1. **Information Gathering:** The attacker conducts reconnaissance, often using the Open-Source Intelligence (OSINT) techniques detailed in Wave 4, to build a detailed profile of the target, their organization, and their social network.1
+1. **Information Gathering:** The attacker conducts reconnaissance, often using the Open-Source Intelligence (OSINT) techniques detailed in Wave 7, to build a detailed profile of the target, their organization, and their social network.1
 2. **Establishing Trust/Rapport:** The attacker initiates contact and uses psychological principles to build a connection, establish credibility, or impersonate a trusted entity.3
 3. **Exploitation:** With trust established, the attacker makes their request—to click a link, transfer funds, reveal credentials, or grant access.
 4. **Execution/Exit:** The attacker achieves their objective and takes steps to cover their tracks, disengaging from the target before the deception is discovered.7
@@ -6970,7 +6970,7 @@ Success Criteria
 1
 Passive Reconnaissance
 A zero-contact intelligence gathering phase to build a baseline profile of the potential recruit.
-Conduct thorough OSINT on the candidate using the playbooks from Wave 4[^1] Analyze their public statements, associations, and digital footprint for ideological alignment, inconsistencies, and potential vulnerabilities (e.g., financial distress, blackmailable behavior).
+Conduct thorough OSINT on the candidate using the playbooks from Wave 7[^1] Analyze their public statements, associations, and digital footprint for ideological alignment, inconsistencies, and potential vulnerabilities (e.g., financial distress, blackmailable behavior).
 The candidate's public persona is consistent and aligns with the network's core principles. No major red flags or unexplained inconsistencies are found.
 2
 Initial Vouching & Non-Critical Tasking
