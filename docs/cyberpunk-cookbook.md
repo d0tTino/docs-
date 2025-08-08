@@ -37,34 +37,44 @@ updated: 2025-07-30
 #### 1.1 The Thesis: Seizing the Masters' Technology
 
 This document is a foundational text for a new understanding of our
-contemporary condition. It posits a single, functional thesis: A cyberpunk
-seizes the masters' technology and turns it against them. This is not a
-statement of aesthetic preference for neon-drenched cityscapes or bio-mechanical
-augmentation. It is a strategic doctrine. The defining characteristic of the
-real-world cyberpunk is not what they look like, but what they do. They are
-individuals who possess the technical fluency and critical mindset to
-comprehend, appropriate, and repurpose the instruments of power—specifically the
-ubiquitous technological systems of control—to reclaim individual and collective
-autonomy. This is not a futuristic projection but an ongoing, observable
-conflict. The core cyberpunk trope of "high tech, low life" has shed its
-science-fictional skin to reveal the stark reality of the 21st century: the
-immense, concentrated power of networked technology wielded by a handful of
-corporate and state sovereigns, and the precarious existence of the billions who
-live within these architectures of control.1 The struggle is no longer for
-territory in the physical sense, but for agency within the digital. The
-cyberpunk protagonist of fiction—the renegade hacker, the street-samurai, the
-data courier operating on the margins of a corporate-dominated world—is an
-archetype born from the anxieties of the late 20th century.2 This manifesto
-argues that this archetype is now an operational necessity. The console cowboy
-of William Gibson's Neuromancer, jacking into the "consensual hallucination" of
-the matrix, has been superseded by the citizen investigator geolocating war
-crimes from a laptop, the activist coordinating a protest through encrypted
-channels, and the whistleblower leaking data that exposes systemic corruption.2
-The fight is not in a simulated cyberspace, but in the real-world systems of
-algorithmic governance, platform economies, and pervasive surveillance that
-structure modern life. The cyberpunk is the man or woman against the machine,
-the David against the corporate-state Goliath, armed not with a sling, but with
-the very code and data that constitutes the giant's power.2
+contemporary condition. It posits a single, functional thesis: a
+cyberpunk seizes the masters' technology and turns it against them. This
+is not a statement of aesthetic preference for neon-drenched cityscapes
+or bio-mechanical augmentation. It is a strategic doctrine.
+
+The defining characteristic of the real-world cyberpunk is not what they
+look like but what they do. They possess the technical fluency and
+critical mindset to comprehend, appropriate, and repurpose the instruments
+of power—specifically the ubiquitous technological systems of
+control—to reclaim individual and collective autonomy. This is not a
+futuristic projection but an ongoing, observable conflict.
+
+The core cyberpunk trope of "high tech, low life" has shed its
+science-fictional skin to reveal the stark reality of the 21st century:
+the immense, concentrated power of networked technology wielded by a
+handful of corporate and state sovereigns and the precarious existence of
+the billions who live within these architectures of control. The
+struggle is no longer for territory in the physical sense but for agency
+within the digital.
+
+The cyberpunk protagonist of fiction—the renegade hacker, the
+street-samurai, the data courier operating on the margins of a
+corporate-dominated world—is an archetype born from the anxieties of the
+late 20th century. This manifesto argues that this archetype is now an
+operational necessity.
+
+The console cowboy of William Gibson's *Neuromancer*, jacking into the
+"consensual hallucination" of the matrix, has been superseded by:
+
+- the citizen investigator geolocating war crimes from a laptop,
+- the activist coordinating a protest through encrypted channels,
+- the whistleblower leaking data that exposes systemic corruption.
+
+The fight is not in a simulated cyberspace but in real-world systems of
+algorithmic governance, platform economies, and pervasive surveillance
+that structure modern life. The cyberpunk is the man or woman against the
+machine, the David against the corporate-state Goliath, armed not with a
+sling but with the very code and data that constitute the giant's power.
 
 #### 1.2 Stripping the Chrome: From Science Fiction to Socio-Technical Reality
 
