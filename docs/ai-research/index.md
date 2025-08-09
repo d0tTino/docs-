@@ -2,7 +2,7 @@
 title: "AI Research"
 tags: [research, docs]
 project: ai-research
-updated: 2025-07-29
+updated: 2025-08-09
 ---
 
 # AI Research Overview
