@@ -15,6 +15,7 @@ docs_dir: docs
 plugins:
   - search
   - monorepo
+  - sitemap
 markdown_extensions:
   - toc:
       permalink: true
