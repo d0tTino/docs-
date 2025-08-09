@@ -97,15 +97,21 @@ is the mundane reality of algorithmic curation that creates personalized
 ecosystems that enforce market dependence. The objective is to provide a
 clear-eyed assessment of the tools, tactics, and mindsets required to navigate
 and resist this concrete dystopia. We discard the fantasy of the future to
-better analyze the strategic realities of the present. 2.0 The Ghost in the
-Machine: Historical Precedents of Techno-Corporate Power The current
+better analyze the strategic realities of the present.
+
+#### 2.0 The Ghost in the Machine: Historical Precedents of Techno-Corporate Power
+
+The current
 configuration of techno-corporate power is not an aberration of history but the
 latest iteration of a recurring model. To understand the present, we must first
 exhume its precedents. The fusion of state and commercial power, the leveraging
 of technological superiority for control, and the ethos of resistance that rises
 to meet it are not new phenomena. They have deep roots in the history of
-colonialism, corporate sovereignty, and counter-cultural rebellion. 2.1 The
-Company as State: The East India Company Blueprint The quintessential historical
+colonialism, corporate sovereignty, and counter-cultural rebellion.
+
+#### 2.1 The Company as State: The East India Company Blueprint
+
+The quintessential historical
 archetype for the modern techno-corporate sovereign is the English East India
 Company (EIC). Active from 1600 to 1874, the EIC was far more than a trading
 enterprise; it was a "company-state," a hybrid entity that seamlessly merged
@@ -113,8 +119,11 @@ commercial ambition with the prerogatives of governance. It pioneered the model
 of a private corporation wielding military, political, and economic power on a
 scale that rivaled, and at times surpassed, that of nation-states. Its history
 provides a foundational blueprint for understanding the mechanisms of power that
-define our own era. 2.1.1 Monopoly by Charter: Fusing Corporate and Sovereign
-Power The EIC's power originated not from the market, but from the state. It was
+define our own era.
+
+##### 2.1.1 Monopoly by Charter: Fusing Corporate and Sovereign Power
+
+The EIC's power originated not from the market, but from the state. It was
 incorporated by a royal charter from Queen Elizabeth I on December 31, 1600.
 This charter was the critical instrument that fused corporate and sovereign
 interests. It granted the company an exclusive monopoly on all English trade
@@ -136,8 +145,10 @@ limited accountability. The mechanism has evolved from a monarch's decree to a
 subtle interplay of lobbying, market dominance, and legislative inertia, but the
 outcome is functionally identical: a private entity is endowed with
 quasi-sovereign power to pursue its economic objectives under the protection of
-the state. 2.1.2 The Infrastructure of Control: Private Armies, Taxation, and
-Technology With its charter secured, the EIC built an infrastructure of control
+
+##### 2.1.2 The Infrastructure of Control: Private Armies, Taxation, and Technology
+
+With its charter secured, the EIC built an infrastructure of control
 that was both physical and administrative. It established fortified trading
 posts and factories in key locations like Surat, Madras, and Calcutta, which
 became the hubs of its commercial and political power. To protect these assets
@@ -166,8 +177,11 @@ ecosystems. The diwani tax on land and goods is mirrored by the 30% commission
 levied by app stores on all transactions—a private tax on a captive market. The
 technology has evolved from cannons to code, but the underlying strategy remains
 unchanged: leverage absolute control over critical infrastructure to extract
-rent, enforce compliance, and neutralize competition. 2.1.3 The Legacy of
-Exploitation: From Textiles to Opium The EIC's primary objective was the
+rent, enforce compliance, and neutralize competition.
+
+##### 2.1.3 The Legacy of Exploitation: From Textiles to Opium
+
+The EIC's primary objective was the
 maximization of profit for its shareholders, an aim it pursued with ruthless
 efficiency. Its economic policies were designed to systematically drain wealth
 from the territories under its control. In India, this involved imposing heavy
@@ -189,13 +203,19 @@ unchecked, profit-driven power. Ultimately, the EIC's overreach and corruption
 became so extreme that the British government was forced to intervene, passing
 the Regulating Act of 1773 to assert control. After the Indian Rebellion of
 1857, the company was formally dissolved, and the British Crown assumed direct
-rule over India, beginning the British Raj. 2.2 The Noise and the Signal: The
-Punk Ethos If the EIC provides the blueprint for techno-corporate power, the
+rule over India, beginning the British Raj.
+
+#### 2.2 The Noise and the Signal: The Punk Ethos
+
+If the EIC provides the blueprint for techno-corporate power, the
 punk movement of the 1970s and 80s provides the foundational ethos for resisting
 it. Stripped of its specific musical and fashion aesthetics, punk offers two
 crucial contributions to the cyberpunk manifesto: a principled
 anti-authoritarianism and a practical imperative to build alternative systems.
-2.2.1 Anti-Authoritarianism as a Core Principle At its heart, punk is an
+
+##### 2.2.1 Anti-Authoritarianism as a Core Principle
+
+At its heart, punk is an
 ideology of opposition. It is fundamentally characterized by anti-establishment,
 anti-authoritarian, anti-corporate, and anti-consumerist views. It represents
 a conscious rejection of mainstream mass culture and the values of a
@@ -205,8 +225,11 @@ and principled opposition to oppressive hierarchical structures, whether they
 emanate from the state (police, government) or from the market (corporations,
 the music industry). The punk ethos is skeptical of any concentration of power
 and champions individual freedom and non-conformity against the pressures of a
-system designed to produce compliant citizens and consumers. 2.2.2 The DIY
-Imperative: Building Counter-Systems The most vital practical contribution of
+system designed to produce compliant citizens and consumers.
+
+##### 2.2.2 The DIY Imperative: Building Counter-Systems
+
+The most vital practical contribution of
 punk to this manifesto is its unwavering commitment to a Do-It-Yourself (DIY)
 ethic. This principle was born from a combination of economic necessity—most
 early punks came from lower economic classes—and ideological opposition to the
@@ -232,12 +255,18 @@ end-to-end encrypted tools like Signal and Mattermost. The technology has
 evolved from the photocopier to the encrypted server, but the core DIY principle
 is identical: when the masters' systems are designed to exclude, exploit, or
 control you, you build your own. This is the essence of practical resistance.
-2.3 The Genre as Prophecy: Cyberpunk's Core Critique The literary genre of
+
+#### 2.3 The Genre as Prophecy: Cyberpunk's Core Critique
+
+The literary genre of
 cyberpunk, emerging in the 1980s, synthesized the historical reality of
 corporate power with the rebellious ethos of punk, projecting them into a
 near-future saturated with technology. It served as a prophetic warning, and its
 core critiques now function as an accurate diagnosis of our present condition.
-2.3.1 "High Tech, Low Life": The Dystopian Present Cyberpunk as a genre is
+
+##### 2.3.1 "High Tech, Low Life": The Dystopian Present
+
+Cyberpunk as a genre is
 defined by the stark juxtaposition of "high tech and low life". It depicts
 worlds of incredible technological advancement—cyberspace, artificial
 intelligence, genetic engineering—coexisting with widespread societal decay,
@@ -251,7 +280,9 @@ powerful and influential than governments—a world of alienation, corporate
 dominance, and the erosion of personal freedom. This is no longer a futuristic
 vision; it is a description of the 21st-century geopolitical landscape.
 
-2.3.2 The Outsider as Protagonist: From Hacker to Activist The protagonist of a
+##### 2.3.2 The Outsider as Protagonist: From Hacker to Activist
+
+The protagonist of a
 cyberpunk narrative is almost invariably an outsider, a figure on the margins of
 society who must navigate and resist the overwhelming power of the
 corporate-state apparatus. This archetype was cemented by William Gibson's 1984
@@ -1263,7 +1294,10 @@ section provides a strategic briefing on the 12 most pivotal legal cases, laws,
 and legislative proposals that are actively shaping the landscape of digital
 control and resistance. Understanding this legal battlefield is critical, as the
 code of law is as important as the code of software in defining the operational
-environment. 2.1 The Code of Control: A Summary of Key Legislation and Precedent
+environment.
+
+#### 2.1 The Code of Control: A Summary of Key Legislation and Precedent
+
 Reforming Intelligence and Securing America Act (RISAA): Passed in April 2024,
 this act reauthorizes FISA Section 702 until April 2026. While its title
 suggests reform, its primary function is to expand state surveillance power. It
@@ -2074,7 +2108,10 @@ trust in Apple's closed-source implementation and centralized infrastructure—a
 trust that is fundamentally at odds with their status as a platform sovereign.
 These features provide marginal improvements but do not grant the user true
 autonomy, reinforcing the strategic necessity of migrating to a FOSS mobile OS.
-2.1 The Compromised Default: Hardening Stock iOS and Android For users not yet
+
+#### 2.1 The Compromised Default: Hardening Stock iOS and Android
+
+For users not yet
 ready or able to migrate, the following steps provide immediate harm reduction
 on stock mobile operating systems.
 
@@ -2124,7 +2161,9 @@ provider. Go to Settings > Network & internet > Private DNS, select "Private DNS
 provider hostname," and enter the address of a trusted provider (e.g.,
 dns.quad9.net).
 
-2.2 The FOSS Alternative: GrapheneOS GrapheneOS is the premier choice for a
+#### 2.2 The FOSS Alternative: GrapheneOS
+
+GrapheneOS is the premier choice for a
 private and secure mobile operating system. It is a hardened fork of the Android
 Open Source Project (AOSP) that focuses on robust security enhancements and the
 complete removal of Google integration.
@@ -2174,7 +2213,9 @@ download, verify, and flash the latest GrapheneOS factory image. Lock the
 Bootloader: The final and most critical step is to re-lock the bootloader using
 the web installer. This enables Verified Boot and ensures the device is secure.
 
-2.3 Mobile Hardening Checklist & Risk Surface Note 10-Step Mobile Hardening
+#### 2.3 Mobile Hardening Checklist & Risk Surface Note
+
+10-Step Mobile Hardening
 Checklist [ ] If using a stock OS, disable App Tracking and delete the
 Advertising ID. [ ] Review all app permissions, revoking access to the camera,
 mic, location, and contacts where not essential. [ ] On iOS 18, lock or hide all
