@@ -77,8 +77,7 @@ sling but with the very code and data that constitute the giant's power.
 
 #### 1.2 Stripping the Chrome: From Science Fiction to Socio-Technical Reality
 
-To
-ground this manifesto in the present, we must first strip the chrome from the
+To ground this manifesto in the present, we must first strip the chrome from the
 concept of "cyberpunk." The genre's aesthetic—the rain-slicked streets, the
 Japanese kanji, the cybernetic implants—while culturally significant, is a
 distraction from its core philosophical and political critique. The essential
@@ -3935,9 +3934,8 @@ fostering self-sufficiency in critical component production. These
 decentralized solutions collectively empower individuals to thrive amidst
 systemic vulnerabilities and external control.
 
-II. The Imperative for Decentralized Infrastructure: Beyond the Leviathan's
+II. The Imperative for Decentralized Infrastructure: Beyond the Leviathan's Reach
 
-Reach
 The core tenet of the Real-World Cyberpunk Survival Manifesto is the radical
 acceptance that no external force will intervene to secure an individual's
 freedom or privacy. This philosophical commitment to radical
@@ -4608,8 +4606,7 @@ Standard resins, tough resins, flexible resins, castable resins
 Good for detailed prototypes, some consumer-grade end-use parts, jewelry
 $300 - $5,000 41
 SLS (Selective Laser Sintering)
-Strong functional parts, no support structures needed, excellent for complex
-geometries
+Strong functional parts, no support structures needed, excellent for complex geometries
 High cost, complex operation, requires specialized post-processing
 Nylon (PA12), TPU, carbon fiber composites
 Best for industrial/advanced parts, higher barrier to entry for
@@ -4720,38 +4717,27 @@ VII. Works Cited
 1 url: uploaded:Cyberpunk Survival Manifesto Research Plan
 1 url: uploaded:Cyberpunk Survival Manifesto Research Plan
 9 url:
-https://library.oapen.org/bitstream/handle/20.500.12657/42731/1/9789048551460.pd
-f
+https://library.oapen.org/bitstream/handle/20.500.12657/42731/1/9789048551460.pdf
 5 url:
-https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Secur
-ity-Report-RL-compressed.pdf
+https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Security-Report-RL-compressed.pdf
 4 url:
-https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-re
-port
+https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report
 4 url:
-https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-re
-port
+https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report
 5 url:
-https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Secur
-ity-Report-RL-compressed.pdf
+https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Security-Report-RL-compressed.pdf
 3 url:
-https://www.kaspersky.com/about/press-releases/kaspersky-state-of-ransomware-rep
-ort-2025-global-and-regional-insights-for-international-anti-ransomware-day
+https://www.kaspersky.com/about/press-releases/kaspersky-state-of-ransomware-report-2025-global-and-regional-insights-for-international-anti-ransomware-day
 4 url:
-https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-re
-port
+https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report
 37 url:
-https://oversight.house.gov/wp-content/uploads/2025/06/Cruz-Cain-Written-Testimo
-ny.pdf
+https://oversight.house.gov/wp-content/uploads/2025/06/Cruz-Cain-Written-Testimony.pdf
 4 url:
-https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-re
-port
+https://www.paloaltonetworks.com/resources/research/unit-42-incident-response-report
 35 url:
-https://www.boozallen.com/insights/velocity/from-the-frontlines-of-post-quantum-
-cryptography.html
+https://www.boozallen.com/insights/velocity/from-the-frontlines-of-post-quantum-cryptography.html
 43 url:
-https://www.protolabs.com/resources/guides-and-trend-reports/3d-printing-trend-r
-eport/
+https://www.protolabs.com/resources/guides-and-trend-reports/3d-printing-trend-report/
 2 url:
 https://medium.com/@benrennie/the-rise-rise-of-a-manifesto-24c48a9d4b10
 2 url:
@@ -4773,16 +4759,13 @@ https://soracom.io/iot-definitions/what-is-a-mesh-network/
 15 url:
 https://www.netgear.com/hub/technology/what-is-mesh-wifi/
 18 url:
-https://www.hackster.io/Shilleh/build-a-private-lora-mesh-network-with-esp32-d08
-fdd
+https://www.hackster.io/Shilleh/build-a-private-lora-mesh-network-with-esp32-d08fdd
 21 url:
-https://shop.sb-components.co.uk/blogs/projects/private-lora-mesh-network-with-e
-sp32-meshtastic
+https://shop.sb-components.co.uk/blogs/projects/private-lora-mesh-network-with-esp32-meshtastic
 22 url:
 https://radiocrafts.com/docs/riim/riim_user_manual/riim/network_description.html
 13 url:
-https://www.digikey.co.za/en/product-highlight/r/radiocrafts/riim-ip-mesh-networ
-k
+https://www.digikey.co.za/en/product-highlight/r/radiocrafts/riim-ip-mesh-network
 16 url:
 https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2024-09-1/NET-2024-09-1_02.pdf
 17 url:
@@ -4816,39 +4799,31 @@ d-scale-additions-expected-in-2025/
 32 url:
 https://www.eia.gov/todayinenergy/detail.php?id=64586
 44 url:
-https://www.fortunebusinessinsights.com/industry-reports/3d-printing-market-1019
-02
+https://www.fortunebusinessinsights.com/industry-reports/3d-printing-market-101902
 39 url:
-https://www.stratasys.com/en/industries-and-applications/3d-printing-industries/
-consumer-products/
+https://www.stratasys.com/en/industries-and-applications/3d-printing-industries/consumer-products/
 40 url:
-https://ultimaker.com/learn/3d-printing-in-manufacturing-complete-guide-to-indus
-try-3d-printers-and-applications/
+https://ultimaker.com/learn/3d-printing-in-manufacturing-complete-guide-to-industry-3d-printers-and-applications/
 41 url:
 https://formlabs.com/blog/ultimate-guide-to-rapid-prototyping/
 42 url:
-https://economictimes.indiatimes.com/small-biz/sme-sector/from-rocket-engines-to
--toys-how-3d-printing-is-powering-indias-next-industrial-leap/articleshow/122850
-650.cms
+https://economictimes.indiatimes.com/small-biz/sme-sector/from-rocket-engines-to-toys-how-3d-printing-is-powering-indias-next-industrial-leap/articleshow/122850650.cms
 19 url:
 https://radiocrafts.com/products/riim-network/riim-parts-and-tools/
 14 url:
 https://www.digikey.no/en/product-highlight/r/radiocrafts/riim-ip-mesh-network
 47 url:
-https://www.hk-allchips.com/productdetail/radiocrafts-as-rc1882hp-riim-dk-123265
-47
+https://www.hk-allchips.com/productdetail/radiocrafts-as-rc1882hp-riim-dk-12326547
 48 url:
 https://www.easybom.com/p/rc1892hpriimdk-radiocrafts-as-28182520
 10 url:
 https://journals.uvic.ca/index.php/arbutus/article/view/21390/9788
 23 url:
-https://en.wikipedia.org/wiki/Tactics_and_methods_surrounding_the_2019%E2%80%932
-020_Hong_Kong_protests
+https://en.wikipedia.org/wiki/Tactics_and_methods_surrounding_the_2019%E2%80%932020_Hong_Kong_protests
 20 url:
 https://www.ti.com/lit/ug/tidu546a/tidu546a.pdf
 18 url:
-https://www.hackster.io/Shilleh/build-a-private-lora-mesh-network-with-esp32-d08
-fdd
+https://www.hackster.io/Shilleh/build-a-private-lora-mesh-network-with-esp32-d08fdd
 16 url:
 https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2024-09-1/NET-2024-09-1_02.pdf
 7 url:
@@ -4863,9 +4838,7 @@ https://www.csemag.com/back-to-basics-microgrids-and-renewable-energy/
 https://www.energy.gov/sites/default/files/2024-02/46060_DOE_GDO_Microgrid_Overv
 iew_Fact_Sheet_RELEASE_508.pdf
 38 url:
-https://www.sandc.com/globalassets/sac-electric/documents/public---documents/sal
-es-manual-library---external-view/educational-material-180-4505.pdf?dt=638143781
-179531630
+https://www.sandc.com/globalassets/sac-electric/documents/public---documents/sales-manual-library---external-view/educational-material-180-4505.pdf?dt=638143781179531630
 31 url:
 https://www.energy-storage.news/us-deployed-11-9gw-of-bess-in-2024-18-2gw-of-gri
 d-scale-additions-expected-in-2025/
