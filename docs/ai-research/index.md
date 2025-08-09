@@ -27,3 +27,4 @@ This section collects planning documents, design reports, and experimental analy
 - [Context Windows Field Guide](context-windows-field-guide.md) — guide to practical use of long context windows.
 - [Context Windows Deep Dive](context-windows-deep-dive.md) — technical exploration of scaling context lengths.
 - [Context Windows Appendix](context-windows-appendix.md) — supplementary tables and references for context window work.
+
