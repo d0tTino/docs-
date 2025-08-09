@@ -28,4 +28,6 @@ navigation sidebar.
 - [The Cognitive Architecture of Artificial Societies](cognitive-architecture-of-artificial-societies.md)
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an
   - [Context Windows Field Guide](context-windows-field-guide.md)
-- [Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
+- [Context Windows Deep Dive](context-windows-deep-dive.md)
+
+  - [Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
