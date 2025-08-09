@@ -27,7 +27,7 @@ Executing a payout via the Wise API is not a single, atomic action but a multi-s
 Before any business logic can be executed, the client application must securely authenticate itself to the Wise API. Wise employs the industry-standard OAuth 2.0 protocol, which provides secure, delegated access through temporary tokens rather than exposing long-lived credentials in every request.3
 The authentication flow begins with the client exchanging its Client ID and Client Secret for an access_token. These credentials are provided by Wise during the partner onboarding process. The access token is a short-lived bearer token that must be included in the Authorization header of all subsequent API requests.
 Authentication Flow:
-Request an Access Token: The client makes a POST request to the Wise OAuth token endpoint (https://api.sandbox.transferwise.tech/v1/oauth2/token for the sandbox environment).
+Request an Access Token: The client makes a POST request to the Wise OAuth token endpoint[^2].
 Provide Credentials: The request must include the Client ID and Client Secret, typically encoded in Base64 and sent in the Authorization header with the Basic scheme. The request body must specify grant_type=client_credentials.
 Receive Access Token: A successful response will return a JSON object containing the access_token and its expires_in duration in seconds.3
 A robust integration must manage the lifecycle of this token, proactively refreshing it before it expires to avoid 401 Unauthorized errors on subsequent API calls. A recommended best practice is to use a secure credential management system, as exemplified by the credential_loader.py script found in the aiga project, which decrypts secrets from an encrypted vault at runtime rather than hardcoding them in the application.4
@@ -661,3 +661,4 @@ Event Handling - Wise Platform Docs, accessed July 13, 2025, https://docs.wise.c
 github.com, accessed July 13, 2025, https://github.com/transferwise/digital-signatures-examples/blob/main/verify-webhook-signature/
 
 [^1]: For details on Wise pricing, see the official documentation: https://wise.com/pricing
+[^2]: https://api.sandbox.transferwise.tech/v1/oauth2/token for the sandbox environment
