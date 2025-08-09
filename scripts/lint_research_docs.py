@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Scan Markdown files for mid-word line splits.
+"""Scan Markdown files for mid-word line splits and trailing whitespace.
 
-This script checks Markdown files in a given directory for lines that end
-with a letter when the following line begins with a letter. Such patterns often
-indicate a word that was accidentally split across lines.
+This script checks Markdown files in a given directory for common formatting
+issues. It flags lines that end with a letter when the following line begins
+with a letter (a sign of a word accidentally split across lines) and lines that
+contain extraneous trailing spaces.
 
 Usage:
     python scripts/lint_research_docs.py [--path PATH]
@@ -22,8 +23,10 @@ def find_splits(path: Path) -> List[str]:
     """Return a list of lint error messages for ``path``."""
     errors: List[str] = []
     lines = path.read_text(encoding="utf-8").splitlines()
-    for idx, line in enumerate(lines[:-1]):
-        if line and line[-1].isalpha():
+    for idx, line in enumerate(lines):
+        if line.rstrip() != line:
+            errors.append(f"{path}:{idx + 1}: trailing whitespace")
+        if idx < len(lines) - 1 and line and line[-1].isalpha():
             next_line = lines[idx + 1]
             if next_line and next_line[0].isalpha():
                 errors.append(f"{path}:{idx + 1}: possible mid-word split")

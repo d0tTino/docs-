@@ -31,3 +31,14 @@ def test_linter_passes_clean_file(tmp_path):
     result = run_linter(target)
     assert result.returncode == 0
     assert result.stdout == ""
+
+
+def test_linter_detects_trailing_whitespace(tmp_path):
+    target = tmp_path / "docs" / "ai-research"
+    target.mkdir(parents=True)
+    (target / "sample.md").write_text("line with space \nnext\n")
+
+    result = run_linter(target)
+    assert result.returncode == 1
+    assert "sample.md:1" in result.stdout
+    assert "trailing whitespace" in result.stdout
