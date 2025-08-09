@@ -1,0 +1,22 @@
+name: Pre-commit
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+      - '.pre-commit-config.yml'
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '.pre-commit-config.yml'
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - uses: pre-commit/action@v3.0.0
+
