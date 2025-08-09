@@ -15,7 +15,6 @@ This repository aggregates documentation and research across multiple projects.
 pip install -r requirements.txt
 mkdocs serve
 ```
-
 Visit <http://127.0.0.1:8000> to preview the site locally.
 
 ## Directory Structure
@@ -27,6 +26,7 @@ Visit <http://127.0.0.1:8000> to preview the site locally.
 - `_project-docs/` – submodule mounts for individual projects
 - `scripts/` – helper scripts including ingest utilities
 - `playbooks/` – workflow and container playbooks
+- [`security/threat-model.md`](security/threat-model.md) – threat model for docs and scripts
 
 ## Research Docs
 
@@ -159,3 +159,8 @@ db = VectorDB(Path('vector_db.pkl'))
 print(db.query('search text'))
 EOF
 ```
+
+## Legal
+
+This documentation is provided for informational purposes and comes with no
+warranty. See the [LICENSE](../LICENSE) for terms and standard disclaimers.
