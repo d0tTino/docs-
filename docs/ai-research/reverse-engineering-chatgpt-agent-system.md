@@ -7,6 +7,8 @@ updated: 2025-07-29
 
 # Reverse-Engineering Design Report: OpenAI ChatGPT Agent System
 
+[TOC]
+
 
 ## 1.0 Executive Summary
 
