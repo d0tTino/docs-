@@ -6,8 +6,7 @@ updated: 2025-07-30
 ---
 
 !!! note "Disclaimer"
-    This document is provided for research purposes only and does not constitute legal or financial advice.
-
+This document is provided for research purposes only and does not constitute legal or financial advice.
 
 # Cyberpunk Cookbook
 
@@ -63,7 +62,7 @@ corporate-dominated world—is an archetype born from the anxieties of the
 late 20th century. This manifesto argues that this archetype is now an
 operational necessity.
 
-The console cowboy of William Gibson's *Neuromancer*, jacking into the
+The console cowboy of William Gibson's _Neuromancer_, jacking into the
 "consensual hallucination" of the matrix, has been superseded by:
 
 - the citizen investigator geolocating war crimes from a laptop,
@@ -1010,8 +1009,7 @@ dollar licensing contracts between Clearview AI and federal agencies, including
 the Federal Bureau of Investigation (FBI) and components of the Department of
 Homeland Security (DHS) such as Immigration and Customs Enforcement (ICE). A
 contract with ICE's Homeland Security Investigations division, for example, was
-valued at over $1.1 million for a single year from September 2024 to September
-2025. This arrangement represents a functional privatization of the state's
+valued at over $1.1 million for a single year from September 2024 to September 2025. This arrangement represents a functional privatization of the state's
 surveillance apparatus, creating a largely unregulated biometric dragnet that
 can identify and track individuals at an industrial scale. 1.2 The Platform Raj:
 Corporate Data Monopolies This vector maps the dominance of a few key technology
@@ -2132,7 +2130,7 @@ Open Source Project (AOSP) that focuses on robust security enhancements and the
 complete removal of Google integration.
 
 Core Features and Security Advantages GrapheneOS provides a multi-layered
-defense that far surpasses the capabilities of stock Android 22: Hardened
+defense that far surpasses the capabilities of stock Android[^22]: Hardened
 Security Model: It includes a hardened memory allocator (hardened_malloc), a
 hardened kernel, and a more restrictive SELinux policy to mitigate entire
 classes of vulnerabilities. It also disables JIT compilation and blocks dynamic
@@ -2161,7 +2159,7 @@ requirements for device support to ensure its security model is not compromised.
 These requirements include an unlockable bootloader, proper implementation of
 Verified Boot with rollback protection, and support for modern hardware security
 features like hardware memory tagging (MTE) on ARMv9 devices. As of late 2025,
-GrapheneOS officially supports the following Google Pixel devices 23: Pixel 6, 6
+GrapheneOS officially supports the following Google Pixel devices[^23]: Pixel 6, 6
 Pro, 6a Pixel 7, 7 Pro, 7a Pixel Fold, Pixel Tablet Pixel 8, 8 Pro, 8a Pixel 9,
 9 Pro, 9 Pro XL, 9 Pro Fold The recommended installation method for most users
 is the official WebUSB-based installer, which guides the user through the
@@ -2239,7 +2237,7 @@ Mail. Linux: GnuPG is typically pre-installed. If not, install it via your
 package manager (e.g., sudo apt install gnupg). Key Generation: Open a command
 line or terminal (or use the wizard in Kleopatra/GPG Suite). Run the command:
 gpg --full-generate-key. When prompted, make the following selections for a
-modern, secure key 30: Key Type: (1) RSA and RSA (default) Key Size: 4096 bits
+modern, secure key[^30]: Key Type: (1) RSA and RSA (default) Key Size: 4096 bits
 Expiration: 2y (A key that expires is a good security practice; you can extend
 the expiration date later). Enter your real name and email address. This
 information will be publicly associated with your key. Create a strong, unique
@@ -2295,7 +2293,7 @@ real-time interception of chats and calls.
 the most secure and user-friendly messaging application available. Its
 security is built upon the open-source Signal Protocol. Protocol Overview: The
 Signal Protocol provides robust end-to-end encryption for all communications.
-Its key security properties include 35: Confidentiality & Integrity: Ensures
+Its key security properties include[^35]: Confidentiality & Integrity: Ensures
 messages cannot be read or modified by anyone other than the intended
 recipients. Forward Secrecy: Uses ephemeral session keys. If an adversary
 compromises a single key, they cannot use it to decrypt past messages.
@@ -2429,7 +2427,7 @@ future-proof security. If the PQC algorithm is ever broken, the connection
 remains secured by the classical algorithm. If the classical algorithm is broken
 by a quantum computer, the connection remains secured by the PQC algorithm. As
 of mid-2025, several VPN providers have rolled out PQC support, often as an
-optional feature within their applications 45: NordVPN: Has integrated PQC into
+optional feature within their applications[^45]: NordVPN: Has integrated PQC into
 its NordLynx protocol (a WireGuard implementation) across all its applications
 (Windows, macOS, Linux, iOS, Android). AdGuard VPN: Has implemented a hybrid
 approach combining X25519 with Kyber768-based ML-KEM768. Other providers
@@ -2946,7 +2944,7 @@ Note: If you receive an error regarding iomem, you may need to reboot and add
 `iomem=relaxed` to your kernel boot parameters. Interpreting the Output: The
 output provides insight into the ME's operational state. For a system where the
 ME has been neutralized (e.g., using the me_cleaner utility), you should look
-for the following indicators 89:
+for the following indicators[^89]:
 
 - Firmware Init Complete: Should report `NO`. A `YES` indicates a fully
   operational ME.
@@ -2962,7 +2960,7 @@ device could potentially flash a malicious boot image or operating system. After
 installing a custom OS, it is critical to re-lock the bootloader to enable
 Verified Boot and ensure system integrity. Verifying the lock status is
 therefore a crucial security check. Verification Methods: There are three
-primary ways to check the bootloader's status 90: Visual Inspection at Boot:
+primary ways to check the bootloader's status[^90]: Visual Inspection at Boot:
 Reboot the device. Most manufacturers display a warning message on the screen
 during the boot process if the bootloader is unlocked. This may be text (e.g.,
 "The bootloader is unlocked...") or an icon of an open padlock. The absence of
@@ -3005,7 +3003,7 @@ skill and disassembly, the presence of these dedicated, single-purpose physical
 switches is a strong and trustworthy indicator of a secure design. General
 Devices without Explicit Switches: For the vast majority of laptops and devices
 that lack documented hardware disconnects, one must assume that software toggles
-are insufficient. The only reliable mitigation is physical intervention 95:
+are insufficient. The only reliable mitigation is physical intervention[^95]:
 Camera: Use an opaque, physical camera cover. Microphone: The most robust
 solution is to use an external USB microphone and to physically unplug it from
 the device when not in use. This provides an absolute, user-verifiable hardware
@@ -5127,28 +5125,28 @@ potentially unauthorized, interaction with a target system. Scored on a 1-5 scal
 The following table, which forms the basis of the osint_toolchain_catalog.xlsx deliverable,
 is the operator's strategic reference for assembling a mission-appropriate toolkit.
 
-| Tool Name          | Category                | Description                                                                                                                  | Latest Version (2024-2025)    | License                              | Cost Model                                       | Learning Curve (1-5) | Legal Risk (1-5) | Legal Risk Notes                                                                                                                                                                    |
-| ------------------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------ | ------------------------------------------------ | -------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tool Name          | Category                | Description                                                                                                                  | Latest Version (2024-2025)    | License                              | Cost Model                                       | Learning Curve (1-5) | Legal Risk (1-5) | Legal Risk Notes                                                                                                                                                                   |
+| ------------------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------------ | ------------------------------------------------ | -------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SpiderFoot         | Automated Framework     | Automates the collection of OSINT across hundreds of data sources. Can be run via web UI or CLI.                             | 4.0 10                        | MIT 11                               | Free (Open Source), Commercial (HX)              | 3                    | 2                | Primarily passive. Active modules (port scanning, web spidering) increase risk. Use in "Amber" jurisdictions (UK, US) could be construed as unauthorized probing.                  |
-| Maltego            | Automated Framework     | A graphical link analysis tool for visualizing relationships between entities from diverse data sources via "Transforms."    | Basic/Pro/Org Plans (2025) 13 | Proprietary Commercial 14            | Freemium (Basic), Commercial (Pro: €5000/yr 6)   | 4                    | 1                | Relies on passive API calls ("Transforms") to third-party data sources. Very low risk of direct unauthorized access.                                                                |
-| Lampyre            | Automated Framework     | AI-driven data analysis platform with over 100 pre-configured requests for OSINT gathering and visualization.                | 2025 Release 15               | Proprietary Commercial               | Commercial (Monthly plans from ~$59) 16          | 3                    | 1                | Functions as a hub for passive API requests to external services, minimizing direct target interaction.                                                                             |
-| Recon-ng           | Recon Framework         | A modular web reconnaissance framework with a Metasploit-like interface, focused on passive data gathering.                  | 5.1.2 17                      | GPL-3.0-only 18                      | Free                                             | 4                    | 1                | The core framework is entirely passive. Legal risk is dependent on the specific modules used, but the default set is low-risk.                                                      |
+| Maltego            | Automated Framework     | A graphical link analysis tool for visualizing relationships between entities from diverse data sources via "Transforms."    | Basic/Pro/Org Plans (2025) 13 | Proprietary Commercial 14            | Freemium (Basic), Commercial (Pro: €5000/yr 6)   | 4                    | 1                | Relies on passive API calls ("Transforms") to third-party data sources. Very low risk of direct unauthorized access.                                                               |
+| Lampyre            | Automated Framework     | AI-driven data analysis platform with over 100 pre-configured requests for OSINT gathering and visualization.                | 2025 Release 15               | Proprietary Commercial               | Commercial (Monthly plans from ~$59) 16          | 3                    | 1                | Functions as a hub for passive API requests to external services, minimizing direct target interaction.                                                                            |
+| Recon-ng           | Recon Framework         | A modular web reconnaissance framework with a Metasploit-like interface, focused on passive data gathering.                  | 5.1.2 17                      | GPL-3.0-only 18                      | Free                                             | 4                    | 1                | The core framework is entirely passive. Legal risk is dependent on the specific modules used, but the default set is low-risk.                                                     |
 | theHarvester       | Data Enumeration        | Gathers emails, subdomains, hosts, employee names, open ports, and banners from public sources like search engines.          | 4.8.0 19                      | MIT / Apache 2.0 (Varies by fork) 20 | Free                                             | 2                    | 1                | Scrapes public search engine results. Post-Van Buren, this carries minimal CFAA risk as it does not bypass technical access controls.                                              |
-| Metagoofil         | Metadata Analysis       | Extracts metadata from public documents (pdf, doc, xls, etc.) found on a target domain.                                      | 1.2.0 (Kali Package) 23       | GPL-2.0 24                           | Free                                             | 2                    | 1                | Downloads publicly available files. Low risk, as it does not involve unauthorized access to non-public systems.                                                                     |
-| Shodan             | Infrastructure Analysis | A search engine for internet-connected devices. Identifies open ports, services, and vulnerabilities from its own scan data. | N/A (Web Service)             | Proprietary Commercial               | Freemium (API from $49 one-time) 25              | 3                    | 1                | Searching a public database of pre-existing scan data is a passive activity. It is not performing a new scan on the target.                                                         |
-| Censys             | Infrastructure Analysis | An internet-wide scanning platform that provides data on hosts, websites, and certificates.                                  | N/A (Web Service)             | Proprietary Commercial               | Freemium (Community Free, Paid API) 26           | 3                    | 1                | Like Shodan, searching the Censys database is a passive, low-risk activity.                                                                                                         |
-| Bellingcat Toolkit | Resource Collection     | A curated collection of hundreds of OSINT tools and resources for investigative journalism and human rights research.        | 2024-2025 27                  | N/A (Collection)                     | Free                                             | 2                    | 1                | A meta-resource. The legal risk is associated with the individual tools it links to, not the toolkit itself.                                                                        |
+| Metagoofil         | Metadata Analysis       | Extracts metadata from public documents (pdf, doc, xls, etc.) found on a target domain.                                      | 1.2.0 (Kali Package) 23       | GPL-2.0 24                           | Free                                             | 2                    | 1                | Downloads publicly available files. Low risk, as it does not involve unauthorized access to non-public systems.                                                                    |
+| Shodan             | Infrastructure Analysis | A search engine for internet-connected devices. Identifies open ports, services, and vulnerabilities from its own scan data. | N/A (Web Service)             | Proprietary Commercial               | Freemium (API from $49 one-time) 25              | 3                    | 1                | Searching a public database of pre-existing scan data is a passive activity. It is not performing a new scan on the target.                                                        |
+| Censys             | Infrastructure Analysis | An internet-wide scanning platform that provides data on hosts, websites, and certificates.                                  | N/A (Web Service)             | Proprietary Commercial               | Freemium (Community Free, Paid API) 26           | 3                    | 1                | Like Shodan, searching the Censys database is a passive, low-risk activity.                                                                                                        |
+| Bellingcat Toolkit | Resource Collection     | A curated collection of hundreds of OSINT tools and resources for investigative journalism and human rights research.        | 2024-2025 27                  | N/A (Collection)                     | Free                                             | 2                    | 1                | A meta-resource. The legal risk is associated with the individual tools it links to, not the toolkit itself.                                                                       |
 | OSINT Framework    | Resource Collection     | A web-based framework that categorizes and links to a vast number of OSINT tools and resources.                              | N/A (Web Service)             | N/A (Collection)                     | Free                                             | 1                    | 1                | A directory of other tools. Risk is determined by the tools used from the framework.                                                                                               |
-| Sherlock           | Username Enumeration    | Hunts for social media accounts across a large number of sites based on a given username.                                    | 0.4.1 (PyPI) 29               | MIT 29                               | Free                                             | 1                    | 1                | Performs public, unauthenticated checks against websites. Low risk of violating ToS or CFAA.                                                                                        |
-| Nexfil             | Username Enumeration    | Finds profiles by username across over 360 websites, designed for speed and low false-positives.                             | N/A (GitHub project)          | Unspecified                          | Free                                             | 1                    | 1                | Performs public, unauthenticated checks against websites. Low risk.                                                                                                                 |
+| Sherlock           | Username Enumeration    | Hunts for social media accounts across a large number of sites based on a given username.                                    | 0.4.1 (PyPI) 29               | MIT 29                               | Free                                             | 1                    | 1                | Performs public, unauthenticated checks against websites. Low risk of violating ToS or CFAA.                                                                                       |
+| Nexfil             | Username Enumeration    | Finds profiles by username across over 360 websites, designed for speed and low false-positives.                             | N/A (GitHub project)          | Unspecified                          | Free                                             | 1                    | 1                | Performs public, unauthenticated checks against websites. Low risk.                                                                                                                |
 | GHunt              | Google Account Analysis | Gathers detailed information about a Google account from a target's Gmail address or Gaia ID.                                | 2024-2025 31                  | AGPL-3.0 32                          | Free                                             | 3                    | 2                | Interacts directly with Google's APIs. Aggressive or automated use could violate Google's ToS. Post-Van Buren, CFAA prosecution risk for ToS violation alone is low, but not zero. |
-| Have I Been Pwned? | Breach Data Analysis    | A searchable database of data breaches containing information on pwned accounts and passwords.                               | N/A (Web Service)             | Proprietary                          | Freemium (Free web, paid API from $4.50/mo) 33   | 1                    | 1                | Querying a public database is a passive, low-risk activity.                                                                                                                         |
-| Intelligence X     | Dark Web & Leak Search  | A search engine and data archive that indexes the dark web, document platforms, and public data leaks.                       | N/A (Web Service)             | Proprietary Commercial               | Freemium (Limited), Commercial (API €7000/yr) 8  | 3                    | 1                | Passively searching an archive of already-collected data is low risk.                                                                                                               |
-| BuiltWith          | Technology Profiling    | Identifies the technology stack of a website, including CMS, frameworks, analytics, and advertising networks.                | 3.6 (Chrome Ext) 36           | Proprietary Commercial               | Freemium (Limited), Commercial (from $295/mo) 36 | 1                    | 1                | Passively analyzes web page source code and headers. Low risk.                                                                                                                      |
-| Wappalyzer         | Technology Profiling    | A technology profiler that uncovers technologies used on websites, similar to BuiltWith.                                     | 6.10. 39                    | Proprietary Commercial               | Freemium (Limited), Commercial (from $250/mo) 39 | 1                    | 1                | Passively analyzes web page source code and headers. Low risk.                                                                                                                      |
-| ExifTool           | Metadata Analysis       | A command-line tool for reading, writing, and editing meta information in a wide variety of file types.                      | 13. 43                      | Artistic License 2.0 (Perl) 43       | Free                                             | 3                    | 1                | A local tool for analyzing files already in your possession. Risk is associated with how the files were obtained, not the tool's use.                                               |
-| Social Analyzer    | Social Media Analysis   | An API & CLI tool for finding a person's potential profiles across over 900 social media sites.                              | 0. 44                       | AGPL-3.0-or-later 44                 | Free                                             | 2                    | 1                | Performs public, unauthenticated checks against websites. Low risk.                                                                                                                 |
-| Social-Searcher    | Social Media Monitoring | A real-time search engine for monitoring mentions, users, and trends across social networks and the web.                     | N/A (Web Service)             | Proprietary Commercial               | Freemium, Commercial (from €16.49/mo) 45         | 2                    | 1                | Queries public APIs and web data. Low risk.                                                                                                                                         |
+| Have I Been Pwned? | Breach Data Analysis    | A searchable database of data breaches containing information on pwned accounts and passwords.                               | N/A (Web Service)             | Proprietary                          | Freemium (Free web, paid API from $4.50/mo) 33   | 1                    | 1                | Querying a public database is a passive, low-risk activity.                                                                                                                        |
+| Intelligence X     | Dark Web & Leak Search  | A search engine and data archive that indexes the dark web, document platforms, and public data leaks.                       | N/A (Web Service)             | Proprietary Commercial               | Freemium (Limited), Commercial (API €7000/yr) 8  | 3                    | 1                | Passively searching an archive of already-collected data is low risk.                                                                                                              |
+| BuiltWith          | Technology Profiling    | Identifies the technology stack of a website, including CMS, frameworks, analytics, and advertising networks.                | 3.6 (Chrome Ext) 36           | Proprietary Commercial               | Freemium (Limited), Commercial (from $295/mo) 36 | 1                    | 1                | Passively analyzes web page source code and headers. Low risk.                                                                                                                     |
+| Wappalyzer         | Technology Profiling    | A technology profiler that uncovers technologies used on websites, similar to BuiltWith.                                     | 6.10. 39                      | Proprietary Commercial               | Freemium (Limited), Commercial (from $250/mo) 39 | 1                    | 1                | Passively analyzes web page source code and headers. Low risk.                                                                                                                     |
+| ExifTool           | Metadata Analysis       | A command-line tool for reading, writing, and editing meta information in a wide variety of file types.                      | 13. 43                        | Artistic License 2.0 (Perl) 43       | Free                                             | 3                    | 1                | A local tool for analyzing files already in your possession. Risk is associated with how the files were obtained, not the tool's use.                                              |
+| Social Analyzer    | Social Media Analysis   | An API & CLI tool for finding a person's potential profiles across over 900 social media sites.                              | 0. 44                         | AGPL-3.0-or-later 44                 | Free                                             | 2                    | 1                | Performs public, unauthenticated checks against websites. Low risk.                                                                                                                |
+| Social-Searcher    | Social Media Monitoring | A real-time search engine for monitoring mentions, users, and trends across social networks and the web.                     | N/A (Web Service)             | Proprietary Commercial               | Freemium, Commercial (from €16.49/mo) 45         | 2                    | 1                | Queries public APIs and web data. Low risk.                                                                                                                                        |
 
 ### Part II: Know Thy Footprint — A Self-Reconnaissance Protocol
 
@@ -5704,12 +5702,12 @@ These are the specific, observable actions taken by threat actors to deliver exp
 The table below provides a comparative analysis of the signature TTPs employed by different categories of influence actors. Understanding these distinct operational playbooks is critical for attributing attacks and anticipating future moves.
 Table 1: Comparative TTPs of Influence Actors
 
-| Threat Actor                         | Primary Objective                              | Signature TTPs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Illustrative Examples                                                                                                                                                                                                                                                              |
-| ------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **State Actors**                     | Geopolitical Influence, Domestic Control       | LLM-Based Astroturfing: Using Large Language Models to generate seemingly authentic, human-like content at scale to create the illusion of grassroots support or consensus.<br><br>Deepfake Propaganda: Creating highly realistic but entirely fabricated audio, image, or video content to defame opponents, create false evidence, or sow confusion.<br><br>Exploiting Data Voids: Identifying search terms with little to no high-quality information and flooding the results with propaganda before legitimate sources can respond.                                                                   | An AI-generated audio clip of a political candidate supposedly admitting to election fraud surfaces days before an election. A state-backed operation uses deepfake videos to promote a false "secret history" of a rival nation's leader.                                     |
-| **Corporate Actors**                 | Commercial Gain, Shaping Consumer Behavior     | Psychological Micro-Targeting: Analyzing vast datasets of personal information (browsing habits, purchase history, social interactions) to identify and exploit individual psychological vulnerabilities with tailored advertising.<br><br>Consent Fatigue Engineering: Designing user interfaces with complex, confusing, or persistent prompts to wear down a user's resistance to sharing data.<br><br>Reputation Laundering: Employing PR firms and SEO tactics to suppress negative information and amplify positive narratives.                                                                      | A political campaign uses data from brokers to target voters with high neuroticism scores with fear-based messaging. A company uses tracking pixels and social plugins to build a detailed profile of a user's interests to sell them products they were just researching.     |
+| Threat Actor                         | Primary Objective                              | Signature TTPs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Illustrative Examples                                                                                                                                                                                                                                                            |
+| ------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **State Actors**                     | Geopolitical Influence, Domestic Control       | LLM-Based Astroturfing: Using Large Language Models to generate seemingly authentic, human-like content at scale to create the illusion of grassroots support or consensus.<br><br>Deepfake Propaganda: Creating highly realistic but entirely fabricated audio, image, or video content to defame opponents, create false evidence, or sow confusion.<br><br>Exploiting Data Voids: Identifying search terms with little to no high-quality information and flooding the results with propaganda before legitimate sources can respond.                                                                   | An AI-generated audio clip of a political candidate supposedly admitting to election fraud surfaces days before an election. A state-backed operation uses deepfake videos to promote a false "secret history" of a rival nation's leader.                                       |
+| **Corporate Actors**                 | Commercial Gain, Shaping Consumer Behavior     | Psychological Micro-Targeting: Analyzing vast datasets of personal information (browsing habits, purchase history, social interactions) to identify and exploit individual psychological vulnerabilities with tailored advertising.<br><br>Consent Fatigue Engineering: Designing user interfaces with complex, confusing, or persistent prompts to wear down a user's resistance to sharing data.<br><br>Reputation Laundering: Employing PR firms and SEO tactics to suppress negative information and amplify positive narratives.                                                                      | A political campaign uses data from brokers to target voters with high neuroticism scores with fear-based messaging. A company uses tracking pixels and social plugins to build a detailed profile of a user's interests to sell them products they were just researching.       |
 | **Decentralized/Ideological Groups** | Social Disruption, Recruitment, Radicalization | Memetic Warfare: The rapid creation and dissemination of culturally resonant, often humorous or shocking, image macros and slogans to dominate a narrative space (e.g., "The Great Meme War").<br><br>Swarming & Harassment: Coordinated, high-volume targeting of individuals with abusive messages to silence them or drive them off a platform.<br><br>Hashtag Hijacking: Taking over a trending hashtag to inject an unrelated or oppositional message into a larger conversation.                                                                                                                     | Supporters of a political candidate in 2016 use forums like 4chan and Reddit to create and spread memes that dominate social media platforms. A group organizes to mass-report the accounts of journalists critical of their ideology to trigger automated platform suspensions. |
-| **AI-Enabled Systems**               | Varies by Deployer (Scale & Autonomy)          | Autonomous Fake News Networks: AI-generated websites that produce low-quality, often nonsensical articles at a massive scale to generate ad revenue and pollute the information ecosystem.<br><br>AI-Powered Bot Armies: Networks of automated accounts that are cheaper to run and more difficult to detect than previous generations of bots, used to amplify content and create a false sense of consensus.<br><br>Generative Content Flooding: Using AI to create a "firehose of falsehoods," overwhelming fact-checkers and making it difficult for users to distinguish real from synthetic content. | The number of AI-enabled fake news sites, operating with little to no human supervision, increases tenfold in a single year. An AI-powered bot army is used to embed deceptive stories within seemingly innocuous, AI-written news websites to lend them credibility.          |
+| **AI-Enabled Systems**               | Varies by Deployer (Scale & Autonomy)          | Autonomous Fake News Networks: AI-generated websites that produce low-quality, often nonsensical articles at a massive scale to generate ad revenue and pollute the information ecosystem.<br><br>AI-Powered Bot Armies: Networks of automated accounts that are cheaper to run and more difficult to detect than previous generations of bots, used to amplify content and create a false sense of consensus.<br><br>Generative Content Flooding: Using AI to create a "firehose of falsehoods," overwhelming fact-checkers and making it difficult for users to distinguish real from synthetic content. | The number of AI-enabled fake news sites, operating with little to no human supervision, increases tenfold in a single year. An AI-powered bot army is used to embed deceptive stories within seemingly innocuous, AI-written news websites to lend them credibility.            |
 
 ### Part II: The Operator's Gymnasium — A Bias & Fallacy Workbook
 
@@ -5907,7 +5905,7 @@ user's social media feed or a collection of open browser tabs.
     },
     "topEmotionWords": [
       { "word": "outrage", "frequency": 25, "sentiment": -0.8 },
-      { "word": "disaster", "frequency": 18, "sentiment": -0. },
+      { "word": "disaster", "frequency": 18, "sentiment": -0 },
       { "word": "threat", "frequency": 15, "sentiment": -0.6 }
     ]
   }
@@ -6809,7 +6807,6 @@ information. It also outlines defensive doctrines to build clandestine yet
 trustworthy alliances capable of withstanding infiltration. It is a playbook for
 hacking the human operating system.
 
-
 ### Part I: The Social Exploit Matrix — A Taxonomy of Human-Layer Attacks
 
 This section deconstructs the art of social engineering into a systematic
@@ -6892,7 +6889,6 @@ The following matrix details 15 social engineering ploys, mapping them to their
 psychological vectors and the ENGAGE framework. It provides both offensive and
 defensive procedures. Each entry ties the ploy to actionable guidance for
 real-world scenarios.
-
 
 Ploy ID
 Ploy Name
@@ -7083,7 +7079,6 @@ potential damage from an infiltrator, as they are contained at a low-privilege
 level until they have proven their loyalty and competence over time through
 verifiable actions.
 
-
 The following protocol outlines a five-stage framework for this process.
 
 Stage
@@ -7173,7 +7168,6 @@ privacy-preserving power of Zero-Knowledge Proofs (ZKPs).63 An operator can hold
 private collection of VCs and use a zk-SNARK to generate a proof that attests to a
 property of that collection—for example, "I hold a credential for 'Advanced
 Cryptography' from a trusted issuer"—without revealing the credential itself.67
-
 
 #### Core Components:
 
@@ -7506,7 +7500,7 @@ Reid Interrogation - Emergent Justice, accessed July 28, 2025, https://emergentj
 - https://www.aclu.org/know-your-rights/border-zone Can Border Agents Search Your
 - Electronic Devices? It's ..., accessed July 25, 2025,
 - https://www.aclutx.org/en/news/can-border-agents-search-your-electronic-devices-its-complicated
- - Know Your Rights | Electronic Frontier Foundation, accessed July 25, 2025, https://www.eff.org/issues/know-your-rights
+- Know Your Rights | Electronic Frontier Foundation, accessed July 25, 2025, https://www.eff.org/issues/know-your-rights
 - Privacy & Technology | American Civil Liberties Union, accessed July 25, 2025,
 - https://www.aclu.org/issues/privacy-technology Internet Privacy | American Civil
 - Liberties Union, accessed July 25, 2025,
@@ -7518,10 +7512,26 @@ Reid Interrogation - Emergent Justice, accessed July 28, 2025, https://emergentj
 - submission to the UN High Commissioner for Human Rights' report on the practical
 - application of the - ohchr, accessed July 25, 2025,
 - https://www.ohchr.org/sites/default/files/2022-03/PrivacyInternational.pdf
- - The Whistleblower Protection Programs | Whistleblower Protection ..., accessed July 25, 2025, https://www.whistleblowers.gov/
- - What We Do - Pro Bono Net, accessed July 25, 2025, https://www.probono.net/our-work/
- - IP Law Clinic | Law School | Baylor University, accessed July 25, 2025, https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
+- The Whistleblower Protection Programs | Whistleblower Protection ..., accessed July 25, 2025, https://www.whistleblowers.gov/
+- What We Do - Pro Bono Net, accessed July 25, 2025, https://www.probono.net/our-work/
+- IP Law Clinic | Law School | Baylor University, accessed July 25, 2025, https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics/ip-law-clinic
 
 ### Footnotes
 
 [^1]: See the previous waves for context on Radical Autonomy and the Threat Matrix.
+
+[^22]: GrapheneOS features overview. https://grapheneos.org/features
+
+[^23]: GrapheneOS supported devices. https://grapheneos.org/faq#supported-devices
+
+[^30]: GnuPG manual on generating a new key. https://gnupg.org/documentation/manuals/gnupg/Generating-a-New-Key.html
+
+[^35]: Signal protocol specifications. https://signal.org/docs/
+
+[^45]: NordVPN on post-quantum VPNs. https://nordvpn.com/blog/post-quantum-vpn/
+
+[^89]: `me_cleaner` project for Intel ME neutralization. https://github.com/corna/me_cleaner
+
+[^90]: Android bootloader locking guidance. https://source.android.com/docs/security/features/bootloader/locking_unlocking
+
+[^95]: Apple Platform Security—hardware microphone disconnect. https://support.apple.com/guide/security/hardware-microphone-disconnect-sec3fe4b91a2/web
