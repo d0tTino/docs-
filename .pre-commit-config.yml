@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint-research-docs
+        name: Lint research docs for mid-word splits
+        entry: python scripts/lint_research_docs.py
+        language: system
+        types: [markdown]
+        files: ^docs/ai-research/.*\.md$

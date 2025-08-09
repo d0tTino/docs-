@@ -3,3 +3,15 @@
 This repository aggregates documentation and research across multiple projects.
 
 For setup instructions, directory overview, and detailed research listings, see [docs/index.md](docs/index.md).
+
+## Development
+
+Install [pre-commit](https://pre-commit.com/) hooks to automatically lint Markdown files:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+The hook runs `scripts/lint_research_docs.py` to catch mid-word line splits.
+
