@@ -28,5 +28,5 @@ navigation sidebar.
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
 - [Context Windows Field Guide](context-windows-field-guide.md)
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
-- [Context Windows Appendix](context-windows-appendix.md)ntext-windows-deep-dive.md)
+- [Context Windows Appendix](context-windows-appendix.md
 
