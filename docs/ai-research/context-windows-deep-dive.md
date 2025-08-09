@@ -77,6 +77,18 @@ Relative positional encodings and learned positions (e.g., T5) can also generali
 
 As illustrated earlier, the KV cache scales linearly with sequence length and model size【563653443713035†L150-L171】. Memory fragmentation, limited GPU memory and scheduler constraints can reduce usable context. Systems like **FlashAttention** fuse operations to reduce IO and memory overhead, enabling efficient exact attention. **PagedAttention** (vLLM) implements a multi‑paged KV cache that evicts least‑used blocks and reduces fragmentation, allowing 128 k contexts on consumer GPUs.
 
+#### KV‑cache capacity planning
+
+To better understand how sequence length and model size impact memory usage, we provide a simple **capacity planner** script (`kv_capacity.py`) and a generated chart.  The script computes the KV cache memory for different models and sequence lengths using the formula above:
+
+\[\text{KV\_memory\_bytes} = 2 \times L \times H \times d \times \text{seq\_len} \times \text{dtypeBytes}.\]
+
+The accompanying chart (Figure 1) shows memory requirements (GiB) for Llama‑7B, Llama‑13B and Llama‑70B models at 4 k, 8 k, 32 k, 128 k and 512 k token windows when using fp16 precision.  As sequence length increases, memory consumption grows rapidly, particularly for large models.  For example, a single 128 k request on Llama‑70B requires about 320 GiB just for the KV cache.  Such calculations illustrate why scaling beyond 32 k–64 k tokens demands careful resource planning.
+
+![KV cache memory requirements for different models and sequence lengths](kv-cache-chart.png)
+
+You can run `kv_capacity.py` (provided in this repository) to compute custom tables or generate updated plots for your hardware and models.  Use `python kv_capacity.py --plot --output <filename>` to save a PNG.
+
 ### 3.3 Serving stack constraints
 
 Inference frameworks significantly influence effective context. **vLLM** uses a paged KV cache and asynchronous scheduling to support long contexts and high throughput. **FasterTransformer** and **DeepSpeed** provide optimised kernels but have different memory footprints. When the KV cache saturates GPU memory, some frameworks offload to CPU or disc, incurring latency. Data centre hardware (PCIe vs NVLink) and memory bandwidth thus determine practical context windows.
