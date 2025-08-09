@@ -7,9 +7,7 @@ updated: 2025-08-09
 
 # AI Research Overview
 
-This section collects planning documents, design reports, and experimental
-analyses. Explore highlights below or browse the complete listing in the
-navigation sidebar.
+This section collects planning documents, design reports, and experimental analyses. Explore highlights below or browse the complete listing in the navigation sidebar.
 
 - [Strategic R&D Roadmap for DeepThought-ReThought](strategic-roadmap-deepthought.md)
 - [Reverse-Engineering OpenAI Codex](reverse-engineering-codex.md)
@@ -28,5 +26,4 @@ navigation sidebar.
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
 - [Context Windows Field Guide](context-windows-field-guide.md)
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
-- [Context Windows Appendix](context-windows-appendix.md
-
+- [Context Windows Appendix](context-windows-appendix.md)
