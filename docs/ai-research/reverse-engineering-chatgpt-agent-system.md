@@ -10,6 +10,16 @@ updated: 2025-07-29
 
 ## 1.0 Executive Summary
 
+```mermaid
+flowchart TD
+    RQ[User Request] --> AN[Analyze]
+    AN --> PL[Plan]
+    PL --> CD[Code]
+    CD --> TS[Test]
+    TS --> RV[Review]
+    RV --> AN
+```
+
 
 ### 1.1 Overview of Findings
 
