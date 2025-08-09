@@ -1,6 +1,16 @@
 site_name: Tino Docs Hub
 site_description: Central hub for project documentation
-theme: material
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 docs_dir: docs
 plugins:
   - search
