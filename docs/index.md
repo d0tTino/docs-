@@ -35,6 +35,7 @@ ongoing experiments. Key documents include:
 
 - [Strategic R&D Roadmap for DeepThought-ReThought](ai-research/strategic-roadmap-deepthought.md)
 - [Reverse-Engineering OpenAI Codex](ai-research/reverse-engineering-codex.md)
+- [Reverse-Engineering Design Report: OpenAI ChatGPT Agent System](ai-research/reverse-engineering-chatgpt-agent-system.md)
 - [Seed-Factory Feasibility Dossier](ai-research/seed-factory-feasibility-dossier.md)
 - [Agentic SWE Discontinuity Forecast](ai-research/agentic-swe-discontinuity-forecast.md)
 - [Energy-Efficient Swarm](ai-research/energy-efficient-swarm.md)
