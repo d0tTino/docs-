@@ -19,45 +19,59 @@ precision of a model's weights and potentially its activations---is not merely a
 foundational requirement. This section provides a rigorous analysis of the leading quantization
 techniques, evaluates their impact on model reasoning capabilities, and culminates in a definitive
 recommendation for the optimal format to enable a high-density swarm of 4-7B parameter class models
-within the 16 GB VRAM envelope. 1.1 A Comparative Analysis: GGUF, AWQ, and the State of 4-Bit
-Quantization The landscape of 4-bit quantization is dominated by several competing formats and
-methodologies, each with distinct trade-offs in terms of performance, flexibility, and VRAM
-footprint. An understanding of these trade-offs is critical to selecting the correct foundation for
-the system architecture. GGUF (GPT-Generated Unified Format): GGUF has emerged as a de facto
-standard in the local LLM community, primarily due to its exceptional flexibility. Its core design
-principle is to be backend-agnostic, enabling execution on both CPUs and GPUs. The most critical
-feature for this project is its native support for layer-splitting, a technique where a model's
-layers can be strategically divided between GPU VRAM and system RAM.^1 This allows for a granular
-trade-off between performance and memory usage; the most frequently used and performance-critical
-layers (e.g., attention layers) can be loaded into VRAM for maximum speed, while less critical
-layers are offloaded to the much larger, albeit slower, system RAM. This capability is expertly
-leveraged by inference engines like llama.cpp, making GGUF the premier format for environments with
-severe VRAM constraints.^1 AWQ (Activation-Aware Weight Quantization): AWQ is a sophisticated
-post-training quantization (PTQ) method that operates on the principle that not all weights are
-equally important. By analyzing the activation magnitudes during a calibration pass, AWQ identifies
-and preserves the precision of "salient" weights that are most critical to the model's performance,
-while more aggressively quantizing less important ones.^1 This activation-aware approach has proven
-particularly effective for instruction-tuned and multi-modal LLMs, often yielding superior
-performance preservation compared to more naive quantization schemes. AWQ is heavily optimized for
-GPU-only inference and is well-supported by high-performance runtimes such as NVIDIA's TensorRT-LLM
-and LMDeploy.^3 GPTQ (Generalized Post-Training Quantization): GPTQ is another widely adopted PTQ
-method that focuses on GPU inference. It employs a layer-wise quantization approach that uses
-approximate second-order Hessian information to minimize quantization error, achieving a strong
-balance between compression and accuracy.^1 Like AWQ, GPTQ is designed for scenarios where the entire
-model can reside within GPU VRAM and is supported by a wide range of GPU hardware and inference
-backends. QLoRA and FlexGen: It is important to distinguish between quantization formats and the
-techniques or engines that use them. QLoRA is a parameter-efficient fine-tuning (PEFT) method, not
-an inference format. It involves quantizing a base model to 4-bits (using a format called NF4) and
-then training small, low-rank adapters on top of it.^6 While highly effective for reducing memory
-during training, the output is a set of adapter weights, not a standalone quantized model for
-deployment. FlexGen is an inference engine designed for high-throughput generation on severely
-resource-constrained hardware, such as a single 16 GB GPU running a 175-billion parameter model.^8 It
-achieves this through an aggressive offloading strategy that pages model tensors (weights,
-activations, and the KV cache) not just to CPU RAM but also to disk storage (e.g., NVMe SSDs).
-FlexGen internally uses 4-bit group-wise quantization to compress these tensors and minimize I/O
-overhead.^10 While a powerful demonstration of VRAM optimization, its reliance on disk I/O introduces
-significant latency, making it unsuitable for the project's target of ≤800 ms per agent turn.
-However, it remains a valuable tool for risk mitigation and non-interactive, batch-processing tasks.
+within the 16 GB VRAM envelope.
+### 1.1 A Comparative Analysis: GGUF, AWQ, and the State of 4-Bit Quantization
+
+The landscape of 4-bit quantization is dominated by several competing formats and methodologies, each with distinct
+trade-offs in terms of performance, flexibility, and VRAM footprint. An understanding of these
+trade-offs is critical to selecting the correct foundation for the system architecture.
+
+| Format | VRAM (7B weights) | Accuracy vs FP16 |
+| --- | --- | --- |
+| FP16 (baseline) | ~14 GB | 0% drop |
+| AWQ (4-bit) | ~4.5 GB | ~1–3% drop |
+| GGUF (Q4_K_M) | ~4.5 GB* | ~2–5% drop |
+| GPTQ (4-bit) | ~4.5 GB | ~2–6% drop |
+
+*GGUF supports layer offloading to system RAM, allowing the VRAM footprint to be reduced further.*
+
+Table 1.1: VRAM and accuracy trade-offs for common 4-bit quantization formats.
+
+GGUF (GPT-Generated Unified Format): GGUF has emerged as a de facto standard in the local LLM
+community, primarily due to its exceptional flexibility. Its core design principle is to be
+backend-agnostic, enabling execution on both CPUs and GPUs. The most critical feature for this
+project is its native support for layer-splitting, a technique where a model's layers can be
+strategically divided between GPU VRAM and system RAM.^1 This allows for a granular trade-off between
+performance and memory usage; the most frequently used and performance-critical layers (e.g.,
+attention layers) can be loaded into VRAM for maximum speed, while less critical layers are offloaded
+to the much larger, albeit slower, system RAM. This capability is expertly leveraged by inference
+engines like llama.cpp, making GGUF the premier format for environments with severe VRAM
+constraints.^1 AWQ (Activation-Aware Weight Quantization): AWQ is a sophisticated post-training
+quantization (PTQ) method that operates on the principle that not all weights are equally important.
+By analyzing the activation magnitudes during a calibration pass, AWQ identifies and preserves the
+precision of "salient" weights that are most critical to the model's performance, while more
+aggressively quantizing less important ones.^1 This activation-aware approach has proven particularly
+effective for instruction-tuned and multi-modal LLMs, often yielding superior performance preservation
+compared to more naive quantization schemes. AWQ is heavily optimized for GPU-only inference and is
+well-supported by high-performance runtimes such as NVIDIA's TensorRT-LLM and LMDeploy.^3 GPTQ
+(Generalized Post-Training Quantization): GPTQ is another widely adopted PTQ method that focuses on
+GPU inference. It employs a layer-wise quantization approach that uses approximate second-order
+Hessian information to minimize quantization error, achieving a strong balance between compression and
+accuracy.^1 Like AWQ, GPTQ is designed for scenarios where the entire model can reside within GPU
+VRAM and is supported by a wide range of GPU hardware and inference backends. QLoRA and FlexGen: It is
+important to distinguish between quantization formats and the techniques or engines that use them.
+QLoRA is a parameter-efficient fine-tuning (PEFT) method, not an inference format. It involves
+quantizing a base model to 4-bits (using a format called NF4) and then training small, low-rank
+adapters on top of it.^6 While highly effective for reducing memory during training, the output is a
+set of adapter weights, not a standalone quantized model for deployment. FlexGen is an inference
+engine designed for high-throughput generation on severely resource-constrained hardware, such as a
+single 16 GB GPU running a 175-billion parameter model.^8 It achieves this through an aggressive
+offloading strategy that pages model tensors (weights, activations, and the KV cache) not just to CPU
+RAM but also to disk storage (e.g., NVMe SSDs). FlexGen internally uses 4-bit group-wise
+quantization to compress these tensors and minimize I/O overhead.^10 While a powerful demonstration of
+VRAM optimization, its reliance on disk I/O introduces significant latency, making it unsuitable for
+the project's target of ≤800 ms per agent turn. However, it remains a valuable tool for risk
+mitigation and non-interactive, batch-processing tasks.
 
 ### 1.2 Preserving Intelligence: Mitigating Reasoning Degradation on MMLU & GSM8K
 
@@ -128,7 +142,7 @@ Drop) GSM8K Score (% Drop) Key Feature for Multi-Agent System FP16 (Baseline) �
 Viable (OOM) AWQ (4-bit) ∼4.5 GB \>120 ∼1−3% ∼5−15% High performance for fully VRAM-resident models
 GGUF (Q4_K_M) Variable (user-set) ∼106 (full GPU) ∼2−5% ∼10−28% Flexible CPU/GPU layer offloading
 for VRAM management FlexGen (4-bit) Variable (user-set) ∼1 (for 175B) Low Low Extreme offloading to
-CPU/Disk (high latency) Table 1.1: A comparative analysis of quantization methods for a 7B model on
+CPU/Disk (high latency) Table 1.2: A comparative analysis of quantization methods for a 7B model on
 an RTX 4080 SUPER. Throughput for GGUF is based on benchmarks with full GPU offload.23 Performance
 drops are representative estimates based on community reports and benchmarks.12 The key feature
 column highlights the architectural relevance of each method.
