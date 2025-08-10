@@ -452,6 +452,14 @@ Success Criterion: The latency overhead must be less than 10%. This ensures the 
 
 Table 3: Expected Evaluation Harness Results Summary. This table presents the target outcomes for the evaluation, directly mapping the performance of each approach to the user's specified success criteria.
 
+```mermaid
+bar
+    title VRAM Usage by Model (GB)
+    "Baseline" : 8.5
+    "Fine-tuned" : 8.5
+    "LBM-Guardrail" : 8.6
+```
+
 ## Integration Blueprint for UME Knowledge Graph Queries
 
 ### The Challenge: Semantic Drift and Logical Errors in KG Queries
