@@ -14,7 +14,7 @@ By Tino | August 8, 2025
 In the fast-evolving world of artificial intelligence, few events generate as
 much buzz—and controversy—as the rollout of a new flagship model from OpenAI.
 This week, the release of GPT-5 was meant to be a triumphant step forward,
-heralded by an AMA (Ask Me Anything) session on Reddit's r/ChatGPT subreddit
+heralded by an [AMA (Ask Me Anything) session](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1) on Reddit's r/ChatGPT subreddit
 featuring CEO Sam Altman and members of the OpenAI team. Instead, the thread
 devolved into a chorus of user frustrations, with complaints dominating the
 discussion and no visible responses from OpenAI representatives to address them.
