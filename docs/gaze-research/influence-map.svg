@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; }
+    circle { stroke-width: 2; }
+  </style>
+  <circle cx="50" cy="100" r="30" fill="#e0f7fa" stroke="#006064" />
+  <text x="50" y="105" text-anchor="middle">Lacan</text>
+  <circle cx="200" cy="100" r="30" fill="#e8f5e9" stroke="#1b5e20" />
+  <text x="200" y="105" text-anchor="middle">Foucault</text>
+  <circle cx="350" cy="100" r="30" fill="#fff3e0" stroke="#e65100" />
+  <text x="350" y="105" text-anchor="middle">Media</text>
+  <line x1="80" y1="100" x2="170" y2="100" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="230" y1="100" x2="320" y2="100" stroke="#000" marker-end="url(#arrow)" />
+</svg>
