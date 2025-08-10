@@ -12,7 +12,7 @@ This document is provided for research purposes only and does not constitute leg
 
 [TOC]
 
-## Wave 1: Foundations
+## Wave 1: Foundations <img src="wave-icons/wave1-foundations.svg" alt="" width="20"/>
 
 ### Part I: Theses and Lineage
 
@@ -947,7 +947,7 @@ Telegram: Hackers in China Disrupted Service During Hong Kong ..., accessed July
 25, 2025,
 https://www.defenseone.com/technology/2019/06/telegram-hackers-china-disrupted-service-during-hong-kong-protests/157698/
 
-## Wave 2: Threat Mapping
+## Wave 2: Threat Mapping <img src="wave-icons/wave2-threat-mapping.svg" alt="" width="20"/>
 
 ### Introduction: From Thesis to Threat Assessment
 
@@ -1826,7 +1826,7 @@ Wide Acclaim for President Trump's Visionary AI Action Plan - The White House,
 accessed July 25, 2025,
 https://www.whitehouse.gov/articles/2025/07/wide-acclaim-for-president-trumps-visionary-ai-action-plan/
 
-## Wave 3: Privacy & OPSEC
+## Wave 3: Privacy & OPSEC <img src="wave-icons/wave3-privacy-opsec.svg" alt="" width="20"/>
 
 ### Introduction: From Threat Map to Tactical Playbook
 
@@ -3249,7 +3249,7 @@ https://community.frame.work/t/how-do-the-camera-and-microphone-switches-work/42
 Choosing Your Hardware - Privacy Guides, accessed July 25, 2025,
 https://www.privacyguides.org/en/basics/hardware/
 
-## Wave 4: Legal Countermeasures & Rights Navigation
+## Wave 4: Legal Countermeasures & Rights Navigation <img src="wave-icons/wave4-legal-countermeasures.svg" alt="" width="20"/>
 
 ### Introduction: The Law as Code and Weapon
 
@@ -3893,7 +3893,7 @@ often technical, not judicial. The next step is to harden the targets: your
 devices, your communications, and your online behavior. Wave 6 provides the
 technical toolkit to build your fortress.
 
-## Wave 5: Decentralized Infrastructure
+## Wave 5: Decentralized Infrastructure <img src="wave-icons/wave5-decentralized-infrastructure.svg" alt="" width="20"/>
 
 Real-World Cyberpunk Survival Manifesto: Part 3: Decentralized Infrastructure
 
@@ -4985,7 +4985,7 @@ The Rise & Rise of a Manifesto. Rules for life, business and… | by Ben Rennie
   Radiocrafts AS RC1892HP-RIIM-DK DEVELOPMENT KIT FOR RIIM, accessed July 23,
   2025, https://www.easybom.com/p/rc1892hpriimdk-radiocrafts-as-28182520
 
-## Wave 6: Hands-On Hardening
+## Wave 6: Hands-On Hardening <img src="wave-icons/wave6-hands-on-hardening.svg" alt="" width="20"/>
 
 Works cited Cyberpunk Threat and Power Analysis United States: Freedom on the
 Net 2024 Country Report | Freedom ..., accessed July 25, 2025,
@@ -5100,7 +5100,7 @@ Bernstein v. United States Department of States (District Court of California)
 25, 2025,
 https://firstamendment.mtsu.edu/article/bernstein-v-united-states-department-of-states-district-court-of-california/
 
-## Wave 7: Reconnaissance & Open-Source Intelligence
+## Wave 7: Reconnaissance & Open-Source Intelligence <img src="wave-icons/wave7-reconnaissance-osint.svg" alt="" width="20"/>
 
 ### Introduction: The Panopticon's Blind Spot
 
@@ -5646,7 +5646,7 @@ END
 This manual provides the doctrine, toolchain,
 and operational procedures for conducting reconnaissance in the modern information battlespace. By systematically mapping your own digital footprint, you transform yourself from a passive target into a hardened one. By understanding the architectures of corporate and state power, you convert abstract anxieties into concrete systems. Knowledge, applied with discipline, is a force multiplier. By mastering OSINT and building an automated pipeline for continuous awareness, the operator achieves a critical asymmetric advantage. The real work begins now.
 
-## Wave 9: Cognitive Security & Influence Defense
+## Wave 9: Cognitive Security & Influence Defense <img src="wave-icons/wave9-cognitive-security.svg" alt="" width="20"/>
 
 ### Introduction: The Battlefield of Belief
 
@@ -6060,7 +6060,7 @@ https://ebelding.cs.ucsb.edu/sites/default/files/publications/hate-lingo-target.
 The language of outrage | The Journal of Social Media in Society, accessed July 27, 2025,
 https://www.thejsms.org/index.php/JSMS/article/view/733
 
-## Wave 10: Futures
+## Wave 10: Futures <img src="wave-icons/wave10-futures.svg" alt="" width="20"/>
 
 ### Introduction: The Strategic Horizon
 
@@ -6506,7 +6506,7 @@ https://www.lawfaremedia.org/article/when-a-quantum-computer-is-able-to-break-ou
 Privacy advocates cry foul after WEF publishes plans for personal ..., accessed July 25, 2025,
 https://www.311institute.com/privacy-advocates-cry-foul-after-wef-publishes-plans-for-personal-carbon-credits/
 
-## Wave 11: The Cyberpunk Mind
+## Wave 11: The Cyberpunk Mind <img src="wave-icons/wave11-cyberpunk-mind.svg" alt="" width="20"/>
 
 ### Real-World Cyberpunk Manifesto — Wave 11: The Cyberpunk Mind
 
@@ -6768,7 +6768,7 @@ The future is already here—It's just not very evenly distributed | ACM Interac
 Quote by William Gibson: “The future is already here – it's just not evenly distributed.” - Goodreads, accessed July 25, 2025, https://www.goodreads.com/quotes/681-the-future-is-already-here-it-s-just-not-evenly
 National Quantum Initiative, accessed July 25, 2025, https://www.quantum.gov/
 
-## Wave 12: Social Engineering & Trust Networks
+## Wave 12: Social Engineering & Trust Networks <img src="wave-icons/wave12-social-engineering.svg" alt="" width="20"/>
 
 ### Real-World Cyberpunk Manifesto — Wave 12: Social Engineering & Trust Networks
 
