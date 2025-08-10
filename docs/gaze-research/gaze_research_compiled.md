@@ -1,3 +1,10 @@
+---
+title: "Gaze Research Project – Comprehensive Document"
+tags: [gaze, research]
+project: docs-hub
+updated: 2025-08-10
+---
+
 # Gaze Research Project – Comprehensive Document
 
 This document consolidates all deliverables for the research project “From Mirror to Feed: A Comprehensive Analysis of the Gaze—Classical Theory, Contemporary Extensions, and the Emergent Social‑Media Gaze.”
