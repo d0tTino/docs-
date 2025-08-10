@@ -327,3 +327,14 @@ The metaorganism is more than a new metaphor; it is a framework for understandin
 144. What is Organizational Resilience? How to Assess Your Business' Ability to Adapt | Walsh, accessed June 20, 2025, https://walshcollege.edu/career-services/professional-development/what-is-organizational-resilience/
 145. What Is Narrative Coherence? - Monitask, accessed June 20, 2025, https://www.monitask.com/en/business-glossary/narrative-coherence
 146. How to Create Organizational Coherence in Your Workplace, accessed June 20, 2025, https://achievecentre.com/blog/organizational-coherence-in-your-workplace/
+
+## Key Terms
+
+| Term | Definition |
+| --- | --- |
+| Metaorganism | A complex adaptive system composed of heterogeneous agents and artifacts that exhibits organism-like properties. |
+| Superorganism | A social unit of genetically similar individuals with specialized labor where individuals often cannot survive alone. |
+| Holobiont | A composite organism formed by a host and its microbiome functioning as a single unit. |
+| Synergism Hypothesis | The idea that cooperative interactions produce advantages that drive the evolution of complexity. |
+| Collective Consciousness | The shared beliefs and moral attitudes that unify members of a group. |
+| Hyperreality | A condition in which mediated symbols and simulations are perceived as more real than reality itself. |
