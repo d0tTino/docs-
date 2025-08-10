@@ -329,3 +329,5 @@ Sources used in the report
 - Longitudinal study of gifted children featured in 'Nature' - Vanderbilt University (news.vanderbilt.edu)
 - (PDF) "We are not that!: A focus group study with gifted adults ... (researchgate.net)
 - Identifying and supporting gifted youth - OSF (osf.io)
+
+For contrast, see the [Concrete Cognition Anthology](concrete-cognition-anthology.md).
