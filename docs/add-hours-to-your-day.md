@@ -262,7 +262,21 @@ The systematic evaluation of these eight frameworks reveals a clear and telling 
 | Segmented Sleep Revival          | Reviving the supposedly "natural" pre-industrial pattern of two sleep blocks separated by a waking hour is claimed to be healthier than consolidated sleep. It promises to reduce sleep anxiety and provide quiet, reflective time for creative or productive pursuits in the middle of the night.                      | 2              | 2                    | 2                     | 3                 | 9                        |
 | Polyphasic Sleep (Uberman, etc.) | By breaking sleep into multiple short naps, one can drastically reduce total sleep time to 2-4 hours per day, "creating" more waking hours. This is supposedly achieved by training the body to enter REM sleep almost immediately, maximizing sleep efficiency. It is a form of severe sleep deprivation.              | 0              | 0                    | 1                     | 0                 | 1                        |
 
-\*Note: Risk/Cost is scored inversely, where 5 = Very Low Risk and 0 = Very High Risk, for additive scoring.
+### Efficacy, Sustainability, and Risk Overview
+
+| Framework                       | Efficacy | Sustainability | Risk |
+| --------------------------------| -------- | -------------- | ---- |
+| Time-Blocking / Single-Tasking  | 5/5      | 5/5            | 5/5  |
+| 90-Minute Ultradian Work Cycles | 4/5      | 4/5            | 5/5  |
+| "30-Hour Day" / Reduced Workweek | 4/5      | 5/5            | 4/5  |
+| Strategic Caffeine-Napping      | 4/5      | 3/5            | 4/5  |
+| The Pomodoro Technique          | 3/5      | 4/5            | 4/5  |
+| The 5 A.M. Club                 | 2/5      | 2/5            | 2/5  |
+| Segmented Sleep Revival         | 2/5      | 2/5            | 3/5  |
+| Polyphasic Sleep (Uberman, etc.)| 0/5      | 0/5            | 0/5  |
+
+*Note: Risk is scored inversely, where 5 = Very Low Risk and 0 = Very High Risk.
+
 
 ## Conclusion: From Productivity Hacks to Sustainable High Performance
 
