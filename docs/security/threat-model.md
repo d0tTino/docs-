@@ -13,14 +13,10 @@ updated: 2025-07-28
 - Build and deployment scripts
 - Source repository and configuration
 
-## Potential Threats
+## Threats
 
-- Unauthorized modification or defacement of docs
-- Malicious code injection in scripts
-- Leakage of credentials or sensitive data
-
-## Mitigations
-
-- Use version control with code review to gate changes
-- Restrict script permissions and validate dependencies
-- Scan commits for secrets and rotate credentials regularly
+| Threat | Impact | Likelihood | Mitigation |
+| --- | --- | --- | --- |
+| Unauthorized modification or defacement of docs | Medium | Medium | Use version control with code review to gate changes |
+| Malicious code injection in scripts | High | Low | Restrict script permissions and validate dependencies |
+| Leakage of credentials or sensitive data | High | Low | Scan commits for secrets and rotate credentials regularly |
