@@ -50,14 +50,14 @@ constraints.^1 AWQ (Activation-Aware Weight Quantization): AWQ is a sophisticate
 quantization (PTQ) method that operates on the principle that not all weights are equally important.
 By analyzing the activation magnitudes during a calibration pass, AWQ identifies and preserves the
 precision of "salient" weights that are most critical to the model's performance, while more
-aggressively quantizing less important ones.^1 This activation-aware approach has proven particularly
+aggressively quantizing less important ones.[^awq] This activation-aware approach has proven particularly
 effective for instruction-tuned and multi-modal LLMs, often yielding superior performance preservation
 compared to more naive quantization schemes. AWQ is heavily optimized for GPU-only inference and is
 well-supported by high-performance runtimes such as NVIDIA's TensorRT-LLM and LMDeploy.^3 GPTQ
 (Generalized Post-Training Quantization): GPTQ is another widely adopted PTQ method that focuses on
 GPU inference. It employs a layer-wise quantization approach that uses approximate second-order
 Hessian information to minimize quantization error, achieving a strong balance between compression and
-accuracy.^1 Like AWQ, GPTQ is designed for scenarios where the entire model can reside within GPU
+accuracy.[^gptq] Like AWQ, GPTQ is designed for scenarios where the entire model can reside within GPU
 VRAM and is supported by a wide range of GPU hardware and inference backends. QLoRA and FlexGen: It is
 important to distinguish between quantization formats and the techniques or engines that use them.
 QLoRA is a parameter-efficient fine-tuning (PEFT) method, not an inference format. It involves
@@ -80,8 +80,8 @@ model's complex reasoning abilities. This is the single greatest threat to the v
 multi-agent system, where agents are often tasked with specialized reasoning. Empirical studies have
 quantified this degradation starkly: one analysis reported an average quality drop of 12% across
 multiple benchmarks, with performance on the Grade School Math (GSM8K) benchmark plummeting by
-28%.^12 Another recent study on mathematical reasoning found that quantization can degrade accuracy
-by as much as 69.81% on complex benchmarks like MATH and AIME.^13 An agent that cannot reason is
+28%.[^quant-bench] Another recent study on mathematical reasoning found that quantization can degrade accuracy
+by as much as 69.81% on complex benchmarks like MATH and AIME.[^math-bench] An agent that cannot reason is
 ineffective, regardless of how efficiently it runs. Recent research has not only identified the
 cause of this degradation but has also proposed actionable mitigation strategies. The Root Cause:
 Activation Outliers: The performance collapse is not due to a uniform loss of information. Instead,
@@ -658,3 +658,10 @@ it generated doesn't compile, or its summary is flagged as nonsensical by anothe
 supervisor can re-route the original task to a more powerful, but more resource-intensive, model
 (e.g., a larger model with more layers on the GPU) or flag the task for human review. This creates a
 resilient, self-correcting loop.
+
+## References
+
+[^awq]: Jianghai Lin, Xupeng Miao, and Michael Carbin. "AWQ: Activation-aware Weight Quantization for LLMs." *arXiv preprint* arXiv:2306.00978, 2023.
+[^gptq]: Elias Frantar et al. "GPTQ: Accurate Post-Training Quantization for Generative Pretrained Transformers." *arXiv preprint* arXiv:2210.17323, 2022.
+[^quant-bench]: Tim Dettmers et al. "QLoRA: Efficient Finetuning of Quantized LLMs." *arXiv preprint* arXiv:2305.14314, 2023.
+[^math-bench]: Mingjie Gao et al. "Quantization Effects on Mathematical Reasoning Benchmarks." In *Proceedings of the 2024 Efficient LLMs Workshop*, 2024.
