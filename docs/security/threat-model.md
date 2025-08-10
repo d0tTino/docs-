@@ -24,3 +24,8 @@ updated: 2025-07-28
 - Use version control with code review to gate changes
 - Restrict script permissions and validate dependencies
 - Scan commits for secrets and rotate credentials regularly
+
+## Security Tools
+
+- [git-secrets](https://github.com/awslabs/git-secrets) – blocks committed secrets by scanning for credential patterns.
+- [Semgrep](https://semgrep.dev) – SAST scanner that detects code vulnerabilities during CI.
