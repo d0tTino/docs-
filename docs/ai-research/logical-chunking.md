@@ -33,9 +33,23 @@ Fixed-size chunking divides documents into chunks of a specified token length, t
 
 Sentence-based chunking splits text at sentence boundaries【876099041755344†L125-L147】. This approach preserves semantic units and reduces the risk of splitting in the middle of an idea. It can be implemented with Python libraries like NLTK or spaCy【40929316084580†L210-L219】. Sentence chunking works well for news articles, legal documents and transcripts where sentences encapsulate discrete facts, but may produce uneven chunk sizes and may still cut paragraphs mid‑way【876099041755344†L125-L147】.
 
+```python
+from nltk.tokenize import sent_tokenize
+
+text = "LLMs need good chunking. This sentence will be separated."
+chunks = sent_tokenize(text)
+```
+
 ### Paragraph‑Based Chunking
 
 Paragraph-based chunking treats each paragraph as a chunk【876099041755344†L155-L177】. This preserves high‑level structure and is appropriate for essays, whitepapers and books where paragraphs express cohesive ideas. It yields variable chunk sizes and can exceed embedding limits for long paragraphs, so additional splitting may be needed. It is often combined with token-limit splitting for consistency.
+
+```python
+import re
+
+text = "Paragraph one explains chunking.\n\nParagraph two goes deeper."
+chunks = [p.strip() for p in re.split(r"\n{2,}", text) if p.strip()]
+```
 
 ### Sliding‑Window Chunking
 
