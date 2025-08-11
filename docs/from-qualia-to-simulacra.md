@@ -8,6 +8,23 @@ updated: 2025-07-29
 # From Qualia to Simulacra: An Inquiry into the Communicability of Experience
 
 ## Part I: The Inward Glance: Defining and Defending Private Experience
+
+```mermaid
+graph TD
+    Q[Qualia Positions]
+    Q --> D[Dualism]
+    D --> SD[Substance Dualism]
+    D --> PD[Property Dualism]
+    Q --> P[Physicalism]
+    P --> RP[Reductive Physicalism]
+    P --> NRP[Non-Reductive Physicalism]
+    Q --> F[Functionalism]
+    Q --> EL[Eliminativism]
+    Q --> PAN[Panpsychism]
+```
+
+*Figure: major philosophical positions on qualia.*
+
 The central problematic in the philosophy of mind and language for the last century has been the status of private experience. There appears to be a dimension of consciousness—the subjective, felt quality of sensation—that is irreducibly first-personal and resistant to public expression. This part establishes the contours of this problem, exploring the most formidable arguments for the existence of a private, ineffable phenomenal realm. By examining the concepts of qualia, the "hard problem," and the phenomenological structure of lived experience, it sets the stage for the subsequent philosophical traditions that seek to dismantle, reframe, or dissolve this "inner" world.
 
 ### Section 1: The Phenomenal Realm: Qualia and the "Hard Problem"
