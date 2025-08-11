@@ -13,7 +13,15 @@ updated: 2025-07-28
 - Build and deployment scripts
 - Source repository and configuration
 
-## Threats
+```mermaid
+flowchart LR
+    A[Repository] --> B[CI builds docs]
+    B --> C[Static site generated]
+    C --> D[Deploy to hosting]
+```
+
+## Potential Threats
+
 
 | Threat | Impact | Likelihood | Mitigation |
 | --- | --- | --- | --- |
