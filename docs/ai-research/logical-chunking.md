@@ -29,6 +29,11 @@ This section summarises several common chunking methods along with their advanta
 
 Fixed-size chunking divides documents into chunks of a specified token length, typically equal to or slightly less than the embedding model’s context window[^3][^4]. Because it is simple to implement, fixed-size chunking is a good default starting point[^2]. However, it may cut sentences mid‑thought and ignore natural document structure[^3]. Use this approach when processing large, homogeneous texts or during early prototyping.
 
+```mermaid
+flowchart LR
+    A["Chunk 1\n1-4"] --> B["Chunk 2\n5-8"] --> C["Chunk 3\n9-12"]
+```
+
 ### Sentence‑Based Chunking
 
 Sentence-based chunking splits text at sentence boundaries[^3]. This approach preserves semantic units and reduces the risk of splitting in the middle of an idea. It can be implemented with Python libraries like NLTK or spaCy[^2]. Sentence chunking works well for news articles, legal documents and transcripts where sentences encapsulate discrete facts, but may produce uneven chunk sizes and may still cut paragraphs mid‑way[^3].
@@ -54,6 +59,11 @@ chunks = [p.strip() for p in re.split(r"\n{2,}", text) if p.strip()]
 ### Sliding‑Window Chunking
 
 Sliding‑window chunking creates overlapping windows of a fixed length that slide through the document[^3]. Overlap ensures continuity across chunks and alleviates the "lost in the middle" problem, but increases redundancy and storage cost. This strategy is beneficial when retrieving sequential context is critical (e.g., conversation logs) or when using models prone to positional biases.
+
+```mermaid
+flowchart LR
+    A["Window 1\n1-4"] --> B["Window 2\n3-6"] --> C["Window 3\n5-8"]
+```
 
 ### Semantic Chunking
 
