@@ -43,6 +43,10 @@ The findings are aggregated to separate evidence-based strategies from dangerous
 - Schedule work in accordance with your chronotype and natural energy cycles.
 - Optimize focus and energy management instead of chasing extra hours.
 
+The relationship between rest and output is evident: as nightly sleep decreases, performance drops sharply (see figure below).
+
+![Sleep hours versus performance](img/sleep-performance.svg)
+
 ## The Biological Foundations of Performance and Time
 
 To accurately evaluate any productivity framework, one must first understand the non-negotiable biological rules that govern human performance.
