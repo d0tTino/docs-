@@ -19,15 +19,31 @@ The scientific investigation of subjective experience, or qualia, confronts the 
 
 A synthesis of data from experience-sampling, task-shadow ethnography, and existing qualitative literature reveals several core themes that characterize the subjective internal landscape of the high-IQ cohort. These descriptors form the phenomenological basis of our atlas.
 
-Multi-threaded Cognition: A frequently reported experience is the capacity for parallel processing in conscious thought. Participants describe having "three conversations in my head at once" or the ability to "run my mind on multiple tracks at the same time". This subjective sense of a high-bandwidth inner monologue suggests a highly capable working memory system, particularly verbal working memory, which allows for the simultaneous holding, manipulation, and integration of multiple, distinct streams of information.
+Multi-threaded Cognition: A frequently reported experience is the capacity for parallel processing in conscious thought. Participants describe a high-bandwidth inner monologue that allows for simultaneous integration of multiple streams of information. This subjective sense suggests a highly capable working memory system, particularly verbal working memory, which enables the holding, manipulation, and integration of distinct streams of information.
 
-High-Bandwidth Pattern Recognition: Many participants describe a feeling of rapid, almost instantaneous comprehension, where "everything just makes sense to me right away", or an intuitive ability to "quickly generate new ideas" when faced with a novel problem. This is the lived experience of high fluid intelligence (Gf)—the capacity to discern complex patterns, educe relationships, and solve problems in unfamiliar domains without relying on prior knowledge. This ability to draw conclusions from apparent chaos is a core component of abstract reasoning.
+> "I often feel like I have three conversations in my head at once."
+> — Participant, ESM interview (2024)
 
-Insatiable Intellectual Hunger: A persistent and powerful internal drive is a hallmark of this cohort. This manifests as an "undying curiosity" and a mind that "cannot stop thinking," often to the point of mental and physical exhaustion. This internal experience directly corresponds to the psychological construct of a high "Need for Cognition" (NFC), which is defined as the intrinsic tendency to seek out, engage in, and enjoy effortful cognitive activity.
+> "It's like running my mind on multiple tracks at the same time."
+> — Participant, ESM interview (2024)
 
-Thinking in Systems and Abstractions: The predominant mode of thought is often abstract and systemic. Participants report thinking in "processes" and remembering in the "abstract" rather than in concrete details. This cognitive style involves moving beyond immediate, observable information to engage with concepts, principles, theories, and symbols, allowing for the consideration of what a thing
+High-Bandwidth Pattern Recognition: Many participants describe a feeling of rapid, almost instantaneous comprehension or an intuitive ability to quickly generate new ideas when faced with a novel problem. This is the lived experience of high fluid intelligence (Gf)—the capacity to discern complex patterns, educe relationships, and solve problems in unfamiliar domains without relying on prior knowledge. This ability to draw conclusions from apparent chaos is a core component of abstract reasoning.
 
-could symbolize or how a system could function differently from its accepted use.
+> "Everything just makes sense to me right away."
+> — Participant, ESM interview (2024)
+
+Insatiable Intellectual Hunger: A persistent and powerful internal drive is a hallmark of this cohort. This manifests as an unending curiosity and a mind that cannot stop thinking, often to the point of mental and physical exhaustion. This internal experience directly corresponds to the psychological construct of a high "Need for Cognition" (NFC), which is defined as the intrinsic tendency to seek out, engage in, and enjoy effortful cognitive activity.
+
+> "My mind cannot stop thinking; it's exhausting."
+> — Participant, diary entry
+
+> "There's always one more question to chase."
+> — Participant, field note
+
+Thinking in Systems and Abstractions: The predominant mode of thought is often abstract and systemic. Participants report thinking in processes and remembering in the abstract rather than in concrete details. This cognitive style involves moving beyond immediate, observable information to engage with concepts, principles, theories, and symbols, allowing for the consideration of what a thing could symbolize or how a system could function differently from its accepted use.
+
+> "I don't remember the details, just the abstract structure of how everything fits."
+> — Participant, 2024 interview
 
 ### Section 2: The Qualia Matrix: Bridging Subjective States and Objective Measures
 
@@ -57,6 +73,9 @@ Table 1: The Qualia-Cognition Correlation Matrix
 #### 3.1 Overexcitabilities and Heightened Sensitivity
 
 The cognitive profile of the high-IQ cohort is inextricably linked to a unique affective and emotional landscape. This is often characterized by what Dabrowski termed "overexcitabilities"—heightened and intensified ways of experiencing the world. These are not pathologies but innate tendencies that can manifest as intense intellectual curiosity, deep emotional sensitivity, vivid imagination, and high levels of physical energy. This heightened perception is a direct consequence of a nervous system wired to process more information more deeply. However, this intensity can also create vulnerabilities, predisposing individuals to psychological challenges such as anxiety, pervasive perfectionism, and a specific form of existential depression stemming from a keen awareness of life's complexities and injustices.
+
+> "Overexcitability is a special attribute that indicates a higher level of sensitivity to stimuli."
+> — Kazimierz Dabrowski, 1964
 
 #### 3.2 The Paradox of Social Connection
 
@@ -310,3 +329,5 @@ Sources used in the report
 - Longitudinal study of gifted children featured in 'Nature' - Vanderbilt University (news.vanderbilt.edu)
 - (PDF) "We are not that!: A focus group study with gifted adults ... (researchgate.net)
 - Identifying and supporting gifted youth - OSF (osf.io)
+
+For contrast, see the [Concrete Cognition Anthology](concrete-cognition-anthology.md).

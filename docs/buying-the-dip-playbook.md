@@ -36,19 +36,23 @@ To build a framework that successfully identifies buyable dips, one must first d
 
 1. The Melting Ice Cube: This archetype describes a business in secular, inexorable decline. Its industry is being disrupted by technological or structural change, rendering its business model obsolete. While it may still generate cash flow and appear cheap on valuation multiples, its intrinsic value is relentlessly shrinking over time. As investor Kevin Daly notes, the key is to stay away from companies that "can't grow their cash flow and increase intrinsic value". A critical warning sign is a negative long-term trend in cash flow as a percentage of sales.   
 
-Case Study: Bed Bath & Beyond (BBBY): BBBY became a classic melting ice cube as it faced immense competition from e-commerce giants like Amazon and big-box retailers like Walmart and Target. This led to years of stagnating sales and severe margin compression. The company's management made a series of unforced errors, most notably financing a massive $1.5 billion share buyback with long-term debt in 2015, at a time when its stock price was elevated and its core business was weakening. This poor capital allocation destroyed the balance sheet without fixing the underlying operational issues, accelerating its path to bankruptcy in 2023.   
+!!! example "Case Study: Bed Bath & Beyond (BBBY)"
+    BBBY became a classic melting ice cube as it faced immense competition from e-commerce giants like Amazon and big-box retailers like Walmart and Target. This led to years of stagnating sales and severe margin compression. The company's management made a series of unforced errors, most notably financing a massive $1.5 billion share buyback with long-term debt in 2015, at a time when its stock price was elevated and its core business was weakening. This poor capital allocation destroyed the balance sheet without fixing the underlying operational issues, accelerating its path to bankruptcy in 2023.
 
 2. Competition Catches Up: This trap involves a formerly high-quality company that loses its competitive advantage, or "moat." As rivals improve their capabilities, the former leader's profitability and market share permanently decline. Ricky Sandler warns that this is one of the "biggest dangers in value investing," especially in an era of rapid disintermediation.   
 
-Case Study: BlackBerry (BB): BlackBerry pioneered the smartphone but catastrophically failed to recognize the threat posed by the Apple iPhone in 2007. Its management dismissed the touchscreen interface, clinging to its physical keyboard and enterprise focus while the market shifted dramatically. This strategic blunder led to a complete collapse of its market share and a revenue freefall from which it never recovered. Despite multiple attempts to pivot to software and services, the initial failure to adapt to a paradigm shift in its core market turned a market leader into a perennial value trap.   
+!!! example "Case Study: BlackBerry (BB)"
+    BlackBerry pioneered the smartphone but catastrophically failed to recognize the threat posed by the Apple iPhone in 2007. Its management dismissed the touchscreen interface, clinging to its physical keyboard and enterprise focus while the market shifted dramatically. This strategic blunder led to a complete collapse of its market share and a revenue freefall from which it never recovered. Despite multiple attempts to pivot to software and services, the initial failure to adapt to a paradigm shift in its core market turned a market leader into a perennial value trap.
 
 3. Cheap on Peak: This trap is common in cyclical industries like automotive, mining, and construction. The company appears cheap because it is trading at a low price-to-earnings multiple, but those earnings are at the peak of an economic or product cycle and are therefore unsustainable. When the cycle inevitably turns, earnings collapse, and the stock follows, revealing that it was not cheap at all.   
 
-Case Study: General Electric (GE): GE's disastrous $13 billion acquisition of Alstom's power business in 2015 is a textbook example. GE made a massive bet on the future of natural gas and coal-fired power generation at the precise moment the global energy transition toward renewables was accelerating. The company assumed that demand for thermal power would continue to grow, but the market collapsed instead. This misjudgment destroyed hundreds of billions in shareholder value as the Power division, once a profit center, became a massive drag on earnings and cash flow, leading to dividend cuts and years of painful restructuring.   
+!!! example "Case Study: General Electric (GE)"
+    GE's disastrous $13 billion acquisition of Alstom's power business in 2015 is a textbook example. GE made a massive bet on the future of natural gas and coal-fired power generation at the precise moment the global energy transition toward renewables was accelerating. The company assumed that demand for thermal power would continue to grow, but the market collapsed instead. This misjudgment destroyed hundreds of billions in shareholder value as the Power division, once a profit center, became a massive drag on earnings and cash flow, leading to dividend cuts and years of painful restructuring.
 
 4. The Value Mirage (Accounting Issues): Some companies appear cheap because their reported earnings are of low quality or are outright fraudulent. As noted by short-seller Jim Chanos, accounting issues are a common characteristic of value traps. These companies may use aggressive accounting techniques to obscure underlying problems, making them appear more profitable than they truly are.   
 
-Case Study: Enron: Enron is the ultimate cautionary tale. At its peak in 2000, its stock traded above $90 and it was lauded as one of America's most innovative companies. However, its reported profits were a mirage, created through a complex web of off-balance-sheet entities and mark-to-market accounting abuses that hid massive debts and losses. When the scheme unraveled in 2001, the stock collapsed to less than $1, wiping out shareholders and revealing the "value" to be entirely fictitious.   
+!!! example "Case Study: Enron"
+    Enron is the ultimate cautionary tale. At its peak in 2000, its stock traded above $90 and it was lauded as one of America's most innovative companies. However, its reported profits were a mirage, created through a complex web of off-balance-sheet entities and mark-to-market accounting abuses that hid massive debts and losses. When the scheme unraveled in 2001, the stock collapsed to less than $1, wiping out shareholders and revealing the "value" to be entirely fictitious.
 
 5. The Static Value Trap: This refers to a stable but non-growing business. An investor might buy it at a discount to its current intrinsic value, but if that value does not increase over time, the investment offers limited upside. As investor Bill Nygren puts it, "If the value isn't growing, then you've got a clock that's ticking against you". The margin of safety must exist not only in the discount to current value (the Y-axis) but also in the positive slope of that value over time (the X-axis).   
 
@@ -171,76 +175,76 @@ A deeper analysis of the backtest results also reveals the significant influence
 Section 4: Anatomy of a Successful Turnaround: Case Studies in Recovery
 To bring the quantitative findings to life, this section provides in-depth qualitative analyses of three prominent historical turnarounds. Each case study demonstrates how the Rehab Score framework would have been applied in real-time, highlighting the specific signals that heralded a successful recovery.
 
-4.1. Case Study: Meta Platforms (META), 2022
-Context: In 2022, Meta Platforms faced a perfect storm. The stock plunged approximately 76% from its 2021 peak amid slowing revenue growth, intense competitive pressure from TikTok, the disruptive impact of Apple's iOS privacy changes on its core advertising business, and widespread investor skepticism over the company's massive, seemingly undisciplined spending on its long-term metaverse vision.
+!!! example "Case Study: Meta Platforms (META), 2022"
+    Context: In 2022, Meta Platforms faced a perfect storm. The stock plunged approximately 76% from its 2021 peak amid slowing revenue growth, intense competitive pressure from TikTok, the disruptive impact of Apple's iOS privacy changes on its core advertising business, and widespread investor skepticism over the company's massive, seemingly undisciplined spending on its long-term metaverse vision.
 
-Rehab Scorecard at Trough (November 2022):
+    Rehab Scorecard at Trough (November 2022):
 
-FactorScoreSupporting Data and Rationale
-1. Valuation Reset3/3
-P/E ratio compressed to a historic low of ~13-14x. EV/EBITDA hit a 5-year low of 6.8x. FCF Yield spiked to its highest levels in years. The valuation was objectively cheap by every historical measure.   
+    FactorScoreSupporting Data and Rationale
+    1. Valuation Reset3/3
+    P/E ratio compressed to a historic low of ~13-14x. EV/EBITDA hit a 5-year low of 6.8x. FCF Yield spiked to its highest levels in years. The valuation was objectively cheap by every historical measure.
 
-2. Earnings Inflection2/4
-At the absolute trough in Nov 2022, estimates were still declining. However, the Q4 2022 earnings report on Feb 1, 2023, provided a significant revenue beat and strong Q1 guidance, marking the clear inflection point.   
+    2. Earnings Inflection2/4
+    At the absolute trough in Nov 2022, estimates were still declining. However, the Q4 2022 earnings report on Feb 1, 2023, provided a significant revenue beat and strong Q1 guidance, marking the clear inflection point.
 
-3. Discipline Pivot3/3
-CEO Mark Zuckerberg explicitly declared 2023 the "Year of Efficiency." This was immediately backed by an 11,000-person layoff in Nov 2022, followed by another 10,000 in March 2023, and a commitment to flatten management and cut projects.   
+    3. Discipline Pivot3/3
+    CEO Mark Zuckerberg explicitly declared 2023 the "Year of Efficiency." This was immediately backed by an 11,000-person layoff in Nov 2022, followed by another 10,000 in March 2023, and a commitment to flatten management and cut projects.
 
-4. Capital Allocation2/3
-Alongside the pivotal Q4 2022 earnings, the company announced a massive $40 billion increase to its share repurchase authorization, signaling immense confidence from the board.   
+    4. Capital Allocation2/3
+    Alongside the pivotal Q4 2022 earnings, the company announced a massive $40 billion increase to its share repurchase authorization, signaling immense confidence from the board.
 
-5. Capitulation1/2
-Sentiment was at rock bottom. The stock experienced multiple high-volume sell-offs, and analyst downgrades were common. The narrative was overwhelmingly bearish.   
+    5. Capitulation1/2
+    Sentiment was at rock bottom. The stock experienced multiple high-volume sell-offs, and analyst downgrades were common. The narrative was overwhelmingly bearish.
 
-6. Narrative Pivot2/2
-Management shifted the narrative away from the cash-burning metaverse and back toward the core ads business, emphasizing AI-driven improvements to ad performance and user engagement on Reels.   
+    6. Narrative Pivot2/2
+    Management shifted the narrative away from the cash-burning metaverse and back toward the core ads business, emphasizing AI-driven improvements to ad performance and user engagement on Reels.
 
-Total Rehab Score13/17
-Diagnosis: Meta in late 2022 was a classic, high-scoring Buyable Dip. The score of 13 was well above the threshold of 7. The turnaround was driven by the powerful and interconnected catalysts of a deep valuation reset, a credible and aggressive discipline pivot that directly addressed investor concerns, and a strategic refocus on the company's highly profitable core business. The subsequent earnings inflection and large-scale buyback announcement served as the definitive triggers for one of the most dramatic large-cap stock recoveries in recent market history.
+    Total Rehab Score13/17
+    Diagnosis: Meta in late 2022 was a classic, high-scoring Buyable Dip. The score of 13 was well above the threshold of 7. The turnaround was driven by the powerful and interconnected catalysts of a deep valuation reset, a credible and aggressive discipline pivot that directly addressed investor concerns, and a strategic refocus on the company's highly profitable core business. The subsequent earnings inflection and large-scale buyback announcement served as the definitive triggers for one of the most dramatic large-cap stock recoveries in recent market history.
 
-4.2. Case Study: NVIDIA (NVDA), 2018
-Context: Following a massive run-up fueled by the cryptocurrency boom, NVIDIA's stock crashed by over 56% in late 2018. The bursting of the crypto bubble created a significant inventory overhang of its gaming GPUs in the sales channel. The company was forced to guide revenue well below expectations, leading to a panic-driven sell-off as investors feared the growth story was over.   
+!!! example "Case Study: NVIDIA (NVDA), 2018"
+    Context: Following a massive run-up fueled by the cryptocurrency boom, NVIDIA's stock crashed by over 56% in late 2018. The bursting of the crypto bubble created a significant inventory overhang of its gaming GPUs in the sales channel. The company was forced to guide revenue well below expectations, leading to a panic-driven sell-off as investors feared the growth story was over.
 
-Rehab Scorecard at Trough (December 2018):
+    Rehab Scorecard at Trough (December 2018):
 
-FactorScoreSupporting Data and Rationale
-1. Valuation Reset3/3
-The P/E ratio, which had peaked near 50x, compressed dramatically, falling to a trough of 23.55x in the quarter ending Jan 2019. This represented a significant de-rating from growth-at-any-price levels to a more reasonable valuation.   
+    FactorScoreSupporting Data and Rationale
+    1. Valuation Reset3/3
+    The P/E ratio, which had peaked near 50x, compressed dramatically, falling to a trough of 23.55x in the quarter ending Jan 2019. This represented a significant de-rating from growth-at-any-price levels to a more reasonable valuation.
 
-2. Earnings Inflection1/4
-There was no immediate earnings inflection. Management was transparent that it would take one to two quarters for the channel inventory to normalize. The signal was weak at the trough, requiring investors to look through the short-term noise.   
+    2. Earnings Inflection1/4
+    There was no immediate earnings inflection. Management was transparent that it would take one to two quarters for the channel inventory to normalize. The signal was weak at the trough, requiring investors to look through the short-term noise.
 
-3. Discipline Pivot1/3
-The company demonstrated operational discipline by temporarily halting shipments of its mid-range GPUs to allow the excess inventory in the channel to be sold through, preventing a price war and protecting brand value.   
+    3. Discipline Pivot1/3
+    The company demonstrated operational discipline by temporarily halting shipments of its mid-range GPUs to allow the excess inventory in the channel to be sold through, preventing a price war and protecting brand value.
 
-4. Capital Allocation1/3
-NVIDIA maintained its existing capital return program, including dividends and share repurchases, signaling stability despite the near-term headwinds.   
+    4. Capital Allocation1/3
+    NVIDIA maintained its existing capital return program, including dividends and share repurchases, signaling stability despite the near-term headwinds.
 
-5. Capitulation2/2The stock experienced a violent, high-volume collapse, indicative of panic selling and capitulation as momentum investors fled the stock.
-6. Narrative Pivot2/2
-The crucial insight was recognizing that the crypto-related gaming slowdown was a cyclical, temporary issue. The secular growth narrative in the Data Center segment, driven by the adoption of AI, remained firmly intact. Data Center revenue continued to grow strongly (+50% Y/Y in Q4 2019) even as gaming revenue fell, proving the long-term thesis was not broken.   
+    5. Capitulation2/2The stock experienced a violent, high-volume collapse, indicative of panic selling and capitulation as momentum investors fled the stock.
+    6. Narrative Pivot2/2
+    The crucial insight was recognizing that the crypto-related gaming slowdown was a cyclical, temporary issue. The secular growth narrative in the Data Center segment, driven by the adoption of AI, remained firmly intact. Data Center revenue continued to grow strongly (+50% Y/Y in Q4 2019) even as gaming revenue fell, proving the long-term thesis was not broken.
 
-Total Rehab Score10/17
-Diagnosis: NVIDIA's 2018 crash scored a solid 10, qualifying it as a Buyable Dip. The investment thesis was predicated on correctly identifying a temporary, cyclical problem (the crypto inventory glut) that was masking an incredibly powerful, long-term secular growth trend (AI in the data center). The deep valuation reset provided the margin of safety, while the continued strength in the Data Center segment provided the evidence that the core growth engine of the company was undamaged.
+    Total Rehab Score10/17
+    Diagnosis: NVIDIA's 2018 crash scored a solid 10, qualifying it as a Buyable Dip. The investment thesis was predicated on correctly identifying a temporary, cyclical problem (the crypto inventory glut) that was masking an incredibly powerful, long-term secular growth trend (AI in the data center). The deep valuation reset provided the margin of safety, while the continued strength in the Data Center segment provided the evidence that the core growth engine of the company was undamaged.
 
-4.3. Case Study: Tesla (TSLA), 2022
-Context: In 2022, Tesla's stock suffered its worst year on record, plummeting 65%. The decline was driven by a combination of factors: rising interest rates pressuring high-growth valuations, increasing EV competition, and, most acutely, concerns over CEO Elon Musk's focus and capital being diverted to his acquisition of Twitter.   
+!!! example "Case Study: Tesla (TSLA), 2022"
+    Context: In 2022, Tesla's stock suffered its worst year on record, plummeting 65%. The decline was driven by a combination of factors: rising interest rates pressuring high-growth valuations, increasing EV competition, and, most acutely, concerns over CEO Elon Musk's focus and capital being diverted to his acquisition of Twitter.
 
-Rehab Scorecard at Trough (December 2022):
+    Rehab Scorecard at Trough (December 2022):
 
-FactorScoreSupporting Data and Rationale
-1. Valuation Reset2/3
-While still expensive by traditional auto-industry standards, Tesla's valuation multiples contracted dramatically relative to its own history. The P/E ratio fell to a multi-year low of ~38x, and the EV/EBITDA multiple compressed to ~23x, a stark de-rating from its prior levels above 100x.   
+    FactorScoreSupporting Data and Rationale
+    1. Valuation Reset2/3
+    While still expensive by traditional auto-industry standards, Tesla's valuation multiples contracted dramatically relative to its own history. The P/E ratio fell to a multi-year low of ~38x, and the EV/EBITDA multiple compressed to ~23x, a stark de-rating from its prior levels above 100x.
 
-2. Earnings Inflection3/4
-Despite the stock's collapse, Tesla's underlying business fundamentals remained robust. The Q4 2022 earnings report (released Jan 25, 2023) showed record quarterly revenue of $24.3 billion and record deliveries, beating analyst expectations and demonstrating that operational momentum was intact.   
+    2. Earnings Inflection3/4
+    Despite the stock's collapse, Tesla's underlying business fundamentals remained robust. The Q4 2022 earnings report (released Jan 25, 2023) showed record quarterly revenue of $24.3 billion and record deliveries, beating analyst expectations and demonstrating that operational momentum was intact.
 
-3. Discipline Pivot1/3In early 2023, Tesla initiated a series of aggressive price cuts globally. This was a strategic pivot to leverage its industry-leading margins and manufacturing scale to pressure competitors and stimulate demand in a softening macro environment.
-4. Capital Allocation0/3Tesla did not engage in share buybacks or dividends, as the company remained in a high-growth investment phase.
-5. Capitulation2/2Sentiment surrounding the stock was extremely negative, with widespread media commentary declaring that the "Tesla bubble" had finally burst. The overhang from the Twitter acquisition created maximum pessimism.
-6. Narrative Pivot1/2The narrative began to shift away from the distraction of Twitter and back to Tesla's core operational strengths and its long-term technology roadmap, including the Cybertruck and next-generation platforms.
-Total Rehab Score9/17
-Diagnosis: Tesla's 2022 drawdown scored a 9, identifying it as a sentiment-driven Buyable Dip. The key to this thesis was recognizing the profound decoupling between the stock's price, which was collapsing due to external factors and sentiment, and the company's underlying fundamentals, which remained exceptionally strong. The Q4 earnings report served as the catalyst, proving that the business was not broken and forcing the market to refocus on its impressive operational execution and growth.
+    3. Discipline Pivot1/3In early 2023, Tesla initiated a series of aggressive price cuts globally. This was a strategic pivot to leverage its industry-leading margins and manufacturing scale to pressure competitors and stimulate demand in a softening macro environment.
+    4. Capital Allocation0/3Tesla did not engage in share buybacks or dividends, as the company remained in a high-growth investment phase.
+    5. Capitulation2/2Sentiment surrounding the stock was extremely negative, with widespread media commentary declaring that the "Tesla bubble" had finally burst. The overhang from the Twitter acquisition created maximum pessimism.
+    6. Narrative Pivot1/2The narrative began to shift away from the distraction of Twitter and back to Tesla's core operational strengths and its long-term technology roadmap, including the Cybertruck and next-generation platforms.
+    Total Rehab Score9/17
+    Diagnosis: Tesla's 2022 drawdown scored a 9, identifying it as a sentiment-driven Buyable Dip. The key to this thesis was recognizing the profound decoupling between the stock's price, which was collapsing due to external factors and sentiment, and the company's underlying fundamentals, which remained exceptionally strong. The Q4 earnings report served as the catalyst, proving that the business was not broken and forcing the market to refocus on its impressive operational execution and growth.
 
 Section 5: The Warning Signs: Dissecting Value Traps
 A robust investment framework is defined as much by the losses it avoids as by the gains it captures. This section serves as a critical counterpoint to the success stories, analyzing prominent historical value traps through the lens of the Rehab Score. By applying the scorecard in retrospect, it becomes clear how the framework's emphasis on forward-looking fundamentals and credible management action would have provided clear warning signals to investors, helping them sidestep catastrophic capital destruction.
@@ -248,47 +252,47 @@ A robust investment framework is defined as much by the losses it avoids as by t
 5.1. Applying the Scorecard in Retrospect
 The following case studies examine large-cap companies that, after a significant price decline, appeared "cheap" on traditional valuation metrics. However, a systematic application of the Rehab Score at the time would have revealed critical deficiencies in the key factors that drive a sustainable recovery, yielding low scores and a clear "avoid" signal.
 
-5.2. Case Study: General Electric (GE), 2017-2018
-Context: After decades as a blue-chip stalwart, General Electric entered a period of profound crisis. Years of opaque financial reporting under GE Capital and a disastrous, top-of-the-market acquisition of Alstom's power business converged with the secular decline of the fossil fuel power generation market. The stock appeared cheap as it fell through 2017 and 2018, attracting value investors who believed in the strength of its industrial pedigree.   
+!!! example "Case Study: General Electric (GE), 2017-2018"
+    Context: After decades as a blue-chip stalwart, General Electric entered a period of profound crisis. Years of opaque financial reporting under GE Capital and a disastrous, top-of-the-market acquisition of Alstom's power business converged with the secular decline of the fossil fuel power generation market. The stock appeared cheap as it fell through 2017 and 2018, attracting value investors who believed in the strength of its industrial pedigree.
 
-Rehab Scorecard (Mid-2018):
+    Rehab Scorecard (Mid-2018):
 
-FactorScoreSupporting Data and Rationale
-1. Valuation Reset2/3On backward-looking metrics like price-to-book and a normalized P/E ratio, GE appeared inexpensive relative to its history.
-2. Earnings Inflection0/4
-There was a complete absence of an earnings inflection. Analysts were in a state of perpetual downgrade as the depth of the problems in the Power and Capital divisions became clearer with each passing quarter. Cash flow forecasts were consistently missed and revised lower.   
+    FactorScoreSupporting Data and Rationale
+    1. Valuation Reset2/3On backward-looking metrics like price-to-book and a normalized P/E ratio, GE appeared inexpensive relative to its history.
+    2. Earnings Inflection0/4
+    There was a complete absence of an earnings inflection. Analysts were in a state of perpetual downgrade as the depth of the problems in the Power and Capital divisions became clearer with each passing quarter. Cash flow forecasts were consistently missed and revised lower.
 
-3. Discipline Pivot0/3Management's actions lacked credibility and decisiveness. The company was forced into multiple dividend cuts, which are signals of financial distress, not proactive discipline. The operational issues in the Power segment were not being effectively addressed.
-4. Capital Allocation0/3The company was in capital preservation mode, not capital return. The dividend cuts were a clear signal that cash flow was insufficient to meet obligations, a direct contradiction of a confident capital allocation signal.
-5. Capitulation1/2Sentiment was negative, but there was still a large contingent of investors who believed in a turnaround, preventing a true "washout" moment.
-6. Narrative Pivot0/2
-The narrative was one of confusion. The complexity of GE Capital's run-off insurance liabilities and the ongoing deterioration in the Power business meant there was no clear, credible path to recovery that management could articulate.   
+    3. Discipline Pivot0/3Management's actions lacked credibility and decisiveness. The company was forced into multiple dividend cuts, which are signals of financial distress, not proactive discipline. The operational issues in the Power segment were not being effectively addressed.
+    4. Capital Allocation0/3The company was in capital preservation mode, not capital return. The dividend cuts were a clear signal that cash flow was insufficient to meet obligations, a direct contradiction of a confident capital allocation signal.
+    5. Capitulation1/2Sentiment was negative, but there was still a large contingent of investors who believed in a turnaround, preventing a true "washout" moment.
+    6. Narrative Pivot0/2
+    The narrative was one of confusion. The complexity of GE Capital's run-off insurance liabilities and the ongoing deterioration in the Power business meant there was no clear, credible path to recovery that management could articulate.
 
-Total Rehab Score3/17
-Diagnosis: General Electric in 2018 was a quintessential value trap, and the Rehab Score of 3 would have served as a stark warning. The low score was driven by a catastrophic failure on the most critical forward-looking factors. The complete lack of an earnings inflection, combined with reactive (rather than proactive) management actions and an incoherent narrative, signaled that the company's problems were deep, structural, and far from being resolved.
+    Total Rehab Score3/17
+    Diagnosis: General Electric in 2018 was a quintessential value trap, and the Rehab Score of 3 would have served as a stark warning. The low score was driven by a catastrophic failure on the most critical forward-looking factors. The complete lack of an earnings inflection, combined with reactive (rather than proactive) management actions and an incoherent narrative, signaled that the company's problems were deep, structural, and far from being resolved.
 
-5.3. Case Study: BlackBerry (BB), 2012-2014
-Context: Following its decisive loss in the smartphone market to Apple and Google, BlackBerry's stock collapsed by over 90% from its peak. By 2014, the company was attempting a pivot to enterprise software and services. With the stock trading at a fraction of its former value and often near or below its book value, it appeared to be a classic "cigar butt" value play.   
+!!! example "Case Study: BlackBerry (BB), 2012-2014"
+    Context: Following its decisive loss in the smartphone market to Apple and Google, BlackBerry's stock collapsed by over 90% from its peak. By 2014, the company was attempting a pivot to enterprise software and services. With the stock trading at a fraction of its former value and often near or below its book value, it appeared to be a classic "cigar butt" value play.
 
-Rehab Scorecard (2014):
+    Rehab Scorecard (2014):
 
-FactorScoreSupporting Data and Rationale
-1. Valuation Reset3/3The company's valuation was extremely depressed by any measure, frequently trading at a low multiple of its book value.
-2. Earnings Inflection0/4
-The company was reporting staggering and consistent losses. For fiscal year 2014, BlackBerry reported a GAAP net loss of $5.9 billion on revenue of just $6.8 billion. Revenue was in freefall, declining 38% year-over-year, with no sign of stabilization.   
+    FactorScoreSupporting Data and Rationale
+    1. Valuation Reset3/3The company's valuation was extremely depressed by any measure, frequently trading at a low multiple of its book value.
+    2. Earnings Inflection0/4
+    The company was reporting staggering and consistent losses. For fiscal year 2014, BlackBerry reported a GAAP net loss of $5.9 billion on revenue of just $6.8 billion. Revenue was in freefall, declining 38% year-over-year, with no sign of stabilization.
 
-3. Discipline Pivot1/3
-The company was engaged in its "CORE" cost-cutting program, but these efforts were entirely reactive and insufficient to offset the hemorrhaging of revenue from its collapsing handset business.   
+    3. Discipline Pivot1/3
+    The company was engaged in its "CORE" cost-cutting program, but these efforts were entirely reactive and insufficient to offset the hemorrhaging of revenue from its collapsing handset business.
 
-4. Capital Allocation0/3
-The company was in a significant cash burn position, using approximately $553 million in cash from operations in Q4 2014 alone. Capital was being consumed, not returned to shareholders.   
+    4. Capital Allocation0/3
+    The company was in a significant cash burn position, using approximately $553 million in cash from operations in Q4 2014 alone. Capital was being consumed, not returned to shareholders.
 
-5. Capitulation1/2The stock had clearly capitulated from its highs, but the narrative had shifted to a speculative bet on a turnaround, attracting a new class of investors.
-6. Narrative Pivot0/2
-The pivot to enterprise software was a strategic necessity, but in 2014, it was still a nascent and unproven strategy. The core handset business, which still accounted for the majority of revenue, was a "Melting Ice Cube" with no prospect of recovery.   
+    5. Capitulation1/2The stock had clearly capitulated from its highs, but the narrative had shifted to a speculative bet on a turnaround, attracting a new class of investors.
+    6. Narrative Pivot0/2
+    The pivot to enterprise software was a strategic necessity, but in 2014, it was still a nascent and unproven strategy. The core handset business, which still accounted for the majority of revenue, was a "Melting Ice Cube" with no prospect of recovery.
 
-Total Rehab Score5/17
-Diagnosis: With a low score of 5, BlackBerry in 2014 was correctly identified as a value trap. The extremely low score on the critical "Earnings Inflection" factor was the primary red flag. A company cannot recover when its revenue base is evaporating and it is generating massive losses with no clear path to profitability. The cheap valuation was simply a reflection of a business whose core market had been permanently disrupted.
+    Total Rehab Score5/17
+    Diagnosis: With a low score of 5, BlackBerry in 2014 was correctly identified as a value trap. The extremely low score on the critical "Earnings Inflection" factor was the primary red flag. A company cannot recover when its revenue base is evaporating and it is generating massive losses with no clear path to profitability. The cheap valuation was simply a reflection of a business whose core market had been permanently disrupted.
 
 5.4. Comparative Signal Analysis
 Analyzing these cases reveals a systematic pattern. While both successful turnarounds and value traps often begin with a significant valuation reset, their paths diverge sharply on the other, more dynamic factors. The following table summarizes the average scores observed across the backtest for companies that successfully recovered versus those that became value traps.
