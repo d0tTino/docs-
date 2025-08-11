@@ -15,6 +15,10 @@ The central argument of this analysis is that while the desire to "add hours to 
 
 To systematically assess these claims, this report employs an evidence-based methodology, drawing upon a corpus of over 30 peer-reviewed studies and authoritative sources from fields including sleep science, cognitive neuroscience, and chronobiology. Each of eight prominent frameworks is analyzed according to a standardized rubric, evaluating its Efficacy, Sustainability, Transferability, and Risk/Cost. The findings are then aggregated and compared, culminating in a synthesized conclusion that separates evidence-based strategies from dangerous fads and offers practical recommendations for achieving sustainable high performance without sacrificing long-term health and well-being.
 
+The relationship between rest and output is evident: as nightly sleep decreases, performance drops sharply (see figure below).
+
+![Sleep hours versus performance](img/sleep-performance.svg)
+
 ## The Biological Foundations of Performance and Time
 
 To accurately evaluate any productivity framework, one must first understand the non-negotiable biological rules that govern human performance. These systems—sleep homeostasis, circadian rhythms, and ultradian rhythms—form an interconnected regulatory network. The success or failure of any productivity strategy can be reliably predicted by the degree to which it respects or violates these fundamental biological laws.
