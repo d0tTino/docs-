@@ -33,6 +33,12 @@ We can apply this concept to the socio-technical realm using a **micro–meso–
 - **Macro-organism (Meso-level)** – a group of interacting individuals, such as a team, department, or founder-led startup. Interactions are direct and the group functions as a cohesive unit.[^17]
 - **Metaorganism (Macro-level)** – the large-scale organization, social movement, or digital platform. At this level, complexity leads to emergent behavior that cannot be predicted from individual components.[^17] It develops its own identity and survival imperative, distinct from any single agent.
 
+```mermaid
+flowchart TD
+    Micro["Micro: Individual agents"] --> Meso["Meso: Teams or groups"]
+    Meso --> Macro["Macro: Large-scale organizations"]
+```
+
 | Level     | Description                                        |
 | --------- | -------------------------------------------------- |
 | **Micro** | Individual agents operating as fundamental units   |
