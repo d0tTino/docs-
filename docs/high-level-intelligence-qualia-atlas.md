@@ -11,6 +11,17 @@ updated: 2025-07-29
 
 ### Section 1: The Texture of Abstract Thought: A Qualitative Synthesis
 
+Mind map linking major themes:
+
+```mermaid
+mindmap
+  root((High-IQ Qualia))
+    Multi-threaded Cognition
+    Pattern Recognition
+    Intellectual Hunger
+    Systems Thinking
+```
+
 #### 1.1 Defining the Phenomenon
 
 The scientific investigation of subjective experience, or qualia, confronts the foundational challenge of bridging the objective world of measurable neural events with the private, first-person world of consciousness. This report approaches this challenge through a framework of "objective phenomenology," aiming to describe the subjective character of high-level intelligence in a manner that is systematic and independent of any single viewpoint. Utilizing methods from phenomenological research, the goal is to move beyond common stereotypes and capture the essential structure and meaning that individuals with high cognitive abilities (IQ ≥130) ascribe to their own thought processes. This involves understanding giftedness not merely as a psychometric score, but as a lived experience with a distinct texture and dynamic.
