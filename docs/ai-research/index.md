@@ -13,6 +13,7 @@ updated: 2025-08-12
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
 - [Context Windows Field Guide](context-windows-field-guide.md)
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
+- [Grok's Utilization of the X Ecosystem](grok-x-ecosystem-utilization.md)
 - [Logical Chunking Strategies](logical-chunking.md)
 - [Neurosymbolic Reasoning Dossier](neurosymbolic-reasoning-dossier.md)
 - [Peaks and Freezes: A Strategic Analysis of AI's 70-Year Hype Cycle and Lessons for the Next Decade](peaks-and-freezes.md)
