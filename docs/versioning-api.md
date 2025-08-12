@@ -49,6 +49,10 @@ from versioning.client import DocsClient
 client = DocsClient("http://localhost:8000", token="secrettoken")
 client.create_comment("doc1", "L1", "user1", "Nice!", correlation_id="c-1")
 client.update_document(
-    "doc1", " more text", author_id="agent1", summary="edit", correlation_id="c-2"
+    "doc1",
+    " more text",
+    author_id="agent1",
+    summary="edit",
+    correlation_id="c-2",
 )
 ```
