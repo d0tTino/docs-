@@ -11,6 +11,8 @@ updated: 2025-07-29
 
 This repository aggregates documentation and research across multiple projects.
 
+**Jump to:** [Quickstart](#quickstart) · [Installing Node Dependencies](#installing-node-dependencies) · [Directory Structure](#directory-structure) · [Research Docs](#research-docs) · [Project Documentation Submodules](#project-documentation-submodules) · [After Cloning](#after-cloning) · [Building the Docs](#building-the-docs) · [Setting Up Git Hooks](#setting-up-git-hooks) · [Invoking the Migration Script](#invoking-the-migration-script) · [Ingesting and Querying Markdown](#ingesting-and-querying-markdown) · [Legal](#legal) · [References](#references)
+
 ## Quickstart
 
 ```bash
@@ -29,18 +31,7 @@ npm install
 
 ## Directory Structure
 
-```mermaid
-flowchart LR
-    docs[docs/]
-    docs --> ai[ai-research/]
-    docs --> arduino[arduino/]
-    docs --> terminal[terminal-workflow/]
-    docs --> culture[culture-project/]
-    docs --> projects[_project-docs/]
-    docs --> scripts[scripts/]
-    docs --> playbooks[playbooks/]
-    docs --> security[security/]
-```
+![Site Map](img/site-map.svg)
 
 - `ai-research/` – AI and machine learning notes
 - `arduino/` – hardware and firmware references
