@@ -15,9 +15,20 @@ updated: 2025-07-28
 
 ```mermaid
 flowchart LR
-    A[Repository] --> B[CI builds docs]
-    B --> C[Static site generated]
-    C --> D[Deploy to hosting]
+    subgraph Contributors["Trust Boundary: Contributors"]
+        D[Developers]
+        R[Repository]
+    end
+    subgraph Build["Trust Boundary: CI"]
+        C[CI builds docs]
+        S[Static site generated]
+    end
+    subgraph Public["Trust Boundary: Public"]
+        H[Hosting]
+        U[Users]
+    end
+
+    D --> R --> C --> S --> H --> U
 ```
 
 ## Potential Threats
