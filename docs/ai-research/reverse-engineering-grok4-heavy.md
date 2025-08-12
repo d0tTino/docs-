@@ -15,6 +15,19 @@ This report presents a detailed reverse-engineering analysis of the multi-agent 
 
 The system's primary operational modality involves decomposing complex user prompts into a structured graph of sub-tasks. These tasks are then distributed among a pool of specialized agents that work in parallel and collaboratively, sharing information to build upon each other's work. Public statements describe this as being analogous to a "study group" where agents can "solve a problem in parallel and compare answers," a mechanism designed to enhance reasoning and reduce errors. This collaborative approach is credited with significant performance gains, including a reported 40% faster problem-solving time on complex tasks and a reduction in model hallucination through cross-checking.
 
+The reasoning loop and tool interactions can be visualized as:
+
+```mermaid
+flowchart TD
+    U[User Query] --> R[Agent Reasoning]
+    R --> T{Need Tool?}
+    T -- Yes --> I[Invoke Tool]
+    I --> R
+    T -- No --> A[Draft Response]
+    R --> A
+    A --> O[User Output]
+```
+
 ### 1.2 Inferred Architecture at a Glance
 
 The inferred architecture of the Grok 4 Heavy framework is a hierarchical, multi-component system designed for parallelism, specialization, and high-bandwidth coordination. The primary components are:
