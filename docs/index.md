@@ -47,6 +47,8 @@ npm install
 The `ai-research/` folder collects design notes and technical dossiers for
 ongoing experiments. Key documents include:
 
+### AI Research
+
 - [Strategic R&D Roadmap for DeepThought-ReThought](ai-research/strategic-roadmap-deepthought.md)
 - [Reverse-Engineering OpenAI Codex](ai-research/reverse-engineering-codex.md)
 - [Reverse-Engineering Design Report: OpenAI ChatGPT Agent System](ai-research/reverse-engineering-chatgpt-agent-system.md)
@@ -59,9 +61,20 @@ ongoing experiments. Key documents include:
 - [Peaks and Freezes](ai-research/peaks-and-freezes.md)
 - [Thick Band of 21st-Century Possibilities](ai-research/thick-band-of-21st-century-possibilities.md)
 - [You Weren't Supposed to Invent Infinite Jest](ai-research/you-werent-supposed-to-invent-infinite-jest.md)
+- [OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA](gpt5-backlash.md)
 
 See [ai-research/index.md](ai-research/index.md) for additional context and any
 newly added reports.
+
+### Non-AI Research
+
+- [Add Hours to Your Day? Debunking Productivity Frameworks](add-hours-to-your-day.md)
+- [Buying the Dip: A Historical, Signal-Driven Playbook for Identifying Corporate Turnarounds](buying-the-dip-playbook.md)
+- [The Metaorganism: A New Framework for Organizational Evolution](metaorganism.md)
+- [From Qualia to Simulacra: An Inquiry into the Communicability of Experience](from-qualia-to-simulacra.md)
+- [The Concrete Cognition Anthology](concrete-cognition-anthology.md)
+- [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md)
+- [Notable Figures](inspiring-figures.md)
 
 ## Project Documentation Submodules
 
