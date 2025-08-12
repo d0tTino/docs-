@@ -170,3 +170,17 @@ EOF
 
 This documentation is provided for informational purposes and comes with no
 warranty. See the [LICENSE](../LICENSE) for terms and standard disclaimers.
+
+## References
+
+### Legal cases
+1. *Riley v. California*, 573 U.S. 373 (2014).
+2. *Van Buren v. United States*, 593 U.S. 674 (2021).
+
+### APIs
+1. GitHub REST API v3 documentation – https://docs.github.com/en/rest
+2. OpenAI API reference – https://platform.openai.com/docs/api-reference
+
+### Publications
+1. Shoshana Zuboff, *The Age of Surveillance Capitalism* (PublicAffairs, 2019).
+2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
