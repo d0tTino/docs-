@@ -28,6 +28,12 @@ For a transformer with **L** layers, **H** heads and head dimension **d**, stori
 KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes
 ```
 
+![KV cache size vs. tokens](kv-cache-chart.png)
+
+*Figure 1: KV cache size grows roughly linearly with model scale and token count.*
+
+The underlying data in [context-windows-design-matrix.csv](context-windows-design-matrix.csv) maps each bar to a model and sequence length, helping you read exact memory requirements from the chart.
+
 A single 16 k-token request therefore uses over 40 GiB of memory【563653443713035†L150-L171】.  Activation memory (intermediate activations needed for backpropagation) also scales with sequence length.  Training long contexts often requires gradient accumulation, checkpointing, recomputation or reversible layers to manage memory【477669928722032†L344-L360】.  During inference, memory fragmentation and scheduler constraints further limit the usable window.  Hardware improvements (larger VRAM, faster memory bandwidth) and algorithmic innovations (FlashAttention, PagedAttention) are critical to make long context practical.
 
 ## 2 Landscape of context sizes in 2025
