@@ -11,6 +11,8 @@ updated: 2025-08-09
 
 Large language models (LLMs) and embedding models have finite context windows, which means that long documents must be broken into smaller pieces before they can be embedded and searched in a retrieval‑augmented generation (RAG) system. Effective chunking is critical: it allows RAG pipelines to fit data into the context window of embedding models, preserve semantic continuity, improve retrieval accuracy, and reduce latency and cost[^1][^2]. A good chunking strategy ensures that chunks are large enough to capture complete ideas yet small enough to index efficiently. This section surveys factors to consider and common chunking methods, and provides guidelines for selecting chunk sizes and overlaps.
 
+For broader context window strategies, see [Context Windows Field Guide](context-windows-field-guide.md).
+
 ## Key Factors for Effective Chunking
 
 When designing a chunking strategy, several variables need to be considered[^1][^2]:
@@ -104,6 +106,13 @@ Selecting the right chunk size involves balancing context preservation with retr
 ## Conclusion
 
 Logical chunking is a foundational step in retrieval‑augmented generation systems. Thoughtful chunking improves recall, reduces hallucination risk and helps LLMs use context effectively. By considering the type of content, embedding model limits, downstream tasks and available tools, practitioners can choose or combine chunking strategies that best suit their application. Continuous experimentation and measurement are essential, since optimal chunk size and method often vary across domains. Adopting a flexible, evidence‑based approach to chunking will yield more accurate and efficient RAG pipelines.
+
+## See also
+
+- [Context Windows Field Guide](context-windows-field-guide.md)
+- [Context Windows Deep Dive](context-windows-deep-dive.md)
+- [Reverse-Engineering GPT-o3 Multi-Turn Reasoning](reverse-engineering-gpt-o3.md)
+
 [^1]: Grgoire Mialon et al., "Augmented Language Models: a Survey," arXiv, 2023. https://arxiv.org/abs/2302.07842
 [^2]: OpenAI, "Retrieval Augmented Generation," https://platform.openai.com/docs/guides/rag
 [^3]: Pinecone, "Chunking Strategies for LLM Applications," https://www.pinecone.io/learn/chunking-strategies/
