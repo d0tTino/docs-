@@ -92,12 +92,7 @@ which runs `markdownlint-cli` and `flake8`.
 ## Building the Docs
 
 Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs,
-pytest, flake8) install consistently, then launch the dev server:
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
+pytest, flake8) install consistently, then launch the dev server using the commands in the [Quickstart](#quickstart) section.
 
 Visit http://127.0.0.1:8000 to preview the site locally.
 
