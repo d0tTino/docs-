@@ -34,3 +34,4 @@ This section collects planning documents, design reports, and experimental analy
 - [Peaks and Freezes](peaks-and-freezes.md)
 - [Thick Band of 21st-Century Possibilities](thick-band-of-21st-century-possibilities.md)
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
+- [Grok's Utilization of the X Ecosystem](grok-x-ecosystem-utilization.md)

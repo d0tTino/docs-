@@ -45,7 +45,9 @@ The findings are aggregated to separate evidence-based strategies from dangerous
 
 The relationship between rest and output is evident: as nightly sleep decreases, performance drops sharply (see figure below).
 
-![Sleep hours versus performance](img/sleep-performance.svg)
+![Line chart of nightly sleep duration versus performance levels](img/sleep-performance.svg)
+
+*Figure: Performance decreases sharply as sleep duration declines.*
 
 ## The Biological Foundations of Performance and Time
 

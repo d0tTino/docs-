@@ -21,13 +21,13 @@ A Sparsely-Gated Mixture of Experts (MoE) Transformer: This serves as the founda
 
 A Dynamic Context & State Management Engine: This subsystem acts as the "operating system" for the conversational agent. It is responsible for maintaining state, managing the limited context window across extended dialogues, and ensuring conversational coherence. It employs a hierarchy of techniques including summarization, sliding windows, and vectorized long-term memory.
 
-An Integrated Retrieval-Augmented Generation (RAG) Pipeline: To ensure factual accuracy and provide up-to-date information, the system dynamically queries an external knowledge base. This RAG pipeline retrieves relevant information from a vector database and injects it into the model's context, grounding its responses in verifiable data.
+An Integrated [Retrieval-Augmented Generation (RAG) Pipeline](logical-chunking.md): To ensure factual accuracy and provide up-to-date information, the system dynamically queries an external knowledge base. This RAG pipeline retrieves relevant information from a vector database and injects it into the model's context, grounding its responses in verifiable data.
 
 - **Sparsely-Gated Mixture of Experts (MoE) Transformer**: This serves as the foundational generative model. Its architecture enables scaling to trillions of parameters while maintaining manageable inference costs through conditional computation, activating only a fraction of its total weights for any given input token.
 
 - **Dynamic Context & State Management Engine**: This subsystem acts as the "operating system" for the conversational agent. It is responsible for maintaining state, managing the limited context window across extended dialogues, and ensuring conversational coherence. It employs a hierarchy of techniques including summarization, sliding windows, and vectorized long-term memory.
 
-- **Integrated Retrieval-Augmented Generation (RAG) Pipeline**: To ensure factual accuracy and provide up-to-date information, the system dynamically queries an external knowledge base. This RAG pipeline retrieves relevant information from a vector database and injects it into the model's context, grounding its responses in verifiable data.
+- **Integrated [Retrieval-Augmented Generation (RAG) Pipeline](logical-chunking.md)**: To ensure factual accuracy and provide up-to-date information, the system dynamically queries an external knowledge base. This RAG pipeline retrieves relevant information from a vector database and injects it into the model's context, grounding its responses in verifiable data.
 
 The interaction between these three components—the MoE model as the computational core, the Context Engine as the state manager, and the RAG pipeline as the knowledge source—is what endows the system with its powerful and coherent multi-turn reasoning abilities.
 
@@ -622,6 +622,12 @@ This section would contain anonymized and condensed excerpts from dynamic analys
 ### 10.4. Full License Texts
 
 This section would contain the full, verbatim text of the Apache License, Version 2.0, and the MIT License. This is a legal requirement for distributing software that uses or is licensed under these terms and is included here for completeness and compliance.
+
+## See also
+
+- [Reverse-Engineering OpenAI Codex](reverse-engineering-codex.md)
+- [Reverse-Engineering ChatGPT Agent System](reverse-engineering-chatgpt-agent-system.md)
+- [Logical Chunking Strategies](logical-chunking.md)
 
 ## Sources used in the report
 
