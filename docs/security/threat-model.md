@@ -23,8 +23,8 @@ flowchart LR
 ## Potential Threats
 
 
-| Threat | Impact | Likelihood | Mitigation |
-| --- | --- | --- | --- |
-| Unauthorized modification or defacement of docs | Medium | Medium | Use version control with code review to gate changes |
-| Malicious code injection in scripts | High | Low | Restrict script permissions and validate dependencies |
-| Leakage of credentials or sensitive data | High | Low | Scan commits for secrets and rotate credentials regularly |
+| Threat | Impact | Likelihood | Severity | Mitigation |
+| --- | --- | --- | --- | --- |
+| Unauthorized modification or defacement of docs | Medium | Medium | Medium | Use version control with code review to gate changes |
+| Malicious code injection in scripts | High | Low | High | Restrict script permissions and validate dependencies |
+| Leakage of credentials or sensitive data | High | Low | High | Scan commits for secrets and rotate credentials regularly |
