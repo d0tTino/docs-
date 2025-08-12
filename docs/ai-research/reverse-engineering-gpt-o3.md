@@ -31,6 +31,19 @@ An Integrated [Retrieval-Augmented Generation (RAG) Pipeline](logical-chunking.m
 
 The interaction between these three components—the MoE model as the computational core, the Context Engine as the state manager, and the RAG pipeline as the knowledge source—is what endows the system with its powerful and coherent multi-turn reasoning abilities.
 
+The reasoning loop and tool interactions can be visualized as:
+
+```mermaid
+flowchart TD
+    U[User Query] --> R[Agent Reasoning]
+    R --> T{Need Tool?}
+    T -- Yes --> I[Invoke Tool]
+    I --> R
+    T -- No --> A[Draft Response]
+    R --> A
+    A --> O[User Output]
+```
+
 ### 1.2. Core Capabilities Analysis
 
 The target system's state-of-the-art performance is a direct result of several key architectural and algorithmic choices. The MoE architecture is a strategic solution to the computational challenges of scaling dense Transformer models. By routing each token through only a small subset of specialized "expert" sub-networks, the system achieves a massive parameter count without a proportional increase in inference latency or cost.

@@ -34,6 +34,19 @@ Code Interpreter), a file retrieval system based on Retrieval-Augmented Generati
 State management is handled through a persistent, stateful conversation object (Thread), which serves as the agent's short-term memory. The system's asynchronous nature, evidenced by a client-side polling mechanism, indicates a backend architecture built on a distributed task queue, designed for handling long-running, computationally intensive operations.
 
 
+The reasoning loop and tool interactions can be visualized as:
+
+```mermaid
+flowchart TD
+    U[User Query] --> R[Agent Reasoning]
+    R --> T{Need Tool?}
+    T -- Yes --> I[Invoke Tool]
+    I --> R
+    T -- No --> A[Draft Response]
+    R --> A
+    A --> O[User Output]
+```
+
 ### 1.2 Legal Viability
 
 A thorough legal review concludes that the re-implementation of a functionally equivalent system is legally permissible under United States law, contingent upon strict adherence to a "clean room" development protocol. The legal strategy is anchored in two key tenets of copyright law. First, the "interoperability" exception of the Digital Millennium Copyright Act (DMCA), specifically 17 U.S.C. § 1201(f), provides a safe harbor for reverse engineering conducted for the sole purpose of enabling different computer programs to exchange and mutually use information. Second, the "fair use" doctrine, as affirmed in landmark federal court cases such as 
