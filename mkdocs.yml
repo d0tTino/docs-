@@ -30,9 +30,13 @@ nav:
   - Home: index.md
   - AI Research:
       - Overview: ai-research/index.md
-      - Logical Chunking: ai-research/logical-chunking.md
-      - Reverse Engineering Codex: ai-research/reverse-engineering-codex.md
-      - Reverse Engineering Grok 4 Heavy: ai-research/reverse-engineering-grok4-heavy.md
+      - RAG Techniques:
+          - Logical Chunking: ai-research/logical-chunking.md
+      - Reverse Engineering:
+          - Reverse Engineering Codex: ai-research/reverse-engineering-codex.md
+          - Reverse Engineering Grok 4 Heavy: ai-research/reverse-engineering-grok4-heavy.md
+          - Reverse Engineering GPT-o3: ai-research/reverse-engineering-gpt-o3.md
+          - Reverse Engineering Storm: ai-research/reverse-engineering-storm.md
       - DeepThought-ReThought Roadmap: ai-research/strategic-roadmap-deepthought.md
       - Friend or Foe PRD: ai-research/discord-friend-foe-prd.md
       - Neurosymbolic Reasoning Dossier: ai-research/neurosymbolic-reasoning-dossier.md
@@ -41,8 +45,6 @@ nav:
       - Agentic SWE Discontinuity Forecast: ai-research/agentic-swe-discontinuity-forecast.md
       - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
       - You Weren't Supposed to Invent Infinite Jest: ai-research/you-werent-supposed-to-invent-infinite-jest.md
-      - Reverse Engineering GPT-o3: ai-research/reverse-engineering-gpt-o3.md
-      - Reverse Engineering Storm: ai-research/reverse-engineering-storm.md
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
       - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
       - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
