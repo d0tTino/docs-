@@ -29,6 +29,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Quickstart: quickstart.md
   - AI Research:
       - Overview: ai-research/index.md
       - RAG Techniques:
@@ -63,6 +64,7 @@ nav:
       - Add Hours to Your Day?: add-hours-to-your-day.md
       - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
       - Versioning API: versioning-api.md
+
   - Security:
       - Overview: security/index.md
       - Threat Model: security/threat-model.md

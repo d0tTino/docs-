@@ -9,4 +9,6 @@ updated: 2025-08-12
 
 Below is a vector diagram mapping key theorists and gaze variants.
 
-![Influence map of gaze theories](./influence-map.svg)
+![Influence map illustrating theoretical lineage of gaze theories](influence-map.svg)
+
+*Figure: The map links Lacan’s psychoanalytic gaze through Foucault, Mulvey, and hooks to the algorithmic gaze.*

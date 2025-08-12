@@ -13,6 +13,8 @@ updated: 2025-07-28
 - Build and deployment scripts
 - Source repository and configuration
 
+The diagram below illustrates how documentation moves from contributors through the build pipeline to public users.
+
 ```mermaid
 flowchart LR
     subgraph Contributors["Trust Boundary: Contributors"]
@@ -31,14 +33,16 @@ flowchart LR
     D --> R --> C --> S --> H --> U
 ```
 
+*Figure: Flow of documentation from developers to users via CI and hosting.*
+
 ## Potential Threats
 
 
 | Threat | Impact | Likelihood | Severity | Mitigation |
 | --- | --- | --- | --- | --- |
-| Unauthorized modification or defacement of docs | Medium | Medium | Medium | Use version control with code review to gate changes |
-| Malicious code injection in scripts | High | Low | High | Restrict script permissions and validate dependencies |
-| Leakage of credentials or sensitive data | High | Low | High | Scan commits for secrets and rotate credentials regularly |
+| Unauthorized modification or defacement of docs | Medium | Medium | Medium | <ul><li>Use version control</li><li>Require code review to gate changes</li></ul> |
+| Malicious code injection in scripts | High | Low | High | <ul><li>Restrict script permissions</li><li>Validate dependencies</li></ul> |
+| Leakage of credentials or sensitive data | High | Low | High | <ul><li>Scan commits for secrets</li><li>Rotate credentials regularly</li></ul> |
 
 ### Verification Steps
 
