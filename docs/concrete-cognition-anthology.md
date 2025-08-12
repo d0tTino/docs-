@@ -49,7 +49,9 @@ Crucially, studies have demonstrated that WM capacity is a more potent predictor
 
 Figure 1 illustrates the relative Working Memory Index scores across diagnostic groups.
 
-![Working memory scores across groups](img/working-memory-chart.svg)
+![Bar chart comparing Working Memory Index scores across diagnostic groups](img/working-memory-chart.svg)
+
+*Figure 1: Working Memory Index scores contrasted across diagnostic groups.*
 
 #### 2.2. The Functional Consequences of a Constrained 'Mental Workspace'
 
