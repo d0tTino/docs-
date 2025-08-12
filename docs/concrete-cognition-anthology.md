@@ -53,6 +53,7 @@ These limitations have cascading cognitive impacts, constraining planning, abstr
 
 *Figure 1: Working Memory Index scores decline sharply across groups, underscoring the cognitive impacts of reduced mental workspace.*
 
+
 #### 2.2. The Functional Consequences of a Constrained 'Mental Workspace'
 
 The functional consequences of a limited WM capacity are pervasive and profound. Individuals with WM impairments struggle because they are unable to hold sufficient information in mind to allow them to complete a task successfully. This manifests in numerous everyday challenges. Ethnographic interviews and personal accounts reveal a consistent pattern of difficulty following multi-step instructions, losing one's place in the middle of a complex task, and forgetting crucial information just moments after it was presented.
