@@ -47,11 +47,12 @@ While the Full Scale IQ score provides a general index of cognitive ability, res
 
 Crucially, studies have demonstrated that WM capacity is a more potent predictor of subsequent learning and academic progress than a global IQ score. In a two-year longitudinal study of children with learning difficulties, initial WM capacity—but not IQ—was a significant predictor of learning outcomes in both literacy and numeracy at the follow-up assessment. This suggests that WM has unique links to learning that are not fully captured by traditional intelligence tests. Because WM is less influenced by prior knowledge or environmental factors, it serves as a more direct measure of an individual's capacity to learn new information.
 
-Figure 1 illustrates the relative Working Memory Index scores across diagnostic groups.
+These limitations have cascading cognitive impacts, constraining planning, abstract reasoning, and the ability to adapt to novel situations. Figure&nbsp;1 visualizes the relative Working Memory Index scores across diagnostic groups.
 
-![Bar chart comparing Working Memory Index scores across diagnostic groups](img/working-memory-chart.svg)
+![Bar chart comparing Working Memory Index scores among typical adults, individuals with Borderline Intellectual Functioning, and those with Mild Intellectual Disability](img/working-memory-chart.svg)
 
-*Figure 1: Working Memory Index scores contrasted across diagnostic groups.*
+*Figure 1: Working Memory Index scores decline sharply across groups, underscoring the cognitive impacts of reduced mental workspace.*
+
 
 #### 2.2. The Functional Consequences of a Constrained 'Mental Workspace'
 
