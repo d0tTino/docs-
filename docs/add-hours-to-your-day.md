@@ -31,34 +31,45 @@ Each of eight prominent frameworks is analyzed using a standardized rubric evalu
 
 The findings are aggregated to separate evidence-based strategies from dangerous fads and to offer practical recommendations for achieving sustainable high performance without sacrificing long-term health and well-being.
 
-### Key Findings
+!!! note "Key Findings"
+    - Attempts to artificially extend waking hours often conflict with fundamental biological processes and reduce performance.
+    - Productivity frameworks succeed when they align with sleep, circadian, and ultradian rhythms.
+    - Evidence from more than 30 studies distinguishes sustainable practices from harmful fads.
 
-- Attempts to artificially extend waking hours often conflict with fundamental biological processes and reduce performance.
-- Productivity frameworks succeed when they align with sleep, circadian, and ultradian rhythms.
-- Evidence from more than 30 studies distinguishes sustainable practices from harmful fads.
+| Framework                         | Efficacy | Sustainability |
+| --------------------------------- | -------- | -------------- |
+| Time-Blocking / Single-Tasking    | 5/5      | 5/5            |
+| 90-Minute Ultradian Work Cycles   | 4/5      | 4/5            |
+| "30-Hour Day" / Reduced Workweek | 4/5      | 5/5            |
+| Strategic Caffeine-Napping        | 4/5      | 3/5            |
+| The Pomodoro Technique            | 3/5      | 4/5            |
+| The 5 A.M. Club                   | 2/5      | 2/5            |
+| Segmented Sleep Revival           | 2/5      | 2/5            |
+| Polyphasic Sleep (Uberman, etc.)  | 0/5      | 0/5            |
 
-| Framework                         | Efficacy | Sustainability | Transferability | Risk/Cost |
-| --------------------------------- | -------- | -------------- | --------------- | --------- |
-| Time-Blocking / Single-Tasking    | 5/5      | 5/5            | 4/5             | 5/5       |
-| 90-Minute Ultradian Work Cycles   | 4/5      | 4/5            | 4/5             | 5/5       |
-| "30-Hour Day" / Reduced Workweek | 4/5      | 5/5            | 3/5             | 4/5       |
-| Strategic Caffeine-Napping        | 4/5      | 3/5            | 4/5             | 4/5       |
-| The Pomodoro Technique            | 3/5      | 4/5            | 4/5             | 4/5       |
-| The 5 A.M. Club                   | 2/5      | 2/5            | 1/5             | 2/5       |
-| Segmented Sleep Revival           | 2/5      | 2/5            | 2/5             | 3/5       |
-| Polyphasic Sleep (Uberman, etc.)  | 0/5      | 0/5            | 1/5             | 0/5       |
+| Framework                         | Transferability | Risk/Cost |
+| --------------------------------- | --------------- | --------- |
+| Time-Blocking / Single-Tasking    | 4/5             | 5/5       |
+| 90-Minute Ultradian Work Cycles   | 4/5             | 5/5       |
+| "30-Hour Day" / Reduced Workweek | 3/5             | 4/5       |
+| Strategic Caffeine-Napping        | 4/5             | 4/5       |
+| The Pomodoro Technique            | 4/5             | 4/5       |
+| The 5 A.M. Club                   | 1/5             | 2/5       |
+| Segmented Sleep Revival           | 2/5             | 3/5       |
+| Polyphasic Sleep (Uberman, etc.)  | 1/5             | 0/5       |
 
-### Recommendations
-
-- Protect adequate sleep and avoid schemes that curtail it.
-- Schedule work in accordance with your chronotype and natural energy cycles.
-- Optimize focus and energy management instead of chasing extra hours.
+!!! tip "Recommendations"
+    - Protect adequate sleep and avoid schemes that curtail it.
+    - Schedule work in accordance with your chronotype and natural energy cycles.
+    - Optimize focus and energy management instead of chasing extra hours.
 
 The relationship between rest and output is evident: as nightly sleep decreases, performance drops sharply (see figure below).
 
 ![Line chart of nightly sleep duration versus performance levels](img/sleep-performance.svg)
 
 *Figure: Performance decreases sharply as sleep duration declines.*
+
+For deeper reading on how sleep impacts cognitive performance, see [Harvard Medical School's Sleep and Performance overview](https://healthysleep.med.harvard.edu/need-sleep/whats-in-it-for-you/performance) and [Lim & Dinges's meta-analysis on the effects of sleep deprivation on performance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656292/).
 
 ## The Biological Foundations of Performance and Time
 
