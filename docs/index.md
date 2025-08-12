@@ -15,7 +15,7 @@ This repository aggregates documentation and research across multiple projects.
 pip install -r requirements.txt
 mkdocs serve
 ```
-Visit <http://127.0.0.1:8000> to preview the site locally.
+Then visit the local server at <http://127.0.0.1:8000> to preview the site locally.
 
 ## Directory Structure
 
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Visit http://127.0.0.1:8000 to preview the site locally.
+Visit the local server at <http://127.0.0.1:8000> to preview the site locally. For portable options, see the [MkDocs preview instructions](https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site).
 
 The site automatically deploys via GitHub Actions whenever you push updates to Markdown files or `mkdocs.yml`.
 
