@@ -37,6 +37,17 @@ The findings are aggregated to separate evidence-based strategies from dangerous
 - Productivity frameworks succeed when they align with sleep, circadian, and ultradian rhythms.
 - Evidence from more than 30 studies distinguishes sustainable practices from harmful fads.
 
+| Framework                         | Efficacy | Sustainability | Transferability | Risk/Cost |
+| --------------------------------- | -------- | -------------- | --------------- | --------- |
+| Time-Blocking / Single-Tasking    | 5/5      | 5/5            | 4/5             | 5/5       |
+| 90-Minute Ultradian Work Cycles   | 4/5      | 4/5            | 4/5             | 5/5       |
+| "30-Hour Day" / Reduced Workweek | 4/5      | 5/5            | 3/5             | 4/5       |
+| Strategic Caffeine-Napping        | 4/5      | 3/5            | 4/5             | 4/5       |
+| The Pomodoro Technique            | 3/5      | 4/5            | 4/5             | 4/5       |
+| The 5 A.M. Club                   | 2/5      | 2/5            | 1/5             | 2/5       |
+| Segmented Sleep Revival           | 2/5      | 2/5            | 2/5             | 3/5       |
+| Polyphasic Sleep (Uberman, etc.)  | 0/5      | 0/5            | 1/5             | 0/5       |
+
 ### Recommendations
 
 - Protect adequate sleep and avoid schemes that curtail it.
