@@ -18,6 +18,7 @@ plugins:
   - search
   - monorepo
   - sitemap
+  - mermaid2
 markdown_extensions:
   - toc:
       permalink: true
@@ -49,26 +50,31 @@ nav:
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
       - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
       - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
-  - Non-AI Research: non-ai-research/index.md
-  - Arduino: arduino/index.md
-  - Terminal Workflow: terminal-workflow/index.md
-  - Culture Project: culture-project/index.md
-  - Cyberpunk Cookbook: cyberpunk-cookbook.md
-  - Netrunning Research: netrunning-fiction-reality.md
-  - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
-  - Internet Anonymity Research: internet-anonymity-cyberpunk-response.md
-  - Gaze Research: gaze-research/gaze_research_compiled.md
-  - An Audit of an Oracle: audit-of-an-oracle.md
-  - Inspiring Figures: inspiring-figures.md
-  - Concrete Cognition Anthology: concrete-cognition-anthology.md
-  - High-Level Intelligence Qualia Atlas: high-level-intelligence-qualia-atlas.md
-  - From Qualia to Simulacra: from-qualia-to-simulacra.md
-  - The Metaorganism Framework: metaorganism.md
-  - Add Hours to Your Day?: add-hours-to-your-day.md
+      - Gaze Research: gaze-research/gaze_research_compiled.md
+      - An Audit of an Oracle: audit-of-an-oracle.md
+      - Concrete Cognition Anthology: concrete-cognition-anthology.md
+      - High-Level Intelligence Qualia Atlas: high-level-intelligence-qualia-atlas.md
+      - From Qualia to Simulacra: from-qualia-to-simulacra.md
+      - The Metaorganism Framework: metaorganism.md
+  - Productivity:
+      - Overview: productivity/index.md
+      - Arduino: arduino/index.md
+      - Terminal Workflow: terminal-workflow/index.md
+      - Culture Project: culture-project/index.md
+      - Add Hours to Your Day?: add-hours-to-your-day.md
+      - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
+      - Versioning API: versioning-api.md
+
   - Security:
+      - Overview: security/index.md
       - Threat Model: security/threat-model.md
-  - Wise Payouts with Idempotency Keys: wise-payouts-idempotency.md
-  - Friendly Face of Power: friendly-face-of-power.md
-  - Versioning API: versioning-api.md
-  - "GPT-5 Launch Backlash": gpt5-backlash.md
+      - Internet Anonymity Research: internet-anonymity-cyberpunk-response.md
+      - Netrunning Research: netrunning-fiction-reality.md
+      - Cyberpunk Cookbook: cyberpunk-cookbook.md
+      - Wise Payouts with Idempotency Keys: wise-payouts-idempotency.md
+  - Miscellaneous:
+      - Overview: misc/index.md
+      - Friendly Face of Power: friendly-face-of-power.md
+      - Inspiring Figures: inspiring-figures.md
+      - "GPT-5 Launch Backlash": gpt5-backlash.md
 
