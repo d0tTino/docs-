@@ -19,6 +19,19 @@ Visit <http://127.0.0.1:8000> to preview the site locally.
 
 ## Directory Structure
 
+```mermaid
+flowchart LR
+    docs[docs/]
+    docs --> ai[ai-research/]
+    docs --> arduino[arduino/]
+    docs --> terminal[terminal-workflow/]
+    docs --> culture[culture-project/]
+    docs --> projects[_project-docs/]
+    docs --> scripts[scripts/]
+    docs --> playbooks[playbooks/]
+    docs --> security[security/]
+```
+
 - `ai-research/` – AI and machine learning notes
 - `arduino/` – hardware and firmware references
 - `terminal-workflow/` – command-line tips and workflows
