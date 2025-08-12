@@ -11,24 +11,19 @@ updated: 2025-07-29
 
 This repository aggregates documentation and research across multiple projects.
 
-**Jump to:** [Quickstart](#quickstart) · [Installing Node Dependencies](#installing-node-dependencies) · [Directory Structure](#directory-structure) · [Research Docs](#research-docs) · [Project Documentation Submodules](#project-documentation-submodules) · [After Cloning](#after-cloning) · [Building the Docs](#building-the-docs) · [Setting Up Git Hooks](#setting-up-git-hooks) · [Invoking the Migration Script](#invoking-the-migration-script) · [Ingesting and Querying Markdown](#ingesting-and-querying-markdown) · [Legal](#legal) · [References](#references)
+## Table of Contents
 
-## Quickstart
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
-Then visit the local server at <http://127.0.0.1:8000> to preview the site locally.
-
-## Installing Node Dependencies
-
-Run `npm install` to download dev dependencies in `package.json` for tooling like Markdown linting.
-
-```bash
-npm install
-```
-
+- [Quickstart](quickstart.md)
+- [Directory Structure](#directory-structure)
+- [Research Docs](#research-docs)
+- [Project Documentation Submodules](#project-documentation-submodules)
+- [After Cloning](#after-cloning)
+- [Building the Docs](#building-the-docs)
+- [Setting Up Git Hooks](#setting-up-git-hooks)
+- [Invoking the Migration Script](#invoking-the-migration-script)
+- [Ingesting and Querying Markdown](#ingesting-and-querying-markdown)
+- [Legal](#legal)
+- [References](#references)
 ## Directory Structure
 
 ![Site Map](img/site-map.svg)
@@ -44,37 +39,10 @@ npm install
 
 ## Research Docs
 
-The `ai-research/` folder collects design notes and technical dossiers for
-ongoing experiments. Key documents include:
+Explore focused research collections:
 
-### AI Research
-
-- [Strategic R&D Roadmap for DeepThought-ReThought](ai-research/strategic-roadmap-deepthought.md)
-- [Reverse-Engineering OpenAI Codex](ai-research/reverse-engineering-codex.md)
-- [Reverse-Engineering Design Report: OpenAI ChatGPT Agent System](ai-research/reverse-engineering-chatgpt-agent-system.md)
-- [Seed-Factory Feasibility Dossier](ai-research/seed-factory-feasibility-dossier.md)
-- [Agentic SWE Discontinuity Forecast](ai-research/agentic-swe-discontinuity-forecast.md)
-- [Energy-Efficient Swarm](ai-research/energy-efficient-swarm.md)
-- [Neurosymbolic Reasoning Dossier](ai-research/neurosymbolic-reasoning-dossier.md)
-- [Friend or Foe PRD](ai-research/discord-friend-foe-prd.md)
-- [Logical Chunking Strategies](ai-research/logical-chunking.md)
-- [Peaks and Freezes](ai-research/peaks-and-freezes.md)
-- [Thick Band of 21st-Century Possibilities](ai-research/thick-band-of-21st-century-possibilities.md)
-- [You Weren't Supposed to Invent Infinite Jest](ai-research/you-werent-supposed-to-invent-infinite-jest.md)
-- [OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA](gpt5-backlash.md)
-
-See [ai-research/index.md](ai-research/index.md) for additional context and any
-newly added reports.
-
-### Non-AI Research
-
-- [Add Hours to Your Day? Debunking Productivity Frameworks](add-hours-to-your-day.md)
-- [Buying the Dip: A Historical, Signal-Driven Playbook for Identifying Corporate Turnarounds](buying-the-dip-playbook.md)
-- [The Metaorganism: A New Framework for Organizational Evolution](metaorganism.md)
-- [From Qualia to Simulacra: An Inquiry into the Communicability of Experience](from-qualia-to-simulacra.md)
-- [The Concrete Cognition Anthology](concrete-cognition-anthology.md)
-- [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md)
-- [Notable Figures](inspiring-figures.md)
+- [AI Research](ai-research/index.md) – design notes and technical dossiers for ongoing experiments.
+- [Non-AI Research](non-ai-research/index.md) – cross-disciplinary investigations outside the AI domain.
 
 ## Project Documentation Submodules
 
@@ -119,7 +87,7 @@ which runs `markdownlint-cli` and `flake8`.
 ## Building the Docs
 
 Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs,
-pytest, flake8) install consistently, then launch the dev server using the commands in the [Quickstart](#quickstart) section.
+pytest, flake8) install consistently, then launch the dev server using the commands in the [Quickstart](quickstart.md) guide.
 
 Visit the local server at <http://127.0.0.1:8000> to preview the site locally. For portable options, see the [MkDocs preview instructions](https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site).
 

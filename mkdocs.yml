@@ -28,6 +28,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Quickstart: quickstart.md
   - AI Research:
       - Overview: ai-research/index.md
       - RAG Techniques:
@@ -48,6 +49,7 @@ nav:
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
       - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
       - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
+  - Non-AI Research: non-ai-research/index.md
   - Arduino: arduino/index.md
   - Terminal Workflow: terminal-workflow/index.md
   - Culture Project: culture-project/index.md
