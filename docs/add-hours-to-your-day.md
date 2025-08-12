@@ -502,6 +502,14 @@ Additional sources consulted for background and context are referenced by ID in 
 - Work Around the Clock | Request PDF - ResearchGate (researchgate.net)
 - A Fresh Take on the Pomodoro Technique - Faculty Affairs ... (med.virginia.edu)
 
+## Glossary
+
+- **Chronotype**: A person's natural inclination for the timing of sleep and activity within the 24-hour circadian cycle.
+- **BRAC (Basic Rest-Activity Cycle)**: An ultradian rhythm of roughly 90 minutes that alternates between periods of high alertness and physiological troughs requiring recovery.
+- **Ultradian rhythm**: A biological cycle shorter than 24 hours, such as the BRAC, that governs fluctuations in energy and focus.
+- **Circadian rhythm**: The approximately 24-hour internal clock that regulates sleep-wake patterns, hormone release, and other bodily functions.
+- **Social jetlag**: The chronic misalignment between an individual's internal clock and socially imposed schedules, often seen when work hours do not match a person's chronotype.
+
 ### Sources read but not used in the report
 - The effects of napping on cognitive functioning - PubMed (pubmed.ncbi.nlm.nih.gov)
 - The Science of Time Blocks: Why 90-Minute Focus Sessions Transform Your Productivity (ahead-app.com)
