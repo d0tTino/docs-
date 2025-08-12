@@ -21,6 +21,8 @@ markdown_extensions:
       permalink: true
   - admonition
   - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.superfences
 nav:
   - Home: index.md
   - AI Research:
