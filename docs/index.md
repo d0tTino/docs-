@@ -17,6 +17,14 @@ mkdocs serve
 ```
 Visit <http://127.0.0.1:8000> to preview the site locally.
 
+## Installing Node Dependencies
+
+Run `npm install` to download dev dependencies in `package.json` for tooling like Markdown linting.
+
+```bash
+npm install
+```
+
 ## Directory Structure
 
 - `ai-research/` – AI and machine learning notes
@@ -97,16 +105,6 @@ pytest, flake8) install consistently, then launch the dev server using the comma
 Visit http://127.0.0.1:8000 to preview the site locally.
 
 The site automatically deploys via GitHub Actions whenever you push updates to Markdown files or `mkdocs.yml`.
-
-## Installing Node Dependencies
-
-Install Node packages for optional tooling such as markdown linting:
-
-```bash
-npm install
-```
-
-This installs development dependencies defined in `package.json`, such as `markdownlint-cli` for linting.
 
 ## Setting Up Git Hooks
 
