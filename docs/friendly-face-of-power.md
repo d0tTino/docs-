@@ -11,7 +11,7 @@ updated: 2025-07-30
 
 # The Friendly Face of Power: An Analysis of Soft Aesthetics, Corporate Integration, and Digital Control in Modern Authoritarianism
 ## Introduction: Revisiting Bertram Gross's Prophecy
-In 1980, as the United States stood at the precipice of the neoliberal revolution, political scientist Bertram Gross published a work of startling foresight, Friendly Fascism: The New Face of Power in America. His central thesis was that the next wave of authoritarianism in the West would not arrive with the overt brutality and theatrical demagoguery of its 20th-century predecessors. Instead, it would emerge quietly, cloaked in the language of reason, efficiency, and public service. This new form of power, which Gross ironically termed "friendly fascism," would be defined not by a charismatic dictator but by a faceless managerial establishment; not by stormtroopers in the streets, but by the seamless integration of Big Business and Big Government into a single, technocratic complex designed to manage society in the interests of a wealthy elite. Gross argued that this system would preserve the outward forms of democracy—elections, legislatures, political parties—while methodically hollowing out their substance, replacing genuine public will with sophisticated techniques of information management, co-option, and social control.
+In 1980, as the United States stood at the precipice of the neoliberal revolution, political scientist Bertram Gross published a work of startling foresight, Friendly Fascism: The New Face of Power in America[^1]. His central thesis was that the next wave of authoritarianism in the West would not arrive with the overt brutality and theatrical demagoguery of its 20th-century predecessors. Instead, it would emerge quietly, cloaked in the language of reason, efficiency, and public service. This new form of power, which Gross ironically termed "friendly fascism," would be defined not by a charismatic dictator but by a faceless managerial establishment; not by stormtroopers in the streets, but by the seamless integration of Big Business and Big Government into a single, technocratic complex designed to manage society in the interests of a wealthy elite. Gross argued that this system would preserve the outward forms of democracy—elections, legislatures, political parties—while methodically hollowing out their substance, replacing genuine public will with sophisticated techniques of information management, co-option, and social control.
 
 This report contends that the "unfolding logic" Gross identified has not only come to pass but has accelerated and found its ultimate expression in the technological, economic, and cultural landscape of the 21st century. The integrated business-government complex he described has matured into a global techno-corporate order, and the methods of "ruling and fooling the people" have been exponentially amplified by digital technology. The "smiley face" that Gross predicted would mask the new fascism is now the ubiquitous interface of corporate branding and social media, a soft aesthetic that conceals an ever-deepening architecture of control.
 
@@ -69,7 +69,7 @@ Gross identified the motive force behind this integration as the rise of what he
 In the 21st century, the "Golden International" has found its most potent expression in the titans of the technology industry. Companies like Palantir, Google, and Microsoft wield a form of power that Gross could only begin to anticipate. Their control over the essential infrastructure of modern life—data, communication, logistics, and increasingly, artificial intelligence—grants them an unprecedented level of influence over both the economy and the functions of the state. The modern manifestation of friendly fascism is therefore defined by the state's growing reliance on these private technology firms to perform core governmental tasks, particularly in the realms of security, surveillance, and defense. This is not merely a matter of lobbying or corporate influence; it is a fundamental operational merger, where the lines between the public and private sectors become functionally meaningless.
 
 !!! example "Case Study: Palantir and the U.S. Army's Algorithmic Future"
-    No contemporary example better illustrates the Big Business-Big Government partnership than the relationship between the data analytics and AI firm Palantir Technologies and the United States military. A detailed examination of the U.S. Army's Enterprise Agreement (EA) with Palantir, announced in July 2025, reveals the mechanics of friendly fascism in action.
+    No contemporary example better illustrates the Big Business-Big Government partnership than the relationship between the data analytics and AI firm Palantir Technologies and the United States military. A detailed examination of the U.S. Army's Enterprise Agreement (EA) with Palantir, announced in July 2025[^3][^6], reveals the mechanics of friendly fascism in action.
 
     The scope and scale of this partnership are immense. The EA is a 10-year agreement with a potential value of up to $10 billion, a figure that represents the maximum potential value, not a specific commitment. This single contract consolidates 75 pre-existing contracts (15 prime and 60 related) into one streamlined procurement vehicle, demonstrating a massive financial and operational commitment to a single corporate partner. This consolidation is designed to accelerate the delivery of "cutting-edge data integration, analytics, and AI tools" directly to warfighters.
 
@@ -141,59 +141,24 @@ Yet, as Gross himself insisted, this outcome is not inevitable. The "long-term l
 
 ### Sources used in the report
 
-- govconwire.com
-- Army Awards Palantir Potential $10B Agreement for Commercial Software - GovCon Wire
-
-- goodreads.com
-- Friendly Fascism: The New Face of Power in America by Bertram M. Gross | Goodreads
-
-- classic.austlii.edu.au
-- Friendly Fascism: The new face of power in America by Bertram Gross - AustLII
-
-- ainvest.com
-- Palantir's Strategic Military AI Expansion and Its Implications for Long-Term Growth - AInvest
-
-- barnesandnoble.com
-- Friendly Fascism: The New Face of Power in America by Bertram Gross | eBook
-
-- washingtontechnology.com
-- Palantir signs $10B enterprise agreement with Army - Washington Technology
-
-- en.wikipedia.org
-- Friendly Fascism (book) - Wikipedia
-
-- thriftbooks.com
-- Friendly Fascism: The New Face of Power... book by Bertram M. Gross - ThriftBooks
-
-- comments.bmartin.cc
-- US fascism? - Brian's comments
-
-- en.wikipedia.org
-- Futurism - Wikipedia
-
-- theartsection.com
-- Futurism 100 | theartsection
-
-- en.wikipedia.org
-- Aestheticization of politics - Wikipedia
-
-- artmejo.com
-- How Italian Futurism Influenced the Rise of Fascism - artmejo
-
-- medium.com
-- Silicon Valley Giants and their Architectural Spaces | by Anna-Maria Hristova | Medium
-
-- blog.designcrowd.com
-- The Rise of Minimalist Branding in 2025 - DesignCrowd blog
-
-- smithgroup.com
-- The Grove Office Building | SmithGroup
-
-- blogs.microsoft.com
-- Architect vision for Microsoft's Silicon Valley Campus | Microsoft Bay Area Blog
-
-- onsightapp.com
-- Minimalism in branding: Is less more? - Onsight
+[^1]: Friendly Fascism: The New Face of Power in America by Bertram M. Gross | Goodreads.
+[^2]: Friendly Fascism: The new face of power in America by Bertram Gross - AustLII.
+[^3]: Army Awards Palantir Potential $10B Agreement for Commercial Software - GovCon Wire.
+[^4]: Palantir's Strategic Military AI Expansion and Its Implications for Long-Term Growth - AInvest.
+[^5]: Friendly Fascism: The New Face of Power in America by Bertram Gross | eBook. Barnes & Noble.
+[^6]: Palantir signs $10B enterprise agreement with Army - Washington Technology.
+[^7]: Friendly Fascism (book) - Wikipedia.
+[^8]: Friendly Fascism: The New Face of Power... book by Bertram M. Gross - ThriftBooks.
+[^9]: US fascism? - Brian's comments.
+[^10]: Futurism - Wikipedia.
+[^11]: Futurism 100 | theartsection.
+[^12]: Aestheticization of politics - Wikipedia.
+[^13]: How Italian Futurism Influenced the Rise of Fascism - artmejo.
+[^14]: Silicon Valley Giants and their Architectural Spaces | by Anna-Maria Hristova | Medium.
+[^15]: The Rise of Minimalist Branding in 2025 - DesignCrowd blog.
+[^16]: The Grove Office Building | SmithGroup.
+[^17]: Architect vision for Microsoft's Silicon Valley Campus | Microsoft Bay Area Blog.
+[^18]: Minimalism in branding: Is less more? - Onsight.
 
 - wrnsstudio.com
 - Microsoft Silicon Valley - WRNS Studio

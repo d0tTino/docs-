@@ -15,3 +15,20 @@ pre-commit install
 
 The hook runs `scripts/lint_research_docs.py` to catch mid-word line splits.
 
+### Preview Docs Locally
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Install Python dependencies and serve the docs at <http://127.0.0.1:8000>.
+
+### Update Submodules
+
+```bash
+git submodule update --init --recursive
+```
+
+Fetch documentation submodules to ensure project docs are available.
+
