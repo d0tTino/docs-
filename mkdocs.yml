@@ -11,7 +11,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+# Documentation directory
 docs_dir: docs
+# Custom 404 page lives at docs/404.md and is automatically used by MkDocs
 plugins:
   - search
   - monorepo
