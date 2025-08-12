@@ -23,11 +23,9 @@ markdown_extensions:
       permalink: true
   - admonition
   - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.highlight
+  - pymdownx.superfences
+
 nav:
   - Home: index.md
   - AI Research:
