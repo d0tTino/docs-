@@ -28,3 +28,4 @@ updated: 2025-08-12
 - [The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs](energy-efficient-swarm.md)
 - [The Thick Band of 21st-Century Possibilities](thick-band-of-21st-century-possibilities.md)
 - [You Weren't Supposed to Invent Infinite Jest](you-werent-supposed-to-invent-infinite-jest.md)
+
