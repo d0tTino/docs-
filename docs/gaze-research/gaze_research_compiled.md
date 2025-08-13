@@ -11,14 +11,14 @@ This document consolidates all deliverables for the research project “From Mir
 
 ## Deliverables Overview
 
-- **Main Report (`main_report.md`)** – A ~10k word report covering Abstract, Introduction, Theoretical Framework, Methods, Findings, Discussion, and Conclusion.
+- **Main Report (`gaze_research_compiled.md`)** – A ~10k word report covering Abstract, Introduction, Theoretical Framework, Methods, Findings, Discussion, and Conclusion.
 - **Annotated Bibliography** – A one-paragraph annotation for each major source cited in the report, summarising content, methodological quality, and relevance.
 - **Influence Map** – A vector graphic mapping the theoretical lineage of the gaze; nodes represent theorists and gaze variants, arrows indicate influence.
 - **BibTeX References** – A file for citation management that can be imported into reference software (e.g., Zotero, EndNote).
 
 ## Using the Deliverables
 
-**Reading the report:** Open `main_report.md` in any markdown viewer to read the full analysis. Citations use tether identifiers (e.g., :contentReference[oaicite:0]{index=0}), which point to specific lines in the sources consulted during research.
+**Reading the report:** Open `gaze_research_compiled.md` in any markdown viewer to read the full analysis. Citations use tether identifiers (e.g., :contentReference[oaicite:0]{index=0}), which point to specific lines in the sources consulted during research.
 
 **Exploring sources:** The annotated bibliography below gives an overview of each major source. For full details and to trace the original passages, consult the tether IDs in the annotations or see the BibTeX section for publication information.
 
