@@ -52,16 +52,20 @@ nav:
       - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
       - Gaze Research: gaze-research/gaze_research_compiled.md
       - An Audit of an Oracle: audit-of-an-oracle.md
-      - Concrete Cognition Anthology: concrete-cognition-anthology.md
-      - High-Level Intelligence Qualia Atlas: high-level-intelligence-qualia-atlas.md
-      - From Qualia to Simulacra: from-qualia-to-simulacra.md
-      - The Metaorganism Framework: metaorganism.md
+  - Non-AI Research:
+      - Overview: non-ai-research/index.md
+      - "Add Hours to Your Day?": non-ai-research/add-hours-to-your-day.md
+      - Buying the Dip Playbook: non-ai-research/buying-the-dip-playbook.md
+      - The Metaorganism: non-ai-research/metaorganism.md
+      - From Qualia to Simulacra: non-ai-research/from-qualia-to-simulacra.md
+      - Concrete Cognition Anthology: non-ai-research/concrete-cognition-anthology.md
+      - High-Level Intelligence Qualia Atlas: non-ai-research/high-level-intelligence-qualia-atlas.md
+      - Notable Figures: non-ai-research/inspiring-figures.md
   - Productivity:
       - Overview: productivity/index.md
       - Arduino: arduino/index.md
       - Terminal Workflow: terminal-workflow/index.md
       - Culture Project: culture-project/index.md
-      - Add Hours to Your Day?: add-hours-to-your-day.md
       - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
       - Versioning API: versioning-api.md
 
@@ -75,6 +79,4 @@ nav:
   - Miscellaneous:
       - Overview: misc/index.md
       - Friendly Face of Power: friendly-face-of-power.md
-      - Inspiring Figures: inspiring-figures.md
       - "GPT-5 Launch Backlash": gpt5-backlash.md
-
