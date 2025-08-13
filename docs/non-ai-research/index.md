@@ -16,4 +16,5 @@ Documents spanning productivity, philosophy, and organizational theory:
 - [The Concrete Cognition Anthology](concrete-cognition-anthology.md)
 - [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md)
 - [Notable Figures](inspiring-figures.md)
+- [An Interdisciplinary Examination of Modern Rationalism: Principles, Applications, and Critiques in the Scientific-Technological Age](modern-rationalism.md)
 
