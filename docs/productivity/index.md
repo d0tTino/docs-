@@ -1,5 +1,7 @@
 ---
 title: Productivity
+tags: [productivity]
+updated: 2025-08-13
 ---
 
 # Productivity
