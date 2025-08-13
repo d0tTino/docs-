@@ -4,6 +4,7 @@ mkdocs-material
 mkdocs-monorepo-plugin
 mkdocs-mermaid2-plugin
 pymdown-extensions
+lunr[languages]
 pytest
 flake8
 fastapi
