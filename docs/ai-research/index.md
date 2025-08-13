@@ -2,16 +2,16 @@
 title: "AI Research"
 tags: [research, docs]
 project: "ai-research"
-updated: 2025-08-12
+updated: 2025-08-13
 ---
 
 # AI Research
 
 ## Documents
 - [Agentic SWE Discontinuity Forecast](agentic-swe-discontinuity-forecast.md)
-- [Context Windows Appendix](context-windows-appendix.md)
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
 - [Context Windows Field Guide](context-windows-field-guide.md)
+- [Context Windows Field Guide — Appendix](context-windows-appendix.md)
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
 - [Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel](evolving-perspectives-on-agi.md)
 - [Grok's Utilization of the X Ecosystem](grok-x-ecosystem-utilization.md)
@@ -30,4 +30,3 @@ updated: 2025-08-12
 - [The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs](energy-efficient-swarm.md)
 - [The Thick Band of 21st-Century Possibilities](thick-band-of-21st-century-possibilities.md)
 - [You Weren't Supposed to Invent Infinite Jest](you-werent-supposed-to-invent-infinite-jest.md)
-
