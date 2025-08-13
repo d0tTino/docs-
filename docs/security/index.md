@@ -1,5 +1,7 @@
 ---
 title: Security
+tags: [security]
+updated: 2025-08-13
 ---
 
 # Security
