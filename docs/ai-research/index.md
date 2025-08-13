@@ -2,12 +2,13 @@
 title: "AI Research"
 tags: [research, docs]
 project: "ai-research"
-updated: 2025-08-12
+updated: 2025-08-13
 ---
 
 # AI Research
 
 ## Documents
+
 - [Agentic SWE Discontinuity Forecast](agentic-swe-discontinuity-forecast.md) — Forecast of potential abrupt changes in agentic software engineering capabilities.
 - [Context Windows Appendix](context-windows-appendix.md) — Supplementary data on context window designs and usage.
 - [Context Windows Deep Dive](context-windows-deep-dive.md) — Detailed exploration of context window mechanics and scaling.
@@ -30,4 +31,3 @@ updated: 2025-08-12
 - [The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs](energy-efficient-swarm.md) — Playbook for deploying many LLM agents efficiently on consumer hardware.
 - [The Thick Band of 21st-Century Possibilities](thick-band-of-21st-century-possibilities.md) — Vision of technological trajectories shaping the century.
 - [You Weren't Supposed to Invent Infinite Jest](you-werent-supposed-to-invent-infinite-jest.md) — Reflection on unexpected creative outcomes from AI systems.
-
