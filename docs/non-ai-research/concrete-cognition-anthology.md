@@ -49,7 +49,7 @@ Crucially, studies have demonstrated that WM capacity is a more potent predictor
 
 These limitations have cascading cognitive impacts, constraining planning, abstract reasoning, and the ability to adapt to novel situations. Figure&nbsp;1 visualizes the relative Working Memory Index scores across diagnostic groups.
 
-![Bar chart comparing Working Memory Index scores among typical adults, individuals with Borderline Intellectual Functioning, and those with Mild Intellectual Disability](img/working-memory-chart.svg)
+![Bar chart comparing Working Memory Index scores among typical adults, individuals with Borderline Intellectual Functioning, and those with Mild Intellectual Disability](../img/working-memory-chart.svg)
 
 *Figure 1: Working Memory Index scores decline sharply across groups, underscoring the cognitive impacts of reduced mental workspace.*
 
