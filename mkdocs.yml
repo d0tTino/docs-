@@ -16,12 +16,14 @@ theme:
 # Documentation directory
 docs_dir: docs
 # Custom 404 page lives at docs/404.md and is automatically used by MkDocs
-  plugins:
-    - search:
-        lang: en
-    - monorepo
-    - sitemap
-    - mermaid2
+plugins:
+  - search:
+      lang: en
+  - monorepo
+  - sitemap
+  - mermaid2
+  - bibtex:
+      bib_file: docs/references.bib
 markdown_extensions:
   - toc:
       permalink: true
@@ -29,6 +31,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.highlight
   - pymdownx.superfences
+  - footnotes
 
 nav:
   - Home: index.md
