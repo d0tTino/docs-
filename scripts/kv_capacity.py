@@ -107,7 +107,9 @@ def plot_table(df: pd.DataFrame, output: str) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Compute KV cache memory usage")
     parser.add_argument("--plot", action="store_true", help="Generate a bar chart")
-    parser.add_argument("--output", default="kv_cache_chart.png", help="Plot output file")
+    parser.add_argument(
+        "--output", default="kv_cache_chart.png", help="Plot output file"
+    )
     return parser.parse_args()
 
 
@@ -116,9 +118,27 @@ def main() -> None:
 
     # Define model configurations.  These are approximate and can be adjusted.
     models = [
-        ModelConfig(name="Llama-7B (fp16)", layers=32, heads=32, head_dim=128, dtype_bytes=2),
-        ModelConfig(name="Llama-13B (fp16)", layers=40, heads=40, head_dim=128, dtype_bytes=2),
-        ModelConfig(name="Llama-70B (fp16)", layers=80, heads=64, head_dim=128, dtype_bytes=2),
+        ModelConfig(
+            name="Llama-7B (fp16)",
+            layers=32,
+            heads=32,
+            head_dim=128,
+            dtype_bytes=2,
+        ),
+        ModelConfig(
+            name="Llama-13B (fp16)",
+            layers=40,
+            heads=40,
+            head_dim=128,
+            dtype_bytes=2,
+        ),
+        ModelConfig(
+            name="Llama-70B (fp16)",
+            layers=80,
+            heads=64,
+            head_dim=128,
+            dtype_bytes=2,
+        ),
         # Add more models as needed
     ]
     # Sequence lengths to evaluate
@@ -126,7 +146,12 @@ def main() -> None:
 
     df = compute_table(models, lengths)
     pd.set_option("display.max_rows", None)
-    print(df.to_string(index=False, formatters={"MB": "{:,.2f}".format, "GB": "{:,.2f}".format}))
+    print(
+        df.to_string(
+            index=False,
+            formatters={"MB": "{:,.2f}".format, "GB": "{:,.2f}".format},
+        )
+    )
 
     if args.plot:
         plot_table(df, args.output)

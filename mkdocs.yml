@@ -1,5 +1,7 @@
 site_name: Tino Docs Hub
 site_description: Central hub for project documentation
+repo_url: https://github.com/d0tTino/docs-
+edit_uri: edit/main/docs/
 theme:
   name: material
   palette:
@@ -14,11 +16,12 @@ theme:
 # Documentation directory
 docs_dir: docs
 # Custom 404 page lives at docs/404.md and is automatically used by MkDocs
-plugins:
-  - search
-  - monorepo
-  - sitemap
-  - mermaid2
+  plugins:
+    - search:
+        lang: en
+    - monorepo
+    - sitemap
+    - mermaid2
 markdown_extensions:
   - toc:
       permalink: true
