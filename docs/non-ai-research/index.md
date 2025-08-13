@@ -16,4 +16,5 @@ Documents spanning productivity, philosophy, and organizational theory:
 - [The Concrete Cognition Anthology](concrete-cognition-anthology.md)
 - [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md)
 - [Notable Figures](inspiring-figures.md)
+- [The Corporate Egregore: An Interdisciplinary Analysis of the Corporation as an Autonomous Collective Entity](corporate-egregore.md)
 
