@@ -3,6 +3,7 @@ mkdocs
 mkdocs-material
 mkdocs-monorepo-plugin
 mkdocs-mermaid2-plugin
+mkdocs-bibtex
 pymdown-extensions
 lunr[languages]
 pytest
