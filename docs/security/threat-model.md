@@ -40,9 +40,9 @@ flowchart LR
 
 | Threat | Impact | Likelihood | Severity | Mitigation |
 | --- | --- | --- | --- | --- |
-| Unauthorized modification or defacement of docs | Medium | Medium | Medium | <ul><li>Use version control</li><li>Require code review to gate changes</li></ul> |
-| Malicious code injection in scripts | High | Low | High | <ul><li>Restrict script permissions</li><li>Validate dependencies</li></ul> |
-| Leakage of credentials or sensitive data | High | Low | High | <ul><li>Scan commits for secrets</li><li>Rotate credentials regularly</li></ul> |
+| Unauthorized modification or defacement of docs | Medium | Medium | Medium | Use version control; require code review to gate changes |
+| Malicious code injection in scripts | High | Low | High | Restrict script permissions; validate dependencies |
+| Leakage of credentials or sensitive data | High | Low | High | Scan commits for secrets; rotate credentials regularly |
 
 ### Verification Steps
 
