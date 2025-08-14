@@ -1,3 +1,13 @@
+---
+title: "Quantum Reckoning"
+tags: [security, research]
+project: docs-hub
+updated: 2025-08-13
+---
+--8<-- "_snippets/disclaimer.md"
+
+# Quantum Reckoning
+
 # The Quantum Reckoning: Navigating the Intersection of Quantum Computing and Global Cryptography
 
 ## Executive Summary
