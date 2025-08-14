@@ -1,6 +1,7 @@
 ---
 title: "Context Windows Field Guide"
-tags: ["research", "long-context"]
+tags: [research, long-context]
+series: context-windows
 project: ai-research
 updated: 2025-08-09
 ---
@@ -10,7 +11,7 @@ updated: 2025-08-09
 
 ## Executive summary
 
-Modern large language models (LLMs) are defined not only by the number of parameters they contain but by how much input they can consider at once.  The **context window**—the span of tokens processed per call—has grown from 2–4 k tokens in early GPT-3 to hundreds of thousands or even millions of tokens in 2025【477669928722032†L226-L297】.  Larger windows unlock new capabilities: summarising long books, reasoning over codebases, preserving conversational state and enabling multi-document question answering.  But context is expensive: doubling the window roughly quadruples compute and memory, and a model’s advertised limit often exceeds what it uses effectively.  Simply increasing the window can lead to the *lost-in-the-middle* effect, where information in the middle of long sequences is ignored【812281553901334†L65-L76】, and extreme lengths stress the serving stack and positional encodings.  This guide maps the landscape of context windows in 2025, explains why different models have different limits, details the math behind scaling, surveys the families of techniques to extend or circumvent context limits and outlines a practical multi-tier architecture for approaching an **effectively infinite context**.
+Modern large language models (LLMs) are defined not only by the number of parameters they contain but by how much input they can consider at once.  The **context window**—the span of tokens processed per call—has grown from 2–4 k tokens in early GPT-3 to hundreds of thousands or even millions of tokens in 2025【477669928722032†L226-L297】.  Larger windows unlock new capabilities: summarising long books, reasoning over codebases, preserving conversational state and enabling multi-document question answering.  But context is expensive: doubling the window roughly quadruples compute and memory, and a model’s advertised limit often exceeds what it uses effectively.  Simply increasing the window can lead to the *lost-in-the-middle* effect, where information in the middle of long sequences is ignored【812281553901334†L65-L76】, and extreme lengths stress the serving stack and positional encodings.  This guide maps the landscape of context windows in 2025, explains why different models have different limits, details the math behind scaling, surveys the families of techniques to extend or circumvent context limits and outlines a practical multi-tier architecture for approaching an **effectively infinite context**.  For a deeper technical exploration, see the companion [Context Windows Deep Dive](context-windows-deep-dive.md), and consult the [appendix](context-windows-appendix.md) for formulas and evaluation templates.
 
 ## 1 Introduction and definitions
 
@@ -151,3 +152,8 @@ Researchers are exploring **state-space models** (Mamba) and **implicit memory m
 The context window is a key determinant of what an LLM can do.  While nominal windows have expanded dramatically—from thousands to millions of tokens—the true power lies in using context effectively.  Memory and compute constraints, positional encoding limits and bias toward recent tokens mean that bigger windows are not automatically better.  A rich ecosystem of techniques—positional scaling, efficient attention, streaming and compressive models, distributed attention, external memory, and system-level optimisations—offers many ways to extend context length or sidestep it.  Building systems that approximate an effectively infinite context requires layering these methods, carefully evaluating their trade-offs and monitoring resource usage.
 
 As hardware improves and architectures evolve, LLMs will continue to push the limits of context.  The ultimate goal is not just to read more tokens but to understand, reason and act across long horizons.  By combining algorithmic innovation with thoughtful system design, practitioners can harness the benefits of long context while mitigating its costs.
+
+## See also
+
+- [Context Windows Deep Dive](context-windows-deep-dive.md)
+- [Context Windows Field Guide — Appendix](context-windows-appendix.md)
