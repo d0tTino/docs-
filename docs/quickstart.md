@@ -11,16 +11,25 @@ updated: 2025-08-13
 
 ```bash
 pip install -r requirements.txt
+npm install
 mkdocs serve
 ```
 
-Then visit the local server at <http://127.0.0.1:8000> to preview the site locally.
+Then visit the local server at <http://127.0.0.1:8000> to preview the site
+locally.
 
-## Installing Node Dependencies
+## Build the Static Site
 
-Run `npm install` to download dev dependencies in `package.json` for tooling like Markdown linting.
+Generate a local build to check for broken links or other issues:
 
 ```bash
-npm install
+mkdocs build
 ```
+
+## Troubleshooting
+
+- `mkdocs: command not found` – install it with `pip install mkdocs`.
+- `npm: command not found` – ensure Node.js is installed.
+- Port 8000 already in use – stop the other process or run `mkdocs serve -a
+  127.0.0.1:8001`.
 

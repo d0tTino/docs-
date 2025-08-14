@@ -8,15 +8,20 @@ updated: 2025-07-29
 # Tino Docs Hub
 
 **Abstract:** The Tino Docs Hub employs a modular architecture built on MkDocs
-with Git submodules to centralize project documentation. Pre-commit hooks, helper
-scripts, and clear directory conventions standardize contributions and
+with Git submodules to centralize project documentation. Pre-commit hooks,
+helper scripts, and clear directory conventions standardize contributions and
 workflows. This methodology streamlines ingestion and browsing while preserving
 versioned histories. The hub ultimately enhances collaboration and ensures
 research artifacts remain accessible and maintainable.
 
 This repository aggregates documentation and research across multiple projects.
-Start with the [Quickstart guide](quickstart.md) to build the docs locally and
-review the [threat model](security/threat-model.md) for security considerations.
+
+## Getting Started
+
+- Build the docs with the [Quickstart guide](quickstart.md).
+- Review the [threat model](security/threat-model.md) for security
+  considerations.
+- Explore [research docs](#research-docs).
 
 ## Table of Contents
 
@@ -42,26 +47,29 @@ review the [threat model](security/threat-model.md) for security considerations.
 - `_project-docs/` – submodule mounts for individual projects
 - `scripts/` – helper scripts including ingest utilities
 - `playbooks/` – workflow and container playbooks
-- [`security/threat-model.md`](security/threat-model.md) – threat model for docs and scripts
+- [`security/threat-model.md`](security/threat-model.md) – threat model for docs
+  and scripts
 
 ## Research Docs
 
 Explore focused research collections:
 
-- [AI Research](ai-research/index.md) – design notes and technical dossiers for ongoing experiments.
-- [Non-AI Research](non-ai-research/index.md) – cross-disciplinary investigations outside the AI domain.
+- [AI Research](ai-research/index.md) – design notes and technical dossiers for
+  ongoing experiments.
+- [Non-AI Research](non-ai-research/index.md) – cross-disciplinary
+  investigations outside the AI domain.
 
 ## Project Documentation Submodules
 
-Project documentation lives in separate repositories added to
-`_project-docs/` as git submodules. Add a new project by running:
+Project documentation lives in separate repositories added to `_project-docs/`
+as git submodules. Add a new project by running:
 
 ```bash
 git submodule add <repository-url> _project-docs/<project-folder>
 ```
 
-After cloning the docs hub or when new submodules are added, initialize
-them with:
+After cloning the docs hub or when new submodules are added, initialize them
+with:
 
 ```bash
 git submodule update --init --recursive
@@ -88,17 +96,23 @@ git lfs install
 scripts/setup_hooks.sh
 ```
 
-The hooks enforce Markdown and Python linting via the `.githooks/pre-commit` script,
-which runs `markdownlint-cli` and `flake8`.
+The hooks enforce Markdown and Python linting via the `.githooks/pre-commit`
+script, which runs `markdownlint-cli` and `flake8`.
 
 ## Building the Docs
 
-Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs,
-pytest, flake8) install consistently, then launch the dev server using the commands in the [Quickstart](quickstart.md) guide.
+Install Python packages from `requirements.txt` to ensure all dependencies
+(MkDocs, pytest, flake8) install consistently, then launch the dev server using
+the commands in the [Quickstart](quickstart.md) guide.
 
-Visit the local server at <http://127.0.0.1:8000> to preview the site locally. For portable options, see the [MkDocs preview instructions](https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site).
+Visit the local server at <http://127.0.0.1:8000> to preview the site locally.
+For portable options, see the [MkDocs preview instructions][mkdocs-preview].
 
-The site automatically deploys via GitHub Actions whenever you push updates to Markdown files or `mkdocs.yml`.
+The site automatically deploys via GitHub Actions whenever you push updates to
+Markdown files or `mkdocs.yml`.
+
+[mkdocs-preview]:
+  https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site
 
 ## Setting Up Git Hooks
 
@@ -111,9 +125,9 @@ scripts/setup_hooks.sh
 ## Invoking the Migration Script
 
 You can import configuration and prompt snippets from the old
-[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure
-`git-filter-repo` is installed (for example via `pip install git-filter-repo` or
-your package manager) before running the script.
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure `git-
+filter-repo` is installed (for example via `pip install git-filter-repo` or your
+package manager) before running the script.
 
 Run the migration script from the repository root:
 
@@ -122,8 +136,8 @@ scripts/migrate_old_docs.sh
 ```
 
 The script clones the legacy repo, filters only the documentation files using
-`git filter-repo`, and fetches the result as a local branch called
-`d0tTino-import`. Merge that branch to incorporate the history:
+`git filter-repo`, and fetches the result as a local branch called `d0tTino-
+import`. Merge that branch to incorporate the history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
@@ -131,8 +145,8 @@ git merge d0tTino-import --allow-unrelated-histories
 
 ## Ingesting and Querying Markdown
 
-The `scripts/ingest.py` helper can store markdown chunks in a simple
-vector database and retrieve them later:
+The `scripts/ingest.py` helper can store markdown chunks in a simple vector
+database and retrieve them later:
 
 ```bash
 # Build the database
@@ -164,4 +178,5 @@ warranty. See the [LICENSE](../LICENSE) for terms and standard disclaimers.
 
 ### Publications
 1. Shoshana Zuboff, *The Age of Surveillance Capitalism* (PublicAffairs, 2019).
-2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
+2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso,
+   2018).
