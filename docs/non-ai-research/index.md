@@ -2,7 +2,7 @@
 title: "Non-AI Research"
 tags: [research, docs]
 project: non-ai-research
-updated: 2025-08-13
+updated: 2025-08-14
 ---
 
 # Non-AI Research
@@ -19,4 +19,5 @@ Documents spanning productivity, philosophy, and organizational theory:
 - [An Interdisciplinary Examination of Modern Rationalism: Principles, Applications, and Critiques in the Scientific-Technological Age](modern-rationalism.md)
 - [The Corporate Egregore: An Interdisciplinary Analysis of the Corporation as an Autonomous Collective Entity](corporate-egregore.md)
 - [Evolution as a Computational Process: An Interdisciplinary Investigation into Biological Compute](evolution-as-a-computational-process.md)
+- [A Techno-Economic and Performance Model for DNA-Based Archival Storage](dna-archival-storage-tepm.md)
 
