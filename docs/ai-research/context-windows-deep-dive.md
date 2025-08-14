@@ -1,8 +1,8 @@
 ---
-title: Context Windows Deep Dive
-tags: [research, long-context]
-series: context-windows
-project: ai-research
+title: "Context Windows Deep Dive"
+tags: ["research", "long-context"]
+project: "ai-research"
+
 updated: 2025-08-09
 ---
 
@@ -13,6 +13,14 @@ updated: 2025-08-09
 Language models have undergone a rapid expansion in **context window** sizes over the past few years. While early models like GPT‑3 processed only 2 k–4 k tokens, state‑of‑the‑art models in mid‑2025 claim to handle hundreds of thousands or even millions of tokens【477669928722032†L226-L297】【480357281697940†L79-L83】. Larger contexts unlock new capabilities: summarising entire codebases, analysing multiple documents, preserving conversational state over long dialogues and performing multi‑step reasoning across disparate passages. However, the path from nominal context length to *effective* context is fraught with practical constraints.
 
 This deep dive explains **why models have different context sizes**, explores the **limitations** imposed by memory, compute and positional encodings, and surveys the **techniques** that push LLMs toward effectively infinite context. We provide formulas and capacity planners, summarise model context sizes, outline evaluation benchmarks and propose a multi‑tier architecture for exploiting long contexts responsibly. This document complements the existing *Context Windows Field Guide*, offering additional depth, background and actionable guidance.
+## Key Takeaways
+
+- Larger context windows unlock new capabilities but come with steep memory and compute costs.
+- KV cache memory scales linearly with sequence length and model size, often dominating inference requirements.
+- Effective context is typically shorter than the nominal window due to positional biases like the lost-in-the-middle effect.
+- Techniques such as RoPE extensions, efficient attention and retrieval augmentation extend context without quadratic growth.
+- Practitioners must balance context length against latency, cost and task-specific gains.
+
 
 ## 1. Introduction: context windows and their significance
 
@@ -62,7 +70,7 @@ These nominal lengths reflect training setups and marketing claims. Effective co
 
 ### 3.1 Training context length and positional encodings
 
-Most transformer‑based LLMs are trained on fixed‑length segments, typically 1 k–4 k tokens. Extending the context requires either training on longer sequences or **extrapolating** existing positional encodings. Rotary Position Embedding (RoPE) is widely used; it encodes positions as rotations in complex space. However, RoPE extrapolates poorly beyond its trained window. 
+Most transformer‑based LLMs are trained on fixed‑length segments, typically 1 k–4 k tokens. Extending the context requires either training on longer sequences or **extrapolating** existing positional encodings. Rotary Position Embedding (RoPE) is widely used; it encodes positions as rotations in complex space. However, RoPE extrapolates poorly beyond its trained window.
 
 Several techniques have emerged to extend RoPE:
 
@@ -86,7 +94,7 @@ To better understand how sequence length and model size impact memory usage, we 
 
 The accompanying chart (Figure 1) shows memory requirements (GiB) for Llama‑7B, Llama‑13B and Llama‑70B models at 4 k, 8 k, 32 k, 128 k and 512 k token windows when using fp16 precision.  As sequence length increases, memory consumption grows rapidly, particularly for large models.  For example, a single 128 k request on Llama‑70B requires about 320 GiB just for the KV cache.  Such calculations illustrate why scaling beyond 32 k–64 k tokens demands careful resource planning.
 
-![KV cache memory requirements for different models and sequence lengths](kv-cache-chart.png)
+{{ read_file('docs/ai-research/kv-cache-chart.html') }}
 
 You can run `kv_capacity.py` (provided in this repository) to compute custom tables or generate updated plots for your hardware and models.  Use `python kv_capacity.py --plot --output <filename>` to save a PNG.
 
