@@ -15,6 +15,7 @@ updated: 2025-08-14
 - [Reverse-Engineering GPT-o3 Multi-Turn Reasoning](reverse-engineering-gpt-o3.md)
 - [Reverse-Engineering Grok 4 Heavy](reverse-engineering-grok4-heavy.md)
 - [Reverse-Engineering OpenAI Codex](reverse-engineering-codex.md)
+- [Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)](reverse-engineering-tribe.md)
 
 ### Context Windows
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
