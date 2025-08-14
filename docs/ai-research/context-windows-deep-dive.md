@@ -1,6 +1,7 @@
 ---
 title: Context Windows Deep Dive
-tags: research, long-context
+tags: [research, long-context]
+series: context-windows
 project: ai-research
 updated: 2025-08-09
 ---
@@ -188,3 +189,8 @@ This layered design ensures that the system scales gracefully: local operations 
 Context windows have evolved from thousands to millions of tokens, opening new frontiers for LLM applications. Yet, bigger is not always better: memory and compute requirements scale steeply, and effective context often lags far behind nominal capacity. By understanding the reasons behind context size differences—training length, positional encodings, memory ceilings, serving stack—and by leveraging a toolbox of techniques—positional scaling, efficient attention, streaming, distributed attention and retrieval augmentation—practitioners can design systems that use context judiciously.
 
 Approaching *effectively infinite context* is less about training a single model with an arbitrarily long window and more about combining complementary methods into a layered architecture. Future research into state‑space models, compression and better curricula will continue to expand our ability to model long sequences efficiently and safely.
+
+## See also
+
+- [Context Windows Field Guide](context-windows-field-guide.md)
+- [Context Windows Field Guide — Appendix](context-windows-appendix.md)

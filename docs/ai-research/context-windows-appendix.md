@@ -1,7 +1,8 @@
 ---
 title: "Context Windows Field Guide — Appendix"
-tags: ["research", "long-context"]
-project: "ai-research"
+tags: [research, long-context]
+series: context-windows
+project: ai-research
 updated: 2025-08-13
 ---
 
@@ -99,3 +100,8 @@ For each position *p* in {1 k, 4 k, 16 k, 64 k, …}, embed a retrieval
 The CSV file `context-windows-design-matrix.csv` (see repository) lists the main families of methods (positional scaling, efficient attention, streaming/compressive, distributed full attention, external memory, system-level optimisations) along with their complexity, typical effective length, advantages and caveats.  Use this matrix to compare techniques and decide which to apply in your project.
 
 ![Context windows design matrix](context-windows-design-matrix.svg)
+
+## See also
+
+- [Context Windows Field Guide](context-windows-field-guide.md)
+- [Context Windows Deep Dive](context-windows-deep-dive.md)
