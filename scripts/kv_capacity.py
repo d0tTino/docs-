@@ -41,6 +41,12 @@ try:
 except ImportError:
     HAVE_MATPLOTLIB = False
 
+try:
+    import plotly.express as px  # type: ignore
+    HAVE_PLOTLY = True
+except ImportError:
+    HAVE_PLOTLY = False
+
 
 @dataclass
 class ModelConfig:
@@ -104,9 +110,33 @@ def plot_table(df: pd.DataFrame, output: str) -> None:
     plt.close(fig)
 
 
+def plotly_table(df: pd.DataFrame, output: str) -> None:
+    """Generate an interactive Plotly bar chart and save it as HTML."""
+    if not HAVE_PLOTLY:
+        raise RuntimeError("plotly is not installed; cannot plot")
+    df_plot = df.copy()
+    df_plot["Length"] = df_plot["seq_len"] // 1024
+    fig = px.bar(
+        df_plot,
+        x="Length",
+        y="GB",
+        color="model",
+        labels={
+            "Length": "Sequence length (tokens / 1k)",
+            "GB": "Memory (GiB)",
+            "model": "Model",
+        },
+        title="KV cache memory vs. context length",
+    )
+    fig.write_html(output, include_plotlyjs="cdn")
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Compute KV cache memory usage")
     parser.add_argument("--plot", action="store_true", help="Generate a bar chart")
+    parser.add_argument(
+        "--plotly", action="store_true", help="Generate an interactive HTML chart"
+    )
     parser.add_argument(
         "--output", default="kv_cache_chart.png", help="Plot output file"
     )
@@ -156,6 +186,9 @@ def main() -> None:
     if args.plot:
         plot_table(df, args.output)
         print(f"Plot saved to {args.output}")
+    if args.plotly:
+        plotly_table(df, args.output)
+        print(f"Interactive plot saved to {args.output}")
 
 
 if __name__ == "__main__":
