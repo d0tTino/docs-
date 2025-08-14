@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <style>
+    .label { font: 12px sans-serif; }
+  </style>
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#555" stroke-width="2"/>
+  <!-- ECHELON -->
+  <circle cx="100" cy="100" r="8" fill="#1f77b4"/>
+  <text x="100" y="80" text-anchor="middle" class="label">1971 ECHELON formalized</text>
+  <!-- PATRIOT Act -->
+  <circle cx="250" cy="100" r="8" fill="#1f77b4"/>
+  <text x="250" y="80" text-anchor="middle" class="label">2001 PATRIOT Act</text>
+  <!-- Palantir founded -->
+  <circle cx="320" cy="100" r="8" fill="#1f77b4"/>
+  <text x="320" y="80" text-anchor="middle" class="label">2003 Palantir founded</text>
+  <!-- Snowden -->
+  <circle cx="450" cy="100" r="8" fill="#1f77b4"/>
+  <text x="450" y="80" text-anchor="middle" class="label">2013 Snowden leaks</text>
+  <!-- DOGE/2025 -->
+  <circle cx="650" cy="100" r="8" fill="#1f77b4"/>
+  <text x="650" y="80" text-anchor="middle" class="label">2025 DOGE initiative</text>
+</svg>
