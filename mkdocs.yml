@@ -78,6 +78,7 @@ nav:
   - Security:
       - Overview: security/index.md
       - Threat Model: security/threat-model.md
+      - Quantum Reckoning: security/quantum-reckoning.md
       - Internet Anonymity Research: internet-anonymity-cyberpunk-response.md
       - Netrunning Research: netrunning-fiction-reality.md
       - Cyberpunk Cookbook: cyberpunk-cookbook.md
