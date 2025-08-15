@@ -18,14 +18,19 @@ model](docs/security/threat-model.md).
 
 ## Development
 
-Install [pre-commit](https://pre-commit.com/) hooks to automatically lint Markdown files:
+### Pre-commit
+
+Install [pre-commit](https://pre-commit.com/) hooks to automatically expand snippets and lint Markdown files:
 
 ```bash
 pip install pre-commit
 pre-commit install
 ```
 
-The hook runs `scripts/lint_research_docs.py` to catch mid-word line splits.
+Run `npm run preexpand <file>` to manually expand `--8<--` markers when needed.
+
+The hook runs `scripts/expand_snippets.py` to inline snippet references and
+`scripts/lint_research_docs.py` to catch mid-word line splits.
 
 ### Preview Docs Locally
 

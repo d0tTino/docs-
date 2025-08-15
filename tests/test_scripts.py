@@ -75,3 +75,20 @@ def test_bulk_submodule_update_runs_git_command(tmp_path):
 
     commands = log_file.read_text().splitlines()
     assert commands == ["submodule update --remote --recursive"]
+
+
+def test_expand_snippets_replaces_marker(tmp_path):
+    docs_dir = tmp_path / "docs"
+    docs_dir.mkdir()
+    snippet = docs_dir / "snippet.md"
+    snippet.write_text("SNIPPET\n")
+    doc = docs_dir / "doc.md"
+    doc.write_text('before\n--8<-- "snippet.md"\nafter\n')
+
+    script = ROOT / "scripts" / "expand_snippets.py"
+    subprocess.run(
+        ["python", str(script), "--docs-dir", str(docs_dir), str(doc)],
+        check=True,
+    )
+
+    assert doc.read_text() == "before\nSNIPPET\nafter\n"
