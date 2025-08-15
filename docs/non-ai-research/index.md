@@ -5,6 +5,9 @@ project: non-ai-research
 updated: 2025-08-14
 ---
 
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 # Non-AI Research
 
 Documents spanning productivity, philosophy, and organizational theory:

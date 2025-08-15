@@ -5,6 +5,9 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 # An Evidence-Based Debunking and Validation of “Add-Hours-to-Your-Day” Productivity Frameworks
 
 ## Introduction: The Modern Pursuit of Productivity and the Promise of Time Hacking

@@ -5,6 +5,9 @@ project: docs-hub
 updated: 2025-07-27
 ---
 
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 # Notable Figures
 
 ## AI & Autonomous Agents (Ranks 1–10)

@@ -5,6 +5,9 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 # From Qualia to Simulacra: An Inquiry into the Communicability of Experience
 
 ## Part I: The Inward Glance: Defining and Defending Private Experience
