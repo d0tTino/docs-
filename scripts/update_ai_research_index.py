@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import datetime as _dt
 import re
+from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -22,14 +23,14 @@ def _extract_title(path: Path) -> str:
 
 
 def build_index() -> str:
-    """Construct the index markdown content."""
-    items = []
-    for md in sorted(DOCS_DIR.glob("*.md")):
+    """Construct the index markdown content grouped by directory."""
+    groups: dict[Path, list[tuple[str, Path]]] = defaultdict(list)
+    for md in sorted(DOCS_DIR.rglob("*.md")):
         if md.name == "index.md":
             continue
+        rel_path = md.relative_to(DOCS_DIR)
         title = _extract_title(md)
-        items.append((title, md.name))
-    items.sort(key=lambda x: x[0].lower())
+        groups[rel_path.parent].append((title, rel_path))
 
     lines = [
         "---",
@@ -43,8 +44,20 @@ def build_index() -> str:
         "",
         "## Documents",
     ]
-    for title, filename in items:
-        lines.append(f"- [{title}]({filename})")
+
+    # Root-level documents (no subdirectory)
+    root_items = groups.pop(Path("."), []) + groups.pop(Path(""), [])
+    for title, rel in sorted(root_items, key=lambda x: x[0].lower()):
+        lines.append(f"- [{title}]({rel.as_posix()})")
+
+    # Subdirectories
+    for directory in sorted(groups):
+        heading = directory.name.replace("-", " ").title()
+        lines.append("")
+        lines.append(f"### {heading}")
+        for title, rel in sorted(groups[directory], key=lambda x: x[0].lower()):
+            lines.append(f"- [{title}]({rel.as_posix()})")
+
     lines.append("")
     return "\n".join(lines)
 
