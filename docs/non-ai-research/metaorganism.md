@@ -5,6 +5,9 @@ project: docs-hub
 updated: 2025-06-20
 ---
 
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 # The Metaorganism: A New Framework for Organizational Evolution
 
 ## Part I: Defining the Metaorganism: A New Level of Social Organization

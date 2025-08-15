@@ -5,6 +5,9 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal or financial advice.
+
 # An Interdisciplinary Examination of Modern Rationalism: Principles, Applications, and Critiques in the Scientific-Technological Age
 
 I. Introduction: Defining Modern Rationalism
