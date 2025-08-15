@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-26
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Neurosymbolic Reasoning Dossier
 
 # The Neuro-Symbolic Landscape: A Unified Taxonomy

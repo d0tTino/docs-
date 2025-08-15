@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-10
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Reverse-Engineering Design Report: Grok 4 Heavy Multi-Agent Framework
 
 ## 1.0 Executive Summary

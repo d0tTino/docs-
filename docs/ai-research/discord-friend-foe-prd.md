@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-27
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # PRD: Discord "Friend or Foe" AGI Chatbot
 
 ## Introduction

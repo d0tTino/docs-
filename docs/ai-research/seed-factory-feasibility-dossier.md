@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-26
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Seed-Factory Feasibility Dossier
 
 _A Blueprint for Post-Scarcity Manufacturing_

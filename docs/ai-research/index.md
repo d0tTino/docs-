@@ -5,6 +5,8 @@ project: "ai-research"
 updated: 2025-08-14
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # AI Research
 
 ## Documents

@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-08-05
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # You Weren't Supposed to Invent Infinite Jest
 
 ## Executive Summary: The Uncaging of the Jest
