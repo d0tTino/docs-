@@ -304,7 +304,7 @@ movement on the landscape. This "noise" can allow a population to wander off a
 local peak and across a fitness valley, potentially enabling it to discover and
 climb a higher, previously inaccessible peak.
 
-![Figure 1: Visualization of a Rugged Fitness Landscape](https://i.imgur.com/example_fitness_landscape.png)
+![Figure 1: Visualization of a Rugged Fitness Landscape](fig/rugged-fitness-landscape.png)
 
 Caption: A conceptual diagram of a rugged fitness landscape. The height of the
 terrain represents fitness. Natural selection acts as a hill-climbing algorithm,
@@ -489,7 +489,7 @@ methods to build them from sequence data:
   likelihood) or determine the posterior probability distribution of possible
   trees (in the case of Bayesian methods).
 
-![Figure 2: Annotated Phylogenetic Tree Illustrating Computational Steps](https://i.imgur.com/example_phylogenetic_tree.png)
+![Figure 2: Annotated Phylogenetic Tree Illustrating Computational Steps](fig/annotated-phylogenetic-tree.png)
 
 Caption: A phylogenetic tree reconstructed using computational methods. Such
 trees can be annotated to visualize the outputs of the evolutionary algorithm.
