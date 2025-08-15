@@ -4,6 +4,8 @@ tags: [productivity]
 updated: 2025-08-13
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Productivity
 
 This section groups documents focused on tools and practices that enhance productivity.

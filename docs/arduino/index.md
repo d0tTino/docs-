@@ -5,6 +5,8 @@ project: arduino
 updated: 2025-08-07
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Overview
 
 This section gathers hardware notes and microcontroller sketches. Refer to

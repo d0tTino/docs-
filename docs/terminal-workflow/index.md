@@ -5,6 +5,8 @@ project: terminal-workflow
 updated: 2025-08-07
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Getting started
 
 This area collects notes on command-line tools and shell tips for daily

@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-07-28
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # An Audit of an Oracle: Deconstructing Ray Kurzweil's Predictive Legacy and the Law of Accelerating Returns
 
 ## Part I: The Kurzweilian Prophecies: A Definitive Ledger

@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-08-07
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Versioning API
 
 The document service supports optimistic concurrency control. Updating a

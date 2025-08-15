@@ -5,8 +5,7 @@ project: "non-ai-research"
 updated: 2025-08-15
 ---
 
-!!! note "Disclaimer"
-    This document is provided for research purposes only and does not constitute legal or financial advice.
+--8<-- "_snippets/disclaimer.md"
 
 # Non-AI Research
 

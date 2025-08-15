@@ -5,8 +5,7 @@ project: docs-hub
 updated: 2025-08-14
 ---
 
-!!! note "Disclaimer"
-    This document is provided for research purposes only and does not constitute legal or financial advice.
+--8<-- "_snippets/disclaimer.md"
 
 # A Techno-Economic and Performance Model for DNA-Based Archival Storage
 

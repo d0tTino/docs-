@@ -5,8 +5,7 @@ project: docs-hub
 updated: 2025-08-09
 ---
 
-!!! note "Disclaimer"
-    This document is provided for research purposes only and does not constitute legal or financial advice.
+--8<-- "_snippets/disclaimer.md"
 
 # Buying the Dip: A Historical, Signal-Driven Playbook for Identifying Corporate Turnarounds
 
