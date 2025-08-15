@@ -46,7 +46,7 @@ The model decomposes the end-to-end process into the following distinct stages, 
 
 The efficiency and overhead of the system are fundamentally defined by the structure of each synthesized oligo. This model uses a canonical layout that captures the essential components of a data-bearing DNA molecule:
 
-```
+```text
 [5'-Primer | Index | Payload | ECC | 3'-Primer]
 ```
 
