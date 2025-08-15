@@ -2,8 +2,9 @@
 title: "Threat Model"
 tags: [security, docs]
 project: docs-hub
-updated: 2025-07-28
+updated: 2025-08-15
 ---
+--8<-- "_snippets/disclaimer.md"
 
 # Documentation and Scripts Threat Model
 
