@@ -5,8 +5,7 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
-!!! note "Disclaimer"
-    This document is provided for research purposes only and does not constitute legal or financial advice.
+--8<-- "_snippets/disclaimer.md"
 
 # The High-Level Intelligence Qualia Atlas: Neurocognition, Lived Experience, and the Architecture of Application
 

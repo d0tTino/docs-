@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Quickstart
 
 ## Run the Docs Locally

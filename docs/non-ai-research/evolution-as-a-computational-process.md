@@ -7,8 +7,7 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
-!!! note "Disclaimer"
-    This document is provided for research purposes only and does not constitute legal or financial advice.
+--8<-- "_snippets/disclaimer.md"
 
 # Evolution as a Computational Process: An Interdisciplinary Investigation into Biological Compute
 

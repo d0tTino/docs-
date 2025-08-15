@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-07-28
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # The Concrete Cognition Anthology: An Ethnographic and Psychometric Exploration of Lived Experience in Adults with an IQ ≤ 85
 
 ## Executive Summary

@@ -7,6 +7,8 @@ project: docs-hub
 updated: 2025-08-08
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA
 
 By Tino | August 8, 2025

@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-07-28
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Part II: The Inner World: A Qualitative Immersion
 
 

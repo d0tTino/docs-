@@ -5,6 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Tino Docs Hub
 
 **Abstract:** The Tino Docs Hub employs a modular architecture built on MkDocs
