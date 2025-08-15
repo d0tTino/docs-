@@ -12,7 +12,7 @@ updated: 2025-08-09
 
 ## Executive summary
 
-Language models have undergone a rapid expansion in **context window** sizes over the past few years. While early models like GPT‑3 processed only 2 k–4 k tokens, state‑of‑the‑art models in mid‑2025 claim to handle hundreds of thousands or even millions of tokens【477669928722032†L226-L297】【480357281697940†L79-L83】. Larger contexts unlock new capabilities: summarising entire codebases, analysing multiple documents, preserving conversational state over long dialogues and performing multi‑step reasoning across disparate passages. However, the path from nominal context length to *effective* context is fraught with practical constraints.
+Language models have undergone a rapid expansion in **context window** sizes over the past few years. While early models like GPT‑3 processed only 2 k–4 k tokens, state‑of‑the‑art models in mid‑2025 claim to handle hundreds of thousands or even millions of tokens[^1][^2]. Larger contexts unlock new capabilities: summarising entire codebases, analysing multiple documents, preserving conversational state over long dialogues and performing multi‑step reasoning across disparate passages. However, the path from nominal context length to *effective* context is fraught with practical constraints.
 
 This deep dive explains **why models have different context sizes**, explores the **limitations** imposed by memory, compute and positional encodings, and surveys the **techniques** that push LLMs toward effectively infinite context. We provide formulas and capacity planners, summarise model context sizes, outline evaluation benchmarks and propose a multi‑tier architecture for exploiting long contexts responsibly. This document complements the existing *Context Windows Field Guide*, offering additional depth, background and actionable guidance.
 ## Key Takeaways
@@ -26,15 +26,15 @@ This deep dive explains **why models have different context sizes**, explores th
 
 ## 1. Introduction: context windows and their significance
 
-The **context window** is the maximum number of tokens a model consumes per inference request. A token is roughly ~¾ of a word in English; a 32 k token input corresponds to ~49 pages of text【477669928722032†L226-L297】. Context length matters because it determines how much information can be considered at once. With a larger window, an LLM can ingest more supporting documents, maintain dialogue across long conversations and perform reasoning that spans multiple pages or code files.
+The **context window** is the maximum number of tokens a model consumes per inference request. A token is roughly ~¾ of a word in English; a 32 k token input corresponds to ~49 pages of text[^1]. Context length matters because it determines how much information can be considered at once. With a larger window, an LLM can ingest more supporting documents, maintain dialogue across long conversations and perform reasoning that spans multiple pages or code files.
 
-The expansion from 2 k tokens to 32 k, 128 k and beyond means that models can summarise books, entire code repositories and cross‑reference long legal documents【477669928722032†L226-L297】【480357281697940†L79-L83】. Researchers have even demonstrated context windows up to 10 million tokens for code analysis【480357281697940†L79-L83】. Despite these advances, *context is expensive*: memory and compute scale at least linearly (and for standard attention, quadratically) with sequence length, and the model’s advertised context does not always reflect what it uses effectively.
+The expansion from 2 k tokens to 32 k, 128 k and beyond means that models can summarise books, entire code repositories and cross‑reference long legal documents[^1][^2]. Researchers have even demonstrated context windows up to 10 million tokens for code analysis[^2]. Despite these advances, *context is expensive*: memory and compute scale at least linearly (and for standard attention, quadratically) with sequence length, and the model’s advertised context does not always reflect what it uses effectively.
 
 ### 1.1 Nominal vs. effective context
 
-The **nominal context length** is the advertised maximum sequence length (e.g., 128 k tokens). The **effective context** is the portion of the input that the model actually attends to and utilises during inference. Empirical studies show that models often prioritise the beginning and end of long sequences, ignoring middle sections—a phenomenon known as the *lost‑in‑the‑middle* effect【812281553901334†L65-L76】. Even models trained with 32 k–128 k context lengths attend less to information placed in the middle, highlighting that effective context is usually shorter than the nominal maximum.
+The **nominal context length** is the advertised maximum sequence length (e.g., 128 k tokens). The **effective context** is the portion of the input that the model actually attends to and utilises during inference. Empirical studies show that models often prioritise the beginning and end of long sequences, ignoring middle sections—a phenomenon known as the *lost‑in‑the‑middle* effect[^3]. Even models trained with 32 k–128 k context lengths attend less to information placed in the middle, highlighting that effective context is usually shorter than the nominal maximum.
 
-Factors influencing effective context include the distribution of positions seen during training, the choice of positional encoding, memory bandwidth and architecture‑specific biases. Meaningful evaluation requires tasks like retrieval, aggregation and reasoning across different positions, such as the **RULER** benchmark and **LongBench**【812281553901334†L65-L76】.
+Factors influencing effective context include the distribution of positions seen during training, the choice of positional encoding, memory bandwidth and architecture‑specific biases. Meaningful evaluation requires tasks like retrieval, aggregation and reasoning across different positions, such as the **RULER** benchmark and **LongBench**[^3].
 
 ### 1.2 Memory and compute scaling
 
@@ -44,7 +44,7 @@ For a transformer with **L** layers, **H** heads and head dimension **d**, stori
 \text{KV\_memory\_bytes} = 2 \times L \times H \times d \times \text{seq\_length} \times \text{dtypeBytes},
 \]
 
-where the factor 2 accounts for keys and values. For example, a 70 B parameter model with around L≈80, H≈64 and d≈128 uses about 2.6 MiB per thousand tokens in FP16【563653443713035†L150-L171】. A **16 k** request thus consumes over **40 GiB** of GPU memory for the KV cache alone【563653443713035†L150-L171】. Activation memory (for back‑prop during training) and OS overhead push memory requirements even higher. Techniques like gradient accumulation, gradient checkpointing, reversible layers and memory‑efficient optimisers are used to train long contexts【477669928722032†L344-L360】, but at inference time the KV cache usually dominates memory usage.
+where the factor 2 accounts for keys and values. For example, a 70 B parameter model with around L≈80, H≈64 and d≈128 uses about 2.6 MiB per thousand tokens in FP16[^4]. A **16 k** request thus consumes over **40 GiB** of GPU memory for the KV cache alone[^4]. Activation memory (for back‑prop during training) and OS overhead push memory requirements even higher. Techniques like gradient accumulation, gradient checkpointing, reversible layers and memory‑efficient optimisers are used to train long contexts[^5], but at inference time the KV cache usually dominates memory usage.
 
 Compute also grows quadratically with sequence length in standard self‑attention, because every token attends to every other token. FlashAttention and other IO‑aware kernels reduce overhead by fusing operations and optimising memory accesses, but do not change the asymptotic cost. Linear and sparse attention schemes aim to reduce complexity (see section 5).
 
@@ -54,17 +54,17 @@ The last two years have seen a proliferation of LLMs boasting large contexts. Ta
 
 | Model / system | Nominal context window | Notes |
 |---|---|---|
-| **GPT‑3** | 2 k | Early large model; limited context restricts reasoning to short prompts【477669928722032†L226-L297】. |
+| **GPT‑3** | 2 k | Early large model; limited context restricts reasoning to short prompts[^1]. |
 | **Mistral 7B** | 8 k | Mid‑sized open‑source model; typical for 2023–24. |
-| **GPT‑4o** | 60 k–128 k | Multi‑modal model; high‑quality context for code and chat【477669928722032†L226-L297】. |
+| **GPT‑4o** | 60 k–128 k | Multi‑modal model; high‑quality context for code and chat[^1]. |
 | **Claude 3.5** | 100 k | Good summarisation; widely used for legal and technical docs. |
 | **Llama 3.1 (Meta)** | 128 k | Extended using position scaling; used in retrieval‑augmented tasks. |
-| **Gemini 1.5 Pro** | up to 1 M | Google claims 1M tokens; experiments with 10 M tokens on code bases【480357281697940†L79-L83】. |
-| **Magic.dev LTM‑2‑Mini** | 100 M | For code repository analysis; uses retrieval and compression【480357281697940†L79-L83】. |
-| **Llama 4 Scout** | 10 M | Experimental; used for continuous memory in embodied agents【480357281697940†L79-L83】. |
-| **GPT‑4.1, Gemini 2.5 Flash / Pro, Llama 4 Maverick** | 1 M | Commercial models with million‑token context【480357281697940†L79-L83】. |
-| **Claude 4 (Opus/Sonnet)** | 200 k | Balanced context size for chat and summarisation【480357281697940†L82-L89】. |
-| **DeepSeek R1 /V3** | 128 k | Chinese open‑source models for code and text【480357281697940†L90-L93】. |
+| **Gemini 1.5 Pro** | up to 1 M | Google claims 1M tokens; experiments with 10 M tokens on code bases[^2]. |
+| **Magic.dev LTM‑2‑Mini** | 100 M | For code repository analysis; uses retrieval and compression[^2]. |
+| **Llama 4 Scout** | 10 M | Experimental; used for continuous memory in embodied agents[^2]. |
+| **GPT‑4.1, Gemini 2.5 Flash / Pro, Llama 4 Maverick** | 1 M | Commercial models with million‑token context[^2]. |
+| **Claude 4 (Opus/Sonnet)** | 200 k | Balanced context size for chat and summarisation[^6]. |
+| **DeepSeek R1 /V3** | 128 k | Chinese open‑source models for code and text[^7]. |
 
 These nominal lengths reflect training setups and marketing claims. Effective context can be much smaller, and many tasks do not benefit beyond 32 k–64 k. Instead of chasing ever‑larger windows, practitioners should evaluate whether longer contexts deliver meaningful gains relative to cost and complexity.
 
@@ -76,9 +76,9 @@ Most transformer‑based LLMs are trained on fixed‑length segments, typically 
 
 Several techniques have emerged to extend RoPE:
 
-1. **Position Interpolation (PI)** rescales input positions to fit within the original window, preventing large rotation angles. PI extends 4 k models to 32 k or more with minimal fine‑tuning and preserves in‑window quality【989342212075024†L50-L60】.
-2. **YaRN (Yet another RoPE extension)** fine‑tunes using a truncated normal schedule that covers a wide range of positions while requiring fewer tokens than PI. YaRN enables Llama models to extrapolate to 128 k with 10× less data and 2.5× fewer steps than previous methods【556094126408083†L50-L60】.
-3. **StRing** (Shifted Rotary Position Embedding) shifts positions so that queries and keys attend using positive phase differences. StRing improves long‑context performance and enables up to 128 k effective context on Llama 3.1 70B, outperforming GPT‑4‑128k and Claude 2 on retrieval tasks【199134859253240†L78-L94】.
+1. **Position Interpolation (PI)** rescales input positions to fit within the original window, preventing large rotation angles. PI extends 4 k models to 32 k or more with minimal fine‑tuning and preserves in‑window quality[^8].
+2. **YaRN (Yet another RoPE extension)** fine‑tunes using a truncated normal schedule that covers a wide range of positions while requiring fewer tokens than PI. YaRN enables Llama models to extrapolate to 128 k with 10× less data and 2.5× fewer steps than previous methods[^9].
+3. **StRing** (Shifted Rotary Position Embedding) shifts positions so that queries and keys attend using positive phase differences. StRing improves long‑context performance and enables up to 128 k effective context on Llama 3.1 70B, outperforming GPT‑4‑128k and Claude 2 on retrieval tasks[^10].
 4. **ALiBi** (Attention with Linear Bias) adds a position‑dependent bias term; it naturally extrapolates to longer contexts but may degrade quality at shorter lengths. It is used in models like BLOOM and EleutherAI GPT‑NeoX.
 5. **NTK scaling** (a relative attention scaling method) adjusts frequencies to match Neural Tangent Kernel properties; combined with RoPE it improves extrapolation.
 
@@ -86,7 +86,7 @@ Relative positional encodings and learned positions (e.g., T5) can also generali
 
 ### 3.2 Memory and compute ceilings
 
-As illustrated earlier, the KV cache scales linearly with sequence length and model size【563653443713035†L150-L171】. Memory fragmentation, limited GPU memory and scheduler constraints can reduce usable context. Systems like **FlashAttention** fuse operations to reduce IO and memory overhead, enabling efficient exact attention. **PagedAttention** (vLLM) implements a multi‑paged KV cache that evicts least‑used blocks and reduces fragmentation, allowing 128 k contexts on consumer GPUs.
+As illustrated earlier, the KV cache scales linearly with sequence length and model size[^4]. Memory fragmentation, limited GPU memory and scheduler constraints can reduce usable context. Systems like **FlashAttention** fuse operations to reduce IO and memory overhead, enabling efficient exact attention. **PagedAttention** (vLLM) implements a multi‑paged KV cache that evicts least‑used blocks and reduces fragmentation, allowing 128 k contexts on consumer GPUs.
 
 #### KV‑cache capacity planning
 
@@ -108,20 +108,20 @@ Inference frameworks significantly influence effective context. **vLLM** uses a 
 
 Beyond the transformer, alternative architectures exhibit different context properties:
 
-- **Efficient attention** uses local or sparse patterns; examples include **Longformer** (sliding window + global attention)【222591077498926†L48-L60】, **BigBird** (random + global + block attention) and **Performer** (linear attention via kernel approximations). These reduce cost but may lose global dependencies.
+- **Efficient attention** uses local or sparse patterns; examples include **Longformer** (sliding window + global attention)[^11], **BigBird** (random + global + block attention) and **Performer** (linear attention via kernel approximations). These reduce cost but may lose global dependencies.
 - **State‑space models** like **Mamba** and the **Legendre Memory Unit (LMU)** treat sequences as continuous dynamical systems, offering linear memory but potentially limited long‑range modelling.
-- **Compressive transformers** append a second memory to store compressed summaries of past tokens and enable arbitrarily long sequences.【100878192473897†L50-L60】. **Transformer‑XL** uses segment‑level recurrence and relative position encodings to extend context and speed up evaluation【626234754762794†L260-L315】.
-- **Ring Attention** distributes long sequences across multiple devices, performing blockwise attention with overlapping communications. It achieves sequences millions of tokens long without approximations【138967914803289†L71-L85】.
+- **Compressive transformers** append a second memory to store compressed summaries of past tokens and enable arbitrarily long sequences.[^12]. **Transformer‑XL** uses segment‑level recurrence and relative position encodings to extend context and speed up evaluation[^13].
+- **Ring Attention** distributes long sequences across multiple devices, performing blockwise attention with overlapping communications. It achieves sequences millions of tokens long without approximations[^14].
 
 ### 3.5 Data distribution and training curriculum
 
-Long context models require training on long sequences. However, natural language corpora rarely contain contiguous passages of 32 k+ tokens. Data must be concatenated or artificially generated, and curriculum schedules (increasing context gradually) help models generalise. Strategies like **gradient accumulation** and **curriculum learning** are used【477669928722032†L344-L360】. Without proper training, models with long windows may overfit to local patterns and fail to utilise the full context.
+Long context models require training on long sequences. However, natural language corpora rarely contain contiguous passages of 32 k+ tokens. Data must be concatenated or artificially generated, and curriculum schedules (increasing context gradually) help models generalise. Strategies like **gradient accumulation** and **curriculum learning** are used[^5]. Without proper training, models with long windows may overfit to local patterns and fail to utilise the full context.
 
 ## 4. Effective context and failure modes
 
 ### 4.1 Lost-in-the-middle and position sensitivity
 
-The *lost‑in‑the‑middle* effect arises when relevant information placed in the middle of a long context is ignored. Studies reveal that retrieval accuracy peaks when the key passage is near the beginning or end of the context, degrading when placed mid‑sequence【812281553901334†L65-L76】. This occurs even in long‑context models, indicating that attention weights are not uniformly distributed. Effective context is thus limited by inductive biases and training distribution. Benchmarks such as **RULER** (Retrieval, Multi‑step Reasoning and Evidence), **Lost‑in‑the‑Middle** and **InfiniteBench** evaluate position sensitivity by inserting “passkeys” at different positions and measuring retrieval success.
+The *lost‑in‑the‑middle* effect arises when relevant information placed in the middle of a long context is ignored. Studies reveal that retrieval accuracy peaks when the key passage is near the beginning or end of the context, degrading when placed mid‑sequence[^3]. This occurs even in long‑context models, indicating that attention weights are not uniformly distributed. Effective context is thus limited by inductive biases and training distribution. Benchmarks such as **RULER** (Retrieval, Multi‑step Reasoning and Evidence), **Lost‑in‑the‑Middle** and **InfiniteBench** evaluate position sensitivity by inserting “passkeys” at different positions and measuring retrieval success.
 
 ### 4.2 Long-range dependency and forgetting
 
@@ -129,31 +129,31 @@ Long contexts can lead to **vanishing gradients** during training, causing the m
 
 ### 4.3 Cost and latency trade‑offs
 
-Doubling sequence length roughly doubles prefill time (loading tokens into the model) and memory usage. Multi‑turn interactive sessions may pay this cost repeatedly. Serving a 128 k input on a 70 B model can take tens of seconds and consume >40 GiB of VRAM【563653443713035†L150-L171】. Developers must weigh context length against throughput, latency and cost. Batching and KV sharing across requests improve efficiency but complicate scheduling.
+Doubling sequence length roughly doubles prefill time (loading tokens into the model) and memory usage. Multi‑turn interactive sessions may pay this cost repeatedly. Serving a 128 k input on a 70 B model can take tens of seconds and consume >40 GiB of VRAM[^4]. Developers must weigh context length against throughput, latency and cost. Batching and KV sharing across requests improve efficiency but complicate scheduling.
 
 ## 5. Techniques for extending context windows
 
 ### 5.1 Positional scaling and interpolation
 
-As described in section 3.1, **Position Interpolation** and **YaRN** enable RoPE models to extrapolate to 32 k–128 k tokens with limited fine‑tuning【989342212075024†L50-L60】【556094126408083†L50-L60】. PI rescales positions while YaRN samples from a truncated normal distribution; both maintain in‑window accuracy. **StRing** further shifts positions to mitigate phase drift and improves effective context【199134859253240†L78-L94】. More recent methods (e.g., **NTK‑scaled RoPE**, **CARoPE**) adjust frequencies to match kernel eigenvalues.
+As described in section 3.1, **Position Interpolation** and **YaRN** enable RoPE models to extrapolate to 32 k–128 k tokens with limited fine‑tuning[^8][^9]. PI rescales positions while YaRN samples from a truncated normal distribution; both maintain in‑window accuracy. **StRing** further shifts positions to mitigate phase drift and improves effective context[^10]. More recent methods (e.g., **NTK‑scaled RoPE**, **CARoPE**) adjust frequencies to match kernel eigenvalues.
 
 **ALiBi** uses linear biases relative to position differences; it naturally extends to long contexts but may trade off accuracy at shorter lengths.
 
 ### 5.2 Efficient, sparse and linear attention
 
-**Longformer** introduces a sliding window attention pattern with optional global tokens, achieving linear complexity and performing well on long document tasks【222591077498926†L48-L60】. **BigBird** and **LED** (Longformer Encoder–Decoder) extend these ideas to the encoder–decoder setting. **Performer** uses kernel tricks (FAVOR+) to approximate softmax attention in linear time, enabling very long contexts but sometimes at the cost of lower accuracy. **Reformer**, **Linear Transformer** and **Retentive Networks** provide alternative linear attention mechanisms. These methods drastically reduce compute and memory, but the restricted receptive field can harm tasks requiring global cross‑attention.
+**Longformer** introduces a sliding window attention pattern with optional global tokens, achieving linear complexity and performing well on long document tasks[^11]. **BigBird** and **LED** (Longformer Encoder–Decoder) extend these ideas to the encoder–decoder setting. **Performer** uses kernel tricks (FAVOR+) to approximate softmax attention in linear time, enabling very long contexts but sometimes at the cost of lower accuracy. **Reformer**, **Linear Transformer** and **Retentive Networks** provide alternative linear attention mechanisms. These methods drastically reduce compute and memory, but the restricted receptive field can harm tasks requiring global cross‑attention.
 
 ### 5.3 Streaming and compressive attention
 
-**Transformer‑XL** caches hidden states from previous segments and uses relative positional encodings, effectively extending context across segments and reducing computation【626234754762794†L260-L315】. **Compressive Transformers** compress past memories into smaller representations with learned convolution kernels. **StreamingLLM** uses *attention sinks*—special tokens that summarise past context and maintain state. **Infini‑attention** adds a compressive memory inside each transformer block, combining masked local attention with long‑term linear attention to handle extremely long sequences【100878192473897†L50-L60】. These models support streaming input and require bounded memory per time step, making them suitable for real‑time, long‑running conversations.
+**Transformer‑XL** caches hidden states from previous segments and uses relative positional encodings, effectively extending context across segments and reducing computation[^13]. **Compressive Transformers** compress past memories into smaller representations with learned convolution kernels. **StreamingLLM** uses *attention sinks*—special tokens that summarise past context and maintain state. **Infini‑attention** adds a compressive memory inside each transformer block, combining masked local attention with long‑term linear attention to handle extremely long sequences[^12]. These models support streaming input and require bounded memory per time step, making them suitable for real‑time, long‑running conversations.
 
 ### 5.4 Distributed full attention
 
-When high accuracy across the entire context is required, approximate methods may be insufficient. **Ring Attention** distributes the sequence across multiple GPUs or TPUs and performs blockwise full attention, overlapping communication with computation【138967914803289†L71-L85】. This approach enables sequences millions of tokens long without approximations, but requires high‑bandwidth interconnects and careful scheduling. It is used in training extremely long context models and for certain “hero run” analyses.
+When high accuracy across the entire context is required, approximate methods may be insufficient. **Ring Attention** distributes the sequence across multiple GPUs or TPUs and performs blockwise full attention, overlapping communication with computation[^14]. This approach enables sequences millions of tokens long without approximations, but requires high‑bandwidth interconnects and careful scheduling. It is used in training extremely long context models and for certain “hero run” analyses.
 
 ### 5.5 External memory and retrieval augmentation
 
-Long contexts are not always the best way to capture long‑term knowledge. **Retrieval‑augmented models** like **kNN‑LM** and **RETRO** attach an external memory of billions of tokens. At inference time, the model retrieves relevant chunks based on the current query and cross‑attends to them【605812693674672†L49-L63】【897139308669472†L78-L95】. This decouples knowledge storage from the context window: a small model with a short context can outperform a much larger model by looking up relevant information. kNN‑LM uses a nearest neighbour search over the model’s own embeddings, while RETRO employs a BERT‑based retriever and chunked cross‑attention. Retrieval augmentation requires building and maintaining a large vector store but avoids the quadratic cost of long context attention.
+Long contexts are not always the best way to capture long‑term knowledge. **Retrieval‑augmented models** like **kNN‑LM** and **RETRO** attach an external memory of billions of tokens. At inference time, the model retrieves relevant chunks based on the current query and cross‑attends to them[^15][^16]. This decouples knowledge storage from the context window: a small model with a short context can outperform a much larger model by looking up relevant information. kNN‑LM uses a nearest neighbour search over the model’s own embeddings, while RETRO employs a BERT‑based retriever and chunked cross‑attention. Retrieval augmentation requires building and maintaining a large vector store but avoids the quadratic cost of long context attention.
 
 ### 5.6 System‑level optimisations
 
@@ -204,3 +204,20 @@ Approaching *effectively infinite context* is less about training a single model
 
 - [Context Windows Field Guide](context-windows-field-guide.md)
 - [Context Windows Field Guide — Appendix](context-windows-appendix.md)
+
+[^1]: Source 477669928722032 lines 226-297.
+[^2]: Source 480357281697940 lines 79-83.
+[^3]: Source 812281553901334 lines 65-76.
+[^4]: Source 563653443713035 lines 150-171.
+[^5]: Source 477669928722032 lines 344-360.
+[^6]: Source 480357281697940 lines 82-89.
+[^7]: Source 480357281697940 lines 90-93.
+[^8]: Source 989342212075024 lines 50-60.
+[^9]: Source 556094126408083 lines 50-60.
+[^10]: Source 199134859253240 lines 78-94.
+[^11]: Source 222591077498926 lines 48-60.
+[^12]: Source 100878192473897 lines 50-60.
+[^13]: Source 626234754762794 lines 260-315.
+[^14]: Source 138967914803289 lines 71-85.
+[^15]: Source 605812693674672 lines 49-63.
+[^16]: Source 897139308669472 lines 78-95.
