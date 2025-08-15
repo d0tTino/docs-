@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-30
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Reverse-Engineering Design Report: stanford-oval/storm
 
 # 1.0 Executive Summary

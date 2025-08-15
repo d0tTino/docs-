@@ -6,6 +6,7 @@ project: ai-research
 updated: 2025-08-13
 ---
 
+--8<-- "_snippets/disclaimer.md"
 
 # Appendix: Context Windows Field Guide
 

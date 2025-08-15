@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-09-15
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # The Cognitive Architecture of Artificial Societies: From Individual Minds to Emergent Complexity
 
 ## Part I: Foundations of Cognitive Architectures in Multi-Agent Systems

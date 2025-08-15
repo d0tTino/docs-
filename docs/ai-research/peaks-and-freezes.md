@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-28
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Peaks and Freezes: A Strategic Analysis of AI's 70-Year Hype Cycle and Lessons for the Next Decade
 
 ## Executive Summary

@@ -40,6 +40,8 @@ def build_index() -> str:
         f"updated: {_dt.date.today()}",
         "---",
         "",
+        "--8<-- \"_snippets/disclaimer.md\"",
+        "",
         "# AI Research",
         "",
         "## Documents",
