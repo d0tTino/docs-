@@ -49,6 +49,15 @@ git submodule update --init --recursive
 
 Fetch documentation submodules to ensure project docs are available.
 
+### Update Research Indexes
+
+Rebuild research index pages after adding or renaming documents:
+
+```bash
+python scripts/update_ai_research_index.py
+python scripts/update_non_ai_research_index.py
+```
+
 ## Contributing
 
 1. Create a branch from `main` for your work.
