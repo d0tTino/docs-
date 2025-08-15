@@ -7,6 +7,12 @@ updated: 2025-08-13
 
 > **Disclaimer:** This document is provided for research purposes only and does not constitute legal or financial advice.
 
+## Executive Summary
+
+- Palantir was founded in 2003 to adapt PayPal's anti-fraud systems for counter-terrorism in the post-9/11 climate.
+- Early funding from Peter Thiel and the CIA's In-Q-Tel gave the company credibility and direct access to intelligence analysts.
+- Its mission expanded from a niche intelligence tool to a universal data platform, cementing its role as a major government contractor by 2013.
+
 # Project Palantír: Deconstructing the Origins of a Silicon Valley Power Broker
 
 ## Introduction

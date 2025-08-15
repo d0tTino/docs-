@@ -9,6 +9,12 @@ updated: 2025-08-13
 >
 > This document is provided for research purposes only and does not constitute legal or financial advice.
 
+## Executive Summary
+
+- Palantir's Gotham and Foundry platforms unify government data, forming the backbone of a modern surveillance architecture.
+- In-Q-Tel's early backing and post-9/11 security mandates fueled Palantir's rise as a pivotal state contractor.
+- Predictive analytics and infrastructural lock-in enable expansive, persistent monitoring of citizens.
+
 # The Digital Panopticon: Palantir Technologies and the Architecture of the Modern Surveillance State
 
 ## Introduction: The New Operating System of Power

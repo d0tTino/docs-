@@ -8,6 +8,11 @@ updated: 2025-07-30
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal or financial advice.
 
+## Executive Summary
+
+- Modern authoritarianism adopts friendly aesthetics and corporate integration to mask centralized control.
+- Technology firms and governments form a seamless partnership that normalizes surveillance and data-driven governance.
+- Digital platforms subtly demobilize publics while maintaining a democratic veneer.
 
 # The Friendly Face of Power: An Analysis of Soft Aesthetics, Corporate Integration, and Digital Control in Modern Authoritarianism
 ## Introduction: Revisiting Bertram Gross's Prophecy
