@@ -22,6 +22,30 @@ The content herein is designed for software engineers, system architects, and te
 
 Executing a payout via the Wise API is not a single, atomic action but a multi-step, stateful process. Each step corresponds to a distinct API call that builds upon the previous one, culminating in an asynchronous transaction that must be monitored for completion. Understanding this sequential, "happy path" flow is the essential prerequisite for implementing the more complex logic of idempotency and error handling. This section deconstructs the four primary stages of a successful payout: Authentication, Quote Creation, Recipient Definition, and Transfer Execution.
 
+The following sequence diagram summarizes the end-to-end payout flow:
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant W as Wise API
+    participant H as Webhook Endpoint
+
+    C->>W: Authenticate
+    W-->>C: access_token
+
+    C->>W: Create Quote
+    W-->>C: quoteId
+
+    C->>W: Create Recipient
+    W-->>C: recipientId
+
+    C->>W: Execute Transfer
+    W-->>C: transferId
+
+    W-->>H: Webhook Event
+    H-->>C: Confirmation
+```
+
 ### 1.1 Authentication: The Gateway to the API
 
 Before any business logic can be executed, the client application must securely authenticate itself to the Wise API. Wise employs the industry-standard OAuth 2.0 protocol, which provides secure, delegated access through temporary tokens rather than exposing long-lived credentials in every request.3
