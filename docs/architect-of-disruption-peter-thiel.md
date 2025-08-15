@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-08-24
 ---
 
-> **Disclaimer:** This document is provided for research purposes only and does not constitute legal or financial advice.
-
+--8<-- "_snippets/disclaimer.md"
+[TOC]
 
 # The Architect of Disruption: Deconstructing the Worldview of Peter Thiel
 
