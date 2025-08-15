@@ -18,7 +18,7 @@ This appendix provides supporting material for the **Context Windows Field Gu
 
 For a transformer with **L** layers, **H** heads and head dimension **d**, and using a data type requiring **dtypeBytes** bytes (e.g. 2 bytes for FP16), the memory used by the key–value cache is
 
-```
+```text
 KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes.
 ```
 
@@ -32,7 +32,7 @@ Inference speed depends on the **prefill phase** (computing attention over the e
 
 When serving multiple requests concurrently, total KV memory is:
 
-```
+```text
 Total_KV_memory ≈ KV_memory_per_token × seq_length × num_concurrent_requests.
 ```
 

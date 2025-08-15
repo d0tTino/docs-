@@ -133,7 +133,7 @@ An NVIDIA H100 PCIe (80GB) accelerator has a peak FP16 performance of approximat
 - **Power Consumption**: An NVIDIA H100 GPU has a Thermal Design Power (TDP) of up to 700 W. A high-density server containing eight H100s, along with CPUs and other components, can consume 10-12 kW. A 500-GPU cluster would require approximately 63 such servers, leading to a total power draw of roughly 63 \* 12 kW = 756 kW.
 - **Electricity Cost**: Using a U.S. average data center electricity rate of $0.1063 per kWh and a typical PUE of 1.6 (representing the overhead for cooling and power delivery), the annual power cost is calculated as:
 
-```
+```text
 756 kW × 8760 hours/year × $0.1063/kWh × 1.6 PUE ≈ $1,126,000 per year
 ```
 
@@ -161,7 +161,7 @@ Modeling the TCO for a neuromorphic cluster is more speculative due to the lack 
 - **Power Consumption**: The 1,152-chip Hala Point system consumes a maximum of 2.6 kW. A 50,000-chip cluster would therefore consume approximately (50,000 / 1,152) \* 2.6 kW ≈ 113 kW.
 - **Electricity Cost**: Using the same model as the GPU cluster:
 
-```
+```text
 113 kW × 8760 hours/year × $0.1063/kWh × 1.6 PUE ≈ $168,000 per year
 ```
 
