@@ -1,0 +1,21 @@
+name: Docs Lint
+on:
+  push:
+    paths:
+      - 'docs/**'
+  pull_request:
+    paths:
+      - 'docs/**'
+
+jobs:
+  docs-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: npm install markdownlint-cli
+      - run: npx markdownlint docs
+      - run: pip install -r requirements.txt
+      - run: python scripts/lint_research_docs.py

@@ -28,6 +28,9 @@ def test_document_view_latest_only_is_fast(tmp_path: Path, monkeypatch):
     monkeypatch.setattr(difflib, "unified_diff", slow_diff)
     client = TestClient(api.app)
 
+    # warm up the app to avoid startup costs skewing timings
+    client.get("/docs/doc/revisions")
+
     start = time.time()
     res = client.get("/docs/doc/view")
     latest_duration = time.time() - start
