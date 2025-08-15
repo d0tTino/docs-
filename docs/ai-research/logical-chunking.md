@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-08-09
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Logical Chunking Strategies
 
 ## Introduction

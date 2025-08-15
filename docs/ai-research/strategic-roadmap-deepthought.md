@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-27
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Strategic R&D Roadmap for the DeepThought-ReThought Initiative
 
 Strategic R&D Roadmap for the DeepThought-ReThought Initiative: A Bayesian

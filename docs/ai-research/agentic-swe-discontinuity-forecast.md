@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-09-15
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Projecting the Next Discontinuity in Agentic Software Engineering: An Analysis of RL Scaling, Pre-training Limits, and Benchmark Forensics
 
 ## Section 1: Executive Summary & The Greenblatt Conjecture

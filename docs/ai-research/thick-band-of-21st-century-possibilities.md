@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-08-01
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # The Thick Band of 21st-Century Possibilities
 
 ## Part I: The Lexicon of Possibility

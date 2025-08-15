@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-29
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Reverse-Engineering Design Report: OpenAI ChatGPT Agent System
 
 [TOC]

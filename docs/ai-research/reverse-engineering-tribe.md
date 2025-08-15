@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-08-14
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)
 
 1.0 Executive Summary

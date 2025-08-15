@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-26
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Reverse-Engineering Design Report: OpenAI Codex Software Engineering Agent
 
 Document ID: REDR-2025-07-26-001 Version: 1.0 Classification: Technical Analysis
