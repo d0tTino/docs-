@@ -56,7 +56,12 @@ nav:
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
       - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
       - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
-      - Gaze Research: gaze-research/gaze_research_compiled.md
+      - Gaze Research:
+          - Overview: gaze-research/index.md
+          - Report: gaze-research/gaze_report.md
+          - Annotated Bibliography: gaze-research/gaze_bibliography.md
+          - Influence Map: gaze-research/influence_map.md
+          - BibTeX References: gaze-research/gaze_references.bib
       - An Audit of an Oracle: audit-of-an-oracle.md
   - Non-AI Research:
       - Overview: non-ai-research/index.md
