@@ -1,9 +1,11 @@
 ---
 title: "Influence Map"
-tags: []
+tags: [gaze, visualization]
 project: docs-hub
 updated: 2025-08-12
 ---
+
+--8<-- "_snippets/disclaimer.md"
 
 # Influence Map
 
