@@ -6,6 +6,8 @@ project: "ai-research"
 updated: 2025-08-09
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Context Windows in Large Language Models: A Deep Dive
 
 ## Executive summary

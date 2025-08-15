@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Scan Markdown files for mid-word line splits and trailing whitespace.
+"""Scan Markdown files for formatting and required metadata.
 
 This script checks Markdown files in a given directory for common formatting
 issues. It flags lines that end with a letter when the following line begins
 with a letter (a sign of a word accidentally split across lines) and lines that
-contain extraneous trailing spaces.
+contain extraneous trailing spaces. It also verifies that each file contains
+required front matter metadata and the standard disclaimer snippet.
 
 Usage:
     python scripts/lint_research_docs.py [--path PATH]
@@ -23,7 +24,40 @@ def find_splits(path: Path) -> List[str]:
     """Return a list of lint error messages for ``path``."""
     errors: List[str] = []
     lines = path.read_text(encoding="utf-8").splitlines()
-    for idx, line in enumerate(lines):
+
+    # Front matter and disclaimer checks
+    disclaimer = '--8<-- "_snippets/disclaimer.md"'
+    content_start = 0
+    if lines and lines[0].strip() == "---":
+        try:
+            end_idx = lines[1:].index("---") + 1
+        except ValueError:
+            errors.append(f"{path}: missing closing front matter delimiter")
+            end_idx = 0
+        else:
+            front_matter = lines[1:end_idx]
+            required = ["title", "tags", "project", "updated"]
+            for key in required:
+                if not any(line.startswith(f"{key}:") for line in front_matter):
+                    errors.append(f"{path}: missing '{key}' in front matter")
+        snippet_section = lines[end_idx + 1:]
+        if disclaimer in snippet_section:
+            snippet_idx = end_idx + 1 + snippet_section.index(disclaimer)
+            content_start = snippet_idx + 1
+        else:
+            errors.append(f"{path}: missing disclaimer snippet")
+            content_start = end_idx + 1
+    else:
+        errors.append(f"{path}: missing front matter")
+        snippet_section = lines
+        if disclaimer in snippet_section:
+            snippet_idx = snippet_section.index(disclaimer)
+            content_start = snippet_idx + 1
+        else:
+            errors.append(f"{path}: missing disclaimer snippet")
+
+    # Existing whitespace and split checks for content only
+    for idx, line in enumerate(lines[content_start:], start=content_start):
         if line.rstrip() != line:
             errors.append(f"{path}:{idx + 1}: trailing whitespace")
         if idx < len(lines) - 1 and line and line[-1].isalpha():

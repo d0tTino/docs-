@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-08-01
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem
 
 ## 1 Executive Summary

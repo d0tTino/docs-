@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-08-12
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # Explanatory Report: Grok's Utilization of the X Ecosystem
 
 This report provides a fact-checked overview of how Grok, developed by xAI, leverages the X platform (formerly Twitter) ecosystem. Drawing on official announcements, product documentation, and reliable secondary sources as of August 12, 2025, the report examines real-time data access, platform integration, developmental advantages, and API extensions that collectively distinguish Grok through its use of X's dynamic social data.

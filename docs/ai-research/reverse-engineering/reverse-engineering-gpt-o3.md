@@ -5,7 +5,9 @@ project: ai-research
 updated: 2025-10-26
 ---
 
-Reverse-Engineering Design Report: GPT-o3 Multi-Turn Reasoning System
+--8<-- "_snippets/disclaimer.md"
+
+# Reverse-Engineering Design Report: GPT-o3 Multi-Turn Reasoning System
 Document ID: REDR-2025-7B4A
 Version: 1.0
 Classification: CONFIDENTIAL // REBUILD BLUEPRINT

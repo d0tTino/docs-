@@ -5,6 +5,8 @@ project: ai-research
 updated: 2025-07-28
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs
 
 ## Section 1: The Foundation - Model Quantization for VRAM-Constrained Environments
