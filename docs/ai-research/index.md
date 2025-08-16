@@ -9,29 +9,37 @@ updated: 2025-08-15
 
 # AI Research
 
-## Documents
-- [Agentic SWE Discontinuity Forecast](agentic-swe-discontinuity-forecast.md)
-- [Context Windows Deep Dive](context-windows-deep-dive.md)
-- [Context Windows Design Matrix](context-windows-design-matrix.md)
-- [Context Windows Field Guide](context-windows-field-guide.md)
-- [Context Windows Field Guide — Appendix](context-windows-appendix.md)
-- [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
-- [Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel](evolving-perspectives-on-agi.md)
-- [Grok's Utilization of the X Ecosystem](grok-x-ecosystem-utilization.md)
-- [KV Cache Chart](kv-cache-chart.md)
-- [Logical Chunking Strategies](logical-chunking.md)
-- [Neurosymbolic Reasoning Dossier](neurosymbolic-reasoning-dossier.md)
-- [Peaks and Freezes: A Strategic Analysis of AI's 70-Year Hype Cycle and Lessons for the Next Decade](peaks-and-freezes.md)
-- [PRD: Discord 'Friend or Foe' AGI Chatbot](discord-friend-foe-prd.md)
+This collection gathers reports and analyses on AI systems, including reverse engineering studies, strategic roadmaps, context window explorations, and broader essays.
+
+## Reverse Engineering
 - [Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)](reverse-engineering-tribe.md)
 - [Reverse-Engineering Design Report: OpenAI ChatGPT Agent System](reverse-engineering-chatgpt-agent-system.md)
 - [Reverse-Engineering Design Report: stanford-oval/storm](reverse-engineering-storm.md)
 - [Reverse-Engineering GPT-o3 Multi-Turn Reasoning](reverse-engineering-gpt-o3.md)
 - [Reverse-Engineering Grok 4 Heavy](reverse-engineering-grok4-heavy.md)
 - [Reverse-Engineering OpenAI Codex](reverse-engineering-codex.md)
-- [Seed-Factory Feasibility Dossier](seed-factory-feasibility-dossier.md)
+
+## Roadmaps and Strategic Plans
+- [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
 - [Strategic R&D Roadmap for the DeepThought-ReThought Initiative](strategic-roadmap-deepthought.md)
-- [The Cognitive Architecture of Artificial Societies](cognitive-architecture-of-artificial-societies.md)
+- [Seed-Factory Feasibility Dossier](seed-factory-feasibility-dossier.md)
 - [The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs](energy-efficient-swarm.md)
+- [PRD: Discord 'Friend or Foe' AGI Chatbot](discord-friend-foe-prd.md)
+
+## Context Windows
+- [Context Windows Deep Dive](context-windows-deep-dive.md)
+- [Context Windows Design Matrix](context-windows-design-matrix.md)
+- [Context Windows Field Guide](context-windows-field-guide.md)
+- [Context Windows Field Guide — Appendix](context-windows-appendix.md)
+- [Logical Chunking Strategies](logical-chunking.md)
+- [KV Cache Chart](kv-cache-chart.md)
+
+## Analyses and Essays
+- [Agentic SWE Discontinuity Forecast](agentic-swe-discontinuity-forecast.md)
+- [Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel](evolving-perspectives-on-agi.md)
+- [Grok's Utilization of the X Ecosystem](grok-x-ecosystem-utilization.md)
+- [Neurosymbolic Reasoning Dossier](neurosymbolic-reasoning-dossier.md)
+- [Peaks and Freezes: A Strategic Analysis of AI's 70-Year Hype Cycle and Lessons for the Next Decade](peaks-and-freezes.md)
+- [The Cognitive Architecture of Artificial Societies](cognitive-architecture-of-artificial-societies.md)
 - [The Thick Band of 21st-Century Possibilities](thick-band-of-21st-century-possibilities.md)
 - [You Weren't Supposed to Invent Infinite Jest](you-werent-supposed-to-invent-infinite-jest.md)
