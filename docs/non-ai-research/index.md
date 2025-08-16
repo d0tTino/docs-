@@ -9,15 +9,23 @@ updated: 2025-08-15
 
 # Non-AI Research
 
+This collection brings together research into topics outside of AI, including productivity methodologies, corporate dynamics, and broader interdisciplinary inquiries.
+
 ## Documents
-- [A Techno-Economic and Performance Model for DNA-Based Archival Storage](dna-archival-storage-tepm.md)
+
+### Productivity
 - [Add Hours to Your Day? Debunking Productivity Frameworks](add-hours-to-your-day.md)
-- [An Interdisciplinary Examination of Modern Rationalism: Principles, Applications, and Critiques in the Scientific-Technological Age](modern-rationalism.md)
+
+### Corporate Studies
 - [Buying the Dip: A Historical, Signal-Driven Playbook for Identifying Corporate Turnarounds](buying-the-dip-playbook.md)
+- [The Corporate Egregore: An Interdisciplinary Analysis of the Corporation as an Autonomous Collective Entity](corporate-egregore.md)
+- [The Metaorganism: A New Framework for Organizational Evolution](metaorganism.md)
+
+### General Research
+- [A Techno-Economic and Performance Model for DNA-Based Archival Storage](dna-archival-storage-tepm.md)
+- [An Interdisciplinary Examination of Modern Rationalism: Principles, Applications, and Critiques in the Scientific-Technological Age](modern-rationalism.md)
 - [Evolution as a Computational Process: An Interdisciplinary Investigation into Biological Compute](evolution-as-a-computational-process.md)
 - [From Qualia to Simulacra: An Inquiry into the Communicability of Experience](from-qualia-to-simulacra.md)
 - [Notable Figures](inspiring-figures.md)
 - [The Concrete Cognition Anthology](concrete-cognition-anthology.md)
-- [The Corporate Egregore: An Interdisciplinary Analysis of the Corporation as an Autonomous Collective Entity](corporate-egregore.md)
 - [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md)
-- [The Metaorganism: A New Framework for Organizational Evolution](metaorganism.md)
