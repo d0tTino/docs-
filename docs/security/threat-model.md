@@ -38,7 +38,6 @@ flowchart LR
 
 ## Potential Threats
 
-
 | Threat | Impact | Likelihood | Severity | Mitigation |
 | --- | --- | --- | --- | --- |
 | Unauthorized modification or defacement of docs | Medium | Medium | Medium | Use version control; require code review to gate changes |
