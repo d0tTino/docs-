@@ -20,7 +20,9 @@ This repository aggregates documentation and research across multiple projects.
 
 ## Getting Started
 
-- Build the docs with the [Quickstart guide](quickstart.md).
+!!! info "Get Started"
+    Build the docs with the [Quickstart guide](quickstart.md).
+
 - Review the [threat model](security/threat-model.md) for security
   considerations.
 - Explore [research docs](#research-docs).
@@ -42,15 +44,16 @@ This repository aggregates documentation and research across multiple projects.
 
 ![Site Map](img/site-map.svg)
 
-- `ai-research/` – AI and machine learning notes
-- `arduino/` – hardware and firmware references
-- `terminal-workflow/` – command-line tips and workflows
-- `culture-project/` – organizational culture project
-- `_project-docs/` – submodule mounts for individual projects
-- `scripts/` – helper scripts including ingest utilities
-- `playbooks/` – workflow and container playbooks
-- [`security/threat-model.md`](security/threat-model.md) – threat model for docs
-  and scripts
+| Location | Description |
+| --- | --- |
+| `ai-research/` | AI and machine learning notes |
+| `arduino/` | Hardware and firmware references |
+| `terminal-workflow/` | Command-line tips and workflows |
+| `culture-project/` | Organizational culture project |
+| `_project-docs/` | Submodule mounts for individual projects |
+| `scripts/` | Helper scripts including ingest utilities |
+| `playbooks/` | Workflow and container playbooks |
+| [`security/threat-model.md`](security/threat-model.md) | Threat model for docs and scripts |
 
 ## Research Docs
 
