@@ -27,6 +27,8 @@ This repository aggregates documentation and research across multiple projects.
   considerations.
 - Explore [research docs](#research-docs).
 
+For contribution guidelines, see the [Contributing section](../README.md#contributing) of the main README.
+
 ## Table of Contents
 
 - [Quickstart](quickstart.md)
@@ -44,16 +46,18 @@ This repository aggregates documentation and research across multiple projects.
 
 ![Site Map](img/site-map.svg)
 
-| Location | Description |
-| --- | --- |
-| `ai-research/` | AI and machine learning notes |
-| `arduino/` | Hardware and firmware references |
-| `terminal-workflow/` | Command-line tips and workflows |
-| `culture-project/` | Organizational culture project |
-| `_project-docs/` | Submodule mounts for individual projects |
-| `scripts/` | Helper scripts including ingest utilities |
-| `playbooks/` | Workflow and container playbooks |
-| [`security/threat-model.md`](security/threat-model.md) | Threat model for docs and scripts |
+| Location | Description | Example |
+| --- | --- | --- |
+| `ai-research/` | AI and machine learning notes | transformer experiments |
+| `non-ai-research/` | Research outside the AI domain | cognitive science reviews |
+| `arduino/` | Hardware and firmware references | microcontroller pinouts |
+| `terminal-workflow/` | Command-line tips and workflows | alias bundles |
+| `culture-project/` | Organizational culture project | case studies |
+| `_project-docs/` | Submodule mounts for individual projects | docs for internal tools |
+| `scripts/` | Helper scripts including ingest utilities | `ingest.py` |
+| `playbooks/` | Workflow and container playbooks | dev container setups |
+| `img/` | Static images used across docs | site map diagram |
+| `security/` | Security guidelines and threat models | `threat-model.md` |
 
 ## Research Docs
 
