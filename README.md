@@ -11,7 +11,7 @@ workflows. This methodology streamlines ingestion and browsing while preserving
 versioned histories. The hub ultimately enhances collaboration and ensures
 research artifacts remain accessible and maintainable.
 
-![Site Map](docs/img/site-map.svg)
+![Repository site map showing documentation flow](docs/img/site-map.svg)
 
 This repository aggregates documentation and research across multiple projects.
 
@@ -19,6 +19,16 @@ For setup instructions, directory overview, and detailed research listings,
 see [docs/index.md](docs/index.md). For a quick start, read the [Quickstart
 guide](docs/quickstart.md) and review the [documentation threat
 model](docs/security/threat-model.md).
+
+## Table of Contents
+
+- [Development](#development)
+  - [Pre-commit](#pre-commit)
+  - [Preview Docs Locally](#preview-docs-locally)
+  - [Update Submodules](#update-submodules)
+  - [Update Research Indexes](#update-research-indexes)
+- [Contributing](#contributing)
+- [Resources](#resources)
 
 ## Development
 
