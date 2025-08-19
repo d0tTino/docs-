@@ -63,6 +63,17 @@ These archetypes are not always mutually exclusive. In fact, they often represen
 Section 2: The Rehab Score: A Framework for Identifying Viable Recoveries
 To move beyond anecdotal evidence and systematically identify high-probability turnarounds, a quantitative framework is required. The Rehab Score is a proprietary, six-factor model designed to measure and score the key catalysts of corporate recovery. It translates qualitative concepts like "management discipline" and "strategic pivots" into measurable data points. Each factor is scored on a scale, and a composite score is calculated to assess the viability of a recovery. A score of 7 or higher (out of a possible 17) historically indicates a high probability that a severe drawdown represents a "Buyable Dip" rather than a value trap.
 
+| Factor | Description | Point Range |
+| --- | --- | --- |
+| Valuation Reset | Extent of valuation compression offering margin of safety | 0–3 |
+| Earnings Inflection | Evidence that forward earnings estimates have bottomed and turned upward | 0–4 |
+| Discipline Pivot | Decisive cost controls or operational efficiency measures | 0–3 |
+| Capital Allocation | Shareholder-friendly buybacks/dividends or insider buying | 0–3 |
+| Capitulation & Positioning | Market sentiment washout and heightened fear indicators | 0–2 |
+| Narrative & Strategy Pivot | Credible strategic refocus or new growth plan | 0–2 |
+
+![Histogram of Rehab Score distribution showing frequency of simulated scores](../img/rehab-score-distribution.svg)
+
 2.1. Factor 1: Valuation Reset (0-3 points)
 Logic: A deep and unambiguous valuation reset is the foundational requirement for a buyable dip. The stock's price must fall to a level that provides a significant margin of safety relative to its own historical valuation norms. This ensures that much of the negative news and sentiment is already priced in, creating an asymmetric risk/reward profile where the potential upside from a recovery significantly outweighs the remaining downside risk. This is a necessary, but not sufficient, condition for investment.
 
