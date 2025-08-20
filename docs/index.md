@@ -61,12 +61,12 @@ For contribution guidelines, see the [Contributing section](../README.md#contrib
 
 ## Research Docs
 
-Explore focused research collections:
+### Research Highlights
 
-- [AI Research](ai-research/index.md) – design notes and technical dossiers for
-  ongoing experiments.
-- [Non-AI Research](non-ai-research/index.md) – cross-disciplinary
-  investigations outside the AI domain.
+- [AI Research](ai-research/) – design notes and technical dossiers for ongoing experiments.
+- [Non-AI Research](non-ai-research/) – cross-disciplinary investigations outside the AI domain.
+- [Gaze Research](gaze-research/) – analyses on gaze tracking and related methodologies.
+- [Security](security/) – threat models and guidance on secure development practices.
 
 ## Project Documentation Submodules
 
