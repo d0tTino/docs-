@@ -34,16 +34,14 @@ model](docs/security/threat-model.md).
 
 ### Pre-commit
 
-Install [pre-commit](https://pre-commit.com/) hooks to automatically expand
-snippets and lint Markdown files:
+Install [pre-commit](https://pre-commit.com/) hooks to expand snippets and lint
+Markdown files:
 
-```bash
-pip install pre-commit
-pre-commit install
-```
-
-Run `npm run preexpand <file>` to manually expand `--8<--` markers when
-needed.
+| Command | Purpose | When to run it |
+| --- | --- | --- |
+| `pip install pre-commit` | Install tooling | Once during setup |
+| `pre-commit install` | Set up Git hooks | After installing tooling |
+| `npm run preexpand <file>` | Expand snippet refs | For docs with snippets |
 
 The hook runs `scripts/expand_snippets.py` to inline snippet references and
 `scripts/lint_research_docs.py` to catch mid-word line splits.
