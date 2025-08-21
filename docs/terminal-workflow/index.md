@@ -24,6 +24,17 @@ overview of the docs repo, see [the main index](../index.md).
 - Organize multiple shells in a single session.
 - Share a terminal session with collaborators.
 
+```sh
+# Create a new session named "dev"
+tmux new -s dev
+
+# Split the window horizontally
+tmux split-window -h
+
+# Detach while leaving processes running
+tmux detach
+```
+
 ## zsh
 
 `zsh` is a feature-rich shell offering advanced completions, prompts, and scripting capabilities.
@@ -34,6 +45,14 @@ overview of the docs repo, see [the main index](../index.md).
 - Navigate directories with powerful tab completion.
 - Write scripts using extended shell features.
 
+```sh
+# Add an alias for a detailed directory listing
+echo "alias ll='ls -alF'" >> ~/.zshrc
+
+# Apply the new configuration
+source ~/.zshrc
+```
+
 ## git
 
 `git` is a distributed version control system for tracking changes in source code.
@@ -43,3 +62,14 @@ overview of the docs repo, see [the main index](../index.md).
 - Manage project history and branching.
 - Collaborate through pull requests and code reviews.
 - Revert to previous versions when needed.
+
+```sh
+# Stage modified files
+git add .
+
+# Commit with a concise message
+git commit -m "Update project files"
+
+# Push to the main branch
+git push origin main
+```
