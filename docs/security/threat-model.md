@@ -42,9 +42,11 @@ flowchart LR
 
 | Threat | Impact | Likelihood | Severity | Mitigation |
 | --- | --- | --- | --- | --- |
-| Unauthorized modification or defacement of docs | Medium | Medium | <span style="background-color:#f0ad4e; color:#fff; padding:2px 6px; border-radius:4px;">Medium</span> | Use version control; require code review to gate changes |
-| Malicious code injection in scripts | High | Low | <span style="background-color:#d9534f; color:#fff; padding:2px 6px; border-radius:4px;">High</span> | Restrict script permissions; validate dependencies |
-| Leakage of credentials or sensitive data | High | Low | <span style="background-color:#d9534f; color:#fff; padding:2px 6px; border-radius:4px;">High</span> | Scan commits for secrets; rotate credentials regularly |
+| Unauthorized modification or defacement of docs | Medium | Medium | 🟧 Medium | Use version control; require code review to gate changes |
+| Malicious code injection in scripts | High | Low | 🟥 High | Restrict script permissions; validate dependencies |
+| Leakage of credentials or sensitive data | High | Low | 🟥 High | Scan commits for secrets; rotate credentials regularly |
+
+**Severity legend:** 🟩 Low | 🟧 Medium | 🟥 High
 
 ### Verification Steps
 
