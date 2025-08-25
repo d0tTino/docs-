@@ -9,12 +9,7 @@ updated: 2025-07-29
 
 # Tino Docs Hub
 
-**Abstract:** The Tino Docs Hub employs a modular architecture built on MkDocs
-with Git submodules to centralize project documentation. Pre-commit hooks,
-helper scripts, and clear directory conventions standardize contributions and
-workflows. This methodology streamlines ingestion and browsing while preserving
-versioned histories. The hub ultimately enhances collaboration and ensures
-research artifacts remain accessible and maintainable.
+**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules. Pre-commit hooks, helper scripts, and consistent directory conventions streamline contributions, keeping research artifacts easy to browse and maintain.
 
 This repository aggregates documentation and research across multiple projects.
 
@@ -31,17 +26,21 @@ For contribution guidelines, see the [Contributing section](../README.md#contrib
 
 ## Table of Contents
 
-- [Quickstart](quickstart.md)
-- [Directory Structure](#directory-structure)
-- [Research Docs](#research-docs)
-- [Project Documentation Submodules](#project-documentation-submodules)
-- [After Cloning](#after-cloning)
-- [Building the Docs](#building-the-docs)
-- [Setting Up Git Hooks](#setting-up-git-hooks)
-- [Invoking the Migration Script](#invoking-the-migration-script)
-- [Ingesting and Querying Markdown](#ingesting-and-querying-markdown)
-- [Legal](#legal)
-- [References](#references)
+- **Getting Started**
+  - [Quickstart](quickstart.md)
+  - [Directory Structure](#directory-structure)
+  - [After Cloning](#after-cloning)
+  - [Building the Docs](#building-the-docs)
+  - [Setting Up Git Hooks](#setting-up-git-hooks)
+- **Projects and Research**
+  - [Research Docs](#research-docs)
+  - [Project Documentation Submodules](#project-documentation-submodules)
+- **Utilities**
+  - [Invoking the Migration Script](#invoking-the-migration-script)
+  - [Ingesting and Querying Markdown](#ingesting-and-querying-markdown)
+- **Reference & Legal**
+  - [Legal](#legal)
+  - [References](#references)
 ## Directory Structure
 
 ![Site Map](img/site-map.svg)
