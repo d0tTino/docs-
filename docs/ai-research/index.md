@@ -7,11 +7,13 @@ updated: 2025-08-15
 
 --8<-- "_snippets/disclaimer.md"
 
-# AI Research
+# AI research
+
+Explore our most active research areas: [reverse engineering](#reverse-engineering), [roadmaps and strategic plans](#roadmaps-and-strategic-plans), and [context windows](#context-windows).
 
 This collection gathers reports and analyses on AI systems, including reverse engineering studies, strategic roadmaps, context window explorations, and broader essays.
 
-## Reverse Engineering
+## Reverse engineering
 - [Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)](reverse-engineering-tribe.md)
   - Examines TRIBE agent architecture and design for algonauts-2025.
 - [Reverse-Engineering Design Report: OpenAI ChatGPT Agent System](reverse-engineering-chatgpt-agent-system.md)
@@ -25,7 +27,7 @@ This collection gathers reports and analyses on AI systems, including reverse en
 - [Reverse-Engineering OpenAI Codex](reverse-engineering-codex.md)
   - Details Codex's architecture and training insights from early releases.
 
-## Roadmaps and Strategic Plans
+## Roadmaps and strategic plans
 - [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](open-neuromorphic-roadmap.md)
   - Roadmap for open-source neuromorphic ecosystems and brain-inspired AI.
 - [PRD: Discord 'Friend or Foe' AGI Chatbot](discord-friend-foe-prd.md)
@@ -37,7 +39,7 @@ This collection gathers reports and analyses on AI systems, including reverse en
 - [The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs](energy-efficient-swarm.md)
   - Playbook for efficient multi-agent LLM deployment on consumer GPUs.
 
-## Context Windows
+## Context windows
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
   - Thorough examination of large context window mechanics and tradeoffs.
 - [Context Windows Design Matrix](context-windows-design-matrix.md)
@@ -51,7 +53,7 @@ This collection gathers reports and analyses on AI systems, including reverse en
 - [Logical Chunking Strategies](logical-chunking.md)
   - Techniques for partitioning information into coherent logical chunks.
 
-## Analyses and Essays
+## Analyses and essays
 - [Agentic SWE Discontinuity Forecast](agentic-swe-discontinuity-forecast.md)
   - Forecasts potential discontinuities in agentic software engineering careers.
 - [Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel](evolving-perspectives-on-agi.md)
