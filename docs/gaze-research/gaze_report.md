@@ -30,21 +30,29 @@ Theory, Contemporary Extensions, and the Emergent Social‑Media Gaze."
 
 ## Using the Deliverables
 
-**Reading the report:** Open `gaze_report.md` in any markdown viewer to read
-the full analysis. Citations use BibTeX keys (e.g., [@lacan_sep]), which point
-to specific lines in the sources consulted during research.
+### Reading the Report
 
-**Exploring sources:** The annotated bibliography in `gaze_bibliography.md`
-gives an overview of each major source. For full details and to trace the
-original passages, consult the citation keys in the annotations or see the
-BibTeX references for publication information.
+- Open `gaze_report.md` in any markdown viewer to read the full analysis.
+- Citations use BibTeX keys (e.g., [@lacan_sep]) that map to
+  `gaze_references.bib`.
 
-**Visualising the genealogy:** The influence map in `influence_map.md` shows
-how theoretical concepts influenced one another over time.
+### Exploring Sources
 
-**Reference management:** The `gaze_references.bib` file can be imported into
-reference management software to generate formatted citations. The entries
-contain minimal bibliographic data and may need supplemental details.
+- Consult `gaze_bibliography.md` for annotated summaries of major sources.
+- Use citation keys in the annotations or `gaze_references.bib` for complete
+  publication details.
+
+### Visualising the Genealogy
+
+- The influence map in `influence_map.md` illustrates how theoretical concepts
+  shaped one another over time.
+
+### Reference Management
+
+- Import `gaze_references.bib` into reference management software to generate
+  formatted citations.
+- Entries contain minimal bibliographic data and may require additional
+  details.
 
 ## Notes
 
