@@ -13,6 +13,18 @@ updated: 2025-07-29
 
 This repository aggregates documentation and research across multiple projects.
 
+## Table of Contents
+
+### Research
+- [AI Research](ai-research/index.md)
+- [Non-AI Research](non-ai-research/index.md)
+- [Gaze Research](gaze-research/index.md)
+
+### Playbooks
+- [Terminal Workflow](terminal-workflow/index.md)
+- [GitHub Actions Workflows](../playbooks/github-actions-workflows.md)
+- [Local Docker Build](../playbooks/local-docker-build.md)
+
 ## Getting Started
 
 !!! info "Get Started"
@@ -23,24 +35,6 @@ This repository aggregates documentation and research across multiple projects.
 - Explore [research docs](#research-docs).
 
 For contribution guidelines, see the [Contributing section](../README.md#contributing) of the main README.
-
-## Table of Contents
-
-- **Getting Started**
-  - [Quickstart](quickstart.md)
-  - [Directory Structure](#directory-structure)
-  - [After Cloning](#after-cloning)
-  - [Building the Docs](#building-the-docs)
-  - [Setting Up Git Hooks](#setting-up-git-hooks)
-- **Projects and Research**
-  - [Research Docs](#research-docs)
-  - [Project Documentation Submodules](#project-documentation-submodules)
-- **Utilities**
-  - [Invoking the Migration Script](#invoking-the-migration-script)
-  - [Ingesting and Querying Markdown](#ingesting-and-querying-markdown)
-- **Reference & Legal**
-  - [Legal](#legal)
-  - [References](#references)
 ## Directory Structure
 
 ![Site Map](img/site-map.svg)
