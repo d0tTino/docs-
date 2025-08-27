@@ -27,6 +27,10 @@ The second perspective views the problem not as one of fine-tuning but of fundam
 
 These two hypotheses are not mutually exclusive. A cleaner, more capable base model from a successful pre-training run would provide a much better foundation for subsequent RL scaling. However, they compete for the same finite and increasingly strained resource: vast, stable, large-scale compute. This report will systematically analyze the evidence for both hypotheses, concluding that progress is likely to be a function of both, but that the technical challenges of "Fixing the Machine" are becoming a dominant constraint on the pace of frontier development.
 
+Figure 1 contrasts these two paths to capability: scaling RL compute versus executing a clean pre-training run.
+
+![Figure 1: RL scaling versus clean pre-training](../img/rl-vs-pretraining.svg)
+
 ### 1.3 The Accelerating Baseline
 
 To quantitatively assess the potential for a future discontinuity, it is essential to first establish a robust baseline of current progress. This report adopts the "50% task-completion time horizon" metric, developed by the AI safety and evaluation organization METR, as its primary measure of agentic capability. This metric defines a model's capability in terms of the length of time a human expert would take to complete a task that the AI agent can successfully complete with 50% probability. This provides a universal, intuitive scale for comparing performance across diverse tasks and models, from simple coding problems that take minutes to complex software engineering challenges that take hours.
