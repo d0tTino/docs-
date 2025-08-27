@@ -2,6 +2,14 @@
 
 This playbook summarizes the automated workflows that run in this repository.
 
+```mermaid
+flowchart LR
+    B[Build] --> T[Test]
+    T --> D[Deploy]
+```
+
+*Figure: Build, test, and deploy stages.*
+
 ## Docs Deployment
 
 - Defined in `.github/workflows/docs.yml`.
