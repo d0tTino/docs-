@@ -4,14 +4,13 @@
 
 Central hub for project documentation and research across Tino initiatives.
 
-**Abstract:** The Tino Docs Hub employs a modular architecture built on MkDocs
-with Git submodules to centralize project documentation. Pre-commit hooks,
-helper scripts, and clear directory conventions standardize contributions and
-workflows. This methodology streamlines ingestion and browsing while preserving
-versioned histories. The hub ultimately enhances collaboration and ensures
-research artifacts remain accessible and maintainable.
+Key features:
 
-![Repository site map showing documentation flow](docs/img/site-map.svg)
+- Modular MkDocs architecture with Git submodules that centralize project docs.
+- Pre-commit hooks and helper scripts that standardize contributions.
+- Clear directory conventions that streamline browsing and preserve version history.
+
+<img src="docs/img/site-map.svg" alt="Diagram of repository site map illustrating documentation flow across modules" />
 
 This repository aggregates documentation and research across multiple projects.
 
@@ -74,6 +73,7 @@ python scripts/update_non_ai_research_index.py
 ```
 
 ## Contributing
+See the [contributing guidelines](CONTRIBUTING.md) for the latest process.
 
 1. Create a branch from `main` for your work.
 2. Run `scripts/setup_hooks.sh` to install Git hooks and linters.
