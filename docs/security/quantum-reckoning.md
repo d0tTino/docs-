@@ -21,6 +21,10 @@ updated: 2025-08-13
 ## Section I: The Genesis of the Quantum Threat: A Historical Timeline
 The journey from the theoretical underpinnings of quantum computation to the tangible hardware of the present day reveals a clear and accelerating trajectory. What began as an abstract inquiry into the computational power of quantum mechanics has evolved into a global technological race with profound implications for cryptography. The historical record shows that the knowledge of the cryptographic threat has long preceded the physical means to execute it, a dynamic that defines the strategic urgency of the current moment.
 
+![Timeline of key quantum computing milestones](../img/quantum-milestones-timeline.svg)
+
+*Figure: Key milestones in quantum theory and computing from Planck's 1900 quantum hypothesis to IBM's 2023 1,121-qubit processor.*
+
 ### 1.1 The Foundational Decade (1980s): From Theory to a New Model of Computation
 The 1980s laid the intellectual groundwork for quantum computing, transforming it from a speculative idea into a formal model of computation.
 
