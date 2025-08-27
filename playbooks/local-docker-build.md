@@ -19,3 +19,14 @@ directly after installing the Python dependencies.
 4. Open `http://127.0.0.1:8000` to preview the site.
 
 Running MkDocs locally mirrors the commands used in the CI workflow.
+
+## Common Errors & Fixes
+
+### "ModuleNotFoundError: No module named 'mkdocs'"
+Ensure the dependencies are installed by running `pip install -r requirements.txt`.
+
+### "OSError: [Errno 98] Address already in use"
+Another process is using port 8000. Stop the process or launch MkDocs on a different port, e.g. `mkdocs serve -a 127.0.0.1:8001`.
+
+### "PermissionError: [Errno 13] Permission denied" when installing packages
+Install the packages in a virtual environment or add the `--user` flag to the `pip install` command.
