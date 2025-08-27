@@ -13,8 +13,8 @@ updated: 2025-08-15
 
 The matrix compares long-context techniques across complexity, maximum effective length, advantages, and caveats. Each row represents a strategy for extending transformer context windows, enabling quick trade-off evaluations.
 
-| Method | Complexity | Typical max effective length | Advantages | Caveats |
-| --- | --- | --- | --- | --- |
+| **Method** | **Complexity** | **Typical max effective length** | **Advantages** | **Caveats** |
+| :--- | :--- | :--- | :--- | :--- |
 | Position Interpolation / YaRN / StRing | Quadratic | 32k–128k | Simple to implement; preserves in-window quality | Drift or instability beyond trained range; still quadratic |
 | Longformer / BigBird / Performer | Linear or sparse | 100k+ | Scales to long inputs; good for long documents | May lose global information; trained models required |
 | Transformer-XL / Infini-attention / StreamingLLM | Streaming | 100k–1M | Handles arbitrarily long streams; bounded memory | Compression may lose information; limited joint reasoning |

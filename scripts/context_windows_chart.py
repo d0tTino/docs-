@@ -1,9 +1,9 @@
 """Generate a chart from the context windows design matrix.
 
-This script reads ``docs/ai-research/context-windows-design-matrix.csv`` and
-produces a bar chart of the typical maximum effective context length for each
-method. The chart is saved as ``context-windows-design-matrix.svg`` in the same
-folder as the CSV file.
+This script reads the Markdown table in
+``docs/ai-research/context-windows-design-matrix.md`` and produces a bar chart
+of the typical maximum effective context length for each method. The chart is
+saved as ``context-windows-design-matrix.svg`` in the same folder as the table.
 
 Usage:
     python scripts/context_windows_chart.py
@@ -20,8 +20,26 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns  # type: ignore
 
-CSV_PATH = Path("docs/ai-research/context-windows-design-matrix.csv")
+TABLE_PATH = Path("docs/ai-research/context-windows-design-matrix.md")
 OUTPUT_PATH = Path("docs/ai-research/context-windows-design-matrix.svg")
+
+
+def _read_markdown_table(path: Path) -> pd.DataFrame:
+    """Parse a Markdown table into a DataFrame."""
+    rows = []
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line.startswith("|"):
+                continue
+            # Skip alignment lines like | :--- |
+            if set(line.replace("|", "").strip()) <= set("-: "):
+                continue
+            cells = [cell.strip() for cell in line.strip("|").split("|")]
+            rows.append(cells)
+    header = rows[0]
+    data = rows[1:]
+    return pd.DataFrame(data, columns=header)
 
 
 def _parse_length(value: str) -> float | None:
@@ -49,8 +67,8 @@ def _parse_length(value: str) -> float | None:
 
 
 def build_chart(output: Path) -> None:
-    """Read the CSV and write a bar chart to ``output``."""
-    df = pd.read_csv(CSV_PATH)
+    """Read the design matrix table and write a bar chart to ``output``."""
+    df = _read_markdown_table(TABLE_PATH)
     df["max_tokens"] = df["Typical max effective length"].apply(_parse_length)
     df_plot = df.dropna(subset=["max_tokens"])
 
