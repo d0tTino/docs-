@@ -73,3 +73,7 @@ git commit -m "Update project files"
 # Push to the main branch
 git push origin main
 ```
+
+## Example Session
+
+![Example terminal session](../img/example-session.svg)
