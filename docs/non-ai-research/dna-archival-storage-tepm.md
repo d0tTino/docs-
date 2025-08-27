@@ -22,7 +22,9 @@ The model's primary findings are summarized as follows:
 
 The path to viability for DNA data storage is steep, demanding multi-order-of-magnitude improvements in core technologies. This model provides the quantitative framework to navigate this path, identifying the specific technological breakpoints and architectural trade-offs that will determine its future as a transformative archival medium. The key findings are visually synthesized in the TCO comparison below.
 
-![TCO comparison](fig/TEPM_Fig1_TCO_Comparison.svg)
+![Total cost of ownership comparison for DNA, tape, and HDD archives over a 100-year horizon](fig/TEPM_Fig1_TCO_Comparison.svg)
+
+Caption: Modeled TCO for DNA, tape, and HDD archives based on TEPM assumptions using vendor data and technical literature.
 
 ## Modeling Framework and Assumptions
 
@@ -103,7 +105,9 @@ The theoretical information density of DNA is 2 bits per nucleotide. However, pr
 
 The "throughput gap" between DNA and tape is as critical as the cost gap. A single LTO-9 tape drive writes data at a native rate of 300 MB/s. In contrast, a 2018 automated DNA storage prototype demonstrated a write throughput of just five bytes over 21 hours, equivalent to approximately 0.06 bytes per second. To match the write speed of a single tape drive, the throughput of an integrated DNA synthesis system would need to increase by over nine orders of magnitude. While synthesis on microarrays is an inherently parallel process, this stark comparison highlights the immense scaling challenge. It suggests that a viable DNA storage architecture must be massively parallel by design. The critical metric for future progress is not simply bases/s from a single device, but rather bases/s per dollar of capital expenditure, which will ultimately determine the economic scalability of the write architecture.
 
-![Write cost comparison](fig/TEPM_Fig2_Write_Cost_Comparison.svg)
+![Projected write cost and throughput for chemical and enzymatic DNA synthesis platforms over time](fig/TEPM_Fig2_Write_Cost_Comparison.svg)
+
+Caption: Estimated synthesis costs and throughputs from TEPM projections using vendor roadmaps for 2025, 2028, and 2030+.
 
 | Platform | Time Horizon | $/base (Low/Mid/High) | Throughput (bases/s/chip) | Substitution Rate | Insertion Rate | Deletion Rate | Confidence | Citation(s) |
 |----------|--------------|----------------------|----------------------------|-------------------|---------------|---------------|------------|-------------|
@@ -159,7 +163,9 @@ There is no single "best" combination of logical and physical redundancy. The op
 
 The model generates these Pareto fronts for different scenarios, revealing key architectural principles. For an Illumina-based system with low raw read errors, the optimal points on the frontier will favor moderate ECC rates and low physical coverage (e.g., 5–10x). For a Nanopore-based system with high raw indel rates, the frontier shifts dramatically, requiring high physical coverage (e.g., 30–50x) as a prerequisite to form a usable consensus, which is then protected by a moderate ECC rate. This analysis provides a quantitative basis for co-designing the encoding scheme and the physical read/write hardware to minimize the end-to-end cost of reliable data storage.
 
-![Reliability Pareto](fig/TEPM_Fig3_Reliability_Pareto.svg)
+![Pareto frontier of ECC rate versus sequencing coverage for target bit error rate](fig/TEPM_Fig3_Reliability_Pareto.svg)
+
+Caption: Reliability trade-offs modeled with TEPM; assumes Illumina and Nanopore error profiles.
 
 ## Preservation, Durability, and Lifecycle Cost
 
@@ -182,7 +188,9 @@ For DNA, the cost structure is almost entirely front-loaded. The initial synthes
 
 This structural difference means that for short archival periods (<10 years), DNA is and will remain uncompetitive. However, for very long-term archives (50–500+ years), the cumulative cost of repeated migrations for tape and HDD can eventually surpass the high initial write cost of DNA. This analysis precisely identifies the strategic challenge and opportunity for DNA storage: it is not competing on a 5-year TCO basis but on a multi-generational, "deep archive" TCO basis. Its success is therefore contingent on reducing the initial write cost to a point where this long-term amortization becomes economically compelling.
 
-![Lifecycle cost](fig/TEPM_Fig4_Lifecycle_Cost.svg)
+![Lifecycle cost and energy use of storage media including DNA, tape, and HDD](fig/TEPM_Fig4_Lifecycle_Cost.svg)
+
+Caption: Lifecycle cost model using TEPM assumptions; DNA half-life data from preservation studies, tape and HDD from vendor specifications.
 
 | Medium | Storage Condition | Modeled Half-Life (Years) | Refresh Cadence (Years) | Lifecycle Energy (kWh/TB-year) | Citation(s) |
 |--------|------------------|---------------------------|-------------------------|-------------------------------|-------------|

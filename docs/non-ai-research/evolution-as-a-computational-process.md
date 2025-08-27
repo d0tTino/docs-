@@ -306,13 +306,11 @@ movement on the landscape. This "noise" can allow a population to wander off a
 local peak and across a fitness valley, potentially enabling it to discover and
 climb a higher, previously inaccessible peak.
 
-![Figure 1: Visualization of a Rugged Fitness Landscape](fig/rugged-fitness-landscape.png)
+![Figure 1: 3D surface plot of a rugged fitness landscape with peaks labeled A and C separated by valleys](fig/rugged-fitness-landscape.png)
 
-Caption: A conceptual diagram of a rugged fitness landscape. The height of the
-terrain represents fitness. Natural selection acts as a hill-climbing algorithm,
-driving populations toward local optima (A and C). Genetic drift introduces
-stochasticity, allowing a population to traverse a fitness valley and
-potentially discover a higher peak, moving from a local to a global optimum.
+Caption: Conceptual diagram assuming a simplified landscape; terrain height represents fitness.
+Natural selection acts as a hill-climbing algorithm driving populations toward local optima (A and C).
+Genetic drift introduces stochasticity, allowing traversal of a fitness valley to discover higher peaks.
 
 The "steepness" of the hills on this landscape can be quantified using the
 selection coefficient. The selection coefficient, denoted by s, measures the
@@ -491,14 +489,11 @@ methods to build them from sequence data:
   likelihood) or determine the posterior probability distribution of possible
   trees (in the case of Bayesian methods).
 
-![Figure 2: Annotated Phylogenetic Tree Illustrating Computational Steps](fig/annotated-phylogenetic-tree.png)
+![Figure 2: Phylogenetic tree with annotated branches and nodes illustrating computational steps](fig/annotated-phylogenetic-tree.png)
 
-Caption: A phylogenetic tree reconstructed using computational methods. Such
-trees can be annotated to visualize the outputs of the evolutionary algorithm.
-Branch points represent speciation events (algorithmic "forks"). Branch lengths
-represent evolutionary distance, a proxy for computational time. Annotations on
-the terminal nodes (leaves) can display the results of the computation, such as
-the acquisition or loss of specific genetic traits.
+Caption: Tree reconstructed from simulated sequence data using computational methods.
+Branch points mark speciation events, and branch lengths represent evolutionary distance as a proxy for computational time.
+Annotations at terminal nodes indicate inferred gains or losses of genetic traits.
 
 By annotating these computationally derived trees with functional data—such as
 the presence of specific genes, expression levels, or phenotypic
