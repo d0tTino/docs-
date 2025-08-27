@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180">
+  <style>
+    .title { font: bold 16px sans-serif; }
+    .label { font: 12px sans-serif; }
+    .year { font: bold 12px sans-serif; }
+  </style>
+  <text x="400" y="20" text-anchor="middle" class="title">Key Quantum Milestones</text>
+  <line x1="50" y1="80" x2="750" y2="80" stroke="#555" stroke-width="2"/>
+  <circle cx="100" cy="80" r="5" fill="#555"/>
+  <text x="100" y="100" text-anchor="middle" class="year">1900</text>
+  <text x="100" y="115" text-anchor="middle" class="label">Planck</text>
+  <circle cx="200" cy="80" r="5" fill="#555"/>
+  <text x="200" y="100" text-anchor="middle" class="year">1935</text>
+  <text x="200" y="115" text-anchor="middle" class="label">EPR</text>
+  <circle cx="350" cy="80" r="5" fill="#555"/>
+  <text x="350" y="100" text-anchor="middle" class="year">1982</text>
+  <text x="350" y="115" text-anchor="middle" class="label">Feynman</text>
+  <circle cx="450" cy="80" r="5" fill="#555"/>
+  <text x="450" y="100" text-anchor="middle" class="year">1994</text>
+  <text x="450" y="115" text-anchor="middle" class="label">Shor</text>
+  <circle cx="600" cy="80" r="5" fill="#555"/>
+  <text x="600" y="100" text-anchor="middle" class="year">2019</text>
+  <text x="600" y="115" text-anchor="middle" class="label">Supremacy</text>
+  <circle cx="700" cy="80" r="5" fill="#555"/>
+  <text x="700" y="100" text-anchor="middle" class="year">2023</text>
+  <text x="700" y="115" text-anchor="middle" class="label">1,121 Qubits</text>
+</svg>
