@@ -98,7 +98,7 @@ For each position *p* in {1 k, 4 k, 16 k, 64 k, …}, embed a retrieval
 
 ## D. Design matrix summary
 
-The CSV file `context-windows-design-matrix.csv` (see repository) lists the main families of methods (positional scaling, efficient attention, streaming/compressive, distributed full attention, external memory, system-level optimisations) along with their complexity, typical effective length, advantages and caveats.  Use this matrix to compare techniques and decide which to apply in your project.
+The table in [context-windows-design-matrix.md](context-windows-design-matrix.md) lists the main families of methods (positional scaling, efficient attention, streaming/compressive, distributed full attention, external memory, system-level optimisations) along with their complexity, typical effective length, advantages and caveats. Use this matrix to compare techniques and decide which to apply in your project.
 
 ![Context windows design matrix](context-windows-design-matrix.svg)
 

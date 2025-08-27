@@ -36,7 +36,7 @@ KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes
 
 *Figure 1: KV cache size grows roughly linearly with model scale and token count.*
 
-The underlying data in [context-windows-design-matrix.csv](context-windows-design-matrix.csv) maps each bar to a model and sequence length, helping you read exact memory requirements from the chart.
+The underlying data in [context-windows-design-matrix.md](context-windows-design-matrix.md) maps each bar to a model and sequence length, helping you read exact memory requirements from the chart.
 {{ read_file('docs/ai-research/context-windows-design-matrix.html') }}
 
 ![Context windows design matrix](context-windows-design-matrix.svg)
