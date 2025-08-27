@@ -11,6 +11,8 @@ updated: 2025-08-13
 
 # Evolution as a Computational Process: An Interdisciplinary Investigation into Biological Compute
 
+![Timeline of key milestones in evolutionary computing](fig/evolutionary-computing-timeline.svg)
+
 ## I. Theoretical Frameworks: Evolution as an Algorithmic Process
 
 The conceptualization of evolution as a computational process represents a
