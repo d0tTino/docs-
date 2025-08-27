@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <style>
+    .title { font: bold 16px sans-serif; }
+    .label { font: 12px sans-serif; }
+    .year { font: bold 12px sans-serif; }
+  </style>
+  <text x="400" y="20" text-anchor="middle" class="title">Key Evolutionary Computing Milestones</text>
+  <line x1="50" y1="80" x2="750" y2="80" stroke="#555" stroke-width="2"/>
+  <circle cx="100" cy="80" r="5" fill="#555"/>
+  <text x="100" y="100" text-anchor="middle" class="year">1957</text>
+  <text x="100" y="115" text-anchor="middle" class="label">Barricelli</text>
+  <circle cx="200" cy="80" r="5" fill="#555"/>
+  <text x="200" y="100" text-anchor="middle" class="year">1965</text>
+  <text x="200" y="115" text-anchor="middle" class="label">Evolution Strategies</text>
+  <circle cx="300" cy="80" r="5" fill="#555"/>
+  <text x="300" y="100" text-anchor="middle" class="year">1975</text>
+  <text x="300" y="115" text-anchor="middle" class="label">Genetic Algorithms</text>
+  <circle cx="400" cy="80" r="5" fill="#555"/>
+  <text x="400" y="100" text-anchor="middle" class="year">1992</text>
+  <text x="400" y="115" text-anchor="middle" class="label">Genetic Programming</text>
+  <circle cx="500" cy="80" r="5" fill="#555"/>
+  <text x="500" y="100" text-anchor="middle" class="year">1995</text>
+  <text x="500" y="115" text-anchor="middle" class="label">Differential Evolution</text>
+  <circle cx="600" cy="80" r="5" fill="#555"/>
+  <text x="600" y="100" text-anchor="middle" class="year">2002</text>
+  <text x="600" y="115" text-anchor="middle" class="label">NEAT</text>
+  <circle cx="700" cy="80" r="5" fill="#555"/>
+  <text x="700" y="100" text-anchor="middle" class="year">2017</text>
+  <text x="700" y="115" text-anchor="middle" class="label">Scalable ES</text>
+</svg>
