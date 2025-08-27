@@ -18,6 +18,10 @@ updated: 2025-08-13
 - Cryptocurrencies relying on ECDSA are particularly exposed, making the shift to quantum-safe standards a complex yet urgent challenge.
 - The report urges immediate "quantum readiness": inventory existing cryptography, prioritize high-value assets, invest in crypto-agility, and develop time-bound roadmaps for PQC adoption to avoid escalating risk and cost.
 
+![Illustration of qubit error amplification](../img/qubit-error-amplification.svg)
+
+*Figure: A single qubit error can cascade through entangling operations, amplifying faults across a quantum system.*
+
 ## Section I: The Genesis of the Quantum Threat: A Historical Timeline
 The journey from the theoretical underpinnings of quantum computation to the tangible hardware of the present day reveals a clear and accelerating trajectory. What began as an abstract inquiry into the computational power of quantum mechanics has evolved into a global technological race with profound implications for cryptography. The historical record shows that the knowledge of the cryptographic threat has long preceded the physical means to execute it, a dynamic that defines the strategic urgency of the current moment.
 
