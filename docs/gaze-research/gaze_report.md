@@ -9,9 +9,16 @@ updated: 2025-08-10
 
 # Gaze Research Project – Comprehensive Document
 
-This document consolidates all deliverables for the research project
-"From Mirror to Feed: A Comprehensive Analysis of the Gaze—Classical
-Theory, Contemporary Extensions, and the Emergent Social‑Media Gaze."
+## Project Overview
+
+This document consolidates all deliverables for the research project.
+
+The project, "From Mirror to Feed: A Comprehensive Analysis of the Gaze—Classical Theory, Contemporary Extensions, and the Emergent Social‑Media Gaze," examines the gaze across historical and contemporary perspectives.
+
+### Summary
+
+- Consolidates all deliverables for the gaze research project.
+- Analyzes the gaze from classical theory to social-media contexts.
 
 ## Deliverables Overview
 
@@ -27,6 +34,12 @@ Theory, Contemporary Extensions, and the Emergent Social‑Media Gaze."
 - **BibTeX References (`gaze_references.bib`)** – A file for citation
   management that can be imported into reference software (e.g., Zotero,
   EndNote).
+
+### Summary
+
+- Main report covers theory, methods, findings, and conclusions.
+- Bibliography and references streamline citation management.
+- Influence map visualizes theoretical lineage.
 
 ## Using the Deliverables
 
@@ -54,15 +67,23 @@ Theory, Contemporary Extensions, and the Emergent Social‑Media Gaze."
 - Entries contain minimal bibliographic data and may require additional
   details.
 
+### Summary
+
+- Report and citations can be read with standard markdown and BibTeX tools.
+- Bibliography and references provide detailed source information.
+- Influence map reveals relationships among theoretical concepts.
+
 ## Notes
 
-- The comparative matrix of gaze variants is integrated into the main report
-  (Section 5) rather than provided as a separate file.
-- The report identifies research gaps and proposes directions for future work,
-  including the need for empirical studies on non-Western and neuro-diverse
-  populations and on emerging technologies such as AR/VR and generative AI.
-- Due to the breadth of the topic and the limitations of open access, not all
-  primary texts could be directly quoted; secondary summaries were used where
-  appropriate. Readers are encouraged to consult original works for deeper
-  analysis.
+- The comparative matrix of gaze variants is integrated into the main report (Section 5) rather than provided as a separate file.
+- The report highlights research gaps and suggests future work, including empirical studies on non-Western and neuro-diverse populations.
+- It also calls for exploration of emerging technologies such as AR/VR and generative AI.
+- Due to the topic's breadth and limited open access, not all primary texts could be directly quoted; secondary summaries were used where appropriate.
+- Readers are encouraged to consult original works for deeper analysis.
+
+### Summary
+
+- Comparative matrix appears in Section 5.
+- Emphasizes research gaps, diverse populations, and emerging technologies.
+- Encourages consultation of original texts.
 
