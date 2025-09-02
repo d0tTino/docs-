@@ -4,6 +4,7 @@ mkdocs-material
 mkdocs-monorepo-plugin
 mkdocs-mermaid2-plugin
 mkdocs-bibtex
+mkdocs-glightbox
 pymdown-extensions
 lunr[languages]
 pytest
