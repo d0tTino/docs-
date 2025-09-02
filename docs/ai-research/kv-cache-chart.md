@@ -9,8 +9,19 @@ updated: 2025-08-15
 
 # KV Cache Chart
 
-![Line chart showing KV cache memory rising roughly linearly with token count; larger models require far more memory per token.](kv-cache-chart.svg)
+![Bar chart with token count on the x-axis and KV cache memory (GiB) on the y-axis; larger models require far more memory per token.](kv-cache-chart.svg)
+
+[Interactive HTML visualization](kv-cache-chart.html)
 
 A static rendering of the KV cache visualization originally distributed as an HTML artifact.
 
 The chart highlights a near-linear relationship between sequence length and KV cache memory. As token counts grow, larger models consume proportionally more memory, so scaling up model size or context length quickly drives up the cache footprint.
+
+## Refreshing the chart
+
+The SVG and interactive HTML are generated from model parameters in [`scripts/kv_capacity.py`](../../scripts/kv_capacity.py). To refresh the artifacts, run:
+
+```
+python scripts/kv_capacity.py --plot --output docs/ai-research/kv-cache-chart.svg
+python scripts/kv_capacity.py --plotly --output docs/ai-research/kv-cache-chart.html
+```
