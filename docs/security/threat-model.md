@@ -34,18 +34,17 @@ flowchart LR
     D --> R --> C --> S --> H --> U
 ```
 
-**Diagram description:** Developers commit documentation to a repository within the Contributors trust boundary. The CI system builds the docs and generates a static site in the CI boundary. The static site is then hosted and served to users in the Public boundary.
+**Diagram description:** Developers work within the Contributors boundary and commit documentation to the repository. After review, changes cross into the CI boundary where the system builds the docs into a static site. The resulting site then crosses the trust boundary into the Public environment for hosting and user access.
 
 *Figure: Flow of documentation from developers to users via CI and hosting.*
 
 ## Potential Threats
 
-| Threat                                          | Impact | Likelihood | Severity | Mitigation                                              |
-|-------------------------------------------------|--------|------------|----------|---------------------------------------------------------|
-| Unauthorized modification or defacement of docs | Medium | Medium     | 🟧 Medium | Use version control; require code review to gate changes |
-| Malicious code injection in scripts             | High   | Low        | 🟥 High   | Restrict script permissions; validate dependencies      |
-| Leakage of credentials or sensitive data        | High   | Low        | 🟥 High   | Scan commits for secrets; rotate credentials regularly   |
-
+| Threat                                          | Impact | Likelihood | Severity | Mitigation                                             | Status    |
+|-------------------------------------------------|--------|------------|----------|---------------------------------------------------------|-----------|
+| Unauthorized modification or defacement of docs | Medium | Medium     | 🟧 Medium | Use version control; require code review to gate changes| Monitored |
+| Malicious code injection in scripts             | High   | Low        | 🟥 High   | Restrict script permissions; validate dependencies      | Mitigated |
+| Leakage of credentials or sensitive data        | High   | Low        | 🟥 High   | Scan commits for secrets; rotate credentials regularly  | Mitigated |
 **Severity legend:**
 
 - 🟩 Low
