@@ -11,14 +11,18 @@ updated: 2025-08-10
 
 Below is a list of key sources used in the preparation of this report. Each annotation summarises the source’s content, assesses its methodological quality and explains its relevance to the study of the gaze.
 
-## Lacan and Psychoanalysis
+<details>
+<summary>Lacan and Psychoanalysis</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
 | <a id="lacan_sep"></a>[Stanford Encyclopedia of Philosophy – “Jacques Lacan”](https://plato.stanford.edu) [@lacan_sep](gaze_references.bib#lacan_sep) | Provides a comprehensive overview of Lacan’s mirror stage and reinterpretation of the<br>Oedipus complex, explaining how the mirror stage creates a misrecognised ego and<br>illuminates the gaze as identity-forming. | Peer-reviewed entry suitable for referencing core Lacanian concepts. |
 | <a id="foucault_birth_clinic"></a>[Foucault, M. – *The Birth of the Clinic*](https://in-training.org) [@foucault_birth_clinic](gaze_references.bib#foucault_birth_clinic) | Distils Foucault’s concept of the medical gaze, describing the nineteenth-century shift<br>from anecdotal diagnoses to empirical observation and the “double system” of observation<br>across the patient’s body. | Accessible secondary source closely aligned with Foucault’s primary text. |
 
-## Film and Gender Studies
+</details>
+
+<details>
+<summary>Film and Gender Studies</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
@@ -29,14 +33,20 @@ Below is a list of key sources used in the preparation of this report. Each anno
 | <a id="queer_gaze_3am"></a>[Queer Gaze – 3AM Magazine](https://3ammagazine.com) [@queer_gaze_3am](gaze_references.bib#queer_gaze_3am) | Discusses how the queer gaze deconstructs binary gender assumptions and emphasises fluid<br>identities while critiquing mainstream LGBT cinema. | Opinion essay grounded in queer theory calling for more radical aesthetics. |
 | <a id="kaplan_imperial_gaze"></a>[Kaplan, E. A. – *Looking for the Other: Feminism, Film and the Imperial Gaze* (1997)](https://en.wikipedia.org) [@kaplan_imperial_gaze](gaze_references.bib#kaplan_imperial_gaze) | Describes how the imperial gaze defines the colonised through the observer’s values and<br>assumes the centrality of the white Western subject. | Synopsis consistent with Kaplan’s argument; readers should consult the full text for<br>depth. |
 
-## Post‑Colonial and Tourism Studies
+</details>
+
+<details>
+<summary>Post‑Colonial and Tourism Studies</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
 | <a id="colonial_gaze_igi"></a>[IGI Global – “Colonial Gaze”](https://igi-global.com) [@colonial_gaze_igi](gaze_references.bib#colonial_gaze_igi) | Defines the colonial gaze as a mechanism for dehumanising colonised subjects and<br>legitimising coloniser dominance, noting its operation in health and education systems. | Succinct description referencing Fanon and Bhabha; suitable for introductory purposes. |
 | <a id="tourist_gaze_number_analytics"></a>[Number Analytics – “Tourist Gaze”](https://abacademies.org) [@tourist_gaze_number_analytics](gaze_references.bib#tourist_gaze_number_analytics) | Summarises John Urry’s concept that tourists’ perceptions are socially constructed and<br>shaped by cultural expectations of authenticity and exoticism, noting Western bias and<br>variations such as tourist-initiated and host-initiated gazes. | Introduces key facets of the tourist gaze for tourism studies. |
 
-## Medical and Surveillance Studies
+</details>
+
+<details>
+<summary>Medical and Surveillance Studies</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
@@ -46,7 +56,10 @@ Below is a list of key sources used in the preparation of this report. Each anno
 | <a id="oak_interactive_algorithms"></a>[Oak Interactive – “The Invisible Architects: How Algorithms Shape Our World”](https://oakinteractive.com) [@oak_interactive_algorithms](gaze_references.bib#oak_interactive_algorithms) | Describes how AI algorithms personalise content and create echo chambers, noting benefits<br>and reinforcing biases. | Articulates public concerns and contextualises algorithmic power in consumer contexts. |
 | <a id="psychology_today_digital_observer"></a>[Psychology Today – “The Digital Observer”](https://psychologytoday.com) [@psychology_today_digital_observer](gaze_references.bib#psychology_today_digital_observer) | Explores psychological consequences of being observed by algorithms, arguing that<br>surveillance shifts individuals from self-inquiry to self-editing. | Blends psychology and media critique to offer insights into internalised surveillance. |
 
-## Empirical Studies on Social Media
+</details>
+
+<details>
+<summary>Empirical Studies on Social Media</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
@@ -56,19 +69,27 @@ Below is a list of key sources used in the preparation of this report. Each anno
 | <a id="semantic_scholar_folk_theories"></a>[Semantic Scholar – “Algorithmic Folk Theories and Identity”](https://semanticscholar.org) [@semantic_scholar_folk_theories](gaze_references.bib#semantic_scholar_folk_theories) | Summarises a 2021 ACM paper showing that users’ beliefs about TikTok’s algorithm influence<br>their sense of belonging and perceived ability to be seen. | Highlights that folk theories shape user behaviour even when inaccurate. |
 | <a id="behavioral_false_self"></a>[Behavioral Sciences – “False Self‑Presentation and Social Comparison in Excessive Social Media Use” (2025)](https://pmc.ncbi.nlm.nih.gov) [@behavioral_false_self](gaze_references.bib#behavioral_false_self) | Applies self-discrepancy and social-comparison theories to examine how false<br>self-presentation and comparison drive excessive social-media use; finds false<br>self-presentation increases fear of negative evaluation without directly increasing usage. | Uses structural equation modelling and discusses gender moderation effects. |
 
-## Algorithmic and Social Drivers
+</details>
+
+<details>
+<summary>Algorithmic and Social Drivers</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
 | <a id="perspectives_social_drivers"></a>[Perspectives on Psychological Science – “Social Drivers and Algorithmic Mechanisms on Digital Media” (2024)](https://pmc.ncbi.nlm.nih.gov) [@perspectives_social_drivers](gaze_references.bib#perspectives_social_drivers) | Comprehensive review examining how algorithms interact with human motives for connection<br>and status, emphasizing reinforcement of existing social drivers and identifying risks<br>like depression and polarisation. | Peer-reviewed synthesis calling for design changes to promote well-being. |
 
-## Additional Sources
+</details>
+
+<details>
+<summary>Additional Sources</summary>
 
 | Source | Summary | Relevance |
 | --- | --- | --- |
 | <a id="urry_tourist_gaze"></a>[Urry, J. – *The Tourist Gaze* (1990)](https://abacademies.org) [@urry_tourist_gaze](gaze_references.bib#urry_tourist_gaze) | Secondary summaries capture Urry’s argument that tourist perceptions are socially<br>constructed and influenced by expectations of authenticity and exoticism. | Seminal text in tourism studies. |
 | [Fan Culture and Algorithmic Curation – Oak Interactive and other grey literature](https://oakinteractive.com) [@oak_interactive_algorithms](gaze_references.bib#oak_interactive_algorithms) | Provides context for public discourse on algorithms shaping experiences, highlighting echo<br>chambers and filter bubbles. | Illustrates concerns about algorithmic mediation in popular culture. |
 | [Psychiatry and the Medical Gaze – PubMed articles](https://pmc.ncbi.nlm.nih.gov) [@pmc_medical_gaze](gaze_references.bib#pmc_medical_gaze) | Offers empirical examples of how the medical gaze functions in modern clinical settings,<br>emphasising reduction of patient narratives to data and power imbalances. | Demonstrates contemporary applications of the medical gaze. |
+
+</details>
 
 This annotated bibliography is not exhaustive but covers the key sources that informed the present report. For the full list of 80+ references, please refer to the BibTeX references file (`gaze_references.bib`).
 
