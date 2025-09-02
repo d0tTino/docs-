@@ -10,11 +10,11 @@ Key features:
 - Pre-commit hooks and helper scripts that standardize contributions.
 - Clear directory conventions that streamline browsing and preserve version history.
 
-![Site map diagram](docs/img/site-map.svg)
+![Diagram showing documentation flow across project modules](docs/img/site-map.svg)
 
 This diagram illustrates documentation flow across project modules.
 
-This repository aggregates documentation and research across multiple projects.
+This repository aggregates documentation and research across multiple projects. Architecture decisions are documented in [adr/](adr/).
 
 For setup instructions, directory overview, and detailed research listings,
 see [docs/index.md](docs/index.md). For a quick start, read the [Quickstart
@@ -23,6 +23,7 @@ model](docs/security/threat-model.md).
 
 ## Table of Contents
 
+- [Repository Structure](#repository-structure)
 - [Development](#development)
   - [Pre-commit](#pre-commit)
   - [Preview Docs Locally](#preview-docs-locally)
@@ -30,6 +31,13 @@ model](docs/security/threat-model.md).
   - [Update Research Indexes](#update-research-indexes)
 - [Contributing](#contributing)
 - [Resources](#resources)
+
+## Repository Structure
+
+- [`docs/`](docs/) – User-facing documentation modules.
+- [`adr/`](adr/) – Architectural Decision Records.
+- [`scripts/`](scripts/) – Helper scripts and automation.
+- [`tests/`](tests/) – Test suite for repository tooling.
 
 ## Development
 
