@@ -61,3 +61,6 @@ This collection brings together research into topics outside of AI, including pr
 - [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md) — Maps mind-space dimensions relevant to the [Culture Project](../culture-project/index.md).
   Charts qualitative intelligence dimensions.
   Offers context for the [Concrete Cognition Anthology](concrete-cognition-anthology.md).
+- [The Neuropsychology of Fandom Affinity: An Integrative Analysis of Furry Art, Identity, and Belonging](neuropsychology-of-fandom-affinity.md) — Explores how furry art and community structures support neurodivergent well-being.
+  Examines attentional styles, social processing, and identity dynamics in fandom.
+  Relates community belonging to theories of optimal distinctiveness.
