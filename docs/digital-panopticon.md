@@ -23,18 +23,25 @@ Palantir Technologies, born from the nexus of Silicon Valley innovation and CIA 
 
 This investigation examines Palantir not merely as a contractor but as a central architect of the contemporary surveillance state. Gotham and Foundry merge the siloed records of a citizen's life into a single plane of actionable data, revealing how the post‑9/11 security climate evolved into the reality of August 2025.
 
-### 1960s–1970s: Signals Intelligence Takes Shape
-Modern surveillance roots trace back to ECHELON, the Five Eyes signals intelligence network formalized in 1971. The alliance laid the groundwork for global data collection long before the internet age.
+### Historical Context
+![Palantir timeline](img/palantir-timeline.svg)
 
-### 2000s: The Post‑9/11 Buildout
-The 2001 USA PATRIOT Act drastically expanded U.S. surveillance powers and created the legal environment for new tools. Palantir, founded in 2003 with critical CIA backing, set out to adapt PayPal's anti‑fraud algorithms to counter‑terrorism.
+#### 1960s–1970s: Signals Intelligence Takes Shape
+- ECHELON, formalized in 1971, created a Five Eyes signals intelligence network.
+- This alliance laid the groundwork for global data collection long before the internet age.
 
-### 2010s: The Snowden Reckoning
-Edward Snowden's 2013 disclosures exposed the scale of NSA programs and sparked a public debate over privacy and state power. Palantir positioned itself as a more "targeted" alternative, emphasizing integration over bulk collection.
+#### 2000s: The Post‑9/11 Buildout
+- The 2001 USA PATRIOT Act drastically expanded U.S. surveillance powers and created the legal environment for new tools.
+- Palantir, founded in 2003 with critical CIA backing, adapted PayPal's anti‑fraud algorithms to counter‑terrorism.
 
-### 2020s: Toward a Digital Panopticon
+#### 2010s: The Snowden Reckoning
+- Edward Snowden's 2013 disclosures exposed the scale of NSA programs and sparked a public debate over privacy and state power.
+- Palantir positioned itself as a more "targeted" alternative, emphasizing integration over bulk collection.
+
+#### 2020s: Toward a Digital Panopticon
 By the 2020s, Palantir's software underpins efforts like DOGE, knitting together vast federal datasets and inching closer to a unified state view of every citizen.
 
+### Analysis
 This report is structured in five parts. Part I establishes the historical foundations of the modern surveillance state, from ECHELON to the CIA investment that launched Palantir. Part II deconstructs the technological engine at Palantir's core. Part III maps the web of influence surrounding the company. Part IV navigates the legal and ethical crucible. Finally, Part V analyzes current flashpoints and fault lines as of August 2025, illustrating the tangible impact of Palantir's technology on civil liberties and democratic accountability.
 
 ## Part I: The Foundations of the Watchful State
