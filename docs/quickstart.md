@@ -9,21 +9,39 @@ updated: 2025-08-13
 
 # Quickstart
 
+Need command-line tips? See the [Terminal Workflow guide](terminal-workflow/index.md).
+
 ## Set Up Git LFS and pre-commit
+1. Install Git LFS:
 
-Initialize large-file support and install the local hooks:
+   ```bash
+   git lfs install
+   ```
 
-```bash
-git lfs install
-pip install pre-commit
-pre-commit install
-```
+2. Install pre-commit hooks:
+
+   ```bash
+   pip install pre-commit
+   pre-commit install
+   ```
 
 ## Run the Docs Locally
 
+### Install Python dependencies (pip)
+
 ```bash
 pip install -r requirements.txt
+```
+
+### Install Node dependencies (npm)
+
+```bash
 npm install
+```
+
+### Start the development server
+
+```bash
 mkdocs serve
 ```
 
