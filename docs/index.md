@@ -18,6 +18,12 @@ This repository aggregates documentation and research across multiple projects.
 
 ## Table of Contents
 
+Quick links to essential guides and resources.
+
+### Getting Started
+- [Quickstart Guide](quickstart.md)
+- [Threat Model](security/threat-model.md)
+
 ### Research
 - [AI Research](ai-research/index.md)
 - [Non-AI Research](non-ai-research/index.md)
@@ -29,6 +35,7 @@ This repository aggregates documentation and research across multiple projects.
 - [Local Docker Build](../playbooks/local-docker-build.md)
 
 ## Getting Started
+Guides for setting up the docs hub and exploring resources.
 
 !!! info "Get Started"
     Build the docs with the [Quickstart guide](quickstart.md).
@@ -39,6 +46,7 @@ This repository aggregates documentation and research across multiple projects.
 
 For contribution guidelines, see the [Contributing section](../README.md#contributing) of the main README.
 ## Directory Structure
+Overview of key directories and their purposes.
 
 ![Site Map](img/site-map.svg)
 
@@ -56,6 +64,7 @@ For contribution guidelines, see the [Contributing section](../README.md#contrib
 | `security/` | Security guidelines and threat models | `threat-model.md` |
 
 ## Research Docs
+Highlights the main research categories, including AI, non-AI, gaze, and security topics.
 
 ### Research Highlights
 
@@ -65,6 +74,7 @@ For contribution guidelines, see the [Contributing section](../README.md#contrib
 - [Security](security/) – threat models and guidance on secure development practices.
 
 ## Project Documentation Submodules
+Explains how to manage project-specific documentation with git submodules.
 
 Project documentation lives in separate repositories added to `_project-docs/`
 as git submodules. Add a new project by running:
@@ -93,6 +103,7 @@ scripts/bulk_submodule_update.sh
 ```
 
 ## After Cloning
+Steps to configure tools and hooks immediately after cloning the repository.
 
 Set up Git LFS and repository hooks after cloning:
 
@@ -105,6 +116,7 @@ The hooks enforce Markdown and Python linting via the `.githooks/pre-commit`
 script, which runs `markdownlint-cli` and `flake8`.
 
 ## Building the Docs
+Instructions for installing dependencies and previewing the documentation site.
 
 Install Python packages from `requirements.txt` to ensure all dependencies
 (MkDocs, pytest, flake8) install consistently, then launch the dev server using
@@ -120,6 +132,7 @@ Markdown files or `mkdocs.yml`.
   https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site
 
 ## Setting Up Git Hooks
+Guidance for configuring repository hooks that enforce linting.
 
 Configure git to use the repository's hooks by running the helper script:
 
@@ -128,6 +141,7 @@ scripts/setup_hooks.sh
 ```
 
 ## Invoking the Migration Script
+Procedure for importing legacy documentation using the migration script.
 
 You can import configuration and prompt snippets from the old
 [`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure `git-
@@ -149,6 +163,7 @@ git merge d0tTino-import --allow-unrelated-histories
 ```
 
 ## Ingesting and Querying Markdown
+Use the ingestion utility to store and search markdown snippets.
 
 The `scripts/ingest.py` helper can store markdown chunks in a simple vector
 database and retrieve them later:
@@ -167,11 +182,13 @@ EOF
 ```
 
 ## Legal
+Outlines licensing terms and disclaimers.
 
 This documentation is provided for informational purposes and comes with no
 warranty. See the [LICENSE](../LICENSE) for terms and standard disclaimers.
 
 ## References
+Citations for cases, APIs, and publications referenced in the docs.
 
 ### Legal cases
 1. *Riley v. California*, 573 U.S. 373 (2014).
