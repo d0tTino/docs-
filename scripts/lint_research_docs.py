@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Scan Markdown files for formatting and required metadata.
+"""Scan Markdown files for formatting, metadata, and accessibility.
 
 This script checks Markdown files in a given directory for common formatting
 issues. It flags lines that end with a letter when the following line begins
 with a letter (a sign of a word accidentally split across lines) and lines that
 contain extraneous trailing spaces. It also verifies that each file contains
-required front matter metadata and the standard disclaimer snippet.
+required front matter metadata and the standard disclaimer snippet, and
+reports image tags with empty alt text.
 
 Usage:
     python scripts/lint_research_docs.py [--path PATH]
@@ -17,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import re
 from typing import Iterable, List
 
 
@@ -57,6 +59,9 @@ def find_splits(path: Path) -> List[str]:
             errors.append(f"{path}: missing disclaimer snippet")
 
     # Existing whitespace and split checks for content only
+    md_img_pattern = re.compile(r'!\[\s*\]\([^)]*\)')
+    html_img_pattern = re.compile(r"<img[^>]*alt=([\'\"])\s*\1", re.IGNORECASE)
+
     for idx, line in enumerate(lines[content_start:], start=content_start):
         if line.rstrip() != line:
             errors.append(f"{path}:{idx + 1}: trailing whitespace")
@@ -64,6 +69,8 @@ def find_splits(path: Path) -> List[str]:
             next_line = lines[idx + 1]
             if next_line and next_line[0].isalpha():
                 errors.append(f"{path}:{idx + 1}: possible mid-word split")
+        if md_img_pattern.search(line) or html_img_pattern.search(line):
+            errors.append(f"{path}:{idx + 1}: image with empty alt text")
     return errors
 
 

@@ -74,6 +74,26 @@ def test_linter_detects_trailing_whitespace(tmp_path):
     assert "trailing whitespace" in result.stdout
 
 
+def test_linter_detects_empty_alt_text(tmp_path):
+    target = tmp_path / "docs" / "ai-research"
+    target.mkdir(parents=True)
+    content = (
+        "---\n"
+        "title: T\n"
+        "tags: [a]\n"
+        "project: T\n"
+        "updated: 2024-01-01\n"
+        "---\n"
+        '--8<-- "_snippets/disclaimer.md"\n'
+        "![](image.png)\n"
+    )
+    (target / "sample.md").write_text(content)
+
+    result = run_linter(target)
+    assert result.returncode == 1
+    assert "image with empty alt text" in result.stdout
+
+
 def test_linter_requires_disclaimer(tmp_path):
     target = tmp_path / "docs" / "ai-research"
     target.mkdir(parents=True)
