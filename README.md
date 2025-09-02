@@ -10,7 +10,9 @@ Key features:
 - Pre-commit hooks and helper scripts that standardize contributions.
 - Clear directory conventions that streamline browsing and preserve version history.
 
-<img src="docs/img/site-map.svg" alt="Diagram of repository site map illustrating documentation flow across modules" />
+![Site map diagram](docs/img/site-map.svg)
+
+This diagram illustrates documentation flow across project modules.
 
 This repository aggregates documentation and research across multiple projects.
 
