@@ -9,7 +9,10 @@ updated: 2025-07-29
 
 # Tino Docs Hub
 
-**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules. Pre-commit hooks, helper scripts, and consistent directory conventions streamline contributions, keeping research artifacts easy to browse and maintain.
+**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs
+and Git submodules. Pre-commit hooks, helper scripts, and consistent directory
+conventions streamline contributions, keeping research artifacts easy to browse
+and maintain.
 
 This repository aggregates documentation and research across multiple projects.
 
