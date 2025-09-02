@@ -2,7 +2,8 @@
 
 [![Build Status](https://github.com/d0tTino/docs-/actions/workflows/tests.yml/badge.svg)](https://github.com/d0tTino/docs-/actions/workflows/tests.yml) [![License](https://img.shields.io/github/license/d0tTino/docs-)](LICENSE)
 
-Central hub for project documentation and research across Tino initiatives.
+Central repository for documentation and research across Tino projects.
+Provides a single source of truth via modular MkDocs, pre-commit hooks, and structured directories.
 
 Key features:
 
@@ -12,7 +13,7 @@ Key features:
 
 ![Diagram showing documentation flow across project modules](docs/img/site-map.svg)
 
-This diagram illustrates documentation flow across project modules.
+Shows documentation flowing from individual project modules into the hub.
 
 This repository aggregates documentation and research across multiple projects. Architecture decisions are documented in [adr/](adr/).
 
