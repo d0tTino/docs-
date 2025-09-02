@@ -9,6 +9,18 @@ updated: 2025-08-10
 
 # Gaze Research Project – Comprehensive Document
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Deliverables Overview](#deliverables-overview)
+- [Project Flow](#project-flow)
+- [Using the Deliverables](#using-the-deliverables)
+  - [Reading the Report](#reading-the-report)
+  - [Exploring Sources](#exploring-sources)
+  - [Visualising the Genealogy](#visualising-the-genealogy)
+  - [Reference Management](#reference-management)
+- [Notes](#notes)
+
 ## Project Overview
 
 This document consolidates all deliverables for the research project.
@@ -40,6 +52,21 @@ The project, "From Mirror to Feed: A Comprehensive Analysis of the Gaze—Classi
 - Main report covers theory, methods, findings, and conclusions.
 - Bibliography and references streamline citation management.
 - Influence map visualizes theoretical lineage.
+
+## Project Flow
+
+<figure aria-label="Diagram showing project flow from research inputs through analysis to deliverables">
+<div class="mermaid">
+flowchart TD
+    A[Research Inputs] --> B[Analysis]
+    B --> C{Deliverables}
+    C --> D[Report]
+    C --> E[Annotated Bibliography]
+    C --> F[Influence Map]
+    C --> G[BibTeX References]
+</div>
+<figcaption>Project flow from research inputs through analysis to four deliverables: report, annotated bibliography, influence map, and BibTeX references.</figcaption>
+</figure>
 
 ## Using the Deliverables
 
