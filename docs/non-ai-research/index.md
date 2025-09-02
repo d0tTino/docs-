@@ -2,7 +2,7 @@
 title: "Non-AI Research"
 tags: [research, docs]
 project: "non-ai-research"
-updated: 2025-08-15
+updated: 2025-09-02
 ---
 
 --8<-- "_snippets/disclaimer.md"
@@ -55,6 +55,9 @@ This collection brings together research into topics outside of AI, including pr
 - [The Concrete Cognition Anthology](concrete-cognition-anthology.md).
   Compiles essays on cognition.
   Extends ideas mapped in the [High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md).
+- [The Galilean Prophet: A Critical Maximalist Reconstruction of the Historical Jesus](galilean-prophet.md).
+  Reconstructs Jesus ben Joseph's milieu and movement.
+  Highlights tensions between messianic expectations and Roman power.
 - [The High-Level Intelligence Qualia Atlas](high-level-intelligence-qualia-atlas.md).
   Charts qualitative intelligence dimensions.
   Offers context for the [Concrete Cognition Anthology](concrete-cognition-anthology.md).
