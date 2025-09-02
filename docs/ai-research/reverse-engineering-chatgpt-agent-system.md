@@ -11,6 +11,11 @@ updated: 2025-07-29
 
 [TOC]
 
+## Key Findings
+- The ChatGPT Agent system uses an asynchronous ReAct-style reasoning loop to break down user goals into tool-driven actions.
+- Key tools include a secure code sandbox, retrieval-based file search, and external function-calling interface.
+- U.S. law permits a clean-room reimplementation under interoperability and fair use provisions.
+
 
 ## 1.0 Executive Summary
 
@@ -236,6 +241,8 @@ POST /runs, GET /runs/{id}) to the state transitions of the conceptual model (e.
 
 Model Generation and Refinement: An architectural model was developed using the C4 modeling framework (Context, Containers, Components, Code). An initial high-level model was created based on the OSINT data from Phase 1. This model was then iteratively refined and populated with concrete details derived from the dynamic and static analysis phases. For example, the abstract "API" component in the initial model was detailed with the specific RESTful endpoints, request/response schemas, and authentication methods discovered in Phases 2 and 4. This process resulted in the detailed architectural diagrams and findings presented in the subsequent sections of this report.
 
+
+## Architecture
 
 ## 5.0 System Overview Diagram
 
@@ -732,6 +739,8 @@ LLM agents: The ultimate guide 2025 | SuperAnnotate
 Opens in a new window
 
 law.cornell.edu
+
+## Legal Considerations
 
 ## 17 U.S. Code § 1201 - Circumvention of copyright protection ...
 
