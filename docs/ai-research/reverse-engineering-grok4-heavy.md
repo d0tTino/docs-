@@ -9,6 +9,13 @@ updated: 2025-07-10
 
 # Reverse-Engineering Design Report: Grok 4 Heavy Multi-Agent Framework
 
+## TL;DR
+- Grok 4 Heavy orchestrates multiple specialized agents under a central Orchestrator.
+- Tasks are decomposed into parallel sub-tasks and cross-checked through shared memory.
+- The collaborative design delivers faster problem-solving and reduced hallucinations.
+
+![High-level architecture of the Grok 4 Heavy multi-agent system](grok4-heavy-arch.svg)
+
 ## 1.0 Executive Summary
 
 ### 1.1 Overview of Findings
