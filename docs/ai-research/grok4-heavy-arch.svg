@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333" />
+    </marker>
+  </defs>
+  <style>
+    rect{fill:#f8f9fa;stroke:#333;stroke-width:1.2;}
+    text{font-family:Arial,sans-serif;font-size:14px;}
+    line{stroke:#333;stroke-width:1.2;marker-end:url(#arrow);}
+  </style>
+  <rect x="20" y="110" width="80" height="40" rx="5" />
+  <text x="60" y="135" text-anchor="middle">User</text>
+  <rect x="130" y="110" width="120" height="40" rx="5" />
+  <text x="190" y="135" text-anchor="middle">Orchestrator</text>
+  <rect x="280" y="50" width="120" height="40" rx="5" />
+  <text x="340" y="75" text-anchor="middle">Agent A</text>
+  <rect x="280" y="170" width="120" height="40" rx="5" />
+  <text x="340" y="195" text-anchor="middle">Agent B</text>
+  <rect x="430" y="110" width="120" height="40" rx="5" />
+  <text x="490" y="135" text-anchor="middle">Shared Memory</text>
+  <rect x="580" y="110" width="80" height="40" rx="5" />
+  <text x="620" y="135" text-anchor="middle">Response</text>
+  <line x1="100" y1="130" x2="130" y2="130" />
+  <line x1="250" y1="130" x2="280" y2="70" />
+  <line x1="250" y1="130" x2="280" y2="190" />
+  <line x1="400" y1="70" x2="430" y2="130" />
+  <line x1="400" y1="190" x2="430" y2="130" />
+  <line x1="550" y1="130" x2="580" y2="130" />
+</svg>
