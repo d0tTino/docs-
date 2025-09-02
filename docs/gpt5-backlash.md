@@ -21,16 +21,22 @@ By Tino | August 8, 2025
 
 In the fast-evolving world of artificial intelligence, few events generate as
 much buzz—and controversy—as the rollout of a new flagship model from OpenAI.
+
 This week, the release of GPT-5 was meant to be a triumphant step forward,
-heralded by an [AMA (Ask Me Anything) session](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1) on Reddit's r/ChatGPT subreddit
+heralded by an [AMA (Ask Me Anything) session](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20
+Altman%20and%20some%20of%20the%20team&restrict_sr=1) on Reddit's r/ChatGPT subreddit
 featuring CEO Sam Altman and members of the OpenAI team. Instead, the thread
 devolved into a chorus of user frustrations, with complaints dominating the
 discussion and no visible responses from OpenAI representatives to address them.
+
 Drawing from hundreds of comments, the outcry centers on the abrupt deprecation
 of legacy models like GPT-4o and perceived downgrades in performance, leaving
 many users feeling betrayed by a company they once championed.
 
-![Bar chart showing a large majority of negative comments compared to positive ones](img/gpt5-sentiment.svg)
+<figure>
+  <img src="img/gpt5-sentiment.svg" alt="Bar chart showing a large majority of negative comments compared to positive ones">
+  <figcaption>Sentiment analysis of r/ChatGPT AMA comments (August 8, 2025). Source: r/ChatGPT thread.</figcaption>
+</figure>
 
 The AMA, titled "GPT5 AMA with OpenAI's Sam Altman and some of the team,"
 quickly became a venting ground rather than a celebratory Q&A. Posted just days
@@ -138,3 +144,10 @@ of technology and heartfelt connection.
 
 This report is based on an analysis of the Reddit thread as of August 8, 2025.
 For the full discussion, visit the original post.
+
+
+## Summary
+
+- GPT-5's launch drew criticism over deprecated models and alleged performance drops.
+- OpenAI's silence in the AMA amplified community frustration.
+- Sustained #SAVE4o activism highlights demand for model choice and better communication.
