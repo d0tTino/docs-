@@ -53,7 +53,7 @@ Markdown files:
 | `npm run preexpand <file>` | Expand snippet refs | For docs with snippets |
 
 The hook runs `scripts/expand_snippets.py` to inline snippet references and
-`scripts/lint_research_docs.py` to catch mid-word line splits.
+`scripts/lint_research_docs.py` to catch mid-word line splits and empty image alt text.
 
 ### Preview Docs Locally
 
