@@ -38,62 +38,67 @@ nav:
   - Home: index.md
   - Quickstart: quickstart.md
   - AI Research:
+      - Agentic SWE Discontinuity Forecast: ai-research/agentic-swe-discontinuity-forecast.md
+      - An Audit of an Oracle: audit-of-an-oracle.md
+      - Context Windows:
+          - Context Windows Appendix: ai-research/context-windows-appendix.md
+          - Context Windows Deep Dive: ai-research/context-windows-deep-dive.md
+          - Context Windows Design Matrix: ai-research/context-windows-design-matrix.md
+          - Context Windows Field Guide: ai-research/context-windows-field-guide.md
+      - DeepThought-ReThought Roadmap: ai-research/strategic-roadmap-deepthought.md
+      - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
+      - Energy-Efficient Swarm: ai-research/energy-efficient-swarm.md
+      - Friend or Foe PRD: ai-research/discord-friend-foe-prd.md
+      - Gaze Research:
+          - Annotated Bibliography: gaze-research/gaze_bibliography.md
+          - BibTeX References: gaze-research/gaze_references.bib
+          - Influence Map: gaze-research/influence_map.md
+          - Overview: gaze-research/index.md
+          - Report: gaze-research/gaze_report.md
+      - Neurosymbolic Reasoning Dossier: ai-research/neurosymbolic-reasoning-dossier.md
       - Overview: ai-research/index.md
+      - Peaks and Freezes: ai-research/peaks-and-freezes.md
       - RAG Techniques:
           - Logical Chunking: ai-research/logical-chunking.md
       - Reverse Engineering:
           - Reverse Engineering Codex: ai-research/reverse-engineering-codex.md
-          - Reverse Engineering Grok 4 Heavy: ai-research/reverse-engineering-grok4-heavy.md
           - Reverse Engineering GPT-o3: ai-research/reverse-engineering-gpt-o3.md
+          - Reverse Engineering Grok 4 Heavy: ai-research/reverse-engineering-grok4-heavy.md
           - Reverse Engineering Storm: ai-research/reverse-engineering-storm.md
-      - DeepThought-ReThought Roadmap: ai-research/strategic-roadmap-deepthought.md
-      - Friend or Foe PRD: ai-research/discord-friend-foe-prd.md
-      - Neurosymbolic Reasoning Dossier: ai-research/neurosymbolic-reasoning-dossier.md
-      - Energy-Efficient Swarm: ai-research/energy-efficient-swarm.md
-      - Peaks and Freezes: ai-research/peaks-and-freezes.md
-      - Agentic SWE Discontinuity Forecast: ai-research/agentic-swe-discontinuity-forecast.md
-      - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
-      - You Weren't Supposed to Invent Infinite Jest: ai-research/you-werent-supposed-to-invent-infinite-jest.md
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
       - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
-      - Democratizing Brain-Inspired AI Roadmap: ai-research/open-neuromorphic-roadmap.md
-      - Gaze Research:
-          - Overview: gaze-research/index.md
-          - Report: gaze-research/gaze_report.md
-          - Annotated Bibliography: gaze-research/gaze_bibliography.md
-          - Influence Map: gaze-research/influence_map.md
-          - BibTeX References: gaze-research/gaze_references.bib
-      - An Audit of an Oracle: audit-of-an-oracle.md
+      - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
+      - You Weren't Supposed to Invent Infinite Jest: ai-research/you-werent-supposed-to-invent-infinite-jest.md
   - Non-AI Research:
-      - Overview: non-ai-research/index.md
       - "Add Hours to Your Day?": non-ai-research/add-hours-to-your-day.md
       - Buying the Dip Playbook: non-ai-research/buying-the-dip-playbook.md
-      - The Metaorganism: non-ai-research/metaorganism.md
-      - From Qualia to Simulacra: non-ai-research/from-qualia-to-simulacra.md
       - Concrete Cognition Anthology: non-ai-research/concrete-cognition-anthology.md
+      - From Qualia to Simulacra: non-ai-research/from-qualia-to-simulacra.md
       - High-Level Intelligence Qualia Atlas: non-ai-research/high-level-intelligence-qualia-atlas.md
       - Notable Figures: non-ai-research/inspiring-figures.md
+      - Overview: non-ai-research/index.md
+      - The Metaorganism: non-ai-research/metaorganism.md
   - Productivity:
-      - Overview: productivity/index.md
       - Arduino: arduino/index.md
-      - Terminal Workflow: terminal-workflow/index.md
       - Culture Project: culture-project/index.md
-      - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
+      - Overview: productivity/index.md
+      - Terminal Workflow: terminal-workflow/index.md
       - Versioning API: versioning-api.md
+      - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
 
   - Security:
-      - Overview: security/index.md
-      - Threat Model: security/threat-model.md
-      - Quantum Reckoning: security/quantum-reckoning.md
+      - Cyberpunk Cookbook: cyberpunk-cookbook.md
       - Internet Anonymity Research: internet-anonymity-cyberpunk-response.md
       - Netrunning Research: netrunning-fiction-reality.md
-      - Cyberpunk Cookbook: cyberpunk-cookbook.md
+      - Overview: security/index.md
+      - Quantum Reckoning: security/quantum-reckoning.md
+      - Threat Model: security/threat-model.md
       - Wise Payouts with Idempotency Keys: wise-payouts-idempotency.md
   - Miscellaneous:
-      - Overview: misc/index.md
+      - "Exploring Consciousness in A Fire Upon the Deep": a-fire-upon-the-deep-consciousness.md
       - Friendly Face of Power: friendly-face-of-power.md
       - "GPT-5 Launch Backlash": gpt5-backlash.md
+      - Overview: misc/index.md
       - "Project Palantír":
           - Overview: project-palantir.md
           - "The Digital Panopticon": digital-panopticon.md
-      - "Exploring Consciousness in A Fire Upon the Deep": a-fire-upon-the-deep-consciousness.md
