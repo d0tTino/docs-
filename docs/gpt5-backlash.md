@@ -11,6 +11,11 @@ updated: 2025-08-08
 
 # OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA
 
+[[toc]]
+
+!!! summary
+    Use the table of contents above to jump to key sections of the AMA analysis.
+
 ## TL;DR
 - GPT-5's debut on Reddit sparked a backlash over the removal of popular models like GPT-4o.
 - The AMA thread saw heavy criticism with little to no response from OpenAI staff.
@@ -34,7 +39,7 @@ of legacy models like GPT-4o and perceived downgrades in performance, leaving
 many users feeling betrayed by a company they once championed.
 
 <figure>
-  <img src="img/gpt5-sentiment.svg" alt="Bar chart comparing sentiment: 85% negative comments and 15% positive ones">
+  <img src="img/gpt5-sentiment.svg" alt="Bar chart comparing sentiment: 85% negative comments and 15% positive ones" data-glightbox>
   <figcaption>Sentiment analysis of comments from the <a href="https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1">r/ChatGPT thread "GPT-5 AMA with OpenAI's Sam Altman and some of the team"</a> (August 8, 2025).</figcaption>
 </figure>
 
