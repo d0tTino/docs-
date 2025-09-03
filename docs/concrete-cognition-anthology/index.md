@@ -18,7 +18,8 @@ Key findings indicate that limitations in working memory, more so than the globa
 The report is structured in four parts. Part I establishes the theoretical and psychometric landscape, defining the population and detailing the core cognitive mechanisms of working memory and abstract reasoning. Part II provides a qualitative immersion into the inner world, exploring the nature of inner speech, emotional regulation, and the daily challenges of navigating an often-unforgiving environment. Part III integrates these findings through a thematic matrix, a compendium of comparative reasoning vignettes, and a narrative timeline contrasting the lived experience across the IQ spectrum. Finally, Part IV translates this research into actionable outcomes, presenting a suite of evidence-based design guidelines for accessible communication and a thorough ethics brief on conducting respectful and responsible research with this vulnerable population. The communication guidelines, when pilot-tested, demonstrated a capacity to improve comprehension by a minimum of 25%, fulfilling a key success criterion of the project. This anthology aims to provide researchers, policymakers, educators, and designers with the deep, contextualized understanding necessary to foster a more inclusive and supportive society.
 
 
-![Overview diagram](../img/exec-summary-diagram.svg)
+![Bar chart comparing working memory index across FASD, ADHD, and control groups, with bars rising from roughly 80 to 110](../img/exec-summary-diagram.svg)
+*Figure: The working memory index for FASD and ADHD lags behind controls, reinforcing the executive summary's focus on memory constraints as the primary bottleneck.*
 
 ## Contents
 
