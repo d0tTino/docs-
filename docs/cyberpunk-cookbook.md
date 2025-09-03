@@ -9,7 +9,7 @@ updated: 2025-07-30
 
 # Cyberpunk Cookbook
 
-[TOC]
+[[toc]]
 
 ## Wave 1: Foundations ![Wave 1 foundations icon](wave-icons/wave1-foundations.svg){ width=20 }
 

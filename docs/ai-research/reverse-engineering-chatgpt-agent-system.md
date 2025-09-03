@@ -9,7 +9,7 @@ updated: 2025-07-29
 
 # Reverse-Engineering Design Report: OpenAI ChatGPT Agent System
 
-[TOC]
+[[toc]]
 
 ## Key Findings
 - The ChatGPT Agent system uses an asynchronous ReAct-style reasoning loop to break down user goals into tool-driven actions.

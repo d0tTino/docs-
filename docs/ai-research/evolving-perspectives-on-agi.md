@@ -9,7 +9,7 @@ updated: 2025-01-15
 
 # Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel
 
-[TOC]
+[[toc]]
 
 In a riveting discussion hosted on the Dwarkesh Podcast, Francois Chollet, a prominent AI researcher known for his work on the Keras deep learning library and the ARC-AGI benchmark, engages with host Dwarkesh Patel on the trajectory of artificial general intelligence (AGI). Recorded approximately 12 months after their initial debate, this conversation reveals significant shifts in both participants' viewpoints, underscoring the rapid evolution in frontier AI research. Drawing from the transcript of the YouTube video (accessible at https://www.youtube.com/watch?v=1if6XbzD5Yg), this report synthesizes and expounds upon the key ideas, incorporating direct quotations to illuminate the nuanced arguments presented.
 
