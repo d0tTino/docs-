@@ -38,6 +38,11 @@ many users feeling betrayed by a company they once championed.
   <figcaption>Sentiment analysis of comments from the <a href="https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1">r/ChatGPT thread "GPT-5 AMA with OpenAI's Sam Altman and some of the team"</a> (August 8, 2025).</figcaption>
 </figure>
 
+| Sentiment | Count | Percentage |
+|-----------|------:|-----------:|
+| Negative  | 85 | 85% |
+| Positive  | 15 | 15% |
+
 The AMA, titled "GPT5 AMA with OpenAI's Sam Altman and some of the team,"
 quickly became a venting ground rather than a celebratory Q&A. Posted just days
 after GPT-5's debut, it amassed thousands of upvotes and comments, but
