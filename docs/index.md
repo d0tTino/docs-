@@ -45,7 +45,9 @@ README.
 ## Directory Structure
 Overview of key directories and their purposes.
 
-![Diagram of documentation flow](img/site-map.svg)
+![Site map diagram illustrating the flow from the landing page through section directories and project submodules](img/site-map.svg)
+
+*Figure: Documentation flow showing relationships between the landing page, section directories, and project submodules.*
 
 | Location | Description |
 | --- | --- |
