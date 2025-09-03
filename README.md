@@ -2,14 +2,13 @@
 
 [![Build Status](https://github.com/d0tTino/docs-/actions/workflows/tests.yml/badge.svg)](https://github.com/d0tTino/docs-/actions/workflows/tests.yml) [![License](https://img.shields.io/github/license/d0tTino/docs-)](LICENSE)
 
-Central repository for documentation and research across Tino projects.
-Provides a single source of truth via modular MkDocs, pre-commit hooks, and structured directories.
+Central repository for documentation and research across Tino projects, providing a single source of truth via modular MkDocs, pre-commit hooks, and structured directories.
 
 Key features:
 
-- Modular MkDocs architecture with Git submodules that centralize project docs.
-- Pre-commit hooks and helper scripts that standardize contributions.
-- Clear directory conventions that streamline browsing and preserve version history.
+- Centralizes project docs with modular MkDocs and Git submodules.
+- Standardizes contributions with pre-commit hooks and helper scripts.
+- Streamlines browsing and preserves version history with clear directory conventions.
 
 ![Diagram showing documentation flow across project modules](docs/img/site-map.svg)
 
@@ -26,10 +25,10 @@ model](docs/security/threat-model.md).
 
 - [Repository Structure](#repository-structure)
 - [Development](#development)
-  - [Pre-commit](#pre-commit)
-  - [Preview Docs Locally](#preview-docs-locally)
-  - [Update Submodules](#update-submodules)
-  - [Update Research Indexes](#update-research-indexes)
+    - [Pre-commit](#pre-commit)
+    - [Preview Docs Locally](#preview-docs-locally)
+    - [Update Submodules](#update-submodules)
+    - [Update Research Indexes](#update-research-indexes)
 - [Contributing](#contributing)
 - [Resources](#resources)
 
