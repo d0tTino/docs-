@@ -24,7 +24,9 @@ Palantir Technologies, born from the nexus of Silicon Valley innovation and CIA 
 This investigation examines Palantir not merely as a contractor but as a central architect of the contemporary surveillance state. Gotham and Foundry merge the siloed records of a citizen's life into a single plane of actionable data, revealing how the post‑9/11 security climate evolved into the reality of August 2025.
 
 ### Historical Context
-![Palantir timeline](img/palantir-timeline.svg)
+![Timeline of key Palantir and surveillance milestones from ECHELON in 1971 to the 2025 DOGE initiative.](img/palantir-timeline.svg)
+
+*Figure: Key events in the evolution of Palantir and the modern surveillance state.*
 
 #### 1960s–1970s: Signals Intelligence Takes Shape
 - ECHELON, formalized in 1971, created a Five Eyes signals intelligence network.
@@ -70,7 +72,6 @@ The impact was immediate and profound. The American public was sharply divided, 
 
 However, the Snowden rupture had a more complex and subtle effect on the surveillance industry. While the leaks created a public relations crisis for the intelligence community by exposing its indiscriminate, "brute force" methods of data collection, they also inadvertently created a market for a different kind of surveillance—one that could be framed as "smarter," more "targeted," and more respectful of civil liberties. Palantir was perfectly positioned to capitalize on this narrative shift. The company's marketing had always emphasized an "intelligence augmentation" approach, using its software to help human analysts find the "needle in a haystack" rather than simply collecting the entire haystack. Thiel himself had described Palantir as a "mission-oriented company" that aimed to "reduce terrorism while preserving civil liberties". In the post-Snowden debate over how to balance security and privacy, this narrative gained significant traction. The public backlash against the NSA's methods created a strategic opening for companies like Palantir to sell a more sophisticated, and arguably more insidious, form of surveillance—one based on the deep integration and algorithmic analysis of disparate datasets, rather than just bulk collection. The core surveillance infrastructure remained intact, but the public-facing justification for its use began to evolve, paving the way for Palantir's ascent.
 
-![Palantir timeline](img/palantir-timeline.svg)
 
 ## Part II: The Palantir Engine: Technology of Omniscience
 Palantir Technologies' influence stems not from its ability to collect new data, but from its unparalleled power to synthesize and make sense of existing, disparate information. The company's core innovation is a form of "integration intelligence," a technological capacity to transform oceans of fractured, messy, and often incompatible datasets into a single, coherent, and actionable model of reality. Its software platforms, Gotham and Foundry, function as an operating system for data, sitting atop a client's existing infrastructure and creating a unified analytical environment. This engine of omniscience, powered by a unique semantic layer and increasingly sophisticated AI, is the technical foundation of the modern surveillance state.
