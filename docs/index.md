@@ -9,7 +9,9 @@ updated: 2025-07-29
 
 # Tino Docs Hub
 
-**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules, aggregating research across multiple projects. Pre-commit hooks, helper scripts, and consistent directory conventions keep artifacts easy to browse and maintain.
+**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules,
+aggregating research across multiple projects. Pre-commit hooks, helper scripts, and consistent
+directory conventions keep artifacts easy to browse and maintain.
 
 ## Table of Contents
 
@@ -35,11 +37,11 @@ Guides for setting up the docs hub and exploring resources.
 !!! info "Get Started"
     Build the docs with the [Quickstart guide](quickstart.md).
 
-- Review the [threat model](security/threat-model.md) for security
-  considerations.
+- Review the [threat model](security/threat-model.md) for security considerations.
 - Explore [research docs](#research-docs).
 
-For contribution guidelines, see the [Contributing section](../README.md#contributing) of the main README.
+For contribution guidelines, see the [Contributing section](../README.md#contributing) of the main
+README.
 ## Directory Structure
 Overview of key directories and their purposes.
 
@@ -71,15 +73,14 @@ Highlights the main research categories, including AI, non-AI, gaze, and securit
 ## Project Documentation Submodules
 Explains how to manage project-specific documentation with git submodules.
 
-Project documentation lives in separate repositories added to `_project-docs/`
-as git submodules. Add a new project by running:
+Project documentation lives in separate repositories added to `_project-docs/` as git submodules.
+Add a new project by running:
 
 ```bash
 git submodule add <repository-url> _project-docs/<project-folder>
 ```
 
-After cloning the docs hub or when new submodules are added, initialize them
-with:
+After cloning the docs hub or when new submodules are added, initialize them with:
 
 ```bash
 git submodule update --init --recursive
@@ -107,21 +108,21 @@ git lfs install
 scripts/setup_hooks.sh
 ```
 
-The hooks enforce Markdown and Python linting via the `.githooks/pre-commit`
-script, which runs `markdownlint-cli` and `flake8`.
+The hooks enforce Markdown and Python linting via the `.githooks/pre-commit` script, which runs
+`markdownlint-cli` and `flake8`.
 
 ## Building the Docs
 Instructions for installing dependencies and previewing the documentation site.
 
-Install Python packages from `requirements.txt` to ensure all dependencies
-(MkDocs, pytest, flake8) install consistently, then launch the dev server using
-the commands in the [Quickstart](quickstart.md) guide.
+Install Python packages from `requirements.txt` to ensure all dependencies (MkDocs, pytest, flake8)
+install consistently, then launch the dev server using the commands in the
+[Quickstart](quickstart.md) guide.
 
-Visit the local server at <http://127.0.0.1:8000> to preview the site locally.
-For portable options, see the [MkDocs preview instructions][mkdocs-preview].
+Visit the local server at <http://127.0.0.1:8000> to preview the site locally. For portable options,
+see the [MkDocs preview instructions][mkdocs-preview].
 
-The site automatically deploys via GitHub Actions whenever you push updates to
-Markdown files or `mkdocs.yml`.
+The site automatically deploys via GitHub Actions whenever you push updates to Markdown files or
+`mkdocs.yml`.
 
 [mkdocs-preview]:
   https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site
@@ -139,9 +140,9 @@ scripts/setup_hooks.sh
 Procedure for importing legacy documentation using the migration script.
 
 You can import configuration and prompt snippets from the old
-[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure `git-
-filter-repo` is installed (for example via `pip install git-filter-repo` or your
-package manager) before running the script.
+[`d0tTino/d0tTino`](https://github.com/d0tTino/d0tTino) repository. Ensure `git-filter-repo` is
+installed (for example via `pip install git-filter-repo` or your package manager) before running the
+script.
 
 Run the migration script from the repository root:
 
@@ -149,9 +150,9 @@ Run the migration script from the repository root:
 scripts/migrate_old_docs.sh
 ```
 
-The script clones the legacy repo, filters only the documentation files using
-`git filter-repo`, and fetches the result as a local branch called `d0tTino-
-import`. Merge that branch to incorporate the history:
+The script clones the legacy repo, filters only the documentation files using `git filter-repo`, and
+fetches the result as a local branch called `d0tTino-import`. Merge that branch to incorporate the
+history:
 
 ```bash
 git merge d0tTino-import --allow-unrelated-histories
@@ -160,8 +161,8 @@ git merge d0tTino-import --allow-unrelated-histories
 ## Ingesting and Querying Markdown
 Use the ingestion utility to store and search markdown snippets.
 
-The `scripts/ingest.py` helper can store markdown chunks in a simple vector
-database and retrieve them later:
+The `scripts/ingest.py` helper can store markdown chunks in a simple vector database and retrieve
+them later:
 
 ```bash
 # Build the database
@@ -179,8 +180,8 @@ EOF
 ## Legal
 Outlines licensing terms and disclaimers.
 
-This documentation is provided for informational purposes and comes with no
-warranty. See the [LICENSE](../LICENSE) for terms and standard disclaimers.
+This documentation is provided for informational purposes and comes with no warranty. See the
+[LICENSE](../LICENSE) for terms and standard disclaimers.
 
 ## References
 Citations for cases, APIs, and publications referenced in the docs.
@@ -195,5 +196,4 @@ Citations for cases, APIs, and publications referenced in the docs.
 
 ### Publications
 1. Shoshana Zuboff, *The Age of Surveillance Capitalism* (PublicAffairs, 2019).
-2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso,
-   2018).
+2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
