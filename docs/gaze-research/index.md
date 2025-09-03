@@ -15,10 +15,10 @@ This section collects deliverables for the project "From Mirror to Feed: A Compr
 
 ## Deliverables
 
-- [Main Report](gaze_report.md)
-- [Annotated Bibliography](gaze_bibliography.md)
-- [Influence Map](influence_map.md)
-- [BibTeX References](gaze_references.bib)
+- [Main Report](gaze_report.md): Provides the project's full analytical narrative across classical, feminist, and algorithmic gaze theories.
+- [Annotated Bibliography](gaze_bibliography.md): Offers commentary and context for key sources used in the study.
+- [Influence Map](influence_map.md): Visualizes conceptual relationships among thinkers and ideas surrounding the gaze.
+- [BibTeX References](gaze_references.bib): Supplies machine-readable citations for further research.
 
 ![Diagram showing theoretical influence among Lacan, Foucault, Mulvey, hooks, and the algorithmic gaze](img/influence-map.svg)
 
