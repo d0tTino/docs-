@@ -18,6 +18,10 @@ updated: 2025-08-13
 - Cryptocurrencies relying on ECDSA are particularly exposed, making the shift to quantum-safe standards a complex yet urgent challenge.
 - The report urges immediate "quantum readiness": inventory existing cryptography, prioritize high-value assets, invest in crypto-agility, and develop time-bound roadmaps for PQC adoption to avoid escalating risk and cost.
 
+![PQC versus QKD comparison](../img/pqc-vs-qkd.svg)
+
+*Figure: High-level comparison of Post-Quantum Cryptography and Quantum Key Distribution.*
+
 ![Illustration of qubit error amplification](../img/qubit-error-amplification.svg)
 
 *Figure: A single qubit error can cascade through entangling operations, amplifying faults across a quantum system.*

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <style>
+    .header { font: bold 16px sans-serif; }
+    .cell { font: 14px sans-serif; }
+    .label { font-weight: bold; }
+    rect { fill: none; stroke: #333; stroke-width: 1; }
+  </style>
+  <!-- Header -->
+  <rect x="0" y="0" width="600" height="40" />
+  <text x="20" y="25" class="header">Aspect</text>
+  <text x="220" y="25" class="header">Post-Quantum Cryptography</text>
+  <text x="420" y="25" class="header">Quantum Key Distribution</text>
+  <!-- Row separators -->
+  <rect x="0" y="40" width="600" height="40" />
+  <text x="20" y="65" class="cell label">Cost</text>
+  <text x="220" y="65" class="cell">Software updates; minimal hardware changes</text>
+  <text x="420" y="65" class="cell">Specialized hardware; expensive deployment</text>
+  
+  <rect x="0" y="80" width="600" height="40" />
+  <text x="20" y="105" class="cell label">Maturity</text>
+  <text x="220" y="105" class="cell">NIST standards emerging, widely tested</text>
+  <text x="420" y="105" class="cell">Research stage; few commercial networks</text>
+  
+  <rect x="0" y="120" width="600" height="40" />
+  <text x="20" y="145" class="cell label">Deployment</text>
+  <text x="220" y="145" class="cell">Drop-in for existing protocols</text>
+  <text x="420" y="145" class="cell">Requires dedicated fiber or satellite links</text>
+  
+  <rect x="0" y="160" width="600" height="40" />
+  <text x="20" y="185" class="cell label">Scope</text>
+  <text x="220" y="185" class="cell">Protects data at rest and in transit</text>
+  <text x="420" y="185" class="cell">Secures key exchange only</text>
+</svg>
