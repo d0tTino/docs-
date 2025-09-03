@@ -26,6 +26,13 @@ see [docs/index.md](docs/index.md). For a quick start, read the [Quickstart
 guide](docs/quickstart.md) and review the [documentation threat
 model](docs/security/threat-model.md).
 
+Quickstart steps at a glance:
+
+```mermaid
+flowchart LR
+    LFS[Git LFS] --> Deps[Install dependencies] --> Serve[`mkdocs serve`]
+```
+
 ## Table of Contents
 
 - [Repository Structure](#repository-structure)
