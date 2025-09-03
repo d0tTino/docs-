@@ -17,6 +17,11 @@ The narrative begins with human archaeologists from the Straumli Realm awakening
 ## The Zones of Thought: Environmental Determinism and Cognitive Constraints
 One of the novel's most original contributions is the concept of the Zones of Thought, a stratified galactic structure where the feasibility of intelligence and technology diminishes toward the core. The Unthinking Depths at the center render complex thought impossible, while the Slow Zone limits advanced capabilities such as faster-than-light (FTL) travel and artificial intelligence. Further outward, the Beyond enables interstellar commerce and communication, and the Transcend fosters godlike superintelligences, or Powers.
 
+<figure>
+  <img src="img/zones-of-thought.svg" alt="Diagram of the Zones of Thought showing layers from Unthinking Depths to Transcend">
+  <figcaption>The galaxy is divided into concentric layers: the Unthinking Depths suppress sentience, the Slow Zone limits advanced technology, the Beyond enables interstellar commerce, and the Transcend hosts godlike Powers.</figcaption>
+</figure>
+
 This zoning system serves as a metaphor for environmental determinism, illustrating how external conditions shape cognitive possibilities. In the Transcend, entities can achieve singularity-level intelligence, transcending individual limitations through collective or computational evolution. Conversely, in the Slow Zone, even sophisticated human technologies falter, forcing reliance on rudimentary skills. Vinge's innovation here lies in portraying space not as a uniform void but as a medium that modulates reality, akin to how cultural or societal environments influence human potential.
 
 The implications extend to philosophical inquiries about free will and capability. If consciousness is contingent on location, then identity becomes fluid, dependent on one's immersion in a permissive or restrictive "medium." This idea resonates with real-world analogies, such as how socioeconomic contexts enable or hinder intellectual development. The novel's climax, involving a deliberate shift in zonal boundaries to eradicate the Blight, underscores the double-edged nature of such determinism: it offers salvation but at the cost of widespread disruption, evoking debates on technological intervention in natural systems.

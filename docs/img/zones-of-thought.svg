@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect x="0" y="0" width="400" height="100" fill="#4e79a7"/>
+  <text x="200" y="50" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20">Transcend</text>
+  <rect x="0" y="100" width="400" height="100" fill="#59a14f"/>
+  <text x="200" y="150" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20">Beyond</text>
+  <rect x="0" y="200" width="400" height="100" fill="#f28e2b"/>
+  <text x="200" y="250" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20">Slow Zone</text>
+  <rect x="0" y="300" width="400" height="100" fill="#e15759"/>
+  <text x="200" y="350" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20">Unthinking Depths</text>
+</svg>
