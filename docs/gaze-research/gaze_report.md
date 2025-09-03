@@ -34,18 +34,12 @@ The project, "From Mirror to Feed: A Comprehensive Analysis of the Gaze—Classi
 
 ## Deliverables Overview
 
-- **Main Report (`gaze_report.md`)** – A ~10k word report covering
-  Abstract, Introduction, Theoretical Framework, Methods, Findings,
-  Discussion, and Conclusion.
-- **Annotated Bibliography (`gaze_bibliography.md`)** – A one-paragraph
-  annotation for each major source cited in the report, summarising
-  content, methodological quality, and relevance.
-- **Influence Map (`influence_map.md`)** – A vector graphic mapping the
-  theoretical lineage of the gaze; nodes represent theorists and gaze
-  variants, arrows indicate influence.
-- **BibTeX References (`gaze_references.bib`)** – A file for citation
-  management that can be imported into reference software (e.g., Zotero,
-  EndNote).
+| Deliverable | Description | Link |
+| --- | --- | --- |
+| Main Report | A ~10k word report covering Abstract, Introduction, Theoretical Framework, Methods, Findings, Discussion, and Conclusion. | [gaze_report.md](gaze_report.md) |
+| Annotated Bibliography | A one-paragraph annotation for each major source cited in the report, summarising content, methodological quality, and relevance. | [gaze_bibliography.md](gaze_bibliography.md) |
+| Influence Map | A vector graphic mapping the theoretical lineage of the gaze; nodes represent theorists and gaze variants, with arrows indicating influence. | [influence_map.md](influence_map.md) |
+| BibTeX References | A file for citation management that can be imported into reference software (e.g., Zotero, EndNote). | [gaze_references.bib](gaze_references.bib) |
 
 ### Summary
 
