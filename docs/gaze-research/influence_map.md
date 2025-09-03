@@ -11,7 +11,7 @@ updated: 2025-08-12
 
 Below is a vector diagram mapping key theorists and gaze variants.
 
-![Diagram with a pink Lacan node leading via arrows to a blue Foucault node, an orange Mulvey node, a green hooks node, and a gray algorithmic gaze node, illustrating the flow of theoretical influence](influence-map.svg)
+![Diagram with a pink Lacan node leading via arrows to a blue Foucault node, an orange Mulvey node, a green hooks node, and a gray algorithmic gaze node, illustrating the flow of theoretical influence](img/influence-map.svg)
 
 *Figure: Colored nodes trace theoretical traditions—pink for psychoanalysis (Lacan), blue for post-structural power (Foucault), orange for feminist film (Mulvey), green for intersectional feminism (hooks), and gray for the algorithmic gaze. Arrows indicate the flow of influence from earlier to later thinkers.*
 
