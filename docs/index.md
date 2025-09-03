@@ -9,12 +9,7 @@ updated: 2025-07-29
 
 # Tino Docs Hub
 
-**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs
-and Git submodules. Pre-commit hooks, helper scripts, and consistent directory
-conventions streamline contributions, keeping research artifacts easy to browse
-and maintain.
-
-This repository aggregates documentation and research across multiple projects.
+**Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules, aggregating research across multiple projects. Pre-commit hooks, helper scripts, and consistent directory conventions keep artifacts easy to browse and maintain.
 
 ## Table of Contents
 
@@ -48,20 +43,20 @@ For contribution guidelines, see the [Contributing section](../README.md#contrib
 ## Directory Structure
 Overview of key directories and their purposes.
 
-![Site Map](img/site-map.svg)
+![Diagram of documentation flow](img/site-map.svg)
 
-| Location | Description | Example |
-| --- | --- | --- |
-| `ai-research/` | AI and machine learning notes | transformer experiments |
-| `non-ai-research/` | Research outside the AI domain | cognitive science reviews |
-| `arduino/` | Hardware and firmware references | microcontroller pinouts |
-| `terminal-workflow/` | Command-line tips and workflows | alias bundles |
-| `culture-project/` | Organizational culture project | case studies |
-| `_project-docs/` | Submodule mounts for individual projects | docs for internal tools |
-| `scripts/` | Helper scripts including ingest utilities | `ingest.py` |
-| `playbooks/` | Workflow and container playbooks | dev container setups |
-| `img/` | Static images used across docs | site map diagram |
-| `security/` | Security guidelines and threat models | `threat-model.md` |
+| Location | Description |
+| --- | --- |
+| `ai-research/` | AI and machine learning notes (e.g., transformer experiments) |
+| `non-ai-research/` | Research outside the AI domain (e.g., cognitive science reviews) |
+| `arduino/` | Hardware and firmware references (e.g., microcontroller pinouts) |
+| `terminal-workflow/` | Command-line tips and workflows (e.g., alias bundles) |
+| `culture-project/` | Organizational culture project (e.g., case studies) |
+| `_project-docs/` | Submodule mounts for individual projects (e.g., docs for internal tools) |
+| `scripts/` | Helper scripts including ingest utilities (e.g., `ingest.py`) |
+| `playbooks/` | Workflow and container playbooks (e.g., dev container setups) |
+| `img/` | Static images used across docs (e.g., site map diagram) |
+| `security/` | Security guidelines and threat models (e.g., `threat-model.md`) |
 
 ## Research Docs
 Highlights the main research categories, including AI, non-AI, gaze, and security topics.
