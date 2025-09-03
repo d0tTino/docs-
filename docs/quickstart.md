@@ -12,6 +12,13 @@ updated: 2025-08-13
 !!! note
     Need command-line tips? See the [Terminal Workflow guide](terminal-workflow/index.md) for more CLI tips.
 
+| Tool | Required Version |
+| --- | --- |
+| Python | >=3.11 |
+| Node.js | >=20 |
+| Git | >=2.40 |
+| MkDocs | >=1.5 |
+
 ## Set Up Git LFS and pre-commit
 1. Install Git LFS:
 
