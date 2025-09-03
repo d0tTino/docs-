@@ -129,6 +129,14 @@ Public benchmarks such as Lost-in-the-Middle[^2], RULER, LongBench, LongBench v
 
 ## 7 Toward effectively infinite context
 
+```mermaid
+flowchart TD
+  T1[Tier 1: Working set] --> T2[Tier 2: Compressed stream]
+  T2 --> T3[Tier 3: External retrieval]
+  T3 -.-> T4[Optional Tier 4: Distributed full attention]
+```
+*Figure: Tier 1 keeps a working set in full attention, Tier 2 compresses long-range history, Tier 3 retrieves from external memory, and optional Tier 4 uses distributed full attention for extreme cases.*
+
 No single method provides an infinite context; practical systems layer multiple techniques to approximate it.  A **three-tier architecture** can achieve near-infinite context:
 
 1. **Working set (Tier 1):** Keep a small window (8 k–32 k tokens) in full attention using FlashAttention or similar kernels.  Use a paged KV cache and smart eviction policies to prioritise recent and important tokens.  This tier supports precise reasoning and short-term memory.
