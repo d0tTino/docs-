@@ -16,6 +16,8 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
+ <title>Sentiment analysis of r/ChatGPT AMA comments</title>
+ <desc>Bar chart with 15% positive comments and 85% negative comments.</desc>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>

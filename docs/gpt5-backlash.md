@@ -34,8 +34,8 @@ of legacy models like GPT-4o and perceived downgrades in performance, leaving
 many users feeling betrayed by a company they once championed.
 
 <figure>
-  <img src="img/gpt5-sentiment.svg" alt="Bar chart showing a large majority of negative comments compared to positive ones">
-  <figcaption>Sentiment analysis of r/ChatGPT AMA comments (August 8, 2025). Source: r/ChatGPT thread.</figcaption>
+  <img src="img/gpt5-sentiment.svg" alt="Bar chart comparing sentiment: 85% negative comments and 15% positive ones">
+  <figcaption>Sentiment analysis of comments from the <a href="https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1">r/ChatGPT thread "GPT-5 AMA with OpenAI's Sam Altman and some of the team"</a> (August 8, 2025).</figcaption>
 </figure>
 
 The AMA, titled "GPT5 AMA with OpenAI's Sam Altman and some of the team,"
