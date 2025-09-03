@@ -13,6 +13,7 @@ This area collects notes on command-line tools and shell tips for daily
 development. More workflow examples will be added over time. For a broader
 overview of the docs repo, see [the main index](../index.md).
 
+[[toc]]
 
 ## tmux
 
@@ -76,4 +77,5 @@ git push origin main
 
 ## Example Session
 
-![Example terminal session](../img/example-session.svg)
+![Screenshot of an example terminal session](../img/example-session.svg){data-glightbox}
+
