@@ -6,6 +6,11 @@ Central repository for documentation and research across Tino projects, providin
 
 Key features:
 
+- [AI Research](docs/ai-research/)
+- [Non-AI Research](docs/non-ai-research/)
+- [Gaze Research](docs/gaze-research/)
+- [Security](docs/security/)
+
 - Centralizes project docs with modular MkDocs and Git submodules.
 - Standardizes contributions with pre-commit hooks and helper scripts.
 - Streamlines browsing and preserves version history with clear directory conventions.
