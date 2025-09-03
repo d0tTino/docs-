@@ -7,7 +7,18 @@ updated: 2025-07-31
 
 --8<-- "_snippets/disclaimer.md"
 
+## Table of Contents
+
+[[toc]]
+
 # Internet Anonymity – Past, Present Crackdowns, and the Cyberpunk Response
+
+## Key Points
+
+- Global coalitions of state and corporate actors are eroding online anonymity under the banner of child safety and security.
+- Legislative efforts like the OSA, KOSA, and DSA push mandatory identity checks and client-side scanning, undermining encrypted communication.
+- These measures create a generational divide: younger users raised on sanitized platforms risk diminished critical thinking and increased susceptibility to propaganda.
+- Privacy advocates adopt a cyberpunk toolkit—legal challenges, jurisdictional arbitrage, and technologies such as ZKPs, DIDs, and SBTs—to preserve autonomy.
 
 Executive Summary
 Online anonymity, a foundational element of digital freedom, is undergoing a coordinated, global assault driven by a confluence of state and corporate interests. Under the public-facing justifications of child safety, counter-terrorism, and the prevention of online harms, a new architecture of surveillance and control is being constructed. This report provides a comprehensive analysis of this conflict, tracing the history of anonymity technologies, cataloging the contemporary legislative and technical crackdowns, and detailing the sophisticated response rooted in the cyberpunk ethos of radical autonomy.
