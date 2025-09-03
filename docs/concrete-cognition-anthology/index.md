@@ -27,3 +27,10 @@ The report is structured in four parts. Part I establishes the theoretical and p
 - [Part II: The Inner World: A Qualitative Immersion](part-ii.md)
 - [Part III: Triangulation and Comparative Analysis](part-iii.md)
 - [Part IV: Application and Ethical Imperatives](part-iv.md)
+
+| Part | Theme | Approx. word count |
+| --- | --- | --- |
+| [Part I](part-i.md) | The Cognitive Landscape of Concrete Thought | ~2,200 |
+| [Part II](part-ii.md) | The Inner World: A Qualitative Immersion | ~1,200 |
+| [Part III](part-iii.md) | Triangulation and Comparative Analysis | ~1,600 |
+| [Part IV](part-iv.md) | Application and Ethical Imperatives | ~4,400 |
