@@ -16,26 +16,9 @@ updated: 2025-08-15
 
 The diagram below illustrates how documentation moves from contributors through the build pipeline to public users.
 
-<figure aria-label="Documentation flows from developers and their repository through CI to a static site that is hosted for public users.">
-<div class="mermaid">
-flowchart LR
-    subgraph Contributors["Trust Boundary: Contributors"]
-        D[Developers]
-        R[Repository]
-    end
-    subgraph Build["Trust Boundary: CI"]
-        C[CI builds docs]
-        S[Static site generated]
-    end
-    subgraph Public["Trust Boundary: Public"]
-        H[Hosting]
-        U[Users]
-    end
+![Documentation flows from developers and their repository through CI to a static site that is hosted for public users.](threat-model.svg)
 
-    D --> R --> C --> S --> H --> U
-</div>
-<figcaption>Flow of documentation from developers to users via CI and hosting.</figcaption>
-</figure>
+*Flow of documentation from developers to users via CI and hosting.*
 
 **Boundary legend:**
 
