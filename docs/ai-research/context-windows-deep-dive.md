@@ -52,19 +52,19 @@ Compute also grows quadratically with sequence length in standard self‑attenti
 
 The last two years have seen a proliferation of LLMs boasting large contexts. Table 1 summarises representative context windows and common use cases based on publicly reported figures.
 
-| Model / system | Nominal context window | Notes |
-|---|---|---|
-| **GPT‑3** | 2 k | Early large model; limited context restricts reasoning to short prompts[^1]. |
-| **Mistral 7B** | 8 k | Mid‑sized open‑source model; typical for 2023–24. |
-| **GPT‑4o** | 60 k–128 k | Multi‑modal model; high‑quality context for code and chat[^1]. |
-| **Claude 3.5** | 100 k | Good summarisation; widely used for legal and technical docs. |
-| **Llama 3.1 (Meta)** | 128 k | Extended using position scaling; used in retrieval‑augmented tasks. |
-| **Gemini 1.5 Pro** | up to 1 M | Google claims 1M tokens; experiments with 10 M tokens on code bases[^2]. |
-| **Magic.dev LTM‑2‑Mini** | 100 M | For code repository analysis; uses retrieval and compression[^2]. |
-| **Llama 4 Scout** | 10 M | Experimental; used for continuous memory in embodied agents[^2]. |
-| **GPT‑4.1, Gemini 2.5 Flash / Pro, Llama 4 Maverick** | 1 M | Commercial models with million‑token context[^2]. |
-| **Claude 4 (Opus/Sonnet)** | 200 k | Balanced context size for chat and summarisation[^6]. |
-| **DeepSeek R1 /V3** | 128 k | Chinese open‑source models for code and text[^7]. |
+| Model / system | Nominal context window | Observed effective context | Notes |
+|---|---|---|---|
+| **GPT‑3** | 2 k | ≈1–1.5 k | Early large model; limited context restricts reasoning to short prompts[^1]. |
+| **Mistral 7B** | 8 k | ≈6 k | Mid‑sized open‑source model; typical for 2023–24. |
+| **GPT‑4o** | 60 k–128 k | ≈60 k | Multi‑modal model; high‑quality context for code and chat[^1]. |
+| **Claude 3.5** | 100 k | ≈80 k | Good summarisation; widely used for legal and technical docs. |
+| **Llama 3.1 (Meta)** | 128 k | ≈100 k | Extended using position scaling; used in retrieval‑augmented tasks. |
+| **Gemini 1.5 Pro** | up to 1 M | ≈500 k | Google claims 1M tokens; experiments with 10 M tokens on code bases[^2]. |
+| **Magic.dev LTM‑2‑Mini** | 100 M | TBD | For code repository analysis; uses retrieval and compression[^2]. |
+| **Llama 4 Scout** | 10 M | TBD | Experimental; used for continuous memory in embodied agents[^2]. |
+| **GPT‑4.1, Gemini 2.5 Flash / Pro, Llama 4 Maverick** | 1 M | ≈400 k–800 k | Commercial models with million‑token context[^2]. |
+| **Claude 4 (Opus/Sonnet)** | 200 k | ≈150 k | Balanced context size for chat and summarisation[^6]. |
+| **DeepSeek R1 /V3** | 128 k | ≈100 k | Chinese open‑source models for code and text[^7]. |
 
 These nominal lengths reflect training setups and marketing claims. Effective context can be much smaller, and many tasks do not benefit beyond 32 k–64 k. Instead of chasing ever‑larger windows, practitioners should evaluate whether longer contexts deliver meaningful gains relative to cost and complexity.
 
