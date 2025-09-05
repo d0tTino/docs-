@@ -9,16 +9,19 @@ updated: 2025-09-02
 
 # Non-AI Research
 
-This collection brings together research into topics outside of AI, including productivity methodologies, corporate dynamics, and broader interdisciplinary inquiries.
+Exploring areas beyond AI, this collection examines productivity methodologies, corporate dynamics, and interdisciplinary inquiries.
+It connects diverse research strands to inform broad-based understanding and complement AI-focused studies.
+
+{{ toc }}
 
 ## Productivity
-Research on personal efficiency and time management strategies.
+Short, actionable approaches for personal efficiency and time management.
 
 - Methods for boosting personal efficiency and time management, drawing on foundational practices from the [Quickstart guide](../quickstart.md) and strategies from the [Productivity collection](../productivity/index.md).
 - [Add Hours to Your Day? Debunking Productivity Frameworks](add-hours-to-your-day.md) critically assesses popular efficiency schemes and references tools from the [Productivity collection](../productivity/index.md) and [Terminal Workflow guide](../terminal-workflow/index.md).
 
 ## Corporate Studies
-Analyses of organizational behavior and power within corporations.
+Insights into organizational behavior, power, and corporate evolution.
 
 - Investigates organizational behavior and corporate power structures through dynamics explored in the [Culture Project](../culture-project/index.md), extending analyses like [The Friendly Face of Power](../friendly-face-of-power.md) and [Project Palantir](../project-palantir.md).
 - [Buying the Dip: A Historical, Signal-Driven Playbook for Identifying Corporate Turnarounds](buying-the-dip-playbook.md) highlights financial signals for corporate recovery and connects to economic autonomy in [Wave 4: Money & Autonomy](../wave4-money-autonomy.md).
@@ -26,7 +29,7 @@ Analyses of organizational behavior and power within corporations.
 - [The Metaorganism: A New Framework for Organizational Evolution](metaorganism.md) reimagines organizational growth through themes from the [Culture Project](../culture-project/index.md), drawing parallels with [The Corporate Egregore](corporate-egregore.md).
 
 ## General Research
-Broader interdisciplinary inquiries into science, philosophy, and culture.
+Interdisciplinary explorations across science, philosophy, and culture.
 
 - Covers interdisciplinary inquiries into science and philosophy beyond AI, bridging insights from the [Culture Project](../culture-project/index.md) and the [Productivity collection](../productivity/index.md) while pointing to the [AI Research collection](../ai-research/index.md) and complementing risk analyses in the [Security series](../security/index.md).
 - [A Techno-Economic and Performance Model for DNA-Based Archival Storage](dna-archival-storage-tepm.md) models long-term data preservation for the [Culture Project](../culture-project/index.md), evaluating DNA storage viability and referencing design principles in [Audit of an Oracle](../audit-of-an-oracle.md).
