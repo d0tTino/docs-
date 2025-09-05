@@ -9,7 +9,10 @@ updated: 2025-08-15
 
 # KV Cache Chart
 
-![Bar chart with token count on the x-axis and KV cache memory (GiB) on the y-axis; larger models require far more memory per token.](kv-cache-chart.svg)
+![Bar chart showing token count on the x-axis and KV cache memory (GiB) on the y-axis; memory usage climbs almost linearly so larger models and longer sequences demand substantially more capacity.](kv-cache-chart.svg)
+
+*Figure: KV cache memory grows nearly linearly with context length across model scales.*
+
 
 [Interactive HTML visualization](kv-cache-chart.html)
 
