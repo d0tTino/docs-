@@ -15,7 +15,20 @@ updated: 2025-09-15
 
 This report presents a quantitative analysis of the potential for a discontinuous, greater-than-twofold leap in agentic software engineering (SWE) capabilities by the end of 2026. The central thesis under investigation, articulated by researcher Ryan Greenblatt, posits that such a leap could be triggered by scaling up reinforcement learning (RL) compute or by achieving a "clean," successful large-scale pre-training run.
 
-The analysis concludes with a moderate-to-high probability that agentic SWE capabilities, as measured by the METR 50% time horizon benchmark, will exceed 6 hours by December 2026. This represents the greater-than-twofold jump from the current frontier of approximately 2 hours. The primary drivers identified are not a single, massive breakthrough but rather a compounding effect of continuous algorithmic improvements in RL fine-tuning, coupled with an emerging architectural divergence between leading AI laboratories. The current trajectory of progress, which has seen the METR time-horizon doubling time accelerate from a historical 7-month average to approximately 4 months in 2024-2025, indicates that the field is already primed for rapid gains [metr.org, AI 2027]. This baseline acceleration suggests that a significant capability jump is plausible even without a singular, massive scaling event of the kind Greenblatt hypothesizes. The forthcoming release and subsequent benchmarking of OpenAI's GPT-5 model will serve as the most critical data point for updating this forecast.
+The analysis concludes with a moderate-to-high probability that agentic SWE capabilities, as measured by the METR 50% time horizon benchmark, will exceed 6 hours by December 2026. This represents the greater-than-twofold jump from the current frontier of approximately 2 hours.
+
+The primary drivers are continuous algorithmic improvements in RL fine-tuning and an emerging architectural divergence between leading AI laboratories. The current trajectory, which has seen the METR time-horizon doubling time accelerate from a historical 7-month average to approximately 4 months in 2024-2025, indicates that the field is already primed for rapid gains. This baseline acceleration suggests that a significant capability jump is plausible even without a singular, massive scaling event. The forthcoming release and subsequent benchmarking of OpenAI's GPT-5 model will serve as the most critical data point for updating this forecast.
+
+Key predictions:
+
+- Agentic SWE 50% time horizon will surpass 6 hours by December 2026.
+- Compounding RL algorithmic improvements and architectural divergence will drive capability gains.
+- Baseline progress is accelerating, with METR doubling time shortening to roughly 4 months.
+- GPT-5 benchmarking will be pivotal for updating the forecast.
+
+Figure 1 contrasts these two paths to capability: scaling RL compute versus executing a clean pre-training run.
+
+![Figure 1: RL scaling versus clean pre-training](../img/rl-vs-pretraining.svg)
 
 ### 1.2 The Central Debate: Turning a Dial vs. Fixing a Machine
 
@@ -26,10 +39,6 @@ The first perspective, encapsulated by Ryan Greenblatt's conjecture, suggests th
 The second perspective views the problem not as one of fine-tuning but of fundamental production. This is the "Fixing a Machine" hypothesis. It argues that the true bottleneck to the next level of capability lies in the increasing fragility and operational instability of frontier-scale pre-training runs. As labs push towards models trained on more than 10 trillion tokens, these massive, months-long training jobs are reportedly failing with increasing frequency due to a complex interplay of hardware faults, power grid instability, and algorithmic divergence. From this viewpoint, the real unlock is not a change in the training recipe but the successful completion of a "clean" run—a massive pre-training effort that proceeds without critical errors or stability issues. Such a run, potentially incorporating improved algorithms and data filtering, could produce a base model with such a superior world representation and reasoning foundation that it would surprise observers, even before extensive RL fine-tuning.
 
 These two hypotheses are not mutually exclusive. A cleaner, more capable base model from a successful pre-training run would provide a much better foundation for subsequent RL scaling. However, they compete for the same finite and increasingly strained resource: vast, stable, large-scale compute. This report will systematically analyze the evidence for both hypotheses, concluding that progress is likely to be a function of both, but that the technical challenges of "Fixing the Machine" are becoming a dominant constraint on the pace of frontier development.
-
-Figure 1 contrasts these two paths to capability: scaling RL compute versus executing a clean pre-training run.
-
-![Figure 1: RL scaling versus clean pre-training](../img/rl-vs-pretraining.svg)
 
 ### 1.3 The Accelerating Baseline
 
