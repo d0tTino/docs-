@@ -10,7 +10,7 @@ updated: 2025-08-13
 
 # Appendix: Context Windows Field Guide
 
-This appendix provides supporting material for the **Context Windows Field Guide**.
+This appendix provides supporting material for the [Context Windows Field Guide](context-windows-field-guide.md) and the [Context Windows Deep Dive](context-windows-deep-dive.md).
 
 ## A. Key formulas and capacity planner
 
@@ -40,7 +40,7 @@ PagedAttention can evict unused pages and share memory across requests; vLLM pro
 
 ## B. Evaluation templates
 
-The following test patterns can be adapted for benchmarking long-context models.
+The following test patterns can be adapted for benchmarking long-context models. See the [Context Windows Deep Dive](context-windows-deep-dive.md) for a detailed discussion of evaluation methodology.
 
 ### B.1 Needle in a haystack
 
@@ -98,7 +98,7 @@ For each position *p* in {1 k, 4 k, 16 k, 64 k, …}, embed a retrieval
 
 ## D. Design matrix summary
 
-The table in [context-windows-design-matrix.md](context-windows-design-matrix.md) lists the main families of methods (positional scaling, efficient attention, streaming/compressive, distributed full attention, external memory, system-level optimisations) along with their complexity, typical effective length, advantages and caveats. Use this matrix to compare techniques and decide which to apply in your project.
+The table in [context-windows-design-matrix.md](context-windows-design-matrix.md) lists the main families of methods (positional scaling, efficient attention, streaming/compressive, distributed full attention, external memory, system-level optimisations) along with their complexity, typical effective length, advantages and caveats. Use this matrix to compare techniques and decide which to apply in your project. The figure below is also featured in the [Context Windows Field Guide](context-windows-field-guide.md) and examined in depth in the [Context Windows Deep Dive](context-windows-deep-dive.md).
 
 ![Context windows design matrix](context-windows-design-matrix.svg)
 
