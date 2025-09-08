@@ -14,7 +14,9 @@ updated: 2025-08-15
 *Figure: KV cache memory grows nearly linearly with context length across model scales.*
 
 
-[Interactive HTML visualization](kv-cache-chart.html)
+<iframe src="kv-cache-chart.html" width="100%" height="420"></iframe>
+
+*Note:* Regenerate the HTML using [`scripts/kv_capacity.py`](../../scripts/kv_capacity.py) with the `--plotly` flag if the underlying data changes.
 
 A static rendering of the KV cache visualization originally distributed as an HTML artifact.
 
