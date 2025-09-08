@@ -205,6 +205,7 @@ The following diagram provides a Component-level (C3) view of the STORM system a
 
 Code snippet
 
+<figure role="img" aria-label="User node connects to an orchestrator that manages interface layers and core pipelines. The Co-STORM pipeline routes a discourse manager to expert and moderator agents, which call LM and RM interfaces and update the mind map. The STORM-Wiki pipeline progresses from perspective generation through conversation, outlining, and article generation, with a knowledge base storing contributions. Outputs from the article generator and mind map return to the user while pipelines invoke external LLM APIs and retrieval services.">
 ```mermaid
 graph TD
     subgraph User
@@ -277,6 +278,8 @@ graph TD
     classDef state fill:#f9f,stroke:#333,stroke-width:2px;
     class MindMap,KnowledgeBase state;
 ```
+<figcaption>Research pipeline stages from user input through the STORM orchestrator to generated report and mind map outputs.</figcaption>
+</figure>
 
 # 6.0 Detailed Findings
 
