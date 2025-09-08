@@ -26,6 +26,8 @@ The system's primary operational modality involves decomposing complex user prom
 
 The reasoning loop and tool interactions can be visualized as:
 
+<figure aria-label="Flowchart depicting user queries passing through reasoning, optional tool use, and final response">
+
 ```mermaid
 flowchart TD
     U[User Query] --> R[Agent Reasoning]
@@ -36,6 +38,9 @@ flowchart TD
     R --> A
     A --> O[User Output]
 ```
+
+<figcaption>User query ➜ reasoning ➜ tools ➜ response</figcaption>
+</figure>
 
 ### 1.2 Inferred Architecture at a Glance
 
