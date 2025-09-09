@@ -403,1020 +403,254 @@ Given the strategic risks and opportunities, a passive "wait and see" approach i
 
 ## Sources Used in the Report
 
-flagshippioneering.com
-Milestones in Quantum Computing | Flagship Pioneering
-Opens in a new window
-
-bristol.ac.uk
-www.bristol.ac.uk
-Opens in a new window
-
-time.com
-History Shows How to Win the Quantum Computing Race | TIME
-Opens in a new window
-
-bristol.ac.uk
-Quantum Computation | Quantum Engineering Technology Labs ...
-Opens in a new window
-
-medium.com
-Feynman's Vision: A Brief Story of Quantum Simulation | by azhar ikhtiarudin - Medium
-Opens in a new window
-
-en.wikipedia.org
-Timeline of quantum computing and communication - Wikipedia
-Opens in a new window
-
-en.wikipedia.org
-David Deutsch - Wikipedia
-Opens in a new window
-
-encyclopediaofmath.org
-Quantum Turing machine - Encyclopedia of Mathematics
-Opens in a new window
-
-arxiv.org
-Deutsch's Universal Quantum Turing Machine (Revisited) - arXiv
-Opens in a new window
-
-en.wikipedia.org
-Quantum Turing machine - Wikipedia
-Opens in a new window
-
-sectigo.com
-Understanding the timeline of quantum computing: when will it become reality? - Sectigo
-Opens in a new window
-
-en.wikipedia.org
-Shor's algorithm - Wikipedia
-Opens in a new window
-
-quantumzeitgeist.com
-A Brief History Of Shor's Algorithm And Peter Shor, The Quantum Algorithm From 1994 That Threatens The Security Of All Our Data
-Opens in a new window
-
-medium.com
-Quantum Supremacy. In 1994, Peter Shor introduced an… | by Beyond the Horizon | Medium
-Opens in a new window
-
-utimaco.com
-What is Shor's Algorithm? - Utimaco
-Opens in a new window
-
-en.wikipedia.org
-Shor's algorithm - Wikipedia
-Opens in a new window
-
-classiq.io
-Grover's Algorithm - Classiq
-Opens in a new window
-
-en.wikipedia.org
-Grover's algorithm - Wikipedia
-Opens in a new window
-
-medium.com
-Quantum Entanglement involved in Grover's algorithm: a state of the art | by Hamza Jaffali - Medium
-Opens in a new window
-
-spinquanta.com
-Grover's Algorithm: How It Speeds Up Quantum Search | SpinQ
-Opens in a new window
-
-en.wikipedia.org
-Grover's algorithm - Wikipedia
-Opens in a new window
-
-en.wikipedia.org
-Sycamore processor - Wikipedia
-Opens in a new window
-
-nasa.gov
-Google and NASA Achieve Quantum Supremacy
-Opens in a new window
-
-brownstoneresearch.com
-Google's Quantum Breakthrough - Brownstone Research
-Opens in a new window
-
-en.wikipedia.org
-Jiuzhang (quantum computer) - Wikipedia
-Opens in a new window
-
-postquantum.com
-Jiuzhang 3.0: China's Photonic Quantum Computer - PostQuantum.com
-Opens in a new window
-
-trustinscience.com
-Jiuzhang: Inside China's Photonic Quantum Computer - Trust in Science
-Opens in a new window
-
-quantumzeitgeist.com
-Chinese Jiuzhang 4.0 Demonstrates Quantum Advantage With 1024 Squeezed States
-Opens in a new window
-
-vurj.vanderbilt.edu
-A Hardware-Focused Tour of IBM's 127-Qubit Eagle Processor
-Opens in a new window
-
-en.wikipedia.org
-List of quantum processors - Wikipedia
-Opens in a new window
-
-ibm.com
-IBM Quantum System Two: the era of quantum utility is here | IBM Quantum Computing Blog
-Opens in a new window
-
-ibm.com
-IBM Quantum breaks the 100‑qubit processor barrier | IBM Quantum ...
-Opens in a new window
-
-bluequbit.io
-Quantum Computing Basics: A Beginner's Guide - BlueQubit
-Opens in a new window
-
-semianalysis.com
-Separating Reality from Hype – Quantum Computing Explained - SemiAnalysis
-Opens in a new window
-
-fortinet.com
-Understanding Shor's and Grover's Algorithms and Their Impact on Cybersecurity - Fortinet
-Opens in a new window
-
-fortinet.com
-www.fortinet.com
-Opens in a new window
-
-p51lee.github.io
-Shor's Algorithm: Breaking RSA and ECC Encryption - Part 1 - Message Ahead
-Opens in a new window
-
-arxiv.org
-Shor's discrete logarithm quantum algorithm for elliptic curves - arXiv
-Opens in a new window
-
-arxiv.org
-[quant-ph/0301141] Shor's discrete logarithm quantum algorithm for elliptic curves - arXiv
-Opens in a new window
-
-microsoft.com
-Quantum Resource Estimates for Computing Elliptic Curve Discrete Logarithms - Microsoft
-Opens in a new window
-
-medium.com
-The Impact of Quantum Computing on Cryptography | by Prabhu Srivastava - Medium
-Opens in a new window
-
-thequantuminsider.com
-Google Researcher Lowers Quantum Bar to Crack RSA Encryption
-Opens in a new window
-
-arxiv.org
-Post-Quantum Cryptography: Securing Digital Communication in the Quantum Era - arXiv
-Opens in a new window
-
-blogs.cisco.com
-How Post-Quantum Cryptography Affects Security and Encryption Algorithms - Cisco Blogs
-Opens in a new window
-
-solveforce.com
-Grover's Algorithm: Quantum Speedup for Search and its Impact on Cryptography
-Opens in a new window
-
-postquantum.com
-Grover's Algorithm and Its Impact on Cybersecurity - PostQuantum.com
-Opens in a new window
-
-reddit.com
-how much of a threat are quantum computers(grovers alg) to 256 bit symmetrical encryption : r/crypto - Reddit
-Opens in a new window
-
-researchgate.net
-Applying Grover's Algorithm to AES: Quantum Resource Estimates - ResearchGate
-Opens in a new window
-
-crypto.stackexchange.com
-Does Grover's algorithm really threaten symmetric security proofs?
-Opens in a new window
-
-halborn.com
-Securing the Blockchain Against Quantum Computing - Halborn
-Opens in a new window
-
-thequantuminsider.com
-Quantum Computing Companies: A Full 2024 List
-Opens in a new window
-
-aws.amazon.com
-Rigetti Computing - Amazon Braket Quantum Computers - Amazon ...
-Opens in a new window
-
-milvus.io
-milvus.io
-Opens in a new window
-
-learn.microsoft.com
-IonQ quantum computing provider - Azure - Microsoft Learn
-Opens in a new window
-
-aws.amazon.com
-IonQ - Amazon Braket Quantum Computers - Amazon Web Services
-Opens in a new window
-
-innovationnewsnetwork.com
-Xanadu unveils world's first scalable photonic quantum computer
-Opens in a new window
-
-en.wikipedia.org
-Xanadu Quantum Technologies - Wikipedia
-Opens in a new window
-
-quantum.microsoft.com
-Topological qubits - Microsoft Quantum
-Opens in a new window
-
-thequantuminsider.com
-Microsoft Shows Distinct Parity Lifetimes in Topological Qubit Prototype
-Opens in a new window
-
-medium.com
-Quantum Computing Hype vs. Reality: What's Actually Possible (and What's Not) - Medium
-Opens in a new window
-
-ibm.com
-www.ibm.com
-Opens in a new window
-
-introtoquantum.org
-The timelines: when can we expect useful quantum computers?
-Opens in a new window
-
-en.wikipedia.org
-NIST Post-Quantum Cryptography Standardization - Wikipedia
-Opens in a new window
-
-industrialcyber.co
-NIST advances post-quantum cryptography standardization, selects HQC algorithm to counter quantum threats - Industrial Cyber
-Opens in a new window
-
-dhs.gov
-Post-Quantum Cryptography - Homeland Security
-Opens in a new window
-
-cisa.gov
-Post-Quantum Cryptography Initiative | CISA
-Opens in a new window
-
-digital-strategy.ec.europa.eu
-Quantum Technologies Flagship | Shaping Europe's digital future
-Opens in a new window
-
-quantera.eu
-Quantum Flagship - QuantERA
-Opens in a new window
-
-311institute.com
-China splurges $10 Billion to build a national quantum technology ...
-Opens in a new window
-
-popsci.com
-China is opening a new quantum research supercenter - Popular Science
-Opens in a new window
-
-ibm.com
-Updates on the IBM Quantum Credits program | IBM Quantum ...
-Opens in a new window
-
-en.wikipedia.org
-IBM Quantum Platform - Wikipedia
-Opens in a new window
-
-research.google.com
-Quantum AI team - Google Research
-Opens in a new window
-
-quantumai.google
-Quantum Computer | Google Quantum AI
-Opens in a new window
-
-en.wikipedia.org
-en.wikipedia.org
-Opens in a new window
-
-en.wikipedia.org
-Quantinuum - Wikipedia
-Opens in a new window
-
-docs.dwavequantum.com
-What is Quantum Annealing? — Python documentation
-Opens in a new window
-
-en.wikipedia.org
-D-Wave Systems - Wikipedia
-Opens in a new window
-
-ll.mit.edu
-Quantum-Enabled Computation | MIT Lincoln Laboratory
-Opens in a new window
-
-qp.mit.edu
-Quantum Photonics Laboratory | RLE at MIT
-Opens in a new window
-
-cms.caltech.edu
-Quantum Information and Computation - Caltech CMS
-Opens in a new window
-
-pma.caltech.edu
-Physics Research | The Division of Physics, Mathematics and Astronomy - Caltech PMA
-Opens in a new window
-
-en.wikipedia.org
-Institute for Quantum Computing - Wikipedia
-Opens in a new window
-
-ndupress.ndu.edu
-Quantum Computing's Cyber-Threat to National Security - NDU Press
-Opens in a new window
-
-mitre.org
-QUANTUM COMPUTING: QUANTIFYING THE CURRENT STATE OF THE ART TO ASSESS CYBERSECURITY THREATS - MITRE Corporation
-Opens in a new window
-
-en.wikipedia.org
-Wassenaar Arrangement - Wikipedia
-Opens in a new window
-
-wassenaar.org
-The Wassenaar Arrangement: Home
-Opens in a new window
-
-numberanalytics.com
-Export Controls on Quantum Cryptography - Number Analytics
-Opens in a new window
-
-reginfo.gov
-View Rule - Reginfo.gov
-Opens in a new window
-
-en.wikipedia.org
-Kyber - Wikipedia
-Opens in a new window
-
-nist.gov
-NIST Releases First 3 Finalized Post-Quantum Encryption Standards
-Opens in a new window
-
-btq.com
-How does the NIST Standardization Process Work? - BTQ
-Opens in a new window
-
-blog.cloudflare.com
-NIST's first post-quantum standards - The Cloudflare Blog
-Opens in a new window
-
-arxiv.org
-Navigating Quantum Security Risks in Networked Environments: A Comprehensive Study of Quantum-Safe Network Protocols - arXiv
-Opens in a new window
-
-arxiv.org
-Cybersecurity in the Quantum Era: Assessing the Impact of Quantum Computing on Infrastructure - arXiv
-Opens in a new window
-
-sealsq.com
-SEALSQ Post-Quantum Secure Chip Safeguards Crypto Wallets Against Emerging Quantum Threats
-Opens in a new window
-
-nhsjs.com
-Ethical and Security Implications of Quantum Computing: A Systematic Review - NHSJS
-Opens in a new window
-
-equitechfutures.com
-The Quantum Divide: A Digital Revolution That Could Leave Billions Behind
-Opens in a new window
-
-hsc.com
-Cryptography & Challenges posed by Quantum Computers - Hughes Systique
-Opens in a new window
-
-isara.com
-Quantum Computing Urgency and Timeline - ISARA Corporation
-Opens in a new window
-
-pkic.org
-NIST Post-Quantum Cryptography Update - PKI Consortium
-Opens in a new window
-
-csrc.nist.gov
-Post-Quantum Cryptography | CSRC
-Opens in a new window
-
-redhat.com
-Post-quantum cryptography: Lattice-based cryptography - Red Hat
-Opens in a new window
-
-en.wikipedia.org
-Lattice-based cryptography - Wikipedia
-Opens in a new window
-
-pq-crystals.org
-CRYSTALS
-Opens in a new window
-
-digicert.com
-ML-DSA | Post-Quantum Cryptography | DigiCert Insights
-Opens in a new window
-
-arxiv.org
-Performance Analysis and Industry Deployment of Post-Quantum Cryptography Algorithms
-Opens in a new window
-
-appviewx.com
-NIST Rolls Out First Four Quantum-Resistant Encryption Algorithms - AppViewX
-Opens in a new window
-
-di-mgt.com.au
-SPHINCS+ A stateless hash-based signature scheme - di-mgt.com.au
-Opens in a new window
-
-investopedia.com
-What Are Cryptographic Hash Functions? - Investopedia
-Opens in a new window
-
-en.wikipedia.org
-Cryptographic hash function - Wikipedia
-Opens in a new window
-
-blog.cloudflare.com
-A look at the latest post-quantum signature standardization candidates
-Opens in a new window
-
-cpl.thalesgroup.com
-NIST Announced Four Quantum-Resistant Cryptographic Algorithms - Thales CPL
-Opens in a new window
-
-safelogic.com
-Post-Quantum Cryptography Algorithms: NIST Selects HQC - SafeLogic
-Opens in a new window
-
-numberanalytics.com
-Code-Based Cryptography Essentials - Number Analytics
-Opens in a new window
-
-en.wikipedia.org
-Multivariate cryptography - Wikipedia
-Opens in a new window
-
-appviewx.com
-8 Essential Considerations for Post-Quantum Cryptography Migration - AppViewX
-Opens in a new window
-
-reddit.com
-Why do most blockchains still rely on pre-quantum cryptography? - Reddit
-Opens in a new window
-
-researchgate.net
-(PDF) A Framework for Migrating to Post-Quantum Cryptography: Security Dependency Analysis and Case Studies - ResearchGate
-Opens in a new window
-
-thequantuminsider.com
-NIST Outlines Strategies for Crypto Agility as PQC Migration Stalls, Available for Public Comment - The Quantum Insider
-Opens in a new window
-
-x9.org
-New X9 Report Supplies Guidance on Migrating to Post-quantum Cryptography Safely and Cost-effectively
-Opens in a new window
-
-precedenceresearch.com
-Post Quantum Cryptography (PQC) Market Size, Share and Trends 2025 to 2034 - Precedence Research
-Opens in a new window
-
-grandviewresearch.com
-Post-Quantum Cryptography Market | Industry Report, 2030 - Grand View Research
-Opens in a new window
-
-nccoe.nist.gov
-Migration to Post-Quantum Cryptography | NCCoE
-Opens in a new window
-
-fortanix.com
-Untold Challenge of Post-Quantum Cryptography Migration - Fortanix
-Opens in a new window
-
-cwssp.uccs.edu
-Security Comparisons and Performance Analyses of Post-Quantum Signature Algorithms - UCCS
-Opens in a new window
-
-arxiv.org
-Comprehensive Analysis of BB84, A Quantum Key Distribution Protocol - arXiv
-Opens in a new window
-
-en.wikipedia.org
-BB84 - Wikipedia
-Opens in a new window
-
-quera.com
-What is Quantum Key Distribution? - QuEra Computing
-Opens in a new window
-
-quantumzeitgeist.com
-The BB84 Protocol: What Is It And How Does It Work? - Quantum Zeitgeist
-Opens in a new window
-
-toshiba.eu
-Quantum Key Distribution - What Is QKD? How Does It Work?
-Opens in a new window
-
-nsa.gov
-National Security Agency/Central Security Service > Cybersecurity ...
-Opens in a new window
-
-quantropi.com
-TrUE vs. QKD vs. PQC | Enterprise | Quantropi
-Opens in a new window
-
-toshiba.eu
-Long Distance QKD System LD
-Opens in a new window
-
-qt.eu
-Quantum Repeaters - Quantum Flagship
-Opens in a new window
-
-postquantum.com
-Quantum Repeaters: The Key to Long-Distance Quantum Comms
-Opens in a new window
-
-eprints.whiterose.ac.uk
-600-km repeater-like quantum communications with dual-band stabilization - White Rose Research Online
-Opens in a new window
-
-link.aps.org
-Quantum repeaters: From quantum networks to the quantum internet | Rev. Mod. Phys. - Physical Review Link Manager
-Opens in a new window
-
-anl.gov
-Quantum repeaters and their role in information technology | Argonne National Laboratory
-Opens in a new window
-
-binance.com
-www.binance.com
-Opens in a new window
-
-binance.com
-Bitcoin and Ethereum are not ready for quantum computers, says researcher | Lascado on Binance Square
-Opens in a new window
-
-postquantum.com
-Quantum Computing Risks to Cryptocurrencies - Bitcoin, Ethereum, and Beyond
-Opens in a new window
-
-pse.dev
-Are elliptic curves going to survive the quantum apocalypse? - pse.dev
-Opens in a new window
-
-sefiks.com
-Elliptic Curve Cryptography in Post Quantum Age - Sefik Ilkin Serengil
-Opens in a new window
-
-medium.com
-Does Quantum Computing Spell the End for Elliptic Curve Cryptography? Not Quite! | by Jamie Gilchrist | Medium
-Opens in a new window
-
-reddit.com
-Are you not scared about the effects of quantum computing on BTC? : r/Bitcoin - Reddit
-Opens in a new window
-
-reddit.com
-Would You Invest in Post-Quantum Cryptos if They Hit Tier 1 Exchanges? : r/CryptoCurrency
-Opens in a new window
-
-vibraniumaudits.com
-Quantum Attacks on Blockchain Security: Risks and Solutions - Vibranium Audits
-Opens in a new window
-
-reddit.com
-Grover's Algorithm Against Password Hashing? : r/crypto - Reddit
-Opens in a new window
-
-thequantuminsider.com
-Ethereum Prepares for Quantum-Resistant Future Amid Security Push
-Opens in a new window
-
-pse.dev
-Post-Quantum Cryptography and Ethereum - pse.dev
-Opens in a new window
-
-btq.com
-Ethereum's Roadmap for Post-Quantum Cryptography - BTQ
-Opens in a new window
-
-etherworld.co
-Ethereum Foundation Backs ZKnox for Post-Quantum Security - EtherWorld.co
-Opens in a new window
-
-alwin.io
-What Is Quantum Resistant Blockchain? A Complete Overview - WeAlwin Technologies
-Opens in a new window
-
-uniblock.dev
-Which crypto coins are quantum resistant - Uniblock
-Opens in a new window
-
-pqshield.com
-Post-quantum Cryptography Experts - PQShield
-Opens in a new window
-
-siliconrepublic.com
-Why post-quantum cryptography is needed sooner rather than later - Silicon Republic
-Opens in a new window
-
-pqshield.com
-UltraPQ-Suite: Mature PQC in Software, FPGA and ASIC - PQShield
-Opens in a new window
-
-researchgate.net
-Quantum-Classical Hybrid Architectures for Blockchain and Contextual AI - ResearchGate
-Opens in a new window
-
-sciencesforce.com
-Quantum-Classical Hybrid Architectures for Blockchain and Contextual AI - Sciences Force
-Opens in a new window
-
-paloaltonetworks.com
-What is a Quantum Random Number Generator (QRNG)? - Palo Alto Networks
-Opens in a new window
-
-quantumemotion.com
-QRNG2 - Quantum eMotion
-Opens in a new window
-
-idquantique.com
-Quantum Random Number Generation Applications - ID Quantique
-Opens in a new window
-
-gilkalai.wordpress.com
-The Case Against Google's Claims of “Quantum Supremacy”: A Very Short Introduction.
-Opens in a new window
-
-quantumzeitgeist.com
-Quantum Hype Vs. Reality: What Can We Really Expect?
-Opens in a new window
-
-reddit.com
-Quantum computing: hype vs reality : r/slatestarcodex - Reddit
-Opens in a new window
-
-arxiv.org
-Navigating the Quantum Divide(s) - arXiv
-Opens in a new window
-
-arxiv.org
-[2403.08033] Navigating the Quantum Divide(s) - arXiv
-Opens in a new window
-
-thequantuminsider.com
-'Qubits For Peace': Researchers Warn Quantum Technology Is ...
-Opens in a new window
-
-moderndiplomacy.eu
-Quantum Computing and state-sponsored Cyber Warfare: How quantum will transform Nation-State Cyber Attacks - Modern Diplomacy
-Opens in a new window
-
-quantum-journal.org
-Private and Robust States for Distributed Quantum Sensing
-Opens in a new window
-
-link.aps.org
-Privacy in Networks of Quantum Sensors | Phys. Rev. Lett. - Physical Review Link Manager
-Opens in a new window
-
-paconsulting.com
-Data privacy in a quantum world | PA Consulting
-Opens in a new window
-
-postquantum.com
-Ethical and Privacy Implications of Quantum Sensing
-Opens in a new window
-
-weforum.org
-Quantum Computing Governance | World Economic Forum
-Opens in a new window
-
-initiatives.weforum.org
-Governance - The Quantum Economy Network - The World Economic Forum
-Opens in a new window
-
-qusecure.com
-QuSecure CPO Co-Authors Report on Quantum Computing Governance Principles
-Opens in a new window
-
-weforum.org
-Quantum Computing Governance Principles - The World Economic Forum
-Opens in a new window
-
-quantumxc.com
-Cryptographic Agility & the Cost of Implementing PQC - Quantum Xchange
-Opens in a new window
-
-techuk.org
-Could Quantum Computing hold the key to sustainability? - techUK
-Opens in a new window
-
-hpcwire.com
-www.hpcwire.com
-Opens in a new window
-
-paloaltonetworks.com
-What Is Quantum Computing's Threat to Cybersecurity? - Palo Alto Networks
-Opens in a new window
-
-postquantum.com
-2023 Quantum Threat Timeline Report Published - PostQuantum.com
-Opens in a new window
-
-evolutionq.com
-Quantum Threat Timeline Research Report 2023 - Publication - evolutionQ
-Opens in a new window
-
-scribd.com
-Quantum Threat Timeline - Executive Summary | PDF - Scribd
-Opens in a new window
-
-ibm.com
-IBM Quantum Roadmap
-Opens in a new window
-
-quantumai.google
-Roadmap | Google Quantum AI
-Opens in a new window
-
-webpronews.com
-Google, IBM Optimistic on Practical Quantum Computers by 2030 - WebProNews
-Opens in a new window
-
-atis.org
-atis.org
-Opens in a new window
-
-atis.org
-Quantum Technologies and the Cryptographic Threat Timeline: A Strategic Overview - ATIS
-Opens in a new window
-
-postquantum.com
-The Trouble with Quantum Computing and Q-Day Predictions - PostQuantum.com
-Opens in a new window
-
-analyticsvidhya.com
-The Role of Quantum Computing in Advancing Artificial Intelligence - Analytics Vidhya
-Opens in a new window
-
-decentcybersecurity.eu
-Quantum Computing's Impact on Artificial Intelligence and Machine Learning in 2024
-Opens in a new window
-
-en.wikipedia.org
-en.wikipedia.org
-Opens in a new window
-
-en.wikipedia.org
-Quantum machine learning - Wikipedia
-Opens in a new window
-
-quantinuum.com
-Quantum Computers Will Make AI Better - Quantinuum
-Opens in a new window
-
-ciso.economictimes.indiatimes.com
-Safe CBDC transactions in a quantum-enabled future: A glimpse into the secure digital economy - ET CISO
-Opens in a new window
-
-secuview.secunet.com
-Protection for tomorrow's digital money - secuview: Das secunet Magazin
-Opens in a new window
-
-vivatechnology.com
-Quantum's Impact on Cybersecurity: The Hero and Villain - Viva Technology
-Opens in a new window
-
-decentcybersecurity.eu
-Impacts of Quantum Computers on Society - Decent Cybersecurity
-Opens in a new window
-
-iwp.edu
-How Artificial Intelligence and Quantum Computing are Evolving Cyber Warfare
-Opens in a new window
-
-medialaws.eu
-Utopia or dystopia: potential futures of AI and society - Media Laws
-Opens in a new window
-
-numberanalytics.com
-Navigating Utopia and Dystopia through Futures Studies - Number Analytics
-Opens in a new window
-
-reddit.com
-What are open unsolved interesting problems in cryptography? - Reddit
-Opens in a new window
-
-jackkrupansky.medium.com
-My Top Open Questions in Quantum Computing | by Jack Krupansky - Medium
-Opens in a new window
-
-oqp.iqoqi.oeaw.ac.at
-Open Quantum Problems – IQOQI Vienna
-Opens in a new window
-
-thequantuminsider.com
-UK Sets Timeline, Road Map for Post-Quantum Cryptography Migration
-Opens in a new window
-
-reports.weforum.org
-Embracing the Quantum Economy: A Pathway for Business Leaders - World Economic Forum
-Opens in a new window
-
-## Sources Read but Not Used in the Report
-
-researchgate.net
-Timeline of quantum cryptography. | Download Scientific Diagram - ResearchGate
-Opens in a new window
-
-csrc.nist.gov
-On the practical cost of Grover for AES key recovery - NIST Computer Security Resource Center
-Opens in a new window
-
-easychair.org
-Decrypting the Future: Quantum Computing and The Impact of Grover's and Shor's Algorithms on Classical Cryptography - EasyChair
-Opens in a new window
-
-reddit.com
-Shor's Algorithm Breaks 5-bit Elliptic Curve Key on 133-Qubit Quantum Computer - Reddit
-Opens in a new window
-
-mitrade.com
-www.mitrade.com
-Opens in a new window
-
-crypto.stackexchange.com
-Using Shor's algorithm to solve the discrete logarithm problem
-Opens in a new window
-
-crypto.stackexchange.com
-How effective is quantum computing against elliptic curve cryptography?
-Opens in a new window
-
-hartree.stfc.ac.uk
-Estimating and reducing resources for solving cryptography problems using quantum computers - Hartree Centre
-Opens in a new window
-
-circle.cloudsecurityalliance.org
-Can Shor's algorithm attach elliptic curve algorithms? | Quantum-Safe Security
-Opens in a new window
-
-crypto.stackexchange.com
-Shor's algorithm for elliptic curve discrete logarithm problem - Cryptography Stack Exchange
-Opens in a new window
-
-arxiv.org
-[2507.21151] NIST Post-Quantum Cryptography Standard Algorithms Based on Quantum Random Number Generators - arXiv
-Opens in a new window
-
-arxiv.org
-[2411.05024] The Impact of Quantum-Safe Cryptography (QSC) on Website Response
-Opens in a new window
-
-crypto.stackexchange.com
-How does Grover's algorithm affect the MAC birthday bound and message lengths?
-Opens in a new window
-
-ibm.com
-CRYSTALS-Dilithium Digital Signature Algorithm - IBM
-Opens in a new window
-
-pq-crystals.org
-Dilithium - CRYSTALS
-Opens in a new window
-
-quantumzeitgeist.com
-What Is QKD: Quantum Key Distribution?
-Opens in a new window
-
-cyber.gouv.fr
-Should Quantum Key Distribution be Used for Secure Communications? | ANSSI
-Opens in a new window
-
-numberanalytics.com
-Unlocking Multivariate Cryptography - Number Analytics
-Opens in a new window
-
-quora.com
-What is a cryptographic hash function, and how does it work? - Quora
-Opens in a new window
-
-alexandria.unisg.ch
-An Introduction to Code-Based Cryptography - Alexandria (UniSG)
-Opens in a new window
-
-youtube.com
-Code-based cryptography I - Basic concepts and McElice system - YouTube
-Opens in a new window
-
-jstage.jst.go.jp
-A Pure Hardware Implementation of CRYSTALS-KYBER PQC Algorithm through Resource Reuse - J-Stage
-Opens in a new window
-
-cyber.gc.ca
-Cyber Centre's summary review of final candidates for NIST Post‑Quantum Cryptography standards
-Opens in a new window
-
-mstechdiva.com
-Quantum Key Distribution: Race to Deployment - MsTechDiva
-Opens in a new window
-
-thequantuminsider.com
-Quantum Network Goes the Distance Using Existing Telecom Infrastructure
-Opens in a new window
-
-quantumxc.com
-Quantum Communications in Real World Applications
-Opens in a new window
-
-aliroquantum.com
-Real World Quantum Network Deployments
-Opens in a new window
-
-nxp.com
-Post-Quantum Cryptography: Migration Challenges for Embedded Devices - NXP Semiconductors
-Opens in a new window
-
-publications.jrc.ec.europa.eu
-Quantum Key Distribution in-field implementations - JRC Publications Repository
-Opens in a new window
-
-arxiv.org
-Quantum Blockchain Survey: Foundations, Trends, and Gaps - arXiv
-Opens in a new window
-
-coinbase.com
-Cryptocurrencies and Quantum Computers - Coinbase
-Opens in a new window
-
-semanticscholar.org
-Reinforcing Security and Usability of Crypto-Wallet with Post-Quantum Cryptography and Zero-Knowledge Proof - Semantic Scholar
-Opens in a new window
-
-binance.com
-Will Bitcoin be cracked by quantum computers in 2035, causin | 比特智能体 on Binance Square
-Opens in a new window
-
-cointelegraph.com
-What are quantum-resistant tokens and why do they matter for crypto? - Cointelegraph
-Opens in a new window
-
-aliroquantum.com
-Real World Quantum Network Deployments - Aliro Quantum
-Opens in a new window
-
-mdpi.com
-Performance Analysis of Post-Quantum Cryptography Algorithms for ...
-Opens in a new window
-
-honeywell.com
-Things to Know about Quantinuum - Honeywell
-Opens in a new window
-
-youtube.com
-Why The Race for Quantum Supremacy Just Got Real - YouTube
-Opens in a new window
-
-quera.com
-Quantum ethics - QuEra Computing
-Opens in a new window
-
-scientific-computing.com
-Ethics and quantum computing
-Opens in a new window
-
-alice-bob.com
-Alice & Bob 2030 Roadmap to Useful Quantum Computers
-Opens in a new window
-
-scottaaronson.com
-The Limits of Quantum Computers (DRAFT) - Scott Aaronson
-Opens in a new window
-
-youtube.com
-The truth about quantum computing | Scott Aaronson - YouTube
-Opens in a new window
-
-scottaaronson.blog
-Shtetl-Optimized » Quantum
-Opens in a new window
-
-quantumai.google
-Our quantum computing journey - Google Quantum AI
-Opens in a new window
-
-quantinuum.com
-Quantinuum Unveils Accelerated Roadmap to Achieve Universal, Fully Fault-Tolerant Quantum Computing by 2030
-Opens in a new window
+1. [Milestones in Quantum Computing | Flagship Pioneering](https://flagshippioneering.com)
+2. [www.bristol.ac.uk](https://bristol.ac.uk)
+3. [History Shows How to Win the Quantum Computing Race | TIME](https://time.com)
+4. [Quantum Computation | Quantum Engineering Technology Labs ...](https://bristol.ac.uk)
+5. [Feynman's Vision: A Brief Story of Quantum Simulation | by azhar ikhtiarudin - Medium](https://medium.com)
+6. [Timeline of quantum computing and communication - Wikipedia](https://en.wikipedia.org)
+7. [David Deutsch - Wikipedia](https://en.wikipedia.org)
+8. [Quantum Turing machine - Encyclopedia of Mathematics](https://encyclopediaofmath.org)
+9. [Deutsch's Universal Quantum Turing Machine (Revisited) - arXiv](https://arxiv.org)
+10. [Quantum Turing machine - Wikipedia](https://en.wikipedia.org)
+11. [Understanding the timeline of quantum computing: when will it become reality? - Sectigo](https://sectigo.com)
+12. [Shor's algorithm - Wikipedia](https://en.wikipedia.org)
+13. [A Brief History Of Shor's Algorithm And Peter Shor, The Quantum Algorithm From 1994 That Threatens The Security Of All Our Data](https://quantumzeitgeist.com)
+14. [Quantum Supremacy. In 1994, Peter Shor introduced an… | by Beyond the Horizon | Medium](https://medium.com)
+15. [What is Shor's Algorithm? - Utimaco](https://utimaco.com)
+16. [Grover's Algorithm - Classiq](https://classiq.io)
+17. [Grover's algorithm - Wikipedia](https://en.wikipedia.org)
+18. [Quantum Entanglement involved in Grover's algorithm: a state of the art | by Hamza Jaffali - Medium](https://medium.com)
+19. [Grover's Algorithm: How It Speeds Up Quantum Search | SpinQ](https://spinquanta.com)
+20. [Sycamore processor - Wikipedia](https://en.wikipedia.org)
+21. [Google and NASA Achieve Quantum Supremacy](https://nasa.gov)
+22. [Google's Quantum Breakthrough - Brownstone Research](https://brownstoneresearch.com)
+23. [Jiuzhang (quantum computer) - Wikipedia](https://en.wikipedia.org)
+24. [Jiuzhang 3.0: China's Photonic Quantum Computer - PostQuantum.com](https://postquantum.com)
+25. [Jiuzhang: Inside China's Photonic Quantum Computer - Trust in Science](https://trustinscience.com)
+26. [Chinese Jiuzhang 4.0 Demonstrates Quantum Advantage With 1024 Squeezed States](https://quantumzeitgeist.com)
+27. [A Hardware-Focused Tour of IBM's 127-Qubit Eagle Processor](https://vurj.vanderbilt.edu)
+28. [List of quantum processors - Wikipedia](https://en.wikipedia.org)
+29. [IBM Quantum System Two: the era of quantum utility is here | IBM Quantum Computing Blog](https://ibm.com)
+30. [IBM Quantum breaks the 100‑qubit processor barrier | IBM Quantum ...](https://ibm.com)
+31. [Quantum Computing Basics: A Beginner's Guide - BlueQubit](https://bluequbit.io)
+32. [Separating Reality from Hype – Quantum Computing Explained - SemiAnalysis](https://semianalysis.com)
+33. [Understanding Shor's and Grover's Algorithms and Their Impact on Cybersecurity - Fortinet](https://fortinet.com)
+34. [www.fortinet.com](https://fortinet.com)
+35. [Shor's Algorithm: Breaking RSA and ECC Encryption - Part 1 - Message Ahead](https://p51lee.github.io)
+36. [Shor's discrete logarithm quantum algorithm for elliptic curves - arXiv](https://arxiv.org)
+37. [[quant-ph/0301141] Shor's discrete logarithm quantum algorithm for elliptic curves - arXiv](https://arxiv.org)
+38. [Quantum Resource Estimates for Computing Elliptic Curve Discrete Logarithms - Microsoft](https://microsoft.com)
+39. [The Impact of Quantum Computing on Cryptography | by Prabhu Srivastava - Medium](https://medium.com)
+40. [Google Researcher Lowers Quantum Bar to Crack RSA Encryption](https://thequantuminsider.com)
+41. [Post-Quantum Cryptography: Securing Digital Communication in the Quantum Era - arXiv](https://arxiv.org)
+42. [How Post-Quantum Cryptography Affects Security and Encryption Algorithms - Cisco Blogs](https://blogs.cisco.com)
+43. [Grover's Algorithm: Quantum Speedup for Search and its Impact on Cryptography](https://solveforce.com)
+44. [Grover's Algorithm and Its Impact on Cybersecurity - PostQuantum.com](https://postquantum.com)
+45. [how much of a threat are quantum computers(grovers alg) to 256 bit symmetrical encryption : r/crypto - Reddit](https://reddit.com)
+46. [Applying Grover's Algorithm to AES: Quantum Resource Estimates - ResearchGate](https://researchgate.net)
+47. [Does Grover's algorithm really threaten symmetric security proofs?](https://crypto.stackexchange.com)
+48. [Securing the Blockchain Against Quantum Computing - Halborn](https://halborn.com)
+49. [Quantum Computing Companies: A Full 2024 List](https://thequantuminsider.com)
+50. [Rigetti Computing - Amazon Braket Quantum Computers - Amazon ...](https://aws.amazon.com)
+51. [milvus.io](https://milvus.io)
+52. [IonQ quantum computing provider - Azure - Microsoft Learn](https://learn.microsoft.com)
+53. [IonQ - Amazon Braket Quantum Computers - Amazon Web Services](https://aws.amazon.com)
+54. [Xanadu unveils world's first scalable photonic quantum computer](https://innovationnewsnetwork.com)
+55. [Xanadu Quantum Technologies - Wikipedia](https://en.wikipedia.org)
+56. [Topological qubits - Microsoft Quantum](https://quantum.microsoft.com)
+57. [Microsoft Shows Distinct Parity Lifetimes in Topological Qubit Prototype](https://thequantuminsider.com)
+58. [Quantum Computing Hype vs. Reality: What's Actually Possible (and What's Not) - Medium](https://medium.com)
+59. [www.ibm.com](https://ibm.com)
+60. [The timelines: when can we expect useful quantum computers?](https://introtoquantum.org)
+61. [NIST Post-Quantum Cryptography Standardization - Wikipedia](https://en.wikipedia.org)
+62. [NIST advances post-quantum cryptography standardization, selects HQC algorithm to counter quantum threats - Industrial Cyber](https://industrialcyber.co)
+63. [Post-Quantum Cryptography - Homeland Security](https://dhs.gov)
+64. [Post-Quantum Cryptography Initiative | CISA](https://cisa.gov)
+65. [Quantum Technologies Flagship | Shaping Europe's digital future](https://digital-strategy.ec.europa.eu)
+66. [Quantum Flagship - QuantERA](https://quantera.eu)
+67. [China splurges $10 Billion to build a national quantum technology ...](https://311institute.com)
+68. [China is opening a new quantum research supercenter - Popular Science](https://popsci.com)
+69. [Updates on the IBM Quantum Credits program | IBM Quantum ...](https://ibm.com)
+70. [IBM Quantum Platform - Wikipedia](https://en.wikipedia.org)
+71. [Quantum AI team - Google Research](https://research.google.com)
+72. [Quantum Computer | Google Quantum AI](https://quantumai.google)
+73. [en.wikipedia.org](https://en.wikipedia.org)
+74. [Quantinuum - Wikipedia](https://en.wikipedia.org)
+75. [What is Quantum Annealing? — Python documentation](https://docs.dwavequantum.com)
+76. [D-Wave Systems - Wikipedia](https://en.wikipedia.org)
+77. [Quantum-Enabled Computation | MIT Lincoln Laboratory](https://ll.mit.edu)
+78. [Quantum Photonics Laboratory | RLE at MIT](https://qp.mit.edu)
+79. [Quantum Information and Computation - Caltech CMS](https://cms.caltech.edu)
+80. [Physics Research | The Division of Physics, Mathematics and Astronomy - Caltech PMA](https://pma.caltech.edu)
+81. [Institute for Quantum Computing - Wikipedia](https://en.wikipedia.org)
+82. [Quantum Computing's Cyber-Threat to National Security - NDU Press](https://ndupress.ndu.edu)
+83. [QUANTUM COMPUTING: QUANTIFYING THE CURRENT STATE OF THE ART TO ASSESS CYBERSECURITY THREATS - MITRE Corporation](https://mitre.org)
+84. [Wassenaar Arrangement - Wikipedia](https://en.wikipedia.org)
+85. [The Wassenaar Arrangement: Home](https://wassenaar.org)
+86. [Export Controls on Quantum Cryptography - Number Analytics](https://numberanalytics.com)
+87. [View Rule - Reginfo.gov](https://reginfo.gov)
+88. [Kyber - Wikipedia](https://en.wikipedia.org)
+89. [NIST Releases First 3 Finalized Post-Quantum Encryption Standards](https://nist.gov)
+90. [How does the NIST Standardization Process Work? - BTQ](https://btq.com)
+91. [NIST's first post-quantum standards - The Cloudflare Blog](https://blog.cloudflare.com)
+92. [Navigating Quantum Security Risks in Networked Environments: A Comprehensive Study of Quantum-Safe Network Protocols - arXiv](https://arxiv.org)
+93. [Cybersecurity in the Quantum Era: Assessing the Impact of Quantum Computing on Infrastructure - arXiv](https://arxiv.org)
+94. [SEALSQ Post-Quantum Secure Chip Safeguards Crypto Wallets Against Emerging Quantum Threats](https://sealsq.com)
+95. [Ethical and Security Implications of Quantum Computing: A Systematic Review - NHSJS](https://nhsjs.com)
+96. [The Quantum Divide: A Digital Revolution That Could Leave Billions Behind](https://equitechfutures.com)
+97. [Cryptography & Challenges posed by Quantum Computers - Hughes Systique](https://hsc.com)
+98. [Quantum Computing Urgency and Timeline - ISARA Corporation](https://isara.com)
+99. [NIST Post-Quantum Cryptography Update - PKI Consortium](https://pkic.org)
+100. [Post-Quantum Cryptography | CSRC](https://csrc.nist.gov)
+101. [Post-quantum cryptography: Lattice-based cryptography - Red Hat](https://redhat.com)
+102. [Lattice-based cryptography - Wikipedia](https://en.wikipedia.org)
+103. [CRYSTALS](https://pq-crystals.org)
+104. [ML-DSA | Post-Quantum Cryptography | DigiCert Insights](https://digicert.com)
+105. [Performance Analysis and Industry Deployment of Post-Quantum Cryptography Algorithms](https://arxiv.org)
+106. [NIST Rolls Out First Four Quantum-Resistant Encryption Algorithms - AppViewX](https://appviewx.com)
+107. [SPHINCS+ A stateless hash-based signature scheme - di-mgt.com.au](https://di-mgt.com.au)
+108. [What Are Cryptographic Hash Functions? - Investopedia](https://investopedia.com)
+109. [Cryptographic hash function - Wikipedia](https://en.wikipedia.org)
+110. [A look at the latest post-quantum signature standardization candidates](https://blog.cloudflare.com)
+111. [NIST Announced Four Quantum-Resistant Cryptographic Algorithms - Thales CPL](https://cpl.thalesgroup.com)
+112. [Post-Quantum Cryptography Algorithms: NIST Selects HQC - SafeLogic](https://safelogic.com)
+113. [Code-Based Cryptography Essentials - Number Analytics](https://numberanalytics.com)
+114. [Multivariate cryptography - Wikipedia](https://en.wikipedia.org)
+115. [8 Essential Considerations for Post-Quantum Cryptography Migration - AppViewX](https://appviewx.com)
+116. [Why do most blockchains still rely on pre-quantum cryptography? - Reddit](https://reddit.com)
+117. [(PDF) A Framework for Migrating to Post-Quantum Cryptography: Security Dependency Analysis and Case Studies - ResearchGate](https://researchgate.net)
+118. [NIST Outlines Strategies for Crypto Agility as PQC Migration Stalls, Available for Public Comment - The Quantum Insider](https://thequantuminsider.com)
+119. [New X9 Report Supplies Guidance on Migrating to Post-quantum Cryptography Safely and Cost-effectively](https://x9.org)
+120. [Post Quantum Cryptography (PQC) Market Size, Share and Trends 2025 to 2034 - Precedence Research](https://precedenceresearch.com)
+121. [Post-Quantum Cryptography Market | Industry Report, 2030 - Grand View Research](https://grandviewresearch.com)
+122. [Migration to Post-Quantum Cryptography | NCCoE](https://nccoe.nist.gov)
+123. [Untold Challenge of Post-Quantum Cryptography Migration - Fortanix](https://fortanix.com)
+124. [Security Comparisons and Performance Analyses of Post-Quantum Signature Algorithms - UCCS](https://cwssp.uccs.edu)
+125. [Comprehensive Analysis of BB84, A Quantum Key Distribution Protocol - arXiv](https://arxiv.org)
+126. [BB84 - Wikipedia](https://en.wikipedia.org)
+127. [What is Quantum Key Distribution? - QuEra Computing](https://quera.com)
+128. [The BB84 Protocol: What Is It And How Does It Work? - Quantum Zeitgeist](https://quantumzeitgeist.com)
+129. [Quantum Key Distribution - What Is QKD? How Does It Work?](https://toshiba.eu)
+130. [National Security Agency/Central Security Service > Cybersecurity ...](https://nsa.gov)
+131. [TrUE vs. QKD vs. PQC | Enterprise | Quantropi](https://quantropi.com)
+132. [Long Distance QKD System LD](https://toshiba.eu)
+133. [Quantum Repeaters - Quantum Flagship](https://qt.eu)
+134. [Quantum Repeaters: The Key to Long-Distance Quantum Comms](https://postquantum.com)
+135. [600-km repeater-like quantum communications with dual-band stabilization - White Rose Research Online](https://eprints.whiterose.ac.uk)
+136. [Quantum repeaters: From quantum networks to the quantum internet | Rev. Mod. Phys. - Physical Review Link Manager](https://link.aps.org)
+137. [Quantum repeaters and their role in information technology | Argonne National Laboratory](https://anl.gov)
+138. [www.binance.com](https://binance.com)
+139. [Bitcoin and Ethereum are not ready for quantum computers, says researcher | Lascado on Binance Square](https://binance.com)
+140. [Quantum Computing Risks to Cryptocurrencies - Bitcoin, Ethereum, and Beyond](https://postquantum.com)
+141. [Are elliptic curves going to survive the quantum apocalypse? - pse.dev](https://pse.dev)
+142. [Elliptic Curve Cryptography in Post Quantum Age - Sefik Ilkin Serengil](https://sefiks.com)
+143. [Does Quantum Computing Spell the End for Elliptic Curve Cryptography? Not Quite! | by Jamie Gilchrist | Medium](https://medium.com)
+144. [Are you not scared about the effects of quantum computing on BTC? : r/Bitcoin - Reddit](https://reddit.com)
+145. [Would You Invest in Post-Quantum Cryptos if They Hit Tier 1 Exchanges? : r/CryptoCurrency](https://reddit.com)
+146. [Quantum Attacks on Blockchain Security: Risks and Solutions - Vibranium Audits](https://vibraniumaudits.com)
+147. [Grover's Algorithm Against Password Hashing? : r/crypto - Reddit](https://reddit.com)
+148. [Ethereum Prepares for Quantum-Resistant Future Amid Security Push](https://thequantuminsider.com)
+149. [Post-Quantum Cryptography and Ethereum - pse.dev](https://pse.dev)
+150. [Ethereum's Roadmap for Post-Quantum Cryptography - BTQ](https://btq.com)
+151. [Ethereum Foundation Backs ZKnox for Post-Quantum Security - EtherWorld.co](https://etherworld.co)
+152. [What Is Quantum Resistant Blockchain? A Complete Overview - WeAlwin Technologies](https://alwin.io)
+153. [Which crypto coins are quantum resistant - Uniblock](https://uniblock.dev)
+154. [Post-quantum Cryptography Experts - PQShield](https://pqshield.com)
+155. [Why post-quantum cryptography is needed sooner rather than later - Silicon Republic](https://siliconrepublic.com)
+156. [UltraPQ-Suite: Mature PQC in Software, FPGA and ASIC - PQShield](https://pqshield.com)
+157. [Quantum-Classical Hybrid Architectures for Blockchain and Contextual AI - ResearchGate](https://researchgate.net)
+158. [Quantum-Classical Hybrid Architectures for Blockchain and Contextual AI - Sciences Force](https://sciencesforce.com)
+159. [What is a Quantum Random Number Generator (QRNG)? - Palo Alto Networks](https://paloaltonetworks.com)
+160. [QRNG2 - Quantum eMotion](https://quantumemotion.com)
+161. [Quantum Random Number Generation Applications - ID Quantique](https://idquantique.com)
+162. [The Case Against Google's Claims of “Quantum Supremacy”: A Very Short Introduction.](https://gilkalai.wordpress.com)
+163. [Quantum Hype Vs. Reality: What Can We Really Expect?](https://quantumzeitgeist.com)
+164. [Quantum computing: hype vs reality : r/slatestarcodex - Reddit](https://reddit.com)
+165. [Navigating the Quantum Divide(s) - arXiv](https://arxiv.org)
+166. [[2403.08033] Navigating the Quantum Divide(s) - arXiv](https://arxiv.org)
+167. ['Qubits For Peace': Researchers Warn Quantum Technology Is ...](https://thequantuminsider.com)
+168. [Quantum Computing and state-sponsored Cyber Warfare: How quantum will transform Nation-State Cyber Attacks - Modern Diplomacy](https://moderndiplomacy.eu)
+169. [Private and Robust States for Distributed Quantum Sensing](https://quantum-journal.org)
+170. [Privacy in Networks of Quantum Sensors | Phys. Rev. Lett. - Physical Review Link Manager](https://link.aps.org)
+171. [Data privacy in a quantum world | PA Consulting](https://paconsulting.com)
+172. [Ethical and Privacy Implications of Quantum Sensing](https://postquantum.com)
+173. [Quantum Computing Governance | World Economic Forum](https://weforum.org)
+174. [Governance - The Quantum Economy Network - The World Economic Forum](https://initiatives.weforum.org)
+175. [QuSecure CPO Co-Authors Report on Quantum Computing Governance Principles](https://qusecure.com)
+176. [Quantum Computing Governance Principles - The World Economic Forum](https://weforum.org)
+177. [Cryptographic Agility & the Cost of Implementing PQC - Quantum Xchange](https://quantumxc.com)
+178. [Could Quantum Computing hold the key to sustainability? - techUK](https://techuk.org)
+179. [www.hpcwire.com](https://hpcwire.com)
+180. [What Is Quantum Computing's Threat to Cybersecurity? - Palo Alto Networks](https://paloaltonetworks.com)
+181. [2023 Quantum Threat Timeline Report Published - PostQuantum.com](https://postquantum.com)
+182. [Quantum Threat Timeline Research Report 2023 - Publication - evolutionQ](https://evolutionq.com)
+183. [Quantum Threat Timeline - Executive Summary | PDF - Scribd](https://scribd.com)
+184. [IBM Quantum Roadmap](https://ibm.com)
+185. [Roadmap | Google Quantum AI](https://quantumai.google)
+186. [Google, IBM Optimistic on Practical Quantum Computers by 2030 - WebProNews](https://webpronews.com)
+187. [atis.org](https://atis.org)
+188. [Quantum Technologies and the Cryptographic Threat Timeline: A Strategic Overview - ATIS](https://atis.org)
+189. [The Trouble with Quantum Computing and Q-Day Predictions - PostQuantum.com](https://postquantum.com)
+190. [The Role of Quantum Computing in Advancing Artificial Intelligence - Analytics Vidhya](https://analyticsvidhya.com)
+191. [Quantum Computing's Impact on Artificial Intelligence and Machine Learning in 2024](https://decentcybersecurity.eu)
+192. [Quantum machine learning - Wikipedia](https://en.wikipedia.org)
+193. [Quantum Computers Will Make AI Better - Quantinuum](https://quantinuum.com)
+194. [Safe CBDC transactions in a quantum-enabled future: A glimpse into the secure digital economy - ET CISO](https://ciso.economictimes.indiatimes.com)
+195. [Protection for tomorrow's digital money - secuview: Das secunet Magazin](https://secuview.secunet.com)
+196. [Quantum's Impact on Cybersecurity: The Hero and Villain - Viva Technology](https://vivatechnology.com)
+197. [Impacts of Quantum Computers on Society - Decent Cybersecurity](https://decentcybersecurity.eu)
+198. [How Artificial Intelligence and Quantum Computing are Evolving Cyber Warfare](https://iwp.edu)
+199. [Utopia or dystopia: potential futures of AI and society - Media Laws](https://medialaws.eu)
+200. [Navigating Utopia and Dystopia through Futures Studies - Number Analytics](https://numberanalytics.com)
+201. [What are open unsolved interesting problems in cryptography? - Reddit](https://reddit.com)
+202. [My Top Open Questions in Quantum Computing | by Jack Krupansky - Medium](https://jackkrupansky.medium.com)
+203. [Open Quantum Problems – IQOQI Vienna](https://oqp.iqoqi.oeaw.ac.at)
+204. [UK Sets Timeline, Road Map for Post-Quantum Cryptography Migration](https://thequantuminsider.com)
+205. [Embracing the Quantum Economy: A Pathway for Business Leaders - World Economic Forum](https://reports.weforum.org)
+206. [researchgate.net](https://## Sources Read but Not Used in the Report)
+207. [On the practical cost of Grover for AES key recovery - NIST Computer Security Resource Center](https://csrc.nist.gov)
+208. [Decrypting the Future: Quantum Computing and The Impact of Grover's and Shor's Algorithms on Classical Cryptography - EasyChair](https://easychair.org)
+209. [Shor's Algorithm Breaks 5-bit Elliptic Curve Key on 133-Qubit Quantum Computer - Reddit](https://reddit.com)
+210. [www.mitrade.com](https://mitrade.com)
+211. [Using Shor's algorithm to solve the discrete logarithm problem](https://crypto.stackexchange.com)
+212. [How effective is quantum computing against elliptic curve cryptography?](https://crypto.stackexchange.com)
+213. [Estimating and reducing resources for solving cryptography problems using quantum computers - Hartree Centre](https://hartree.stfc.ac.uk)
+214. [Can Shor's algorithm attach elliptic curve algorithms? | Quantum-Safe Security](https://circle.cloudsecurityalliance.org)
+215. [Shor's algorithm for elliptic curve discrete logarithm problem - Cryptography Stack Exchange](https://crypto.stackexchange.com)
+216. [[2507.21151] NIST Post-Quantum Cryptography Standard Algorithms Based on Quantum Random Number Generators - arXiv](https://arxiv.org)
+217. [[2411.05024] The Impact of Quantum-Safe Cryptography (QSC) on Website Response](https://arxiv.org)
+218. [How does Grover's algorithm affect the MAC birthday bound and message lengths?](https://crypto.stackexchange.com)
+219. [CRYSTALS-Dilithium Digital Signature Algorithm - IBM](https://ibm.com)
+220. [Dilithium - CRYSTALS](https://pq-crystals.org)
+221. [What Is QKD: Quantum Key Distribution?](https://quantumzeitgeist.com)
+222. [Should Quantum Key Distribution be Used for Secure Communications? | ANSSI](https://cyber.gouv.fr)
+223. [Unlocking Multivariate Cryptography - Number Analytics](https://numberanalytics.com)
+224. [What is a cryptographic hash function, and how does it work? - Quora](https://quora.com)
+225. [An Introduction to Code-Based Cryptography - Alexandria (UniSG)](https://alexandria.unisg.ch)
+226. [Code-based cryptography I - Basic concepts and McElice system - YouTube](https://youtube.com)
+227. [A Pure Hardware Implementation of CRYSTALS-KYBER PQC Algorithm through Resource Reuse - J-Stage](https://jstage.jst.go.jp)
+228. [Cyber Centre's summary review of final candidates for NIST Post‑Quantum Cryptography standards](https://cyber.gc.ca)
+229. [Quantum Key Distribution: Race to Deployment - MsTechDiva](https://mstechdiva.com)
+230. [Quantum Network Goes the Distance Using Existing Telecom Infrastructure](https://thequantuminsider.com)
+231. [Quantum Communications in Real World Applications](https://quantumxc.com)
+232. [Real World Quantum Network Deployments](https://aliroquantum.com)
+233. [Post-Quantum Cryptography: Migration Challenges for Embedded Devices - NXP Semiconductors](https://nxp.com)
+234. [Quantum Key Distribution in-field implementations - JRC Publications Repository](https://publications.jrc.ec.europa.eu)
+235. [Quantum Blockchain Survey: Foundations, Trends, and Gaps - arXiv](https://arxiv.org)
+236. [Cryptocurrencies and Quantum Computers - Coinbase](https://coinbase.com)
+237. [Reinforcing Security and Usability of Crypto-Wallet with Post-Quantum Cryptography and Zero-Knowledge Proof - Semantic Scholar](https://semanticscholar.org)
+238. [Will Bitcoin be cracked by quantum computers in 2035, causin | 比特智能体 on Binance Square](https://binance.com)
+239. [What are quantum-resistant tokens and why do they matter for crypto? - Cointelegraph](https://cointelegraph.com)
+240. [Real World Quantum Network Deployments - Aliro Quantum](https://aliroquantum.com)
+241. [Performance Analysis of Post-Quantum Cryptography Algorithms for ...](https://mdpi.com)
+242. [Things to Know about Quantinuum - Honeywell](https://honeywell.com)
+243. [Why The Race for Quantum Supremacy Just Got Real - YouTube](https://youtube.com)
+244. [Quantum ethics - QuEra Computing](https://quera.com)
+245. [Ethics and quantum computing](https://scientific-computing.com)
+246. [Alice & Bob 2030 Roadmap to Useful Quantum Computers](https://alice-bob.com)
+247. [The Limits of Quantum Computers (DRAFT) - Scott Aaronson](https://scottaaronson.com)
+248. [The truth about quantum computing | Scott Aaronson - YouTube](https://youtube.com)
+249. [Shtetl-Optimized » Quantum](https://scottaaronson.blog)
+250. [Our quantum computing journey - Google Quantum AI](https://quantumai.google)
+251. [Quantinuum Unveils Accelerated Roadmap to Achieve Universal, Fully Fault-Tolerant Quantum Computing by 2030](https://quantinuum.com)
