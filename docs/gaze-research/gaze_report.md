@@ -36,10 +36,10 @@ The project, "From Mirror to Feed: A Comprehensive Analysis of the Gaze—Classi
 
 | Deliverable | Description | Link |
 | --- | --- | --- |
-| Main Report | A ~10k word report covering Abstract, Introduction, Theoretical Framework, Methods, Findings, Discussion, and Conclusion. | [gaze_report.md](gaze_report.md) |
-| Annotated Bibliography | A one-paragraph annotation for each major source cited in the report, summarising content, methodological quality, and relevance. | [gaze_bibliography.md](gaze_bibliography.md) |
-| Influence Map | A vector graphic mapping the theoretical lineage of the gaze; nodes represent theorists and gaze variants, with arrows indicating influence. | [influence_map.md](influence_map.md) |
-| BibTeX References | A file for citation management that can be imported into reference software (e.g., Zotero, EndNote). | [gaze_references.bib](gaze_references.bib) |
+| Main Report | ~10k-word report with abstract, theory, methods, findings, conclusion. | [gaze_report.md](gaze_report.md) |
+| Annotated Bibliography | One-paragraph annotations on key sources: content, quality, relevance. | [gaze_bibliography.md](gaze_bibliography.md) |
+| Influence Map | Vector graphic of theoretical lineage showing theorists, variants, influence. | [influence_map.md](influence_map.md) |
+| BibTeX References | BibTeX file for citation management importable into reference software. | [gaze_references.bib](gaze_references.bib) |
 
 ### Summary
 
@@ -59,7 +59,7 @@ flowchart TD
     C --> F[Influence Map]
     C --> G[BibTeX References]
 </div>
-<figcaption>Project flow from research inputs through analysis to four deliverables: report, annotated bibliography, influence map, and BibTeX references.</figcaption>
+<figcaption>Research inputs flow through analysis to deliverables: report, annotated bibliography, influence map, BibTeX references.</figcaption>
 </figure>
 
 ## Using the Deliverables
@@ -93,6 +93,10 @@ flowchart TD
 - Report and citations can be read with standard markdown and BibTeX tools.
 - Bibliography and references provide detailed source information.
 - Influence map reveals relationships among theoretical concepts.
+
+## References
+
+- [gaze_references.bib](gaze_references.bib)
 
 ## Notes
 
