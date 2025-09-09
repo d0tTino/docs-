@@ -26,4 +26,9 @@ The matrix compares long-context techniques across complexity, maximum effective
 
 ### Regeneration
 
-Use [context-windows-design-matrix.py](context-windows-design-matrix.py) to regenerate the chart and interactive table. Requires `plotly` and `kaleido`. The script writes an updated [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg) and a companion HTML table in the same directory.
+Use [context-windows-design-matrix.py](context-windows-design-matrix.py) to regenerate the chart and interactive table. Requires `plotly` and `kaleido`. When the underlying data changes, regenerate both the [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg) and its companion HTML table to keep them synchronized.
+
+```bash
+python -m pip install plotly kaleido            # install dependencies
+python context-windows-design-matrix.py         # update SVG and HTML when data changes
+```

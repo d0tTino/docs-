@@ -18,7 +18,7 @@ The narrative begins with human archaeologists from the Straumli Realm awakening
 One of the novel's most original contributions is the concept of the Zones of Thought, a stratified galactic structure where the feasibility of intelligence and technology diminishes toward the core. The Unthinking Depths at the center render complex thought impossible, while the Slow Zone limits advanced capabilities such as faster-than-light (FTL) travel and artificial intelligence. Further outward, the Beyond enables interstellar commerce and communication, and the Transcend fosters godlike superintelligences, or Powers.
 
 <figure>
-  <img src="img/zones-of-thought.svg" alt="Diagram of the Zones of Thought showing layers from Unthinking Depths to Transcend">
+  <img src="img/zones-of-thought.svg" alt="Diagram of the Zones of Thought showing layers from Unthinking Depths to Transcend" data-glightbox>
   <figcaption>The galaxy is divided into concentric layers: the Unthinking Depths suppress sentience, the Slow Zone limits advanced technology, the Beyond enables interstellar commerce, and the Transcend hosts godlike Powers.</figcaption>
 </figure>
 
