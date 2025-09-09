@@ -16,7 +16,7 @@ updated: 2025-08-15
 
 The diagram below illustrates how documentation moves from contributors through the build pipeline to public users.
 
-![Documentation flows from developers and their repository through CI to a static site that is hosted for public users.](threat-model.svg)
+![Documentation flows from developers and their repository through CI to a static site that is hosted for public users, showing trust boundaries and the direction of data flow.](threat-model.svg)
 
 *Flow of documentation from developers to users via CI and hosting.*
 
@@ -36,6 +36,15 @@ The diagram below illustrates how documentation moves from contributors through 
 | Script injection | High | Low | 🟥 High | <ul><li>Restrict permissions</li><li>Validate deps</li></ul> | Mitigated |
 | Credential leak | High | Low | 🟥 High | <ul><li>Scan for secrets</li><li>Rotate credentials</li></ul> | Mitigated |
 **Severity legend:**
+
+<svg aria-label="Severity color legend showing Low, Medium, and High" role="img" width="240" height="20">
+  <rect x="0" y="0" width="20" height="20" fill="#2ecc71" />
+  <text x="25" y="15" font-size="14">Low</text>
+  <rect x="80" y="0" width="20" height="20" fill="#f39c12" />
+  <text x="105" y="15" font-size="14">Medium</text>
+  <rect x="160" y="0" width="20" height="20" fill="#e74c3c" />
+  <text x="185" y="15" font-size="14">High</text>
+</svg>
 
 - 🟩 Low
 - 🟧 Medium
