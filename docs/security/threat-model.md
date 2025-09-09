@@ -33,13 +33,16 @@ The diagram below illustrates how documentation moves from contributors through 
 | Threat | Impact | Likelihood | Severity | Mitigation | Status |
 |--------|--------|------------|----------|------------|--------|
 | Unauthorized doc changes or defacement | Medium | Medium | 🟧 Medium | Version control and review | Monitored |
-| Script injection | High | Low | 🟥 High | <ul><li>Restrict permissions</li><li>Validate deps</li></ul> | Mitigated |
-| Credential leak | High | Low | 🟥 High | <ul><li>Scan for secrets</li><li>Rotate credentials</li></ul> | Mitigated |
-**Severity legend:**
+| Script injection | High | Low | 🟥 High | - Restrict permissions<br>- Validate deps | Mitigated |
+| Credential leak | High | Low | 🟥 High | - Scan for secrets<br>- Rotate credentials | Mitigated |
 
-- 🟩 Low
-- 🟧 Medium
-- 🟥 High
+**Severity legend**
+
+| Symbol | Severity |
+|--------|----------|
+| 🟩 | Low |
+| 🟧 | Medium |
+| 🟥 | High |
 
 ### Verification Steps
 
