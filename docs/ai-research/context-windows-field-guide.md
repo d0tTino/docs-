@@ -39,9 +39,9 @@ KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes
 The underlying data in [context-windows-design-matrix.md](context-windows-design-matrix.md) maps each bar to a model and sequence length, helping you read exact memory requirements from the chart.
 {{ read_file('docs/ai-research/context-windows-design-matrix.html') }}
 
-![Context windows design matrix](context-windows-design-matrix.svg)
+![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from context-windows-design-matrix.md](context-windows-design-matrix.svg)
 
-
+[Interactive table](context-windows-design-matrix.html). Regenerate the SVG and HTML with `scripts/context-windows-design-matrix.py`.
 A single 16 k-token request therefore uses over 40 GiB of memory[^3].  Activation memory (intermediate activations needed for backpropagation) also scales with sequence length.  Training long contexts often requires gradient accumulation, checkpointing, recomputation or reversible layers to manage memory[^4].  During inference, memory fragmentation and scheduler constraints further limit the usable window.  Hardware improvements (larger VRAM, faster memory bandwidth) and algorithmic innovations (FlashAttention, PagedAttention) are critical to make long context practical.
 
 ## 2 Landscape of context sizes in 2025

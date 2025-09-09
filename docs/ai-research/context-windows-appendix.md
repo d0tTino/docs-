@@ -100,7 +100,7 @@ For each position *p* in {1 k, 4 k, 16 k, 64 k, …}, embed a retrieval
 
 The table in [context-windows-design-matrix.md](context-windows-design-matrix.md) lists the main families of methods (positional scaling, efficient attention, streaming/compressive, distributed full attention, external memory, system-level optimisations) along with their complexity, typical effective length, advantages and caveats. Use this matrix to compare techniques and decide which to apply in your project. The figure below is also featured in the [Context Windows Field Guide](context-windows-field-guide.md) and examined in depth in the [Context Windows Deep Dive](context-windows-deep-dive.md).
 
-![Context windows design matrix](context-windows-design-matrix.svg)
+![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from context-windows-design-matrix.md](context-windows-design-matrix.svg)
 
 ## See also
 
