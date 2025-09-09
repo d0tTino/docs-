@@ -22,18 +22,8 @@ The matrix compares long-context techniques across complexity, maximum effective
 | kNN-LM / RETRO / RAG | Retriever-dependent | Unbounded | Decouples knowledge from window; excels at factual recall | Requires external memory and retriever; alignment complexity |
 | FlashAttention / PagedAttention / vLLM | Quadratic but IO-optimised | Hardware-dependent | Makes long context feasible by reducing memory bandwidth; essential for serving | Kernel/serving stack changes required; does not change algorithmic scaling |
 
-## Regeneration
+## Appendix
 
-Install the required packages:
+### Regeneration
 
-```bash
-pip install plotly kaleido
-```
-
-Then regenerate the chart and interactive table:
-
-```bash
-python docs/ai-research/context-windows-design-matrix.py
-```
-
-The script writes an updated [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg) and a companion HTML table in the same directory.
+Use [context-windows-design-matrix.py](context-windows-design-matrix.py) to regenerate the chart and interactive table. Requires `plotly` and `kaleido`. The script writes an updated [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg) and a companion HTML table in the same directory.
