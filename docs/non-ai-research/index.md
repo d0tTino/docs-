@@ -50,4 +50,4 @@ Interdisciplinary explorations across science, philosophy, and culture.
 - [Neuropsychology of Fandom Affinity](neuropsychology-of-fandom-affinity.md) links identity to the [Culture Project](../culture-project/index.md).
 - [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md) outlines expressive digital painting techniques.
 - [Internal Parts and Subpersonalities](internal-parts-and-subpersonalities.md) maps parts-based psychotherapies alongside [Jungian Psyche Analysis](jungian-psyche-analysis.md).
-
+- [Emotion Dysregulation in Adult ADHD](emotion-dysregulation-adult-adhd.md) examines the relational impact of emotion regulation deficits and ADHD-focused interventions.
