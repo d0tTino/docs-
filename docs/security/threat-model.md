@@ -30,11 +30,11 @@ The diagram below illustrates how documentation moves from contributors through 
 
 ## Potential Threats
 
-| Threat                                          | Impact | Likelihood | Severity | Mitigation                                             | Status    |
-|-------------------------------------------------|--------|------------|----------|---------------------------------------------------------|-----------|
-| Unauthorized modification or defacement of docs | Medium | Medium     | 🟧 Medium | Use version control; require code review to gate changes| Monitored |
-| Malicious code injection in scripts             | High   | Low        | 🟥 High   | Restrict script permissions; validate dependencies      | Mitigated |
-| Leakage of credentials or sensitive data        | High   | Low        | 🟥 High   | Scan commits for secrets; rotate credentials regularly  | Mitigated |
+| Threat | Impact | Likelihood | Severity | Mitigation | Status |
+|--------|--------|------------|----------|------------|--------|
+| Unauthorized doc changes or defacement | Medium | Medium | 🟧 Medium | Version control and review | Monitored |
+| Script injection | High | Low | 🟥 High | <ul><li>Restrict permissions</li><li>Validate deps</li></ul> | Mitigated |
+| Credential leak | High | Low | 🟥 High | <ul><li>Scan for secrets</li><li>Rotate credentials</li></ul> | Mitigated |
 **Severity legend:**
 
 - 🟩 Low
