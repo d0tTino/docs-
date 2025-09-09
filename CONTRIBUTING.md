@@ -30,7 +30,18 @@ docs(quickstart): add Git LFS instructions
 
 - Each Markdown file must begin with front matter containing `title`, `tags`, `project`, and `updated` fields.
 - Reuse common content with snippets using `--8<-- "path/to/snippet.md"` syntax.
-- All images require descriptive alt text to aid accessibility.
+
+### Images & Diagrams
+
+Provide descriptive alt text for every image to ensure accessibility. To enable
+lightbox viewing, add a `{data-glightbox}` attribute to the image element:
+
+```markdown
+![Alt text](img/example.png){data-glightbox}
+```
+
+When charts or diagrams need updating, refresh them by rerunning their source
+scripts so visuals stay current, e.g., `scripts/kv_capacity.py`.
 
 ## Running pre-commit locally
 
