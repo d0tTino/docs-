@@ -20,5 +20,7 @@ This section collects deliverables for the project "From Mirror to Feed: A Compr
 - [Influence Map](influence_map.md): Visualizes conceptual relationships among thinkers and ideas surrounding the gaze.
 - [BibTeX References](gaze_references.bib): Supplies machine-readable citations for further research.
 
-![Diagram showing theoretical influence among Lacan, Foucault, Mulvey, hooks, and the algorithmic gaze](img/influence-map.svg)
+Together, these materials trace the evolution of gaze theory from psychoanalytic and feminist foundations to contemporary algorithmic perspectives.
+
+![Influence map linking Jacques Lacan, Michel Foucault, Laura Mulvey, and bell hooks to the algorithmic gaze](img/influence-map.svg)
 

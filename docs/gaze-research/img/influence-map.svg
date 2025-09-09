@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
+  <title>Influence map linking Jacques Lacan, Michel Foucault, Laura Mulvey, and bell hooks to the algorithmic gaze</title>
+  <desc>Diagram showing theoretical influence from Lacan to Foucault to Mulvey to hooks culminating in the algorithmic gaze.</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
