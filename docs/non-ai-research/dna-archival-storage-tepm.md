@@ -36,6 +36,10 @@ $/base, $/Gb) and performance metrics derived from technical literature, vendor 
 
 The model decomposes the end-to-end process into the following distinct stages, each with its own cost, latency, and error model:
 
+![Flowchart showing data path from Encode to Synthesize to Preserve to Retrieve to Sequence to Decode](fig/TEPM_Fig5_Data_Path.svg)
+
+*Figure: Data flow through the six stages of the DNA data storage pipeline.*
+
 1. **Encode:** User data is segmented into logical chunks. Each chunk is encoded to add logical redundancy via an Error-Correcting Code (ECC) and an address for later retrieval. The resulting binary sequence is then mapped to a DNA base sequence (A, C, G, T), respecting biochemical constraints (e.g., GC content, homopolymer limits).
 2. **Synthesize (Write):** The encoded DNA sequences are physically manufactured as short single-stranded DNA molecules, known as oligonucleotides (oligos). This is the primary cost driver and throughput bottleneck of the entire workflow and introduces synthesis errors (substitutions, insertions, deletions).
 3. **Preserve:** The pool of synthesized oligos is stored for a specified duration. This stage models the physical decay of DNA molecules over time, which is dependent on the preservation medium and storage conditions.
