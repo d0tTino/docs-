@@ -94,9 +94,11 @@ To better understand how sequence length and model size impact memory usage, we 
 
 \[\text{KV\_memory\_bytes} = 2 \times L \times H \times d \times \text{seq\_len} \times \text{dtypeBytes}.\]
 
-The accompanying chart (Figure 1) shows memory requirements (GiB) for Llama‑7B, Llama‑13B and Llama‑70B models at 4 k, 8 k, 32 k, 128 k and 512 k token windows when using fp16 precision.  As sequence length increases, memory consumption grows rapidly, particularly for large models.  For example, a single 128 k request on Llama‑70B requires about 320 GiB just for the KV cache.  Such calculations illustrate why scaling beyond 32 k–64 k tokens demands careful resource planning.
+The accompanying chart (see Figure 1) shows memory requirements (GiB) for Llama‑7B, Llama‑13B and Llama‑70B models at 4 k, 8 k, 32 k, 128 k and 512 k token windows when using fp16 precision.  As sequence length increases, memory consumption grows rapidly, particularly for large models.  For example, a single 128 k request on Llama‑70B requires about 320 GiB just for the KV cache.  Such calculations illustrate why scaling beyond 32 k–64 k tokens demands careful resource planning.
 
-{{ read_file('docs/ai-research/kv-cache-chart.html') }}
+![Bar chart showing token count on the x-axis and KV cache memory (GiB) on the y-axis for Llama-7B, Llama-13B and Llama-70B models. Memory usage increases almost linearly, so larger models and longer sequences demand substantially more capacity.](kv-cache-chart.svg)
+
+*Figure 1: KV cache memory requirements for Llama‑7B, Llama‑13B and Llama‑70B across increasing token windows.*
 
 You can run `kv_capacity.py` (provided in this repository) to compute custom tables or generate updated plots for your hardware and models.  Use `python kv_capacity.py --plot --output <filename>` to save a PNG.
 
