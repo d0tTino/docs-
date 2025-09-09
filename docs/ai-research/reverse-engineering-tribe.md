@@ -9,6 +9,8 @@ updated: 2025-08-14
 
 # Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)
 
+{{ toc }}
+
 1.0 Executive Summary
 1.1 Project Mandate and Findings
 This Reverse-Engineering Design Report (REDR) provides a comprehensive technical and legal analysis
@@ -32,10 +34,10 @@ The re-implementation of a functionally equivalent system is assessed as highly 
 conclusion is based on several key factors. First, the core algorithms and architectural principles
 are identifiable from the repository's structure and dependencies. Second, and most critically, the
 primary data source for training and validation, the CNeuroMod dataset, is distributed under a
-Creative Commons CC0 license, effectively placing it in the public domain and removing all data-
-related licensing barriers. While the original system was developed in a specialized High-
-Performance Computing (HPC) environment, its components can be adapted to run on standard cloud
-computing infrastructure. The primary challenges are not technical but legal, relating to the
+Creative Commons CC0 license, effectively placing it in the public domain and removing all
+data-related licensing barriers. While the original system was developed in a specialized
+High-Performance Computing (HPC) environment, its components can be adapted to run on standard
+cloud computing infrastructure. The primary challenges are not technical but legal, relating to the
 licensing of specific software dependencies, for which clear mitigation paths have been identified.
 
 1.3 Synopsis of Critical Risks and Mitigation
@@ -344,9 +346,14 @@ graph TD
 
 5.0 Detailed Findings: Deconstruction of the TRIBE System
 5.1 Codebase Architecture and Modularity
-A static analysis of the repository's file structure reveals a well-organized and modular design, consistent with modern Python software engineering practices in a research context. The project is not a monolithic script but is broken down into three distinct, installable Python packages:
+A static analysis of the repository's file structure reveals a well-organized and modular design,
+consistent with modern Python software engineering practices in a research context. The project is
+not a monolithic script but is broken into three distinct, installable Python packages:
 
-algonauts2025, data_utils, and modeling_utils. The README.md instructs the user to install data_utils and modeling_utils as editable packages using pip install -e.. This approach promotes a clear separation of concerns, which is highly advantageous for reverse-engineering and subsequent re-implementation.
+algonauts2025, data_utils, and modeling_utils. The README.md instructs the user to install data_utils
+and modeling_utils as editable packages using pip install -e.. This approach promotes a clear
+separation of concerns, which is highly advantageous for reverse-engineering and subsequent
+re-implementation.
 
 data_utils: This package is logically responsible for all data ingestion, parsing, and preprocessing tasks. Its purpose is to transform the raw data from the Algonauts challenge—.mkv video files, .tsv transcripts, and fMRI data —into numerical tensors suitable for consumption by a PyTorch model. Its
 
