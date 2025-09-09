@@ -14,6 +14,10 @@ updated: 2025-08-09
 
 Language models have undergone a rapid expansion in **context window** sizes over the past few years. While early models like GPT‑3 processed only 2 k–4 k tokens, state‑of‑the‑art models in mid‑2025 claim to handle hundreds of thousands or even millions of tokens[^1][^2]. Larger contexts unlock new capabilities: summarising entire codebases, analysing multiple documents, preserving conversational state over long dialogues and performing multi‑step reasoning across disparate passages. However, the path from nominal context length to *effective* context is fraught with practical constraints.
 
+![Chart showing KV cache memory growth with longer context windows.](kv-cache-chart.svg)
+
+*Figure: KV cache memory growth as context windows expand.*
+
 This deep dive explains **why models have different context sizes**, explores the **limitations** imposed by memory, compute and positional encodings, and surveys the **techniques** that push LLMs toward effectively infinite context. We provide formulas and capacity planners, summarise model context sizes, outline evaluation benchmarks and propose a multi‑tier architecture for exploiting long contexts responsibly. This document complements the existing *Context Windows Field Guide*, offering additional depth, background and actionable guidance.
 ## Key Takeaways
 
