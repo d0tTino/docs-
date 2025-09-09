@@ -34,7 +34,9 @@ The entire psychic system—Consciousness, the Personal Unconscious, and the Col
 
 Dynamic processes connect these structures. Repression is the mechanism by which the Ego pushes unwanted content into the Shadow. Projection is the process by which the contents of the Shadow are unconsciously externalized and perceived in other people. The process of Individuation is the lifelong journey of integrating these disparate parts, bringing the contents of the Shadow into relationship with the Ego, and shifting the center of the personality from the Ego to the Self. This diagrammatic representation clarifies that the psyche, in Jung's view, is not a static entity but a living system of interacting, often conflicting, components striving for balance and wholeness.
 
-![Diagram of Jungian psyche layers including Persona, Ego, Shadow, Self, and the Unconscious](fig/jungian-psyche-layers.svg)
+The diagram maps these concepts into concentric layers, placing the white Ego core inside a gray Shadow wedge, nested within the lavender Unconscious, encompassed by the light-blue Self, and encircled by the gold Persona boundary.
+
+![Color-coded diagram of Jungian psyche with gold Persona ring, light blue Self, lavender Unconscious containing a gray Shadow wedge, and white Ego core](fig/jungian-psyche-layers.svg "Color-coded hierarchy: gold Persona ring encircles blue Self, lavender Unconscious with gray Shadow, and white Ego center")
 
 Part II: An Annotated Glossary of the Jungian Psyche
 This section provides a more exhaustive, referenced exploration of the core concepts, grounding them firmly in Jung's Collected Works and reputable Jungian scholarship. Each entry details the term's definition, its relationship to other psychic structures, and the risks associated with its misunderstanding or mismanagement.

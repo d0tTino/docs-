@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
   <title id="title">Jungian Psyche Layers</title>
-  <desc id="desc">Diagram of Persona, Ego, Shadow, Self, and Unconscious layers</desc>
+  <desc id="desc">Color-coded concentric layers show a gold Persona ring, light blue Self, lavender Unconscious with gray Shadow wedge, and white Ego center</desc>
   <defs>
     <style>
       text { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; }
