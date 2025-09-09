@@ -14,7 +14,6 @@ This collection surveys productivity methods, corporate dynamics, and interdisci
 {{ toc }}
 
 ## Productivity
-{{ toc }}
 
 Short, actionable approaches for personal efficiency and time management.
 
@@ -22,7 +21,6 @@ Short, actionable approaches for personal efficiency and time management.
 - [Add Hours to Your Day? Debunking Productivity Frameworks](add-hours-to-your-day.md) with insights from [Productivity](../productivity/index.md) and [Terminal Workflow](../terminal-workflow/index.md).
 
 ## Corporate Studies
-{{ toc }}
 
 Insights into organizational behavior, power, and corporate evolution.
 
@@ -32,7 +30,6 @@ Insights into organizational behavior, power, and corporate evolution.
 - [The Metaorganism](metaorganism.md) explores organizational evolution alongside [The Corporate Egregore](corporate-egregore.md).
 
 ## General Research
-{{ toc }}
 
 Interdisciplinary explorations across science, philosophy, and culture.
 
