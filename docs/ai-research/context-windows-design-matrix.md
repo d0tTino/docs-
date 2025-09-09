@@ -9,7 +9,7 @@ updated: 2025-08-15
 
 # Context Windows Design Matrix
 
-![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis](context-windows-design-matrix.svg)
+![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from the table below](context-windows-design-matrix.svg)
 
 The matrix compares long-context techniques across complexity, maximum effective length, advantages, and caveats. Each row represents a strategy for extending transformer context windows, enabling quick trade-off evaluations.
 
@@ -26,9 +26,5 @@ The matrix compares long-context techniques across complexity, maximum effective
 
 ### Regeneration
 
-Use [context-windows-design-matrix.py](context-windows-design-matrix.py) to regenerate the chart and interactive table. Requires `plotly` and `kaleido`. When the underlying data changes, regenerate both the [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg) and its companion HTML table to keep them synchronized.
+Use `scripts/context-windows-design-matrix.py` to regenerate the chart and interactive table. Requires `plotly` and `kaleido`. The script writes an updated [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg) and a companion HTML table in the same directory.
 
-```bash
-python -m pip install plotly kaleido            # install dependencies
-python context-windows-design-matrix.py         # update SVG and HTML when data changes
-```
