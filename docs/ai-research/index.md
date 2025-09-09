@@ -9,6 +9,8 @@ updated: 2025-09-02
 
 This index collects documents exploring context windows, reverse engineering, and strategic planning.
 
+![KV cache chart](kv-cache-chart.svg)
+
 {{ toc }}
 
 ## Context Windows
