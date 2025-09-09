@@ -32,9 +32,9 @@ For a transformer with **L** layers, **H** heads and head dimension **d**, stori
 KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes
 ```
 
-![KV cache size vs. tokens](kv-cache-chart.png)
+![KV cache size vs. tokens](kv-cache-chart.svg)
 
-*Figure 1: KV cache size grows roughly linearly with model scale and token count.*
+*Figure 1: Near-linear KV cache scaling with model size and token count.*
 
 The underlying data in [context-windows-design-matrix.md](context-windows-design-matrix.md) maps each bar to a model and sequence length, helping you read exact memory requirements from the chart.
 {{ read_file('docs/ai-research/context-windows-design-matrix.html') }}
