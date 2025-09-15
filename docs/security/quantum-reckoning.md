@@ -282,6 +282,30 @@ Ultimately, PQC and QKD are not direct competitors but are better viewed as comp
 | Maturity | Standardized. NIST has finalized initial standards for broad deployment. | Niche. Commercially available but limited to specialized, high-security applications. |
 | Key Limitation | Algorithmic Risk. A future breakthrough could break the underlying math problem. | Physical Constraints. Limited by distance, infrastructure, and implementation vulnerabilities. |
 
+### 4.4 PQC Schemes and Implementation Tips
+Post-quantum cryptography is built on diverse mathematical foundations. The most prominent scheme families include:
+
+- **Lattice-Based:** Powers ML-KEM (Kyber) and ML-DSA (Dilithium); offers efficient performance and moderate key sizes.
+- **Code-Based:** Exemplified by Classic McEliece or HQC; features large public keys but decades of cryptanalysis.
+- **Multivariate Polynomial:** Includes algorithms like Rainbow; compact keys but currently out of favor due to security concerns.
+- **Hash-Based:** Schemes such as SLH-DSA (SPHINCS+) rely solely on hash functions and provide conservative security.
+- **Isogeny-Based:** Uses elliptic-curve isogenies for small key sizes, though recent attacks have limited confidence.
+
+#### Implementation Tips
+
+- Inventory existing cryptography and prioritize systems needing long-term protection.
+- Build crypto-agility into applications to allow seamless algorithm swaps.
+- Benchmark PQC libraries to understand performance and bandwidth impacts.
+- Consider hybrid modes that combine classical and PQC algorithms during migration.
+- Monitor the NIST process and vendor updates for evolving best practices.
+
+#### Further Reading
+
+- [NIST Post-Quantum Cryptography Project](https://csrc.nist.gov/projects/post-quantum-cryptography)
+- [Open Quantum Safe Library](https://openquantumsafe.org)
+- [ENISA Post-Quantum Cryptography Study](https://www.enisa.europa.eu/publications/post-quantum-cryptography)
+- [PQC Transition Considerations](https://csrc.nist.gov/publications/detail/white-paper/2023/09/25/pqc-transition-considerations/final)
+
 ## Section V: The Impact on Decentralized Systems: Blockchain and Cryptocurrencies
 Blockchain technologies, which form the foundation of cryptocurrencies like Bitcoin and Ethereum, are uniquely vulnerable to the quantum threat. Their security model relies heavily on the same public-key cryptography that Shor's algorithm is designed to break, and their decentralized, immutable nature makes upgrading the underlying cryptographic primitives a formidable challenge.
 
