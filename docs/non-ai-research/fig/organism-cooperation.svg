@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  <circle cx="80" cy="75" r="40" fill="#c6e2ff" stroke="#333" />
+  <circle cx="220" cy="75" r="40" fill="#c6ffd5" stroke="#333" />
+  <text x="80" y="80" text-anchor="middle" font-size="12">Organism A</text>
+  <text x="220" y="80" text-anchor="middle" font-size="12">Organism B</text>
+  <line x1="120" y1="75" x2="180" y2="75" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="180" y1="85" x2="120" y2="85" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+</svg>
