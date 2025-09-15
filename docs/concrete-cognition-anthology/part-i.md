@@ -14,6 +14,8 @@ This foundational part of the report establishes the theoretical and empirical b
 
 ### Section 1: Defining the Spectrum: From Borderline Intellectual Functioning to Mild Intellectual Disability
 
+This section surveys how IQ bands translate into diagnostic labels and shape daily support needs.
+
 #### 1.1. Psychometric Boundaries and Diagnostic Nuances
 
 The population under investigation occupies a specific segment of the intellectual continuum defined by standardized intelligence tests. An IQ score of 100 represents the population mean, with approximately 68% of individuals scoring between 85 and 115. This study focuses on adults scoring at or below one standard deviation from the mean, a range that includes several classifications: "Low Average" (IQ 80-89), "Borderline" (IQ 70-79), and "Mild Intellectual Disability" (IQ approximately 55-69).
@@ -35,6 +37,8 @@ However, it is crucial to frame these external factors not as the cause of the c
 ![Cognitive load diagram](../img/working-memory-chart-2.svg)
 
 ### Section 2: The Machinery of Mind: The Centrality of Working Memory
+
+Here we unpack working memory's role as the core bottleneck constraining learning and everyday functioning.
 
 #### 2.1. Working Memory as the Primary Bottleneck
 
@@ -62,6 +66,8 @@ In this study, working memory was assessed using a combination of standardized a
 To supplement the WAIS-IV, participants also completed a computerized n-back task. This is a continuous performance task where participants must indicate if a current stimulus matches the one presented 'n' trials previously. The n-back is considered a strong measure of the active component of WM, as it requires not just storage but the constant updating of information in the mental workspace. While valuable, it is important to acknowledge the limitations of these psychometric tools. Research has shown that performance on the n-back task has surprisingly weak correlations with other standard WM assessments and may rely more on familiarity and recognition processes than on active recall. Furthermore, one study found that n-back performance was not significantly related to rater-based measures of real-world executive functioning, such as the Behavior Rating Inventory of Executive Function (BRIEF-WM). This highlights the critical need to triangulate lab-based cognitive scores with qualitative, real-world observations.
 
 ### Section 3: The Architecture of Reasoning: Navigating a World of Abstractions
+
+This section explores how reliance on concrete thought hinders abstract reasoning and planning in real-world contexts.
 
 #### 3.1. The Concrete Operational Mind
 
