@@ -2,7 +2,7 @@
 title: "End-to-End Wise Payouts with Idempotency Keys"
 tags: [finance, payouts]
 project: docs-hub
-updated: 2025-07-30
+updated: 2025-09-15
 ---
 
 --8<-- "_snippets/disclaimer.md"
@@ -203,6 +203,46 @@ Location: Within the JSON payload of a POST /v1/transfers request.
 Format: The value must be a universally unique identifier (UUID), provided as a string.8
 Behavior: When a transfer creation request is received, Wise checks for the existence of the customerTransactionId. If a transfer with the same ID has already been processed, Wise will not create a new one. Instead, it will return the status of the original transfer, effectively de-duplicating the request.8
 This design choice has a significant architectural implication. Because the key is part of the request body, idempotency logic cannot be easily abstracted away into generic API gateway middleware that only inspects headers. The application logic responsible for constructing the transfer payload must also be responsible for generating, storing, and retrieving the customerTransactionId. This tightly couples the idempotency mechanism with the business logic of the transfer itself, which can be advantageous for auditing and logging as the key is stored alongside the transaction data it protects.
+
+#### 2.2.1 API Example and Duplicate Handling
+
+```bash
+# First attempt with a unique customerTransactionId
+curl -X POST "https://api.sandbox.transferwise.tech/v1/transfers" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -d '{
+    "targetAccount": 123456789,
+    "quoteUuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "customerTransactionId": "550e8400-e29b-41d4-a716-446655440000",
+    "details": { "reference": "Invoice 9876" }
+  }'
+
+# Response: 201 Created
+# { "id": 67890, "status": "processing" }
+
+# Duplicate attempt with the same customerTransactionId
+curl -X POST "https://api.sandbox.transferwise.tech/v1/transfers" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -d '{
+    "targetAccount": 123456789,
+    "quoteUuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "customerTransactionId": "550e8400-e29b-41d4-a716-446655440000",
+    "details": { "reference": "Invoice 9876" }
+  }'
+
+# Response: 409 Conflict
+# {
+#   "errorCode": "DUPLICATE",
+#   "id": 67890,
+#   "message": "Transfer with customerTransactionId already exists"
+# }
+```
+
+The flow diagram below illustrates this idempotent request cycle:
+
+![Idempotent request cycle](img/wise-payouts-idempotency-cycle.svg)
 
 ### 2.3 Generating Idempotency Keys: A Practical Guide
 
