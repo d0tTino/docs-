@@ -179,7 +179,7 @@ Interacting with the world via a fursona dramatically reduces the cognitive and 
 
 The shared symbolic language and context of fursonas helps to bridge the Double Empathy Problem. It creates a common, mutually understood framework for interaction that does not rely on the implicit, and often confusing, rules of neurotypical society. Participants can therefore coordinate expectations without guessing at hidden social scripts.
 
-The very act of creating art that depicts one's fursona is an exercise in monotropic or hyperfocused engagement. It is a deeply regulating and intrinsically rewarding activity that simultaneously serves the crucial functions of identity expression and social communication, allowing one to "show" who they are in a rich, detailed, and non-verbal format.[^9] Sharing that artwork further reinforces identity signals within the community.
+The very act of creating art that depicts one's fursona is an exercise in monotropic or hyperfocused engagement. It is a deeply regulating and intrinsically rewarding activity that simultaneously serves the crucial functions of identity expression and social communication, allowing one to "show" who they are in a rich, detailed, and non-verbal format.[^9][^10] Sharing that artwork further reinforces identity signals within the community.
 
 ### Section 6: Optimal Distinctiveness and the Architecture of Belonging
 This section uses Optimal Distinctiveness Theory to explain how the furry fandom satisfies the dual needs for belonging and uniqueness that generate strong group identification.
@@ -216,6 +216,128 @@ It is imperative to adopt a neuro-affirming and culturally competent perspective
 
 This analysis highlights several promising avenues for future research. Longitudinal studies are needed to track the long-term impact of fandom participation on the mental health, social skills, and well-being of neurodivergent individuals. Neuroimaging studies, particularly those using fMRI, could directly test the "gaze aversion" hypothesis by comparing amygdala and social brain network activation in response to human faces versus anthropomorphic faces in autistic and socially anxious populations. Further qualitative research can continue to explore the lived experience of self-expansion and identity formation through the fursona, providing richer data to inform both theory and clinical practice.
 
+
+## Sources Used in the Report
+
+### Monotropism & Attention Styles
+
+- Monotropism and The Monotropism Questionnaire - Neurodiverse Connection[^11]
+- Monotropism Resources and Signposting | Autistic Realms[^12]
+- Monotropism = Happy Flow State | Autistic Realms[^13]
+- Monotropism - Therapist Neurodiversity Collective[^14]
+- Monotropism - Stimpunks Foundation[^15]
+- Special Interest - Stimpunks Foundation[^16]
+- Autism Monotropism: Understanding Focus and Attention[^17]
+- Me and Monotropism: A unified theory of autism | British Psychological Society[^18]
+- Monotropism - Wikipedia[^19]
+- Autism: The benefits of Monotropism and Flow States and its applications for the classroom[^20]
+- Monotropism, hyperfocus & ND - MindMate[^21]
+- Understanding Monotropism and Autism: A Unique Perspective | Sachs Center[^22]
+- Leaning into Monotropism: Building a Schedule/Routine : r/AutisticAdults[^23]
+- What Is Monotropism? | Psychology Today[^24]
+
+### ADHD & Hyperfocus
+
+- ADHD Hyperfocus: Symptoms, Causes & How To Manage It - MEDvidi[^25]
+- Hyperfocus: The ADHD Phenomenon of Hyper Fixation - ADDitude[^26]
+- Flow State vs. Hyperfocus: Understanding Your ADHD Attention[^27]
+- What Is Hyperfocus and How Does It Affect People with ADHD? - Healthline[^28]
+- Bringing Hyperfocus into Research Focus - Cognitive Neuroscience Society[^29]
+- (PDF) Evaluating Dopamine Reward Pathway in ADHD Clinical ...[^30]
+- Motivation deficit in ADHD is associated with dysfunction of the dopamine reward pathway[^31]
+- Hyperfocus symptom and internet addiction in individuals with attention-deficit/hyperactivity disorder trait - Frontiers[^32]
+- The Parallels of Monotropism and Hyperfocus - ADHDworking[^33]
+- Hyperfocus or flow? Attentional strengths in autism spectrum ...[^34]
+- Attention deficit hyperactivity disorder - Wikipedia[^35]
+
+### Double Empathy & Neurodiversity Frameworks
+
+- Neuro-affirmative support for autism, the Double Empathy Problem ...[^36]
+- The double empathy problem and the problem of ...[^37]
+- The 'double empathy problem': ten years on[^38]
+- Double Empathy Problem - Autism Society of Minnesota[^39]
+
+### Social Perception, Eye Contact & Social Anxiety
+
+- Eye contact affects attention more than arousal as revealed by prospective time estimation[^40]
+- The effect of constraining eye-contact during dynamic emotional face perception—an fMRI study[^41]
+- Mechanisms of diminished attention to eyes in autism[^42]
+- Eye Gaze in Autism Spectrum Disorder: A Review of Neural ...[^43]
+- Bumetanide for autism: more eye contact, less amygdala activation[^44]
+- Elevated amygdala response to faces and gaze aversion in autism spectrum disorder | Social Cognitive and Affective Neuroscience[^45]
+- Neural circuitry of submissive behavior in social anxiety disorder: a ...[^46]
+- How Social Anxiety Affects the Brain: Insights from Eye-Tracking Studies[^47]
+- Association between amygdala response to emotional faces and social anxiety in autism spectrum disorders[^48]
+- Fear and avoidance of eye contact in social anxiety disorder[^49]
+- The Role of the Amygdala in Atypical Gaze on Emotional Faces in Autism Spectrum Disorders[^50]
+- Anxiety and social deficits have distinct relationships with amygdala function in autism spectrum disorder[^51]
+- Neural Correlates of Eye Contact and Social Function in Autism Spectrum Disorder[^52]
+- Increased Eye Contact During Conversation Compared to Play in Children With Autism[^53]
+- Affective Eye Contact: An Integrative Review[^54]
+
+### Camouflaging & Masking
+
+- Camouflaging in Autism May Not Drive Mental Health Problems - Simply Psychology[^55]
+- Autistic masking - Wikipedia[^56]
+- Camouflaging Autistic Traits Questionnaire (CAT-Q) - NovoPsych[^57]
+- Camouflaging Autistic Traits Questionnaire (CAT-Q): Gender-Specific Norms, Percentile Rankings, and - NovoPsych[^58]
+- The Camouflaging Autistic Traits Questionnaire (CAT-Q) | Embrace Autism[^59]
+- Interpreting your CAT-Q scores - Embrace Autism[^60]
+- Camouflaging Autistic Traits Questionnaire (CAT-Q)[^61]
+- Adult Autism and Masking: The Mental Health Toll of Camouflaging[^62]
+- Autistic Adults' Experiences of Camouflaging and Its Perceived ...[^63]
+- A meta-ethnography of autistic people's experiences of social ...[^64]
+- The relationship between camouflaging and mental health: Are there differences among subgroups in autistic adults?[^65]
+- A systematic review and meta-analysis of mental health outcomes associated with camouflaging in autistic people - Pure[^66]
+- The Associations Between Camouflaging, Autistic Traits, and Mental Health in Nonautistic Adults[^67]
+- Camouflage and masking behavior in adult autism - Frontiers[^68]
+- Development and Validation of the Camouflaging Autistic Traits ...[^69]
+
+### Co-Regulation & Interpersonal Support
+
+- Co-Regulation of the Autonomic Nervous System - Trauma Therapist Institute[^70]
+- Co-Regulation: The Physiology of Trust - I-ASC[^71]
+- Distinguishing Emotional Co-Regulation From Co-Dysregulation: An Investigation of Emotional Dynamics and Body-Weight in Romantic Couples[^72]
+- Co-regulation - Wikipedia[^73]
+- Co-Regulation From Birth Through Young Adulthood: A Practice Brief[^74]
+- Rocking and Rolling—It Takes Two: The Role of Co-Regulation in Building Self-Regulation Skills | NAEYC[^75]
+- The Role of Co-Regulation for the development of social-emotional competence[^76]
+- The worse we feel, the more intensively we need to stick together: a ...[^77]
+- Co-Regulation from Birth through Young Adulthood - YouTube[^78]
+- Nonverbal Interpersonal Interactions in Clinical Encounters and Patient Perceptions of Empathy - Journal of Participatory Medicine[^79]
+- A systematic review of the role of teachers' support in promoting socially shared regulatory strategies for learning[^80]
+- The Importance of Early Experiences for Neuro-affective Development[^81]
+- How to Apologize to Repair Your Relationship - Dr. Angele Close[^82]
+
+### Furry Fandom Research & Community
+
+- Optimal Distinctiveness and Identification with the Furry Fandom[^83]
+- 2.12 Social Interaction - Furscience[^84]
+- 6.3 Furry Identification - Furscience[^85]
+- 3.12 Fursona as Ideal Self - Furscience[^86]
+- 9.3 Inclusion of Other in Self - Furscience[^87]
+- Furscience-A-Decade-of-Psychological-Research-on-the-Furry-Fandom.pdf[^88]
+- Furscience, the real science behind furries and their fandom.[^89]
+- Destigmatization in the Furry Fandom: A Case Study on the X University Self-organization in China - Atlantis Press[^90]
+- Community and Malleable Identity in the Furry Fandom by Selina Tyne Heidinger - MSpace[^91]
+- Seeding the Grassroots of Research on Furries: Lessons Learned from 15 Years of Creative Knowledge Mobilization, Valuing Community Partnerships, and Correcting the Record on Stigmatized Communities with Evidence-Based Scholarship[^92]
+- Publications - Furscience[^93]
+- Raising Neurodiverse Fans - CHADD[^94]
+- Classifying and Characterizing Fandom Activities: A Focus on Superfans' Posting and Commenting Behaviors in a Digital Fandom Community - MDPI[^95]
+
+### Escapism & Identity Work
+
+- Activity Engagement as Escape from Self: The Role of Self-Suppression and Self-Expansion[^96]
+- Self-Escapism Motivation: A Determinant of E-Cart Use and Abandonment[^97]
+- Breaking up with my idol: A qualitative study of the psychological adaptation process of renouncing fanship - Frontiers[^98]
+- Escaping through virtual gaming—what is the association with emotional, social, and mental health? A systematic review[^99]
+
+### Additional Autism & Neurodiversity Research
+
+- Redox Regulation and the Autistic Spectrum ... - Semantic Scholar[^100]
+
+## References
+
 [^1]: Furscience, "Autism in the Fandom: Opportunities, Barriers & Recommendations," https://furscience.com/research-findings/autism-in-the-fandom/ (accessed 2024).
 [^2]: Stephen W. Porges, "The Polyvagal Perspective," Biological Psychology 74, no. 2 (2007): 116–143, https://doi.org/10.1016/j.biopsycho.2006.06.009.
 [^3]: Emily A. Butler and Ashley K. Randall, "Emotional Coregulation in Close Relationships," Emotion Review 5, no. 2 (2013): 202–210, https://doi.org/10.1177/1754073912451630.
@@ -224,123 +346,95 @@ This analysis highlights several promising avenues for future research. Longitud
 [^6]: Frode Stenseng, "The Two Faces of Escapism: Exploring Positive and Negative Mental Health Outcomes of Escapism in Leisure Contexts," Journal of Applied Social Psychology 42, no. 3 (2012): 690–718, https://doi.org/10.1111/j.1559-1816.2012.00970.x.
 [^7]: Stephen Reysen, Courtney N. Plante, Sharon E. Roberts, and Kathleen C. Gerbasi, "The Well-Being Benefits of Belonging to Fan Groups," Journal of Social and Personal Relationships 36, no. 3 (2019): 1–23, https://doi.org/10.1177/0265407517742146.
 [^8]: Furscience, "3.12 Fursona as Ideal Self," https://furscience.com/research-findings/3-12-fursona-as-ideal-self/ (accessed 2024).
-[^9]: Girija Kaimal, Kendra Ray, and Juan Muniz, "Reduction of Cortisol Levels and Participants' Responses Following Art Making," Art Therapy 33, no. 2 (2016): 74–80, https://doi.org/10.1080/07421656.2016.1166832; see also ["Painterly Style in Clip Studio Paint"](painterly-style-clip-studio-paint.md) (accessed 2024).
-
-## Sources Used in the Report
-
-### Monotropism & Attention Styles
-
-- [Monotropism and The Monotropism Questionnaire - Neurodiverse Connection](https://ndconnection.co.uk)
-- [Monotropism Resources and Signposting | Autistic Realms](https://autisticrealms.com)
-- [Monotropism = Happy Flow State | Autistic Realms](https://autisticrealms.com)
-- [Monotropism - Therapist Neurodiversity Collective](https://therapistndc.org)
-- [Monotropism - Stimpunks Foundation](https://stimpunks.org)
-- [Special Interest - Stimpunks Foundation](https://stimpunks.org)
-- [Autism Monotropism: Understanding Focus and Attention](https://www.autismparentingmagazine.com)
-- [Me and Monotropism: A unified theory of autism | British Psychological Society](https://www.bps.org.uk)
-- [Monotropism - Wikipedia](https://en.wikipedia.org/wiki/Monotropism)
-- [Autism: The benefits of Monotropism and Flow States and its applications for the classroom](https://www.bera.ac.uk)
-- [Monotropism, hyperfocus & ND - MindMate](https://www.mindmate.org.uk)
-- [Understanding Monotropism and Autism: A Unique Perspective | Sachs Center](https://sachscenter.com)
-- [Leaning into Monotropism: Building a Schedule/Routine : r/AutisticAdults](https://www.reddit.com)
-- [What Is Monotropism? | Psychology Today](https://www.psychologytoday.com)
-
-### ADHD & Hyperfocus
-
-- [ADHD Hyperfocus: Symptoms, Causes & How To Manage It - MEDvidi](https://medvidi.com)
-- [Hyperfocus: The ADHD Phenomenon of Hyper Fixation - ADDitude](https://www.additudemag.com)
-- [Flow State vs. Hyperfocus: Understanding Your ADHD Attention](https://www.additudemag.com)
-- [What Is Hyperfocus and How Does It Affect People with ADHD? - Healthline](https://www.healthline.com)
-- [Bringing Hyperfocus into Research Focus - Cognitive Neuroscience Society](https://cogneurosociety.org)
-- [(PDF) Evaluating Dopamine Reward Pathway in ADHD Clinical ...](https://www.researchgate.net)
-- [Motivation deficit in ADHD is associated with dysfunction of the dopamine reward pathway](https://escholarship.org)
-- [Hyperfocus symptom and internet addiction in individuals with attention-deficit/hyperactivity disorder trait - Frontiers](https://www.frontiersin.org)
-- [The Parallels of Monotropism and Hyperfocus - ADHDworking](https://adhdworking.co.uk)
-- [Hyperfocus or flow? Attentional strengths in autism spectrum ...](https://pmc.ncbi.nlm.nih.gov)
-- [Attention deficit hyperactivity disorder - Wikipedia](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder)
-
-### Double Empathy & Neurodiversity Frameworks
-
-- [Neuro-affirmative support for autism, the Double Empathy Problem ...](https://pmc.ncbi.nlm.nih.gov)
-- [The double empathy problem and the problem of ...](https://www.tandfonline.com)
-- [The 'double empathy problem': ten years on](https://kar.kent.ac.uk)
-- [Double Empathy Problem - Autism Society of Minnesota](https://ausm.org)
-
-### Social Perception, Eye Contact & Social Anxiety
-
-- [Eye contact affects attention more than arousal as revealed by prospective time estimation](https://www.researchgate.net)
-- [The effect of constraining eye-contact during dynamic emotional face perception—an fMRI study](https://nmr.mgh.harvard.edu)
-- [Mechanisms of diminished attention to eyes in autism](https://pmc.ncbi.nlm.nih.gov)
-- [Eye Gaze in Autism Spectrum Disorder: A Review of Neural ...](https://pmc.ncbi.nlm.nih.gov)
-- [Bumetanide for autism: more eye contact, less amygdala activation](https://pmc.ncbi.nlm.nih.gov)
-- [Elevated amygdala response to faces and gaze aversion in autism spectrum disorder | Social Cognitive and Affective Neuroscience](https://academic.oup.com)
-- [Neural circuitry of submissive behavior in social anxiety disorder: a ...](https://pmc.ncbi.nlm.nih.gov)
-- [How Social Anxiety Affects the Brain: Insights from Eye-Tracking Studies](https://roselandtherapy.com)
-- [Association between amygdala response to emotional faces and social anxiety in autism spectrum disorders](https://pmc.ncbi.nlm.nih.gov)
-- [Fear and avoidance of eye contact in social anxiety disorder](https://pmc.ncbi.nlm.nih.gov)
-- [The Role of the Amygdala in Atypical Gaze on Emotional Faces in Autism Spectrum Disorders](https://www.jneurosci.org)
-- [Anxiety and social deficits have distinct relationships with amygdala function in autism spectrum disorder](https://academic.oup.com)
-- [Neural Correlates of Eye Contact and Social Function in Autism Spectrum Disorder](https://www.medrxiv.org)
-- [Increased Eye Contact During Conversation Compared to Play in Children With Autism](https://www.researchgate.net)
-- [Affective Eye Contact: An Integrative Review](https://www.frontiersin.org)
-
-### Camouflaging & Masking
-
-- [Camouflaging in Autism May Not Drive Mental Health Problems - Simply Psychology](https://simplypsychology.org)
-- [Autistic masking - Wikipedia](https://en.wikipedia.org/wiki/Autistic_masking)
-- [Camouflaging Autistic Traits Questionnaire (CAT-Q) - NovoPsych](https://novopsych.com)
-- [Camouflaging Autistic Traits Questionnaire (CAT-Q): Gender-Specific Norms, Percentile Rankings, and - NovoPsych](https://novopsych.com)
-- [The Camouflaging Autistic Traits Questionnaire (CAT-Q) | Embrace Autism](https://embrace-autism.com)
-- [Interpreting your CAT-Q scores - Embrace Autism](https://embrace-autism.com)
-- [Camouflaging Autistic Traits Questionnaire (CAT-Q)](https://bhcsmt.com)
-- [Adult Autism and Masking: The Mental Health Toll of Camouflaging](https://www.ftpsych.ca)
-- [Autistic Adults' Experiences of Camouflaging and Its Perceived ...](https://pmc.ncbi.nlm.nih.gov)
-- [A meta-ethnography of autistic people's experiences of social ...](https://pmc.ncbi.nlm.nih.gov)
-- [The relationship between camouflaging and mental health: Are there differences among subgroups in autistic adults?](https://www.researchgate.net)
-- [A systematic review and meta-analysis of mental health outcomes associated with camouflaging in autistic people - Pure](https://pure-oai.bham.ac.uk)
-- [The Associations Between Camouflaging, Autistic Traits, and Mental Health in Nonautistic Adults](https://pmc.ncbi.nlm.nih.gov)
-- [Camouflage and masking behavior in adult autism - Frontiers](https://www.frontiersin.org)
-- [Development and Validation of the Camouflaging Autistic Traits ...](https://pmc.ncbi.nlm.nih.gov)
-
-### Co-Regulation & Interpersonal Support
-
-- [Co-Regulation of the Autonomic Nervous System - Trauma Therapist Institute](https://traumatherapistinstitute.com)
-- [Co-Regulation: The Physiology of Trust - I-ASC](https://i-asc.org)
-- [Distinguishing Emotional Co-Regulation From Co-Dysregulation: An Investigation of Emotional Dynamics and Body-Weight in Romantic Couples](https://pmc.ncbi.nlm.nih.gov)
-- [Co-regulation - Wikipedia](https://en.wikipedia.org/wiki/Co-regulation)
-- [Co-Regulation From Birth Through Young Adulthood: A Practice Brief](https://fpg.unc.edu)
-- [Rocking and Rolling—It Takes Two: The Role of Co-Regulation in Building Self-Regulation Skills | NAEYC](https://www.naeyc.org)
-- [The Role of Co-Regulation for the development of social-emotional competence](https://www.researchgate.net)
-- [The worse we feel, the more intensively we need to stick together: a ...](https://pmc.ncbi.nlm.nih.gov)
-- [Co-Regulation from Birth through Young Adulthood - YouTube](https://www.youtube.com)
-- [Nonverbal Interpersonal Interactions in Clinical Encounters and Patient Perceptions of Empathy - Journal of Participatory Medicine](https://participatorymedicine.org)
-- [A systematic review of the role of teachers' support in promoting socially shared regulatory strategies for learning](https://pmc.ncbi.nlm.nih.gov)
-- [The Importance of Early Experiences for Neuro-affective Development](https://pmc.ncbi.nlm.nih.gov)
-- [How to Apologize to Repair Your Relationship - Dr. Angele Close](https://drangeleclose.com)
-
-### Furry Fandom Research & Community
-
-- [Optimal Distinctiveness and Identification with the Furry Fandom](https://www.researchgate.net)
-- [2.12 Social Interaction - Furscience](https://furscience.com)
-- [6.3 Furry Identification - Furscience](https://furscience.com)
-- [3.12 Fursona as Ideal Self - Furscience](https://furscience.com)
-- [9.3 Inclusion of Other in Self - Furscience](https://furscience.com)
-- [Furscience-A-Decade-of-Psychological-Research-on-the-Furry-Fandom.pdf](https://www.researchgate.net)
-- [Furscience, the real science behind furries and their fandom.](https://furscience.com)
-- [Destigmatization in the Furry Fandom: A Case Study on the X University Self-organization in China - Atlantis Press](https://www.atlantis-press.com)
-- [Community and Malleable Identity in the Furry Fandom by Selina Tyne Heidinger - MSpace](https://mspace.lib.umanitoba.ca)
-- [Seeding the Grassroots of Research on Furries: Lessons Learned from 15 Years of Creative Knowledge Mobilization, Valuing Community Partnerships, and Correcting the Record on Stigmatized Communities with Evidence-Based Scholarship](https://www.tandfonline.com)
-- [Publications - Furscience](https://furscience.com)
-- [Raising Neurodiverse Fans - CHADD](https://chadd.org)
-- [Classifying and Characterizing Fandom Activities: A Focus on Superfans' Posting and Commenting Behaviors in a Digital Fandom Community - MDPI](https://www.mdpi.com)
-
-### Escapism & Identity Work
-
-- [Activity Engagement as Escape from Self: The Role of Self-Suppression and Self-Expansion](https://www.semanticscholar.org)
-- [Self-Escapism Motivation: A Determinant of E-Cart Use and Abandonment](https://www.researchgate.net)
-- [Breaking up with my idol: A qualitative study of the psychological adaptation process of renouncing fanship - Frontiers](https://www.frontiersin.org)
-- [Escaping through virtual gaming—what is the association with emotional, social, and mental health? A systematic review](https://pmc.ncbi.nlm.nih.gov)
-
-### Additional Autism & Neurodiversity Research
-
-- [Redox Regulation and the Autistic Spectrum ... - Semantic Scholar](https://pdfs.semanticscholar.org)
+[^9]: Girija Kaimal, Kendra Ray, and Juan Muniz, "Reduction of Cortisol Levels and Participants' Responses Following Art Making," Art Therapy 33, no. 2 (2016): 74–80, https://doi.org/10.1080/07421656.2016.1166832.
+[^10]: "Painterly Style in Clip Studio Paint." docs/non-ai-research/painterly-style-clip-studio-paint.md.
+[^11]: Monotropism and The Monotropism Questionnaire - Neurodiverse Connection. https://ndconnection.co.uk
+[^12]: Monotropism Resources and Signposting | Autistic Realms. https://autisticrealms.com
+[^13]: Monotropism = Happy Flow State | Autistic Realms. https://autisticrealms.com
+[^14]: Monotropism - Therapist Neurodiversity Collective. https://therapistndc.org
+[^15]: Monotropism - Stimpunks Foundation. https://stimpunks.org
+[^16]: Special Interest - Stimpunks Foundation. https://stimpunks.org
+[^17]: Autism Monotropism: Understanding Focus and Attention. https://www.autismparentingmagazine.com
+[^18]: Me and Monotropism: A unified theory of autism | British Psychological Society. https://www.bps.org.uk
+[^19]: Monotropism - Wikipedia. https://en.wikipedia.org/wiki/Monotropism
+[^20]: Autism: The benefits of Monotropism and Flow States and its applications for the classroom. https://www.bera.ac.uk
+[^21]: Monotropism, hyperfocus & ND - MindMate. https://www.mindmate.org.uk
+[^22]: Understanding Monotropism and Autism: A Unique Perspective | Sachs Center. https://sachscenter.com
+[^23]: Leaning into Monotropism: Building a Schedule/Routine : r/AutisticAdults. https://www.reddit.com
+[^24]: What Is Monotropism? | Psychology Today. https://www.psychologytoday.com
+[^25]: ADHD Hyperfocus: Symptoms, Causes & How To Manage It - MEDvidi. https://medvidi.com
+[^26]: Hyperfocus: The ADHD Phenomenon of Hyper Fixation - ADDitude. https://www.additudemag.com
+[^27]: Flow State vs. Hyperfocus: Understanding Your ADHD Attention. https://www.additudemag.com
+[^28]: What Is Hyperfocus and How Does It Affect People with ADHD? - Healthline. https://www.healthline.com
+[^29]: Bringing Hyperfocus into Research Focus - Cognitive Neuroscience Society. https://cogneurosociety.org
+[^30]: (PDF) Evaluating Dopamine Reward Pathway in ADHD Clinical .... https://www.researchgate.net
+[^31]: Motivation deficit in ADHD is associated with dysfunction of the dopamine reward pathway. https://escholarship.org
+[^32]: Hyperfocus symptom and internet addiction in individuals with attention-deficit/hyperactivity disorder trait - Frontiers. https://www.frontiersin.org
+[^33]: The Parallels of Monotropism and Hyperfocus - ADHDworking. https://adhdworking.co.uk
+[^34]: Hyperfocus or flow? Attentional strengths in autism spectrum .... https://pmc.ncbi.nlm.nih.gov
+[^35]: Attention deficit hyperactivity disorder - Wikipedia. https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+[^36]: Neuro-affirmative support for autism, the Double Empathy Problem .... https://pmc.ncbi.nlm.nih.gov
+[^37]: The double empathy problem and the problem of .... https://www.tandfonline.com
+[^38]: The 'double empathy problem': ten years on. https://kar.kent.ac.uk
+[^39]: Double Empathy Problem - Autism Society of Minnesota. https://ausm.org
+[^40]: Eye contact affects attention more than arousal as revealed by prospective time estimation. https://www.researchgate.net
+[^41]: The effect of constraining eye-contact during dynamic emotional face perception—an fMRI study. https://nmr.mgh.harvard.edu
+[^42]: Mechanisms of diminished attention to eyes in autism. https://pmc.ncbi.nlm.nih.gov
+[^43]: Eye Gaze in Autism Spectrum Disorder: A Review of Neural .... https://pmc.ncbi.nlm.nih.gov
+[^44]: Bumetanide for autism: more eye contact, less amygdala activation. https://pmc.ncbi.nlm.nih.gov
+[^45]: Elevated amygdala response to faces and gaze aversion in autism spectrum disorder | Social Cognitive and Affective Neuroscience. https://academic.oup.com
+[^46]: Neural circuitry of submissive behavior in social anxiety disorder: a .... https://pmc.ncbi.nlm.nih.gov
+[^47]: How Social Anxiety Affects the Brain: Insights from Eye-Tracking Studies. https://roselandtherapy.com
+[^48]: Association between amygdala response to emotional faces and social anxiety in autism spectrum disorders. https://pmc.ncbi.nlm.nih.gov
+[^49]: Fear and avoidance of eye contact in social anxiety disorder. https://pmc.ncbi.nlm.nih.gov
+[^50]: The Role of the Amygdala in Atypical Gaze on Emotional Faces in Autism Spectrum Disorders. https://www.jneurosci.org
+[^51]: Anxiety and social deficits have distinct relationships with amygdala function in autism spectrum disorder. https://academic.oup.com
+[^52]: Neural Correlates of Eye Contact and Social Function in Autism Spectrum Disorder. https://www.medrxiv.org
+[^53]: Increased Eye Contact During Conversation Compared to Play in Children With Autism. https://www.researchgate.net
+[^54]: Affective Eye Contact: An Integrative Review. https://www.frontiersin.org
+[^55]: Camouflaging in Autism May Not Drive Mental Health Problems - Simply Psychology. https://simplypsychology.org
+[^56]: Autistic masking - Wikipedia. https://en.wikipedia.org/wiki/Autistic_masking
+[^57]: Camouflaging Autistic Traits Questionnaire (CAT-Q) - NovoPsych. https://novopsych.com
+[^58]: Camouflaging Autistic Traits Questionnaire (CAT-Q): Gender-Specific Norms, Percentile Rankings, and - NovoPsych. https://novopsych.com
+[^59]: The Camouflaging Autistic Traits Questionnaire (CAT-Q) | Embrace Autism. https://embrace-autism.com
+[^60]: Interpreting your CAT-Q scores - Embrace Autism. https://embrace-autism.com
+[^61]: Camouflaging Autistic Traits Questionnaire (CAT-Q). https://bhcsmt.com
+[^62]: Adult Autism and Masking: The Mental Health Toll of Camouflaging. https://www.ftpsych.ca
+[^63]: Autistic Adults' Experiences of Camouflaging and Its Perceived .... https://pmc.ncbi.nlm.nih.gov
+[^64]: A meta-ethnography of autistic people's experiences of social .... https://pmc.ncbi.nlm.nih.gov
+[^65]: The relationship between camouflaging and mental health: Are there differences among subgroups in autistic adults?. https://www.researchgate.net
+[^66]: A systematic review and meta-analysis of mental health outcomes associated with camouflaging in autistic people - Pure. https://pure-oai.bham.ac.uk
+[^67]: The Associations Between Camouflaging, Autistic Traits, and Mental Health in Nonautistic Adults. https://pmc.ncbi.nlm.nih.gov
+[^68]: Camouflage and masking behavior in adult autism - Frontiers. https://www.frontiersin.org
+[^69]: Development and Validation of the Camouflaging Autistic Traits .... https://pmc.ncbi.nlm.nih.gov
+[^70]: Co-Regulation of the Autonomic Nervous System - Trauma Therapist Institute. https://traumatherapistinstitute.com
+[^71]: Co-Regulation: The Physiology of Trust - I-ASC. https://i-asc.org
+[^72]: Distinguishing Emotional Co-Regulation From Co-Dysregulation: An Investigation of Emotional Dynamics and Body-Weight in Romantic Couples. https://pmc.ncbi.nlm.nih.gov
+[^73]: Co-regulation - Wikipedia. https://en.wikipedia.org/wiki/Co-regulation
+[^74]: Co-Regulation From Birth Through Young Adulthood: A Practice Brief. https://fpg.unc.edu
+[^75]: Rocking and Rolling—It Takes Two: The Role of Co-Regulation in Building Self-Regulation Skills | NAEYC. https://www.naeyc.org
+[^76]: The Role of Co-Regulation for the development of social-emotional competence. https://www.researchgate.net
+[^77]: The worse we feel, the more intensively we need to stick together: a .... https://pmc.ncbi.nlm.nih.gov
+[^78]: Co-Regulation from Birth through Young Adulthood - YouTube. https://www.youtube.com
+[^79]: Nonverbal Interpersonal Interactions in Clinical Encounters and Patient Perceptions of Empathy - Journal of Participatory Medicine. https://participatorymedicine.org
+[^80]: A systematic review of the role of teachers' support in promoting socially shared regulatory strategies for learning. https://pmc.ncbi.nlm.nih.gov
+[^81]: The Importance of Early Experiences for Neuro-affective Development. https://pmc.ncbi.nlm.nih.gov
+[^82]: How to Apologize to Repair Your Relationship - Dr. Angele Close. https://drangeleclose.com
+[^83]: Optimal Distinctiveness and Identification with the Furry Fandom. https://www.researchgate.net
+[^84]: 2.12 Social Interaction - Furscience. https://furscience.com
+[^85]: 6.3 Furry Identification - Furscience. https://furscience.com
+[^86]: 3.12 Fursona as Ideal Self - Furscience. https://furscience.com
+[^87]: 9.3 Inclusion of Other in Self - Furscience. https://furscience.com
+[^88]: Furscience-A-Decade-of-Psychological-Research-on-the-Furry-Fandom.pdf. https://www.researchgate.net
+[^89]: Furscience, the real science behind furries and their fandom. https://furscience.com
+[^90]: Destigmatization in the Furry Fandom: A Case Study on the X University Self-organization in China - Atlantis Press. https://www.atlantis-press.com
+[^91]: Community and Malleable Identity in the Furry Fandom by Selina Tyne Heidinger - MSpace. https://mspace.lib.umanitoba.ca
+[^92]: Seeding the Grassroots of Research on Furries: Lessons Learned from 15 Years of Creative Knowledge Mobilization, Valuing Community Partnerships, and Correcting the Record on Stigmatized Communities with Evidence-Based Scholarship. https://www.tandfonline.com
+[^93]: Publications - Furscience. https://furscience.com
+[^94]: Raising Neurodiverse Fans - CHADD. https://chadd.org
+[^95]: Classifying and Characterizing Fandom Activities: A Focus on Superfans' Posting and Commenting Behaviors in a Digital Fandom Community - MDPI. https://www.mdpi.com
+[^96]: Activity Engagement as Escape from Self: The Role of Self-Suppression and Self-Expansion. https://www.semanticscholar.org
+[^97]: Self-Escapism Motivation: A Determinant of E-Cart Use and Abandonment. https://www.researchgate.net
+[^98]: Breaking up with my idol: A qualitative study of the psychological adaptation process of renouncing fanship - Frontiers. https://www.frontiersin.org
+[^99]: Escaping through virtual gaming—what is the association with emotional, social, and mental health? A systematic review. https://pmc.ncbi.nlm.nih.gov
+[^100]: Redox Regulation and the Autistic Spectrum ... - Semantic Scholar. https://pdfs.semanticscholar.org
