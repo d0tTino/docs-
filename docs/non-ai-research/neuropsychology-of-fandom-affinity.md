@@ -71,18 +71,34 @@ The concept of "flow," as defined by Mihaly Csikszentmihalyi, describes an "opti
 
 Monotropism is best understood not as a temporary state but as the fundamental cognitive architecture itself—an "interest system" that dictates how attention and processing resources are allocated. This enduring configuration frames attention as a limited channel that is deeply resourced when activated. The flow-like states and periods of hyperfocus experienced by autistic individuals are therefore direct manifestations of this underlying monotropic style.
 
-For a monotropic person, this deep, narrow focus is the brain's default and most efficient mode of operation. This orientation contrasts with a "polytropic" mind, which distributes attention more broadly across multiple channels and experiences flow as a transient exception. The following table provides a systematic comparison of these three concepts.
+For a monotropic person, this deep, narrow focus is the brain's default and most efficient mode of operation. This orientation contrasts with a "polytropic" mind, which distributes attention more broadly across multiple channels and experiences flow as a transient exception. The following breakdown provides a systematic comparison of these three concepts across key dimensions.
 
-Table 1: A Comparative Analysis of Monotropism, Hyperfocus, and Flow State
+**Comparative Highlights: Monotropism, Hyperfocus, and Flow State**
 
-| Dimension | Monotropism (Autism) | ADHD Hyperfocus | Flow State (General Population) |
-| --- | --- | --- | --- |
-| Core Theory | A foundational cognitive style based on an "interest system" where attention is deeply invested in a few channels. | A state of attentional dysregulation driven by a dopamine-deficient reward system seeking intense stimulation and reward. | An "optimal experience" or state of deep, effortless immersion when skill level and challenge are perfectly matched. |
-| Locus of Control | Largely involuntary; attention is "pulled" by interests. Can be difficult to disengage from ("inertia"). | Largely involuntary and unpredictable; difficult to initiate on demand and difficult to disengage from. | Often entered into voluntarily, though the state itself feels effortless and automatic. Can typically be disengaged from with effort. |
-| Task Motivation | Driven by deep, intrinsic interest and the pursuit of knowledge. The activity itself is the reward. | Driven by high levels of stimulation, novelty, or immediate feedback that provides a dopamine boost. | Driven by an intrinsic enjoyment of the activity and the balance between challenge and skill. |
-| Awareness | "Attention tunnel" effect; awareness of stimuli outside the focus area is significantly diminished or absent. | Often a complete loss of awareness of the external environment, time, and bodily needs (e.g., hunger, thirst). | Awareness of surroundings is diminished but not typically lost entirely; a sense of control and presence is maintained. |
-| Emotional State | Often described as calming, regulating, joyful, and a "happy state". Distress occurs upon interruption. | Can be euphoric, satisfying, and calming ("in the zone"), but can also lead to anxiety if the focus is on a negative topic (rumination). | Characterized by positive affect, ecstasy, and a sense of awe and wonderment. |
-| Switching Cost | Very high. Interruptions are jarring, distressing, and energetically costly, leading to "monotropic split" or burnout. | Very high. Shifting attention away from the hyperfocused task is extremely difficult and can cause frustration or irritation. | Moderate. Disengaging may be undesirable but is generally possible without significant distress or cognitive cost. |
+- **Core Theory**
+  - *Monotropism (Autism):* A foundational cognitive style based on an "interest system" where attention is deeply invested in a few channels.
+  - *ADHD Hyperfocus:* A state of attentional dysregulation driven by a dopamine-deficient reward system seeking intense stimulation and reward.
+  - *Flow State (General Population):* An "optimal experience" or state of deep, effortless immersion when skill level and challenge are perfectly matched.
+- **Locus of Control**
+  - *Monotropism (Autism):* Largely involuntary; attention is "pulled" by interests and can be difficult to disengage from ("inertia").
+  - *ADHD Hyperfocus:* Largely involuntary and unpredictable; difficult to initiate on demand and difficult to disengage from.
+  - *Flow State (General Population):* Often entered into voluntarily; the state itself feels effortless and automatic, and disengagement is typically possible with effort.
+- **Task Motivation**
+  - *Monotropism (Autism):* Driven by deep, intrinsic interest and the pursuit of knowledge—the activity itself is the reward.
+  - *ADHD Hyperfocus:* Driven by high levels of stimulation, novelty, or immediate feedback that provides a dopamine boost.
+  - *Flow State (General Population):* Driven by intrinsic enjoyment of the activity and the balance between challenge and skill.
+- **Awareness**
+  - *Monotropism (Autism):* Produces an "attention tunnel" effect; awareness of stimuli outside the focus area is significantly diminished or absent.
+  - *ADHD Hyperfocus:* Often includes a complete loss of awareness of the external environment, time, and bodily needs (e.g., hunger, thirst).
+  - *Flow State (General Population):* Awareness of surroundings is diminished but not typically lost entirely; a sense of control and presence is maintained.
+- **Emotional State**
+  - *Monotropism (Autism):* Often described as calming, regulating, joyful, and a "happy state"; distress occurs upon interruption.
+  - *ADHD Hyperfocus:* Can be euphoric, satisfying, and calming ("in the zone"), but may also lead to anxiety if the focus is on a negative topic (rumination).
+  - *Flow State (General Population):* Characterized by positive affect, ecstasy, and a sense of awe and wonderment.
+- **Switching Cost**
+  - *Monotropism (Autism):* Very high; interruptions are jarring, distressing, and energetically costly, leading to "monotropic split" or burnout.
+  - *ADHD Hyperfocus:* Very high; shifting attention away from the hyperfocused task is extremely difficult and can cause frustration or irritation.
+  - *Flow State (General Population):* Moderate; disengaging may be undesirable but is generally possible without significant distress or cognitive cost.
 
 The aesthetic and narrative qualities inherent in furry art are uniquely suited to serve as a high-bandwidth stimulus for a monotropic or hyperfocused mind. The art form is often characterized by intricate details, such as fur texture, complex character markings, and expressive facial features, as well as rich narrative contexts. This high density of information provides a continuous stream of novel stimuli that can fully occupy a monotropic attention channel, preventing cognitive drift and inducing a deeply satisfying and immersive flow state.
 
