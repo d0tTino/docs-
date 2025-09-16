@@ -432,93 +432,56 @@ personal painterly signature.
 
 ## Sources used in the report
 
-- clipstudio.net
-- Tips For Dry Brush Painting | Art Rocket - CLIP STUDIO PAINT
-- reddit.com
-- How do I achieve this style? : r/ClipStudio - Reddit
-- tips.clip-studio.com
-- Preparing lines for painterly art “Painterly art #1” by EspenEldritch ...
-- clipstudio.net
-- Grayscale to Color: Digital Character Painting | Art Rocket
-- clipstudio.net
-- Natural-style Painting Workflow for Character Illustrations | Art Rocket
-- clipstudio.net
-- Concept Art Tools & Brushes - CLIP STUDIO PAINT
-- clipstudio.net
-- Character Art Tools & Brushes - CLIP STUDIO PAINT
-- assets.clip-studio.com
-- Textured Thick Lineart Brush - CLIP STUDIO ASSETS
-- reddit.com
-- i can't figure out how to colour : r/ClipStudio - Reddit
-- reddit.com
-- How to do good shading. : r/ClipStudio - Reddit
-- tips.clip-studio.com
-- Ultimate Guide to Lighting and Illumination - Clip Studio TIPS
-- clipstudio.net
-- Ultimate Guide to Blending Modes | Art Rocket
-- reddit.com
-- How to do color/shading/lighting in CSP : r/ClipStudio - Reddit
-- help.clip-studio.com
-- Blending tools - Clip Studio Paint User Guide
-- reddit.com
-- how to blend colors? : r/ClipStudio - Reddit
-- clipstudio.net
-- Anime-Style Skin Coloring Tutorial | Art Rocket - CLIP STUDIO PAINT
-- tips.clip-studio.com
-- Mastering Skin Tones: Tips & Step-by-Step Process (Tablet) by nadherinn - Make better art
-- tips.clip-studio.com
-- Complete tutorial to color skin using skin tones with CSP by ninelande - Make better art
-- tips.clip-studio.com
-- Quick Rendering for ConceptArt “Quick Rendering for Concept Art ...
-- youtube.com
-- Soft Shading in Clip Studio Paint - YouTube
-- tips.clip-studio.com
-- Basic Shading Tutorial by Ecao - Make better art - Clip Studio TIPS
-- tips.clip-studio.com
-- Add texture with images & brushes by ED. - Make better art | CLIP ...
-- graphixly.com
-- Adding Canvas Texture - Graphixly
-- youtube.com
-- How to use Correction Layers [CLIP STUDIO PAINT TUTORIAL] - YouTube
-- graphixly.com
-- How to Use Correction Layers - Graphixly
-- clip-studio.com
-- Tone curve [PRO/EX] - CLIP STUDIO PAINT Instruction manual
-- clip-studio.com
-- Color balance [PRO/EX] - CLIP STUDIO PAINT Instruction manual
-- reddit.com
-- Best way to create a sunset atmosphere effect on characters? : r ...
-- reddit.com
-- How to capture this type of hazy sunset/dusk lighting? : r/ClipStudio - Reddit
-- youtube.com
-- How to create sunset glow effect in Clip Studio Paint (use Gradient, tone curve) - YouTube
-- tips.clip-studio.com
-- Easily Change Shading Between Morning, Noon and Night by N ...
-- youtube.com
-- A simple way to do lighting || Clip Studio Paint art tutorial - YouTube
-- reddit.com
-- Question: grainy effect using a multiply layer? : r/ClipStudio - Reddit
-- tips.clip-studio.com
-- Grain Effect by KIBOSHI - Make better art | CLIP STUDIO TIPS
-- reddit.com
-- How to make this noise effect? : r/ClipStudio - Reddit
-- tips.clip-studio.com
-- Quick - - Add Noise/Grain to Your Image “ Poki Han's Illustration Tips #1” by pokihan - Make
-  better art
-- tips.clip-studio.com
-- Organizing Layers for Effective Workflow by LizStaley - Make better ...
-- tips.clip-studio.com
-- How to Organize Layers by LizStaley - Make better art | CLIP STUDIO TIPS
-- reddit.com
-- How do YOU structure your layers? : r/ClipStudio - Reddit
-- tiktok.com
-- Do you have any layer organization tips for fellow artists? #clipstudi... - TikTok
-- reddit.com
-- Need help understanding clipping layers : r/ClipStudio - Reddit
-- youtube.com
-- Make organizing your LAYERS in Clip Studio Paint EASIER. - YouTube
-- reddit.com
-- How to render : r/ClipStudio - Reddit
+- **Brush & Texture Resources**
+  - *Tips for Dry Brush Painting* (Art Rocket, clipstudio.net) — Step-by-step settings for emulating dry-brush texture in CSP.
+  - *Preparing Lines for Painterly Art "Painterly art #1"* (Clip Studio Tips) — Workflow for cleaning and softening line art before painting.
+  - *Concept Art Tools & Brushes* (Clip Studio official site) — Catalog of brush presets tailored for concept art production.
+  - *Character Art Tools & Brushes* (Clip Studio official site) — Overview of brush sets optimized for character rendering.
+  - *Textured Thick Lineart Brush* (Clip Studio Assets) — Downloadable brush with organic grit for painterly line work.
+  - *Add Texture with Images & Brushes* by ED. (Clip Studio Tips) — Demonstrates layering scanned textures and custom brushes.
+  - *Adding Canvas Texture* (Graphixly) — Guide to overlaying paper textures for painterly finishes.
+  - *Grain Effect* by KIBOSHI (Clip Studio Tips) — Shows how to build film grain with layer effects and filters.
+  - *Quick Add Noise/Grain to Your Image* (Clip Studio Tips) — Poki Han's quick method for finishing pieces with noise overlays.
+  - *Question: grainy effect using a multiply layer?* (Reddit) — Community tips on using multiply layers for stylized grain.
+  - *How to make this noise effect?* (Reddit) — Advice on recreating speckled textures and noise passes.
+
+- **Color & Blending Foundations**
+  - *Grayscale to Color: Digital Character Painting* (Art Rocket) — Breaks down value-first workflows before glazing color.
+  - *Natural-style Painting Workflow for Character Illustrations* (Art Rocket) — Stepwise process for painterly characters with a natural-media feel.
+  - *Ultimate Guide to Blending Modes* (Art Rocket) — Explains blend modes and painterly use cases.
+  - *Blending Tools* (Clip Studio Paint User Guide) — Reference for the Mix, Blend, and Blur tool families.
+  - *Quick Rendering for Concept Art* (Clip Studio Tips) — Strategies for speeding up painterly renders with minimal layers.
+  - *Basic Shading Tutorial* by Ecao (Clip Studio Tips) — Fundamentals of blocking light and shadow with painterly brushes.
+  - *Soft Shading in Clip Studio Paint* (YouTube) — Video walkthrough on building smooth transitions and volume.
+  - *How to Use Correction Layers [Clip Studio Paint Tutorial]* (YouTube) — Overview of tonal adjustment layers for final polish.
+  - *How to Use Correction Layers* (Graphixly) — Companion article on integrating correction layers into painterly workflows.
+  - *Tone Curve [PRO/EX]* (clip-studio.com manual) — Official guide to the tone curve correction tool.
+  - *Color Balance [PRO/EX]* (clip-studio.com manual) — Manual entry on shifting hues to reinforce mood.
+  - *i can't figure out how to colour* (Reddit) — Troubleshooting thread on flat colors and blending hurdles.
+  - *How to do good shading.* (Reddit) — Community tips and exercises for stronger shading.
+  - *How to do color/shading/lighting in CSP* (Reddit) — Broad discussion of overall painterly workflow questions.
+  - *how to blend colors?* (Reddit) — Advice for achieving smooth blends without muddying colors.
+  - *How do I achieve this style?* (Reddit) — Style analysis and brush recommendations for painterly finishes.
+  - *How to render* (Reddit) — Suggestions on taking a block-in to a polished render.
+
+- **Skin & Lighting Guides**
+  - *Ultimate Guide to Lighting and Illumination* (Clip Studio Tips) — Comprehensive lighting theory and brush application.
+  - *Anime-Style Skin Coloring Tutorial* (Art Rocket) — Step-by-step painterly approach to digital skin tones.
+  - *Mastering Skin Tones: Tips & Step-by-Step Process* (Clip Studio Tips) — Tablet workflow for believable skin shading.
+  - *Complete tutorial to color skin using skin tones with CSP* (Clip Studio Tips) — Detailed palette and layering strategy for skin rendering.
+  - *How to Create Sunset Glow Effect in Clip Studio Paint* (YouTube) — Demonstrates gradients and tone curves for warm lighting.
+  - *Easily Change Shading Between Morning, Noon and Night* (Clip Studio Tips) — Techniques for re-lighting scenes across times of day.
+  - *A Simple Way to Do Lighting* (YouTube) — Short video illustrating basic key/fill lighting setup.
+  - *Best way to create a sunset atmosphere effect on characters?* (Reddit) — Community suggestions for atmospheric color treatments.
+  - *How to capture this type of hazy sunset/dusk lighting?* (Reddit) — Advice on haze, color choices, and overlay passes.
+
+- **Layer & Workflow Management**
+  - *Organizing Layers for Effective Workflow* (Clip Studio Tips) — Folder structures and naming conventions for complex paintings.
+  - *How to Organize Layers* (Clip Studio Tips) — Foundational guide to grouping, color coding, and masking layers.
+  - *Make organizing your LAYERS in Clip Studio Paint EASIER.* (YouTube) — Video shortcuts for tidying large layer stacks.
+  - *Do you have any layer organization tips for fellow artists?* (TikTok) — Quick reel from Clip Studio with layout tips.
+  - *How do YOU structure your layers?* (Reddit) — Artists share their layer hierarchies and workflow habits.
+  - *Need help understanding clipping layers* (Reddit) — Q&A on practical uses of clipping layers in painterly workflows.
 
 ## Sources read but not used in the report
 
