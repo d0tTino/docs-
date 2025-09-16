@@ -61,7 +61,7 @@ shadows and lighter highlights can be effectively judged and applied.
 **Workspace Configuration:** A streamlined workspace prevents technical hurdles from interrupting
 the creative flow. Essential palettes to have visible include the Navigator for a constant thumbnail
 view of the composition, the Subview for displaying reference images, and the Layers palette.
-Furthermore, enabling the autosave feature under File > Preferences > File is a critical step to
+Furthermore, enabling the autosave feature under `File > Preferences > File` is a critical step to
 protect work against unexpected program closures or system issues.
 
 ### The Painterly Brush Toolkit: An In-Depth Guide
@@ -184,7 +184,7 @@ to return to the streamlined single-layer workflow.
 
 **Step 6: Constant Evaluation and Correction:** An artist's brain quickly adapts to the image on the
 screen, making it easy to miss errors in proportion or balance. To combat this, it is crucial to
-frequently flip the canvas horizontally. This can be done via Edit > Transform > Flip Horizontal.
+frequently flip the canvas horizontally. This can be done via `Edit > Transform > Flip Horizontal`.
 This simple action tricks the brain into seeing the image with fresh eyes, making mistakes
 immediately apparent. Additionally, tools like the Lasso and Transform (Ctrl+T) can be used to
 select and adjust parts of the sketch, such as tilting the head to create a more dynamic pose.
@@ -243,7 +243,7 @@ reflecting from the sky.
 **Step 3: Committing to the Painting and Merging Layers:** To fully embrace a painterly workflow and
 unlock the potential of certain tools, it is beneficial to periodically commit to the progress by
 merging layers. A non-destructive way to do this is to select the visible layers and use the command
-Layer > Merge visible to new layer. This creates a new, flattened layer containing the entire
+`Layer > Merge visible to new layer`. This creates a new, flattened layer containing the entire
 painting, while preserving the original layers underneath in a folder for safekeeping. This action
 is vital for two reasons. First, it builds confidence and encourages a more decisive, traditional
 painting mindset. Second, it allows tools like the Watercolor brushes or any brush with Color Mixing
@@ -313,8 +313,8 @@ Soft Light. Overlay provides a higher-contrast texture, while Soft Light is more
 opacity can then be reduced until the desired effect is achieved.
 
 **Step 3 (Optional): Convert Brightness to Opacity:** If the imported texture has a white or
-light-colored background, a useful technique is to go to Edit > Tonal Correction > Convert
-brightness to opacity. This function makes the lighter parts of the image transparent, allowing the
+light-colored background, a useful technique is to go to `Edit > Tonal Correction > Convert brightness to opacity`.
+This function makes the lighter parts of the image transparent, allowing the
 darker grain of the texture to overlay the artwork more naturally without washing out the colors.
 Before this can be done, the texture layer, which is often imported as an "Image Material Layer,"
 must be rasterized by right-clicking it and selecting Rasterize.
@@ -329,10 +329,10 @@ professional polish.
 ### The Power of Correction Layers
 
 Correction Layers are the professional's choice for final adjustments. Unlike direct edits made
-under the Edit > Tonal Correction menu, Correction Layers are non-destructive. They exist as
+under the `Edit > Tonal Correction` menu, Correction Layers are non-destructive. They exist as
 separate layers in the layer stack, and their settings can be edited and re-edited at any time
 without permanently altering the pixels of the artwork below. A Correction Layer is created by
-navigating to Layer > New Correction Layer.
+navigating to `Layer > New Correction Layer`.
 
 **Tone Curve:** This is one of the most powerful tools for adjusting values. The Tone Curve provides
 precise control over the brightness and contrast of an image. The horizontal axis represents the
@@ -381,7 +381,7 @@ To complete the painterly effect and eliminate any final vestiges of digital smo
 layer of noise or film grain can be added. This adds a tactile, organic quality to the final image.
 
 **Method 1: Perlin Noise Filter:** This is the most controlled and consistent method. Create a new
-layer and go to Filter > Render > Perlin Noise. Adjust the Scale setting to a low value to create a
+layer and go to `Filter > Render > Perlin Noise`. Adjust the Scale setting to a low value to create a
 fine, non-intrusive grain. After applying the filter, change the noise layer's blending mode to
 Overlay or Soft Light and reduce the opacity to a very low value (often 5-15%). This will subtly
 integrate the texture into the painting.
