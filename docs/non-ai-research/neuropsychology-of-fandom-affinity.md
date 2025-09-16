@@ -210,24 +210,13 @@ The aversion to overwhelming human social stimuli is bypassed by a new, safer sy
 
 The reason furry art "lights up the brain" is because it is the vibrant, aesthetic focal point of an entire system that is exquisitely calibrated to meet a cascade of neurological, psychological, and social needs that frequently go unmet in the default world. It is a powerful signal of safety, belonging, creativity, and the profound potential for authentic self-expression. That signal cues the nervous system to expect connection, reinforcing the positive cycles described above.
 
-Conclusion and Recommendations
-This analysis concludes that affinity for furry art reflects a deep neuropsychological resonance in which attentional style, social perception, regulation, and identity motivation converge. The fandom minimizes cognitive costs and maximizes inherent strengths. It leverages the fursona as a customizable interface that enables authentic expression and co-regulation while satisfying the human need for optimal distinctiveness.
+## Conclusion
+Affinity for furry art reflects a deep neuropsychological resonance in which monotropic and hyperfocused attention styles, reduced social threat, and community co-regulation work in concert. The fandom's fursona-centered practices provide a flexible identity laboratory that converts special interests into sources of emotional regulation, belonging, and self-expansion, especially for neurodivergent participants. By aligning sensory needs, motivational systems, and social structures, the furry ecosystem transforms traits often pathologized in mainstream contexts into assets for well-being and growth.
 
-
-Based on this synthesis, the following recommendations are proposed:
-
-### For Individuals
-
-Fandom engagement can be consciously utilized as a tool for personal development. Individuals can leverage the creation and exploration of their fursona as a low-stakes environment to practice desired social skills, explore aspects of their identity, and build self-esteem. Recognizing the regulating function of engaging with one's interests can empower individuals to proactively use their fandom activities to manage stress and prevent burnout.
-
-### For Clinicians and Mental Health Professionals
-
-It is imperative to adopt a neuro-affirming and culturally competent perspective when working with clients who are members of the furry fandom. "Special interests" should be viewed not as pathological symptoms of restriction but as profound sources of joy, expertise, self-regulation, and social connection. The fursona should be understood as a complex and meaningful tool for identity work, not as a sign of delusion or escapist fantasy. Therapeutic interventions can be made more effective by integrating a client's fandom identity into the process, using it as a source of strength and resilience.
-
-### For Researchers
-
-This analysis highlights several promising avenues for future research. Longitudinal studies are needed to track the long-term impact of fandom participation on the mental health, social skills, and well-being of neurodivergent individuals. Neuroimaging studies, particularly those using fMRI, could directly test the "gaze aversion" hypothesis by comparing amygdala and social brain network activation in response to human faces versus anthropomorphic faces in autistic and socially anxious populations. Further qualitative research can continue to explore the lived experience of self-expansion and identity formation through the fursona, providing richer data to inform both theory and clinical practice.
-
+### Actionable Recommendations and Future Directions
+- **Strengthen sensory-safe infrastructure at events.** Convention organizers and community leaders can expand quiet rooms, peer support teams, and clear social scripts that reinforce cues of safety, ensuring neurodivergent attendees can remain in co-regulated states throughout gatherings.
+- **Integrate fandom-based interventions in clinical and educational settings.** Clinicians, counselors, and educators can invite clients or students to incorporate fursonas and fandom art into therapy or social skills curricula, using these familiar symbols to rehearse communication strategies and reduce masking fatigue.
+- **Pursue longitudinal and neurobiological studies of fandom participation.** Researchers can design multi-year and neuroimaging projects that compare responses to human versus anthropomorphic stimuli, track mental health outcomes of active fandom engagement, and test how identity play influences resilience over time.
 
 ## Sources Used in the Report
 
