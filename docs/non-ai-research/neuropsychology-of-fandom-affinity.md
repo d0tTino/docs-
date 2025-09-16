@@ -9,6 +9,13 @@ updated: 2025-09-02
 
 # The Neuropsychology of Fandom Affinity: An Integrative Analysis of Furry Art, Identity, and Belonging
 
+## Executive Summary
+
+- Immersive furry art provides the intense, interest-driven stimulation that aligns with monotropic autistic focus and ADHD hyperfocus, transforming deep attention into a regulating, rewarding experience.
+- The fandom's norms of acceptance and predictable interaction serve as large-scale co-regulation systems, supplying cues of safety that calm dysregulated nervous systems online and at conventions.
+- Crafting and embodying fursonas gives neurodivergent members a flexible identity laboratory that bypasses the Double Empathy Problem while rehearsing desired traits and self-concepts.
+- Recommendations emphasize joining neurodivergent individuals in their attentional channels, expanding co-regulation infrastructure (e.g., quiet rooms, supportive moderators), and championing fursona-centered spaces for authentic connection.
+
 ## Introduction
 This report investigates why the furry fandom and its art resonate so powerfully with neurodivergent individuals. By synthesizing peer-reviewed research from neurodiversity studies (autism and ADHD), social neuroscience, clinical psychology, and fandom studies, it maps how attentional style, social processing, interpersonal regulation, and motivational dynamics converge within the fandom to foster identity, belonging, and well-being.
 
