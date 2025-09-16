@@ -110,24 +110,15 @@ principle of "controlled chaos."
 
 #### Brush Notes
 
-**Oil Paint Flat Brush.** Clip Studio Paint's default oil brush blends colors smoothly out of the box. Dropping its opacity to around 90% encourages soft transitions while still allowing assertive, hard-edged strokes where needed.
-
-**Cat's Tongue Brush.** Duplicate the Oil Paint Flat Brush and adjust brush size dynamics to follow pen pressure. The tapered stroke mimics a traditional filbert brush, offering expressive control during blends and calligraphic marks.
-
-**Hoarse Oil.** This asset brush excels at both sketching and painting. Light pressure gives a gentle blend, while firm pressure snaps into a harder edge, letting you block in forms without swapping tools.
-
-**Ink Tapered Raw.** Sourced from DAUB Brushes, this tool incorporates scans of natural media to add subtle dry-brush textures at stroke ends. It is ideal for breaking up overly digital passages while maintaining clean color mixing.
-
-**Flat Ribbon (Vertical/Horizontal).** These custom variations simulate palette-knife effects. The vertical and horizontal chisel options let you carve in crisp edges or lay down chunky shapes that keep brushwork energetic.
-
-**Flat Ribbon Soft.** Load this custom brush with multiple texture patterns from the Clip Studio library and enable random texture rotation. Each stamp generates unpredictable termini, replicating the "controlled chaos" of traditional dry media.
-
-**SU-Cream Pencil.** With a delicate grain, this pencil brush serves as a reliable sketching tool for both clean construction lines and loose gesture marks before paint application.
-
-**Thick Paints Set.** Use this asset collection when you need rich, impasto-like coverage. Built-in color jitter injects natural variance so repeated strokes do not appear mechanical.
-
-**Textured Thick Lineart.** The pencil-like grit of this brush is perfect for defining forms or reinforcing edges. Lay it down before painting to establish structure, or after rendering to reintroduce tactile line work.
-
+- **Oil Paint Flat Brush:** Clip Studio Paint's default oil brush blends colors smoothly out of the box, and dropping its opacity to around 90% encourages soft transitions while still allowing assertive, hard-edged strokes when needed.
+- **Cat's Tongue Brush:** Duplicating the Oil Paint Flat Brush and tying brush size dynamics to pen pressure yields a tapered stroke that mimics a traditional filbert brush, offering expressive control during blends and calligraphic marks.
+- **Hoarse Oil:** This asset brush excels at both sketching and painting by delivering gentle blends under light pressure and snapping into harder edges with firm pressure so you can block forms without swapping tools.
+- **Ink Tapered Raw:** Sourced from DAUB Brushes, this tool uses scans of natural media to add subtle dry-brush textures at stroke ends, making it ideal for breaking up digital passages while keeping color mixing clean.
+- **Flat Ribbon (Vertical/Horizontal):** These custom palette-knife simulations use vertical and horizontal chisel options to carve crisp edges or lay down chunky shapes that keep brushwork energetic.
+- **Flat Ribbon Soft:** Loading this custom brush with multiple Clip Studio texture patterns and random rotation makes each stamp generate unpredictable termini that deliver the controlled chaos of traditional dry media.
+- **SU-Cream Pencil:** Its delicate grain makes this pencil brush a reliable sketching tool for both clean construction lines and loose gesture marks before paint application.
+- **Thick Paints Set:** Reach for this asset collection when you need rich impasto-like coverage, with built-in color jitter injecting natural variance so repeated strokes never feel mechanical.
+- **Textured Thick Lineart:** Leverage this pencil-like grit to define forms or reinforce edges, laying it down before painting to establish structure or afterward to reintroduce tactile line work.
 
 ## Section 2: The Grisaille Foundation: Mastering Value with the Grayscale-to-Color Method
 
