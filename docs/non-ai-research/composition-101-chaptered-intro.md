@@ -84,7 +84,7 @@ taper weight as the eye travels.
   third usually nail it.
 - **Lead/Nose/Look room:** Leave more space in front of where the subject looks or
   moves. Place the face along a vertical third and leave room on the side they face.
-  ROT makes this simple.
+  Rule of Thirds (ROT)[^rot] makes this simple.
 
 **Key sources**
 
@@ -257,6 +257,7 @@ Notan design and disciplined value grouping give compositions instant readabilit
 [^vaa-notan]: [Virtual Art Academy — Notan Tips](https://www.virtualartacademy.com/notan/)
 [^gurney-substack]: [James Gurney — How to Use Notan](https://jamesgurney.substack.com/p/how-to-use-notan)
 [^muddycolors]: [Muddy Colors — Composition Basics: Value Structure](https://www.muddycolors.com/2012/08/composition-basics-value-structure/)
+[^rot]: “Rule of Thirds (ROT)” is shorthand for placing key subjects along a 3×3 grid to balance visual weight quickly.
 
 ## Chapter 8 — When to break the rule (on purpose)
 
