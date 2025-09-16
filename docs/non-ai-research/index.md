@@ -69,12 +69,15 @@ Interdisciplinary explorations across science, philosophy, and culture.
 - [The Jungian Shadow](jungian-shadow-analysis.md) complements
   [Jungian Psyche Analysis](jungian-psyche-analysis.md).
 - [Neuropsychology of Fandom Affinity](neuropsychology-of-fandom-affinity.md)
-  links identity to the [Culture Project](../culture-project/index.md).
+  explores neurodivergent benefits of furry communities while linking identity
+  to the [Culture Project](../culture-project/index.md).
 - [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md)
-  outlines expressive digital painting techniques.
+  focuses on painterly brush workflows for Clip Studio users and outlines
+  expressive digital painting techniques.
 - [Composition 101 — Chaptered Intro](composition-101-chaptered-intro.md)
-  distills classical and modern composition frameworks into linked chapters for
-  fast study.
+  offers a guided path through scene-building fundamentals and distills
+  classical and modern composition frameworks into linked chapters for fast
+  study.
 - [Internal Parts and Subpersonalities](internal-parts-and-subpersonalities.md)
   maps parts-based psychotherapies alongside
   [Jungian Psyche Analysis](jungian-psyche-analysis.md).
