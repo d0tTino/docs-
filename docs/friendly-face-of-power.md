@@ -52,7 +52,7 @@ The physical architecture of benevolent control is mirrored in the visual langua
 
 This aesthetic choice is also a strategic one. Minimalism is not a neutral style; it is an ideology that communicates specific values. It projects an image of modernity, sleekness, and effortless functionality, which consumers have been conditioned to associate with technological innovation and the future. By presenting a clean, simple, and uncluttered facade, a corporation can project an aura of trustworthiness and transparency, masking the immense complexity and often exploitative nature of its global operations. This aesthetic of invisibility aligns perfectly with Bertram Gross's vision of a power that rules without appearing to rule. It is a visual grammar that depoliticizes corporate power, presenting it as a rational, efficient, and purely functional force.
 
-The trend toward "extreme minimalism," pioneered by companies like Apple, represents the apotheosis of this logic. However, this aesthetic can also backfire, leading to a corporate monoculture where brands are robbed of personality and recognizability. The redesigns of logos for companies like Animal Planet or Patreon have been met with public disapproval for feeling sterile, lifeless, and clinical. This "flatness" is the logical endpoint of an aesthetic that prioritizes frictionless control over human character, resulting in a visual landscape that is clean, orderly, and devoid of spirit—the perfect branding for a "friendly" but hollowed-out system of power.
+The trend toward "extreme minimalism," pioneered by companies like Apple, represents the apotheosis of this logic. However, this aesthetic can also backfire, leading to a corporate monoculture where brands are robbed of personality and recognizability. The redesigns of logos for companies like Animal Planet[^19] or Patreon[^20] have been met with public disapproval for feeling sterile, lifeless, and clinical. This "flatness" is the logical endpoint of an aesthetic that prioritizes frictionless control over human character, resulting in a visual landscape that is clean, orderly, and devoid of spirit—the perfect branding for a "friendly" but hollowed-out system of power.
 
 ### Aesthetic Counterpoints: The Hard Edge of Eco-Fascism vs. The Optimism of Solarpunk
 To fully appreciate the unique character of friendly fascism's soft aesthetic, it is useful to contrast it with two divergent environmentalist aesthetics that have emerged in the contemporary political landscape: eco-fascism and solarpunk.
@@ -162,6 +162,8 @@ Yet, as Gross himself insisted, this outcome is not inevitable. The "long-term l
 [^16]: The Grove Office Building | SmithGroup.
 [^17]: Architect vision for Microsoft's Silicon Valley Campus | Microsoft Bay Area Blog.
 [^18]: Minimalism in branding: Is less more? - Onsight.
+[^19]: "Worst Logo Redesigns | Top 12 That Flopped Big Time" - Visual Hierarchy.
+[^20]: Natalie Fear, "Patreon's rebrand is giving me serious modern design fatigue" - Creative Bloq.
 
 - wrnsstudio.com – Microsoft Silicon Valley - WRNS Studio
 
