@@ -19,22 +19,31 @@ This part analyzes how distinct neurocognitive frameworks shape perception, proc
 This section compares monotropism, ADHD hyperfocus, and flow to explain why immersive furry art aligns so well with neurodivergent attentional styles.
 
 #### 1.1. Monotropism: An Interest-Based Cognitive System
-Monotropism, a theory of autistic cognition developed by Murray, Lawson, and Lesser, posits a foundational cognitive style oriented around a limited number of intense interests. It is characterized as a "single-minded cognitive style" wherein an individual's attention is powerfully drawn into a narrow "attention tunnel". Within this model, the mind is conceptualized as an "interest system". In a monotropic mind, fewer interests are aroused at any given time, but those that are active attract a disproportionate share of processing resources, making it difficult to attend to stimuli or tasks outside the current focus.  
+Monotropism, a theory of autistic cognition developed by Murray, Lawson, and Lesser, posits a foundational cognitive style oriented around a limited number of intense interests. It is characterized as a "single-minded cognitive style" wherein an individual's attention is powerfully drawn into a narrow "attention tunnel". Within this model, the mind is conceptualized as an "interest system". In a monotropic mind, fewer interests are aroused at any given time, but those that are active attract a disproportionate share of processing resources, making it difficult to attend to stimuli or tasks outside the current focus.
 
-This is not a deficit but an ability to focus in great detail, which can lead to deep engagement and intrinsically rewarding "flow states." Engagement with these deep interests, often referred to as "special interests," serves as a vital mechanism for self-regulation, promoting a sense of calm, happiness, and control. This perspective reframes autistic cognition in a neuro-affirmative light, emphasizing the inherent strengths of an interest-based system.
+##### Monotropism Benefits
+- **Deep engagement as strength:** The ability to focus in great detail transforms intense interests into intrinsically rewarding "flow states" that stabilize mood and energy.
+- **Self-regulation through special interests:** Immersion in "special interests" becomes a reliable pathway to calm, happiness, and a felt sense of control.
+- **Neuro-affirming reframing:** Viewing attention as an interest-based system emphasizes capability rather than deficit, highlighting how a monotropic style supports mastery.
 
-Support strategies derived from this view emphasize joining the autistic individual in their attention tunnel rather than forcing disengagement. Aligning with the person's focus reduces distress and honors their autonomy. Such collaboration leverages the monotropic ability to absorb and process vast quantities of information within a field of interest.
+##### Supportive Practices
+- **Join the attention tunnel:** Support strategies prioritize aligning with, rather than disrupting, the individual's current focus.
+- **Honor autonomy:** Collaboration within the chosen interest respects agency while leveraging the capacity to absorb and synthesize vast amounts of information.
 
-A key challenge of this cognitive style is the high energetic and cognitive cost associated with shifting attention between channels. Interruptions or demands to multitask can be jarring and distressing, a phenomenon sometimes referred to as "monotropic split". This explains why environments that require frequent task-switching are particularly exhausting for monotropic individuals and can contribute to sensory overload and burnout.  
+##### Attention Switching Costs
+- **High energetic toll:** Shifting between channels requires significant cognitive effort, making interruptions especially jarring.
+- **Risk of burnout:** Environments that demand frequent task-switching can trigger "monotropic split," sensory overload, and subsequent burnout.
 
 #### 1.2. ADHD Hyperfocus: A State of Dopamine-Driven Concentration
-ADHD hyperfocus is an intense state of fixation on an activity that is interesting or enjoyable, during which the external world, the passage of time, and even bodily needs can seem to fall away. This state is often considered a paradoxical symptom of ADHD, a condition more commonly associated with distractibility and an inability to sustain attention.  
+ADHD hyperfocus is an intense state of fixation on an activity that is interesting or enjoyable, during which the external world, the passage of time, and even bodily needs can seem to fall away. This state is often considered a paradoxical symptom of ADHD, a condition more commonly associated with distractibility and an inability to sustain attention.
 
-The neurobiological underpinnings of hyperfocus are linked to the dopamine system. Research led by Nora Volkow has provided compelling evidence that individuals with ADHD have lower baseline levels of dopamine synaptic markers, specifically D2/D3 receptors and dopamine transporters, in the brain's mesoaccumbens reward pathway. This pathway is critical for motivation and processing rewards.
+##### Hyperfocus Dynamics
+- **Dopamine-linked mechanism:** Studies led by Nora Volkow show lower baseline levels of D2/D3 receptors and dopamine transporters in the mesoaccumbens reward pathway, tying hyperfocus to the brain's motivation circuitry.
+- **Dopamine-seeking absorption:** The brain gravitates toward tasks that supply continuous stimulation, feedback, and reward—explaining why hyperfocus gravitates toward video games, creative projects, or online deep dives.
 
-The resulting dopamine deficiency makes it difficult to engage with tasks that are not intrinsically rewarding. Hyperfocus can thus be understood as a state of intense dopamine-seeking, where an individual becomes completely absorbed in an activity that provides the continuous stream of stimulation, progress, and reward that their brain is otherwise lacking. This explains the powerful pull of activities with constant feedback loops, such as video games, creative projects, or deep dives into online content.
-
-Like monotropic states, hyperfocus has a dual nature. When channeled into a productive or desired task, it can be a significant asset, leading to marked improvements in performance and productivity. However, when this intense concentration is captured by an unproductive or unintended activity, it becomes a liability, leading to time blindness, neglect of responsibilities, and social or physical problems.  
+##### Productive vs. Costly Hyperfocus
+- **Asset when aligned:** Directed toward desired goals, hyperfocus amplifies performance, creativity, and productivity.
+- **Liability when misaligned:** When captured by unintended activities, the same immersion drives time blindness, neglected responsibilities, and social or physical fallout.
 
 #### 1.3. A Comparative Framework: Monotropism, Hyperfocus, and Flow
 While these three states share the characteristic of deep task absorption, they are distinct phenomena with different underlying mechanisms, experiential qualities, and implications. The confusion between them often leads to a mischaracterization of neurodivergent experiences.  
