@@ -6,6 +6,9 @@ updated: 2025-08-13
 ---
 
 --8<-- "_snippets/disclaimer.md"
+
+Project Palantír provides a concise overview of Palantir Technologies' evolution, examining how the company grew from PayPal's anti-fraud roots into a platform stack of Gotham, Foundry, Apollo, and the Artificial Intelligence Platform. This paragraph sets the stage for the detailed analysis that follows.
+
 [TOC]
 
 ## Executive Summary
@@ -1781,4 +1784,11 @@ Beware of Data Miners Offering Protection | American Civil Liberties Union
 
 cnet.com  
 Palantir Extends US Defense Contract That Prompted Protest at Google - CNET  
+
+## Setup Checklist
+
+- [ ] Clone the repository.
+- [ ] Install dependencies from [requirements.txt](../requirements.txt).
+- [ ] Run `pre-commit install` to set up Git hooks.
+- [ ] Review [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution guidelines.
 
