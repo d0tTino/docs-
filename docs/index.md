@@ -199,3 +199,16 @@ Citations for cases, APIs, and publications referenced in the docs.
 ### Publications
 1. Shoshana Zuboff, *The Age of Surveillance Capitalism* (PublicAffairs, 2019).
 2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
+
+## Summary & Further Study
+
+**Workflow recap.** Clone the repository, initialize or update submodules, and run
+`scripts/setup_hooks.sh` to enable linting hooks. Install Python dependencies,
+start the MkDocs development server to preview changes locally, and leverage the
+migration and ingestion scripts when you need to pull legacy materials into the
+hub.
+
+**Top external resources.** Continue exploring the MkDocs
+[preview guide][mkdocs-preview] for deployment patterns, review the GitHub REST
+API documentation for automation ideas, and consult the OpenAI API reference to
+integrate AI-assisted tooling into your workflows.
