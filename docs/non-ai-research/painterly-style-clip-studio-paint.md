@@ -7,6 +7,8 @@ updated: 2025-09-08
 
 --8<-- "\_snippets/disclaimer.md"
 
+{{ toc }}
+
 # A Comprehensive Guide to the Painterly Style in Clip Studio Paint
 
 ## Introduction: The Philosophy of Painterly Digital Art
