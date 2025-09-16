@@ -2,7 +2,7 @@
 title: "Non-AI Research"
 tags: [research, docs]
 project: "non-ai-research"
-updated: 2025-09-02
+updated: 2025-09-16
 ---
 
 --8<-- "_snippets/disclaimer.md"
@@ -72,6 +72,9 @@ Interdisciplinary explorations across science, philosophy, and culture.
   links identity to the [Culture Project](../culture-project/index.md).
 - [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md)
   outlines expressive digital painting techniques.
+- [Composition 101 — Chaptered Intro](composition-101-chaptered-intro.md)
+  distills classical and modern composition frameworks into linked chapters for
+  fast study.
 - [Internal Parts and Subpersonalities](internal-parts-and-subpersonalities.md)
   maps parts-based psychotherapies alongside
   [Jungian Psyche Analysis](jungian-psyche-analysis.md).
