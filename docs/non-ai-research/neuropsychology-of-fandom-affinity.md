@@ -7,6 +7,8 @@ updated: 2025-09-02
 
 --8<-- "_snippets/disclaimer.md"
 
+{{ toc }}
+
 # The Neuropsychology of Fandom Affinity: An Integrative Analysis of Furry Art, Identity, and Belonging
 
 ## Executive Summary
