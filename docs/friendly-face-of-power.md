@@ -6,14 +6,13 @@ updated: 2025-07-30
 ---
 
 --8<-- "_snippets/disclaimer.md"
-
+# The Friendly Face of Power: An Analysis of Soft Aesthetics, Corporate Integration, and Digital Control in Modern Authoritarianism
 ## Executive Summary
 
 - Modern authoritarianism adopts friendly aesthetics and corporate integration to mask centralized control.
 - Technology firms and governments form a seamless partnership that normalizes surveillance and data-driven governance.
 - Digital platforms subtly demobilize publics while maintaining a democratic veneer.
 
-# The Friendly Face of Power: An Analysis of Soft Aesthetics, Corporate Integration, and Digital Control in Modern Authoritarianism
 ## Introduction: Revisiting Bertram Gross's Prophecy
 In 1980, as the United States stood at the precipice of the neoliberal revolution, political scientist Bertram Gross published a work of startling foresight, Friendly Fascism: The New Face of Power in America[^1]. His central thesis was that the next wave of authoritarianism in the West would not arrive with the overt brutality and theatrical demagoguery of its 20th-century predecessors. Instead, it would emerge quietly, cloaked in the language of reason, efficiency, and public service. This new form of power, which Gross ironically termed "friendly fascism," would be defined not by a charismatic dictator but by a faceless managerial establishment; not by stormtroopers in the streets, but by the seamless integration of Big Business and Big Government into a single, technocratic complex designed to manage society in the interests of a wealthy elite. Gross argued that this system would preserve the outward forms of democracy—elections, legislatures, political parties—while methodically hollowing out their substance, replacing genuine public will with sophisticated techniques of information management, co-option, and social control.
 
@@ -164,137 +163,94 @@ Yet, as Gross himself insisted, this outcome is not inevitable. The "long-term l
 [^17]: Architect vision for Microsoft's Silicon Valley Campus | Microsoft Bay Area Blog.
 [^18]: Minimalism in branding: Is less more? - Onsight.
 
-- wrnsstudio.com
-- Microsoft Silicon Valley - WRNS Studio
+- wrnsstudio.com – Microsoft Silicon Valley - WRNS Studio
 
-- whitelabeliq.com
-- How Minimalism in Design Can Amplify a Brand - White Label IQ
+- whitelabeliq.com – How Minimalism in Design Can Amplify a Brand - White Label IQ
 
-- arccadigest.org
-- Chaos and Community: A Silicon Valley Architecture? - arcCA Digest
+- arccadigest.org – Chaos and Community: A Silicon Valley Architecture? - arcCA Digest
 
-- mediaresults.com
-- When Minimalism Goes Too Far: Corporate Branding That Has Lost Its Design Personality
+- mediaresults.com – When Minimalism Goes Too Far: Corporate Branding That Has Lost Its Design Personality
 
-- army.mil
-- U.S. Army Awards Enterprise Service Agreement to Enhance Military ...
+- army.mil – U.S. Army Awards Enterprise Service Agreement to Enhance Military ...
 
-- defensescoop.com
-- Army plans big shakeup in software buying practices, starting with ...
+- defensescoop.com – Army plans big shakeup in software buying practices, starting with ...
 
-- ucd.ie
-- How the Italian Futurists shaped the aesthetics of modernity in the ...
+- ucd.ie – How the Italian Futurists shaped the aesthetics of modernity in the ...
 
-- en.wikipedia.org
-- Ecofascism - Wikipedia
+- en.wikipedia.org – Ecofascism - Wikipedia
 
-- icct.nl
-- Building resiliency to ecofascist radicalisation - International Centre for Counter-Terrorism
+- icct.nl – Building resiliency to ecofascist radicalisation - International Centre for Counter-Terrorism
 
-- edgeeffects.net
-- Solarpunk Narrates Futures Beyond Climate Despair - Edge Effects
+- edgeeffects.net – Solarpunk Narrates Futures Beyond Climate Despair - Edge Effects
 
-- tc.columbia.edu
-- Solarpunk | News | Sustainability - Teachers College - Columbia University
+- tc.columbia.edu – Solarpunk | News | Sustainability - Teachers College - Columbia University
 
-- tandfonline.com
-- Full article: The Extreme Right, Climate Change and Terrorism - Taylor & Francis Online
+- tandfonline.com – Full article: The Extreme Right, Climate Change and Terrorism - Taylor & Francis Online
 
-- medium.com
-- SOLARPUNK : A REFERENCE GUIDE. The below was compiled by… | by Jay Springett - Medium
+- medium.com – SOLARPUNK : A REFERENCE GUIDE. The below was compiled by… | by Jay Springett - Medium
 
-- builtin.com
-- What Is Solarpunk? History, Themes, Criticism & Real‑World Examples | Built In
+- builtin.com – What Is Solarpunk? History, Themes, Criticism & Real‑World Examples | Built In
 
-- earth.org
-- Solarpunk Is the Future We Should Strive For | Earth.Org
+- earth.org – Solarpunk Is the Future We Should Strive For | Earth.Org
 
-- aesdes.org
-- Personal Aesthetic – Solar Punk
+- aesdes.org – Personal Aesthetic – Solar Punk
 
-- en.wikipedia.org
-- Solarpunk - Wikipedia
+- en.wikipedia.org – Solarpunk - Wikipedia
 
-- reddit.com
-- What exactly is the solarpunk aesthetic? - Reddit
+- reddit.com – What exactly is the solarpunk aesthetic? - Reddit
 
-- gnet-research.org
-- Eco-Fascism: More than Tree-Loving Terrorists – GNET
+- gnet-research.org – Eco-Fascism: More than Tree-Loving Terrorists – GNET
 
-- oneearth.org
-- Solarpunk: Refuturing our Imagination for an Ecological ... - One Earth
+- oneearth.org – Solarpunk: Refuturing our Imagination for an Ecological ... - One Earth
 
-- pesaagora.com
-- The War in Ukraine, Marxism, Education and the Decay in American Politics - PESA Agora
+- pesaagora.com – The War in Ukraine, Marxism, Education and the Decay in American Politics - PESA Agora
 
-- demos-h2020.eu
-- Populist Leaders Thrive on Social Media | DEMOS
+- demos-h2020.eu – Populist Leaders Thrive on Social Media | DEMOS
 
-- air.unimi.it
-- Populists or Influencers? The Use of Facebook Videos by Populist Leaders - AIR Unimi
+- air.unimi.it – Populists or Influencers? The Use of Facebook Videos by Populist Leaders - AIR Unimi
 
-- ccnmtl.columbia.edu
-- About this E-Seminar - Columbia Center for Teaching and Learning
+- ccnmtl.columbia.edu – About this E-Seminar - Columbia Center for Teaching and Learning
 
-- timesofmalta.com
-- Messianic leadership - Times of Malta
+- timesofmalta.com – Messianic leadership - Times of Malta
 
-- researchgate.net
-- Messianic Attributes in World Leaders: A Historical Analysis - ResearchGate
+- researchgate.net – Messianic Attributes in World Leaders: A Historical Analysis - ResearchGate
 
-- en.wikipedia.org
-- Rhetoric of Donald Trump - Wikipedia
+- en.wikipedia.org – Rhetoric of Donald Trump - Wikipedia
 
-- ap.org
-- Inside 'the weave': How Donald Trump's rhetoric has grown darker and windier - AP.org
+- ap.org – Inside 'the weave': How Donald Trump's rhetoric has grown darker and windier - AP.org
 
-- ijoc.org
-- Populists or Influencers? The Use of Facebook Videos by Populist ...
+- ijoc.org – Populists or Influencers? The Use of Facebook Videos by Populist ...
 
 - researchgate.net
 (PDF) A Critical Discourse Analysis of Donald Trump's Rhetoric in ...
 
-- theguardian.com
-- The trial of Björn Höcke, the 'real boss' of Germany's far right ...
+- theguardian.com – The trial of Björn Höcke, the 'real boss' of Germany's far right ...
 
-- britannica.com
-- Gamergate | Summary, Facts, & Zoe Quinn | Britannica
+- britannica.com – Gamergate | Summary, Facts, & Zoe Quinn | Britannica
 
-- en.wikipedia.org
-- Gamergate - Wikipedia
+- en.wikipedia.org – Gamergate - Wikipedia
 
-- researchgate.net
-- Mapping the Neo-Manosphere(s): New Directions for Research - ResearchGate
+- researchgate.net – Mapping the Neo-Manosphere(s): New Directions for Research - ResearchGate
 
-- doras.dcu.ie
-- Lost Boys and Incel Forums: Mental Health and Masculinity in the Age of Loneliness - DORAS | DCU Research Repository
+- doras.dcu.ie – Lost Boys and Incel Forums: Mental Health and Masculinity in the Age of Loneliness - DORAS | DCU Research Repository
 
-- researchgate.net
-- Swallowing and spitting out the red pill: young men, vulnerability, and radicalization pathways in the manosphere | Request PDF - ResearchGate
+- researchgate.net – Swallowing and spitting out the red pill: young men, vulnerability, and radicalization pathways in the manosphere | Request PDF - ResearchGate
 
-- en.wikipedia.org
-- Red pill and blue pill - Wikipedia
+- en.wikipedia.org – Red pill and blue pill - Wikipedia
 
-- ofcom.org.uk
-- ofcom | experiences of engaging with the manosphere
+- ofcom.org.uk – ofcom | experiences of engaging with the manosphere
 
-- en.wikipedia.org
-- Incel - Wikipedia
+- en.wikipedia.org – Incel - Wikipedia
 
-- studentpress.org
-- MANOSPHERE - Student Press -
+- studentpress.org – MANOSPHERE - Student Press -
 
-- home-affairs.ec.europa.eu
-- Incels: A First Scan of the Phenomenon (in the EU) and its Relevance and Challenges for P/CVE
+- home-affairs.ec.europa.eu – Incels: A First Scan of the Phenomenon (in the EU) and its Relevance and Challenges for P/CVE
 
-- tandfonline.com
-- Full article: Exiting the Manosphere. A Gendered Analysis of Radicalization, Diversion and Deradicalization Narratives from r/IncelExit and r/ExRedPill
+- tandfonline.com – Full article: Exiting the Manosphere. A Gendered Analysis of Radicalization, Diversion and Deradicalization Narratives from r/IncelExit and r/ExRedPill
 
-- feminist.org
-- The Alt-Right Pipeline and the Rise of Trump: How Digital Radicalization Found Its Political Voice - Feminist Majority Foundation
+- feminist.org – The Alt-Right Pipeline and the Rise of Trump: How Digital Radicalization Found Its Political Voice - Feminist Majority Foundation
 
-- isdglobal.org
-- Groypers - ISD
+- isdglobal.org – Groypers - ISD
 
 - youtube.com
 "Pepe the Frog" designated hate symbol by ADL - YouTube
@@ -302,483 +258,334 @@ Yet, as Gross himself insisted, this outcome is not inevitable. The "long-term l
 - cbc.ca
 'Pepe is not hate symbol,' says internet-famous frog's creator | CBC News
 
-- en.wikipedia.org
-- Pepe the Frog - Wikipedia
-- gnet-research.org
-- Understanding Fashwave: The Alt-Right's Ever-Evolving Media Strategy – GNET
+- en.wikipedia.org – Pepe the Frog - Wikipedia
+- gnet-research.org – Understanding Fashwave: The Alt-Right's Ever-Evolving Media Strategy – GNET
 
-- govinfo.gov
-- Congressional Testimony Nicholas Fuentes, the Groypers, and January 6, 2021 - GovInfo
+- govinfo.gov – Congressional Testimony Nicholas Fuentes, the Groypers, and January 6, 2021 - GovInfo
 
-- humanrights.ca
-- Online misogyny: the “manosphere” | CMHR
+- humanrights.ca – Online misogyny: the “manosphere” | CMHR
 
-- theguardian.com
-- What Gamergate should have taught us about the 'alt-right ...
+- theguardian.com – What Gamergate should have taught us about the 'alt-right ...
 
-- en.wikipedia.org
-- Alt-right pipeline - Wikipedia
+- en.wikipedia.org – Alt-right pipeline - Wikipedia
 
-- misinforeview.hks.harvard.edu
-- The origin of public concerns over AI supercharging misinformation in the 2024 U.S. presidential election
+- misinforeview.hks.harvard.edu – The origin of public concerns over AI supercharging misinformation in the 2024 U.S. presidential election
 
-- academic.oup.com
-- How persuasive is AI-generated propaganda? | PNAS Nexus - Oxford Academic
+- academic.oup.com – How persuasive is AI-generated propaganda? | PNAS Nexus - Oxford Academic
 
-- escholarship.org
-- Flooding the Zone: An Agent-based Exploration - eScholarship
+- escholarship.org – Flooding the Zone: An Agent-based Exploration - eScholarship
 
-- mediamanipulation.org
-- Distributed amplification - Media Manipulation Casebook
+- mediamanipulation.org – Distributed amplification - Media Manipulation Casebook
 
 - reimaginingsocialwork.nz
 'Flooding the Zone' diverts our attention from Regulatory Takings
 
-- surfshark.com
-- Deepfake statistics 2025: how frequently are celebrities targeted? - Surfshark
+- surfshark.com – Deepfake statistics 2025: how frequently are celebrities targeted? - Surfshark
 
-- signicat.com
-- Fraud attempts with deepfakes have increased by 2137% over the last three years - Signicat
+- signicat.com – Fraud attempts with deepfakes have increased by 2137% over the last three years - Signicat
 
-- brookings.edu
-- Propaganda, foreign interference, and generative AI - Brookings Institution
+- brookings.edu – Propaganda, foreign interference, and generative AI - Brookings Institution
 
-- hai.stanford.edu
-- How Persuasive Is AI-Generated Propaganda? - Stanford HAI
+- hai.stanford.edu – How Persuasive Is AI-Generated Propaganda? - Stanford HAI
 
-- pmc.ncbi.nlm.nih.gov
-- How persuasive is AI-generated propaganda? - PMC
+- pmc.ncbi.nlm.nih.gov – How persuasive is AI-generated propaganda? - PMC
 
-- mediaengagement.org
-- Political Machines: Understanding the Role of AI in the U.S. 2024 Elections and Beyond
+- mediaengagement.org – Political Machines: Understanding the Role of AI in the U.S. 2024 Elections and Beyond
 
-- sph2116.github.io
-- FASHWAVE
+- sph2116.github.io – FASHWAVE
 
-- unwomen.org
-- What is the manosphere and why should we care? | UN Women ...
+- unwomen.org – What is the manosphere and why should we care? | UN Women ...
 
-- lens.monash.edu
-- The manosphere isn't just about economic power – it's about gender ...
+- lens.monash.edu – The manosphere isn't just about economic power – it's about gender ...
 
-- legal.thomsonreuters.com
-- Predictive policing: Navigating the challenges
+- legal.thomsonreuters.com – Predictive policing: Navigating the challenges
 
-- math.ucla.edu
-- Does Predictive Policing Lead to Biased Arrests? Results From a Randomized Controlled Trial - UCLA Mathematics
+- math.ucla.edu – Does Predictive Policing Lead to Biased Arrests? Results From a Randomized Controlled Trial - UCLA Mathematics
 
-- naacp.org
-- The Use of Artificial Intelligence in Predictive Policing - NAACP
+- naacp.org – The Use of Artificial Intelligence in Predictive Policing - NAACP
 
-- zerothreat.ai
-- Deepfake Attacks & AI-Generated Phishing: 2025 Statistics
+- zerothreat.ai – Deepfake Attacks & AI-Generated Phishing: 2025 Statistics
 
-- mdpi.com
-- Flood the Zone with Shit: Algorithmic Domination in the Modern ...
+- mdpi.com – Flood the Zone with Shit: Algorithmic Domination in the Modern ...
 
-- brennancenter.org
-- Generative AI in Political Advertising | Brennan Center for Justice
+- brennancenter.org – Generative AI in Political Advertising | Brennan Center for Justice
 
-- brennancenter.org
-- Predictive Policing Explained | Brennan Center for Justice
+- brennancenter.org – Predictive Policing Explained | Brennan Center for Justice
 
-- europarl.europa.eu
-- Artificial intelligence (AI) and human rights: Using AI as a weapon of repression - European Parliament
+- europarl.europa.eu – Artificial intelligence (AI) and human rights: Using AI as a weapon of repression - European Parliament
 
-- carnegieendowment.org
-- How Artificial Intelligence Is Reshaping Repression | Carnegie ...
+- carnegieendowment.org – How Artificial Intelligence Is Reshaping Repression | Carnegie ...
 
-- journalofdemocracy.org
-- How AI Threatens Democracy | Journal of Democracy
+- journalofdemocracy.org – How AI Threatens Democracy | Journal of Democracy
 
-- carnegieendowment.org
-- Can Democracy Survive the Disruptive Power of AI? | Carnegie ...
+- carnegieendowment.org – Can Democracy Survive the Disruptive Power of AI? | Carnegie ...
 
-- europarl.europa.eu
-- Using AI as a weapon of repression and its impact on human rights
+- europarl.europa.eu – Using AI as a weapon of repression and its impact on human rights
 
 ### Sources read but not used in the report
 
-- defense.gov
-- Contracts for May 21, 2025 - Department of Defense
+- defense.gov – Contracts for May 21, 2025 - Department of Defense
 
-- reddit.com
-- Futurism Art from Fascist Italy. Futurism is a primary component of Italian Fascism. - Reddit
+- reddit.com – Futurism Art from Fascist Italy. Futurism is a primary component of Italian Fascism. - Reddit
 
-- dribbble.com
-- Minimalist Branding designs, themes, templates and downloadable graphic elements on Dribbble
+- dribbble.com – Minimalist Branding designs, themes, templates and downloadable graphic elements on Dribbble
 
-- holmes.us
-- Microsoft Silicon Valley Campus - Holmes Structures
+- holmes.us – Microsoft Silicon Valley Campus - Holmes Structures
 
-- pinterest.com
-- 270 Minimal brand. ideas - Pinterest
+- pinterest.com – 270 Minimal brand. ideas - Pinterest
 
-- cssn.org
-- Daniele Conversi - Brown Climate Social Science Network
+- cssn.org – Daniele Conversi - Brown Climate Social Science Network
 
-- loop.frontiersin.org
-- Daniele Conversi - Loop
+- loop.frontiersin.org – Daniele Conversi - Loop
 
-- pefr.network
-- Bibliography - Political Ecologies of the Far Right network
+- pefr.network – Bibliography - Political Ecologies of the Far Right network
 
-- youtube.com
-- New to Solarpunk? Start Here! - YouTube
+- youtube.com – New to Solarpunk? Start Here! - YouTube
 
-- reddit.com
-- How can solarpunk go wrong - Reddit
+- reddit.com – How can solarpunk go wrong - Reddit
 
-- theguardian.com
-- Eco-fascists and the ugly fight for 'our way of life' as the environment disintegrates | Jeff Sparrow | The Guardian
+- theguardian.com – Eco-fascists and the ugly fight for 'our way of life' as the environment disintegrates | Jeff Sparrow | The Guardian
 
-- en.wikipedia.org
-- Eco-nationalism - Wikipedia
+- en.wikipedia.org – Eco-nationalism - Wikipedia
 
-- reddit.com
-- Be aware of ecofascism and shut it down before it escalates : r/solarpunk - Reddit
+- reddit.com – Be aware of ecofascism and shut it down before it escalates : r/solarpunk - Reddit
 
-- tandfonline.com
-- Full article: Pro-Environmental Nationalism is Still Nationalism: How Political Identity and Prior Attitudes Affect Nationalist Framing Effects on Support for Climate Action - Taylor & Francis Online
+- tandfonline.com – Full article: Pro-Environmental Nationalism is Still Nationalism: How Political Identity and Prior Attitudes Affect Nationalist Framing Effects on Support for Climate Action - Taylor & Francis Online
 
-- journals.library.columbia.edu
-- View of Eco-Nationalism: A Historical Evaluation of Nationalist Praxes in Environmentalist and Ecologist Movements | Consilience - Columbia Library Journals
+- journals.library.columbia.edu – View of Eco-Nationalism: A Historical Evaluation of Nationalist Praxes in Environmentalist and Ecologist Movements | Consilience - Columbia Library Journals
 
-- ohchr.org
-- Ethno-nationalism denies millions their citizenship rights - anti-racism expert | OHCHR
+- ohchr.org – Ethno-nationalism denies millions their citizenship rights - anti-racism expert | OHCHR
 
-- academic.oup.com
-- ecological response to ethno-nationalistic populism: grassroots environmental peacebuilding in south Asia | International Affairs | Oxford Academic
+- academic.oup.com – ecological response to ethno-nationalistic populism: grassroots environmental peacebuilding in south Asia | International Affairs | Oxford Academic
 
-- oxfordbibliographies.com
-- Ethnonationalism - Geography - Oxford Bibliographies
+- oxfordbibliographies.com – Ethnonationalism - Geography - Oxford Bibliographies
 
-- frontiersin.org
-- Eco-fascism: an oxymoron? Far-right nationalism, history ... - Frontiers
+- frontiersin.org – Eco-fascism: an oxymoron? Far-right nationalism, history ... - Frontiers
 
-- frontiersin.org
-- The Rise of Political Influencers—Perspectives on a Trend Towards Meaningful Content
+- frontiersin.org – The Rise of Political Influencers—Perspectives on a Trend Towards Meaningful Content
 
-- tandfonline.com
-- The United States is a messianic state: rhetorical roots in US foreign policy since 1991
+- tandfonline.com – The United States is a messianic state: rhetorical roots in US foreign policy since 1991
 
-- religion-online.org
-- Messianic Politics: Toward a New Political Paradigm - Religion Online
+- religion-online.org – Messianic Politics: Toward a New Political Paradigm - Religion Online
 
-- tandfonline.com
-- Full article: Agamben's political messianism in 'The Time That Remains'
+- tandfonline.com – Full article: Agamben's political messianism in 'The Time That Remains'
 
-- journalofdemocracy.org
-- Why Germans Are Rallying Against the Far Right | Journal of Democracy
+- journalofdemocracy.org – Why Germans Are Rallying Against the Far Right | Journal of Democracy
 
-- polarjournal.org
-- The Aesthetic Politics of Far Right Movements | PoLAR
+- polarjournal.org – The Aesthetic Politics of Far Right Movements | PoLAR
 
-- gspm.gwu.edu
-- PEORIA Project Rhetorical Recaps | Graduate School of Political Management | College of Professional Studies | The George Washington University
+- gspm.gwu.edu – PEORIA Project Rhetorical Recaps | Graduate School of Political Management | College of Professional Studies | The George Washington University
 
-- kuscholarworks.ku.edu
-- We Alone Can Fix It: Donald Trump's Campaign Rallies and the Rhetoric of Community - KU ScholarWorks
+- kuscholarworks.ku.edu – We Alone Can Fix It: Donald Trump's Campaign Rallies and the Rhetoric of Community - KU ScholarWorks
 
-- cabinetmagazine.org
-- Remedial Art History for the German Far Right | Lily Scherlis - Cabinet Magazine
+- cabinetmagazine.org – Remedial Art History for the German Far Right | Lily Scherlis - Cabinet Magazine
 
-- journals.uchicago.edu
-- The hands of Donald Trump : Entertainment, gesture, spectacle | HAU
+- journals.uchicago.edu – The hands of Donald Trump : Entertainment, gesture, spectacle | HAU
 
-- aljazeera.com
-- What's behind mass protests against Germany's far-right AfD party? | News | Al Jazeera
+- aljazeera.com – What's behind mass protests against Germany's far-right AfD party? | News | Al Jazeera
 
-- aljazeera.com
-- Far-right politician back in German court over use of Nazi slogan | Politics News | Al Jazeera
+- aljazeera.com – Far-right politician back in German court over use of Nazi slogan | Politics News | Al Jazeera
 
-- en.wikipedia.org
-- Björn Höcke - Wikipedia
+- en.wikipedia.org – Björn Höcke - Wikipedia
 
-- intelligence.weforum.org
-- Embracing Extremism: The True Leader of Germany's Right Wing AfD | Strategic Intelligence
+- intelligence.weforum.org – Embracing Extremism: The True Leader of Germany's Right Wing AfD | Strategic Intelligence
 
-- dw.com
-- AfD's Björn Höcke: A 'fascist' wins election in Thuringia – DW – 09/01/2024
+- dw.com – AfD's Björn Höcke: A 'fascist' wins election in Thuringia – DW – 09/01/2024
 
-- youtube.com
-- The anti-democratic ideology of German far-right leader Björn Höcke | DW News - YouTube
+- youtube.com – The anti-democratic ideology of German far-right leader Björn Höcke | DW News - YouTube
 
-- dw.com
-- The German far-right leader with anti-democratic ties – DW – 08/29/2024
+- dw.com – The German far-right leader with anti-democratic ties – DW – 08/29/2024
 
-- mdpi.com
-- The Visual Politics of the Alternative for Germany (AfD): Anti-Islam ...
+- mdpi.com – The Visual Politics of the Alternative for Germany (AfD): Anti-Islam ...
 
 - mro.massey.ac.nz
 '"More than a housewife" : tradwives : the influencers of right-wing extremism - Massey Research Online
 
-- asc41.org
-- 78th Annual Meeting - The American Society of Criminology
+- asc41.org – 78th Annual Meeting - The American Society of Criminology
 
-- conference.academos.ro
-- ciVil ReView - Academos Conference
+- conference.academos.ro – ciVil ReView - Academos Conference
 
-- ethicalspace.pubpub.org
-- Online misogyny and the manosphere: Defending discourses of 'free speech' within the alt-right and beyond
+- ethicalspace.pubpub.org – Online misogyny and the manosphere: Defending discourses of 'free speech' within the alt-right and beyond
 
-- researchgate.net
-- TRACKING THE PILLING PIPELINE: LIMITATIONS, CHALLENGES AND A CALL FOR NEW METHODOLOGICAL FRAMEWORKS IN INCEL AND MANOSPHERE RESEARCH | Request PDF - ResearchGate
+- researchgate.net – TRACKING THE PILLING PIPELINE: LIMITATIONS, CHALLENGES AND A CALL FOR NEW METHODOLOGICAL FRAMEWORKS IN INCEL AND MANOSPHERE RESEARCH | Request PDF - ResearchGate
 
 - researchgate.net
 (PDF) Incel Ideology, Radicalization and Mental Health: A Survey Study - ResearchGate
 
-- newark.rutgers.edu
-- Study Reveals How 'Incels' Become Violent Extremists | Rutgers University-Newark
+- newark.rutgers.edu – Study Reveals How 'Incels' Become Violent Extremists | Rutgers University-Newark
 
-- 19thnews.org
-- Algorithms, alpha males and tradwives are winning the war for kids' minds - The 19th News
+- 19thnews.org – Algorithms, alpha males and tradwives are winning the war for kids' minds - The 19th News
 
-- ourstreetsnow.org
-- Andrew Tate and The New Alt-Right Pipeline - Our Streets Now
+- ourstreetsnow.org – Andrew Tate and The New Alt-Right Pipeline - Our Streets Now
 
-- vanderbiltpoliticalreview.com
-- Elon Musk and the Alt-Right Pipeline: A Case Study in Influence - Vanderbilt Political Review
+- vanderbiltpoliticalreview.com – Elon Musk and the Alt-Right Pipeline: A Case Study in Influence - Vanderbilt Political Review
 
-- en.wikipedia.org
-- Vaporwave - Wikipedia
+- en.wikipedia.org – Vaporwave - Wikipedia
 
-- jewishcurrents.org
-- Examining the ADL's Antisemitism Audit - Jewish Currents
+- jewishcurrents.org – Examining the ADL's Antisemitism Audit - Jewish Currents
 
-- philosophyball.miraheze.org
-- Vaporwave - Philosophyball Wiki
+- philosophyball.miraheze.org – Vaporwave - Philosophyball Wiki
 
-- time.com
-- Anti-Defamation League Declares Pepe the Frog a Hate Symbol - Time Magazine
+- time.com – Anti-Defamation League Declares Pepe the Frog a Hate Symbol - Time Magazine
 
-- docs.house.gov
-- Congressional Testimony
+- docs.house.gov – Congressional Testimony
 
-- redbubble.com
-- Fashwave Aesthetics Merch & Gifts for Sale - Redbubble
+- redbubble.com – Fashwave Aesthetics Merch & Gifts for Sale - Redbubble
 
-- splcenter.org
-- Fashwave, the Electronic Music of the Alt-Right, is Just More Hateful Subterfuge - Southern Poverty Law Center
+- splcenter.org – Fashwave, the Electronic Music of the Alt-Right, is Just More Hateful Subterfuge - Southern Poverty Law Center
 
-- timesofisrael.com
-- Pepe the Frog meme added to ADL hate database | The Times of Israel
+- timesofisrael.com – Pepe the Frog meme added to ADL hate database | The Times of Israel
 
-- splcenter.org
-- Pepe Joins (((Echoes))) as New Hate Symbols - Southern Poverty Law Center
+- splcenter.org – Pepe Joins (((Echoes))) as New Hate Symbols - Southern Poverty Law Center
 
-- en.wikipedia.org
-- List of symbols designated by the Anti-Defamation League as hate symbols - Wikipedia
+- en.wikipedia.org – List of symbols designated by the Anti-Defamation League as hate symbols - Wikipedia
 
-- congress.gov
-- Congressional Testimony - Congress.gov
+- congress.gov – Congressional Testimony - Congress.gov
 
-- port.ac.uk
-- How the 'manosphere' spreads through online gaming, influencers and algorithms | University of Portsmouth
+- port.ac.uk – How the 'manosphere' spreads through online gaming, influencers and algorithms | University of Portsmouth
 
-- mdpi.com
-- Ressentiment in the Manosphere: Conceptions of Morality and Avenues for Resistance in the Incel Hatred Pipeline - MDPI
+- mdpi.com – Ressentiment in the Manosphere: Conceptions of Morality and Avenues for Resistance in the Incel Hatred Pipeline - MDPI
 
-- atmos.earth
-- Wellness Culture Is Now Peddling Extremism - Atmos.earth
+- atmos.earth – Wellness Culture Is Now Peddling Extremism - Atmos.earth
 
-- researchgate.net
-- Aesthetics of misogyny and the repulsive gaze: Worldview, affect ...
+- researchgate.net – Aesthetics of misogyny and the repulsive gaze: Worldview, affect ...
 
-- disinfo.eu
-- We fight disinformation because we fight for democracy - EU DisinfoLab
+- disinfo.eu – We fight disinformation because we fight for democracy - EU DisinfoLab
 
-- legal-planet.org
-- A Disinformation Deluge on California Policies - Legal Planet
+- legal-planet.org – A Disinformation Deluge on California Policies - Legal Planet
 
-- eftsure.com
-- Deepfake statistics (2025): 25 new facts for CFOs | Eftsure US
+- eftsure.com – Deepfake statistics (2025): 25 new facts for CFOs | Eftsure US
 
-- entrust.com
-- Deepfake Attempts Occur Every Five Minutes Amid 244% Surge in Digital Document Forgeries | Entrust
+- entrust.com – Deepfake Attempts Occur Every Five Minutes Amid 244% Surge in Digital Document Forgeries | Entrust
 
-- weforum.org
-- Deepfakes proved a different threat than expected. Here's how to defend against them
+- weforum.org – Deepfakes proved a different threat than expected. Here's how to defend against them
 
 - arxiv.org
 [2503.01560] Slopaganda: The interaction between propaganda and generative AI - arXiv
 
-- issuu.com
-- Artificial Intelligence, Disinformation and Elections: A case study from Pakistan - Issuu
+- issuu.com – Artificial Intelligence, Disinformation and Elections: A case study from Pakistan - Issuu
 
-- digitalcommons.unomaha.edu
-- Examining the Malign Use of AI: A Case Study Report - DigitalCommons@UNO
+- digitalcommons.unomaha.edu – Examining the Malign Use of AI: A Case Study Report - DigitalCommons@UNO
 
-- policyreview.info
-- Algorithmic governance | Internet Policy Review
+- policyreview.info – Algorithmic governance | Internet Policy Review
 
-- digitalcommons.law.byu.edu
-- Algorithmic Governance from the Bottom Up - BYU Law Digital Commons
+- digitalcommons.law.byu.edu – Algorithmic Governance from the Bottom Up - BYU Law Digital Commons
 
-- en.wikipedia.org
-- Project 2025 - Wikipedia
+- en.wikipedia.org – Project 2025 - Wikipedia
 
-- lofgren.house.gov
-- Subject-by-Subject Breakdown of Trump's Project 2025
+- lofgren.house.gov – Subject-by-Subject Breakdown of Trump's Project 2025
 
-- aclu.org
-- Project 2025, Explained | American Civil Liberties Union
+- aclu.org – Project 2025, Explained | American Civil Liberties Union
 
-- biologicalsciences.uchicago.edu
-- Algorithm predicts crime a week in advance, but reveals bias in police response
+- biologicalsciences.uchicago.edu – Algorithm predicts crime a week in advance, but reveals bias in police response
 
-- democracyforward.org
-- Project 2025 - Democracy Forward
+- democracyforward.org – Project 2025 - Democracy Forward
 
-- democracyforward.org
-- The People's Guide to Project 2025 - Democracy Forward
+- democracyforward.org – The People's Guide to Project 2025 - Democracy Forward
 
-- bu.edu
-- Algorithms Were Supposed to Reduce Bias in Criminal Justice—Do They? | The Brink
+- bu.edu – Algorithms Were Supposed to Reduce Bias in Criminal Justice—Do They? | The Brink
 
-- bostonreview.net
-- Inside Project 2025 - Boston Review
+- bostonreview.net – Inside Project 2025 - Boston Review
 
-- afge.org
-- Project 2025 Seeks to Dismantle Agencies, Terminate Up To 1 Million Federal Workers
+- afge.org – Project 2025 Seeks to Dismantle Agencies, Terminate Up To 1 Million Federal Workers
 
-- apnews.com
-- Project 2025 author Paul Dans will challenge Republican Sen. Lindsey Graham in South Carolina
+- apnews.com – Project 2025 author Paul Dans will challenge Republican Sen. Lindsey Graham in South Carolina
 
-- americanprogress.org
-- Project 2025 Would Destroy the U.S. System of Checks and Balances and Create an Imperial Presidency - Center for American Progress
+- americanprogress.org – Project 2025 Would Destroy the U.S. System of Checks and Balances and Create an Imperial Presidency - Center for American Progress
 
-- progressivereform.org
-- Statement of Principles: A Progressive Alternative to Project 2025's Authoritarian Administrative State
+- progressivereform.org – Statement of Principles: A Progressive Alternative to Project 2025's Authoritarian Administrative State
 
-- academic.oup.com
-- How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic - Oxford Academic
+- academic.oup.com – How do media contribute to the dissemination of conspiracy beliefs? A field study combining panel and web tracking at the outbreak of the COVID-19 pandemic - Oxford Academic
 
-- eurofound.europa.eu
-- Satisfaction with democracy, EU Member States and the EU, 2021–2024, (scale 1–10)
+- eurofound.europa.eu – Satisfaction with democracy, EU Member States and the EU, 2021–2024, (scale 1–10)
 
-- newsliteracy.psu.edu
-- What Do We Really Know About Social Media and Conspiracy Theories?
+- newsliteracy.psu.edu – What Do We Really Know About Social Media and Conspiracy Theories?
 
-- newamerica.org
-- Lessons from Leipzig: Case Study - New America
+- newamerica.org – Lessons from Leipzig: Case Study - New America
 
-- brookings.edu
-- How media consumption patterns fuel conspiratorial thinking - Brookings Institution
+- brookings.edu – How media consumption patterns fuel conspiratorial thinking - Brookings Institution
 
-- ipsos.com
-- The State of Democracy 2024: Between discontent, deep democratic disparities and calls for reform | Ipsos
+- ipsos.com – The State of Democracy 2024: Between discontent, deep democratic disparities and calls for reform | Ipsos
 
-- europa.eu
-- Eurobarometer – Public opinion in the European Union
+- europa.eu – Eurobarometer – Public opinion in the European Union
 
-- researchgate.net
-- The authoritarian syndrome as an attempt to restore control and its mediating role in anti-Semitism and xenophobia in Germany - ResearchGate
+- researchgate.net – The authoritarian syndrome as an attempt to restore control and its mediating role in anti-Semitism and xenophobia in Germany - ResearchGate
 
-- scholarship.miami.edu
-- The Relationship Between Social Media Use and Beliefs in Conspiracy Theories and Misinformation - University of Miami
+- scholarship.miami.edu – The Relationship Between Social Media Use and Beliefs in Conspiracy Theories and Misinformation - University of Miami
 
-- pmc.ncbi.nlm.nih.gov
-- The Relationship Between Social Media Use and Beliefs in Conspiracy Theories and Misinformation - PMC - PubMed Central
+- pmc.ncbi.nlm.nih.gov – The Relationship Between Social Media Use and Beliefs in Conspiracy Theories and Misinformation - PMC - PubMed Central
 
-- eurocities.eu
-- Democracy begins in cities: How local action can reinvigorate Europe - Eurocities
+- eurocities.eu – Democracy begins in cities: How local action can reinvigorate Europe - Eurocities
 
-- frontiersin.org
-- Social Media, Cognitive Reflection, and Conspiracy Beliefs - Frontiers
+- frontiersin.org – Social Media, Cognitive Reflection, and Conspiracy Beliefs - Frontiers
 
-- ipsos.com
-- the state of democracy - Ipsos
+- ipsos.com – the state of democracy - Ipsos
 
-- myscience.de
-- Leipzig Authoritarianism Study 2024 published | news.myScience
+- myscience.de – Leipzig Authoritarianism Study 2024 published | news.myScience
 
-- eurekalert.org
-- Leipzig Authoritarianism Study: Germans more satisfied with democracy as a form of government | EurekAlert!
+- eurekalert.org – Leipzig Authoritarianism Study: Germans more satisfied with democracy as a form of government | EurekAlert!
 
-- monitor.eurocities.eu
-- Eurocities Pulse: Mayors Survey - 2025 Monitor Eurocities
+- monitor.eurocities.eu – Eurocities Pulse: Mayors Survey - 2025 Monitor Eurocities
 
-- bfi.uchicago.edu
-- Elections, Political Polarization, and Economic Uncertainty | Becker Friedman Institute
+- bfi.uchicago.edu – Elections, Political Polarization, and Economic Uncertainty | Becker Friedman Institute
 
-- jimjosephfoundation.org
-- Modern Jewish families shaped by economic precarity, cultural diversity, other social trends
+- jimjosephfoundation.org – Modern Jewish families shaped by economic precarity, cultural diversity, other social trends
 
-- suerf.org
-- Does polarization have economic effects? It does on economic expectations - SUERF - The European Money and Finance Forum
+- suerf.org – Does polarization have economic effects? It does on economic expectations - SUERF - The European Money and Finance Forum
 
-- spia.princeton.edu
-- Polarization Increases with Economic Decline, Becoming Cripplingly Contagious
+- spia.princeton.edu – Polarization Increases with Economic Decline, Becoming Cripplingly Contagious
 
-- cambridge.org
-- Does Austerity Cause Polarization? | British Journal of Political Science | Cambridge Core
+- cambridge.org – Does Austerity Cause Polarization? | British Journal of Political Science | Cambridge Core
 
-- americanprogress.org
-- Frequently Asked Questions About Project 2025 - Center for ...
+- americanprogress.org – Frequently Asked Questions About Project 2025 - Center for ...
 
-- afscmeatwork.org
-- Project 2025 Summary Overview Project 2025 is a Heritage ...
+- afscmeatwork.org – Project 2025 Summary Overview Project 2025 is a Heritage ...
 
-- counterpunch.org
-- The Progress of Fascism Over the Last Twenty Years
+- counterpunch.org – The Progress of Fascism Over the Last Twenty Years
 
-- tandfonline.com
-- Conservatism, democracy, and authoritarianism
+- tandfonline.com – Conservatism, democracy, and authoritarianism
 
-- dokumen.pub
-- Friendly Fascism: The New Face of Power in America 1497689406, 9781497689404
+- dokumen.pub – Friendly Fascism: The New Face of Power in America 1497689406, 9781497689404
 
-- ucigcc.org
-- Authoritarianism Could Poison AI - IGCC - UC Institute on Global Conflict and Cooperation
+- ucigcc.org – Authoritarianism Could Poison AI - IGCC - UC Institute on Global Conflict and Cooperation
 
-- archive.newpol.org
-- On Liberal & Left Responses To Bush's War on Democracy - New Politics
+- archive.newpol.org – On Liberal & Left Responses To Bush's War on Democracy - New Politics
 
-- medium.com
-- Social Paradoxes and Meta-Problems | by Brent Cooper | The Abs-Tract Organization
+- medium.com – Social Paradoxes and Meta-Problems | by Brent Cooper | The Abs-Tract Organization
 
-- nomos-elibrary.de
-- The Alternative Right's Attempt at Autocratic ... - Nomos eLibrary
+- nomos-elibrary.de – The Alternative Right's Attempt at Autocratic ... - Nomos eLibrary
 
-- journalofdemocracy.org
-- How Autocrats Weaponize AI — And How to Fight Back | Journal of Democracy
+- journalofdemocracy.org – How Autocrats Weaponize AI — And How to Fight Back | Journal of Democracy
 
-- smartthinking.org.uk
-- The Politics of AI - Smart Thinking
+- smartthinking.org.uk – The Politics of AI - Smart Thinking
 
-- democratic-erosion.org
-- Artificial Intelligence and Authoritarian Governments - Democratic Erosion Consortium
+- democratic-erosion.org – Artificial Intelligence and Authoritarian Governments - Democratic Erosion Consortium
 
-- cyber.fsi.stanford.edu
-- Getting Ahead of Digital Repression: Authoritarian Innovation and Democratic Response
+- cyber.fsi.stanford.edu – Getting Ahead of Digital Repression: Authoritarian Innovation and Democratic Response
 
-- techpolicy.press
-- The Invisible Hand of Artificial Intelligence in Transnational Repression | TechPolicy.Press
+- techpolicy.press – The Invisible Hand of Artificial Intelligence in Transnational Repression | TechPolicy.Press
 
-- carnegieendowment.org
-- Envisioning a Global Regime Complex to Govern Artificial Intelligence
+- carnegieendowment.org – Envisioning a Global Regime Complex to Govern Artificial Intelligence
 
-- dragonflyintelligence.com
-- Global | AI extending capacity for political repression | Dragonfly Intelligence
+- dragonflyintelligence.com – Global | AI extending capacity for political repression | Dragonfly Intelligence
 
-- mdpi.com
-- AI Threats to Politics, Elections, and Democracy: A Blockchain-Based Deepfake Authenticity Verification Framework - MDPI
+- mdpi.com – AI Threats to Politics, Elections, and Democracy: A Blockchain-Based Deepfake Authenticity Verification Framework - MDPI
 
-- academic.oup.com
-- Governance of Generative AI | Policy and Society - Oxford Academic
+- academic.oup.com – Governance of Generative AI | Policy and Society - Oxford Academic
 
-- brookings.edu
-- The impact of generative AI in a global election year - Brookings Institution
+- brookings.edu – The impact of generative AI in a global election year - Brookings Institution
 
-- europarl.europa.eu
-- Artificial intelligence, democracy and elections - European Parliament
+- europarl.europa.eu – Artificial intelligence, democracy and elections - European Parliament
 
-- uni-jena.de
-- Germany Monitor 2024 published
+- uni-jena.de – Germany Monitor 2024 published
 
-- pewresearch.org
-- Dissatisfaction with democracy remains widespread in many nations ...
+- pewresearch.org – Dissatisfaction with democracy remains widespread in many nations ...
 
-- pmc.ncbi.nlm.nih.gov
-- Income Inequality and Global Political Polarization: The Economic ...
+- pmc.ncbi.nlm.nih.gov – Income Inequality and Global Political Polarization: The Economic ...
+
+## Key Takeaways
+
+- Soft aesthetics and branding help modern power structures hide authoritarian mechanisms.
+- Corporate and state interests increasingly converge, centralizing control through technology.
+- Digital surveillance and algorithmic governance demobilize publics while preserving a democratic façade.
+- Defending democracy requires critical literacy and collective oversight of techno-corporate power.
