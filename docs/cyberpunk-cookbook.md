@@ -11,17 +11,6 @@ updated: 2025-07-30
 
 [[toc]]
 
-## Recipe Cards
-
-![Synth-Chili recipe card](img/example-session.svg){ width=160 }
-*Synth-Chili preparation card*
-
-![Neon Noodles recipe card](img/design-guidelines.svg){ width=160 }
-*Neon Noodles schematic*
-
-![Data Dumplings recipe card](img/exec-summary-diagram.svg){ width=160 }
-*Data Dumplings outline*
-
 ## Wave 1: Foundations ![Wave 1 foundations icon](wave-icons/wave1-foundations.svg){ width=20 }
 
 ### Part I: Theses and Lineage
@@ -52,12 +41,12 @@ struggle is no longer for territory in the physical sense but for agency
 within the digital.
 
 The cyberpunk protagonist of fiction—the renegade hacker, the
-street operative, the data courier operating on the margins of a
+street-samurai, the data courier operating on the margins of a
 corporate-dominated world—is an archetype born from the anxieties of the
 late 20th century. This manifesto argues that this archetype is now an
 operational necessity.
 
-The console hacker of William Gibson's _Neuromancer_, directly interfacing with the
+The console cowboy of William Gibson's _Neuromancer_, jacking into the
 "consensual hallucination" of the matrix, has been superseded by:
 
 - the citizen investigator geolocating war crimes from a laptop,
@@ -281,7 +270,7 @@ cyberpunk narrative is almost invariably an outsider, a figure on the margins of
 society who must navigate and resist the overwhelming power of the
 corporate-state apparatus. This archetype was cemented by William Gibson's 1984
 novel Neuromancer, which introduced Case, a washed-up data thief or "console
-hacker" hired for one last run against a powerful corporate dynasty. The
+cowboy" hired for one last run against a powerful corporate dynasty. The
 cyberpunk hero is the hacker, the misfit, the mercenary, the rebel—an individual
 who possesses the technical skills to interface with the systems of power but
 exists outside their formal structures. The genre is built on a philosophy of
@@ -6542,7 +6531,7 @@ Neuromancer is precisely such a map. It is a "consensual hallucination," a "grap
 The key features Jameson identifies as characteristic of postmodern culture are the very features that define the cyberpunk aesthetic and worldview. The first is depthlessness, a focus on surfaces, façades, and reproductions over any sense of historical depth or psychological interiority. This is visible in the commodified, interchangeable bodies of cyberpunk, where consciousness can be digitized and downloaded into new "sleeves," as in Richard K. Morgan's
 Altered Carbon, rendering the physical self a disposable, surface-level attribute. This depthlessness is accompanied by a
 waning of affect, a flattening of emotional response tied to the fragmentation of the subject and the loss of individuality under the immense pressures of corporate power. The transactional, detached relationships and the cool, noir-infused prose of Gibson's Sprawl trilogy are a perfect expression of this emotional landscape.
-The second key feature is pastiche, which Jameson defines as "empty parody" or the "cannibalization" of past styles without any satirical or critical intent. Cyberpunk's aesthetic is a quintessential pastiche, a collage of disparate elements: the cynical detective of 1940s film noir, the loner ethos of the frontier drifter, the hyper-urbanism of 1980s Tokyo, and the rebellious energy of the punk movement. This stylistic recycling is not a nostalgic look backward but a reflection of a culture that has lost its connection to history, a condition Jameson calls "historical amnesia."
+The second key feature is pastiche, which Jameson defines as "empty parody" or the "cannibalization" of past styles without any satirical or critical intent. Cyberpunk's aesthetic is a quintessential pastiche, a collage of disparate elements: the cynical detective of 1940s film noir, the loner ethos of the Western cowboy, the hyper-urbanism of 1980s Tokyo, and the rebellious energy of the punk movement. This stylistic recycling is not a nostalgic look backward but a reflection of a culture that has lost its connection to history, a condition Jameson calls "historical amnesia."
 This analysis reveals that the famous cyberpunk formula of "high tech, low life" is not merely an aesthetic choice; it is a literal depiction of Jameson's thesis. The "low life"—the social decay, the urban blight, the precarious existence of individuals on the margins—is the tangible, lived experience of late capitalism. It is the reality of "market dependence" and subjugation to "platform sovereigns" that defines the concrete dystopia of the manifesto series. The "high tech"—the ubiquitous networks, the powerful AIs, the overwhelming corporate infrastructure—is the "cultural dominant" that structures and enforces this reality. The genre's enduring power, therefore, comes from its ability to make the invisible "cultural logic" of our economic system visible. It takes the abstract forces of global capital and gives them a local habitation and a name: Ono-Sendai, Tessier-Ashpool, Hosaka. The cyberpunk world is our world, with the ideological camouflage stripped away.
 
 ##### Chapter 3: The Desert of the Real — Navigating the Hyperreal
@@ -6667,7 +6656,7 @@ This reading list provides the essential source code for the Cyberpunk Mind. It 
 ##### Section 1: Foundational Fiction (The Prophecies)
 
 William Gibson, Neuromancer (1984)
-This is the novel that codified the genre and gave the digital age its defining metaphor. Neuromancer is essential not for its predictive accuracy but for its atmospheric and conceptual power. It introduced "cyberspace," which Fredric Jameson identifies as a "cognitive map"—a necessary artistic attempt to represent the unmappable new reality of a global, decentered information network. Its protagonist, Case, a washed-up "console hacker," embodies the "low life" archetype: a skilled operator alienated and marginalized by the "high tech" world of the corporate
+This is the novel that codified the genre and gave the digital age its defining metaphor. Neuromancer is essential not for its predictive accuracy but for its atmospheric and conceptual power. It introduced "cyberspace," which Fredric Jameson identifies as a "cognitive map"—a necessary artistic attempt to represent the unmappable new reality of a global, decentered information network. Its protagonist, Case, a washed-up "console cowboy," embodies the "low life" archetype: a skilled operator alienated and marginalized by the "high tech" world of the corporate
 zaibatsus. The novel's fusion of noir fatalism, technological fetishism, and hallucinatory prose established the aesthetic and thematic DNA of everything that followed.
 Bruce Sterling, Schismatrix (1985)
 If Neuromancer mapped the space of late capitalism, Schismatrix mapped its subjects. This sprawling novel is a foundational text of the posthuman condition. It depicts a solar system fractured by two competing technological ideologies: the "Shapers," who pursue genetic engineering, and the "Mechanists," who embrace cybernetic augmentation. The protagonist, Abelard Lindsay, is a master of adaptation and survival, moving between these factions and their various sub-cults over a centuries-long lifespan. His journey embodies a core cyberpunk principle: in a world of constant technological and political upheaval, rigid ideology is a death sentence. Survival depends on a pragmatic, fluid, and opportunistic approach to identity and allegiance.
