@@ -15,6 +15,30 @@ overview of the docs repo, see [the main index](../index.md).
 
 [[toc]]
 
+## Setup
+1. Install core tools
+    ```sh
+    brew install tmux zsh git
+    ```
+2. Clone a project
+    ```sh
+    git clone git@github.com:example/project.git
+    ```
+
+## Daily Usage
+1. Start a tmux session
+    ```sh
+    tmux new -s dev
+    ```
+2. Sync latest changes
+    ```sh
+    git pull
+    ```
+
+!!! tip "Common pitfalls"
+    - SSH keys not loaded? `ssh-add -l` shows active keys.
+    - Tools missing from `PATH`? Check with `echo $PATH`.
+
 ## tmux
 
 `tmux` is a terminal multiplexer that lets you run multiple sessions and panes in one terminal window.
