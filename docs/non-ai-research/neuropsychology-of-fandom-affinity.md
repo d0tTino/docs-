@@ -19,11 +19,11 @@ updated: 2025-09-02
 - Recommendations emphasize joining neurodivergent individuals in their attentional channels, expanding co-regulation infrastructure (e.g., quiet rooms, supportive moderators), and championing fursona-centered spaces for authentic connection.
 
 ## Introduction
-This report investigates why the furry fandom and its art resonate so powerfully with neurodivergent individuals.
+Furry fandom's art and culture resonate strongly with neurodivergent individuals by offering immersive, interest-driven experiences that feel neurologically regulating and socially safe. This report centers on that resonance to understand why many autistic and ADHD participants experience the fandom as a stabilizing force.
 
-It synthesizes peer-reviewed research from neurodiversity studies (autism and ADHD), social neuroscience, clinical psychology, and fandom studies to explain this resonance.
+To ground that inquiry, the report synthesizes peer-reviewed research from neurodiversity studies (autism and ADHD), social neuroscience, clinical psychology, and fandom scholarship. Integrating these perspectives ensures the analysis reflects both brain-based mechanisms and lived community practices.
 
-The analysis maps how attentional style, social processing, interpersonal regulation, and motivational dynamics converge within the fandom to foster identity, belonging, and well-being.
+The analysis maps how attentional style, social processing, interpersonal regulation, and motivational dynamics converge within furry spaces to cultivate identity, belonging, and well-being. These pathways frame the scope of the study and guide the recommendations that follow.
 
 Scope highlights:
 
