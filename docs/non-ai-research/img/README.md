@@ -9,6 +9,9 @@ folder using the exact filenames below so the existing Markdown links resolve au
   background.
 - Suggested export: PNG, 72–150 DPI, avoid color profiles that clip when uploaded to the web.
 - Keep file sizes modest (<1 MB) so the documentation site loads quickly.
+- Provide descriptive alt text for each uploaded image to keep the docs accessible (for example,
+  "Alt text: Painterly brush strokes transitioning from deep indigo to pale lavender with visible
+  bristle texture across a neutral gray background.").
 
 | File name | Depicts | Capture tips |
 | --- | --- | --- |
