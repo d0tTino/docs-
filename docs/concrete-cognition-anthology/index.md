@@ -28,6 +28,15 @@ The report is structured in four parts. Part I establishes the theoretical and p
 - [Part III: Triangulation and Comparative Analysis](part-iii.md)
 - [Part IV: Application and Ethical Imperatives](part-iv.md)
 
+## Reading Roadmap
+
+| Part | Main focus |
+| --- | --- |
+| [Part I](part-i.md) | Cognitive landscape of concrete thought |
+| [Part II](part-ii.md) | Inner world and qualitative immersion |
+| [Part III](part-iii.md) | Triangulation and comparative analysis |
+| [Part IV](part-iv.md) | Applications and ethical imperatives |
+
 | Part | Theme | Approx. word count |
 | --- | --- | --- |
 | [Part I](part-i.md) | The Cognitive Landscape of Concrete Thought | ~2,200 |
