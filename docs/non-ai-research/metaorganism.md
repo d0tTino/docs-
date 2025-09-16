@@ -63,6 +63,10 @@ This applies directly to organizations:
 - A global supply chain achieves efficiencies of scale impossible for a local merchant.
 - A social movement can generate political pressure that isolated individuals cannot.
 
+![Organism cooperation diagram](./fig/organism-cooperation.svg)
+
+*Two organisms exchange resources, illustrating a simple cooperative relationship. This cooperation enables outcomes that neither could achieve alone.*
+
 These synergistic benefits—in innovation, efficiency, and influence—are the functional _payoffs_ that drive the formation and growth of metaorganisms.[^25] This constant search for synergistic advantage provides the positive, creative force that fuels organizational evolution.
 
 ### Collective Consciousness and Hyperreality: The Narrative Glue
