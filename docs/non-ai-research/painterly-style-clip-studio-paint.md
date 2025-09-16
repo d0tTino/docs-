@@ -11,6 +11,13 @@ updated: 2025-09-08
 
 # A Comprehensive Guide to the Painterly Style in Clip Studio Paint
 
+## Quick Reference
+
+- Canvas setup: Neutral gray ground; 300 DPI base.
+- Essential brushes: Oil Flat, Cat's Tongue, textured knives.
+- Grisaille steps: Kill white, sketch planes, block values.
+- Glazing & opaque: Glaze colors, finalize opaque accent shapes.
+
 ## Introduction: The Philosophy of Painterly Digital Art
 
 Painterly digital art thrives on intention rather than rigid formulas, asking artists to lean into
