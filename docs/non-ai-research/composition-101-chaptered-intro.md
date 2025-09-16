@@ -309,3 +309,25 @@ explain why you’re breaking it.
 - [Will Kemp Art School — Notan walkthrough](https://willkempartschool.com/how-to-use-notan-design-to-create-better-paintings/)
 - [James Gurney — Value grouping demos](https://gurneyjourney.blogspot.com/2015/12/value-grouping.html)
 
+## Conclusion & Suggested Next Steps
+
+Across ten chapters you mapped the foundations of composition—from defining the
+core principles (Chapter 1) to practicing rule-of-thirds frameworks (Chapters 2
+and 3), managing space and balance (Chapters 4 and 5), experimenting with
+advanced grids (Chapter 6), and mastering value design through Notan and
+intentional exceptions (Chapters 7–10). Treat the sequence as a toolkit: start
+each project by clarifying your subject, pick the grid or value plan that
+supports the story, and review the chapter-specific checklists before locking in
+details.
+
+**Next steps and practice prompts**
+
+- Build a mini-portfolio of six images: two ROT studies, two value-grouping
+  pieces, and two intentional “rule breaks,” annotating how you applied the
+  chapters.
+- Schedule a weekly Notan sprint—10-minute timers for three thumbnails—so value
+  planning becomes automatic before you paint, shoot, or design.
+- Revisit a past project, overlay the chapter checklists, and revise the
+  composition using the guides from Chapters 4, 5, and 10 to see how the visual
+  hierarchy improves.
+
