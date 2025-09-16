@@ -100,18 +100,38 @@ principle of "controlled chaos."
 
 ### Table 1: The Essential Painterly Brush Toolkit
 
-<!-- prettier-ignore -->
-| Brush Name/Type | Recommended Use | Key Characteristics | Source |
+| Brush | Primary Use | Key Traits | Source |
 | --- | --- | --- | --- |
-| Oil Paint Flat Brush | Blocking, Blending, Soft/Hard Edges | Blends smoothly out of the box, flat chisel shape. | CSP Default |
-| Cat's Tongue Brush | Blending, Tapered Strokes | Duplicate of Oil Paint Flat Brush with pen pressure size. | Custom Setting |
-| Hoarse oil | Sketching, Painting | Versatile; soft blending with light pressure, hard edge with firm pressure. | ASSETS ID: 1776233 |
-| Ink Tapered Raw | Textured Strokes, Dry Brush Effects | Mixes well, adds a dry brush texture at stroke ends. | DAUB Brushes (Premium) |
-| Flat Ribbon (Vertical/Horizontal) | Hard Edges, Blocking, Palette Knife Effects | Creates disrupted, blocky strokes with hard edges. | Custom Brush |
-| Flat Ribbon Soft | Spontaneous Edges, Dry Brush Texture | Randomly applies textures for an unplanned look. | Custom Brush |
-| SU-Cream Pencil | Initial Sketching | Subtle texture, suitable for clean or rough sketches. | ASSETS ID: 1761353 |
-| Thick Paints set | Thick Painting, Rendering, Texture | Textured brushes with color jitter for natural variation. | ASSETS ID: 1794939 |
-| Textured Thick Lineart Brush | Textured Line Art, Inking | Pencil-like texture, good for defining forms before painting. | ASSETS ID: 2108280 |
+| Oil Paint Flat Brush | Blocking & blending | Smooth, built-in blending; flat chisel tip | CSP default |
+| Cat's Tongue Brush | Controlled tapered strokes | Pressure-driven size taper | Custom duplicate |
+| Hoarse Oil | Sketching & painting | Soft-to-firm response based on pressure | ASSETS ID: 1776233 |
+| Ink Tapered Raw | Textured strokes | Dry-brush finish with clean mixing | DAUB Brushes (premium) |
+| Flat Ribbon (V/H) | Hard edges & block-ins | Palette-knife style chisel variants | Custom brush set |
+| Flat Ribbon Soft | Spontaneous texture | Randomized texture patterns per stroke | Custom brush |
+| SU-Cream Pencil | Initial sketch | Subtle tooth for clean or rough marks | ASSETS ID: 1761353 |
+| Thick Paints set | Thick rendering | Textured brushes with color jitter | ASSETS ID: 1794939 |
+| Textured Thick Lineart | Textured line work | Pencil-like grit that defines forms | ASSETS ID: 2108280 |
+
+#### Brush Notes
+
+**Oil Paint Flat Brush.** Clip Studio Paint's default oil brush blends colors smoothly out of the box. Dropping its opacity to around 90% encourages soft transitions while still allowing assertive, hard-edged strokes where needed.
+
+**Cat's Tongue Brush.** Duplicate the Oil Paint Flat Brush and adjust brush size dynamics to follow pen pressure. The tapered stroke mimics a traditional filbert brush, offering expressive control during blends and calligraphic marks.
+
+**Hoarse Oil.** This asset brush excels at both sketching and painting. Light pressure gives a gentle blend, while firm pressure snaps into a harder edge, letting you block in forms without swapping tools.
+
+**Ink Tapered Raw.** Sourced from DAUB Brushes, this tool incorporates scans of natural media to add subtle dry-brush textures at stroke ends. It is ideal for breaking up overly digital passages while maintaining clean color mixing.
+
+**Flat Ribbon (Vertical/Horizontal).** These custom variations simulate palette-knife effects. The vertical and horizontal chisel options let you carve in crisp edges or lay down chunky shapes that keep brushwork energetic.
+
+**Flat Ribbon Soft.** Load this custom brush with multiple texture patterns from the Clip Studio library and enable random texture rotation. Each stamp generates unpredictable termini, replicating the "controlled chaos" of traditional dry media.
+
+**SU-Cream Pencil.** With a delicate grain, this pencil brush serves as a reliable sketching tool for both clean construction lines and loose gesture marks before paint application.
+
+**Thick Paints Set.** Use this asset collection when you need rich, impasto-like coverage. Built-in color jitter injects natural variance so repeated strokes do not appear mechanical.
+
+**Textured Thick Lineart.** The pencil-like grit of this brush is perfect for defining forms or reinforcing edges. Lay it down before painting to establish structure, or after rendering to reintroduce tactile line work.
+
 
 ## Section 2: The Grisaille Foundation: Mastering Value with the Grayscale-to-Color Method
 
