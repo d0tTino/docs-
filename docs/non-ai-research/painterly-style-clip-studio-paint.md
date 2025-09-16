@@ -11,25 +11,21 @@ updated: 2025-09-08
 
 ## Introduction: The Philosophy of Painterly Digital Art
 
-The painterly style is less a rigid set of rules and more an artistic philosophy. It prioritizes
-expression, emotion, and the impression of detail over the meticulous, line-by-line rendering of
-every element. The goal is to capture the essence of a subject through deliberate and visible
-brushstrokes, varied edges, and a rich interplay of color and light. This approach, often associated
-with traditional oil painting, can be masterfully replicated in the digital realm. It involves a
-process of "shape sculpting," where forms are built up in large, confident chunks of value and
-color, relying on suggestion rather than exhaustive detail to guide the viewer's eye.
+Painterly digital art thrives on intention rather than rigid formulas, asking artists to lean into
+expression as much as execution. Instead of smoothing every stroke to perfection, the method favors
+visible decisions that let the viewer feel the artist's hand at work.
 
-Achieving this style in a digital medium like Clip Studio Paint is a fascinating exercise in
-"controlled chaos." Digital tools are inherently precise and predictable, capable of producing
-perfectly smooth lines and gradients. The painterly artist, however, seeks to break away from this
-digital perfection. The aim is to emulate the organic textures, spontaneous edges, and "happy
-accidents" that are characteristic of traditional media. This involves a conscious selection of
-tools and techniques that introduce a degree of unpredictability, such as brushes designed to create
-"unplanned, spontaneous edges." Ultimately, mastering the painterly style is as much about
-cultivating a specific mindset and strengthening artistic fundamentals—a solid grasp of value, form,
-and light—as it is about learning the functions of any particular software. This guide provides a
-robust framework for understanding both the philosophy and the practical, step-by-step application
-of these techniques within Clip Studio Paint.
+- **Philosophy:** Emphasize emotion, suggestion, and the impression of detail instead of exacting,
+  line-by-line rendering.
+- **Goals:** Capture a subject's essence with confident brushwork, varied edges, and dynamic color
+  and light.
+- **Approach:** Build forms through "shape sculpting," embrace controlled chaos with textured tools,
+  and reinforce fundamentals such as value, form, and lighting.
+
+Recognizing these priorities makes it easier to translate traditional painterly sensibilities into
+Clip Studio Paint. The following sections explore how to set up a supportive workspace, curate
+brushes that invite organic variation, and apply grisaille techniques so the philosophy stays at the
+forefront of every stage.
 
 ## Section 1: Assembling Your Digital Atelier: Workspace and Brush Curation
 
