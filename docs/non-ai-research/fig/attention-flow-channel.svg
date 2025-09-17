@@ -1,0 +1,76 @@
+<svg width="960" height="600" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Attention tunnel entering the flow channel with burnout risks</title>
+  <desc id="desc">Diagram of the relationship between task challenge, skill, and attention management. Axes show skill on the horizontal axis and task challenge on the vertical axis. A light beam representing the attention tunnel enters from the left and is kept inside a teal diagonal flow channel by boundary cues like timers and sticky notes. Above the channel is the anxiety zone, below is the boredom zone. Without boundaries the beam bends toward a red hyperfocus vortex labeled burnout. Switch cost arrows contrast gentle exits from flow with jagged exits from hyperfocus.</desc>
+  <defs>
+    <linearGradient id="beamGradient" x1="40" y1="360" x2="220" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdf2b4"/>
+      <stop offset="0.6" stop-color="#f9da6b" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f9da6b" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="flowFill" x1="160" y1="420" x2="780" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4f1f4"/>
+      <stop offset="1" stop-color="#b1e3e7"/>
+    </linearGradient>
+    <radialGradient id="vortexGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 220) scale(80)">
+      <stop offset="0" stop-color="#ffe0e0"/>
+      <stop offset="0.65" stop-color="#f17d7a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#d93847" stop-opacity="0.95"/>
+    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 z" fill="#335363"/>
+    </marker>
+    <marker id="arrowheadBold" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,5 L0,10 z" fill="#bb2a34"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" fill="#ffffff"/>
+  <g font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+    <g stroke="#335363" stroke-width="3" fill="none">
+      <line x1="120" y1="520" x2="120" y2="80" marker-end="url(#arrowhead)"/>
+      <line x1="120" y1="520" x2="860" y2="520" marker-end="url(#arrowhead)"/>
+    </g>
+    <text x="880" y="548" font-size="18" text-anchor="end" fill="#335363" font-weight="600">Skill ↑</text>
+    <text x="95" y="78" font-size="18" text-anchor="middle" fill="#335363" font-weight="600" transform="rotate(-90 95 78)">Task Challenge ↑</text>
+    <g opacity="0.4" stroke="#9fb8c1" stroke-dasharray="6 8">
+      <line x1="200" y1="160" x2="200" y2="520"/>
+      <line x1="320" y1="160" x2="320" y2="520"/>
+      <line x1="440" y1="160" x2="440" y2="520"/>
+      <line x1="560" y1="160" x2="560" y2="520"/>
+      <line x1="680" y1="160" x2="680" y2="520"/>
+      <line x1="800" y1="160" x2="800" y2="520"/>
+      <line x1="120" y1="440" x2="860" y2="440"/>
+      <line x1="120" y1="360" x2="860" y2="360"/>
+      <line x1="120" y1="280" x2="860" y2="280"/>
+      <line x1="120" y1="200" x2="860" y2="200"/>
+    </g>
+    <path d="M180 340 L340 260 L560 200 L760 160 L760 240 L560 280 L340 340 L180 420 Z" fill="url(#flowFill)" stroke="#0f8b8d" stroke-width="3"/>
+    <path d="M40 360 L160 300 L160 420 Z" fill="url(#beamGradient)" opacity="0.9"/>
+    <path d="M160 360 C280 320 400 280 560 240 C640 220 710 208 780 210" fill="none" stroke="#f5af19" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 12" opacity="0.65"/>
+    <text x="84" y="352" font-size="18" fill="#a26b00" font-weight="600" transform="rotate(-18 84 352)">Attention Tunnel</text>
+    <g stroke="#0f8b8d" stroke-width="4">
+      <line x1="240" y1="300" x2="260" y2="330"/>
+      <line x1="360" y1="240" x2="380" y2="270"/>
+    </g>
+    <rect x="246" y="300" width="44" height="44" rx="6" fill="#fef08a" stroke="#dcbf40" stroke-width="2" transform="rotate(-18 246 300)"/>
+    <text x="268" y="324" font-size="13" text-anchor="middle" fill="#4b4b36" font-weight="600" transform="rotate(-18 268 324)">Timer</text>
+    <rect x="366" y="238" width="60" height="46" rx="6" fill="#fdecc8" stroke="#c28b2c" stroke-width="2" transform="rotate(-18 366 238)"/>
+    <text x="396" y="266" font-size="13" text-anchor="middle" fill="#4b4b36" font-weight="600" transform="rotate(-18 396 266)">Sticky Note</text>
+    <text x="470" y="300" font-size="28" text-anchor="middle" fill="#0b6165" font-weight="700">Flow Channel</text>
+    <text x="265" y="478" font-size="20" fill="#335363" opacity="0.8">Boredom &amp; Apathy Zone</text>
+    <text x="292" y="212" font-size="20" fill="#335363" opacity="0.8">Anxiety &amp; Overwhelm Zone</text>
+    <text x="500" y="360" font-size="16" fill="#1a504f" opacity="0.8">Balanced challenge keeps the beam centered.</text>
+    <text x="585" y="190" font-size="15" fill="#1a504f" opacity="0.8">Boundary cues guide attention.</text>
+    <circle cx="820" cy="220" r="78" fill="url(#vortexGrad)" opacity="0.92"/>
+    <path d="M770 220 c20 -40 80 -60 110 -20 c25 35 -20 80 -60 80 c-30 0 -46 -20 -48 -40" fill="none" stroke="#7d1424" stroke-width="6" stroke-linecap="round"/>
+    <path d="M700 230 Q740 180 800 200" fill="none" stroke="#bb2a34" stroke-width="8" stroke-dasharray="10 10" marker-end="url(#arrowheadBold)"/>
+    <text x="820" y="308" font-size="20" fill="#7d1424" font-weight="700" text-anchor="middle">Hyperfocus Vortex</text>
+    <text x="820" y="332" font-size="15" fill="#7d1424" text-anchor="middle">Burnout risk rises here</text>
+    <text x="742" y="182" font-size="14" fill="#7d1424" text-anchor="start">No guardrails → pulled off course</text>
+    <path d="M560 280 L560 420" fill="none" stroke="#335363" stroke-width="4" marker-end="url(#arrowhead)"/>
+    <text x="580" y="400" font-size="16" fill="#335363">Switch Cost (gentle)</text>
+    <path d="M620 260 L680 220 L740 240" fill="none" stroke="#bb2a34" stroke-width="5" stroke-linejoin="round" stroke-dasharray="6 6" marker-end="url(#arrowheadBold)"/>
+    <text x="666" y="214" font-size="16" fill="#bb2a34" font-weight="600" text-anchor="middle">Switch Cost (jagged)</text>
+    <text x="204" y="150" font-size="14" fill="#335363" opacity="0.75">Rising challenge</text>
+    <text x="820" y="542" font-size="14" fill="#335363" text-anchor="middle" opacity="0.75">Skill mastery increases stability</text>
+  </g>
+</svg>
