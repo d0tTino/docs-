@@ -4,11 +4,14 @@ The **painterly-style-clip-studio-paint.md** guide references PNG assets that li
 README. To keep the repository lightweight and binary-free, those images are _not_ stored in git.
 When you're ready to supply your own examples, export them as PNG files and place them in this
 folder using the exact filenames below so the existing Markdown links resolve automatically. Add
-those filenames to your `.gitignore` so local renders stay out of the repository. For example:
+those filenames (and any alternate exports such as JPEGs) to your `.gitignore` so local renders
+stay out of the repository. For example:
 
 ```
 # Painterly brush demo captures
 docs/non-ai-research/img/*.png
+docs/non-ai-research/img/*.jpg
+docs/non-ai-research/img/*.jpeg
 ```
 
 - Recommended canvas: 1600×900 px (or similar 16:9 ratio) with transparent or neutral-gray
