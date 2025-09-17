@@ -392,7 +392,126 @@ The shared lesson: when you squint at masterworks, the compositions still read a
 Notan design and disciplined value grouping give compositions instant readability and expressive control. By simplifying values into a handful of masses, grouping lights with lights and darks with darks, and rationing high contrast to the focal point, you build images that hold up at any size. Keep Notan thumbnails in your workflow—iterate quickly, audit your paintings in grayscale or threshold view, and protect the value map as you refine details. The result is artwork that communicates clearly, much like the masterworks you admire.
 
 
-## Chapter 8 — When to break the rule (on purpose)
+## Chapter 8 — Color composition: mastering hue, saturation, and value
+
+### Color Composition: Mastering Hue, Saturation, and Value for Visual Impact
+
+Color composition is the deliberate use of hue, saturation, and value to shape a viewer’s experience. By planning how colors interact, you create visual hierarchy, establish narrative tone, and lead the eye through an image with intention rather than leaving impact to chance.[^lunar-hsv][^vaa-focal]
+This chapter defines each color dimension, explores how value and color collaborate, and shares practical techniques—from limited palettes and complementary contrasts to studio drills and digital workflows—that strengthen your color decision-making.[^lunar-hsv][^mitchalbala-grouping][^clip-painterly-workflow]
+
+### The three pillars: hue, saturation, and value
+
+#### Hue
+
+Hue names the color family—red, blue, green, violet—and carries symbolic baggage that influences storytelling. Warm reds and oranges tend to feel energetic or urgent, while cool blues and greens communicate calm, mystery, or melancholy; swapping a cloak from red to blue instantly shifts how a character reads.[^lunar-hsv]
+
+#### Value (lightness)
+
+Value measures how light or dark a color is, independent of its hue. In grayscale, value is what remains, so it defines the underlying light-and-shadow structure of your composition. Yellow at full saturation is inherently lighter than navy blue, and a moonlit night scene still depends on a bright moon, mid-dark sky, and dark ground to describe depth before hue is added.[^lunar-hsv]
+
+#### Saturation (chroma)
+
+Saturation describes color intensity. Highly saturated hues feel vivid and loud (think neon signage), whereas desaturated mixtures lean toward gray and slip into the background. A bright yellow umbrella in a rainy, gray environment pops precisely because it contrasts a muted field with a high-chroma accent.[^lunar-hsv]
+
+Hue, value, and saturation always travel together. A deep forest green has a specific hue, a dark value, and medium-high saturation; lighten the value and it becomes mint, mute the saturation and it becomes olive gray. Deliberately manipulating each axis lets you dial in the narrative effect you want.[^lunar-hsv]
+
+### Value vs. color: structure and mood
+
+“Value does the heavy lifting; color sets the mood.” Plan compositions in terms of light and dark first—through thumbnails, Notan studies, or grayscale passes—so the image reads even without color.[^lunar-hsv][^will-kemp]
+Strong value contrast at the focal point instantly grabs attention, which is why artists often design light subjects against dark backgrounds (or the reverse) and why Howard Pyle emphasized grouping tones before adding chroma.[^gurney-values][^vaa-focal]
+
+Once the value scaffold is solid, color choices modulate emotion. Casting a scene in deep blue pushes it toward melancholy or night, while bathing the same values in gold suggests warmth or nostalgia. A limited palette can keep mood consistent, and a single unexpected hue (like the red coat in *Schindler’s List*) can punctuate the narrative without undermining readability.[^lunar-hsv][^vaa-focal]
+
+> **Quick audit:** Toggle a grayscale preview (a black Color layer in Procreate or Clip Studio Paint works) to ensure the design holds up without color before you chase chroma adjustments.[^clip-painterly-workflow]
+
+### Using color contrast to direct the eye
+
+#### Hue contrast (complementary colors)
+
+Opposite hues on the color wheel—red/green, blue/orange, yellow/purple—create maximum visual vibration when placed together. A carefully placed complementary accent (a red flower in a green field, an orange rim light on a blue figure) draws the eye immediately, which is why filmmakers lean on orange-and-teal grades to separate actors from backgrounds.[^vaa-focal]
+
+#### Warm vs. cool (temperature contrast)
+
+Warm colors tend to advance, while cool colors recede. Arranging the warmest and coolest zones to meet at your subject (for instance, a warm character silhouetted against a cool environment) builds depth and directs focus through temperature contrast.[^muddy-temp]
+
+#### Saturation contrast
+
+High-chroma color surrounded by muted mixtures acts like a spotlight. Reserve pure saturation for hero elements and let supporting areas lean neutral so the focal region carries the strongest intensity.[^drawpaint-saturation]
+
+#### Balancing multiple contrasts
+
+Too many competing contrasts create “color noise.” Designate one or two key contrast moments and keep the rest of the palette harmonized through repetition and grouping so the eye isn’t overwhelmed.[^mitchalbala-grouping]
+
+### Palette strategies for harmony and impact
+
+#### Limited palettes for unity
+
+Restricting yourself to two to five core hues encourages deliberate mixing and instantly ties an image together. Classic limited palettes like the four-color Zorn set generate a wide range of colors while keeping every mixture related.[^louise-limited][^mitchalbala-grouping]
+
+#### Color grouping and families
+
+Organize the scene into a handful of color families—perhaps cool shadows, warm lights, and a small accent group—so that when you squint you see just a few cohesive masses instead of a patchwork rainbow.[^mitchalbala-grouping]
+
+#### Complementary accents and split schemes
+
+Base the majority of the frame on analogous or neighboring hues, then deploy complements or split complements sparingly where you need emphasis. Unequal balance keeps the accent special instead of chaotic.[^mitchalbala-grouping][^vaa-focal]
+
+#### Saturation zones and emphasis
+
+Plan saturation in zones: decide which areas earn maximum chroma, which stay midrange, and which drop toward gray. This mimics atmospheric perspective and ensures the boldest color aligns with your story beat.[^drawpaint-saturation]
+
+### Real-world examples of strong color composition
+
+- **Film:** *Schindler’s List* stays almost monochrome so one red coat commands attention, while *The Matrix* uses a pervasive green cast to signal its simulated world—two deliberate palette choices that guide narrative interpretation.
+- **Painting:** Monet’s *Impression, Sunrise* lets a small, saturated orange sun vibrate against desaturated blues, and Baroque chiaroscuro painters limit hues while exaggerating value contrast to focus drama.
+- **Illustration & concept art:** Comic covers and concept art often isolate “spot colors” (a glowing weapon, a bright cloak) against muted worlds, and animation color scripts sequence palettes scene by scene to steer emotion.
+
+### Common mistakes in color composition
+
+- **Color noise / rainbow syndrome:** Introducing too many unrelated hues fractures unity. Merge background elements into shared color families and repeat mixtures so the scene feels intentional.[^mitchalbala-grouping]
+- **Saturation overload:** Pushing every color to 100% intensity flattens hierarchy. Reserve the highest chroma for focal elements and quiet the rest.[^drawpaint-saturation]
+- **Weak value structure:** Distinct hues with identical brightness blur together. If your grayscale check looks muddy, rebuild the value pattern before tweaking color.[^lunar-hsv][^will-kemp]
+- **Muddy mixtures:** Over-mixing complements or shading with pure black strips vibrancy. Introduce purposeful hue shifts in lights and shadows instead of piling pigments indiscriminately.[^clip-painterly-workflow]
+- **Inconsistent lighting:** Forgetting that one light source tints everything equally breaks believability. Let global light color influence every local decision.[^lunar-hsv]
+
+### Building a color plan: step by step
+
+1. **Start with value thumbnails.** Lock in a readable light/dark structure so composition, not color, carries clarity.[^lunar-hsv][^will-kemp]
+2. **Decide the story and mood.** Describe the emotional beat (“mystical night,” “warm celebration”) to translate into temperature and saturation choices.
+3. **Choose a dominant color family.** Pick the overall bias—warm, cool, or neutral—to anchor later decisions.[^mitchalbala-grouping]
+4. **Select supporting hues.** Limit accents to complements, split complements, or neighbors that support the narrative rather than diluting it.[^mitchalbala-grouping]
+5. **Assign values and saturation in a color rough.** Overlay color on your value study or paint a miniature to test the palette before full rendering.[^clip-painterly-workflow]
+6. **Mark saturation hotspots.** Note where you will push or mute chroma so the focal area retains its punch.[^drawpaint-saturation]
+7. **Execute with discipline.** Paint the final while referencing your plan; glaze over grayscale foundations with Color/Overlay layers or mix directly using established swatches to avoid palette drift.[^clip-painterly-workflow][^clip-painterly-overlay]
+8. **Audit in grayscale.** Toggle desaturated previews to confirm the value structure still works as you refine details.[^clip-painterly-workflow]
+9. **Adjust and iterate.** Use gentle color-balance tweaks or targeted saturation changes to keep hierarchy intact once the image is rendered.
+
+### Drills to boost your color skills
+
+- **Gray→color transformations:** Apply multiple palettes (cool night, warm sunset, stylized complement) over one grayscale study to see how hue alone shifts mood.[^lunar-hsv][^clip-painterly-workflow]
+- **Palette swapping studies:** Re-create a film still or master painting with only five sampled colors, then repaint it with a different limited palette to practice imposing harmony.[^mitchalbala-grouping]
+- **Color grouping from life:** Squint at real scenes and reduce them to a few hue families, sketching simplified studies that emphasize grouping over literal copying.[^mitchalbala-grouping]
+- **Complementary switch exercise:** Paint a simple scene twice—once in its default palette, again in the complementary scheme—to build flexibility with temperature shifts.
+- **Saturation zoning drill:** Repaint an image using only three saturation tiers (high, mid, low) to feel how intensity hierarchy redirects focus.[^drawpaint-saturation]
+- **Digital layer mix-and-match:** Duplicate a grayscale study and explore combinations of Color, Overlay, Multiply, and Add layers to discover new palettes quickly.[^clip-painterly-workflow]
+
+### Digital tips: using color layers and blending modes (Procreate & Clip Studio Paint)
+
+- **Glaze color over grayscale:** Set a layer to Color mode and paint broad hues without disturbing the underlying values—ideal for rapid palette exploration.[^clip-painterly-workflow]
+- **Overlay, Multiply, and Add layers:** Overlay layers boost warmth and saturation, Multiply layers add colored shadows, and Add/Screen layers create luminous effects that respect existing values.[^clip-painterly-overlay]
+- **Lock transparency for targeted shifts:** Alpha lock (Procreate) or Lock Transparent Pixels (CSP) before recoloring an element so hue tweaks stay within its silhouette.[^clip-painterly-workflow]
+- **Adjustment layers and swatch discipline:** Build custom palettes, lean on correction layers for subtle global nudges, and keep a swatch strip on canvas to prevent accidental color drift.[^clip-painterly-workflow][^procreate-handbook]
+- **Procreate-specific helpers:** Use Reference Layers for clean color drops, tap Hue/Saturation or Curves adjustments for quick experiments, and save favorite combinations in custom palettes.[^procreate-handbook][^apple-stack]
+- **Clip Studio Paint-specific helpers:** Organize color adjustments in layer folders, apply masks for localized grades, and use Tonal Correction layers (like Color Balance or Gradient Maps) to unify a scene.[^clip-studio-ask][^clip-painterly-workflow]
+- **Test in grayscale on the fly:** Keep a black Color layer or use CSP’s Proof Color/Preview in Grayscale to audit values throughout the painting process.[^clip-painterly-workflow]
+- **Reference smartly:** Sample colors from photos or film stills to analyze relationships, then adapt them to your design instead of copying blindly.[^clip-painterly-workflow]
+
+### Conclusion
+
+Mastering hue, saturation, and value turns color into a deliberate storytelling tool. Treat value as the structural backbone, deploy hue and temperature to shape mood, ration saturation to highlight what matters, and reinforce decisions with planned palettes, drills, and digital checks. With practice, you will sense when a color is out of place, know how to balance warm and cool, and wield color composition with the same confidence you bring to value design.[^lunar-hsv][^mitchalbala-grouping][^drawpaint-saturation]
+
+
+## Chapter 9 — When to break the rule (on purpose)
 
 - Center the subject for power, symmetry, or an uncanny graphic feel.
 - Crush the horizon (all sky or all ground) to exaggerate mood.
@@ -402,7 +521,7 @@ Even rule-of-thirds advocates stress it’s guidance, not law—use it until you
 explain why you’re breaking it.[^petapixel-golden-ratio]
 
 
-## Chapter 9 — 15-minute practice loop (do these today)
+## Chapter 10 — 15-minute practice loop (do these today)
 
 - **A/B/C crops:** Center vs. left third vs. right third. Note how the mood shifts.
 - **Horizon study:** Shoot the same scene with the horizon on top vs. bottom third.
@@ -413,7 +532,7 @@ explain why you’re breaking it.[^petapixel-golden-ratio]
   path is unmistakable.[^studiobinder-rot][^premiumbeat-lead-room][^will-kemp]
 
 
-## Chapter 10 — Set up helpful guides in your apps
+## Chapter 11 — Set up helpful guides in your apps
 
 - **Clip Studio Paint:** Use the Straight Ruler with “Equal Division = 3,” or divide a
   frame folder 3×3 for a reusable overlay.[^clip-studio-ask]
@@ -433,7 +552,16 @@ explain why you’re breaking it.[^petapixel-golden-ratio]
 [^expertphotography-leadroom]: [ExpertPhotography — Lead Room Principle](https://expertphotography.com/lead-room-principle/)
 [^learncorel-negative-space]: [Corel Discovery Center — Using Negative Space in Photography](https://learn.corel.com/tutorials/negative-space-photography/)
 [^guides-unc-headroom]: [UNC Libraries — Video Best Practices: Shot Framing](https://guides.lib.unc.edu/video/shot-framing#s-lg-box-wrapper-23345970)
- 
+
+[^drawpaint-saturation]: [Draw Paint Academy — How To Use Color Saturation To Draw Attention To Your Focal Point](https://drawpaintacademy.com/color-saturation-to-draw-attention-to-your-focal-point/)
+[^louise-limited]: [Louise Demasi — The Benefits of Using a Limited Colour Palette](https://www.louisedemasi.com/tips/2023/11/6/benefits-of-using-a-limited-colour-palette?srsltid=AfmBOooaHFjs4aZwkx-vpoBF6fOKiGWh0G0KUa0bnecQX4Sd0hewl34c)
+[^lunar-hsv]: [Lunar Academy — Hue, Value, and Saturation: The Holy Trinity of Color](https://www.lunaracademy.co/post/hue-value-and-saturation)
+[^mitchalbala-grouping]: [Mitch Albala — The Power of Color Grouping in Landscape Painting](https://mitchalbala.com/power-of-color-grouping-in-landscape-painting/)
+[^muddy-temp]: [Muddy Colors — Composition Basics: Temperature Structure](https://www.muddycolors.com/2012/08/composition-basics-temperature-structure/)
+[^vaa-focal]: [Virtual Art Academy — Creating a Power Focal Point in Art](https://www.virtualartacademy.com/focal-point-in-art/)
+[^clip-painterly-workflow]: [Docs Hub — Painterly Style: Clip Studio Paint (Glazing & Color Workflow)](painterly-style-clip-studio-paint.md#section-3-the-alchemy-of-color-glazing-and-opaque-rendering)
+[^clip-painterly-overlay]: [Docs Hub — Painterly Style: Clip Studio Paint (Glazing Phase)](painterly-style-clip-studio-paint.md#the-glazing-phase-applying-color-non-destructively)
+
 [^tate-composition]: [Tate — Composition](https://www.tate.org.uk/art/art-terms/c/composition)
 [^nng-visual-hierarchy]: [Nielsen Norman Group — Visual Hierarchy 101](https://www.nngroup.com/articles/visual-hierarchy/)
 [^cambridge-rot]: [Cambridge in Colour — Rule of Thirds](https://www.cambridgeincolour.com/tutorials/rule-of-thirds.htm)
@@ -471,14 +599,14 @@ explain why you’re breaking it.[^petapixel-golden-ratio]
 
 ## Conclusion & Suggested Next Steps
 
-Across ten chapters you mapped the foundations of composition—from defining the
-core principles (Chapter 1) to practicing rule-of-thirds frameworks (Chapters 2
-and 3), managing space and balance (Chapters 4 and 5), experimenting with
-advanced grids (Chapter 6), and mastering value design through Notan and
-intentional exceptions (Chapters 7–10). Treat the sequence as a toolkit: start
-each project by clarifying your subject, pick the grid or value plan that
-supports the story, and review the chapter-specific checklists before locking in
-details.
+Across eleven chapters you mapped the foundations of composition—from defining
+the core principles (Chapter 1) to practicing rule-of-thirds frameworks
+(Chapters 2 and 3), managing space and balance (Chapters 4 and 5), experimenting
+with advanced grids (Chapter 6), building value and color mastery (Chapters 7
+and 8), and leaning into intentional exceptions, practice loops, and digital
+supports (Chapters 9–11). Treat the sequence as a toolkit: start each project by
+clarifying your subject, pick the grid, value, and color plan that supports the
+story, and review the chapter-specific checklists before locking in details.
 
 **Next steps and practice prompts**
 
@@ -488,6 +616,6 @@ details.
 - Schedule a weekly Notan sprint—10-minute timers for three thumbnails—so value
   planning becomes automatic before you paint, shoot, or design.
 - Revisit a past project, overlay the chapter checklists, and revise the
-  composition using the guides from Chapters 4, 5, and 10 to see how the visual
+  composition using the guides from Chapters 4, 5, and 11 to see how the visual
   hierarchy improves.
 
