@@ -8,3 +8,8 @@ __pycache__/
 # MkDocs site
 site/
 
+# Documentation image assets
+docs/non-ai-research/img/*.png
+docs/non-ai-research/img/*.jpg
+docs/non-ai-research/img/*.jpeg
+
