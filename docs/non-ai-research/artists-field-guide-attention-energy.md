@@ -87,6 +87,10 @@ Abruptly stopping a monotropic brain can feel destabilizing. Use this three-part
 
 ## Diagram Blueprint: Attention Tunnel ↔ Flow Channel
 
+<figure>
+  <img src="fig/attention-flow-channel.svg" alt="Diagram showing the attention tunnel entering a guarded flow channel plotted against skill and challenge, with guardrails, zones, and a hyperfocus vortex labeled to highlight burnout risks." style="max-width: 820px; width: 100%; height: auto;" />
+</figure>
+
 Visualize task challenge on the vertical axis and skill on the horizontal axis. The diagonal "flow channel" represents an optimal match between the two. A beam of light symbolizes the monotropic attention tunnel entering from the left. Boundary cues—timers and sticky notes—act as guardrails that keep the beam within the channel. Straying above produces anxiety and overwhelm; slipping below invites boredom and apathy. Without boundaries the beam spirals into a hyperfocus vortex that feeds burnout. Arrows labeled "switch cost" show how much energy is required to exit: gentle when leaving flow, jagged and large when yanked from hyperfocus.
 
 ## Anti-Burnout Studio Protocol
