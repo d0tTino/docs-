@@ -2,7 +2,7 @@
 title: "Composition 101 — Chaptered Intro"
 tags: [composition, visual-design, art, research]
 project: docs-hub
-updated: 2025-09-16
+updated: 2025-09-17
 ---
 
 --8<-- "_snippets/disclaimer.md"
@@ -64,15 +64,141 @@ taper weight as the eye travels.[^nng-visual-hierarchy][^nng-visual-video]
 - Does placement on the thirds grid support the weight pattern you designed?
 
 
-## Chapter 4 — Space, headroom, and lead room (especially for figures & film)
+## Chapter 4 — Cinematic framing: lead room, headroom, and motion
 
-- **Headroom:** The space above a subject’s head to the top of frame. Too much makes
-  people look like they’re sinking; too little feels cramped. Eyes near the upper
-  third usually nail it.
-- **Lead/Nose/Look room:** Leave more space in front of where the subject looks or
-  moves. Place the face along a vertical third and leave room on the side they face.
-  ROT makes this simple.[^videomaker-head-lead][^premiumbeat-lead-room]
+### Understanding lead room, nose room, and look space
 
+Lead room (also called nose room or look space) is the horizontal breathing room
+left in front of the direction a subject faces or moves so the composition feels
+balanced and the audience can imagine what lies ahead.[^editmentor-framing][^nofilmschool-nose-room][^wikipedia-lead-room][^premiumbeat-lead-room]
+If someone is looking or running toward the right edge, you usually weight the
+frame so more empty space sits on the right than on the left; doing so prevents
+them from appearing to collide with the border and gives them “somewhere to
+go.”[^editmentor-framing][^wikipedia-lead-room] Painters have leveraged the same
+psychological need for centuries—portraitists often leave extra canvas in front
+of the sitter’s gaze because viewers intuitively expect space for the face to
+inhabit.[^gurney-nose-room]
+
+Starving a subject of look space has the opposite effect. Too little lead room
+compresses a figure against the edge, making them feel boxed in or uneasy, while
+generous space ahead of them signals openness and implies an unseen point of
+interest beyond the frame.[^sphs-headroom][^drhs-composition] The same logic
+governs motion: a moving car framed without space in front looks stalled at the
+edge, whereas a shot with adequate lead room convinces us the vehicle can
+continue accelerating past the camera.[^wikipedia-lead-room]
+
+Look space also guides shot/reverse-shot editing. When two characters are
+framed with matching lead room toward one another, the viewer’s brain stitches
+the shots into a single comfortable conversation; short-siding one of them
+(placing them on the edge they’re facing) instantly introduces tension or
+imbalance.[^neiloseman-lead-room]
+
+### Understanding headroom
+
+Headroom is the vertical space between the top of a subject’s head and the top
+border of the frame.[^editmentor-framing][^videomaker-head-lead] Positioning the eyes around the upper
+third line is a quick way to achieve comfortable headroom—too much empty area
+above causes people to look like they are sinking, while cropping too tightly
+makes a shot feel cramped or draws attention to the chin.[^sphs-headroom][^drhs-composition][^guides-unc-headroom]
+Slightly trimming the very top of the skull is generally less distracting than
+leaving a vast ceiling of blank space, especially in interviews or
+portraits.[^sphs-headroom]
+
+### Emotional effects of spacing (and when to break the rules)
+
+Lead room and headroom are conventions, not iron laws. Deliberately bending them
+lets you encode subtext:
+
+- **Excessive lead room** can make a character seem isolated or dwarfed by what
+  lies ahead, effectively weaponizing negative space.[^neiloseman-lead-room]
+- **Short-siding** (denying look space) produces anxiety or confrontation
+  because the subject appears trapped against the edge; *Mr. Robot* famously
+  uses this framing to underline alienation.[^neiloseman-lead-room]
+- **Centered framing** removes directional bias and can read as formal,
+  symmetrical, or unsettling, depending on context.[^neiloseman-lead-room]
+- **Expansive headroom** pushes a person low in the frame to suggest
+  vulnerability or the weight of an environment bearing down on them, as in the
+  art-house film *Ida* or select shots of *Mr. Robot*.[^cined-headroom]
+- **No headroom** (very tight close-ups) creates claustrophobia or intense
+  intimacy, concentrating all attention on expression.[^cined-headroom]
+
+Use these departures intentionally so viewers feel the emotional cue you’re
+aiming for rather than assuming the framing is accidental.
+
+### Lead room and headroom across media
+
+#### Photography & cinematography
+
+Photographers and cinematographers learn headroom and lead room as day-one
+framing fundamentals because they keep shots readable and editing
+seamless.[^sphs-headroom][^drhs-composition][^neiloseman-lead-room] During
+dialogue, matching look space across angles maintains eyeline continuity; in
+action, leaving room in the direction of travel sells speed and avoids the
+sensation that a subject will slam into the edge.[^wikipedia-lead-room][^neiloseman-lead-room]
+
+#### Animation
+
+Even stylized 2D and 3D animation relies on the same grammar. Storyboards place
+characters with appropriate headroom and look space so the eventual shots feel
+cinematic, and chase scenes leave breathing room ahead of moving figures even
+when backgrounds exaggerate perspective or speed lines push the
+motion.[^neiloseman-lead-room]
+
+#### Illustration & comics
+
+Illustrators and comics artists act as their own camera crew. Giving characters
+space to look into keeps the reader’s eye inside the panel, while withholding
+that space can create mystery or emotional distance (Andrew Wyeth’s short-sided
+portrait in Gurney’s analysis is a classic example).[^gurney-nose-room]
+Sequential art also depends on consistent lead room to carry motion or
+conversations smoothly from panel to panel.[^learncorel-negative-space][^drhs-composition]
+
+### Framing dynamic motion and implied action
+
+1. **Leave lead room in the direction of travel.** Without it, running figures
+   and vehicles appear to hit an invisible wall.[^drhs-composition][^wikipedia-lead-room]
+2. **Use the path of motion to direct the eye.** Include trailing space and
+   emphasize diagonals so viewers feel momentum carrying
+   forward.[^expertphotography-leadroom][^learncorel-negative-space]
+3. **Respect screen direction.** Consistent left/right framing across
+   sequential shots or panels keeps movement legible; flipping lead room signals
+   a deliberate change in direction or tone.[^neiloseman-lead-room]
+4. **Shape implied motion in stills.** Compose gestures so fists, gazes, or
+   leaps aim into open space, letting the audience imagine what they strike or
+   reach.[^expertphotography-leadroom]
+5. **Reinforce speed with supporting cues.** Motion blur, perspective lines, or
+   Dutch angles paired with smart lead room amplify energy.[^expertphotography-leadroom]
+
+### Practice drills for spatial awareness
+
+- **Photo scavenger hunt:** Capture intentionally bad headroom/lead room
+  examples, then reshoot correctly to train your eye.[^sphs-headroom][^drhs-composition]
+- **Thumbnail experiments:** Sketch the same subject with comfortable spacing,
+  excessive headroom, and short-sided framing to catalog the moods each creates.
+- **Panel remix:** Reframe an existing film still or comic panel with altered
+  look space to see how the story tone shifts.[^neiloseman-lead-room]
+- **Motion storyboard:** Plan a mini sequence (kick, flight, catch) ensuring
+  lead room stays consistent as the action crosses the frame.
+- **Crop audit:** Take a portrait and create three crops—too much headroom, too
+  little, and balanced—to feel which one reads best.[^guides-unc-headroom]
+
+### Using digital tools (Clip Studio Paint & Procreate)
+
+- **Show grids:** Enable 3×3 guides in Clip Studio (View → Grid) or Procreate
+  (Actions → Canvas → Drawing Guide) so eyes and look space align with third
+  lines.[^clip-studio-ask][^procreate-guide-overview]
+- **Sketch on separate guide layers:** Draw framing boxes, headroom lines, or
+  nose-room diagonals on their own layer you can toggle while composing.
+- **Test crops non-destructively:** Clip Studio frame folders and Procreate’s
+  Crop & Resize tool let you slide a subject until spacing feels right before
+  committing.[^clip-studio-ask][^procreate-guide-overview]
+- **Leverage animation helpers:** Onion skinning or camera keyframes in Clip
+  Studio keep moving subjects properly spaced from frame to frame.
+- **Flip and compare:** Mirroring the canvas or duplicating layers for
+  alternate framings makes spatial imbalances obvious before final clean-up.
+
+Mastering these spatial cues means you can follow the comfortable defaults when
+clarity matters and bend them deliberately when the story needs friction.
 
 
 ## Chapter 5 — Balance & negative space (calm vs. tension)
@@ -85,11 +211,91 @@ taper weight as the eye travels.[^nng-visual-hierarchy][^nng-visual-video]
 
 ## Chapter 6 — Beyond Thirds: Phi, spirals, and dynamic symmetry (optional tools)
 
-- **Golden Ratio / Phi grid / spiral:** Guides that push focal points slightly closer to
-  center. Some artists prefer the “natural” sweep—test both grids and pick what fits
-  the story.
-- **Dynamic symmetry / armatures:** Root rectangles and diagonal armatures give you
-  richer scaffolds for complex scenes once you’re comfortable with thirds.[^petapixel-golden-ratio][^hsv-dynamic-symmetry]
+### Golden Ratio / Phi grid / spiral
+
+Guides based on φ (≈1.618) nudge focal points a bit nearer to center than the
+rule of thirds. Try both the phi grid (vertical and horizontal splits at 61.8%
+and 38.2%) and Fibonacci spiral overlays to see which reinforces your subject
+and storyline best.[^petapixel-golden-ratio]
+
+### Dynamic symmetry quickstart
+
+Dynamic symmetry expands beyond a single ratio by using root rectangles,
+diagonals, and reciprocals to organize complex scenes with more energy and
+control.[^kitschmeister-dynamic] Instead of four “power points,” you gain a web of
+intersections (the armature’s “eyes”) that can host focal points, gesture lines,
+and supporting rhythms. The baroque diagonal (↗) often reads as uplifting or
+resolved, whereas the sinister diagonal (↘) introduces tension—handy storytelling
+levers when you want a scene to feel calm or dramatic.[^kitschmeister-dynamic]
+
+#### Root rectangles at a glance
+
+- **Definition:** A Root-N rectangle’s long side divided by its short side equals
+  √N (Root-2 ≈ 1.414, Root-3 ≈ 1.732, Root-5 ≈ 2.236).[^kitschmeister-dynamic]
+- **Self-similarity:** Split a Root-N rectangle into N equal parts along the long
+  axis and each slice remains a smaller Root-N, so repeating proportions stay in
+  sync across the frame.[^kitschmeister-dynamic]
+- **Go-to ratios:** Historical work clusters around squares, Root-2, Root-3,
+  double squares (Root-4), Root-5, and golden rectangles—extreme ratios tend to
+  feel awkward.[^kitschmeister-dynamic]
+
+#### Build the harmonic armature
+
+1. Pick your canvas ratio (camera frame, golden rectangle, Root-2, etc.).
+2. Mark the midpoint of each side.
+3. Draw the two major diagonals (baroque and sinister).
+4. From each corner, draw to the midpoints on the opposite sides—these are the
+   reciprocal diagonals that create right-angle intersections.
+5. Optionally add vertical/horizontal lines through key intersections to form
+   smaller reciprocal rectangles or rebated squares.
+6. Identify the intersection “eyes” as likely focal anchors and align major
+   shapes, edges, or gesture paths with the grid. Hide or visualize the guides
+   once placement decisions are set.[^kitschmeister-dynamic]
+
+#### Why trade up from thirds?
+
+- **Directional flow:** Diagonals and reciprocals encourage eye travel through
+  multiple beats instead of hopping between four grid points.[^kitschmeister-dynamic]
+- **Organized complexity:** Aligning clusters of figures, architecture, or value
+  shifts along shared diagonals keeps busy scenes coherent.[^kitschmeister-dynamic]
+- **Confidence to riff:** Many painters (e.g., Michele Byrne) pre-grid canvases,
+  then paint freely knowing the underlying layout already balances weight and
+  movement.[^halbert-dynamic][^oilpainter-dynamic]
+- **Story cues:** Choose the baroque diagonal for an uplifting, left-to-right
+  momentum or the sinister diagonal for a more unsettled beat.[^kitschmeister-dynamic]
+
+#### Dynamic symmetry vs. thirds and φ
+
+- **Thirds → dynamic symmetry:** Start here when you want more diagonal energy or
+  need to choreograph several focal points within one frame.
+- **Golden ratio → dynamic symmetry:** φ-based grids are part of the same family;
+  dynamic symmetry simply widens your options to √2, √3, 2:3, and custom camera
+  ratios.[^kitschmeister-dynamic]
+
+#### Digital workflows
+
+**Clip Studio Paint** — Drag in CSP Asset Library grid materials or draw your own
+lines on a “Guides” layer with the Straight Line tool; convert the layer to a
+ruler if you want snapping.[^kitschmeister-dynamic]
+
+**Procreate** — Import a PNG armature as a low-opacity overlay or draw the grid
+manually with the 2D Drawing Guide for measurements and QuickLine to snap
+straight diagonals.[^kitschmeister-dynamic]
+
+#### Practice prompts
+
+1. Thumbnail compositions on pre-drawn armatures to test focal placements fast.
+2. Overlay grids on master paintings or photographs to reverse engineer how
+   their gestures follow diagonals and reciprocals.
+3. Re-compose a rule-of-thirds shot using a dynamic grid and compare the energy.
+4. Sketch gestures that echo the baroque and sinister diagonals before adding
+   detail.
+5. Practice drawing the armature from memory, then check against a template to
+   sharpen your spatial intuition.[^kitschmeister-dynamic]
+
+> **See also:** The companion deep dive, [*Dynamic Symmetry and Root Rectangles in
+> Composition*](dynamic-symmetry-root-rectangles.md), expands each checklist into
+> full workflows and case studies.
 
 
 ## Chapter 7 — Value first: Notan & tonal design (the secret sauce)
@@ -216,6 +422,18 @@ explain why you’re breaking it.[^petapixel-golden-ratio]
 
 ## References
 
+[^editmentor-framing]: [EditMentor Help Center — Headroom and Lead Room](https://help.editmentor.com/en/articles/4632188-headroom-and-lead-room)
+[^nofilmschool-nose-room]: [No Film School — What Is Nose Room in Photography?](https://nofilmschool.com/what-is-nose-room)
+[^wikipedia-lead-room]: [Wikipedia — Lead Room](https://en.wikipedia.org/wiki/Lead_room)
+[^sphs-headroom]: [Sharyland ISD — Framing Good Shots](https://sphs.sharylandisd.org/apps/pages/index.jsp?uREC_ID=204232&type=d&pREC_ID=447989)
+[^drhs-composition]: [DRHS Photo — Composition in Video](https://drhsphoto.weebly.com/composition-in-video.html)
+[^gurney-nose-room]: [James Gurney — Nose Room](https://gurneyjourney.blogspot.com/2010/08/nose-room.html)
+[^neiloseman-lead-room]: [Neil Oseman — Lead Room, Nose Room or Looking Space?](https://neiloseman.com/lead-room-nose-room-or-looking-space/)
+[^cined-headroom]: [CineD — The Art of Imbalance: Headroom in Storytelling](https://www.cined.com/the-art-of-imbalance-headroom-in-storytelling/)
+[^expertphotography-leadroom]: [ExpertPhotography — Lead Room Principle](https://expertphotography.com/lead-room-principle/)
+[^learncorel-negative-space]: [Corel Discovery Center — Using Negative Space in Photography](https://learn.corel.com/tutorials/negative-space-photography/)
+[^guides-unc-headroom]: [UNC Libraries — Video Best Practices: Shot Framing](https://guides.lib.unc.edu/video/shot-framing#s-lg-box-wrapper-23345970)
+ 
 [^tate-composition]: [Tate — Composition](https://www.tate.org.uk/art/art-terms/c/composition)
 [^nng-visual-hierarchy]: [Nielsen Norman Group — Visual Hierarchy 101](https://www.nngroup.com/articles/visual-hierarchy/)
 [^cambridge-rot]: [Cambridge in Colour — Rule of Thirds](https://www.cambridgeincolour.com/tutorials/rule-of-thirds.htm)
@@ -227,7 +445,9 @@ explain why you’re breaking it.[^petapixel-golden-ratio]
 [^guardian-balance]: [The Guardian — How to Take Better Photos: Balance](https://www.theguardian.com/artanddesign/2015/oct/25/how-to-take-better-photos-balance)
 [^arty-teacher-negative-space]: [The Arty Teacher — What Is Negative Space?](https://theartyteacher.com/what-is-negative-space/)
 [^petapixel-golden-ratio]: [PetaPixel — Golden Ratio Composition Primer](https://petapixel.com/2016/01/26/golden-ratio-composition/)
-[^hsv-dynamic-symmetry]: [HSV Camera Club — Dynamic Symmetry](https://www.hsvcameraclub.com/dynamic-symmetry.html)
+[^kitschmeister-dynamic]: [Kitschmeister — Dynamic Symmetry Explained: The Key to Great Composition](https://www.kitschmeister.com/post/the-key-to-great-composition-dynamic-symmetry-explained)
+[^halbert-dynamic]: [Karen Halbert — 2024 Workshop Weekend with Handell and Halbert Composition Workshop](http://karenhalbert.blogspot.com/2024/11/2024-workshop-weekend-with-handell-and.html)
+[^oilpainter-dynamic]: [Oil Painters of America — Dynamic Symmetry and How I Incorporate It into My Practice](https://www.oilpaintersofamerica.com/2022/03/dynamic-symmetry-and-how-i-incorporate-it-into-my-plein-air-and-studio-and-practice/)
 [^gurney-notan-study]: [James Gurney — Notan Study](https://gurneyjourney.blogspot.com/2008/02/notan.html)
 [^gurney-value-grouping]: [James Gurney — Value Grouping](https://gurneyjourney.blogspot.com/2015/12/value-grouping.html)
 [^will-kemp]: [Will Kemp Art School — How to Use Notan Design](https://willkempartschool.com/how-to-use-notan-design-to-create-compelling-compositions-in-your-paintings/)
