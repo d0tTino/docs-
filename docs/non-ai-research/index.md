@@ -24,6 +24,8 @@ Short, actionable approaches for personal efficiency and time management.
 - [Add Hours to Your Day? Debunking Productivity Frameworks][add-hours]
   with insights from [Productivity](../productivity/index.md) and
   [Terminal Workflow](../terminal-workflow/index.md).
+- [The Artist's Field Guide to Attention & Energy](artists-field-guide-attention-energy.md) maps ADHD-aware session design that channels flow while preventing burnout.
+
 
 ## Corporate Studies
 
