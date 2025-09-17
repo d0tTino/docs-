@@ -5,7 +5,7 @@ project: docs-hub
 updated: 2025-09-08
 ---
 
---8<-- "\_snippets/disclaimer.md"
+--8<-- "_snippets/disclaimer.md"
 
 {{ toc }}
 
