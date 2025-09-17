@@ -74,6 +74,7 @@ taper weight as the eye travels.[^nng-visual-hierarchy][^nng-visual-video]
   ROT makes this simple.[^videomaker-head-lead][^premiumbeat-lead-room]
 
 
+
 ## Chapter 5 — Balance & negative space (calm vs. tension)
 
 - **Symmetrical balance** (often centered) feels formal and calm.
@@ -184,6 +185,7 @@ The shared lesson: when you squint at masterworks, the compositions still read a
 #### Conclusion
 Notan design and disciplined value grouping give compositions instant readability and expressive control. By simplifying values into a handful of masses, grouping lights with lights and darks with darks, and rationing high contrast to the focal point, you build images that hold up at any size. Keep Notan thumbnails in your workflow—iterate quickly, audit your paintings in grayscale or threshold view, and protect the value map as you refine details. The result is artwork that communicates clearly, much like the masterworks you admire.
 
+
 ## Chapter 8 — When to break the rule (on purpose)
 
 - Center the subject for power, symmetry, or an uncanny graphic feel.
@@ -246,4 +248,26 @@ explain why you’re breaking it.[^petapixel-golden-ratio]
 [^clip-studio-ask]: [CLIP STUDIO ASK — Search: Straight Ruler Equal Division](https://ask.clip-studio.com/en-us/?search=Straight%20Ruler%20Equal%20Division)
 [^procreate-guide-overview]: [Procreate Handbook — Drawing Guide Overview](https://procreate.com/handbook)
 
+
+## Conclusion & Suggested Next Steps
+
+Across ten chapters you mapped the foundations of composition—from defining the
+core principles (Chapter 1) to practicing rule-of-thirds frameworks (Chapters 2
+and 3), managing space and balance (Chapters 4 and 5), experimenting with
+advanced grids (Chapter 6), and mastering value design through Notan and
+intentional exceptions (Chapters 7–10). Treat the sequence as a toolkit: start
+each project by clarifying your subject, pick the grid or value plan that
+supports the story, and review the chapter-specific checklists before locking in
+details.
+
+**Next steps and practice prompts**
+
+- Build a mini-portfolio of six images: two ROT studies, two value-grouping
+  pieces, and two intentional “rule breaks,” annotating how you applied the
+  chapters.
+- Schedule a weekly Notan sprint—10-minute timers for three thumbnails—so value
+  planning becomes automatic before you paint, shoot, or design.
+- Revisit a past project, overlay the chapter checklists, and revise the
+  composition using the guides from Chapters 4, 5, and 10 to see how the visual
+  hierarchy improves.
 

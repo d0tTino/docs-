@@ -18,18 +18,13 @@ directory conventions keep artifacts easy to browse and maintain.
 Quick links to essential guides and resources.
 
 ### Getting Started
-- [Quickstart Guide](quickstart.md)
-- [Threat Model](security/threat-model.md)
+The quick links checklist now lives in [Appendix A: Resource Checklist](#appendix-a-resource-checklist).
 
 ### Research
-- [AI Research](ai-research/index.md)
-- [Non-AI Research](non-ai-research/index.md)
-- [Gaze Research](gaze-research/index.md)
+Appendix A consolidates the research links that were previously listed here.
 
 ### Playbooks
-- [Terminal Workflow](terminal-workflow/index.md)
-- [GitHub Actions Workflows](../playbooks/github-actions-workflows.md)
-- [Local Docker Build](../playbooks/local-docker-build.md)
+Appendix A also collects the workflow playbooks for easy reference.
 
 ## Getting Started
 Guides for setting up the docs hub and exploring resources.
@@ -160,6 +155,22 @@ history:
 git merge d0tTino-import --allow-unrelated-histories
 ```
 
+## Appendix A: Resource Checklist
+
+### Getting Started
+- [Quickstart Guide](quickstart.md)
+- [Threat Model](security/threat-model.md)
+
+### Research
+- [AI Research](ai-research/index.md)
+- [Non-AI Research](non-ai-research/index.md)
+- [Gaze Research](gaze-research/index.md)
+
+### Playbooks
+- [Terminal Workflow](terminal-workflow/index.md)
+- [GitHub Actions Workflows](../playbooks/github-actions-workflows.md)
+- [Local Docker Build](../playbooks/local-docker-build.md)
+
 ## Ingesting and Querying Markdown
 Use the ingestion utility to store and search markdown snippets.
 
@@ -199,3 +210,16 @@ Citations for cases, APIs, and publications referenced in the docs.
 ### Publications
 1. Shoshana Zuboff, *The Age of Surveillance Capitalism* (PublicAffairs, 2019).
 2. James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
+
+## Summary & Further Study
+
+**Workflow recap.** Clone the repository, initialize or update submodules, and run
+`scripts/setup_hooks.sh` to enable linting hooks. Install Python dependencies,
+start the MkDocs development server to preview changes locally, and leverage the
+migration and ingestion scripts when you need to pull legacy materials into the
+hub.
+
+**Top external resources.** Continue exploring the MkDocs
+[preview guide][mkdocs-preview] for deployment patterns, review the GitHub REST
+API documentation for automation ideas, and consult the OpenAI API reference to
+integrate AI-assisted tooling into your workflows.

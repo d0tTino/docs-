@@ -3,12 +3,21 @@
 The **painterly-style-clip-studio-paint.md** guide references PNG assets that live beside this
 README. To keep the repository lightweight and binary-free, those images are _not_ stored in git.
 When you're ready to supply your own examples, export them as PNG files and place them in this
-folder using the exact filenames below so the existing Markdown links resolve automatically.
+folder using the exact filenames below so the existing Markdown links resolve automatically. Add
+those filenames to your `.gitignore` so local renders stay out of the repository. For example:
+
+```
+# Painterly brush demo captures
+docs/non-ai-research/img/*.png
+```
 
 - Recommended canvas: 1600×900 px (or similar 16:9 ratio) with transparent or neutral-gray
   background.
 - Suggested export: PNG, 72–150 DPI, avoid color profiles that clip when uploaded to the web.
 - Keep file sizes modest (<1 MB) so the documentation site loads quickly.
+- Provide descriptive alt text for each uploaded image to keep the docs accessible (for example,
+  "Alt text: Painterly brush strokes transitioning from deep indigo to pale lavender with visible
+  bristle texture across a neutral gray background.").
 
 | File name | Depicts | Capture tips |
 | --- | --- | --- |
