@@ -58,6 +58,9 @@ Interdisciplinary explorations across science, philosophy, and culture.
   [DNA Archival Storage](dna-archival-storage-tepm.md).
 - [From Qualia to Simulacra](from-qualia-to-simulacra.md) intersects subjective
   experience with [Netrunning](../netrunning-fiction-reality.md).
+- [Scripts & Simulacra](scripts-and-simulacra.md) charts how mob media and
+  diaspora cuisine co-create hyperreal Italian-American identities alongside
+  [Culture Project](../culture-project/index.md) case studies.
 - [Notable Figures](inspiring-figures.md) highlight influencers in the
   [Culture Project](../culture-project/index.md).
 - [Concrete Cognition Anthology](concrete-cognition-anthology.md) paired with
