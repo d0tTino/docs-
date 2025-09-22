@@ -82,6 +82,10 @@ so that the process is always externalised.
     Provide the lifecycle map as a single-page flowchart or infographic
     that lists the five stages and their neuroprotective checkpoints.
 
+[Anti-Fragile Studio Boundary Playbook](anti-fragile-studio-boundary-playbook.md) — quick-reference
+scripts for reinforcing boundaries across budget, timeline, scope, and
+payment scenarios.
+
 ### Stage 1: Intake — The Automated Gatekeeper
 
 - **Protocol:** Route all new inquiries through a mandatory form hosted
@@ -259,80 +263,42 @@ personal confrontation to collaborative adherence. Scripts make the
 contract the enforcer so that the artist does not have to rely on in-the-moment
 willpower.
 
-### The Art of the Graceful “No”
+### Using the Boundary Playbook
 
-- **Budget mismatch:**
-  “Thank you so much for reaching out and for your interest in my work.
-  Based on the scope you’ve described, this project falls outside my
-  current budget range. I wish you the best of luck finding the right
-  artist.”
-- **Timeline mismatch:**
-  “Thank you for this detailed inquiry. I’m currently booked and wouldn’t
-  be able to give this project the focused attention it deserves within
-  your timeframe. My next availability for a project of this scale begins
-  on [date].”
+The scenario-specific scripts now live in the dedicated
+[Anti-Fragile Studio Boundary Playbook](anti-fragile-studio-boundary-playbook.md).
+It organises ready-to-send responses across the studio’s most common
+pressure points:
 
-### Enforcing Scope: Responding to “Just One More Thing”
+- **Budget alignment** — gracefully decline mismatched projects while
+  preserving goodwill.
+- **Timeline guardrails** — protect focus by resetting expectations when
+  availability or feedback slips.
+- **Scope control** — redirect “one more thing” requests into formally
+  scoped phases.
+- **Feedback & issue resolution** — steer ambiguous critiques or invoice
+  concerns toward structured, actionable dialogue.
+- **Communication channels** — consolidate messages into agreed threads
+  and reaffirm office hours.
+- **Payment enforcement** — tie production milestones to deposits and
+  follow up on overdue invoices with calm authority.
 
-“That's an interesting idea. It falls outside the scope defined in our
-signed agreement. I’m happy to scope it as a new phase once we complete
-our current goals. Shall I prepare a separate proposal for that work?”
-
-### Managing Deadlines and Delays
-
-“I’m checking in on the feedback for [deliverable], which was due on
-[date]. Our timeline depends on receiving notes by the agreed dates. A
-feedback delay will shift the final delivery accordingly. Let me know
-when to expect your notes so I can update the schedule.”
-
-### Navigating Difficult Conversations
-
-- **Vague dissatisfaction:** Request the client complete the Structured
-  Feedback Form so their concerns become actionable.
-- **Invoice questions:** Reference the signed proposal and point to the
-  relevant clause or phase before inviting specific questions.
+Each script anchors the conversation in the signed agreement and keeps
+emotional load low, letting the process—not willpower—do the enforcing.
 
 !!! info "Deliverable"
-    Compile all scripts into a single boundary-playbook document, sorted
-    by scenario for fast reference during client communication.
-
-### Communication Channel Boundaries
-
-“To keep production time protected, I manage all project communication
-inside our shared email thread. Chat apps and DMs tend to get lost. If
-you need to reach me urgently, please mark the email as high priority
-and I’ll respond during my next communication window.”
-
-### Deposit and Payment Enforcement
-
-“The next milestone begins once the 50% deposit is received. I’ve
-attached the invoice with payment links for card, bank transfer, or
-Wise. As soon as the payment arrives, I’ll confirm the production start
-date.”
-
-### Late Payment Follow-up
-
-“Friendly reminder that invoice #[number] for [project phase] is now
-[X] days past due. As outlined in section [clause] of our agreement, a
-late fee of [percentage] will apply after [date]. Please let me know if
-the payment is already in transit or if you need the invoice resent.”
-
-### Office Hours and Response Times
-
-“My response window for client communication is Monday–Thursday,
-10:00–16:00 local time. If I receive your message outside these hours,
-I’ll respond during the next window. This keeps production time focused
-so your project moves faster.”
+    Maintain the boundary playbook as a searchable, scenario-organised
+    reference so scripts stay easy to deploy during client communication.
 
 ### Preparing Scripts for Quick Access
 
-- Store each script in a searchable note system (Notion, Obsidian, or a
-  Google Doc) with tags like `scope`, `payment`, or `feedback`.
-- Highlight placeholders—`[project]`, `[date]`, `[invoice number]`—so
-  they can be swapped quickly without re-reading the entire script.
-- Keep a short “emotion regulation” script (“Pause, breathe, open the
-  script doc before replying”) at the top as a cue to slow down when RSD
-  is triggered.
+- Pin the playbook inside your note system (Notion, Obsidian, Google
+  Docs) with scenario tags such as `scope`, `payment`, or `feedback`.
+- Highlight placeholders—`[project]`, `[date]`, `[invoice number]`,
+  `[clause]`—so they can be swapped quickly without rereading the entire
+  script.
+- Keep a short regulation cue (“Pause. Breathe. Open the playbook.”) at
+  the top as a reminder to slow down when RSD is triggered.
 
 ## Section 4: De-risking Feedback — The Structured Feedback Protocol
 
