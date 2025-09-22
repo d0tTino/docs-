@@ -2,7 +2,7 @@
 title: "The Anti-Fragile Studio: An Operational Playbook for the Neurodivergent Artist"
 tags: [productivity, neurodivergence, operations, research]
 project: docs-hub
-updated: 2025-09-17
+updated: 2025-09-18
 ---
 
 --8<-- "_snippets/disclaimer.md"
@@ -175,11 +175,11 @@ project estimates. The basic formula is:
 ### Table 1: Cognitive Overhead Cost Factors
 
 | Factor | Low Load (+0.0) | Medium Load (+0.2) | High Load (+0.4) |
-| ---------------------- | ----------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------- |
-| Number of stakeholders | Single decision-maker | Two to three stakeholders needing consensus | Committee review across multiple departments |
+| --- | --- | --- | --- |
+| Number of stakeholders | Single decision-maker with final say | Two to three stakeholders requiring consensus | Committee review across multiple departments |
 | Revision rounds | One round of minor revisions | Two rounds of revisions | Three or more rounds or undefined feedback cycles |
 | Meeting frequency | Asynchronous communication only | One scheduled call per week | Multiple or unscheduled calls and urgent meetings |
-| Client organisation | All materials provided upfront and well-organised | Materials drip-fed during the project | Disorganised client; assets incomplete or constantly changing |
+| Client organisation | Materials delivered upfront, tidy, and complete | Materials drip-fed during the project | Disorganised client; assets incomplete or constantly changing |
 | Timeline urgency | Flexible timeline with generous buffer | Firm but reasonable deadline | Rush project with aggressive turnarounds |
 
 **Example:** A project with a single stakeholder (+0.0), two revision
@@ -191,6 +191,59 @@ cognitive overhead.
 !!! tip "Deliverable"
     Provide a spreadsheet or calculator template that applies the
     formula and table to produce consistent project quotes.
+
+### Spreadsheet Setup Instructions
+
+1. **Create your data entry tab.** List project name, client, target
+   outcome, and due dates at the top so every quote has context.
+2. **Add base assumptions.** Store your base hourly rate, minimum
+   project fee, and preferred profit margin in dedicated cells that feed
+   every calculation.
+3. **Estimate focus hours.** Break the work into milestones (research,
+   sketch, final render, delivery) and estimate flow-state hours for each
+   milestone. Sum them into a single `Estimated Production Hours` cell.
+4. **Score cognitive load factors.** Recreate Table 1 as dropdown
+   selectors. Each selection adds to a `Project Complexity Multiplier`
+   cell so the fee updates automatically.
+5. **Output the fee.** Display the calculated project fee, suggested
+   deposit, and remaining balance. Include a note that ties the fee to
+   the value delivered.
+6. **Track historical data.** Archive completed estimates with actual
+   hours spent to refine future multipliers and expose chronic friction
+   patterns with specific clients or project types.
+
+### Scenario Walkthrough
+
+- **Project:** Character illustration for a game studio.
+- **Estimated production hours:** 18 hours of painting and iteration.
+- **Base hourly rate:** $120.
+- **Complexity multiplier:**
+  - Stakeholders: Two art directors reviewing (+0.2).
+  - Revision rounds: Two included (+0.2).
+  - Meetings: Weekly check-in call (+0.2).
+  - Client organisation: References arrive piecemeal (+0.4).
+  - Timeline: Rush delivery (+0.4).
+- **Calculation:** `(18 × 120) × (1.0 + 0.2 + 0.2 + 0.2 + 0.4 + 0.4) =
+  $2,592`.
+- **Payment schedule:** $1,296 deposit, $1,296 on completion. Because the
+  multiplier doubled the base fee, document the friction risks in your
+  proposal so the client understands what their behaviour is purchasing.
+
+### Multiplier Worksheet Prompts
+
+Use the worksheet below during discovery calls to capture friction
+signals before they escalate:
+
+- Does the client require **multiple file formats** or platform-specific
+  exports? (+0.2 if more than two formats are requested.)
+- Are there **external approvals** (legal, lore teams, licensors) that
+  may stall feedback? (+0.2 to +0.4 depending on the number of hops.)
+- Will the project force **task switching** with mid-week check-ins or
+  surprise demos? (+0.2 if the schedule interrupts planned focus blocks.)
+- How much **reference gathering** must you perform? (+0.2 if you must do
+  significant research; +0.4 if the client has none.)
+- Are there **emotional stakes** (e.g., VIP client, live launch event)
+  that will spike urgent messages? (+0.2 if probable.)
 
 ## Section 3: Defending Your Focus — The Boundary-Setting Playbook
 
@@ -243,6 +296,44 @@ when to expect your notes so I can update the schedule.”
     Compile all scripts into a single boundary-playbook document, sorted
     by scenario for fast reference during client communication.
 
+### Communication Channel Boundaries
+
+“To keep production time protected, I manage all project communication
+inside our shared email thread. Chat apps and DMs tend to get lost. If
+you need to reach me urgently, please mark the email as high priority
+and I’ll respond during my next communication window.”
+
+### Deposit and Payment Enforcement
+
+“The next milestone begins once the 50% deposit is received. I’ve
+attached the invoice with payment links for card, bank transfer, or
+Wise. As soon as the payment arrives, I’ll confirm the production start
+date.”
+
+### Late Payment Follow-up
+
+“Friendly reminder that invoice #[number] for [project phase] is now
+[X] days past due. As outlined in section [clause] of our agreement, a
+late fee of [percentage] will apply after [date]. Please let me know if
+the payment is already in transit or if you need the invoice resent.”
+
+### Office Hours and Response Times
+
+“My response window for client communication is Monday–Thursday,
+10:00–16:00 local time. If I receive your message outside these hours,
+I’ll respond during the next window. This keeps production time focused
+so your project moves faster.”
+
+### Preparing Scripts for Quick Access
+
+- Store each script in a searchable note system (Notion, Obsidian, or a
+  Google Doc) with tags like `scope`, `payment`, or `feedback`.
+- Highlight placeholders—`[project]`, `[date]`, `[invoice number]`—so
+  they can be swapped quickly without re-reading the entire script.
+- Keep a short “emotion regulation” script (“Pause, breathe, open the
+  script doc before replying”) at the top as a cue to slow down when RSD
+  is triggered.
+
 ## Section 4: De-risking Feedback — The Structured Feedback Protocol
 
 Feedback is frequently the most emotionally volatile stage for
@@ -293,6 +384,45 @@ Send each draft with an email that embeds the template:
     complete it without friction. Attach it to draft deliveries by
     default.
 
+### Client-Facing Feedback Template
+
+Copy this structure into a Google Form, Notion page, or shared doc:
+
+| Section | Prompt | Guidance for Clients |
+| --- | --- | --- |
+| What’s working? | “List 1–3 specific elements you like.” | Mention colours, mood, composition, or storytelling choices to preserve. |
+| Specific problems | “Describe what is not aligning with your goal.” | Focus on objective mismatches: proportions, brand alignment, clarity, tone. |
+| Proposed solutions | “Suggest changes or references that would resolve the issue.” | Offer direction such as alternate palettes, poses, or examples to emulate. |
+| Priority | “Rank requested changes: must-have, nice-to-have, optional.” | Helps triage within the agreed revision rounds. |
+| Delivery confirmation | Checkbox: “I understand additional revisions beyond the contract will require a change order.” | Reinforces the boundary before revisions begin. |
+
+### Internal Processing Checklist
+
+1. **Ingest feedback** into a master note or task list by copying the
+   client’s responses verbatim.
+2. **Tag each request** as `contracted` or `out-of-scope` before touching
+   the artwork to avoid unbilled work.
+3. **Sequence actions** by difficulty and estimated time so the most
+   demanding changes land in high-energy blocks.
+4. **Confirm the plan** with the client via a short summary email—“Here’s
+   what I’m updating, here’s what’s out of scope”—to avoid rework.
+5. **Archive feedback** with the final deliverables to create a reference
+   library for future collaborations.
+
+### Escalation Ladder for Non-Compliant Feedback
+
+1. **Gentle reminder:** “Could you drop your notes in the feedback form?
+   It keeps everything actionable for me.”
+2. **Boundary reinforcement:** Quote the contract clause requiring
+   structured feedback and explain the risk of misinterpretation without
+   it.
+3. **Offer facilitation:** Suggest a short call where you screen-share
+   the form and complete it together, ensuring clarity without absorbing
+   the emotional burden of guesswork.
+4. **Pause the timeline:** If feedback remains vague, formally pause the
+   project until the template is completed so you are not penalised for
+   the delay.
+
 ## Section 5: Taming the Pipeline — The Monotropic-Aware Dashboard
 
 Managing multiple projects is difficult for a brain designed for deep,
@@ -318,9 +448,122 @@ slot in “Active Focus” becomes the deciding factor. This external
 constraint replaces unreliable internal gating, keeping commitments
 aligned with actual cognitive bandwidth.
 
+### Weekly Review Ritual
+
+- **Monday planning:** Move any project that received a deposit over the
+  weekend into “On Deck” and schedule production blocks for the current
+  “Active Focus” piece.
+- **Midweek audit:** During a 30-minute admin slot, update each card’s
+  status notes (e.g., “Waiting on colour palette approval”) to avoid
+  holding context in your head.
+- **Friday close-out:** Archive completed cards, send wrap-up emails, and
+  verify invoices are issued. Emptying the “Active Focus” column signals
+  a clean mental break for the weekend.
+
+### Dashboard Metadata
+
+Each project card should include:
+
+- **Energy rating (1–3).** Estimate how much focus the next session will
+  require. Use this to pair high-energy work with your peak hours.
+- **Next visible step.** A single checkbox task (“Render lighting pass,”
+  “Gather client references”) keeps initiation friction low.
+- **Communication log.** Date-stamped notes summarising client emails so
+  the context is externalised and searchable.
+- **Risk flags.** Labels such as `scope risk`, `payment risk`, or `RSD
+  trigger` remind you to deploy scripts or pricing multipliers early.
+
+### Automation Hooks
+
+- Connect the intake form to the dashboard via Zapier or Make so new
+  inquiries automatically create a “Simmering” card with key details.
+- Use calendar automation to block focus sessions whenever a card moves
+  into “Active Focus.”
+- Trigger reminder emails to clients waiting on deliverables using the
+  card’s due date so you do not spend executive energy tracking
+  follow-ups.
+
+### Template Sharing Instructions
+
+- Provide clients with a read-only view of the “Simmering” column when it
+  contains their project. Transparency increases trust while keeping the
+  focus column private.
+- Export completed cards to a project archive database that stores the
+  lifecycle map, contract, feedback, and wrap-up email for future reuse.
+
 !!! info "Deliverable"
     Share a template board with instructions for weekly review and admin
     blocks dedicated to maintaining it.
+
+## Lifecycle Map Checklist and Implementation Guides
+
+### Lifecycle Map Checklist
+
+| Stage | Primary Goal | Key Actions | Neuro-Protection | Deliverables |
+| --- | --- | --- | --- | --- |
+| Intake | Filter viable clients | Route to form, auto-respond with next steps | Removes improvisation and RSD-prone negotiations | Auto-response email, CRM entry |
+| Scoping & Pricing | Define the collaboration | Draft proposal, set multiplier, request deposit | Contract enforces boundaries objectively | Signed agreement, invoice, calendar block |
+| Production | Protect flow state | Batch communication, follow focus schedule | Eliminates context switching and attention fragmentation | Focus calendar, daily checklist |
+| Feedback & Revisions | Translate critique into tasks | Issue structured form, tag requests, confirm plan | Converts ambiguity into actionable steps | Feedback form responses, revision brief |
+| Delivery & Off-boarding | Close the loop cleanly | Execute delivery checklist, request testimonial | Prevents lingering open loops and emotional drag | Final files, wrap-up email, testimonial request |
+
+### Intake Form Blueprint
+
+- **Contact information:** Name, pronouns (optional), company, email, and
+  preferred communication time zone.
+- **Project snapshot:** Summary, deliverables needed, ideal timeline, and
+  hard deadlines.
+- **Budget range:** Multiple-choice tiers (e.g., `<$1k`, `$1k–$3k`,
+  `$3k–$6k`, `$6k+`) to depersonalise pricing discussions.
+- **Decision-makers:** Identify who signs off, their roles, and whether
+  legal or lore teams are involved.
+- **Reference links:** Mood boards, previous brand work, or inspiration
+  images hosted on Drive, Pinterest, or ArtStation.
+- **Process alignment questions:** “How do you prefer receiving updates?”
+  and “Are there known blackout dates or launch events?”
+- **Automation toggles:** Checkbox to subscribe to status updates, and
+  consent for storing project data in your CRM.
+- **Next steps screen:** After submission, redirect to a thank-you page
+  that reiterates response timelines and links to your capability deck.
+
+### Automated Gatekeeping Ideas
+
+- Embed qualification rules: if the budget tier is below your minimum,
+  auto-send a polite decline using the graceful “no” script.
+- Notify collaborators (e.g., a project manager) automatically when a
+  high-complexity project (multiplier ≥ 1.6) is submitted so support is
+  lined up early.
+- Populate a lead tracker spreadsheet with the client’s answers to begin
+  calculating the cognitive load before the discovery call.
+
+## Implementation Roadmap & Maintenance
+
+### 30-60-90 Day Rollout
+
+- **Days 1–30:** Draft the intake form, build the proposal template, and
+  pilot the cognitive overhead calculator with two historical projects.
+- **Days 31–60:** Implement the boundary scripts, publish the feedback
+  form, and migrate active clients onto the structured pipeline.
+- **Days 61–90:** Automate dashboard updates, collect testimonials using
+  the wrap-up checklist, and review pricing data to adjust multipliers.
+
+### Daily Safeguards
+
+- Begin each workday by checking the “Active Focus” card and reviewing
+  the single next action.
+- End each day with a two-minute shutdown log noting accomplishments and
+  outstanding risks. This prevents unfinished tasks from occupying mental
+  space overnight.
+
+### Monthly Maintenance
+
+- Audit the cognitive overhead calculator against actual hours to keep
+  multipliers realistic.
+- Refresh boundary scripts with any new scenarios encountered so your
+  library evolves alongside your business.
+- Review archived projects for recurring friction patterns—if a specific
+  industry always triggers high complexity, pre-emptively set a higher
+  base rate.
 
 ## Conclusion: Sustaining the System
 
