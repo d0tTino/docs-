@@ -80,6 +80,9 @@ Interdisciplinary explorations across science, philosophy, and culture.
   offers a guided path through scene-building fundamentals and distills
   classical and modern composition frameworks into linked chapters for fast
   study.
+- [Dynamic Symmetry and Root Rectangles in Composition](dynamic-symmetry-root-rectangles.md)
+  expands classical proportioning systems into practical layout templates for
+  visual storytelling and design studies.
 - [Internal Parts and Subpersonalities](internal-parts-and-subpersonalities.md)
   maps parts-based psychotherapies alongside
   [Jungian Psyche Analysis](jungian-psyche-analysis.md).
