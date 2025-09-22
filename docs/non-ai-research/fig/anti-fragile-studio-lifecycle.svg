@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Anti-Fragile Studio Lifecycle</title>
+  <desc id="desc">A five-stage lifecycle diagram highlighting neuroprotective checkpoints that safeguard focus, energy, and flow across the client journey.</desc>
+  <defs>
+    <style>
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; fill: #1f2933; }
+      .stage-box { fill: #eff6ff; stroke: #2563eb; stroke-width: 2; rx: 16; ry: 16; }
+      .checkpoint-box { fill: #ecfdf5; stroke: #059669; stroke-width: 2; rx: 12; ry: 12; }
+      .stage-title { font-size: 20px; font-weight: 700; text-anchor: middle; }
+      .stage-subtitle { font-size: 15px; font-weight: 500; text-anchor: middle; fill: #1f2933; }
+      .checkpoint-title { font-size: 16px; font-weight: 600; text-anchor: middle; }
+      .checkpoint-text { font-size: 14px; text-anchor: middle; fill: #1f2933; }
+      .header { font-size: 28px; font-weight: 700; fill: #111827; text-anchor: middle; }
+      .subheader { font-size: 18px; fill: #4b5563; text-anchor: middle; }
+      .connector { stroke: #2563eb; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb" />
+    </marker>
+  </defs>
+  <rect width="1200" height="520" fill="#f8fafc" rx="24" ry="24" />
+  <text class="header" x="600" y="60">Anti-Fragile Studio Client Lifecycle</text>
+  <text class="subheader" x="600" y="90">Each stage embeds a neuroprotective checkpoint that keeps the artist anchored and resilient.</text>
+
+  <!-- Stage 1 -->
+  <rect class="stage-box" x="70" y="130" width="200" height="110" />
+  <text class="stage-title" x="170" y="170">Stage 1</text>
+  <text class="stage-subtitle" x="170" y="200">Intake</text>
+  <rect class="checkpoint-box" x="70" y="260" width="200" height="120" />
+  <text class="checkpoint-title" x="170" y="295">Checkpoint</text>
+  <text class="checkpoint-text" x="170" y="325">Mandatory intake form</text>
+  <text class="checkpoint-text" x="170" y="350">filters scope &amp; budget</text>
+
+  <!-- Stage 2 -->
+  <rect class="stage-box" x="310" y="130" width="200" height="110" />
+  <text class="stage-title" x="410" y="170">Stage 2</text>
+  <text class="stage-subtitle" x="410" y="200">Scoping &amp; Pricing</text>
+  <rect class="checkpoint-box" x="310" y="260" width="200" height="120" />
+  <text class="checkpoint-title" x="410" y="295">Checkpoint</text>
+  <text class="checkpoint-text" x="410" y="325">Signed scope contract</text>
+  <text class="checkpoint-text" x="410" y="350">locks deliverables &amp; cadence</text>
+
+  <!-- Stage 3 -->
+  <rect class="stage-box" x="550" y="130" width="200" height="110" />
+  <text class="stage-title" x="650" y="170">Stage 3</text>
+  <text class="stage-subtitle" x="650" y="200">Production</text>
+  <rect class="checkpoint-box" x="550" y="260" width="200" height="120" />
+  <text class="checkpoint-title" x="650" y="295">Checkpoint</text>
+  <text class="checkpoint-text" x="650" y="325">Single active focus lane</text>
+  <text class="checkpoint-text" x="650" y="350">and batched updates</text>
+
+  <!-- Stage 4 -->
+  <rect class="stage-box" x="790" y="130" width="200" height="110" />
+  <text class="stage-title" x="890" y="170">Stage 4</text>
+  <text class="stage-subtitle" x="890" y="200">Feedback &amp; Revisions</text>
+  <rect class="checkpoint-box" x="790" y="260" width="200" height="120" />
+  <text class="checkpoint-title" x="890" y="295">Checkpoint</text>
+  <text class="checkpoint-text" x="890" y="325">Structured feedback form</text>
+  <text class="checkpoint-text" x="890" y="350">channels actionable input</text>
+
+  <!-- Stage 5 -->
+  <rect class="stage-box" x="1030" y="130" width="200" height="110" />
+  <text class="stage-title" x="1130" y="170">Stage 5</text>
+  <text class="stage-subtitle" x="1130" y="200">Delivery &amp; Off-boarding</text>
+  <rect class="checkpoint-box" x="1030" y="260" width="200" height="120" />
+  <text class="checkpoint-title" x="1130" y="295">Checkpoint</text>
+  <text class="checkpoint-text" x="1130" y="325">Completion checklist</text>
+  <text class="checkpoint-text" x="1130" y="350">confirms clean handoff</text>
+
+  <!-- Connectors -->
+  <path class="connector" d="M 270 185 L 310 185" />
+  <path class="connector" d="M 510 185 L 550 185" />
+  <path class="connector" d="M 750 185 L 790 185" />
+  <path class="connector" d="M 990 185 L 1030 185" />
+
+  <text x="600" y="430" class="subheader">Use this lifecycle as a wall chart or dashboard widget to keep the entire studio aligned on the next neuroprotective action.</text>
+</svg>
