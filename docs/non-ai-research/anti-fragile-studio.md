@@ -74,13 +74,18 @@ checkpoints and boundaries.
 ### Visualising the Full Client Journey
 
 A one-page lifecycle map visualises the complete journey from inquiry to
-archive. It functions as a master checklist that guarantees each step is
-completed before moving forward. Keep it in clear view within the studio
-so that the process is always externalised.
+archive (Figure 1). It functions as a master checklist that guarantees
+each step is completed before moving forward. Keep it in clear view
+within the studio so that the process is always externalised.
 
 !!! info "Deliverable"
     Provide the lifecycle map as a single-page flowchart or infographic
     that lists the five stages and their neuroprotective checkpoints.
+
+<figure>
+  <img src="fig/anti-fragile-studio-lifecycle.svg" alt="Lifecycle diagram showing the five client journey stages with their respective neuroprotective checkpoints for the anti-fragile studio." />
+  <figcaption><em>Figure 1. The Anti-Fragile Studio lifecycle maps each client stage to a matching neuroprotective checkpoint so the promised deliverable remains visible and actionable.</em></figcaption>
+</figure>
 
 ### Stage 1: Intake — The Automated Gatekeeper
 
