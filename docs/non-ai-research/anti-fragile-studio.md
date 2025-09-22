@@ -189,8 +189,12 @@ materials (+0.4), and a rush timeline (+0.4) results in a multiplier of
 cognitive overhead.
 
 !!! tip "Deliverable"
-    Provide a spreadsheet or calculator template that applies the
-    formula and table to produce consistent project quotes.
+    [Download the Anti-Fragile Pricing Calculator template](./templates/anti-fragile-pricing-calculator.csv){:download="anti-fragile-pricing-calculator.csv"}
+    to apply the multiplier formula and cognitive load table directly inside your spreadsheet tool of choice.
+
+*Usage notes:*
+- Update the **Base Hourly Rate** and milestone hours in the template to match your typical project scope—the `Estimated Production Hours` cell automatically sums any changes you make in the milestone table.
+- Set each cognitive load row to `Low`, `Medium`, or `High` (or enter a custom decimal in the final row) to tune the Project Complexity Multiplier before sharing a quote with the client.
 
 ### Spreadsheet Setup Instructions
 

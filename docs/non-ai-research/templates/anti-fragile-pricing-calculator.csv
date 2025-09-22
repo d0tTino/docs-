@@ -1,0 +1,43 @@
+Anti-Fragile Pricing Calculator,,,
+,,,
+Project Information,,,
+Project Name,,,
+Client / Contact,,,
+Target Outcome,,,
+Due Date,,,
+,,,
+Base Assumptions,,,
+Base Hourly Rate,,,Enter your standard hourly target (numeric).
+Estimated Production Hours,=SUM(B20:B24),,Auto-sums milestone hours; edit the milestone table as needed.
+Minimum Project Fee,,,Optional floor for total project fee.
+Desired Profit Margin (%),,,"Enter as decimal (e.g., 0.2 for 20%)."
+Base Production Fee,"=IF(OR(B10="""",B11=""""),"""",B10*B11)",,Auto-calculated.
+Base Fee with Profit Margin,"=IF(B14="""","""",IF(B13="""",B14,B14*(1+B13)))",,Auto-calculated; includes profit margin when provided.
+Base Fee After Minimum Check,"=IF(AND(B15="""",B12=""""),"""",IF(B15="""",B12,IF(B12="""",B15,MAX(B15,B12))))",,Auto-calculated; compares against minimum fee.
+,,,
+Milestone Focus Hours (edit names/hours as needed),,,
+Milestone,Hours,Notes,
+Discovery / Research,,Adjust milestone names or delete rows not needed.,
+Sketch / Concept,,,
+Production / Rendering,,,
+Revisions / QA,,,
+Delivery / Administration,,,
+,,,
+Cognitive Load Factors,,,
+Factor,Load Selection,Multiplier Adjustment,Guidance
+Number of stakeholders,,"=IF(B28=""High"",0.4,IF(B28=""Medium"",0.2,IF(B28=""Low"",0,IF(B28="""",0,""Check entry""))))",Low: single decision-maker | Medium: two to three stakeholders | High: committee review
+Revision rounds,,"=IF(B29=""High"",0.4,IF(B29=""Medium"",0.2,IF(B29=""Low"",0,IF(B29="""",0,""Check entry""))))",Low: one minor round | Medium: two rounds | High: three plus or undefined cycles
+Meeting frequency,,"=IF(B30=""High"",0.4,IF(B30=""Medium"",0.2,IF(B30=""Low"",0,IF(B30="""",0,""Check entry""))))",Low: async updates | Medium: weekly call | High: frequent or urgent meetings
+Client organisation,,"=IF(B31=""High"",0.4,IF(B31=""Medium"",0.2,IF(B31=""Low"",0,IF(B31="""",0,""Check entry""))))",Low: assets delivered upfront | Medium: piecemeal | High: disorganised or changing assets
+Timeline urgency,,"=IF(B32=""High"",0.4,IF(B32=""Medium"",0.2,IF(B32=""Low"",0,IF(B32="""",0,""Check entry""))))",Low: flexible timeline | Medium: firm deadline | High: rush or aggressive turnaround
+Custom factor (enter decimal),,"=IF(B33="""",0,B33)",Enter multiplier adjustment such as 0.1 for unique friction.
+,,,
+Total Multiplier Adjustment,=SUM(C28:C33),,
+Project Complexity Multiplier,=1+B35,,
+,,,
+Fee Summary,,,
+Calculated Project Fee,"=IF(OR(B16="""",B36=""""),"""",B16*B36)",,
+Suggested Deposit (50%),"=IF(B39="""","""",B39*0.5)",,
+Remaining Balance,"=IF(B39="""","""",B39-B40)",,
+Notes for proposal,,,
+Effective Hourly Rate,"=IF(OR(B39="""",B11=0),"""",B39/B11)",,Auto-calculated when hours and fee are set.
