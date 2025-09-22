@@ -2,7 +2,7 @@
 title: "Non-AI Research"
 tags: [research, docs]
 project: "non-ai-research"
-updated: 2025-09-16
+updated: 2025-09-17
 ---
 
 --8<-- "_snippets/disclaimer.md"
@@ -25,6 +25,7 @@ Short, actionable approaches for personal efficiency and time management.
   with insights from [Productivity](../productivity/index.md) and
   [Terminal Workflow](../terminal-workflow/index.md).
 - [The Artist's Field Guide to Attention & Energy](artists-field-guide-attention-energy.md) maps ADHD-aware session design that channels flow while preventing burnout.
+- [The Anti-Fragile Studio](anti-fragile-studio.md) operationalises contracts, pricing, and dashboards so neurodivergent artists can run commission pipelines without burnout.
 
 
 ## Corporate Studies
