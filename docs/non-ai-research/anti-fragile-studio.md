@@ -492,8 +492,16 @@ Each project card should include:
   lifecycle map, contract, feedback, and wrap-up email for future reuse.
 
 !!! info "Deliverable"
-    Share a template board with instructions for weekly review and admin
-    blocks dedicated to maintaining it.
+    Download or copy the [Anti-Fragile Studio Dashboard template](templates/anti-fragile-studio-dashboard.md) and recreate the
+    listed columns in your kanban tool. Paste the column table into Notion to auto-generate groups, or mirror the lists in Trello
+    and duplicate the sample cards as starting templates.
+
+### Weekly Review & Admin Blocks
+
+- **Monday Weekly Review (45 minutes):** Triage the Intake Queue, confirm only one card occupies **Active Focus**, refresh due
+  dates and follow-up reminders, and book matching focus blocks on your calendar.
+- **Friday Admin Sweep (30 minutes):** Move finished work into **Cooling Down**, trigger wrap-up checklists, reconcile invoices,
+  and archive completed cards with lessons learned noted in their properties.
 
 ## Lifecycle Map Checklist and Implementation Guides
 
