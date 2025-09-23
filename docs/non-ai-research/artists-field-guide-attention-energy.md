@@ -1,6 +1,6 @@
 ---
 title: "The Artist's Field Guide to Attention & Energy: Navigating Flow, Focus, and Burnout in the Studio"
-tags: [productivity, neurodivergence, research]
+tags: [productivity, art, neurodivergence, research]
 project: docs-hub
 updated: 2025-09-16
 ---
