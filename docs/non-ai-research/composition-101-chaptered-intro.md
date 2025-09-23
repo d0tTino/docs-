@@ -7,6 +7,8 @@ updated: 2025-09-17
 
 --8<-- "_snippets/disclaimer.md"
 
+{{ toc }}
+
 # Composition 101 — Chaptered Intro (with Links)
 
 This primer distills essential composition frameworks into a chaptered guide. Each
