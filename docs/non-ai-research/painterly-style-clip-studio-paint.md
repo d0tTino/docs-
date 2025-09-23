@@ -155,13 +155,13 @@ principle of "controlled chaos."
 | --- | --- | --- | --- |
 | Oil Paint Flat Brush | Blocking & blending | Smooth, built-in blending; flat chisel tip | CSP default |
 | Cat's Tongue Brush | Controlled tapered strokes | Pressure-driven size taper | Custom duplicate |
-| Hoarse Oil | Sketching & painting | Soft-to-firm response based on pressure | ASSETS ID: 1776233 |
+| Hoarse Oil | Sketching & painting | Soft-to-firm response based on pressure | [ASSETS ID: 1776233](https://assets.clip-studio.com/en-us/detail?id=1776233 "Clip Studio ASSETS – Hoarse Oil (ID 1776233)") |
 | Ink Tapered Raw | Textured strokes | Dry-brush finish with clean mixing | DAUB Brushes (premium) |
 | Flat Ribbon (V/H) | Hard edges & block-ins | Palette-knife style chisel variants | Custom brush set |
 | Flat Ribbon Soft | Spontaneous texture | Randomized texture patterns per stroke | Custom brush |
-| SU-Cream Pencil | Initial sketch | Subtle tooth for clean or rough marks | ASSETS ID: 1761353 |
-| Thick Paints set | Thick rendering | Textured brushes with color jitter | ASSETS ID: 1794939 |
-| Textured Thick Lineart | Textured line work | Pencil-like grit that defines forms | ASSETS ID: 2108280 |
+| SU-Cream Pencil | Initial sketch | Subtle tooth for clean or rough marks | [ASSETS ID: 1761353](https://assets.clip-studio.com/en-us/detail?id=1761353 "Clip Studio ASSETS – SU-Cream Pencil (ID 1761353)") |
+| Thick Paints set | Thick rendering | Textured brushes with color jitter | [ASSETS ID: 1794939](https://assets.clip-studio.com/en-us/detail?id=1794939 "Clip Studio ASSETS – Thick Paints set (ID 1794939)") |
+| Textured Thick Lineart | Textured line work | Pencil-like grit that defines forms | [ASSETS ID: 2108280](https://assets.clip-studio.com/en-us/detail?id=2108280 "Clip Studio ASSETS – Textured Thick Lineart (ID 2108280)") |
 
 #### Brush Notes
 
