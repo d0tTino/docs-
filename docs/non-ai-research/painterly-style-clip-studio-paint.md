@@ -75,9 +75,13 @@ The initial canvas setup directly influences the quality and efficiency of the e
 process. Key considerations include:
 
 **Canvas Dimensions and Resolution:** The intended destination of the artwork should dictate its
-size. For images destined for social media, a canvas size like 1280x1920 pixels is effective. A
-resolution of 300 DPI is highly recommended, as it provides sufficient detail for most applications
-and reduces the risk of image degradation or "chewing up" when posted online.
+size. For pieces aimed at the web, prioritize the pixel dimensions that platforms actually display—
+1080 × 1350 px for portrait Instagram posts, 1080 × 1920 px for Stories/Reels, and 1280 × 720 px for
+horizontal posts on X—then match them with clean export settings (sRGB color profile, high-quality
+PNG or JPEG) so uploads stay crisp (see [Hootsuite's 2025 social media image size chart](https://blog.hootsuite.com/social-media-image-sizes/)). Working on a slightly larger portrait canvas such as
+1280 × 1920 px still gives you room to crop into these aspect ratios before publishing. DPI values,
+by contrast, only change how densely pixels print on paper, so reserve the 300 DPI baseline for
+layouts you expect to send to a printer where maintaining fine detail truly matters.
 
 **Neutral Background Color:** Starting a painting on a pure white canvas can be jarring and makes it
 difficult to accurately judge values. It is a best practice to begin by filling the background with
