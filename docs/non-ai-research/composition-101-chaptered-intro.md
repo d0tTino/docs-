@@ -836,7 +836,6 @@ masterclass in framing desire without needing explicit content.
 [^gurney-focus]: [Gurney Journey — How Many Values?](http://gurneyjourney.blogspot.com/2018/01/how-many-values.html)
 [^gurney-values]: [Gurney Journey — How Many Values?](http://gurneyjourney.blogspot.com/2018/01/how-many-values.html)
 [^reddit-csp]: [Reddit — Using Clip Studio Paint Threshold for Notan](https://www.reddit.com/r/ArtistLounge/comments/1czdkkb/best_free_app_to_turn_a_photo_or_better_still_a/)
-[^reddit-procreate]: [Reddit — Procreate Discussion on Posterize](https://www.reddit.com/r/ProCreate/comments/1ewjzk0/does_this_style_of_pictures_have_a_name/)
 [^apple-stack]: [Ask Different — How to Posterize Image with Procreate](https://apple.stackexchange.com/questions/353358/how-to-posterize-image-with-procreate)
 [^procreate-handbook]: [Procreate Handbook — Colors Interface](https://help.procreate.com/procreate/handbook/colors/colors-interface)
 [^sargent]: [Wikimedia Commons — Sargent, *Two Girls Fishing*](https://commons.wikimedia.org/wiki/File:Sargent_-_Two_Girls_Fishing,_1912,_1918.39.jpg)
