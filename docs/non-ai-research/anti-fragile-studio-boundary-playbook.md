@@ -1,6 +1,6 @@
 ---
 title: "Anti-Fragile Studio Boundary Playbook"
-tags: [productivity, neurodivergence, operations, research]
+tags: [productivity, art, neurodivergence, operations, research]
 project: docs-hub
 updated: 2025-09-18
 ---

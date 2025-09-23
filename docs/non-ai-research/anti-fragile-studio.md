@@ -1,6 +1,6 @@
 ---
 title: "The Anti-Fragile Studio: An Operational Playbook for the Neurodivergent Artist"
-tags: [productivity, neurodivergence, operations, research]
+tags: [productivity, art, neurodivergence, operations, research]
 project: docs-hub
 updated: 2025-09-18
 ---
