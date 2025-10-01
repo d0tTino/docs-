@@ -7,7 +7,7 @@ updated: 2025-09-17
 
 --8<-- "_snippets/disclaimer.md"
 
-{{ toc }}
+[[toc]]
 
 # Composition 101 — Chaptered Intro (with Links)
 

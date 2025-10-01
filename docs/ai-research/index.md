@@ -11,7 +11,7 @@ This index collects documents exploring context windows, reverse engineering, an
 
 ![KV cache chart](kv-cache-chart.svg)
 
-{{ toc }}
+[[toc]]
 
 ## Context Windows
 - [Context Windows Deep Dive](context-windows-deep-dive.md) — Analyzes long LLM context scaling

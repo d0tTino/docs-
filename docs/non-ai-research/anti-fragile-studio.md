@@ -7,7 +7,7 @@ updated: 2025-09-18
 
 --8<-- "_snippets/disclaimer.md"
 
-{{ toc }}
+[[toc]]
 
 # The Anti-Fragile Studio: An Operational Playbook for the Neurodivergent Artist
 
