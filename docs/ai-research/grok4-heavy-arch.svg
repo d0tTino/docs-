@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="grok4-heavy-arch-title grok4-heavy-arch-desc">
+  <title id="grok4-heavy-arch-title">Grok 4 Heavy multi-agent architecture</title>
+  <desc id="grok4-heavy-arch-desc">High-level architecture diagram showing the user connected to an orchestrator that routes tasks to Agent A and Agent B, both of which interface with shared tools, outputs, and memory stores.</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 z" fill="#333" />
