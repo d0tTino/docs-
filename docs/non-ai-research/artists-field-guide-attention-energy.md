@@ -163,10 +163,10 @@ Redefine a "good day" by process adherence, not output volume.
 
 ### Using the Scorecard
 
-> [!TIP]
-> - Track leading indicators such as boundary breaks and recovery actions, not just flow minutes.
-> - Treat entries as neutral data. Low-flow days with strong recovery still count as wins against burnout.
-> - Prioritize Metric 5. Writing the next session's first step lowers initiation friction for ADHD and monotropic brains.
+!!! tip
+    - Track leading indicators such as boundary breaks and recovery actions, not just flow minutes.
+    - Treat entries as neutral data. Low-flow days with strong recovery still count as wins against burnout.
+    - Prioritize Metric 5. Writing the next session's first step lowers initiation friction for ADHD and monotropic brains.
 
 ## Recovery Toolkit: Refueling Creative Capacity
 
