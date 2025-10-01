@@ -22,7 +22,7 @@ For a transformer with **L** layers, **H** heads and head dimension **d**, and u
 KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes.
 ```
 
-The factor of 2 accounts for keys and values.  For example, a 70 B-parameter model with **L ≈ 80**, **H ≈ 64**, **d ≈ 128** and **dtypeBytes = 2** uses approximately 2.6 MiB per thousand tokens[^1].  A 7 B model with half as many layers and heads uses ~0.7 MiB per thousand tokens.  Multiply the per-token cost by the sequence length to estimate VRAM requirements.  Remember to leave room for model parameters, activations and overhead.
+The factor of 2 accounts for keys and values.  For example, a 70 B-parameter model with **L ≈ 80**, **H ≈ 64**, **d ≈ 128** and **dtypeBytes = 2** uses approximately 2.6 MiB per thousand tokens[@fireworks2023kvcache].  A 7 B model with half as many layers and heads uses ~0.7 MiB per thousand tokens.  Multiply the per-token cost by the sequence length to estimate VRAM requirements.  Remember to leave room for model parameters, activations and overhead.
 
 ### A.2 Throughput and latency
 
@@ -78,23 +78,23 @@ For each position *p* in {1 k, 4 k, 16 k, 64 k, …}, embed a retrieval
 
 **Nominal context:** The advertised maximum context length (e.g., 128 k tokens).  It is the upper bound on input length supported by the model and serving stack.
 
-**Effective context:** The portion of the context window that the model actually uses.  Effective context may be much smaller than nominal due to positional biases and training distribution[^2].
+**Effective context:** The portion of the context window that the model actually uses.  Effective context may be much smaller than nominal due to positional biases and training distribution[@liu2023lostmiddle].
 
-**Key–value (KV) cache:** The memory used to store key and value vectors for each token in each layer during inference.  It scales linearly with sequence length and model depth[^1].
+**Key–value (KV) cache:** The memory used to store key and value vectors for each token in each layer during inference.  It scales linearly with sequence length and model depth[@fireworks2023kvcache].
 
 **Prefill vs decode:** The prefill phase processes the entire context at once; decode generates tokens one by one.  Prefill complexity is O(N²) for full attention and O(N) for linear/sparse attention; decode is O(N) per token.
 
-**FlashAttention:** A kernel that reorganises the attention computation to reduce memory bandwidth, enabling longer contexts at high throughput[^1].
+**FlashAttention:** A kernel that reorganises the attention computation to reduce memory bandwidth, enabling longer contexts at high throughput[@dao2022flashattention].
 
-**PagedAttention/vLLM:** A serving mechanism that stores KV tensors in a paged format and evicts unused pages to support large windows and concurrent requests.
+**PagedAttention/vLLM:** A serving mechanism that stores KV tensors in a paged format and evicts unused pages to support large windows and concurrent requests[@kwon2023pagedattention].
 
-**Position Interpolation (PI):** A method to extend rotary position embeddings (RoPE) by downscaling positions, enabling models trained on short sequences to extrapolate to longer ones[^3].
+**Position Interpolation (PI):** A method to extend rotary position embeddings (RoPE) by downscaling positions, enabling models trained on short sequences to extrapolate to longer ones[@press2022trainshort].
 
-**YaRN:** A refinement of PI that reduces the amount of data needed during fine-tuning and reaches 128 k tokens with fewer steps[^4].
+**YaRN:** A refinement of PI that reduces the amount of data needed during fine-tuning and reaches 128 k tokens with fewer steps[@peng2023yarn].
 
-**StRing:** A technique that shifts position indices during fine-tuning to improve long-context performance[^5].
+**LongRoPE:** A technique that shifts rotary frequencies and trains on curriculum schedules to improve long-context performance and reach million-token demonstrations[@ding2024longrope].
 
-**Infini-attention:** A transformer variant that combines masked local attention with long-term linear attention and a compressive memory to handle sequences of hundreds of thousands of tokens[^6].
+**Streaming/compressive attention:** Frameworks such as StreamingLLM and Compressive Transformers combine local attention with recurrent or compressed memory to handle sequences of hundreds of thousands of tokens[@xiao2024streamingllm; @rae2019compressive].
 
 ## D. Design matrix summary
 
@@ -107,9 +107,3 @@ The table in [context-windows-design-matrix.md](context-windows-design-matrix.md
 - [Context Windows Field Guide](context-windows-field-guide.md)
 - [Context Windows Deep Dive](context-windows-deep-dive.md)
 
-[^1]: Source 563653443713035 lines 150-171.
-[^2]: Source 812281553901334 lines 65-76.
-[^3]: Source 989342212075024 lines 50-60.
-[^4]: Source 556094126408083 lines 50-60.
-[^5]: Source 199134859253240 lines 78-94.
-[^6]: Source 100878192473897 lines 50-60.
