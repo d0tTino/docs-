@@ -37,11 +37,16 @@ KV_memory_bytes ≈ 2 × L × H × d × seq_length × dtypeBytes
 *Figure 1: Near-linear KV cache scaling with model size and token count.*
 
 The underlying data in [context-windows-design-matrix.md](context-windows-design-matrix.md) maps each bar to a model and sequence length, helping you read exact memory requirements from the chart.
-{{ read_file('docs/ai-research/context-windows-design-matrix.html') }}
+<iframe
+  src="../context-windows-design-matrix.html"
+  title="Interactive context windows design matrix"
+  style="width: 100%; height: 640px; border: none;"
+  loading="lazy"
+></iframe>
 
 ![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from context-windows-design-matrix.md](context-windows-design-matrix.svg)
 
-[Interactive table](context-windows-design-matrix.html). Regenerate the SVG with [`scripts/context_windows_chart.py`](../../scripts/context_windows_chart.py) (requires `pandas`, `matplotlib`, and `seaborn`) and refresh the Plotly HTML with [`docs/ai-research/context-windows-design-matrix.py`](context-windows-design-matrix.py) (requires `plotly` and `kaleido`).
+[Interactive table](../context-windows-design-matrix.html). Regenerate the SVG with [`scripts/context_windows_chart.py`](../../scripts/context_windows_chart.py) (requires `pandas`, `matplotlib`, and `seaborn`) and refresh the Plotly HTML with [`docs/ai-research/context-windows-design-matrix.py`](context-windows-design-matrix.py) (requires `plotly` and `kaleido`).
 A single 16 k-token request therefore uses over 40 GiB of memory[^3].  Activation memory (intermediate activations needed for backpropagation) also scales with sequence length.  Training long contexts often requires gradient accumulation, checkpointing, recomputation or reversible layers to manage memory[^4].  During inference, memory fragmentation and scheduler constraints further limit the usable window.  Hardware improvements (larger VRAM, faster memory bandwidth) and algorithmic innovations (FlashAttention, PagedAttention) are critical to make long context practical.
 
 ## 2 Landscape of context sizes in 2025
