@@ -41,7 +41,7 @@ The underlying data in [context-windows-design-matrix.md](context-windows-design
 
 ![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from context-windows-design-matrix.md](context-windows-design-matrix.svg)
 
-[Interactive table](context-windows-design-matrix.html). Regenerate the SVG and HTML with `scripts/context-windows-design-matrix.py`.
+[Interactive table](context-windows-design-matrix.html). Regenerate the SVG with [`scripts/context_windows_chart.py`](../../scripts/context_windows_chart.py) (requires `pandas`, `matplotlib`, and `seaborn`) and refresh the Plotly HTML with [`docs/ai-research/context-windows-design-matrix.py`](context-windows-design-matrix.py) (requires `plotly` and `kaleido`).
 A single 16 k-token request therefore uses over 40 GiB of memory[^3].  Activation memory (intermediate activations needed for backpropagation) also scales with sequence length.  Training long contexts often requires gradient accumulation, checkpointing, recomputation or reversible layers to manage memory[^4].  During inference, memory fragmentation and scheduler constraints further limit the usable window.  Hardware improvements (larger VRAM, faster memory bandwidth) and algorithmic innovations (FlashAttention, PagedAttention) are critical to make long context practical.
 
 ## 2 Landscape of context sizes in 2025
@@ -135,6 +135,7 @@ flowchart TD
   T2 --> T3[Tier 3: External retrieval]
   T3 -.-> T4[Optional Tier 4: Distributed full attention]
 ```
+
 *Figure: Tier 1 keeps a working set in full attention, Tier 2 compresses long-range history, Tier 3 retrieves from external memory, and optional Tier 4 uses distributed full attention for extreme cases.*
 
 No single method provides an infinite context; practical systems layer multiple techniques to approximate it.  A **three-tier architecture** can achieve near-infinite context:
@@ -166,8 +167,8 @@ As hardware improves and architectures evolve, LLMs will continue to push the li
 
 ## See also
 
-- [Context Windows Deep Dive](context-windows-deep-dive.md)
-- [Context Windows Field Guide — Appendix](context-windows-appendix.md)
+* [Context Windows Deep Dive](context-windows-deep-dive.md)
+* [Context Windows Field Guide — Appendix](context-windows-appendix.md)
 
 [^1]: Source 477669928722032 lines 226-297.
 [^2]: Source 812281553901334 lines 65-76.
