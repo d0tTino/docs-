@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic symmetry harmonic armature</title>
+  <desc id="desc">Baroque and sinister diagonals with reciprocal lines inside a Root-2 rectangle, labelling key intersections for placing focal points.</desc>
+  <style>
+    :root { color: var(--md-typeset-color, #111827); }
+    text { font-family: "Inter", "Segoe UI", sans-serif; font-size: 13px; fill: var(--md-typeset-color, #111827); }
+    .frame { fill: none; stroke: var(--md-typeset-color, #111827); stroke-width: 2.5; }
+    .baroque { stroke: var(--md-accent-fg-color, #2563eb); stroke-width: 3; }
+    .sinister { stroke: var(--md-warning-fg-color, #f97316); stroke-width: 3; }
+    .reciprocal { stroke: var(--md-default-fg-color--light, #6b7280); stroke-width: 2; stroke-dasharray: 6 6; }
+    circle { fill: var(--md-accent-fg-color, #2563eb); }
+  </style>
+  <rect x="60" y="30" width="283" height="200" class="frame" />
+  <line x1="60" y1="230" x2="343" y2="30" class="baroque" />
+  <line x1="60" y1="30" x2="343" y2="230" class="sinister" />
+  <line x1="60" y1="130" x2="343" y2="130" class="reciprocal" />
+  <line x1="201.5" y1="30" x2="201.5" y2="230" class="reciprocal" />
+  <line x1="60" y1="30" x2="201.5" y2="230" class="reciprocal" />
+  <line x1="343" y1="30" x2="201.5" y2="230" class="reciprocal" stroke-dasharray="4 4" />
+  <circle cx="201.5" cy="130" r="4" />
+  <circle cx="144" cy="166" r="4" />
+  <circle cx="260" cy="94" r="4" />
+  <text x="65" y="24">Root-2 frame</text>
+  <text x="110" y="150" transform="rotate(56 110 150)">Reciprocal to sinister</text>
+  <text x="250" y="70" transform="rotate(-56 250 70)">Reciprocal to baroque</text>
+  <text x="180" y="120">Central eye</text>
+  <text x="280" y="120">Baroque diagonal</text>
+  <text x="95" y="70">Sinister diagonal</text>
+  <text x="210" y="245">Midpoint cross</text>
+</svg>
