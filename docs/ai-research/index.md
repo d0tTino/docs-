@@ -5,13 +5,15 @@ project: "ai-research"
 updated: 2025-09-02
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # AI Research
 
 This index collects documents exploring context windows, reverse engineering, and strategic planning.
 
 ![KV cache chart](kv-cache-chart.svg)
 
-{{ toc }}
+[[toc]]
 
 ## Context Windows
 - [Context Windows Deep Dive](context-windows-deep-dive.md) — Analyzes long LLM context scaling

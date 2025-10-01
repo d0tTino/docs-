@@ -9,7 +9,7 @@ updated: 2025-08-14
 
 # Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)
 
-{{ toc }}
+[[toc]]
 
 1.0 Executive Summary
 1.1 Project Mandate and Findings
