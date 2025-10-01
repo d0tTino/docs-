@@ -7,7 +7,7 @@ updated: 2025-09-16
 
 --8<-- "_snippets/disclaimer.md"
 
-{{ toc }}
+[[toc]]
 
 # The Artist's Field Guide to Attention & Energy: Navigating Flow, Focus, and Burnout in the Studio
 

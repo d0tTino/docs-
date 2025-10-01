@@ -7,7 +7,7 @@ updated: 2025-09-08
 
 --8<-- "_snippets/disclaimer.md"
 
-{{ toc }}
+[[toc]]
 
 > **Contributor note:** Keep image callouts as HTML comments formatted like `<!-- image: docs/non-ai-research/img/filename.png -->` until the actual asset is committed. Replace the comment with the real image path when adding binaries.
 

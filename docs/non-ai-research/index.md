@@ -13,7 +13,7 @@ This collection surveys productivity methods, corporate dynamics, and
 interdisciplinary ideas beyond AI. These studies link diverse research to
 broaden and complement AI-focused work.
 
-{{ toc }}
+[[toc]]
 
 ## Productivity
 
