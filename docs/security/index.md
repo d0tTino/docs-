@@ -21,4 +21,4 @@ Resources related to security practices and research.
 
 ## Further Reading
 
-- [Privacy & OpSec Icon](../wave-icons/wave3-privacy-opsec.svg)
+- ![Privacy and operational security icon](../wave-icons/wave3-privacy-opsec.svg) — Use this icon to highlight privacy and operational security guidance within related documentation.
