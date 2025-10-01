@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-labelledby="title-palantir-timeline desc-palantir-timeline">
+  <title id="title-palantir-timeline">Timeline of key Palantir and surveillance milestones from ECHELON in 1971 to the 2025 DOGE initiative.</title>
+  <desc id="desc-palantir-timeline">Horizontal timeline marks 1971 ECHELON formalized, 1999 In-Q-Tel founded, 2001 USA PATRIOT Act, 2003 Palantir founded, 2005 In-Q-Tel invests, 2013 Snowden leaks, 2020 HHS Tiberius, and 2025 DOGE initiative.</desc>
   <style>
     .label { font: 12px sans-serif; }
   </style>

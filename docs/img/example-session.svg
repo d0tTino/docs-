@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" role="img" aria-labelledby="title-example-session desc-example-session">
+  <title id="title-example-session">Screenshot of an example terminal session</title>
+  <desc id="desc-example-session">Dark terminal window showing the commands "ls" and "git status" with the prompt reporting a clean working tree at the end of the example session.</desc>
   <rect width="100%" height="100%" fill="#1e1e1e"/>
   <text x="10" y="20" font-family="monospace" font-size="14" fill="#d4d4d4">user@host:~$ ls</text>
   <text x="10" y="40" font-family="monospace" font-size="14" fill="#d4d4d4">README.md  src  docs</text>

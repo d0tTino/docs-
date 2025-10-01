@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="title-zones-of-thought desc-zones-of-thought">
+  <title id="title-zones-of-thought">Diagram of the Zones of Thought showing layers from Unthinking Depths to Transcend</title>
+  <desc id="desc-zones-of-thought">Zones of Thought diagram stacks four colored bands from top to bottom: Transcend, Beyond, Slow Zone, and Unthinking Depths, conveying the layered cognitive strata.</desc>
   <rect x="0" y="0" width="400" height="100" fill="#4e79a7"/>
   <text x="200" y="50" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20">Transcend</text>
   <rect x="0" y="100" width="400" height="100" fill="#59a14f"/>

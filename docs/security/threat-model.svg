@@ -1,4 +1,6 @@
-<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" aria-label="Risk matrix plotting impact versus likelihood">
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-threat-model desc-threat-model">
+  <title id="title-threat-model">Risk matrix plotting impact against likelihood for top threats including defacement, supply chain compromise, and AI-generated malware.</title>
+  <desc id="desc-threat-model">Risk matrix with high impact on the top row and likelihood increasing to the right: supply chain compromise sits in the high-impact, low-likelihood cell, AI-generated malware occupies the high-impact, medium-likelihood cell, and defacement rests in the medium-impact, medium-likelihood cell with labeled axes for impact and likelihood.</desc>
   <style>
     .low { fill: #2ecc71; }
     .medium { fill: #f39c12; }

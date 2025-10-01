@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="345.6pt" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="345.6pt" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-labelledby="title-gpt5-sentiment desc-gpt5-sentiment">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -16,8 +16,8 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <title>Sentiment analysis of r/ChatGPT AMA comments</title>
- <desc>Bar chart with 15% positive comments and 85% negative comments.</desc>
+ <title id="title-gpt5-sentiment">Bar chart comparing sentiment: 85% negative comments and 15% positive ones</title>
+ <desc id="desc-gpt5-sentiment">Sentiment bars show about 15 positive comments versus roughly 85 negative comments on the same axis, underscoring how overwhelmingly negative the GPT-5 AMA responses were.</desc>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>

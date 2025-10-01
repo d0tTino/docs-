@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200" role="img" aria-labelledby="title-site-map desc-site-map">
+  <title id="title-site-map">Site map diagram illustrating the flow from the landing page through section directories and project submodules</title>
+  <desc id="desc-site-map">Site map diagram renders a docs/ tree listing ai-research, arduino, terminal-workflow, culture-project, _project-docs, scripts, playbooks, and security directories branching from the landing page.</desc>
   <style>
     text {
       font-family: monospace;

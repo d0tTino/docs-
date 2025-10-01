@@ -1,4 +1,6 @@
-<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-qubit-error-amplification desc-qubit-error-amplification">
+  <title id="title-qubit-error-amplification">Illustration of qubit error amplification</title>
+  <desc id="desc-qubit-error-amplification">Diagram shows an initial qubit flowing through an error introduced stage into an amplified error, with arrows highlighting noise injection and propagation through the system.</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
       <path d="M0,0 L10,3 L0,6 Z" fill="#000" />
