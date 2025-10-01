@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic symmetry Root-2 construction</title>
+  <desc id="desc">Diagram showing a square with its diagonal swung outward to form a Root-2 rectangle, highlighting the inherited diagonal and reciprocal points.</desc>
+  <style>
+    :root { color: var(--md-typeset-color, #111827); }
+    text { font-family: "Inter", "Segoe UI", sans-serif; font-size: 14px; fill: var(--md-typeset-color, #111827); }
+    .guide { fill: none; stroke: var(--md-typeset-color, #111827); stroke-width: 2; }
+    .accent { stroke: var(--md-accent-fg-color, #2563eb); }
+    .secondary { stroke: var(--md-default-fg-color--light, #6b7280); stroke-dasharray: 6 6; }
+    circle { fill: var(--md-accent-fg-color, #2563eb); }
+  </style>
+  <rect x="60" y="40" width="200" height="200" class="guide" stroke-width="2.5" />
+  <rect x="60" y="40" width="283" height="200" class="guide" stroke-width="2.5" opacity="0.4" />
+  <line x1="60" y1="240" x2="260" y2="40" class="guide accent" stroke-width="3" />
+  <line x1="60" y1="40" x2="343" y2="40" class="secondary" />
+  <line x1="260" y1="40" x2="343" y2="240" class="secondary" />
+  <line x1="260" y1="40" x2="260" y2="240" class="guide" stroke-width="1.5" opacity="0.65" />
+  <circle cx="260" cy="40" r="4" />
+  <circle cx="260" cy="240" r="4" />
+  <circle cx="343" cy="240" r="4" />
+  <text x="65" y="35">Square (1:1)</text>
+  <text x="270" y="35">Diagonal swung</text>
+  <text x="320" y="255">Root-2 corner</text>
+  <text x="170" y="155" transform="rotate(-45 170 155)">Shared diagonal</text>
+  <text x="263" y="130" transform="rotate(90 263 130)">Reciprocal drop</text>
+</svg>

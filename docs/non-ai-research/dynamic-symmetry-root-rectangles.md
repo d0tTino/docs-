@@ -34,6 +34,11 @@ can be expressed as 1 + 2 × (1/φ).[^kitschmeister] Beyond Root-5 the recta
 become increasingly extreme, which is why historical usage clusters around
 squares, Root-2, Root-3, Root-4, Root-5, and golden rectangles.[^kitschmeister]
 
+<figure>
+  <img src="../img/dynamic-symmetry-root-2.svg" alt="Square with diagonal swung outward to form a Root-2 rectangle, highlighting the shared diagonal, reciprocal drop, and Root-2 corner." loading="lazy" />
+  <figcaption><strong>Root-2 construction.</strong> The square’s diagonal (accent line) spins outward to locate the Root-2 corner, while the reciprocal drop marks where the inherited diagonal meets the extended frame.</figcaption>
+</figure>
+
 ### Root rectangle cheat sheet
 
 | Root | Ratio (long : short) | Approx. decimal | Nickname / notes |
@@ -128,6 +133,11 @@ Artists who adopt dynamic symmetry report several compositional advantages:
 
 Creating the basic harmonic armature for any rectangle follows a predictable
 workflow:[^kitschmeister]
+
+<figure>
+  <img src="../img/dynamic-symmetry-harmonic-armature.svg" alt="Root-2 frame with baroque and sinister diagonals plus reciprocal lines and central eye intersections for focal placement." loading="lazy" />
+  <figcaption><strong>Harmonic armature highlights.</strong> The baroque (blue) and sinister (orange) diagonals cross through the central eye, while dashed reciprocals pick out secondary anchor points along the midpoint cross.</figcaption>
+</figure>
 
 1. **Choose the base rectangle.** Decide on the aspect ratio (Root-2, Root-3,
    golden rectangle, 3:2 camera frame, 16:9, etc.) so the armature matches your
