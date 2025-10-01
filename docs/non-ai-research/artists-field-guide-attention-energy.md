@@ -21,15 +21,15 @@ Sustainable creative practice starts with a clear vocabulary for core mental sta
 
 ### ADHD Attentional Regulation
 
-ADHD is best characterized as a dysregulated attention system rather than an attention deficit. Dopamine-driven reward pathways pull attention toward novel, intrinsically interesting tasks that provide immediate feedback. Tedious but necessary chores (for example, layer management) are hard to initiate, while captivating rendering tasks can capture attention involuntarily. Understanding this volatility reframes the challenge from "finding focus" to steering and modulating intensity.
+ADHD is best characterized as a dysregulated attention system rather than an attention deficit. Dopamine-driven reward pathways pull attention toward novel, intrinsically interesting tasks that provide immediate feedback. Tedious but necessary chores (for example, layer management) are hard to initiate, while captivating rendering tasks can capture attention involuntarily. Understanding this volatility reframes the challenge from "finding focus" to steering and modulating intensity.[^additude-hyperfocus]
 
 ### Monotropism: The Attention Tunnel
 
-Monotropism theory, developed by autistic researchers, proposes that cognitive resources cluster around a small number of interests at any one time. In the studio this becomes a powerful "attention tunnel" that enables deep immersion on a single creative problem. Trade-offs include expensive task switching (such as moving from sketching to inking) and high sensitivity to interruptions. Treating monotropism as a cognitive style—rather than a deficit—makes it possible to design supports that preserve its strengths while easing transitions.
+Monotropism theory, developed by autistic researchers, proposes that cognitive resources cluster around a small number of interests at any one time. In the studio this becomes a powerful "attention tunnel" that enables deep immersion on a single creative problem. Trade-offs include expensive task switching (such as moving from sketching to inking) and high sensitivity to interruptions. Treating monotropism as a cognitive style—rather than a deficit—makes it possible to design supports that preserve its strengths while easing transitions.[^monotropism-org]
 
 ### Flow: The Optimal Creative State
 
-Psychologist Mihaly Csikszentmihalyi defined flow as voluntary, energized immersion in a task that is both intrinsically rewarding and well matched to skill. Flow requires:
+Psychologist Mihaly Csikszentmihalyi defined flow as voluntary, energized immersion in a task that is both intrinsically rewarding and well matched to skill. Flow requires:[^positivepsych-flow]
 
 - **Clear, proximal goals:** e.g., "Render the helmet reflections in the next 20 minutes."
 - **Immediate feedback:** drawing provides a real-time visual loop for adjustments.
@@ -39,7 +39,7 @@ Subjectively, flow feels like steady momentum and reduced self-consciousness whi
 
 ### Creative Burnout: The Depletion State
 
-Burnout emerges when creative demands chronically outpace available resources. For artists it shows up as emotional exhaustion, loss of joy, persistent self-doubt, and physical fatigue that rest fails to resolve. Over time the brain associates drawing with depletion, producing avoidance, blocks, and disengagement from the craft.
+Burnout emerges when creative demands chronically outpace available resources. For artists it shows up as emotional exhaustion, loss of joy, persistent self-doubt, and physical fatigue that rest fails to resolve. Over time the brain associates drawing with depletion, producing avoidance, blocks, and disengagement from the craft.[^idsa-burnout]
 
 ## The Causal Pathway: Steering the Attention Tunnel
 
@@ -47,7 +47,7 @@ The creative process begins when interest pulls attention into the monotropic tu
 
 ### Flow vs. Hyperfocus
 
-The attention tunnel can swing to either extreme depending on how a session is structured.
+The attention tunnel can swing to either extreme depending on how a session is structured.[^chadd-hyperfocus]
 
 | Aspect | Flow Path | Hyperfocus Path |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ The attention tunnel can swing to either extreme depending on how a session is s
 
 ### Road to Burnout
 
-Repeated hyperfocus sessions overdraw glucose reserves and trigger the body's stress response. High switch costs, commission pressure, and unresolved tasks amplify depletion. As exhaustion pairs with rising anxiety, drawing shifts from intrinsically rewarding to threatening. Prevention must therefore occur at the micro-level—designing each session to cap focus intensity before resources crash.
+Repeated hyperfocus sessions overdraw glucose reserves and trigger the body's stress response. High switch costs, commission pressure, and unresolved tasks amplify depletion. As exhaustion pairs with rising anxiety, drawing shifts from intrinsically rewarding to threatening. Prevention must therefore occur at the micro-level—designing each session to cap focus intensity before resources crash.[^additude-burnout]
 
 ## Mid-Session Diagnostic Kit
 
@@ -178,6 +178,13 @@ Redefine a "good day" by process adherence, not output volume.
 | Scheduled creative play | Protect low-stakes drawing time without outcome pressure. | Reconnects with intrinsic motivation and buffers against burnout. |
 
 ## Appendix: Foundational Sources
+
+[^additude-hyperfocus]: [ADDitude Magazine – Hyperfocus: The ADHD Phenomenon of Hyper Fixation](https://www.additudemag.com/hyperfocus-adhd-fixation/)
+[^monotropism-org]: [Monotropism.org – Monotropism: The Mind as an Interest System](https://monotropism.org)
+[^positivepsych-flow]: [PositivePsychology.com – What Is Flow in Positive Psychology? (Incl. 10+ Activities)](https://positivepsychology.com/what-is-flow/)
+[^idsa-burnout]: [Industrial Designers Society of America – Creative Burnout: Suffocating the Future of Design](https://www.idsa.org/creativity-industrial-design/creative-burnout-suffocating-future-design)
+[^chadd-hyperfocus]: [CHADD – Hyperfocus in College Students with ADHD](https://chadd.org/attention-article/hyperfocus-in-college-students-with-adhd/)
+[^additude-burnout]: [ADDitude Magazine – Extreme Burnout: How ADHD Hyperfocus Broke Me](https://www.additudemag.com/adhd-burnout-hyperfocus/)
 
 - Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience.* PositivePsychology.com and MindTools provide accessible summaries and applications.
 - Murray, D., Lesser, M., & Lawson, W. (2005). "Attention, monotropism and the diagnostic criteria for autism." *Autism, 9*(2), 139–156. Introduces monotropism theory; see Monotropism.org and British Psychological Society explainers.
