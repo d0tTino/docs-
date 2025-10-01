@@ -120,9 +120,9 @@ Alternate task difficulty to manage cognitive load:
 
 | Tier | Cognitive Load | Typical Tasks |
 | --- | --- | --- |
-| Tier 1 – Easy | Low decision-making: fill flats, organize layers, clean scans. |
-| Tier 2 – Medium | Structured technical work: clean line art, basic rendering, block proportions. |
-| Tier 3 – Hard | High-concept problem-solving: thumbnail ideation, complex perspective, tricky materials, final color grading. |
+| Tier 1 – Easy | Low decision-making | Fill flats, organize layers, clean scans. |
+| Tier 2 – Medium | Structured technical work | Clean line art, basic rendering, block proportions. |
+| Tier 3 – Hard | High-concept problem-solving | Thumbnail ideation, complex perspective, tricky materials, final color grading. |
 
 Pair a Tier 3 morning session with a Tier 1 afternoon cooldown to prevent exhaustion.
 
