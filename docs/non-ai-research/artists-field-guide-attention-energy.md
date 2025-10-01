@@ -83,7 +83,7 @@ Abruptly stopping a monotropic brain can feel destabilizing. Use this three-part
 | --- | --- | --- | --- |
 | 1. Hard Stop Cue | Trigger a loud, unavoidable alarm, save the file, capture a screenshot, and write "Next, I will…" with the very next step. | 30 seconds | Externalizes working memory and interrupts the hyperfocus loop. |
 | 2. Physical Reset | Stand up, stretch, hydrate, and take three deep breaths away from the desk. | 60–120 seconds | Reconnects interoceptive signals and breaks the physical posture tied to overfocus. |
-| 3. Conscious Decision | Choose one:<br>• Resume with a fresh 20–25 minute timer.<br>• Switch to a 15-minute bridge task (layer cleanup, filling flats).<br>• Log progress on the scorecard and stop fully if depletion is high. |  | Puts attention back under voluntary control and protects energy reserves. |
+| 3. Conscious Decision | Choose one:<br>• Resume with a fresh 20–25 minute timer.<br>• Switch to a 15-minute bridge task (layer cleanup, filling flats).<br>• Log progress on the scorecard and stop fully if depletion is high. | 2–3 minutes | Puts attention back under voluntary control and protects energy reserves. |
 
 ## Diagram Blueprint: Attention Tunnel ↔ Flow Channel
 
