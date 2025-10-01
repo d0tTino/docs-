@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Rule of Thirds Grid with Power Points</title>
+  <desc id="desc">A neutral frame with a 3 by 3 grid overlay. The four intersections are highlighted to show the rule of thirds power points with labels for horizon placement, subject placement, and supporting elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <marker id="arrow" orient="auto" markerWidth="12" markerHeight="12" refX="6" refY="6">
+      <path d="M0,0 L12,6 L0,12 z" fill="#0f172a" />
+    </marker>
+    <style>
+      text {
+        font-family: "Inter", "Segoe UI", sans-serif;
+        fill: #0f172a;
+      }
+    </style>
+  </defs>
+  <rect x="40" y="40" width="880" height="460" fill="url(#bg)" stroke="#1e293b" stroke-width="2" rx="12" />
+  <!-- Grid lines -->
+  <g stroke="#334155" stroke-width="2" stroke-dasharray="6 8" opacity="0.85">
+    <line x1="333.33" y1="40" x2="333.33" y2="500" />
+    <line x1="626.67" y1="40" x2="626.67" y2="500" />
+    <line x1="40" y1="193.33" x2="920" y2="193.33" />
+    <line x1="40" y1="346.67" x2="920" y2="346.67" />
+  </g>
+  <!-- Power point markers -->
+  <g fill="#ef4444" stroke="#fff" stroke-width="4">
+    <circle cx="333.33" cy="193.33" r="18" />
+    <circle cx="333.33" cy="346.67" r="18" />
+    <circle cx="626.67" cy="193.33" r="18" />
+    <circle cx="626.67" cy="346.67" r="18" />
+  </g>
+  <g fill="#ef4444" font-size="22" font-weight="600" text-anchor="middle">
+    <text x="333.33" y="176">Power</text>
+    <text x="333.33" y="204">point</text>
+    <text x="626.67" y="176">Power</text>
+    <text x="626.67" y="204">point</text>
+    <text x="333.33" y="329">Power</text>
+    <text x="333.33" y="357">point</text>
+    <text x="626.67" y="329">Power</text>
+    <text x="626.67" y="357">point</text>
+  </g>
+  <!-- Subject suggestion -->
+  <circle cx="626.67" cy="193.33" r="48" fill="rgba(14,116,144,0.15)" stroke="#0e7490" stroke-width="4" />
+  <path d="M626.67 110 L626.67 142" stroke="#0e7490" stroke-width="6" stroke-linecap="round" />
+  <path d="M626.67 244 L626.67 316" stroke="#0e7490" stroke-width="6" stroke-linecap="round" />
+  <path d="M626.67 193.33 L686.67 233.33" stroke="#0e7490" stroke-width="6" stroke-linecap="round" />
+  <path d="M626.67 193.33 L566.67 233.33" stroke="#0e7490" stroke-width="6" stroke-linecap="round" />
+  <text x="626.67" y="96" text-anchor="middle" font-size="22" font-weight="600">Subject on a power point</text>
+  <!-- Horizon annotation -->
+  <path d="M80 193.33 L300 193.33" stroke="#0f172a" stroke-width="6" stroke-linecap="round" />
+  <text x="172" y="170" font-size="22" font-weight="600">Horizon on top third</text>
+  <text x="190" y="382" font-size="22" font-weight="600">Foreground hugs lower third</text>
+  <path d="M80 346.67 L300 346.67" stroke="#0f172a" stroke-width="6" stroke-linecap="round" />
+  <!-- Annotation arrow -->
+  <path d="M220 320 Q220 250 320 210" fill="none" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)" />
+</svg>

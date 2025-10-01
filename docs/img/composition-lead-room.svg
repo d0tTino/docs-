@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Lead Room and Headroom Examples</title>
+  <desc id="desc">Four mini frames compare balanced look space and headroom against cramped or excessive spacing. The first frame shows a subject on the left third facing open space. The second short-sides the subject against the frame edge. The third keeps the eyes near the top third for comfortable headroom, and the fourth leaves excessive headroom above the subject.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <style>
+      text {
+        font-family: "Inter", "Segoe UI", sans-serif;
+        fill: #0f172a;
+      }
+    </style>
+    <marker id="arrow-head" orient="auto" markerWidth="10" markerHeight="10" refX="5" refY="5">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0f172a" />
+    </marker>
+  </defs>
+  <rect x="30" y="30" width="900" height="480" fill="url(#panel)" stroke="#1e293b" stroke-width="2" rx="16" />
+  <g font-size="26" font-weight="600" text-anchor="middle">
+    <text x="240" y="72">Comfortable look space</text>
+    <text x="720" y="72">Short-sided look space</text>
+    <text x="240" y="312">Balanced headroom</text>
+    <text x="720" y="312">Excessive headroom</text>
+  </g>
+  <!-- Comfortable look space frame -->
+  <g transform="translate(80 90)">
+    <rect width="360" height="180" fill="#f1f5f9" stroke="#1e293b" stroke-width="2" rx="12" />
+    <g stroke="#334155" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.8">
+      <line x1="120" y1="0" x2="120" y2="180" />
+      <line x1="240" y1="0" x2="240" y2="180" />
+      <line x1="0" y1="60" x2="360" y2="60" />
+      <line x1="0" y1="120" x2="360" y2="120" />
+    </g>
+    <g stroke="#0f172a" stroke-width="4" fill="none" marker-end="url(#arrow-head)">
+      <line x1="150" y1="90" x2="300" y2="90" />
+    </g>
+    <g stroke="#0e7490" stroke-width="5" stroke-linecap="round">
+      <circle cx="120" cy="80" r="28" fill="#bae6fd" stroke="#0e7490" />
+      <line x1="120" y1="108" x2="120" y2="150" />
+      <line x1="120" y1="120" x2="156" y2="140" />
+      <line x1="120" y1="120" x2="84" y2="140" />
+    </g>
+    <text x="180" y="170" font-size="18" text-anchor="middle">Lead room lets the gaze travel</text>
+  </g>
+  <!-- Short-sided frame -->
+  <g transform="translate(560 90)">
+    <rect width="360" height="180" fill="#f1f5f9" stroke="#1e293b" stroke-width="2" rx="12" />
+    <g stroke="#334155" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.8">
+      <line x1="120" y1="0" x2="120" y2="180" />
+      <line x1="240" y1="0" x2="240" y2="180" />
+      <line x1="0" y1="60" x2="360" y2="60" />
+      <line x1="0" y1="120" x2="360" y2="120" />
+    </g>
+    <g stroke="#0f172a" stroke-width="4" fill="none" marker-end="url(#arrow-head)">
+      <line x1="260" y1="90" x2="320" y2="90" />
+    </g>
+    <g stroke="#be123c" stroke-width="5" stroke-linecap="round">
+      <circle cx="300" cy="80" r="28" fill="#fecdd3" stroke="#be123c" />
+      <line x1="300" y1="108" x2="300" y2="150" />
+      <line x1="300" y1="120" x2="336" y2="140" />
+      <line x1="300" y1="120" x2="264" y2="140" />
+    </g>
+    <text x="180" y="170" font-size="18" text-anchor="middle">Short-sided: no space to look into</text>
+  </g>
+  <!-- Balanced headroom -->
+  <g transform="translate(80 330)">
+    <rect width="360" height="180" fill="#f1f5f9" stroke="#1e293b" stroke-width="2" rx="12" />
+    <g stroke="#334155" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.8">
+      <line x1="0" y1="60" x2="360" y2="60" />
+    </g>
+    <line x1="60" y1="40" x2="300" y2="40" stroke="#0f172a" stroke-width="4" stroke-linecap="round" />
+    <g stroke="#0e7490" stroke-width="5" stroke-linecap="round">
+      <circle cx="180" cy="80" r="28" fill="#bae6fd" stroke="#0e7490" />
+      <line x1="180" y1="108" x2="180" y2="150" />
+      <line x1="180" y1="120" x2="210" y2="146" />
+      <line x1="180" y1="120" x2="150" y2="146" />
+    </g>
+    <text x="180" y="170" font-size="18" text-anchor="middle">Eyes hover near the top third</text>
+    <text x="180" y="24" font-size="18" text-anchor="middle">Comfortable headroom</text>
+  </g>
+  <!-- Excessive headroom -->
+  <g transform="translate(560 330)">
+    <rect width="360" height="180" fill="#f1f5f9" stroke="#1e293b" stroke-width="2" rx="12" />
+    <g stroke="#334155" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.8">
+      <line x1="0" y1="60" x2="360" y2="60" />
+    </g>
+    <line x1="40" y1="20" x2="320" y2="20" stroke="#be123c" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10" />
+    <g stroke="#be123c" stroke-width="5" stroke-linecap="round">
+      <circle cx="180" cy="120" r="28" fill="#fecdd3" stroke="#be123c" />
+      <line x1="180" y1="148" x2="180" y2="170" />
+      <line x1="180" y1="136" x2="210" y2="162" />
+      <line x1="180" y1="136" x2="150" y2="162" />
+    </g>
+    <text x="180" y="170" font-size="18" text-anchor="middle">Too much headroom pulls attention upward</text>
+    <text x="180" y="36" font-size="18" text-anchor="middle">Unused space dominates</text>
+  </g>
+</svg>
