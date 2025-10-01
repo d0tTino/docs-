@@ -8,7 +8,10 @@
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
+  role="img"
+  aria-labelledby="title-wave5-decentralized-infrastructure"
 >
+  <title id="title-wave5-decentralized-infrastructure">Wave 5 decentralized infrastructure icon</title>
   <rect x="16" y="16" width="6" height="6" rx="1" />
   <rect x="2" y="16" width="6" height="6" rx="1" />
   <rect x="9" y="2" width="6" height="6" rx="1" />
