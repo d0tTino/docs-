@@ -1,0 +1,5 @@
+Medium,Lifecycle_cost_per_TB_year,Refresh_cadence_years,Energy_kWh_per_TB_year
+DNA (Silica Encapsulated),30.5,,0.01
+DNA (Dehydrated),38.125,250.0,0.05
+Tape (LTO-9 Class),33.0,12.0,0.12
+Archival HDD,73.5,5.0,12.0
