@@ -5,6 +5,8 @@ project: "ai-research"
 updated: 2025-09-02
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
 # AI Research
 
 This index collects documents exploring context windows, reverse engineering, and strategic planning.
