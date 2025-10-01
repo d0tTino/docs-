@@ -12,4 +12,5 @@ site/
 docs/non-ai-research/img/*.png
 docs/non-ai-research/img/*.jpg
 docs/non-ai-research/img/*.jpeg
+docs/non-ai-research/templates/*.xlsx
 

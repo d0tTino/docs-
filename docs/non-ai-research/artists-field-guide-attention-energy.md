@@ -156,13 +156,16 @@ Redefine a "good day" by process adherence, not output volume.
 
 ### Scorecard Template
 
-| Metric | Entry | Why It Matters |
+!!! info "Download the scorecard"
+    Save or print the [Artist Attention Scorecard Template](templates/artist-attention-scorecard.md) for ready-to-fill columns, or duplicate it into a spreadsheet for longer-term tracking.
+
+| Metric | What to Log | Why It Matters |
 | --- | --- | --- |
-| Estimated Flow Minutes | _________ | Tracks sustainable focus minutes rather than raw hours. |
-| Micro-Goals Hit | _________ | Measures session structure and follow-through. |
-| Boundary Breaks Taken | _________ | Rewards the breaks that prevent burnout. |
-| Recovery Action Done? (Y/N) | _________ | Confirms that recovery is treated as part of the job. |
-| Next Session's First Goal Written? (Y/N) | _________ | Lowers initiation friction for the next work block. |
+| Estimated Flow Minutes | Record the total number of minutes spent in sustainable flow. | Tracks sustainable focus minutes rather than raw hours. |
+| Micro-Goals Hit | Count how many micro-goals you completed during the session. | Measures session structure and follow-through. |
+| Boundary Breaks Taken | Log every deliberate break that protected your attention tunnel. | Rewards the breaks that prevent burnout. |
+| Recovery Action Done? (Y/N) | Mark `Y` when you complete a recovery ritual before closing the session. | Confirms that recovery is treated as part of the job. |
+| Next Session's First Goal Written? (Y/N) | Mark `Y` once you've written the first action for the next session. | Lowers initiation friction for the next work block. |
 
 ### Using the Scorecard
 
