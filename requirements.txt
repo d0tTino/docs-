@@ -13,3 +13,6 @@ fastapi
 requests
 httpx
 filelock
+numpy
+pandas
+matplotlib

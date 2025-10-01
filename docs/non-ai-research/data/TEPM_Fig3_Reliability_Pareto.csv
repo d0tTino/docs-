@@ -1,0 +1,12 @@
+Platform,Coverage,ECC_rate
+Illumina-class,5,0.18
+Illumina-class,6,0.16
+Illumina-class,8,0.14
+Illumina-class,10,0.12
+Illumina-class,12,0.1
+Nanopore-class,20,0.28
+Nanopore-class,25,0.25
+Nanopore-class,30,0.22
+Nanopore-class,35,0.2
+Nanopore-class,40,0.18
+Nanopore-class,45,0.16
