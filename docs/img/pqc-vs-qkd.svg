@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200" role="img" aria-labelledby="title-pqc-vs-qkd desc-pqc-vs-qkd">
+  <title id="title-pqc-vs-qkd">PQC versus QKD comparison</title>
+  <desc id="desc-pqc-vs-qkd">Comparison table lists cost, maturity, deployment, and scope: PQC relies on software updates with emerging NIST standards protecting data at rest and in transit, while QKD needs specialized hardware, limited deployments, dedicated links, and only secures key exchange.</desc>
   <style>
     .header { font: bold 16px sans-serif; }
     .cell { font: 14px sans-serif; }

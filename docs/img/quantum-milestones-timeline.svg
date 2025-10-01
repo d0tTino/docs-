@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180" role="img" aria-labelledby="title-quantum-milestones-timeline desc-quantum-milestones-timeline">
+  <title id="title-quantum-milestones-timeline">Timeline of key quantum computing milestones</title>
+  <desc id="desc-quantum-milestones-timeline">Key quantum milestones appear along a timeline: 1900 Planck, 1935 EPR, 1982 Feynman, 1994 Shor, 2019 quantum supremacy, and 2023 reaching 1,121 qubits.</desc>
   <style>
     .title { font: bold 16px sans-serif; }
     .label { font: 12px sans-serif; }

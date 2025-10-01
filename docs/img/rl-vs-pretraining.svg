@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="title-rl-vs-pretraining desc-rl-vs-pretraining">
+  <title id="title-rl-vs-pretraining">Figure 1: RL scaling versus clean pre-training</title>
+  <desc id="desc-rl-vs-pretraining">Capability versus compute plot with a solid blue RL scaling curve climbing steeply while the dashed orange clean pre-training curve rises more slowly, illustrating divergent efficiency.</desc>
   <style>
     .axis { stroke:#000; stroke-width:2; fill:none; }
     .rl { stroke:#1f77b4; stroke-width:2; fill:none; }
