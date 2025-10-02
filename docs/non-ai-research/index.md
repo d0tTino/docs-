@@ -80,6 +80,10 @@ Interdisciplinary explorations across science, philosophy, and culture.
 - [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md)
   focuses on painterly brush workflows for Clip Studio users and outlines
   expressive digital painting techniques.
+- [An Art-Historical Study of Lawrence Alma-Tadema's *The Roses of
+  Heliogabalus*](roses-of-heliogabalus-art-historical-study.md) examines how
+  Victorian academic painting weaponized beauty, traces the work's reception,
+  and extracts lessons for contemporary digital artists.
 - [Composition 101 — Chaptered Intro](composition-101-chaptered-intro.md)
   offers a guided path through scene-building fundamentals and distills
   classical and modern composition frameworks into linked chapters for fast
