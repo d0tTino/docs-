@@ -1,3 +1,13 @@
+---
+title: "Painterly Brush Effect Image Checklist"
+tags:
+  - asset-guide
+  - art
+  - workflow
+project: docs-hub
+updated: 2025-10-02
+---
+
 # Painterly Brush Effect Image Checklist
 
 The **painterly-style-clip-studio-paint.md** guide references PNG assets that live beside this

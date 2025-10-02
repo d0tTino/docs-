@@ -1,3 +1,13 @@
+---
+title: "Anti-Fragile Studio Dashboard Template"
+tags:
+  - template
+  - workflow
+  - studio-management
+project: docs-hub
+updated: 2025-10-02
+---
+
 # Anti-Fragile Studio Dashboard Template
 
 Use this board to externalise your commission pipeline and keep weekly maintenance lightweight. The structure below mirrors the workflow described in the playbook and can be recreated in any kanban-capable tool.
