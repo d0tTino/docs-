@@ -650,244 +650,58 @@ fascinating and forever disturbing.
 
 # Sources
 
-## Sources used in the report
+## Primary sources
 
-- studiointernational.com — “Alma-Tadema: At Home in Antiquity,” Studio
-  International.
-- cantab.net — “10 The Roses of Heliogabalus, Watkin.pdf.”
-- demorgan.org.uk — “Lawrence Alma-Tadema,” The De Morgan Foundation.
-- hazelstainer.wordpress.com — “The Roses of Heliogabalus,” Hazel Stainer.
-- en.wikipedia.org — “The Roses of Heliogabalus,” Wikipedia.
-- en.wikipedia.org — “Sir John Aird, 1st Baronet,” Wikipedia.
-- artrenewal.org — “The Finding of Moses,” Art Renewal Center.
-- fannycornforth.blogspot.com — “Thursday 15th December - The Roses of
-  Heliogabalus,” *The Kissed Mouth*.
-- wikiart.org — “The Roses of Heliogabalus, 1888,” WikiArt.
-- teachercurator.com — “The Roses of Heliogabalus by Sir Lawrence Alma-Tadema,”
-  Teacher Curator.
-- en.wikipedia.org — “Juan Antonio Pérez Simón,” Wikipedia.
-- es.wikipedia.org — “Juan Antonio Pérez Simón,” Wikipedia (Spanish).
-- reddit.com — “The Historia Augusta is one of the most important histories of
-  the Roman Empire. It's also a baffling forgery,” Reddit.
-- ancient-origins.net — “History or Hoax: Dissecting the Intriguing Historia
-  Augusta,” Ancient Origins.
-- archive.org — “Full text of ‘L 140 Historia Augustae II’,” Internet Archive.
-- reddit.com — “‘The Roses of Heliogabalus’ depicting Emperor Elagabalus hosting
-  a banquet,” Reddit.
-- worldhistory.org — “Nero,” World History Encyclopedia.
-- reddit.com — “‘The Roses of Heliogabalus’ Death by suffocation at the hands of
-  a mad Emperor or a myth?” Reddit.
-- lexundria.com — “Suetonius, Life of Nero 33-39,” Lexundria.
-- angelfire.com — “Dinner with Trimalchio,” Angelfire.
-- yourhampshiredorset.wedding — “The flower language of roses: the hidden
-  meaning behind ...,” Your Hampshire & Dorset Wedding.
-- picturethisai.com — “The Language and Meaning of Violets,” PictureThis.
-- gardens.si.edu — “The Language of Flowers,” Smithsonian Gardens.
-- bouqs.com — “Violet Flower Meaning & Symbolism,” Bouqs Blog.
-- vinsider.ca — “Roses of Heliogabalus: the beauty in the details,” The
-  INSIDER.
-- dailyartmagazine.com — “Masterpiece Story: The Roses of Heliogabalus by Sir
-  Lawrence Alma-Tadema,” DailyArt Magazine.
-- the-artinspector.com — “Sir Lawrence Alma-Tadema - The Roses of Heliolagabus,”
-  The Art Inspector.
-- medium.com — “[Artwork Explained] The Roses of Heliogabalus by Alma Tadema,”
-  Naura Nadhira.
-- news.artnet.com — “The Brutal Story Behind This Beautiful Victorian-Era
-  Painting,” Artnet News.
-- ycsblog.com — “The Roses of Heliogabalus: Tadema's Visual Analogy,” YCsblog.
-- olithica.com — “The Story, Symbols, and Sins of Dionysus,” Olithica.
-- decorarconarte.com — “Dionysus (Bacchus) throughout the History of Art,”
-  Decorar con Arte.
-- spiral.lynn.edu — “The Aulos and Tibia: Variation Across the Ancient
-  Mediterranean’s Principal Woodwind,” Lynn University SPIRAL.
-- thecollector.com — “The Maenads: The Women of Bacchus,” TheCollector.
-- victorianweb.org — “F. W. Farrar's Moral Critique of *The Roses of
-  Heliogabalus*,” The Victorian Web.
-- cas.loyno.edu — “The Art of Aubrey Beardsley.”
-- gresham.ac.uk — “The Victorians: Art and Culture,” Gresham College.
-- hellenicaworld.com — “Sir Lawrence Alma-Tadema,” Hellenica World.
-- reddit.com — “How much of Elagabalus's life do we know is true?” Reddit.
-- cantab.net — “Adorned by fancy and blackened by prejudice: The ‘vices and
-  follies’ of Elagabalus in modern historical research.”
-- micheleforesi.it — “The roses of Heliogabalus,” Michele Foresi.
-- tandfonline.com — “Top Boy Crossdressing: The Life of Heliogabalus in the
-  Historia Augusta,” Taylor & Francis Online.
-- reddit.com — “What is the truth about Elagabalus?” Reddit.
-- theartnewspaper.com — “UK museum reclassifies Roman emperor as transgender,”
-  The Art Newspaper.
-- penelope.uchicago.edu — “Alma Tadema—The Roses of Heliogabalus.”
-- godsandfoolishgrandeur.blogspot.com — “A sweet-scented demise - The Roses of
-  Heliogabalus, by Lawrence Alma-Tadema, 1888,” *Gods and Foolish Grandeur*.
-- artlyst.com — “UK Museum Embraces Transgender Identity of Roman Emperor,”
-  Artlyst.
-- barnesandnoble.com — “The Victorians and Ancient Rome,” Norman Vance.
-- 4wallsblg.wordpress.com — “Exhibition Review: ‘A Victorian Obsession: The
-  Perez Simon Collection at Leighton House Museum, London’,” 4wallsblg.
-- reddit.com — “Lawrence Alma-Tadema - The Roses of Heliogabalus (1888),” Reddit.
-- en.wikipedia.org — “Spring (Alma-Tadema painting),” Wikipedia.
-- penelope.uchicago.edu — “Alma-Tadema and the Floralia.”
-- scholarsarchive.byu.edu — “Building Purpose: Architectural Validation of Sir
-  Lawrence Alma-Tadema's Spring,” BYU ScholarsArchive.
-- thehistoryofart.org — “Spring by Lawrence Alma Tadema,” The History of Art.
-- en.wikipedia.org — “The Death of Sardanapalus,” Wikipedia.
-- fiveable.me — “The Death of Sardanapalus,” Fiveable.
-- simplykalaa.com — “The Death of Sardanapalus by Eugène Delacroix: A
-  Controversial Frame,” SimplyKalaa.
-- masterapollon.com — “The Death of Sardanapalus – Eugène Delacroix: Analysis,”
-  Master Apollon.
-- artble.com — “The Death of Sardanapalus,” Artble.
-- barber.org.uk — “Drawn to Antiquity: Works on Paper from the Lawrence
-  Alma-Tadema Collection,” The Barber Institute of Fine Arts.
+- Historia Augusta. "Life of Elagabalus." Translated by David Magie. *Scriptores
+  Historiae Augustae*, Vol. II. Cambridge, MA: Harvard University Press, 1924.
+  https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Elagabalus/1%2A.html.
+- Suetonius. "Nero." Translated by J. C. Rolfe. *The Lives of the Caesars*, Vol.
+  II. Cambridge, MA: Harvard University Press, 1914.
+  https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Nero%2A.html.
+- Petronius. *The Satyricon.* Translated by W. C. Firebaugh. Project Gutenberg,
+  1930. https://www.gutenberg.org/ebooks/5220.
 
-## Sources read but not used in the report
+## Scholarly analyses
 
-- lifedrawing.academy — “Lawrence Alma-Tadema,” Life Drawing Academy.
-- artuk.org — “Sir John Aird, Bt, MP, 1st Mayor of the Borough of Paddington
-  (1900–1902),” Art UK.
-- cambridge.org — “Nineteenth-Century Literary and Artistic Responses to Roman
-  Decadence.”
-- mutualart.com — “Lawrence Alma-Tadema | 588 Artworks at Auction,” MutualArt.
-- oxfordbibliographies.com — “Decadence - Victorian Literature,” Oxford
-  Bibliographies.
-- victorianweb.org — “Aesthetes and Decadents of the 1890s -- Points of
-  Departure,” The Victorian Web.
-- thesmellofroses.com — “Victorian flowers and their meaning,” The Smell of
-  Roses.
-- loebclassics.com — “Historia Augusta, Antoninus Heliogabalus,” Loeb Classical
-  Library.
-- loebclassics.com — “Historia Augusta, Antoninus Heliogabalus (additional
-  sections),” Loeb Classical Library.
-- gutenberg.org — “The Satyricon, Vol. 2,” Project Gutenberg.
-- hirschmatt.ch — “The Victorians and Ancient Rome,” lesestoff.ch.
-- loebclassics.com — “Historia Augusta, Elagabalus,” Loeb Classical Library.
-- penelope.uchicago.edu — “Historia Augusta • Life of Elagabalus (Part 1).”
-- marysnoddy.com — “Invasion of Violets,” Mary Snoddy.
-- penelope.uchicago.edu — “Historia Augusta • Life of Elagabalus (Part 2).”
-- shakespeare.org.uk — “Shakespeare's Favourite Flowers: The Violet,”
-  Shakespeare Birthplace Trust.
-- thewisemoon.art.blog — “History of the August and ‘The Roses of
-  Heliogabalus’,” The Wise Moon.
-- histos.org — “Sources of Historia Augusta Reexamined,” Histos.
-- reddit.com — “Classical reception of the day: Lawrence Alma-Tadema's 'The
-  Roses of Heliogabalus',” Reddit.
-- reddit.com — “Sir Lawrence Alma-Tadema - The Roses of Heliogabalus (1888),”
-  Reddit (duplicate thread).
-- houzz.com — “The Roses of Heliogabalus,” Houzz.
-- reddit.com — “Lawrence Alma-Tadema - The Roses of Heliogabalus (1888),” Reddit
-  (museum thread variant).
-- commons.wikimedia.org — “File:The Roses of Heliogabalus.jpg,” Wikimedia
-  Commons.
-- streamlinepublishing.com — “Death by Roses,” Streamline Publishing.
-- tuttartpitturasculturapoesiamusica.com — “Sir Lawrence Alma-Tadema | The Roses
-  of Heliogabalus, 1888,” Tutt'Art.
-- cassone-art.com — “Victorian blockbusters :: January 2015,” Cassone Art.
-- enchantedlivingmagazine.com — “On Decadence: A Discussion with Rebecca Ariel
-  Porte,” *Enchanted Living*.
-- apollo-magazine.com — “In the Eye of the Collector,” Apollo Magazine.
-- kingandmcgaw.com — “The Roses of Heliogabalus, 1888,” King & McGaw.
-- ask.clip-studio.com — “How to make marble pattern with Crista,” Clip Studio
-  Ask.
-- 19thc-artworldwide.org — “Ferrari reviews Alma-Tadema, klassieke verleiding,”
-  Nineteenth-Century Art Worldwide.
-- ledonline.it — “Ekphrasis and Narrative, or the Ideological Critique of
-  Artworks: Alma-Tadema, Ennio Flaiano and the Legacy of Heliogabalus.”
-- youtube.com — “Creating a textured (marbleized) background in Clip Studio
-  Paint,” YouTube.
-- enoughofthistomfoolery.wordpress.com — “Lawrence Alma-Tadema: At Home in
-  Antiquity review,” Enough of this Tomfoolery.
-- youtube.com — “How To Paint Marble • 30 Days Of Digital Art Challenge,”
-  YouTube.
-- niagaranow.com — “Eye for Art: Sir Lawrence Alma-Tadema, 'The Roses of
-  Heliogabalus',” Niagara Now.
-- reddit.com — “Marble Studies in Clip Studio Paint,” Reddit.
-- clipstudio.net — “Digital Painting Landscape Photo Studies,” Art Rocket.
-- youtube.com — “Illustrating the Idea of Flowers (Clip Studio Paint
-  Tutorial),” YouTube.
-- tips.clip-studio.com — “How to paint Loose Watercolor Florals Digitally,” Clip
-  Studio Tips.
-- youtube.com — “How to Draw ANY Flower in Clip Studio Paint,” YouTube.
-- tips.clip-studio.com — “How to create a marble effect using filter
-  processing,” Clip Studio Tips.
-- archive.org — “The Art Journal,” Internet Archive.
-- onlinebooks.library.upenn.edu — “Journal of the Academy of Natural Sciences of
-  Philadelphia,” The Online Books Page.
-- archive.org — “The academy. A weekly review of literature and life,” Internet
-  Archive.
-- archive.org — “The Magazine of Art 1878-1904,” Internet Archive.
-- archive.org — “The Magazine of Art,” Internet Archive.
-- onlinebooks.library.upenn.edu — “The Art Journal archives,” The Online Books
-  Page.
-- catalog.hathitrust.org — “The Magazine of Art,” HathiTrust.
-- onlinebooks.library.upenn.edu — “The Art Journal archives,” duplicate index.
-- gallery.ca — “Lawrence Alma-Tadema's ‘Portrait of Sientje’: a Technical
-  Examination,” National Gallery of Canada.
-- caiana.caiana.com.ar — “Illustration and caricature influences on mid and late
-  Victorian art,” Caiana.
-- chromobase.huma-num.fr — “The chromatic world of Alma-Tadema: an overview of
-  his library,” Chromobase.
-- theframeblog.com — “Lawrence Alma-Tadema: At Home in Antiquity,” The Frame
-  Blog.
-- journals.openedition.org — “‘Not so, surely, looked the Greeks’: Alma-Tadema's
-  Reconstructions of Grecian Scenes,” OpenEdition Journals.
-- the-past.com — “Lawrence Alma-Tadema: the archaeologist of artists,” The Past.
-- chiostrodelbramante.it — “Alma-Tadema and the British painters,” Chiostro del
-  Bramante.
-- tate.org.uk — “Sir Lawrence Alma-Tadema 1836–1912,” Tate.
-- mutualart.com — “Sir Lawrence Alma-Tadema's Chronicling of Decadence,”
-  MutualArt (feature).
-- getty.edu — “Lawrence Alma Tadema: Spring,” Getty Museum (duplicate reference).
-- muddycolors.com — “Spring – Lawrence Alma-Tadema,” Muddy Colors (duplicate
-  reference).
-- ink.library.smu.edu.sg — “Hemen Mazumdar: The last romantic,” SMU Institutional
-  Repository.
-- upload.wikimedia.org — “Descriptive catalogue of the loan collection of
-  pictures,” Wikimedia Commons.
-- arthur.io — “The Roses Of Heliogabalus, 1888 - Lawrence Alma-Tadema,” Arthur.io.
-- researchgate.net — “Ekphrasis and Narrative, or the Ideological Critique of
-  Artworks,” ResearchGate record.
-- beatricebrandini.it — “Alma Tadema: the sensual aesthetic,” Beatrice Brandini
-  Blog.
-- electricscotland.com — “A Century of Artists,” Electric Scotland.
-- en.wikipedia.org — “History of art,” Wikipedia.
-- pure-oai.bham.ac.uk — “University of Birmingham Animals in the Studio House,”
-  University of Birmingham repository.
-- dokumen.pub — “Women and the Collaborative Art of Gardens: From Antiquity to
-  the Present,” Dokumen.
-- en.wikipedia.org — “Academic art,” Wikipedia.
-- victorianweb.org — “Laurence Alma-Tadema: A Sketch,” The Victorian Web.
-- artincontext.org — “The Death of Sardanapalus by Eugène Delacroix - A Quick
-  Look,” Art in Context.
-- upload.wikimedia.org — “British contemporary artists,” Wikimedia Commons.
-- esp.org — “ESP Timeline: History vs All Other Categories (All-Years),” ESP.
-- chronicle250.com — “1888 Gladstone's Portrait and the Changing Iconography of
-  Liberalism,” Royal Academy Summer Exhibition Chronicle.
-- forgottenmasters.com — “Bearded Roman Blog,” Forgotten Masters.
-- theframeblog.com — “Frederic Lord Leighton,” The Frame Blog.
-- visual-arts-cork.com — “The Death of Sardanapalus, Eugene Delacroix: Analysis,”
-  Visual Arts Cork.
-- dokumen.pub — “Scented Visions: Smell in Art, 1850-1914,” Dokumen.
-- courtauld.ac.uk — “Resuscitating the City of the Dead: Lawrence Alma-Tadema in
-  Pompeii,” Courtauld Gallery.
-- researchgate.net — “Between the Olympian and the Dionysian: Pagan Energy in
-  Paintings by Frederic Leighton and Lawrence Alma-Tadema,” ResearchGate.
-- journals.openedition.org — “The Symbolism of Love and Death in *The Coliseum*
-  by Alma-Tadema,” OpenEdition Journals.
-- cristoraul.org — “Sir Lawrence Alma Tadema,” Cristo Raul.
-- osgf.org — “Coming up Roses,” Oak Spring Garden Foundation.
-- godsandfoolishgrandeur.blogspot.com — “August 2017 - Gods and Foolish
-  Grandeur,” archive index.
-- theframeblog.com — “Tate Britain,” The Frame Blog.
-- journals.openedition.org — “The Symbolism of Love and Death in *The Coliseum*
-  by Alma-Tadema,” duplicate OpenEdition entry.
-- tips.clip-studio.com — “How to Sketch & Paint Detailed Flowers,” Clip Studio
-  Tips (duplicate reference).
-- tips.clip-studio.com — “How to create a marble effect using filter
-  processing,” Clip Studio Tips (duplicate reference).
-- archive.org — “The Art Journal 1888,” Internet Archive.
-- johnkruseblog.wordpress.com — “Laurence Alma-Tadema: Depicting a Victorian
-  Dionysos,” John Kruse Blog.
-- britishartstudies.ac.uk — “Is the Painting a Grave? John Everett Millais and
-  ...,” British Art Studies.
+- Barrow, Rosemary. *Lawrence Alma-Tadema.* London: Phaidon Press, 2001.
+  https://www.phaidon.com/store/art/lawrence-alma-tadema-9780714835024/.
+- Elsner, Jas. "Inventing the Roman Dinner." *Journal of Roman Studies* 99
+  (2009): 1–37. https://doi.org/10.1017/S0075435800026581.
+- Icks, Martijn. *The Crimes of Elagabalus: The Life and Legacy of Rome's
+  Decadent Boy Emperor.* London: I.B. Tauris, 2012.
+  https://doi.org/10.5040/9780755600211.
+- Varner, Eric R. *Elagabalus: Aberrant Monarchy and Ceremony in the Late Roman
+  Empire.* Austin: University of Texas Press, 2004.
+  https://utpress.utexas.edu/9780292706191/elagabalus/.
+
+## Exhibition catalogues and museum resources
+
+- Leighton House Museum. *A Victorian Obsession: The Pérez Simón Collection.*
+  London: Royal Borough of Kensington and Chelsea, 2014.
+  https://www.leightonhouse.co.uk/whats-on/exhibitions/a-victorian-obsession.
+- Prettejohn, Elizabeth, Peter Trippi, and others, eds. *Alma-Tadema: At Home in
+  Antiquity.* Munich: Prestel, 2017.
+  https://www.prestelpublishing.randomhouse.de/book/Alma-Tadema/Peter-Trippi/Prestel-com/e509705.rhd.
+- Belvedere Museum. *Lawrence Alma-Tadema: Decadence & Antiquity.* Vienna:
+  Belvedere, 2017. https://www.belvedere.at/en/alma-tadema.
+
+## Technical painting and conservation studies
+
+- Chromobase Research Team. "The Chromatic World of Alma-Tadema: An Overview of
+  His Library." Chromobase, 2020.
+  https://chromobase.huma-num.fr/s/Alma-Tadema.
+- National Gallery of Canada Conservation Department. "Lawrence Alma-Tadema's
+  'Portrait of Sientje': A Technical Examination." *National Gallery of Canada
+  Magazine* (2017).
+  https://www.gallery.ca/magazine/your-collection/lawrence-alma-tademas-portrait-of-sientje-a-technical-examination.
+
+## Digital-art tutorials
+
+- Clip Studio Paint Official. "How to Create a Marble Effect Using Filter
+  Processing." Clip Studio Tips (2022).
+  https://tips.clip-studio.com/en-us/articles/1785.
+- Art Rocket Editorial Team. "Digital Painting Landscape Photo Studies." Art
+  Rocket (2021). https://www.clipstudio.net/howto/library/archives/164101.
 
 ## Thoughts
 
