@@ -38,7 +38,7 @@ at the four intersections (“power points”). It’s popular because it’s fa
 and avoids dead-center stagnation.[^cambridge-rot][^studiobinder-rot][^wikipedia-rot]
 
 <figure>
-  <img src="../img/composition-rule-of-thirds.svg" alt="Rule of thirds grid overlay highlighting the four power points, a horizon on the upper third, and a subject aligned to the right intersection." style="width: min(100%, 720px); height: auto;" />
+  <img data-glightbox src="../img/composition-rule-of-thirds.svg" alt="Rule of thirds grid overlay highlighting the four power points, a horizon on the upper third, and a subject aligned to the right intersection." style="width: min(100%, 720px); height: auto;" />
   <figcaption><em>Figure 1. The thirds grid keeps horizons, focal points, and supporting elements on predictable lines so the eye travels with intention.</em></figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ edge, whereas a shot with adequate lead room convinces us the vehicle can
 continue accelerating past the camera.[^wikipedia-lead-room]
 
 <figure>
-  <img src="../img/composition-lead-room.svg" alt="Four small frames comparing balanced lead room, short-sided framing, comfortable headroom, and excessive headroom using thirds guides." style="width: min(100%, 760px); height: auto;" />
+  <img data-glightbox src="../img/composition-lead-room.svg" alt="Four small frames comparing balanced lead room, short-sided framing, comfortable headroom, and excessive headroom using thirds guides." style="width: min(100%, 760px); height: auto;" />
   <figcaption><em>Figure 2. Lead room and headroom overlays show how generous look space and eyes-on-the-third placements feel stable, while short-siding or excessive headroom throws the frame off balance.</em></figcaption>
 </figure>
 

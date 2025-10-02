@@ -37,7 +37,7 @@ Root-2 through Root-5 rectangles because those forms repeatedly surfaced in the
 Greek vases and architectural plans he measured.[^hambidge-greek]
 
 <figure>
-  <img src="../img/dynamic-symmetry-root-2.svg" alt="Square with diagonal swung outward to form a Root-2 rectangle, highlighting the shared diagonal, reciprocal drop, and Root-2 corner." loading="lazy" />
+  <img data-glightbox src="../img/dynamic-symmetry-root-2.svg" alt="Square with diagonal swung outward to form a Root-2 rectangle, highlighting the shared diagonal, reciprocal drop, and Root-2 corner." loading="lazy" />
   <figcaption><strong>Root-2 construction.</strong> The square’s diagonal (accent line) spins outward to locate the Root-2 corner, while the reciprocal drop marks where the inherited diagonal meets the extended frame.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Creating the basic harmonic armature for any rectangle follows a predictable
 workflow:[^hambidge-plant]
 
 <figure>
-  <img src="../img/dynamic-symmetry-harmonic-armature.svg" alt="Root-2 frame with baroque and sinister diagonals plus reciprocal lines and central eye intersections for focal placement." loading="lazy" />
+  <img data-glightbox src="../img/dynamic-symmetry-harmonic-armature.svg" alt="Root-2 frame with baroque and sinister diagonals plus reciprocal lines and central eye intersections for focal placement." loading="lazy" />
   <figcaption><strong>Harmonic armature highlights.</strong> The baroque (blue) and sinister (orange) diagonals cross through the central eye, while dashed reciprocals pick out secondary anchor points along the midpoint cross.</figcaption>
 </figure>
 
