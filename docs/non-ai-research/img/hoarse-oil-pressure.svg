@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hoarse Oil brush pressure response</title>
+  <desc id="desc">A set of strokes thickening from feather-light to bold to demonstrate the Hoarse Oil brush pressure curve.</desc>
+  <rect width="640" height="360" fill="#f9f6f3" />
+  <g transform="translate(60,60)" fill="none" stroke-linecap="round">
+    <path d="M0 40 C140 10 220 10 360 40" stroke="#3f4f5c" stroke-width="6" opacity="0.4" />
+    <path d="M0 100 C160 70 220 70 360 110" stroke="#3f4f5c" stroke-width="16" opacity="0.7" />
+    <path d="M0 160 C160 190 220 190 360 150" stroke="#3f4f5c" stroke-width="26" opacity="0.85" />
+    <path d="M0 220 C160 240 230 240 360 220" stroke="#2d3b46" stroke-width="32" opacity="0.9" />
+  </g>
+  <g font-family="'Segoe UI',sans-serif" fill="#2d2d31" font-size="16">
+    <text x="320" y="36" text-anchor="middle">Pressure gain from soft to firm</text>
+    <text x="80" y="90">feather</text>
+    <text x="520" y="225" text-anchor="end">full press</text>
+  </g>
+</svg>

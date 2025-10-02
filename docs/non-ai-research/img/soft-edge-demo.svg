@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Soft edge gradient demo</title>
+  <desc id="desc">Circular forms gently blending into the background to show a soft edge transition.</desc>
+  <defs>
+    <radialGradient id="softSphere" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#f7dca6" />
+      <stop offset="60%" stop-color="#f3a96c" />
+      <stop offset="100%" stop-color="#f37c5c" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="#f6f7fb" />
+  <circle cx="220" cy="180" r="120" fill="url(#softSphere)" />
+  <circle cx="420" cy="180" r="100" fill="url(#softSphere)" transform="scale(0.9 1) translate(46 0)" opacity="0.9" />
+  <text x="320" y="320" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#2f2f34">Feathered falloff without visible seams</text>
+</svg>

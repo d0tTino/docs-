@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Textured lost edge demo</title>
+  <desc id="desc">Brush marks dissolving into background noise to illustrate a textured lost edge transition.</desc>
+  <defs>
+    <pattern id="grain" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="6" r="1.4" fill="#4e5a56" />
+      <circle cx="14" cy="10" r="1.2" fill="#4e5a56" />
+      <circle cx="8" cy="16" r="1.1" fill="#4e5a56" />
+    </pattern>
+  </defs>
+  <rect width="640" height="360" fill="#f8f5f4" />
+  <g transform="translate(120,90)">
+    <path d="M0 120 C80 40 220 40 300 120" fill="#f17f57" opacity="0.7" />
+    <path d="M40 90 C110 30 210 30 260 110" fill="#f5b77a" opacity="0.6" />
+    <path d="M20 150 C120 200 240 200 320 150" fill="#a2cfc4" opacity="0.5" />
+  </g>
+  <g transform="translate(120,90)" fill="#5a675f" opacity="0.25">
+    <circle cx="220" cy="130" r="8" />
+    <circle cx="240" cy="140" r="6" />
+    <circle cx="260" cy="150" r="5" />
+    <circle cx="280" cy="160" r="6" />
+    <circle cx="300" cy="170" r="8" />
+    <circle cx="320" cy="150" r="7" />
+    <circle cx="340" cy="140" r="6" />
+    <circle cx="360" cy="160" r="7" />
+    <circle cx="330" cy="120" r="5" />
+  </g>
+  <rect x="120" y="90" width="200" height="160" fill="url(#grain)" opacity="0.2" />
+  <text x="320" y="48" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#2e2d2c">Textured edge dissolving into background</text>
+</svg>

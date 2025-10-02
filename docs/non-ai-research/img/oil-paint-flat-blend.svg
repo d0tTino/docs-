@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Oil Paint Flat brush blending chart</title>
+  <desc id="desc">Three horizontal color strokes demonstrating gradual blending from orange to teal using overlapping bands.</desc>
+  <defs>
+    <linearGradient id="warmBlend" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#ef8b40" />
+      <stop offset="50%" stop-color="#f6c77d" />
+      <stop offset="100%" stop-color="#8ed1c1" />
+    </linearGradient>
+    <linearGradient id="coolBlend" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#4f7ac2" />
+      <stop offset="50%" stop-color="#6db5d9" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#c9e9e2" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="#f6f4f0" />
+  <g transform="translate(60,80)">
+    <rect width="520" height="40" rx="20" fill="url(#warmBlend)" />
+    <rect y="70" width="520" height="40" rx="20" fill="url(#coolBlend)" />
+    <rect y="140" width="520" height="32" rx="16" fill="#c6d7cf" />
+    <rect y="140" width="320" height="32" rx="16" fill="#6c9c89" opacity="0.75" />
+    <rect y="140" x="240" width="180" height="32" rx="16" fill="#f6bf63" opacity="0.6" />
+  </g>
+  <text x="320" y="45" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="20" fill="#2f2f33">Blended transitions with the Oil Paint Flat brush</text>
+</svg>
