@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Thick Paints impasto swatches</title>
+  <desc id="desc">Layered blobs of color with highlights to visualize impasto buildup created with thick paint brushes.</desc>
+  <rect width="640" height="360" fill="#f9f6f1" />
+  <g transform="translate(100,80)">
+    <path d="M0 80 C60 20 160 20 220 80 C160 140 60 140 0 80" fill="#f57c4a" opacity="0.85" />
+    <path d="M40 40 C110 -10 190 0 240 60 C170 120 90 120 40 40" fill="#f4b761" opacity="0.75" />
+    <path d="M120 120 C200 70 270 70 320 120 C260 170 180 170 120 120" fill="#7bbbc2" opacity="0.75" />
+    <path d="M90 150 C150 200 230 210 280 170" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.4" />
+    <path d="M40 70 C80 50 130 50 170 80" stroke="#fff8ee" stroke-width="12" stroke-linecap="round" opacity="0.5" />
+    <path d="M200 100 C240 80 270 90 300 120" stroke="#fff8f2" stroke-width="9" stroke-linecap="round" opacity="0.4" />
+  </g>
+  <text x="320" y="44" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#3b3430">Impasto ridges catching light</text>
+</svg>

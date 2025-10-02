@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hard edge separation demo</title>
+  <desc id="desc">Rectangular shapes with crisp borders illustrating how hard edges separate planes.</desc>
+  <rect width="640" height="360" fill="#f8f8fb" />
+  <g transform="translate(120,70)">
+    <rect x="0" y="20" width="160" height="200" fill="#374f7d" />
+    <rect x="160" y="20" width="160" height="200" fill="#f5a24f" />
+    <rect x="320" y="20" width="120" height="200" fill="#f2d480" />
+    <line x1="160" y1="20" x2="160" y2="220" stroke="#1f2f4d" stroke-width="8" />
+    <line x1="320" y1="20" x2="320" y2="220" stroke="#c7772c" stroke-width="8" />
+  </g>
+  <text x="320" y="48" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#2d2d34">Hard edge divides value and hue families</text>
+</svg>

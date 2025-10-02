@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">SU-Cream Pencil sketch texture</title>
+  <desc id="desc">Loose construction lines with crosshatching demonstrating the SU-Cream Pencil grain.</desc>
+  <rect width="640" height="360" fill="#faf7f2" />
+  <g stroke="#43362e" stroke-linecap="round" stroke-width="3" fill="none" transform="translate(120,70)">
+    <path d="M0 120 C40 20 200 20 240 120" opacity="0.45" />
+    <path d="M30 80 C90 140 150 140 210 80" opacity="0.7" />
+    <path d="M20 150 Q120 220 220 150" opacity="0.35" />
+    <path d="M70 40 L170 40" opacity="0.2" />
+    <path d="M70 40 L110 10" opacity="0.25" />
+    <path d="M170 40 L200 10" opacity="0.25" />
+    <path d="M60 120 L200 120" opacity="0.3" />
+    <path d="M80 110 L120 150" opacity="0.3" />
+    <path d="M160 110 L120 150" opacity="0.25" />
+    <path d="M130 70 Q140 100 130 130" opacity="0.5" />
+  </g>
+  <g stroke="#43362e" stroke-width="2" opacity="0.3" transform="translate(120,70)">
+    <line x1="30" y1="200" x2="210" y2="200" />
+    <line x1="30" y1="200" x2="60" y2="230" />
+    <line x1="60" y1="230" x2="210" y2="230" />
+    <line x1="110" y1="250" x2="170" y2="250" />
+  </g>
+  <text x="320" y="40" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#403832">Loose graphite-like scaffolding</text>
+</svg>

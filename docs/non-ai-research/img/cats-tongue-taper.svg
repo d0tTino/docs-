@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cat's Tongue brush pressure taper study</title>
+  <desc id="desc">Diagonal strokes that taper at each end to show how a Cat's Tongue brush reacts to pressure in Clip Studio Paint.</desc>
+  <rect width="640" height="360" fill="#fbf8f2" />
+  <g stroke-linecap="round" fill="none" transform="translate(80,70)">
+    <path d="M0 40 Q180 0 360 40" stroke="#f05b5b" stroke-width="28" stroke-opacity="0.7" />
+    <path d="M20 40 Q200 70 360 10" stroke="#f9a857" stroke-width="24" stroke-opacity="0.75" />
+    <path d="M-10 120 Q160 60 360 120" stroke="#3fa6d9" stroke-width="26" stroke-opacity="0.65" />
+    <path d="M30 200 Q220 260 360 180" stroke="#50bfa0" stroke-width="22" stroke-opacity="0.7" />
+  </g>
+  <g fill="#2f2f33" font-family="'Segoe UI',sans-serif" font-size="16">
+    <text x="320" y="36" text-anchor="middle">Pressure-controlled taper</text>
+    <text x="110" y="110">light press</text>
+    <text x="470" y="90" text-anchor="end">heavy press</text>
+  </g>
+</svg>

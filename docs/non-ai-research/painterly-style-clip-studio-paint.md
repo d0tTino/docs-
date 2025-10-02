@@ -9,7 +9,7 @@ updated: 2025-09-08
 
 [[toc]]
 
-> **Contributor note:** Keep image callouts as HTML comments formatted like `<!-- image: docs/non-ai-research/img/filename.png -->` until the actual asset is committed. Replace the comment with the real image path when adding binaries.
+> **Contributor note:** Lightweight SVG diagrams now live in `docs/non-ai-research/img/` and the guide embeds them with `<figure>` elements. To swap in your own PNG captures later, replace the `<img src="…">` reference with your filename (and optionally retain a `<!-- image: … -->` comment for clarity).
 
 # A Comprehensive Guide to the Painterly Style in Clip Studio Paint
 
@@ -22,29 +22,32 @@ updated: 2025-09-08
 
 ## Image Placeholder Checklist (Add Your Examples Later)
 
-To keep this repository binary-free, every figure callout in the guide is a placeholder that points
-to a PNG inside `docs/non-ai-research/img/`. Drop your own captures into that folder using the
-filenames below and they will slot directly into place. The `img/README.md` file in the same
-directory expands on recommended capture settings if you need extra guidance.
+To keep this repository binary-free, every figure callout currently uses a lightweight SVG diagram
+stored in `docs/non-ai-research/img/`. When you have real screen captures, drop them into that
+folder and update the `<img src="…">` path in the relevant `<figure>` element. If you want to keep a
+breadcrumb for future replacements, you can also add a `<!-- image: … -->` comment alongside the
+figure. The `img/README.md` file in the same directory expands on recommended capture settings if
+you need extra guidance.
 
-| File name | Appears in | Depicts |
-| --- | --- | --- |
-| `oil-paint-flat-blend.png` | Section 1 – Default workhorse brush | Oil Paint Flat blending sample |
-| `cats-tongue-taper.png` | Section 1 – Cat's Tongue customization | Pressure-based taper strokes |
-| `ink-tapered-raw-texture.png` | Section 1 – Organic texture | Ink Tapered Raw dry-brush finish |
-| `flat-ribbon-blocks.png` | Section 1 – Palette knife emulation | Flat Ribbon block-in strokes |
-| `flat-ribbon-soft-random.png` | Section 1 – Spontaneous edges | Flat Ribbon Soft texture variety |
-| `hoarse-oil-pressure.png` | Section 1 – Brush notes | Hoarse Oil pressure response |
-| `su-cream-pencil-sketch.png` | Section 1 – Brush notes | SU-Cream Pencil grain |
-| `thick-paints-impasto.png` | Section 1 – Brush notes | Thick Paints impasto swatches |
-| `textured-thick-lineart-grit.png` | Section 1 – Brush notes | Textured Thick Lineart grit |
-| `post-process-blend.png` | Section 4 – Blending overview | Post-process Blend tool comparison |
-| `active-color-mix.png` | Section 4 – Blending overview | Active color mixing strokes |
-| `hard-edge-demo.png` | Section 4 – Edge handling | Hard edge separation |
-| `soft-edge-demo.png` | Section 4 – Edge handling | Soft edge gradient |
-| `textured-edge-demo.png` | Section 4 – Edge handling | Textured lost edge transition |
+| File name | Appears in | Depicts | Current asset |
+| --- | --- | --- | --- |
+| `oil-paint-flat-blend.*` | Section 1 – Default workhorse brush | Oil Paint Flat blending sample | `img/oil-paint-flat-blend.svg` |
+| `cats-tongue-taper.*` | Section 1 – Cat's Tongue customization | Pressure-based taper strokes | `img/cats-tongue-taper.svg` |
+| `ink-tapered-raw-texture.*` | Section 1 – Organic texture | Ink Tapered Raw dry-brush finish | `img/ink-tapered-raw-texture.svg` |
+| `flat-ribbon-blocks.*` | Section 1 – Palette knife emulation | Flat Ribbon block-in strokes | `img/flat-ribbon-blocks.svg` |
+| `flat-ribbon-soft-random.*` | Section 1 – Spontaneous edges | Flat Ribbon Soft texture variety | `img/flat-ribbon-soft-random.svg` |
+| `hoarse-oil-pressure.*` | Section 1 – Brush notes | Hoarse Oil pressure response | `img/hoarse-oil-pressure.svg` |
+| `su-cream-pencil-sketch.*` | Section 1 – Brush notes | SU-Cream Pencil grain | `img/su-cream-pencil-sketch.svg` |
+| `thick-paints-impasto.*` | Section 1 – Brush notes | Thick Paints impasto swatches | `img/thick-paints-impasto.svg` |
+| `textured-thick-lineart-grit.*` | Section 1 – Brush notes | Textured Thick Lineart grit | `img/textured-thick-lineart-grit.svg` |
+| `post-process-blend.*` | Section 4 – Blending overview | Post-process Blend tool comparison | `img/post-process-blend.svg` |
+| `active-color-mix.*` | Section 4 – Blending overview | Active color mixing strokes | `img/active-color-mix.svg` |
+| `hard-edge-demo.*` | Section 4 – Edge handling | Hard edge separation | `img/hard-edge-demo.svg` |
+| `soft-edge-demo.*` | Section 4 – Edge handling | Soft edge gradient | `img/soft-edge-demo.svg` |
+| `textured-edge-demo.*` | Section 4 – Edge handling | Textured lost edge transition | `img/textured-edge-demo.svg` |
 
-Until those captures exist, each section includes a blockquoted placeholder note (following the `<!-- image: … -->` comment) that describes the required content and target file. After you drop the finished asset into `docs/non-ai-research/img/`, replace the note with a standard Markdown image tag pointing to that path.
+These diagrams hold the place of future PNG captures, so swapping in new assets is as simple as
+replacing the SVG path with your preferred raster image.
 
 ## Introduction: The Philosophy of Painterly Digital Art
 
@@ -109,9 +112,10 @@ starting point. It is designed to blend colors smoothly right out of the box. Us
 reduced opacity, around 90%, allows for the creation of beautiful mid-tone transitions as new
 strokes are laid down, making it excellent for achieving both hard and soft edges.
 
-<!-- image: docs/non-ai-research/img/oil-paint-flat-blend.png -->
-
-> _Image placeholder:_ Save `docs/non-ai-research/img/oil-paint-flat-blend.png` showing the Oil Paint Flat blend sample, then replace this note with an embedded image once the asset is ready.
+<figure>
+  <img src="img/oil-paint-flat-blend.svg" alt="Three horizontal painterly strokes blending from warm orange to cool teal with overlapping bands." />
+  <figcaption>Oil Paint Flat brush strokes blend smoothly from warm to cool hues.</figcaption>
+</figure>
 
 **Customization for Control:** Simple modifications to default brushes can unlock new possibilities.
 By duplicating the Oil Paint Flat Brush and adjusting its "brush size dynamics" to respond to pen
@@ -119,9 +123,10 @@ pressure, an artist can create a Cat's Tongue Brush. This tapered brush provides
 control, allowing for strokes that swell and thin with pressure, mimicking the behavior of a
 traditional filbert brush.
 
-<!-- image: docs/non-ai-research/img/cats-tongue-taper.png -->
-
-> _Image placeholder:_ Save `docs/non-ai-research/img/cats-tongue-taper.png` illustrating the Cat's Tongue taper strokes, then swap this callout for the finished image embed.
+<figure>
+  <img src="img/cats-tongue-taper.svg" alt="Diagonal tapered brush marks that thin out toward each end to illustrate pressure control." />
+  <figcaption>Cat's Tongue customization delivers tapered pressure-sensitive strokes.</figcaption>
+</figure>
 
 **Introducing Organic Texture:** To break away from digital sterility, brushes that incorporate
 scanned natural media are invaluable. The Ink Tapered Raw brush from DAUB Brushes is a prime
@@ -130,9 +135,10 @@ texture at the end of strokes, adding a layer of organic realism. This highlight
 the name of a brush should not limit its application. An "ink" brush can be a perfect "painting"
 brush if its texture and behavior serve the artist's goal.
 
-<!-- image: docs/non-ai-research/img/ink-tapered-raw-texture.png -->
-
-> _Image placeholder:_ Save `docs/non-ai-research/img/ink-tapered-raw-texture.png` capturing the Ink Tapered Raw dry-brush finish before restoring the Markdown image tag.
+<figure>
+  <img src="img/ink-tapered-raw-texture.svg" alt="Dark blue strokes that fray into dry texture at their ends." />
+  <figcaption>Ink Tapered Raw showcases dry, organic breakup at the tail of each stroke.</figcaption>
+</figure>
 
 **Palette Knife Emulation:** For blocking in large shapes and creating crisp, hard edges, brushes
 that mimic a palette knife are essential. A custom-made Flat Ribbon Vertical brush, which has a
@@ -140,9 +146,10 @@ vertical chisel tip that does not follow the stroke's direction, creates a disru
 Variations where the tip follows the direction of the line (Flat Ribbon) or has a horizontal
 orientation (Flat Ribbon Horizontal) provide a full range of palette knife effects.
 
-<!-- image: docs/non-ai-research/img/flat-ribbon-blocks.png -->
-
-> _Image placeholder:_ Save `docs/non-ai-research/img/flat-ribbon-blocks.png` depicting palette-knife style marks from the Flat Ribbon brush, then replace this note with the live image embed.
+<figure>
+  <img src="img/flat-ribbon-blocks.svg" alt="Stacked rectangular swatches in staggered angles showing palette-knife block-ins." />
+  <figcaption>Flat Ribbon brush variants stack chunky palette-knife style blocks.</figcaption>
+</figure>
 
 **Achieving Spontaneous Edges:** The most elusive quality of traditional media is often its
 unpredictability. The Flat Ribbon Soft brush is designed to replicate this. By loading it with
@@ -151,9 +158,10 @@ apply a different texture with each click or stroke. This creates interesting an
 shapes and dry-brush effects that would be difficult to paint deliberately, perfectly embodying the
 principle of "controlled chaos."
 
-<!-- image: docs/non-ai-research/img/flat-ribbon-soft-random.png -->
-
-> _Image placeholder:_ Save `docs/non-ai-research/img/flat-ribbon-soft-random.png` demonstrating randomized textures from Flat Ribbon Soft, then reinstate the image element here.
+<figure>
+  <img src="img/flat-ribbon-soft-random.svg" alt="Soft oval daubs overlapping with varied opacity to indicate random texture cycling." />
+  <figcaption>Flat Ribbon Soft rotates textures to keep edge terminations unpredictable.</figcaption>
+</figure>
 
 ### Table 1: The Essential Painterly Brush Toolkit
 
@@ -172,41 +180,50 @@ principle of "controlled chaos."
 #### Brush Notes
 
 - **Oil Paint Flat Brush:** Clip Studio Paint's default oil brush blends colors smoothly out of the box, and dropping its opacity to around 90% encourages soft transitions while still allowing assertive, hard-edged strokes when needed.  
-  <!-- image: docs/non-ai-research/img/oil-paint-flat-blend.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/oil-paint-flat-blend.png` showing brush stroke behavior, then restore an embedded image when the asset is produced.
+  <figure>
+    <img src="img/oil-paint-flat-blend.svg" alt="Orange and teal strokes blending together to display the Oil Paint Flat response." />
+    <figcaption>Oil Paint Flat transitions smoothly with minimal effort.</figcaption>
+  </figure>
 - **Cat's Tongue Brush:** Duplicating the Oil Paint Flat Brush and tying brush size dynamics to pen pressure yields a tapered stroke that mimics a traditional filbert brush, offering expressive control during blends and calligraphic marks.  
-  <!-- image: docs/non-ai-research/img/cats-tongue-taper.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/cats-tongue-taper.png` demonstrating the taper example before reintroducing the Markdown image.
+  <figure>
+    <img src="img/cats-tongue-taper.svg" alt="Pressure-based tapered strokes in warm and cool colors." />
+    <figcaption>Cat's Tongue tapering mimics a filbert brush profile.</figcaption>
+  </figure>
 - **Hoarse Oil:** This asset brush excels at both sketching and painting by delivering gentle blends under light pressure and snapping into harder edges with firm pressure so you can block forms without swapping tools.  
-  <!-- image: docs/non-ai-research/img/hoarse-oil-pressure.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/hoarse-oil-pressure.png` documenting the Hoarse Oil pressure response, then swap this reminder for the finished figure.
+  <figure>
+    <img src="img/hoarse-oil-pressure.svg" alt="Sequential strokes growing thicker to demonstrate pressure response." />
+    <figcaption>Hoarse Oil ramps from feather-light strokes to dense coverage as pressure increases.</figcaption>
+  </figure>
 - **Ink Tapered Raw:** Sourced from DAUB Brushes, this tool uses scans of natural media to add subtle dry-brush textures at stroke ends, making it ideal for breaking up digital passages while keeping color mixing clean.  
-  <!-- image: docs/non-ai-research/img/ink-tapered-raw-texture.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/ink-tapered-raw-texture.png` capturing the brush's dry texture before reinstating an image embed.
+  <figure>
+    <img src="img/ink-tapered-raw-texture.svg" alt="Indigo brush passes that fray into dry texture at the tail." />
+    <figcaption>Ink Tapered Raw ends with textured, paper-emulated breakup.</figcaption>
+  </figure>
 - **Flat Ribbon (Vertical/Horizontal):** These custom palette-knife simulations use vertical and horizontal chisel options to carve crisp edges or lay down chunky shapes that keep brushwork energetic.  
-  <!-- image: docs/non-ai-research/img/flat-ribbon-blocks.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/flat-ribbon-blocks.png` illustrating palette knife strokes, then replace this note with the finished image.
+  <figure>
+    <img src="img/flat-ribbon-blocks.svg" alt="Overlapping chiseled blocks demonstrating palette-knife stroke variety." />
+    <figcaption>Flat Ribbon chisel tips carve confident geometric masses.</figcaption>
+  </figure>
 - **Flat Ribbon Soft:** Loading this custom brush with multiple Clip Studio texture patterns and random rotation makes each stamp generate unpredictable termini that deliver the controlled chaos of traditional dry media.  
-  <!-- image: docs/non-ai-research/img/flat-ribbon-soft-random.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/flat-ribbon-soft-random.png` showing the randomized textures once you are ready to embed the image.
+  <figure>
+    <img src="img/flat-ribbon-soft-random.svg" alt="Clustered soft daubs in multiple hues illustrating random texture shifts." />
+    <figcaption>Flat Ribbon Soft introduces controlled chaos through rotating textures.</figcaption>
+  </figure>
 - **SU-Cream Pencil:** Its delicate grain makes this pencil brush a reliable sketching tool for both clean construction lines and loose gesture marks before paint application.  
-  <!-- image: docs/non-ai-research/img/su-cream-pencil-sketch.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/su-cream-pencil-sketch.png` highlighting the sketch grain, then reinstate the figure when available.
+  <figure>
+    <img src="img/su-cream-pencil-sketch.svg" alt="Loose pencil scaffolding with crosshatching that shows paper grain." />
+    <figcaption>SU-Cream Pencil lays in gentle tooth for construction lines.</figcaption>
+  </figure>
 - **Thick Paints Set:** Reach for this asset collection when you need rich impasto-like coverage, with built-in color jitter injecting natural variance so repeated strokes never feel mechanical.  
-  <!-- image: docs/non-ai-research/img/thick-paints-impasto.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/thick-paints-impasto.png` showing the impasto swatches before reintroducing the image embed.
+  <figure>
+    <img src="img/thick-paints-impasto.svg" alt="Layered paint blobs with highlights representing impasto build-up." />
+    <figcaption>Thick Paints brushes stack tactile impasto ridges.</figcaption>
+  </figure>
 - **Textured Thick Lineart:** Leverage this pencil-like grit to define forms or reinforce edges, laying it down before painting to establish structure or afterward to reintroduce tactile line work.  
-  <!-- image: docs/non-ai-research/img/textured-thick-lineart-grit.png -->
-
-  > _Image placeholder:_ Add `docs/non-ai-research/img/textured-thick-lineart-grit.png` capturing the gritty line work, then replace this note with the final visual.
+  <figure>
+    <img src="img/textured-thick-lineart-grit.svg" alt="Bold contour lines with stippled accents showing gritty lineart." />
+    <figcaption>Textured Thick Lineart reintroduces gritty edge definition.</figcaption>
+  </figure>
 
 ## Section 2: The Grisaille Foundation: Mastering Value with the Grayscale-to-Color Method
 
@@ -349,9 +366,10 @@ blurring them together. This is a corrective or softening action, performed afte
 applied. It is ideal for creating very smooth, gradual transitions, such as those in an out-of-focus
 background or for gently softening the blush on a character's cheek.
 
-<!-- image: docs/non-ai-research/img/post-process-blend.png -->
-
-> _Image placeholder:_ Add `docs/non-ai-research/img/post-process-blend.png` comparing post-process blending, then convert this reminder back into a figure when the asset exists.
+<figure>
+  <img src="img/post-process-blend.svg" alt="Two side-by-side squares comparing a blurred gradient to a crisp original." />
+  <figcaption>Post-process Blend tools smudge existing pixels without adding new paint.</figcaption>
+</figure>
 
 **Active Blending (Color Mixing Brushes):** This is a more direct and organic method of blending
 that more closely mimics traditional wet-on-wet painting. Any painting brush (like the Oil Paint or
@@ -362,9 +380,10 @@ Amount of paint and Color stretch control this behavior. This is an active, addi
 creates textured, organic transitions and is perfect for rendering focal points like skin, hair, and
 fabric, where visible brushwork is desired.
 
-<!-- image: docs/non-ai-research/img/active-color-mix.png -->
-
-> _Image placeholder:_ Add `docs/non-ai-research/img/active-color-mix.png` showing the active color mixing swatches and restore an image embed later.
+<figure>
+  <img src="img/active-color-mix.svg" alt="Overlapping color circles with an arrow indicating pigment pickup." />
+  <figcaption>Active color mixing brushes blend pigment as they lay down new strokes.</figcaption>
+</figure>
 
 ### Mastering Lost-and-Found Edges
 
@@ -375,17 +394,19 @@ an object casts a shadow onto another, or where there is an abrupt change in a f
 create these crisp edges, the artist should use opaque, non-blending brushes like the default G-pen
 or a custom brush like the Flat Ribbon Horizontal.
 
-<!-- image: docs/non-ai-research/img/hard-edge-demo.png -->
-
-> _Image placeholder:_ Add `docs/non-ai-research/img/hard-edge-demo.png` illustrating the hard edge separation before reinstating the image.
+<figure>
+  <img src="img/hard-edge-demo.svg" alt="Three vertical panels with crisp dividers showing hard edge separation." />
+  <figcaption>Hard edges enforce clear boundaries between adjacent shapes.</figcaption>
+</figure>
 
 **Soft Edges:** A soft edge indicates a gradual turning of a form away from the light source, such
 as the rounded edge of a sphere or a cheekbone. These smooth transitions are best created using the
 Soft Airbrush or by gently using one of the tools from the Blend palette.
 
-<!-- image: docs/non-ai-research/img/soft-edge-demo.png -->
-
-> _Image placeholder:_ Add `docs/non-ai-research/img/soft-edge-demo.png` capturing the soft edge gradient and replace this text with the final figure when ready.
+<figure>
+  <img src="img/soft-edge-demo.svg" alt="Glowing circular gradients fading into the background." />
+  <figcaption>Soft edges gently transition values to turn forms.</figcaption>
+</figure>
 
 **Textured (Lost) Edges:** The most characteristic painterly edge is the "lost" edge, where a form
 seems to subtly dissolve into its surroundings. This effect is achieved by using brushes that have
@@ -393,9 +414,10 @@ both texture and Color Mixing enabled. As the brush moves from one color area to
 and mixes the pigments, creating a broken, textured transition that is neither perfectly hard nor
 perfectly soft.
 
-<!-- image: docs/non-ai-research/img/textured-edge-demo.png -->
-
-> _Image placeholder:_ Add `docs/non-ai-research/img/textured-edge-demo.png` demonstrating the textured lost edge transition, then restore the Markdown image later.
+<figure>
+  <img src="img/textured-edge-demo.svg" alt="Layered brush passes dissolving into speckled texture on one side." />
+  <figcaption>Textured edges dissolve into the background for lost-and-found transitions.</figcaption>
+</figure>
 
 ### Applying Global Textures for Unification
 

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Flat Ribbon Soft randomized textures</title>
+  <desc id="desc">Scattered brush tips with varied opacity illustrating the Flat Ribbon Soft brush's unpredictable textures.</desc>
+  <rect width="640" height="360" fill="#fefcf6" />
+  <g transform="translate(70,60)">
+    <ellipse cx="80" cy="80" rx="70" ry="40" fill="#f09050" opacity="0.6" />
+    <ellipse cx="200" cy="90" rx="60" ry="38" fill="#e85d7a" opacity="0.45" />
+    <ellipse cx="140" cy="170" rx="85" ry="48" fill="#71c1b5" opacity="0.55" />
+    <ellipse cx="280" cy="160" rx="68" ry="42" fill="#4a7ab3" opacity="0.5" />
+    <ellipse cx="230" cy="40" rx="56" ry="32" fill="#f3c873" opacity="0.45" />
+    <ellipse cx="340" cy="90" rx="48" ry="28" fill="#2d4d6d" opacity="0.4" />
+    <ellipse cx="360" cy="200" rx="70" ry="38" fill="#a369d6" opacity="0.5" />
+    <ellipse cx="150" cy="230" rx="60" ry="34" fill="#f07443" opacity="0.42" />
+    <ellipse cx="300" cy="250" rx="90" ry="48" fill="#3b8574" opacity="0.38" />
+  </g>
+  <text x="320" y="40" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#2d2d31">Random texture cycling per stroke</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Post-process blend comparison</title>
+  <desc id="desc">Side-by-side comparison showing a smudged gradient versus the original to explain Clip Studio Paint blend tools.</desc>
+  <defs>
+    <linearGradient id="gradLeft" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#faebd7" />
+      <stop offset="50%" stop-color="#f4b15a" />
+      <stop offset="100%" stop-color="#f4766d" />
+    </linearGradient>
+    <linearGradient id="gradRight" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#faebd7" />
+      <stop offset="50%" stop-color="#f4b15a" />
+      <stop offset="100%" stop-color="#f4766d" stop-opacity="0.7" />
+    </linearGradient>
+    <filter id="smudge" x="-0.2" y="-0.2" width="1.4" height="1.4">
+      <feGaussianBlur stdDeviation="12" />
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="#f7f7f9" />
+  <rect x="70" y="80" width="200" height="200" rx="20" fill="#f4b15a" filter="url(#smudge)" opacity="0.8" />
+  <rect x="70" y="80" width="200" height="200" rx="20" fill="url(#gradLeft)" />
+  <rect x="370" y="80" width="200" height="200" rx="20" fill="url(#gradRight)" />
+  <rect x="370" y="80" width="200" height="200" rx="20" fill="#f4b15a" opacity="0.35" />
+  <text x="170" y="310" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#2d2d33">Blend tool smudge</text>
+  <text x="470" y="310" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="18" fill="#2d2d33">Unaltered paint</text>
+  <text x="320" y="46" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="20" fill="#2d2d33">Post-process blurring vs original strokes</text>
+</svg>
