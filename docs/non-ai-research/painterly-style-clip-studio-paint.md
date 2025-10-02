@@ -9,7 +9,7 @@ updated: 2025-09-08
 
 [[toc]]
 
-> **Contributor note:** Lightweight SVG diagrams now live in `docs/non-ai-research/img/` and the guide embeds them with `<figure>` elements. To swap in your own PNG captures later, replace the `<img src="…">` reference with your filename (and optionally retain a `<!-- image: … -->` comment for clarity).
+> **Contributor note:** Lightweight SVG diagrams now live in `docs/non-ai-research/img/` and the guide embeds them with `<figure>` elements. To swap in your own PNG captures later, replace the `<img data-glightbox src="…">` reference with your filename (and optionally retain a `<!-- image: … -->` comment for clarity).
 
 # A Comprehensive Guide to the Painterly Style in Clip Studio Paint
 
@@ -24,7 +24,7 @@ updated: 2025-09-08
 
 To keep this repository binary-free, every figure callout currently uses a lightweight SVG diagram
 stored in `docs/non-ai-research/img/`. When you have real screen captures, drop them into that
-folder and update the `<img src="…">` path in the relevant `<figure>` element. If you want to keep a
+folder and update the `<img data-glightbox src="…">` path in the relevant `<figure>` element. If you want to keep a
 breadcrumb for future replacements, you can also add a `<!-- image: … -->` comment alongside the
 figure. The `img/README.md` file in the same directory expands on recommended capture settings if
 you need extra guidance.
@@ -113,7 +113,7 @@ reduced opacity, around 90%, allows for the creation of beautiful mid-tone trans
 strokes are laid down, making it excellent for achieving both hard and soft edges.
 
 <figure>
-  <img src="img/oil-paint-flat-blend.svg" alt="Three horizontal painterly strokes blending from warm orange to cool teal with overlapping bands." />
+  <img data-glightbox src="img/oil-paint-flat-blend.svg" alt="Three horizontal painterly strokes blending from warm orange to cool teal with overlapping bands." />
   <figcaption>Oil Paint Flat brush strokes blend smoothly from warm to cool hues.</figcaption>
 </figure>
 
@@ -124,7 +124,7 @@ control, allowing for strokes that swell and thin with pressure, mimicking the b
 traditional filbert brush.
 
 <figure>
-  <img src="img/cats-tongue-taper.svg" alt="Diagonal tapered brush marks that thin out toward each end to illustrate pressure control." />
+  <img data-glightbox src="img/cats-tongue-taper.svg" alt="Diagonal tapered brush marks that thin out toward each end to illustrate pressure control." />
   <figcaption>Cat's Tongue customization delivers tapered pressure-sensitive strokes.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ the name of a brush should not limit its application. An "ink" brush can be a pe
 brush if its texture and behavior serve the artist's goal.
 
 <figure>
-  <img src="img/ink-tapered-raw-texture.svg" alt="Dark blue strokes that fray into dry texture at their ends." />
+  <img data-glightbox src="img/ink-tapered-raw-texture.svg" alt="Dark blue strokes that fray into dry texture at their ends." />
   <figcaption>Ink Tapered Raw showcases dry, organic breakup at the tail of each stroke.</figcaption>
 </figure>
 
@@ -147,7 +147,7 @@ Variations where the tip follows the direction of the line (Flat Ribbon) or has 
 orientation (Flat Ribbon Horizontal) provide a full range of palette knife effects.
 
 <figure>
-  <img src="img/flat-ribbon-blocks.svg" alt="Stacked rectangular swatches in staggered angles showing palette-knife block-ins." />
+  <img data-glightbox src="img/flat-ribbon-blocks.svg" alt="Stacked rectangular swatches in staggered angles showing palette-knife block-ins." />
   <figcaption>Flat Ribbon brush variants stack chunky palette-knife style blocks.</figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ shapes and dry-brush effects that would be difficult to paint deliberately, perf
 principle of "controlled chaos."
 
 <figure>
-  <img src="img/flat-ribbon-soft-random.svg" alt="Soft oval daubs overlapping with varied opacity to indicate random texture cycling." />
+  <img data-glightbox src="img/flat-ribbon-soft-random.svg" alt="Soft oval daubs overlapping with varied opacity to indicate random texture cycling." />
   <figcaption>Flat Ribbon Soft rotates textures to keep edge terminations unpredictable.</figcaption>
 </figure>
 
@@ -181,47 +181,47 @@ principle of "controlled chaos."
 
 - **Oil Paint Flat Brush:** Clip Studio Paint's default oil brush blends colors smoothly out of the box, and dropping its opacity to around 90% encourages soft transitions while still allowing assertive, hard-edged strokes when needed.  
   <figure>
-    <img src="img/oil-paint-flat-blend.svg" alt="Orange and teal strokes blending together to display the Oil Paint Flat response." />
+    <img data-glightbox src="img/oil-paint-flat-blend.svg" alt="Orange and teal strokes blending together to display the Oil Paint Flat response." />
     <figcaption>Oil Paint Flat transitions smoothly with minimal effort.</figcaption>
   </figure>
 - **Cat's Tongue Brush:** Duplicating the Oil Paint Flat Brush and tying brush size dynamics to pen pressure yields a tapered stroke that mimics a traditional filbert brush, offering expressive control during blends and calligraphic marks.  
   <figure>
-    <img src="img/cats-tongue-taper.svg" alt="Pressure-based tapered strokes in warm and cool colors." />
+    <img data-glightbox src="img/cats-tongue-taper.svg" alt="Pressure-based tapered strokes in warm and cool colors." />
     <figcaption>Cat's Tongue tapering mimics a filbert brush profile.</figcaption>
   </figure>
 - **Hoarse Oil:** This asset brush excels at both sketching and painting by delivering gentle blends under light pressure and snapping into harder edges with firm pressure so you can block forms without swapping tools.  
   <figure>
-    <img src="img/hoarse-oil-pressure.svg" alt="Sequential strokes growing thicker to demonstrate pressure response." />
+    <img data-glightbox src="img/hoarse-oil-pressure.svg" alt="Sequential strokes growing thicker to demonstrate pressure response." />
     <figcaption>Hoarse Oil ramps from feather-light strokes to dense coverage as pressure increases.</figcaption>
   </figure>
 - **Ink Tapered Raw:** Sourced from DAUB Brushes, this tool uses scans of natural media to add subtle dry-brush textures at stroke ends, making it ideal for breaking up digital passages while keeping color mixing clean.  
   <figure>
-    <img src="img/ink-tapered-raw-texture.svg" alt="Indigo brush passes that fray into dry texture at the tail." />
+    <img data-glightbox src="img/ink-tapered-raw-texture.svg" alt="Indigo brush passes that fray into dry texture at the tail." />
     <figcaption>Ink Tapered Raw ends with textured, paper-emulated breakup.</figcaption>
   </figure>
 - **Flat Ribbon (Vertical/Horizontal):** These custom palette-knife simulations use vertical and horizontal chisel options to carve crisp edges or lay down chunky shapes that keep brushwork energetic.  
   <figure>
-    <img src="img/flat-ribbon-blocks.svg" alt="Overlapping chiseled blocks demonstrating palette-knife stroke variety." />
+    <img data-glightbox src="img/flat-ribbon-blocks.svg" alt="Overlapping chiseled blocks demonstrating palette-knife stroke variety." />
     <figcaption>Flat Ribbon chisel tips carve confident geometric masses.</figcaption>
   </figure>
 - **Flat Ribbon Soft:** Loading this custom brush with multiple Clip Studio texture patterns and random rotation makes each stamp generate unpredictable termini that deliver the controlled chaos of traditional dry media.  
   <figure>
-    <img src="img/flat-ribbon-soft-random.svg" alt="Clustered soft daubs in multiple hues illustrating random texture shifts." />
+    <img data-glightbox src="img/flat-ribbon-soft-random.svg" alt="Clustered soft daubs in multiple hues illustrating random texture shifts." />
     <figcaption>Flat Ribbon Soft introduces controlled chaos through rotating textures.</figcaption>
   </figure>
 - **SU-Cream Pencil:** Its delicate grain makes this pencil brush a reliable sketching tool for both clean construction lines and loose gesture marks before paint application.  
   <figure>
-    <img src="img/su-cream-pencil-sketch.svg" alt="Loose pencil scaffolding with crosshatching that shows paper grain." />
+    <img data-glightbox src="img/su-cream-pencil-sketch.svg" alt="Loose pencil scaffolding with crosshatching that shows paper grain." />
     <figcaption>SU-Cream Pencil lays in gentle tooth for construction lines.</figcaption>
   </figure>
 - **Thick Paints Set:** Reach for this asset collection when you need rich impasto-like coverage, with built-in color jitter injecting natural variance so repeated strokes never feel mechanical.  
   <figure>
-    <img src="img/thick-paints-impasto.svg" alt="Layered paint blobs with highlights representing impasto build-up." />
+    <img data-glightbox src="img/thick-paints-impasto.svg" alt="Layered paint blobs with highlights representing impasto build-up." />
     <figcaption>Thick Paints brushes stack tactile impasto ridges.</figcaption>
   </figure>
 - **Textured Thick Lineart:** Leverage this pencil-like grit to define forms or reinforce edges, laying it down before painting to establish structure or afterward to reintroduce tactile line work.  
   <figure>
-    <img src="img/textured-thick-lineart-grit.svg" alt="Bold contour lines with stippled accents showing gritty lineart." />
+    <img data-glightbox src="img/textured-thick-lineart-grit.svg" alt="Bold contour lines with stippled accents showing gritty lineart." />
     <figcaption>Textured Thick Lineart reintroduces gritty edge definition.</figcaption>
   </figure>
 
@@ -367,7 +367,7 @@ applied. It is ideal for creating very smooth, gradual transitions, such as thos
 background or for gently softening the blush on a character's cheek.
 
 <figure>
-  <img src="img/post-process-blend.svg" alt="Two side-by-side squares comparing a blurred gradient to a crisp original." />
+  <img data-glightbox src="img/post-process-blend.svg" alt="Two side-by-side squares comparing a blurred gradient to a crisp original." />
   <figcaption>Post-process Blend tools smudge existing pixels without adding new paint.</figcaption>
 </figure>
 
@@ -381,7 +381,7 @@ creates textured, organic transitions and is perfect for rendering focal points 
 fabric, where visible brushwork is desired.
 
 <figure>
-  <img src="img/active-color-mix.svg" alt="Overlapping color circles with an arrow indicating pigment pickup." />
+  <img data-glightbox src="img/active-color-mix.svg" alt="Overlapping color circles with an arrow indicating pigment pickup." />
   <figcaption>Active color mixing brushes blend pigment as they lay down new strokes.</figcaption>
 </figure>
 
@@ -395,7 +395,7 @@ create these crisp edges, the artist should use opaque, non-blending brushes lik
 or a custom brush like the Flat Ribbon Horizontal.
 
 <figure>
-  <img src="img/hard-edge-demo.svg" alt="Three vertical panels with crisp dividers showing hard edge separation." />
+  <img data-glightbox src="img/hard-edge-demo.svg" alt="Three vertical panels with crisp dividers showing hard edge separation." />
   <figcaption>Hard edges enforce clear boundaries between adjacent shapes.</figcaption>
 </figure>
 
@@ -404,7 +404,7 @@ as the rounded edge of a sphere or a cheekbone. These smooth transitions are bes
 Soft Airbrush or by gently using one of the tools from the Blend palette.
 
 <figure>
-  <img src="img/soft-edge-demo.svg" alt="Glowing circular gradients fading into the background." />
+  <img data-glightbox src="img/soft-edge-demo.svg" alt="Glowing circular gradients fading into the background." />
   <figcaption>Soft edges gently transition values to turn forms.</figcaption>
 </figure>
 
@@ -415,7 +415,7 @@ and mixes the pigments, creating a broken, textured transition that is neither p
 perfectly soft.
 
 <figure>
-  <img src="img/textured-edge-demo.svg" alt="Layered brush passes dissolving into speckled texture on one side." />
+  <img data-glightbox src="img/textured-edge-demo.svg" alt="Layered brush passes dissolving into speckled texture on one side." />
   <figcaption>Textured edges dissolve into the background for lost-and-found transitions.</figcaption>
 </figure>
 
