@@ -1,5 +1,11 @@
 ---
 title: "Attention Checkpoint Card"
+tags:
+  - template
+  - attention
+  - workflow
+project: docs-hub
+updated: 2025-10-02
 ---
 
 # Attention Checkpoint Card

@@ -1,3 +1,13 @@
+---
+title: "Artist Attention Scorecard Template"
+tags:
+  - template
+  - art
+  - attention
+project: docs-hub
+updated: 2025-10-02
+---
+
 # Artist Attention Scorecard Template
 
 Use this printable sheet to record the leading indicators described in the field guide without needing to reformat the table every session. Print the table directly from MkDocs or copy it into the note-taking app of your choice for digital tracking.
