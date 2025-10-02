@@ -121,32 +121,31 @@ The painting's journey through the art market provides a stark barometer of
 Alma-Tadema's critical fortunes, charting the dramatic collapse and eventual
 resurrection of Victorian academicism.
 
-- **1888:** Commissioned by Sir John Aird for £4,000.
+- **1888:** Commissioned by Sir John Aird for £4,000.[^prov-1888]
 - **1911–1934:** Inherited by his son, Sir John Richard Aird, 2nd Baronet, and
-  exhibited at the 1913 Royal Academy memorial exhibition for the artist.
+  exhibited at the 1913 Royal Academy memorial exhibition for the artist.[^prov-1913]
 - **1935:** With Alma-Tadema's reputation in freefall after the First World War
-  and the rise of Modernism, the painting was sold for a mere 483 guineas.
+  and the rise of Modernism, the painting was sold for a mere 483 guineas.[^prov-1935]
 - **1960:** At the absolute nadir of his fame, the painting failed to sell at
-  Christie's and was “bought in” by the auction house for just 100 guineas. This
-  moment represents the peak of Modernist disdain for the narrative detail, high
-  finish, and perceived sentimentality of academic art.
+  Christie's and was “bought in” by the auction house for just 100 guineas.[^prov-1960]
+  This moment represents the peak of Modernist disdain for the narrative detail,
+  high finish, and perceived sentimentality of academic art.
 - **c. 1960s:** Acquired by Allen Funt, the American producer of the television
   show *Candid Camera*. Funt was a pioneering collector of Alma-Tadema when the
   artist was deeply unfashionable, signaling a revival of interest outside the
   formal art establishment, driven perhaps by a postmodern appreciation for
-  spectacle and “camp.”
+  spectacle and “camp.”[^prov-funt]
 - **1973:** After Funt experienced financial difficulties, his collection was
   sold at Sotheby's. *The Roses of Heliogabalus* achieved £28,000, a significant
-  recovery and a sign of the turning tide.
+  recovery and a sign of the turning tide.[^prov-1973]
 - **1993:** Sold by collector Frederick Koch at Christie's for £1,500,000,
   confirming the full market rehabilitation of Alma-Tadema as a blue-chip
-  artist.
+  artist.[^prov-1993]
 - **Current:** The painting is a prized possession in the private collection of
-  Mexican-Spanish businessman Juan Antonio Pérez Simón. It has been frequently
-  loaned for major international exhibitions, including shows at the Leighton
-  House Museum in London (2014, 2017), the Belvedere in Vienna (2017), and
-  CentroCentro in Madrid (2024–25), cementing its status as a canonical
-  masterpiece.
+  Mexican-Spanish businessman Juan Antonio Pérez Simón[^prov-owner] and has been
+  frequently loaned for major international exhibitions, including shows at the
+  Leighton House Museum in London (2014, 2017), the Belvedere in Vienna (2017),
+  and CentroCentro in Madrid (2024–25).[^prov-exhibitions]
 
 # The Subject and Its Sources: From Violets to Roses
 
@@ -161,7 +160,7 @@ audience.
 The direct source for the painting is a passage from the *Life of Elagabalus* in
 the *Historia Augusta*, a late Roman collection of imperial biographies
 notorious among historians for its blend of fact, fiction, and salacious
-invention. The relevant passage describes one of the emperor's cruel pranks:
+invention. The relevant passage describes one of the emperor's cruel pranks:[^hist-augusta]
 
 > *in cliniis versatilibus parasitos suos violis et floribus, sic ut animam
 > aliqui efflaverint, cum erepere ad summum non possent.*
@@ -172,14 +171,14 @@ invention. The relevant passage describes one of the emperor's cruel pranks:
 
 The text is explicit about the key elements: a mechanical or “reversible
 ceiling” (*cliniis versatilibus*), the use of “violets and other flowers” (*violis
-et floribus*), and the lethal outcome of suffocation (*animam... efflaverint*).
+et floribus*), and the lethal outcome of suffocation (*animam... efflaverint*).[^hist-augusta]
 
 This trope of a trick ceiling at a decadent feast was part of a literary
 tradition of imperial excess. Classical scholars note parallels with the
 emperor Nero, who, according to Suetonius, had a dining room with a revolving
-ceiling that showered guests with flowers and perfumes. A similar device appears
-in the lavish feast of the freedman Trimalchio in Petronius's *Satyricon*. By
-choosing this subject, Alma-Tadema placed Elagabalus within an established
+ceiling that showered guests with flowers and perfumes, and with the lavish
+feast of the freedman Trimalchio in Petronius's *Satyricon*.[^imperial-parallels]
+By choosing this subject, Alma-Tadema placed Elagabalus within an established
 lineage of literary and historical tyrants defined by their architectural and
 gastronomical cruelty.
 
@@ -189,23 +188,24 @@ Alma-Tadema's most significant departure from the text was his decision to depic
 a torrent of roses instead of the specified violets. This was not an arbitrary
 esthetic choice but a calculated act of symbolic translation, re-coding the
 story's moral framework for a Victorian audience well-versed in floriography,
-the language of flowers.
+the language of flowers.[^floriography]
 
 In Victorian symbolism, the violet represented modesty, humility, faithfulness,
-and innocence. The original text's use of violets thus creates a deeply perverse
-irony: the victims are smothered by flowers symbolizing virtue and fidelity, a
-subtle and decadent inversion that a Roman reader might have appreciated.
+and innocence.[^violet-symbolism] The original text's use of violets thus
+creates a deeply perverse irony: the victims are smothered by flowers
+symbolizing virtue and fidelity, a subtle and decadent inversion that a Roman
+reader might have appreciated.
 
 Alma-Tadema, a master of communicating with his public, recognized that this
 subtle irony might be lost on a more didactic Victorian audience. He therefore
 replaced the ironic symbol with a direct one. The rose, while broadly a symbol
-of love, could also strongly connote passion, lust, sensuality, and debauchery—
-themes central to the orgy depicted. By making this switch, Alma-Tadema rendered
-the painting's moral message clear and legible: the instruments of lust become
-the instruments of death. The painting becomes a direct allegory where sensual
-excess literally suffocates its participants. This is a fundamental
-re-engineering of the story's symbolic structure to align with Victorian moral
-sensibilities.
+of love, could also strongly connote passion, lust, sensuality, and
+debauchery—themes central to the orgy depicted.[^rose-symbolism] By making this
+switch, Alma-Tadema rendered the painting's moral message clear and legible: the
+instruments of lust become the instruments of death. The painting becomes a
+direct allegory where sensual excess literally suffocates its participants.
+This is a fundamental re-engineering of the story's symbolic structure to align
+with Victorian moral sensibilities.
 
 ### Primary Source Mapping
 
@@ -648,10 +648,49 @@ esthetic. In its capacity to be continually re-read and re-interpreted, *The
 Roses of Heliogabalus* confirms its status as a work of enduring power, forever
 fascinating and forever disturbing.
 
+# Notes
+
+[^prov-1888]: See Rosemary Barrow, *Lawrence Alma-Tadema* (London: Phaidon Press,
+2001); Vern G. Swanson, *Sir Lawrence Alma-Tadema* (Woodbridge: Antique
+Collectors' Club, 1990).
+[^prov-1913]: Swanson, *Sir Lawrence Alma-Tadema*; Elizabeth Prettejohn, Peter
+Trippi, and others, eds., *Alma-Tadema: At Home in Antiquity* (Munich: Prestel,
+2017).
+[^prov-1935]: Swanson, *Sir Lawrence Alma-Tadema*.
+[^prov-1960]: Andrew Russeth, “From ‘Riches to Rags to Riches’,” *ArtNews*,
+January 1, 2011.
+[^prov-funt]: Russeth, “From ‘Riches to Rags to Riches’.”
+[^prov-1973]: *Victorian Paintings, Drawings and Watercolors* (London: Sotheby's,
+sale, November 21, 1973); Russeth, “From ‘Riches to Rags to Riches’.”
+[^prov-1993]: *Victorian Paintings, Drawings and Watercolours* (London:
+Christie's, sale 4875, June 11, 1993); Russeth, “From ‘Riches to Rags to
+Riches’.”
+[^prov-owner]: Maev Kennedy, “Quiet billionaire's Victorian art collection
+loaned to Leighton House,” *The Guardian*, June 2, 2014.
+[^prov-exhibitions]: Leighton House Museum, *A Victorian Obsession: The Pérez
+Simón Collection* (London: Royal Borough of Kensington and Chelsea, 2014);
+Prettejohn, Trippi, et al., *Alma-Tadema: At Home in Antiquity*; Belvedere
+Museum, *Lawrence Alma-Tadema: Decadence & Antiquity* (Vienna: Belvedere, 2017);
+CentroCentro, “Seventy Great Masters from the Pérez Simón Collection,” 2024.
+[^hist-augusta]: *Historia Augusta*, “Life of Elagabalus,” trans. David Magie,
+in *Scriptores Historiae Augustae*, vol. 2 (Cambridge, MA: Harvard University
+Press, 1924).
+[^imperial-parallels]: Suetonius, “Nero,” trans. J. C. Rolfe, in *The Lives of
+the Caesars*, vol. 2 (Cambridge, MA: Harvard University Press, 1914); Petronius,
+*The Satyricon*, trans. W. C. Firebaugh (Project Gutenberg, 1930); Jas Elsner,
+“Inventing the Roman Dinner,” *Journal of Roman Studies* 99 (2009): 1–37.
+[^violet-symbolism]: Kate Greenaway, *The Language of Flowers* (London: George
+Routledge & Sons, 1884).
+[^rose-symbolism]: Greenaway, *The Language of Flowers*.
+[^floriography]: Beverly Seaton, *The Language of Flowers: A History*
+(Charlottesville: University Press of Virginia, 1995).
+
 # Sources
 
 ## Primary sources
 
+- Greenaway, Kate. *The Language of Flowers.* London: George Routledge & Sons,
+  1884. https://www.gutenberg.org/ebooks/16111.
 - Historia Augusta. "Life of Elagabalus." Translated by David Magie. *Scriptores
   Historiae Augustae*, Vol. II. Cambridge, MA: Harvard University Press, 1924.
   https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Elagabalus/1%2A.html.
@@ -670,6 +709,10 @@ fascinating and forever disturbing.
 - Icks, Martijn. *The Crimes of Elagabalus: The Life and Legacy of Rome's
   Decadent Boy Emperor.* London: I.B. Tauris, 2012.
   https://doi.org/10.5040/9780755600211.
+- Seaton, Beverly. *The Language of Flowers: A History.* Charlottesville:
+  University Press of Virginia, 1995.
+- Swanson, Vern G. *Sir Lawrence Alma-Tadema.* Woodbridge: Antique Collectors'
+  Club, 1990.
 - Varner, Eric R. *Elagabalus: Aberrant Monarchy and Ceremony in the Late Roman
   Empire.* Austin: University of Texas Press, 2004.
   https://utpress.utexas.edu/9780292706191/elagabalus/.
@@ -684,6 +727,8 @@ fascinating and forever disturbing.
   https://www.prestelpublishing.randomhouse.de/book/Alma-Tadema/Peter-Trippi/Prestel-com/e509705.rhd.
 - Belvedere Museum. *Lawrence Alma-Tadema: Decadence & Antiquity.* Vienna:
   Belvedere, 2017. https://www.belvedere.at/en/alma-tadema.
+- CentroCentro. "Seventy Great Masters from the Pérez Simón Collection." Madrid:
+  Ayuntamiento de Madrid, 2024. https://www.centrocentro.org/actividad/setenta-maestros.
 
 ## Technical painting and conservation studies
 
@@ -702,6 +747,21 @@ fascinating and forever disturbing.
   https://tips.clip-studio.com/en-us/articles/1785.
 - Art Rocket Editorial Team. "Digital Painting Landscape Photo Studies." Art
   Rocket (2021). https://www.clipstudio.net/howto/library/archives/164101.
+
+## Auction catalogues and market documentation
+
+- Christie's. *Victorian Paintings, Drawings and Watercolours.* Sale 4875.
+  London: Christie's, June 11, 1993.
+- Sotheby's. *Victorian Paintings, Drawings and Watercolors.* London: Sotheby's,
+  November 21, 1973.
+
+## Press coverage
+
+- Kennedy, Maev. "Quiet billionaire's Victorian art collection loaned to
+  Leighton House." *The Guardian*, June 2, 2014.
+  https://www.theguardian.com/artanddesign/2014/jun/02/quiet-billionaire-victorian-art-collection-leighton-house.
+- Russeth, Andrew. "From 'Riches to Rags to Riches'." *ArtNews*, January 1,
+  2011. https://www.artnews.com/art-news/market/from-riches-to-rags-to-riches-2011-alma-tadema-2655/.
 
 ## Thoughts
 
