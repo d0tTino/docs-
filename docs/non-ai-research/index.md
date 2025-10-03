@@ -27,7 +27,6 @@ Short, actionable approaches for personal efficiency and time management.
 - [The Artist's Field Guide to Attention & Energy](artists-field-guide-attention-energy.md) maps ADHD-aware session design that channels flow while preventing burnout.
 - [The Anti-Fragile Studio](anti-fragile-studio.md) operationalises contracts, pricing, and dashboards so neurodivergent artists can run commission pipelines without burnout.
 
-
 ## Corporate Studies
 
 Insights into organizational behavior, power, and corporate evolution.
@@ -80,10 +79,14 @@ Interdisciplinary explorations across science, philosophy, and culture.
 - [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md)
   focuses on painterly brush workflows for Clip Studio users and outlines
   expressive digital painting techniques.
-- [An Art-Historical Study of Lawrence Alma-Tadema's *The Roses of
-  Heliogabalus*](roses-of-heliogabalus-art-historical-study.md) examines how
+- [An Art-Historical Study of Lawrence Alma-Tadema's _The Roses of
+  Heliogabalus_](roses-of-heliogabalus-art-historical-study.md) examines how
   Victorian academic painting weaponized beauty, traces the work's reception,
   and extracts lessons for contemporary digital artists.
+- [The Flower-Suffocation Banquet of Emperor Elagabalus](flower-suffocation-
+  banquet-of-emperor-elagabalus.md) surveys the anecdote's late antique sources,
+  contemporary historiography, and Victorian reinterpretations to map how a
+  lethal cascade of petals became a symbol of imperial decadence.
 - [Composition 101 — Chaptered Intro](composition-101-chaptered-intro.md)
   offers a guided path through scene-building fundamentals and distills
   classical and modern composition frameworks into linked chapters for fast
