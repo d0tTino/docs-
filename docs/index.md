@@ -172,14 +172,14 @@ git merge d0tTino-import --allow-unrelated-histories
 - [Local Docker Build](../playbooks/local-docker-build.md)
 
 ## Ingesting and Querying Markdown
-Use the ingestion utility to store and search markdown snippets.
+Use the ingestion utility to store and search markdown snippets from existing guides.
 
-The `scripts/ingest.py` helper can store markdown chunks in a simple vector database and retrieve
-them later:
+For example, the `scripts/ingest.py` helper can store chunks from `docs/quickstart.md` in a simple
+vector database and retrieve them later:
 
 ```bash
 # Build the database
-python scripts/ingest.py docs/example.md --db vector_db.pkl
+python scripts/ingest.py docs/quickstart.md --db vector_db.pkl
 
 # Query for similar text
 python - <<'EOF'
