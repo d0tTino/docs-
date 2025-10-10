@@ -47,7 +47,7 @@ The risk matrix below illustrates the likelihood and impact of key threats to ou
 
 - **Unauthorized modification or defacement of docs**
   - Confirm each pull request has at least one reviewer.
-  - Run [`scripts/setup_hooks.sh`](../../scripts/setup_hooks.sh) to enable repository-specific hooks.
+  - Run [`scripts/setup_hooks.sh`](https://github.com/d0tTino/docs-/blob/main/scripts/setup_hooks.sh) to enable repository-specific hooks.
 - **Supply-chain attack**
   - Pin dependencies and verify checksums for downloaded artifacts.
 - **AI-generated malware infiltration**
