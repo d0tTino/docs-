@@ -26,7 +26,7 @@ The matrix compares long-context techniques across complexity, maximum effective
 
 ### Regeneration
 
-Use [`scripts/context_windows_chart.py`](../../scripts/context_windows_chart.py) to regenerate [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg). The script depends on `pandas`, `matplotlib`, and `seaborn`.
+Use [`scripts/context_windows_chart.py`](../scripts/context_windows_chart.py) to regenerate [`context-windows-design-matrix.svg`](context-windows-design-matrix.svg). The script depends on `pandas`, `matplotlib`, and `seaborn`.
 
 Generate the interactive table with [`docs/ai-research/context-windows-design-matrix.py`](context-windows-design-matrix.py), which relies on `plotly` and `kaleido` to refresh [`context-windows-design-matrix.html`](context-windows-design-matrix.html).
 
