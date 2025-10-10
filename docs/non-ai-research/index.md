@@ -83,6 +83,10 @@ Interdisciplinary explorations across science, philosophy, and culture.
   Heliogabalus_](roses-of-heliogabalus-art-historical-study.md) examines how
   Victorian academic painting weaponized beauty, traces the work's reception,
   and extracts lessons for contemporary digital artists.
+- [From "Technical Debt" to "Under-Resolution"](from-technical-debt-to-under-resolution.md)
+  builds a neutral vocabulary and two-step diagnostic framework for
+  distinguishing selective finish from genuinely under-resolved passages in
+  studio practice.
 - [The Flower-Suffocation Banquet of Emperor Elagabalus](flower-suffocation-
   banquet-of-emperor-elagabalus.md) surveys the anecdote's late antique sources,
   contemporary historiography, and Victorian reinterpretations to map how a
