@@ -1,3 +1,12 @@
+---
+title: "Local Docker Build"
+tags: [productivity, playbook]
+project: docs-hub
+updated: 2025-08-18
+---
+
+--8<-- "_snippets/disclaimer.md"
+
 # Local Build
 
 This repository no longer provides a Dockerfile. Instead you can run MkDocs
