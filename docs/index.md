@@ -35,7 +35,7 @@ Guides for setting up the docs hub and exploring resources.
 - Review the [threat model](security/threat-model.md) for security considerations.
 - Explore [research docs](#research-docs).
 
-For contribution guidelines, see the [Contributing section](../README.md#contributing) of the main
+For contribution guidelines, see the [Contributing section](https://github.com/d0tTino/docs-/blob/main/README.md#contributing) of the main
 README.
 ## Directory Structure
 Overview of key directories and their purposes.
