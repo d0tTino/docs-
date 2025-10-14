@@ -194,7 +194,7 @@ EOF
 Outlines licensing terms and disclaimers.
 
 This documentation is provided for informational purposes and comes with no warranty. See the
-[LICENSE](../LICENSE) for terms and standard disclaimers.
+[LICENSE](https://github.com/d0tTino/docs-/blob/main/LICENSE) for terms and standard disclaimers.
 
 ## References
 Citations for cases, APIs, and publications referenced in the docs.
