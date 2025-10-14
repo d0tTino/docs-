@@ -16,7 +16,7 @@ updated: 2025-08-15
 
 <iframe src="kv-cache-chart.html" width="100%" height="420"></iframe>
 
-*Note:* Regenerate the HTML using [`scripts/kv_capacity.py`](../../scripts/kv_capacity.py) with the `--plotly` flag if the underlying data changes.
+*Note:* Regenerate the HTML using [`scripts/kv_capacity.py`](https://github.com/d0tTino/docs-/blob/main/scripts/kv_capacity.py) with the `--plotly` flag if the underlying data changes.
 
 A static rendering of the KV cache visualization originally distributed as an HTML artifact.
 
@@ -24,7 +24,7 @@ The chart highlights a near-linear relationship between sequence length and KV c
 
 ## Refreshing the chart
 
-The SVG and interactive HTML are generated from model parameters in [`scripts/kv_capacity.py`](../../scripts/kv_capacity.py). To refresh the artifacts, run:
+The SVG and interactive HTML are generated from model parameters in [`scripts/kv_capacity.py`](https://github.com/d0tTino/docs-/blob/main/scripts/kv_capacity.py). To refresh the artifacts, run:
 
 ```
 python scripts/kv_capacity.py --plot --output docs/ai-research/kv-cache-chart.svg
