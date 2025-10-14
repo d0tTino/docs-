@@ -2,6 +2,7 @@
 title: Security
 tags: [security]
 updated: 2025-08-15
+project: docs-hub
 ---
 --8<-- "_snippets/disclaimer.md"
 
