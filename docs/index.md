@@ -168,8 +168,8 @@ git merge d0tTino-import --allow-unrelated-histories
 
 ### Playbooks
 - [Terminal Workflow](terminal-workflow/index.md)
-- [GitHub Actions Workflows](../playbooks/github-actions-workflows.md)
-- [Local Docker Build](../playbooks/local-docker-build.md)
+- [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
+- [Local Build](playbooks/local-docker-build.md)
 
 ## Ingesting and Querying Markdown
 Use the ingestion utility to store and search markdown snippets from existing guides.

@@ -20,7 +20,6 @@ plugins:
   - search:
       lang: en
   - monorepo
-  - sitemap
   - mermaid2
   - glightbox
   - bibtex:
@@ -33,7 +32,6 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.tabbed
-  - pymdownx.copybutton
   - footnotes
 
 nav:
@@ -94,6 +92,9 @@ nav:
       - Terminal Workflow: terminal-workflow/index.md
       - Versioning API: versioning-api.md
       - "Wave 4: Money & Autonomy": wave4-money-autonomy.md
+  - Playbooks:
+      - GitHub Actions Workflows: playbooks/github-actions-workflows.md
+      - Local Build: playbooks/local-docker-build.md
 
   - Security:
       - Cyberpunk Cookbook: cyberpunk-cookbook.md
