@@ -5,7 +5,7 @@ updated: 2025-08-15
 ---
 --8<-- "_snippets/disclaimer.md"
 
-{{ toc }}
+[[toc]]
 
 # Security
 
