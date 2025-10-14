@@ -1788,7 +1788,7 @@ Palantir Extends US Defense Contract That Prompted Protest at Google - CNET
 ## Setup Checklist
 
 - [ ] Clone the repository.
-- [ ] Install dependencies from [requirements.txt](../requirements.txt).
+- [ ] Install dependencies from [requirements.txt](https://github.com/d0tTino/docs-/blob/main/requirements.txt).
 - [ ] Run `pre-commit install` to set up Git hooks.
-- [ ] Review [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution guidelines.
+- [ ] Review [CONTRIBUTING.md](https://github.com/d0tTino/docs-/blob/main/CONTRIBUTING.md) for contribution guidelines.
 
