@@ -1,3 +1,12 @@
+---
+title: "GitHub Actions Workflows"
+tags: [ci, automation, workflows]
+project: docs-hub
+updated: 2025-02-21
+---
+
+--8<-- "_snippets/disclaimer.md"
+
 # GitHub Actions Workflows
 
 This playbook summarizes the automated workflows that run in this repository.
