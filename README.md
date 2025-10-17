@@ -100,6 +100,17 @@ python scripts/update_ai_research_index.py
 python scripts/update_non_ai_research_index.py
 ```
 
+### Testing
+
+Before opening a Pull Request, ensure the automated test suite passes:
+
+```bash
+pip install -r requirements.txt
+pytest
+```
+
+If you need to scope the run to specific checks, invoke a narrower target such as `pytest tests/`.
+
 ## Contributing
 See the [contributing guidelines](CONTRIBUTING.md) for the latest process.
 
