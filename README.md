@@ -62,10 +62,13 @@ Markdown files:
 | --- | --- | --- |
 | `pip install pre-commit` | Install tooling | Once during setup |
 | `pre-commit install` | Set up Git hooks | After installing tooling |
+| `npm install` (Node.js 18+) | Install Node dependencies locally | Before running snippet expansion |
 | `npm run preexpand -- <file>` | Expand snippet refs | For docs with snippets |
 
 The hook runs `scripts/expand_snippets.py` to inline snippet references and
 `scripts/lint_research_docs.py` to catch mid-word line splits and empty image alt text.
+
+Installing the Node dependencies locally avoids repeated `npx` downloads and keeps the `.githooks/pre-commit` workflow reliable when it calls `npm run preexpand`.
 
 To expand multiple files at once, pass each path after the `--`, for example
 `npm run preexpand -- docs/page.md docs/another-page.md`.
