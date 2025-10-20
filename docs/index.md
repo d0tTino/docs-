@@ -98,15 +98,17 @@ scripts/bulk_submodule_update.sh
 ## After Cloning
 Steps to configure tools and hooks immediately after cloning the repository.
 
-Enable Git LFS for large assets and register the repository's linting hooks in one pass:
+Enable Git LFS for large assets, configure Git to use the repository's hook directory, and install the standard `pre-commit` hooks:
 
 ```bash
 git lfs install
 scripts/setup_hooks.sh
+pip install pre-commit  # or use `py -m pip install pre-commit` on Windows
+pre-commit install
 ```
 
-The hook setup wires `.githooks/pre-commit` to run `markdownlint-cli` and `flake8`, keeping Markdown
-and Python contributions tidy from the start.
+The hook setup configures both the `.githooks/pre-commit` path and the `pre-commit` managed hooks so that Markdownlint,
+flake8, and other checks run automatically before each commit.
 
 ## Building the Docs
 Instructions for installing dependencies and previewing the documentation site.
