@@ -15,7 +15,7 @@ updated: 2025-08-13
 | Tool | Required Version |
 | --- | --- |
 | Python | >=3.11 |
-| Node.js | >=20 |
+| Node.js | >=18 |
 | Git | >=2.40 |
 | MkDocs | >=1.5 |
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ### Install Node dependencies (npm)
 
 ```bash
-npm install # Node.js >= 20
+npm install # Node.js >= 18
 ```
 
 ### Start the development server
