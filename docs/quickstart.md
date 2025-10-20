@@ -78,8 +78,10 @@ custom `.githooks/pre-commit` automation and the standard `pre-commit` hooks:
 2. `.\.venv\Scripts\Activate.ps1`
 3. `py -m pip install -r requirements.txt`
 4. `npm install`
-5. `./scripts/setup_hooks.sh`
+5. `bash scripts/setup_hooks.sh` (run this command from Git Bash or WSL)
 6. `py -m mkdocs serve`
+
+Running `.sh` scripts requires a Unix-compatible shell (such as Git Bash or WSL) because PowerShell cannot interpret Unix shell syntax.
 
 ![Screenshot of a successful MkDocs preview showing the documentation site home page](img/example-session.svg){data-glightbox}
 
