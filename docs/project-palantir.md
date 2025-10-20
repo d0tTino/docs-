@@ -9,7 +9,7 @@ updated: 2025-08-13
 
 Project Palantír provides a concise overview of Palantir Technologies' evolution, examining how the company grew from PayPal's anti-fraud roots into a platform stack of Gotham, Foundry, Apollo, and the Artificial Intelligence Platform. This paragraph sets the stage for the detailed analysis that follows.
 
-[TOC]
+[[toc]]
 
 ## Executive Summary
 

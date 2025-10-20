@@ -5,8 +5,7 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
---8<-- "_snippets/disclaimer.md"
-[TOC]
+[[toc]]
 
 ## Executive Summary
 
