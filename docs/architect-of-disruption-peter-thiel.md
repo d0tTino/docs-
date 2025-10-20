@@ -6,7 +6,7 @@ updated: 2025-09-15
 ---
 
 --8<-- "_snippets/disclaimer.md"
-[TOC]
+[[toc]]
 
 # The Architect of Disruption: Deconstructing the Worldview of Peter Thiel
 
