@@ -98,15 +98,15 @@ scripts/bulk_submodule_update.sh
 ## After Cloning
 Steps to configure tools and hooks immediately after cloning the repository.
 
-Set up Git LFS and repository hooks after cloning:
+Enable Git LFS for large assets and register the repository's linting hooks in one pass:
 
 ```bash
 git lfs install
 scripts/setup_hooks.sh
 ```
 
-The hooks enforce Markdown and Python linting via the `.githooks/pre-commit` script, which runs
-`markdownlint-cli` and `flake8`.
+The hook setup wires `.githooks/pre-commit` to run `markdownlint-cli` and `flake8`, keeping Markdown
+and Python contributions tidy from the start.
 
 ## Building the Docs
 Instructions for installing dependencies and previewing the documentation site.
@@ -123,15 +123,6 @@ The site automatically deploys via GitHub Actions whenever you push updates to M
 
 [mkdocs-preview]:
   https://www.mkdocs.org/user-guide/deploying-your-docs/#preview-your-site
-
-## Setting Up Git Hooks
-Guidance for configuring repository hooks that enforce linting.
-
-Configure git to use the repository's hooks by running the helper script:
-
-```bash
-scripts/setup_hooks.sh
-```
 
 ## Invoking the Migration Script
 Procedure for importing legacy documentation using the migration script.
