@@ -1,3 +1,13 @@
+---
+title: "Hindsight is 20/20: Why Digital Reconstruction Succeeds Where Predictive Surveillance Fails"
+tags: [security, research]
+project: docs-hub
+updated: 2025-10-20
+---
+--8<-- "_snippets/disclaimer.md"
+
+[[toc]]
+
 # Hindsight is 20/20: Why Digital Reconstruction Succeeds Where Predictive Surveillance Fails
 
 ## Executive Summary: Why Hindsight Beats Prediction in a Digital Age
