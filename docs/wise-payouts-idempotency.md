@@ -7,6 +7,8 @@ updated: 2025-09-15
 
 --8<-- "_snippets/disclaimer.md"
 
+[[toc]]
+
 
 # End-to-End Wise Payouts with Idempotency Keys: A Technical Integration Specification
 

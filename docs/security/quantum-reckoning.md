@@ -6,6 +6,8 @@ updated: 2025-08-13
 ---
 --8<-- "_snippets/disclaimer.md"
 
+[[toc]]
+
 # Quantum Reckoning
 
 ## Executive Summary
