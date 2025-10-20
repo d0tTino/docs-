@@ -79,7 +79,9 @@ custom `.githooks/pre-commit` automation and the standard `pre-commit` hooks:
 3. `py -m pip install -r requirements.txt`
 4. `npm install`
 5. `./scripts/setup_hooks.sh`
-6. `py -m mkdocs serve`
+6. `py -m pip install pre-commit`
+7. `pre-commit install`
+8. `py -m mkdocs serve`
 
 ![Screenshot of a successful MkDocs preview showing the documentation site home page](img/example-session.svg){data-glightbox}
 
