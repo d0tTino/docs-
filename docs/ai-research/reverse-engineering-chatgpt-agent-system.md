@@ -638,6 +638,52 @@ Manual Penetration Testing: A dedicated internal or external red team will condu
 
 This appendix would contain sanitized excerpts from the mitmproxy capture logs. The logs would illustrate the structure of the JSON payloads for the most critical API interactions, providing a concrete data-level view of the client-server protocol. For example, it would show the request body for creating a Run (POST /v1/threads/{thread_id}/runs) and the corresponding sequence of response bodies from polling the Run and Run Step endpoints, clearly showing the state transitions from in_progress to requires_action to completed. All personally identifiable information (PII), session tokens, and other sensitive data would be redacted and replaced with placeholders.
 
+Due to confidentiality obligations and the handling of sensitive authentication material, we cannot publish the raw capture from the production investigation. The following synthesized excerpt mirrors the observed control flow while substituting structured placeholders for any secret or personal data so that downstream engineers can reason about payload shapes without risking disclosure.
+
+```text
+┌── 2025-07-12T14:05:21Z ───────────────────────────────────────────────────────┐
+│ >> POST https://api.openai.com/v1/threads                                    │
+│    Authorization: Bearer sk-REDACTED                                         │
+│    Content-Type: application/json                                            │
+│    {"messages": [{"role": "user", "content": [{"type": "text",              │
+│      "text": "Summarize the attached contract."}]}]}                         │
+│ << 200 OK                                                                    │
+│    thread_id: "thread_9xMockThread"                                          │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ >> POST https://api.openai.com/v1/threads/thread_9xMockThread/runs           │
+│    body: {"assistant_id": "asst_MockResearcher", "instructions": null}      │
+│ << 200 OK                                                                    │
+│    {"id": "run_Mock123", "status": "queued"}                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ >> GET https://api.openai.com/v1/threads/thread_9xMockThread/runs/run_Mock123│
+│ << 200 OK                                                                    │
+│    {"status": "in_progress"}                                                 │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ >> GET https://api.openai.com/v1/threads/thread_9xMockThread/runs/run_Mock123│
+│ << 200 OK                                                                    │
+│    {"status": "requires_action", "required_action": {                        │
+│      "type": "submit_tool_outputs",                                         │
+│      "submit_tool_outputs": {"tool_calls": [{                               │
+│        "id": "call_mock_tool",                                              │
+│        "function": {"name": "retrieve_document",                           │
+│          "arguments": "{\"document_id\": \"doc_Stub42\"}"}              │
+│      }]}}}                                                                    │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ >> POST https://api.openai.com/v1/threads/thread_9xMockThread/runs/run_Mock123│
+│    /submit_tool_outputs                                                       │
+│    body: {"tool_outputs": [{"tool_call_id": "call_mock_tool",              │
+│      "output": "{\"summary\": \"Key obligations restated...\"}"}]}      │
+│ << 200 OK                                                                    │
+│    {"status": "in_progress"}                                                 │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ >> GET https://api.openai.com/v1/threads/thread_9xMockThread/runs/run_Mock123│
+│ << 200 OK                                                                    │
+│    {"status": "completed", "output": [{"role": "assistant",                │
+│      "content": [{"type": "text", "text": "The contract summary is ..."}]} │
+│    ]}                                                                        │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
 
 ### 10.2 Appendix B: Key Algorithm Pseudocode
 
