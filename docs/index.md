@@ -13,24 +13,34 @@ updated: 2025-07-29
 aggregating research across multiple projects. Pre-commit hooks, helper scripts, and consistent
 directory conventions keep artifacts easy to browse and maintain.
 
-## Table of Contents
+## Quick Links
 
-Quick links to essential guides and resources.
+Access the most frequently used resources at a glance.
 
-### Getting Started
-- [Quickstart Guide](quickstart.md)
-- [Threat Model](security/threat-model.md)
+<div class="grid cards" markdown>
 
-### Research
-- [AI Research Hub](ai-research/index.md)
-- [Non-AI Research Hub](non-ai-research/index.md)
-- [Gaze Research Overview](gaze-research/index.md)
-- [Security Guidance](security/)
+-   :material-rocket-launch: __Getting Started__
+    ---
 
-### Playbooks
-- [Terminal Workflow Playbook](terminal-workflow/index.md)
-- [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
-- [Local Docker Build Guide](playbooks/local-docker-build.md)
+    - [Quickstart Guide](quickstart.md)
+    - [Threat Model](security/threat-model.md)
+
+-   :material-book-search: __Research__
+    ---
+
+    - [AI Research Hub](ai-research/index.md)
+    - [Non-AI Research Hub](non-ai-research/index.md)
+    - [Gaze Research Overview](gaze-research/index.md)
+    - [Security Guidance](security/index.md)
+
+-   :material-cog-outline: __Playbooks__
+    ---
+
+    - [Terminal Workflow Playbook](terminal-workflow/index.md)
+    - [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
+    - [Local Docker Build Guide](playbooks/local-docker-build.md)
+
+</div>
 
 ## Getting Started
 Guides for setting up the docs hub and exploring resources.
@@ -68,10 +78,10 @@ Highlights the main research categories, including AI, non-AI, gaze, and securit
 
 ### Research Highlights
 
-- [AI Research](ai-research/) – design notes and technical dossiers for ongoing experiments.
-- [Non-AI Research](non-ai-research/) – cross-disciplinary investigations outside the AI domain.
-- [Gaze Research](gaze-research/) – analyses on gaze tracking and related methodologies.
-- [Security](security/) – threat models and guidance on secure development practices.
+- [AI Research](ai-research/index.md) – design notes and technical dossiers for ongoing experiments.
+- [Non-AI Research](non-ai-research/index.md) – cross-disciplinary investigations outside the AI domain.
+- [Gaze Research](gaze-research/index.md) – analyses on gaze tracking and related methodologies.
+- [Security](security/index.md) – threat models and guidance on secure development practices.
 
 ## Project Documentation Submodules
 Explains how to manage project-specific documentation with git submodules.
@@ -157,19 +167,7 @@ git merge d0tTino-import --allow-unrelated-histories
 
 ## Appendix A: Resource Checklist
 
-### Getting Started
-- [Quickstart Guide](quickstart.md)
-- [Threat Model](security/threat-model.md)
-
-### Research
-- [AI Research](ai-research/index.md)
-- [Non-AI Research](non-ai-research/index.md)
-- [Gaze Research](gaze-research/index.md)
-
-### Playbooks
-- [Terminal Workflow](terminal-workflow/index.md)
-- [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
-- [Local Build](playbooks/local-docker-build.md)
+Refer to the [Quick Links](#quick-links) grid above for the consolidated Getting Started, Research, and Playbooks resources.
 
 ## Ingesting and Querying Markdown
 Use the ingestion utility to store and search markdown snippets from existing guides.
