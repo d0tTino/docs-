@@ -36,6 +36,9 @@ updated: 2025-09-15
     + [5.3 Processing the Event Payload](#53-processing-the-event-payload)
   * [Conclusions and Recommendations](#conclusions-and-recommendations)
   * [Works cited — Idempotency](#works-cited--idempotency)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 
 # End-to-End Wise Payouts with Idempotency Keys: A Technical Integration Specification

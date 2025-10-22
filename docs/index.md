@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Tino Docs Hub
 
 **Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules,
@@ -17,37 +17,27 @@ directory conventions keep artifacts easy to browse and maintain.
 
 Access the most frequently used resources at a glance.
 
-<div class="grid cards" markdown>
+- 🚀 **Getting Started**
+  - [Quickstart Guide](quickstart.md)
+  - [Threat Model](security/threat-model.md)
 
--   :material-rocket-launch: __Getting Started__
-    ---
+- 📚 **Research**
+  - [AI Research Hub](ai-research/index.md)
+  - [Non-AI Research Hub](non-ai-research/index.md)
+  - [Gaze Research Overview](gaze-research/index.md)
+  - [Security Guidance](security/index.md)
 
-    - [Quickstart Guide](quickstart.md)
-    - [Threat Model](security/threat-model.md)
-
--   :material-book-search: __Research__
-    ---
-
-    - [AI Research Hub](ai-research/index.md)
-    - [Non-AI Research Hub](non-ai-research/index.md)
-    - [Gaze Research Overview](gaze-research/index.md)
-    - [Security Guidance](security/index.md)
-
--   :material-cog-outline: __Playbooks__
-    ---
-
-    - [Terminal Workflow Playbook](terminal-workflow/index.md)
-    - [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
-    - [Local Docker Build Guide](playbooks/local-docker-build.md)
-
-</div>
+- ⚙️ **Playbooks**
+  - [Terminal Workflow Playbook](terminal-workflow/index.md)
+  - [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
+  - [Local Docker Build Guide](playbooks/local-docker-build.md)
 
 ## Getting Started
 Guides for setting up the docs hub and exploring resources.
 
-!!! info "Get Started"
-    Build the docs with the [Quickstart guide](quickstart.md).
-
+> [!INFO] Get Started
+> Build the docs with the [Quickstart guide](quickstart.md).
+>
 - Review the [threat model](security/threat-model.md) for security considerations.
 - Explore [research docs](#research-docs).
 
@@ -175,10 +165,10 @@ Use the ingestion utility to store and search markdown snippets from existing gu
 For example, the `scripts/ingest.py` helper can store chunks from `docs/quickstart.md` in a simple
 vector database and retrieve them later:
 
-!!! note "Install script dependencies"
-    Install the Python requirements first (e.g., `pip install -r requirements.txt`) so `scripts/ingest.py`
-    can import its dependencies; see the [Quickstart guide](quickstart.md) for the full setup.
-
+> [!NOTE] Install script dependencies
+> Install the Python requirements first (e.g., `pip install -r requirements.txt`) so `scripts/ingest.py`
+> can import its dependencies; see the [Quickstart guide](quickstart.md) for the full setup.
+>
 ```bash
 # Build the database
 python scripts/ingest.py docs/quickstart.md --db vector_db.pkl

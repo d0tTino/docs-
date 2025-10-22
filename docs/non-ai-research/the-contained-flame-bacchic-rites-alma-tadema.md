@@ -26,6 +26,9 @@ updated: 2025-02-14
   * [The Ambiguous Mirror](#the-ambiguous-mirror)
 - [Conclusion: The Master of Containment](#conclusion-the-master-of-containment)
 - [Sources](#sources)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Introduction: The Allure of the Antique and the Paradox of the Tamed God
 

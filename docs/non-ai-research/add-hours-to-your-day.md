@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 - Protect your sleep; cutting it back undermines performance.
 - Align work with your chronotype and natural energy cycles.
 - Manage focus and energy rather than chasing extra hours.
@@ -19,11 +19,11 @@ People turn to frameworks that claim to add hours by altering sleep or rigidly s
 This report evaluates eight popular approaches against scientific evidence, showing that lasting gains come from working with biology, not against it.
 Drawing on more than 30 peer-reviewed studies, each framework is rated for efficacy, sustainability, transferability, and risk to separate sound strategies from hype.
 
-!!! note "Key Findings"
-    - Attempts to artificially extend waking hours often conflict with fundamental biological processes and reduce performance.
-    - Productivity frameworks succeed when they align with sleep, circadian, and ultradian rhythms.
-    - Evidence from more than 30 studies distinguishes sustainable practices from harmful fads.
-
+> [!NOTE] Key Findings
+> - Attempts to artificially extend waking hours often conflict with fundamental biological processes and reduce performance.
+> - Productivity frameworks succeed when they align with sleep, circadian, and ultradian rhythms.
+> - Evidence from more than 30 studies distinguishes sustainable practices from harmful fads.
+>
 | Framework                         | Efficacy | Sustainability |
 | --------------------------------- | -------- | -------------- |
 | Time-Blocking / Single-Tasking    | 5/5      | 5/5            |
@@ -46,11 +46,11 @@ Drawing on more than 30 peer-reviewed studies, each framework is rated for effic
 | Segmented Sleep Revival           | 2/5             | 3/5       |
 | Polyphasic Sleep (Uberman, etc.)  | 1/5             | 0/5       |
 
-!!! tip "Recommendations"
-    - Protect adequate sleep and avoid schemes that curtail it.
-    - Schedule work in accordance with your chronotype and natural energy cycles.
-    - Optimize focus and energy management instead of chasing extra hours.
-
+> [!TIP] Recommendations
+> - Protect adequate sleep and avoid schemes that curtail it.
+> - Schedule work in accordance with your chronotype and natural energy cycles.
+> - Optimize focus and energy management instead of chasing extra hours.
+>
 The relationship between rest and output is evident: as nightly sleep decreases, performance drops sharply (see figure below).
 
 ![Line chart of nightly sleep duration versus performance levels](../img/sleep-performance.svg)

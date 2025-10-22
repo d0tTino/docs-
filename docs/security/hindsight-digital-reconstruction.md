@@ -36,6 +36,9 @@ updated: 2025-10-20
   * [Appendix C: Coded Case Table and Signal Provenance Chart](#appendix-c-coded-case-table-and-signal-provenance-chart)
   * [Appendix D: Annotated Bibliography](#appendix-d-annotated-bibliography)
   * [Additional Resources](#additional-resources)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Hindsight is 20/20: Why Digital Reconstruction Succeeds Where Predictive Surveillance Fails
 

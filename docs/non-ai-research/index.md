@@ -5,8 +5,8 @@ project: "non-ai-research"
 updated: 2025-09-17
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Non-AI Research
 
 This collection surveys productivity methods, corporate dynamics, and
@@ -17,54 +17,45 @@ broaden and complement AI-focused work.
 
 === "Productivity"
 
-    <div class="grid cards" markdown>
-    -   :material-timer: **Workflow Foundations**  
-        Quick primers that translate personal productivity theory into weekly planning checklists.
+    - ⏱️ **Workflow Foundations**  
+      Quick primers that translate personal productivity theory into weekly planning checklists.  
+      [🔗 Quickstart guide](../quickstart.md) · [🔗 Productivity collection](../productivity/index.md)
 
-        [:octicons-link-16: Quickstart guide](../quickstart.md) · [:octicons-link-16: Productivity collection](../productivity/index.md)
-    -   :material-lightning-bolt: **Framework Reality Checks**  
-        Comparative briefs that dissect popular efficiency systems so you can keep only the tactics that compound.
+    - ⚡ **Framework Reality Checks**  
+      Comparative briefs that dissect popular efficiency systems so you can keep only the tactics that compound.  
+      [🔗 Add Hours to Your Day?](add-hours-to-your-day.md) · [🔗 Terminal Workflow](../terminal-workflow/index.md)
 
-        [:octicons-link-16: Add Hours to Your Day?](add-hours-to-your-day.md) · [:octicons-link-16: Terminal Workflow](../terminal-workflow/index.md)
-    -   :material-heart-pulse: **Energy & Focus for Creatives**  
-        Neurodivergent-aware playbooks showing how to structure client work and studio sessions without burning out.
-
-        [:octicons-link-16: Artist's Field Guide](artists-field-guide-attention-energy.md) · [:octicons-link-16: Anti-Fragile Studio](anti-fragile-studio.md)
-    </div>
+    - ❤️‍🔥 **Energy & Focus for Creatives**  
+      Neurodivergent-aware playbooks showing how to structure client work and studio sessions without burning out.  
+      [🔗 Artist's Field Guide](artists-field-guide-attention-energy.md) · [🔗 Anti-Fragile Studio](anti-fragile-studio.md)
 
 === "Corporate Studies"
 
-    <div class="grid cards" markdown>
-    -   :material-domain: **Power & Culture Diagnostics**  
-        Case studies from the Culture Project unpack the subtle rituals that reinforce—or erode—authority inside firms.
+    - 🏢 **Power & Culture Diagnostics**  
+      Case studies from the Culture Project unpack the subtle rituals that reinforce—or erode—authority inside firms.  
+      [🔗 Friendly Face of Power](../friendly-face-of-power.md) · [🔗 Project Palantir](../project-palantir.md) · [🔗 Culture Project](../culture-project/index.md)
 
-        [:octicons-link-16: Friendly Face of Power](../friendly-face-of-power.md) · [:octicons-link-16: Project Palantir](../project-palantir.md) · [:octicons-link-16: Culture Project](../culture-project/index.md)
-    -   :material-trending-up: **Crisis Navigation Playbooks**  
-        Financial turnaround cues paired with personal autonomy frameworks to time interventions when organizations wobble.
+    - 📈 **Crisis Navigation Playbooks**  
+      Financial turnaround cues paired with personal autonomy frameworks to time interventions when organizations wobble.  
+      [🔗 Buying the Dip](buying-the-dip-playbook.md) · [🔗 Wave 4 — Money & Autonomy](../wave4-money-autonomy.md)
 
-        [:octicons-link-16: Buying the Dip](buying-the-dip-playbook.md) · [:octicons-link-16: Wave 4 — Money & Autonomy](../wave4-money-autonomy.md)
-    -   :material-dna: **Corporate Organisms**  
-        Evolutionary metaphors that treat companies as living systems, clarifying how narratives, incentives, and identities cohere.
-
-        [:octicons-link-16: Corporate Egregore](corporate-egregore.md) · [:octicons-link-16: Metaorganism](metaorganism.md)
-    </div>
+    - 🧬 **Corporate Organisms**  
+      Evolutionary metaphors that treat companies as living systems, clarifying how narratives, incentives, and identities cohere.  
+      [🔗 Corporate Egregore](corporate-egregore.md) · [🔗 Metaorganism](metaorganism.md)
 
 === "General Research"
 
-    <div class="grid cards" markdown>
-    -   :material-orbit: **Cross-Disciplinary Bridges**  
-        Synthesis notes connecting productivity, security, and cultural analysis to surface shared mental models across research tracks.
+    - 🪐 **Cross-Disciplinary Bridges**  
+      Synthesis notes connecting productivity, security, and cultural analysis to surface shared mental models across research tracks.  
+      [🔗 Cross-cutting studies](../ai-research/index.md) · [🔗 Culture Project](../culture-project/index.md) · [🔗 Security collection](../security/index.md)
 
-        [:octicons-link-16: Cross-cutting studies](../ai-research/index.md) · [:octicons-link-16: Culture Project](../culture-project/index.md) · [:octicons-link-16: Security collection](../security/index.md)
-    -   :material-flask: **Speculative Science & Memory**  
-        Explorations of computation, biology, and archival futures that translate lab insights into strategy references.
+    - ⚗️ **Speculative Science & Memory**  
+      Explorations of computation, biology, and archival futures that translate lab insights into strategy references.  
+      [🔗 DNA Archival Storage](dna-archival-storage-tepm.md) · [🔗 Audit of an Oracle](../audit-of-an-oracle.md) · [🔗 Evolution as a Computational Process](evolution-as-a-computational-process.md)
 
-        [:octicons-link-16: DNA Archival Storage](dna-archival-storage-tepm.md) · [:octicons-link-16: Audit of an Oracle](../audit-of-an-oracle.md) · [:octicons-link-16: Evolution as a Computational Process](evolution-as-a-computational-process.md)
-    -   :material-drama-masks: **Philosophy & Narrative Worlds**  
-        Essays on rationalism, simulacra, and identity work that ground creative practice in deep cultural context.
-
-        [:octicons-link-16: Modern Rationalism](modern-rationalism.md) · [:octicons-link-16: From Qualia to Simulacra](from-qualia-to-simulacra.md) · [:octicons-link-16: Netrunning — Fiction & Reality](../netrunning-fiction-reality.md)
-    </div>
+    - 🎭 **Philosophy & Narrative Worlds**  
+      Essays on rationalism, simulacra, and identity work that ground creative practice in deep cultural context.  
+      [🔗 Modern Rationalism](modern-rationalism.md) · [🔗 From Qualia to Simulacra](from-qualia-to-simulacra.md) · [🔗 Netrunning — Fiction & Reality](../netrunning-fiction-reality.md)
 
     | Theme | Key Briefs | Companion Collections |
     | --- | --- | --- |

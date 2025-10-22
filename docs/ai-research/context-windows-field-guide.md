@@ -31,6 +31,9 @@ updated: 2025-08-09
   * [8 Future directions and open problems](#8-future-directions-and-open-problems)
   * [9 Conclusion](#9-conclusion)
   * [See also](#see-also)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Context Windows Field Guide
 

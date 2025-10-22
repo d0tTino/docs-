@@ -5,8 +5,8 @@ project: terminal-workflow
 updated: 2025-08-07
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Getting started
 
 This area collects notes on command-line tools and shell tips for daily
@@ -41,10 +41,10 @@ overview of the docs repo, see [the main index](../index.md).
     git pull
     ```
 
-!!! tip "Common pitfalls"
-    - SSH keys not loaded? `ssh-add -l` shows active keys.
-    - Tools missing from `PATH`? Check with `echo $PATH`.
-
+> [!TIP] Common pitfalls
+> - SSH keys not loaded? `ssh-add -l` shows active keys.
+> - Tools missing from `PATH`? Check with `echo $PATH`.
+>
 ## tmux
 
 `tmux` is a terminal multiplexer that lets you run multiple sessions and panes in one terminal window.

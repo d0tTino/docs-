@@ -5,8 +5,8 @@ project: "ai-research"
 updated: 2025-09-02
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # AI Research
 
 This index collects documents exploring context windows, reverse engineering, and strategic planning.

@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-08-15
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # KV Cache Chart
 
 ![Bar chart showing token count on the x-axis and KV cache memory (GiB) on the y-axis; memory usage climbs almost linearly so larger models and longer sequences demand substantially more capacity.](kv-cache-chart.svg)

@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-08-01
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The Thick Band of 21st-Century Possibilities
 
 ## Part I: The Lexicon of Possibility

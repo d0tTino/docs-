@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-07-28
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The Energy-Efficient Swarm: A Playbook for High-Density, Multi-Agent LLM Deployment on Consumer GPUs
 
 ## Section 1: The Foundation - Model Quantization for VRAM-Constrained Environments

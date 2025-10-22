@@ -17,6 +17,9 @@ updated: 2025-10-07
 - [Victorian Reception and Alma-Tadema's Roses](#victorian-reception-and-alma-tademas-roses)
 - [Assessment: Legend, Motif, or Memory?](#assessment-legend-motif-or-memory)
 - [Further Reading](#further-reading)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Abstract
 

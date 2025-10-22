@@ -97,6 +97,9 @@ updated: 2025-09-17
     + [Digital workflows (Clip Studio Paint & Procreate)](#digital-workflows-clip-studio-paint--procreate)
   * [References](#references)
   * [Conclusion & Suggested Next Steps](#conclusion--suggested-next-steps)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Composition 101 — Chaptered Intro (with Links)
 

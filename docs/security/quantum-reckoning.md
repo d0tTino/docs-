@@ -42,6 +42,9 @@ updated: 2025-08-13
     + [7.3 Open Research Questions and Frontiers](#73-open-research-questions-and-frontiers)
     + [7.4 Actionable Recommendations for Stakeholders](#74-actionable-recommendations-for-stakeholders)
   * [Sources Used in the Report](#sources-used-in-the-report)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Quantum Reckoning
 

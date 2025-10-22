@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-08-10
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Gaze Research
 
 This project examines how classical, feminist, and algorithmic theories of the gaze intersect across media and platform surveillance, outlining the scope for subsequent deliverables.

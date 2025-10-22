@@ -47,6 +47,9 @@ updated: 2025-09-02
     + [Escapism & Identity Work](#escapism--identity-work)
     + [Additional Autism & Neurodiversity Research](#additional-autism--neurodiversity-research)
   * [References](#references)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # The Neuropsychology of Fandom Affinity: An Integrative Analysis of Furry Art, Identity, and Belonging
 

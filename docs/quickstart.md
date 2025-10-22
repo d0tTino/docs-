@@ -5,13 +5,13 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Quickstart
 
-!!! note
-    Need command-line tips? See the [Terminal Workflow guide](terminal-workflow/index.md) for more CLI tips.
-
+> [!NOTE]
+> Need command-line tips? See the [Terminal Workflow guide](terminal-workflow/index.md) for more CLI tips.
+>
 | Tool | Required Version |
 | --- | --- |
 | Python | >=3.11 |

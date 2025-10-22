@@ -42,6 +42,9 @@ updated: 2025-02-14
   * [Tier 2: Practitioner, Pedagogical, and Contextual Sources](#tier-2-practitioner-pedagogical-and-contextual-sources)
   * [Sources Used in the Report](#sources-used-in-the-report)
   * [Sources Read but Not Directly Cited](#sources-read-but-not-directly-cited)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 # Introduction: The Problem of "Good Enough" in Artistic Practice
 

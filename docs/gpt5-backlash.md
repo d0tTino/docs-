@@ -7,8 +7,8 @@ project: docs-hub
 updated: 2025-08-08
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA
 
 - [OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA](#openais-gpt-5-launch-sparks-backlash-users-lament-loss-of-beloved-models-in-reddit-ama)
@@ -19,12 +19,12 @@ updated: 2025-08-08
   * [What Comes Next for OpenAI and Its Users?](#what-comes-next-for-openai-and-its-users)
   * [Summary](#summary)
 
-!!! info "AMA Snapshot"
-    **Author:** Tino  
-    **Published:** August 8, 2025  
-    **Reddit Thread:** [GPT-5 AMA with OpenAI's Sam Altman and some of the team](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1)  
-    **Headline Sentiment:** 85% negative vs. 15% positive (see chart and table below for the breakdown)
-
+> [!INFO] AMA Snapshot
+> **Author:** Tino  
+> **Published:** August 8, 2025  
+> **Reddit Thread:** [GPT-5 AMA with OpenAI's Sam Altman and some of the team](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1)  
+> **Headline Sentiment:** 85% negative vs. 15% positive (see chart and table below for the breakdown)
+>
 ## TL;DR
 - GPT-5's debut on Reddit sparked a backlash over the removal of popular models like GPT-4o.
 - The AMA thread saw heavy criticism with little to no response from OpenAI staff.

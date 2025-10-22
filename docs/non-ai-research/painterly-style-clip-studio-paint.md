@@ -33,6 +33,9 @@ updated: 2025-09-08
   * [Conclusion: Finding Your Painterly Signature](#conclusion-finding-your-painterly-signature)
   * [Sources used in the report](#sources-used-in-the-report)
   * [Sources read but not used in the report](#sources-read-but-not-used-in-the-report)
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
+[[toc]]
 
 > **Contributor note:** Lightweight SVG diagrams now live in `docs/non-ai-research/img/` and the guide embeds them with `<figure>` elements. To swap in your own PNG captures later, replace the `<img data-glightbox src="…">` reference with your filename (and optionally retain a `<!-- image: … -->` comment for clarity).
 
