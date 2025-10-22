@@ -33,6 +33,10 @@ flowchart LR
     LFS[Git LFS] --> Deps[Install dependencies] --> Serve[`mkdocs serve`]
 ```
 
+- Enable Git LFS support to fetch large assets.
+- Install project dependencies.
+- Run `mkdocs serve` to preview the site locally.
+
 ## Table of Contents
 
 - [Repository Structure](#repository-structure)
