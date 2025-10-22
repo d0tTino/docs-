@@ -71,7 +71,7 @@ The underlying data in [context-windows-design-matrix.md](context-windows-design
 
 ![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from context-windows-design-matrix.md](context-windows-design-matrix.svg)
 
-[Interactive table](context-windows-design-matrix.html). Regenerate the SVG with [`context-windows-chart.py`](context-windows-chart.py) (requires `pandas`, `matplotlib`, and `seaborn`) and refresh the Plotly HTML with [`docs/ai-research/context-windows-design-matrix.py`](context-windows-design-matrix.py) (requires `plotly` and `kaleido`).
+[Interactive table](context-windows-design-matrix.html). Regenerate the SVG with [`context-windows-chart.py`](context-windows-chart.py) (requires `pandas`, `matplotlib`, and `seaborn`) and refresh the Plotly HTML with [`docs/ai-research/context-windows-design-matrix.py`](context-windows-design-matrix.py) (requires `plotly`).
 A single 16 k-token request therefore uses over 40 GiB of memory[@fireworks2023kvcache].  Activation memory (intermediate activations needed for backpropagation) also scales with sequence length.  Training long contexts often requires gradient accumulation, checkpointing, recomputation or reversible layers to manage memory[@rajbhandari2020zero].  During inference, memory fragmentation and scheduler constraints further limit the usable window.  Hardware improvements (larger VRAM, faster memory bandwidth) and algorithmic innovations (FlashAttention, PagedAttention) are critical to make long context practical[@dao2022flashattention; @kwon2023pagedattention].
 
 
