@@ -18,13 +18,19 @@ directory conventions keep artifacts easy to browse and maintain.
 Quick links to essential guides and resources.
 
 ### Getting Started
-The quick links checklist now lives in [Appendix A: Resource Checklist](#appendix-a-resource-checklist).
+- [Quickstart Guide](quickstart.md)
+- [Threat Model](security/threat-model.md)
 
 ### Research
-Appendix A consolidates the research links that were previously listed here.
+- [AI Research Hub](ai-research/index.md)
+- [Non-AI Research Hub](non-ai-research/index.md)
+- [Gaze Research Overview](gaze-research/index.md)
+- [Security Guidance](security/)
 
 ### Playbooks
-Appendix A also collects the workflow playbooks for easy reference.
+- [Terminal Workflow Playbook](terminal-workflow/index.md)
+- [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
+- [Local Docker Build Guide](playbooks/local-docker-build.md)
 
 ## Getting Started
 Guides for setting up the docs hub and exploring resources.
