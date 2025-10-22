@@ -13,7 +13,13 @@ This area collects notes on command-line tools and shell tips for daily
 development. More workflow examples will be added over time. For a broader
 overview of the docs repo, see [the main index](../index.md).
 
-[[toc]]
+- [Getting started](#getting-started)
+  * [Setup](#setup)
+  * [Daily Usage](#daily-usage)
+  * [tmux](#tmux)
+  * [zsh](#zsh)
+  * [git](#git)
+  * [Example Session](#example-session)
 
 ## Setup
 1. Install core tools

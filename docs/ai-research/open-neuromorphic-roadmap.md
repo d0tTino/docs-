@@ -9,7 +9,42 @@ updated: 2025-08-01
 
 # Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem
 
-[[toc]]
+- [Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem](#democratizing-brain-inspired-ai-a-strategic-analysis-and-5-year-roadmap-for-an-open-neuromorphic-ecosystem)
+  * [1 Executive Summary](#1-executive-summary)
+  * [2 The Open Neuromorphic Landscape: A Comparative Analysis](#2-the-open-neuromorphic-landscape-a-comparative-analysis)
+    + [2.1 Comparative Landscape Matrix](#21-comparative-landscape-matrix)
+    + [2.2 Digital, Asynchronous Processors: The Path to Determinism and Scale](#22-digital-asynchronous-processors-the-path-to-determinism-and-scale)
+      - [2.2.1 Intel Loihi 2](#221-intel-loihi-2)
+      - [2.2.2 Manchester SpiNNaker 2](#222-manchester-spinnaker-2)
+      - [2.2.3 BrainChip Akida](#223-brainchip-akida)
+      - [2.2.4 ODIN](#224-odin)
+    + [2.3 Mixed-Signal and Analog Systems: The Quest for Ultimate Efficiency](#23-mixed-signal-and-analog-systems-the-quest-for-ultimate-efficiency)
+      - [2.3.1 Heidelberg BrainScaleS-2](#231-heidelberg-brainscales-2)
+      - [2.3.2 Stanford Neurogrid](#232-stanford-neurogrid)
+    + [2.4 Large-Scale and Non-Spiking Architectures](#24-large-scale-and-non-spiking-architectures)
+      - [2.4.1 Deep South](#241-deep-south)
+      - [2.4.2 IBM NorthPole](#242-ibm-northpole)
+  * [3 Economic Viability: A Total Cost of Ownership Perspective](#3-economic-viability-a-total-cost-of-ownership-perspective)
+    + [3.1 The TCO Framework: Beyond Chip Price](#31-the-tco-framework-beyond-chip-price)
+    + [3.2 Baseline: TCO of a 1 PFLOPS GPU Cluster](#32-baseline-tco-of-a-1-pflops-gpu-cluster)
+    + [3.3 TCO Model for a 1 PFLOPS-Equivalent Neuromorphic Cluster](#33-tco-model-for-a-1-pflops-equivalent-neuromorphic-cluster)
+    + [3.4 TCO Summary and Analysis](#34-tco-summary-and-analysis)
+  * [4 Bridging the Chasm: Opportunity and Gap Analysis](#4-bridging-the-chasm-opportunity-and-gap-analysis)
+    + [4.1 Hardware and Fabrication Gaps](#41-hardware-and-fabrication-gaps)
+    + [4.2 Software and Algorithmic Gaps: The Core Bottleneck](#42-software-and-algorithmic-gaps-the-core-bottleneck)
+    + [4.3 Ecosystem and Standardization Gaps](#43-ecosystem-and-standardization-gaps)
+  * [5 A Five-Year Roadmap for Democratized Neuromorphic AI](#5-a-five-year-roadmap-for-democratized-neuromorphic-ai)
+    + [Phase 1 (Years 1-2): Foundational Infrastructure & Community Unification](#phase-1-years-1-2-foundational-infrastructure--community-unification)
+    + [Phase 2 (Years 3-4): Scaling, Co-Design, and Algorithmic Breakthroughs](#phase-2-years-3-4-scaling-co-design-and-algorithmic-breakthroughs)
+    + [Phase 3 (Year 5): Ecosystem Maturity & Mainstream Integration](#phase-3-year-5-ecosystem-maturity--mainstream-integration)
+  * [6 Annotated Bibliography](#6-annotated-bibliography)
+    + [Software Frameworks and Documentation](#software-frameworks-and-documentation)
+    + [Benchmarking and Performance Analysis](#benchmarking-and-performance-analysis)
+    + [Techno-Economic Data and TCO Models](#techno-economic-data-and-tco-models)
+    + [Strategic Roadmaps and Gap Analyses](#strategic-roadmaps-and-gap-analyses)
+    + [Community and Ecosystem Resources](#community-and-ecosystem-resources)
+    + [Sources used in the report](#sources-used-in-the-report)
+    + [Sources read but not used in the report](#sources-read-but-not-used-in-the-report)
 
 !!! info "Roadmap at a glance"
     This five-year report surveys the open neuromorphic computing ecosystem, contrasting large-scale research platforms with

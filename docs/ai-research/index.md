@@ -13,7 +13,11 @@ This index collects documents exploring context windows, reverse engineering, an
 
 ![KV cache chart](kv-cache-chart.svg)
 
-[[toc]]
+- [AI Research](#ai-research)
+  * [Context Windows](#context-windows)
+  * [Reverse Engineering](#reverse-engineering)
+  * [Strategic Roadmaps](#strategic-roadmaps)
+  * [Additional Topics](#additional-topics)
 
 ## Context Windows
 - [Context Windows Deep Dive](context-windows-deep-dive.md) — Analyzes long LLM context scaling

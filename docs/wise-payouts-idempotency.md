@@ -7,7 +7,35 @@ updated: 2025-09-15
 
 --8<-- "_snippets/disclaimer.md"
 
-[[toc]]
+- [End-to-End Wise Payouts with Idempotency Keys: A Technical Integration Specification](#end-to-end-wise-payouts-with-idempotency-keys-a-technical-integration-specification)
+  * [Introduction: The Imperative for Resilient Payouts](#introduction-the-imperative-for-resilient-payouts)
+  * [The Wise Payouts API: A Foundational Walkthrough](#the-wise-payouts-api-a-foundational-walkthrough)
+    + [1.1 Authentication: The Gateway to the API](#11-authentication-the-gateway-to-the-api)
+    + [1.2 Step 1: Creating a Quote - The Price of the Payout](#12-step-1-creating-a-quote---the-price-of-the-payout)
+    + [1.3 Step 2: Defining the Beneficiary - Where the Money Goes](#13-step-2-defining-the-beneficiary---where-the-money-goes)
+    + [1.4 Step 3: Executing the Transfer - The Point of No Return](#14-step-3-executing-the-transfer---the-point-of-no-return)
+  * [Implementing Resilient Payouts with Idempotency Keys](#implementing-resilient-payouts-with-idempotency-keys)
+    + [2.1 The Principle of Idempotency in Financial APIs](#21-the-principle-of-idempotency-in-financial-apis)
+    + [2.2 The Wise Idempotency Model: customerTransactionId](#22-the-wise-idempotency-model-customertransactionid)
+      - [2.2.1 API Example and Duplicate Handling](#221-api-example-and-duplicate-handling)
+    + [2.3 Generating Idempotency Keys: A Practical Guide](#23-generating-idempotency-keys-a-practical-guide)
+    + [2.3.1 In Postman: For Testing and Exploration](#231-in-postman-for-testing-and-exploration)
+    + [2.3.2 In Python: For Production Systems](#232-in-python-for-production-systems)
+  * [Comparative Analysis of Idempotency Models](#comparative-analysis-of-idempotency-models)
+    + [3.1 Wise: Body-Based Key](#31-wise-body-based-key)
+    + [3.2 Stripe: Header-Based Key](#32-stripe-header-based-key)
+    + [3.3 PayPal: Header-Based Key](#33-paypal-header-based-key)
+    + [3.4 Architectural Implications and Best Practices](#34-architectural-implications-and-best-practices)
+  * [Comprehensive Error Handling and Flow Control](#comprehensive-error-handling-and-flow-control)
+    + [4.1 Decoding Wise API Error Responses](#41-decoding-wise-api-error-responses)
+    + [4.2 A-Z Error Handling Map: From 400 to 503](#42-a-z-error-handling-map-from-400-to-503)
+    + [4.3 Implementing a Resilient Retry Strategy](#43-implementing-a-resilient-retry-strategy)
+  * [Asynchronous Status Tracking with Webhooks](#asynchronous-status-tracking-with-webhooks)
+    + [5.1 Subscribing to the transfers#state-change Event](#51-subscribing-to-the-transfers%23state-change-event)
+    + [5.2 Verifying the X-Signature-SHA256 Header: A Security Imperative](#52-verifying-the-x-signature-sha256-header-a-security-imperative)
+    + [5.3 Processing the Event Payload](#53-processing-the-event-payload)
+  * [Conclusions and Recommendations](#conclusions-and-recommendations)
+  * [Works cited — Idempotency](#works-cited--idempotency)
 
 
 # End-to-End Wise Payouts with Idempotency Keys: A Technical Integration Specification

@@ -6,7 +6,10 @@ project: docs-hub
 ---
 --8<-- "_snippets/disclaimer.md"
 
-[[toc]]
+- [Security](#security)
+  * [Guidance](#guidance)
+  * [Research](#research)
+  * [Further Reading](#further-reading)
 
 # Security
 

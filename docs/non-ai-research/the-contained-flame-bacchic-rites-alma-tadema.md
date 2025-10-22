@@ -7,7 +7,25 @@ updated: 2025-02-14
 
 --8<-- "_snippets/disclaimer.md"
 
-[[toc]]
+- [Introduction: The Allure of the Antique and the Paradox of the Tamed God](#introduction-the-allure-of-the-antique-and-the-paradox-of-the-tamed-god)
+- [Chapter I: The Victorian Rediscovery of Dionysus—From Hellenism to Ecstasy](#chapter-i-the-victorian-rediscovery-of-dionysusfrom-hellenism-to-ecstasy)
+  * [The Shifting Classical Landscape](#the-shifting-classical-landscape)
+  * [Pater's Dionysus and the Aesthetic Gaze](#paters-dionysus-and-the-aesthetic-gaze)
+  * [The Apollonian–Dionysian Dichotomy](#the-apollonian%E2%80%93dionysian-dichotomy)
+- [Chapter II: The Archaeology of Ecstasy—Method and Materiality](#chapter-ii-the-archaeology-of-ecstasymethod-and-materiality)
+  * [The Pompeian Stage](#the-pompeian-stage)
+  * [The Archive as Armature](#the-archive-as-armature)
+  * [The Grammar of the Rite: Iconographic Analysis](#the-grammar-of-the-rite-iconographic-analysis)
+  * [The "Marbellous" Painter: Texture as Meaning](#the-marbellous-painter-texture-as-meaning)
+- [Chapter III: A Typology of the Bacchic Scene—Procession, Privacy, and Post-Revelry](#chapter-iii-a-typology-of-the-bacchic-sceneprocession-privacy-and-post-revelry)
+  * [The Public Procession: Order and Revelry](#the-public-procession-order-and-revelry)
+  * [The Private Rite: Intimacy and Displaced Transgression](#the-private-rite-intimacy-and-displaced-transgression)
+  * [The Aftermath: Exhaustion, Compassion, and the Restoration of Order](#the-aftermath-exhaustion-compassion-and-the-restoration-of-order)
+- [Chapter IV: The Victorian Dionysus—An Ambiguous Mirror for a Modern Rome](#chapter-iv-the-victorian-dionysusan-ambiguous-mirror-for-a-modern-rome)
+  * [Confronting the "Victorians in Togas"](#confronting-the-victorians-in-togas)
+  * [The Ambiguous Mirror](#the-ambiguous-mirror)
+- [Conclusion: The Master of Containment](#conclusion-the-master-of-containment)
+- [Sources](#sources)
 
 # Introduction: The Allure of the Antique and the Paradox of the Tamed God
 

@@ -8,7 +8,29 @@ updated: 2025-08-09
 
 --8<-- "_snippets/disclaimer.md"
 
-[[toc]]
+- [Context Windows Field Guide](#context-windows-field-guide)
+  * [Executive summary](#executive-summary)
+  * [1 Introduction and definitions](#1-introduction-and-definitions)
+    + [1.1 Nominal vs effective context](#11-nominal-vs-effective-context)
+    + [1.2 Memory and compute scaling](#12-memory-and-compute-scaling)
+  * [2 Landscape of context sizes in 2025](#2-landscape-of-context-sizes-in-2025)
+  * [3 Why context sizes differ](#3-why-context-sizes-differ)
+    + [3.1 Training length and positional encoding](#31-training-length-and-positional-encoding)
+    + [3.2 Memory and compute ceilings](#32-memory-and-compute-ceilings)
+    + [3.3 Serving stack and scheduling](#33-serving-stack-and-scheduling)
+  * [4 Effective vs nominal: how models use long context](#4-effective-vs-nominal-how-models-use-long-context)
+  * [5 Strategies for extending or circumventing context limits](#5-strategies-for-extending-or-circumventing-context-limits)
+    + [5.1 Extended positional encodings](#51-extended-positional-encodings)
+    + [5.2 Efficient and sparse attention](#52-efficient-and-sparse-attention)
+    + [5.3 Streaming, recurrent and compressive models](#53-streaming-recurrent-and-compressive-models)
+    + [5.4 Distributed full attention](#54-distributed-full-attention)
+    + [5.5 External memory and retrieval augmentation](#55-external-memory-and-retrieval-augmentation)
+    + [5.6 System-level and architectural optimisations](#56-system-level-and-architectural-optimisations)
+  * [6 Evaluation and benchmarking](#6-evaluation-and-benchmarking)
+  * [7 Toward effectively infinite context](#7-toward-effectively-infinite-context)
+  * [8 Future directions and open problems](#8-future-directions-and-open-problems)
+  * [9 Conclusion](#9-conclusion)
+  * [See also](#see-also)
 
 # Context Windows Field Guide
 

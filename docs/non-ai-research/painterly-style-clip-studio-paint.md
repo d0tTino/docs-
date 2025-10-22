@@ -7,7 +7,32 @@ updated: 2025-09-08
 
 --8<-- "_snippets/disclaimer.md"
 
-[[toc]]
+- [A Comprehensive Guide to the Painterly Style in Clip Studio Paint](#a-comprehensive-guide-to-the-painterly-style-in-clip-studio-paint)
+  * [Quick Reference](#quick-reference)
+  * [Image Placeholder Checklist (Add Your Examples Later)](#image-placeholder-checklist-add-your-examples-later)
+  * [Introduction: The Philosophy of Painterly Digital Art](#introduction-the-philosophy-of-painterly-digital-art)
+  * [Section 1: Assembling Your Digital Atelier: Workspace and Brush Curation](#section-1-assembling-your-digital-atelier-workspace-and-brush-curation)
+    + [Preparing the Canvas for Painting](#preparing-the-canvas-for-painting)
+    + [The Painterly Brush Toolkit: An In-Depth Guide](#the-painterly-brush-toolkit-an-in-depth-guide)
+    + [Table 1: The Essential Painterly Brush Toolkit](#table-1-the-essential-painterly-brush-toolkit)
+      - [Brush Notes](#brush-notes)
+  * [Section 2: The Grisaille Foundation: Mastering Value with the Grayscale-to-Color Method](#section-2-the-grisaille-foundation-mastering-value-with-the-grayscale-to-color-method)
+    + [Step-by-Step Grayscale Underpainting](#step-by-step-grayscale-underpainting)
+  * [Section 3: The Alchemy of Color: Glazing and Opaque Rendering](#section-3-the-alchemy-of-color-glazing-and-opaque-rendering)
+    + [The Glazing Phase: Applying Color Non-Destructively](#the-glazing-phase-applying-color-non-destructively)
+    + [The Opaque Phase: True Digital Painting](#the-opaque-phase-true-digital-painting)
+  * [Section 4: The Art of the Edge: Advanced Blending, Texture, and Form](#section-4-the-art-of-the-edge-advanced-blending-texture-and-form)
+    + [The Duality of Blending in CSP](#the-duality-of-blending-in-csp)
+    + [Mastering Lost-and-Found Edges](#mastering-lost-and-found-edges)
+    + [Applying Global Textures for Unification](#applying-global-textures-for-unification)
+  * [Section 5: Mastering Atmosphere and Final Polish](#section-5-mastering-atmosphere-and-final-polish)
+    + [The Power of Correction Layers](#the-power-of-correction-layers)
+    + [Case Study: Creating a Dramatic Sunset Atmosphere](#case-study-creating-a-dramatic-sunset-atmosphere)
+    + [The Final Touch: Adding Film Grain/Noise](#the-final-touch-adding-film-grainnoise)
+  * [Appendix: Best Practices for Layer Organization](#appendix-best-practices-for-layer-organization)
+  * [Conclusion: Finding Your Painterly Signature](#conclusion-finding-your-painterly-signature)
+  * [Sources used in the report](#sources-used-in-the-report)
+  * [Sources read but not used in the report](#sources-read-but-not-used-in-the-report)
 
 > **Contributor note:** Lightweight SVG diagrams now live in `docs/non-ai-research/img/` and the guide embeds them with `<figure>` elements. To swap in your own PNG captures later, replace the `<img data-glightbox src="…">` reference with your filename (and optionally retain a `<!-- image: … -->` comment for clarity).
 
