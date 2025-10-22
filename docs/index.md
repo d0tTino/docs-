@@ -103,6 +103,7 @@ Enable Git LFS for large assets, configure Git to use the repository's hook dire
 ```bash
 git lfs install
 scripts/setup_hooks.sh
+npm install  # requires Node 18+
 pip install pre-commit  # or use `py -m pip install pre-commit` on Windows
 pre-commit install
 ```
