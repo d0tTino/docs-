@@ -9,9 +9,9 @@ updated: 2025-08-13
 
 # Quickstart
 
-!!! note
-    Need command-line tips? See the [Terminal Workflow guide](terminal-workflow/index.md) for more CLI tips.
-
+> [!NOTE]
+> Need command-line tips? See the [Terminal Workflow guide](terminal-workflow/index.md) for more CLI tips.
+>
 | Tool | Required Version |
 | --- | --- |
 | Python | >=3.11 |

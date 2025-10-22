@@ -13,12 +13,12 @@ updated: 2025-08-08
 
 [[toc]]
 
-!!! info "AMA Snapshot"
-    **Author:** Tino  
-    **Published:** August 8, 2025  
-    **Reddit Thread:** [GPT-5 AMA with OpenAI's Sam Altman and some of the team](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1)  
-    **Headline Sentiment:** 85% negative vs. 15% positive (see chart and table below for the breakdown)
-
+> [!INFO] AMA Snapshot
+> **Author:** Tino  
+> **Published:** August 8, 2025  
+> **Reddit Thread:** [GPT-5 AMA with OpenAI's Sam Altman and some of the team](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1)  
+> **Headline Sentiment:** 85% negative vs. 15% positive (see chart and table below for the breakdown)
+>
 ## TL;DR
 - GPT-5's debut on Reddit sparked a backlash over the removal of popular models like GPT-4o.
 - The AMA thread saw heavy criticism with little to no response from OpenAI staff.

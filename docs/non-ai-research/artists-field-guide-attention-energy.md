@@ -85,9 +85,9 @@ Abruptly stopping a monotropic brain can feel destabilizing. Use this three-part
 | 2. Physical Reset | Stand up, stretch, hydrate, and take three deep breaths away from the desk. | 60–120 seconds | Reconnects interoceptive signals and breaks the physical posture tied to overfocus. |
 | 3. Conscious Decision | Choose one:<br>• Resume with a fresh 20–25 minute timer.<br>• Switch to a 15-minute bridge task (layer cleanup, filling flats).<br>• Log progress on the scorecard and stop fully if depletion is high. | 2–3 minutes | Puts attention back under voluntary control and protects energy reserves. |
 
-!!! info "Need a printable version?"
-    Keep a hard copy beside your desk with the [Attention Checkpoint Card](templates/attention-checklist-card.md) quick reference. Print at 100% scale for a half-sheet card that fits on clipboards or desktop stands.
-
+> [!INFO] Need a printable version?
+> Keep a hard copy beside your desk with the [Attention Checkpoint Card](templates/attention-checklist-card.md) quick reference. Print at 100% scale for a half-sheet card that fits on clipboards or desktop stands.
+>
 ## Diagram Blueprint: Attention Tunnel ↔ Flow Channel
 
 <figure>
@@ -156,9 +156,9 @@ Redefine a "good day" by process adherence, not output volume.
 
 ### Scorecard Template
 
-!!! info "Download the scorecard"
-    Save or print the [Artist Attention Scorecard Template](templates/artist-attention-scorecard.md) for ready-to-fill columns, or duplicate it into a spreadsheet for longer-term tracking.
-
+> [!INFO] Download the scorecard
+> Save or print the [Artist Attention Scorecard Template](templates/artist-attention-scorecard.md) for ready-to-fill columns, or duplicate it into a spreadsheet for longer-term tracking.
+>
 | Metric | What to Log | Why It Matters |
 | --- | --- | --- |
 | Estimated Flow Minutes | Record the total number of minutes spent in sustainable flow. | Tracks sustainable focus minutes rather than raw hours. |
@@ -169,11 +169,11 @@ Redefine a "good day" by process adherence, not output volume.
 
 ### Using the Scorecard
 
-!!! tip
-    - Track leading indicators such as boundary breaks and recovery actions, not just flow minutes.
-    - Treat entries as neutral data. Low-flow days with strong recovery still count as wins against burnout.
-    - Prioritize Metric 5. Writing the next session's first step lowers initiation friction for ADHD and monotropic brains.
-
+> [!TIP]
+> - Track leading indicators such as boundary breaks and recovery actions, not just flow minutes.
+> - Treat entries as neutral data. Low-flow days with strong recovery still count as wins against burnout.
+> - Prioritize Metric 5. Writing the next session's first step lowers initiation friction for ADHD and monotropic brains.
+>
 ## Recovery Toolkit: Refueling Creative Capacity
 
 | Focus | Practice | Restorative Benefit |
