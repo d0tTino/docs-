@@ -5,6 +5,18 @@ project: docs-hub
 updated: 2025-10-07
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
+- [Abstract](#abstract)
+- [Source Overview and Reliability](#source-overview-and-reliability)
+- [The _Historia Augusta_'s Violet Avalanche](#the-_historia-augusta_s-violet-avalanche)
+  * [Literary Signals of Invention](#literary-signals-of-invention)
+- [Cassius Dio: Excess Without Petals](#cassius-dio-excess-without-petals)
+- [Herodian: Religious Spectacle Turned Deadly](#herodian-religious-spectacle-turned-deadly)
+- [Earlier Flower Ceilings: Petronius and Nero](#earlier-flower-ceilings-petronius-and-nero)
+- [Victorian Reception and Alma-Tadema's Roses](#victorian-reception-and-alma-tademas-roses)
+- [Assessment: Legend, Motif, or Memory?](#assessment-legend-motif-or-memory)
+- [Further Reading](#further-reading)
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]

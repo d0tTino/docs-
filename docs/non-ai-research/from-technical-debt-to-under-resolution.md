@@ -5,6 +5,43 @@ project: docs-hub
 updated: 2025-02-14
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
+- [Introduction: The Problem of "Good Enough" in Artistic Practice](#introduction-the-problem-of-good-enough-in-artistic-practice)
+  * [The Artist's Backlog: A Phenomenon without a Name](#the-artists-backlog-a-phenomenon-without-a-name)
+- [Deconstructing the Metaphor: "Technical Debt" in its Original Context](#deconstructing-the-metaphor-technical-debt-in-its-original-context)
+- [Mapping the Metaphor to Artistic Practice (and Its Limits)](#mapping-the-metaphor-to-artistic-practice-and-its-limits)
+- [A Critical Glossary of Finish and Compositional Intent](#a-critical-glossary-of-finish-and-compositional-intent)
+  * [The Spectrum of Finish: From Sketch to Finality](#the-spectrum-of-finish-from-sketch-to-finality)
+  * [Unfinishedness vs. _Non Finito_: The Question of Intent](#unfinishedness-vs-_non-finito_-the-question-of-intent)
+  * [The Principle of Visual Hierarchy: The "Why" of Selective Finish](#the-principle-of-visual-hierarchy-the-why-of-selective-finish)
+  * [The Mechanics of Hierarchy I: Value Structure and Grouping](#the-mechanics-of-hierarchy-i-value-structure-and-grouping)
+  * [The Mechanics of Hierarchy II: Edge Control and Atmospheric Effects](#the-mechanics-of-hierarchy-ii-edge-control-and-atmospheric-effects)
+- [A Decision Framework: Distinguishing Design from Deferment](#a-decision-framework-distinguishing-design-from-deferment)
+  * [Proposing a Neutral Terminology](#proposing-a-neutral-terminology)
+  * [A Two-Step Test for Analysis](#a-two-step-test-for-analysis)
+  * [Table 1: Lexicon Mapping — From Colloquialism to Critical Terminology](#table-1-lexicon-mapping--from-colloquialism-to-critical-terminology)
+- [A Taxonomy of Common Under-Resolution Types](#a-taxonomy-of-common-under-resolution-types)
+  * [Anatomical Under-Resolution](#anatomical-under-resolution)
+  * [Structural & Perspectival Under-Resolution](#structural--perspectival-under-resolution)
+  * [Tonal Under-Resolution](#tonal-under-resolution)
+  * [Surface & Edge Under-Resolution](#surface--edge-under-resolution)
+- [Case Studies in Selective Finish and Under-Resolution](#case-studies-in-selective-finish-and-under-resolution)
+  * [Leonardo da Vinci, _Ginevra de' Benci_ (c. 1474/1478)](#leonardo-da-vinci-_ginevra-de-benci_-c-14741478)
+  * [J.M.W. Turner, _Norham Castle, Sunrise_ (c. 1845)](#jmw-turner-_norham-castle-sunrise_-c-1845)
+  * [Johannes Vermeer, _Girl with the Pearl Earring_ (c. 1665)](#johannes-vermeer-_girl-with-the-pearl-earring_-c-1665)
+  * [John Singer Sargent, _Two Girls Fishing_ (1912)](#john-singer-sargent-_two-girls-fishing_-1912)
+  * [Rembrandt van Rijn, _The Great Jewish Bride_ (1635)](#rembrandt-van-rijn-_the-great-jewish-bride_-1635)
+  * [Jean-Auguste-Dominique Ingres, _Grande Odalisque_ (1814)](#jean-auguste-dominique-ingres-_grande-odalisque_-1814)
+- [Conclusion: Toward a More Precise Critical Language](#conclusion-toward-a-more-precise-critical-language)
+  * [Summary of Findings](#summary-of-findings)
+  * [Implications](#implications)
+  * [Concluding Statement](#concluding-statement)
+- [Bibliography](#bibliography)
+  * [Tier 1: Authoritative Sources (Museums & Encyclopedias)](#tier-1-authoritative-sources-museums--encyclopedias)
+  * [Tier 2: Practitioner, Pedagogical, and Contextual Sources](#tier-2-practitioner-pedagogical-and-contextual-sources)
+  * [Sources Used in the Report](#sources-used-in-the-report)
+  * [Sources Read but Not Directly Cited](#sources-read-but-not-directly-cited)
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]

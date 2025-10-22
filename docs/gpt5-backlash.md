@@ -11,7 +11,13 @@ updated: 2025-08-08
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA
 
-[[toc]]
+- [OpenAI's GPT-5 Launch Sparks Backlash: Users Lament Loss of Beloved Models in Reddit AMA](#openais-gpt-5-launch-sparks-backlash-users-lament-loss-of-beloved-models-in-reddit-ama)
+  * [TL;DR](#tldr)
+  * [The Heart of the Outrage: Farewell to GPT-4o and Friends](#the-heart-of-the-outrage-farewell-to-gpt-4o-and-friends)
+  * [Performance Pitfalls: Is GPT-5 a Step Backward?](#performance-pitfalls-is-gpt-5-a-step-backward)
+  * [Hype Meets Reality: Broader Discontent and the Silence from OpenAI](#hype-meets-reality-broader-discontent-and-the-silence-from-openai)
+  * [What Comes Next for OpenAI and Its Users?](#what-comes-next-for-openai-and-its-users)
+  * [Summary](#summary)
 
 > [!INFO] AMA Snapshot
 > **Author:** Tino  

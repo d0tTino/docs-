@@ -4,6 +4,44 @@ tags: [security, research]
 project: docs-hub
 updated: 2025-08-13
 ---
+--8<-- "_snippets/disclaimer.md"
+
+- [Quantum Reckoning](#quantum-reckoning)
+  * [Executive Summary](#executive-summary)
+  * [Section I: The Genesis of the Quantum Threat: A Historical Timeline](#section-i-the-genesis-of-the-quantum-threat-a-historical-timeline)
+    + [1.1 The Foundational Decade (1980s): From Theory to a New Model of Computation](#11-the-foundational-decade-1980s-from-theory-to-a-new-model-of-computation)
+    + [1.2 The Algorithmic Revolution (1990s): The Threat Becomes Concrete](#12-the-algorithmic-revolution-1990s-the-threat-becomes-concrete)
+    + [1.3 The Era of Hardware and Supremacy (2000s-Present): The Race to Scale](#13-the-era-of-hardware-and-supremacy-2000s-present-the-race-to-scale)
+  * [Section II: The Quantum Engine: Core Principles and Hardware Realities](#section-ii-the-quantum-engine-core-principles-and-hardware-realities)
+    + [2.1 The Building Blocks: From Bits to Qubits](#21-the-building-blocks-from-bits-to-qubits)
+    + [2.2 The Crypto-Breaking Algorithms: A Technical Deep Dive](#22-the-crypto-breaking-algorithms-a-technical-deep-dive)
+    + [2.3 The Hardware Race: A Survey of Competing Platforms](#23-the-hardware-race-a-survey-of-competing-platforms)
+    + [2.4 The Great Filter: Scalability, Errors, and Fault Tolerance](#24-the-great-filter-scalability-errors-and-fault-tolerance)
+  * [Section III: The Global Quantum Ecosystem: Collaboration, Competition, and Control](#section-iii-the-global-quantum-ecosystem-collaboration-competition-and-control)
+    + [3.1 National Strategies and Public Funding](#31-national-strategies-and-public-funding)
+    + [3.2 The Corporate and Academic Vanguard](#32-the-corporate-and-academic-vanguard)
+    + [3.3 Geopolitical Dynamics and Governance](#33-geopolitical-dynamics-and-governance)
+  * [Section IV: Vulnerabilities and Countermeasures in the Digital Age](#section-iv-vulnerabilities-and-countermeasures-in-the-digital-age)
+    + [4.1 The Quantum Threat Surface](#41-the-quantum-threat-surface)
+    + [4.2 Post-Quantum Cryptography (PQC): The Great Migration](#42-post-quantum-cryptography-pqc-the-great-migration)
+    + [4.3 Quantum Key Distribution (QKD): Physics-Based Security](#43-quantum-key-distribution-qkd-physics-based-security)
+    + [4.4 PQC Schemes and Implementation Tips](#44-pqc-schemes-and-implementation-tips)
+      - [Implementation Tips](#implementation-tips)
+      - [Further Reading](#further-reading)
+  * [Section V: The Impact on Decentralized Systems: Blockchain and Cryptocurrencies](#section-v-the-impact-on-decentralized-systems-blockchain-and-cryptocurrencies)
+    + [5.1 Breaking the Chain: The Threat to Digital Signatures](#51-breaking-the-chain-the-threat-to-digital-signatures)
+    + [5.2 The Threat to Consensus: Mining and Hashing](#52-the-threat-to-consensus-mining-and-hashing)
+    + [5.3 The Quantum-Resistant Frontier](#53-the-quantum-resistant-frontier)
+  * [Section VI: The Quantum Dilemma: Challenges, Controversies, and Governance](#section-vi-the-quantum-dilemma-challenges-controversies-and-governance)
+    + [6.1 Hype vs. Reality: Deconstructing "Quantum Supremacy"](#61-hype-vs-reality-deconstructing-quantum-supremacy)
+    + [6.2 Ethical and Societal Fault Lines](#62-ethical-and-societal-fault-lines)
+    + [6.3 Regulatory and Economic Headwinds](#63-regulatory-and-economic-headwinds)
+  * [Section VII: Future Trajectories and Strategic Recommendations](#section-vii-future-trajectories-and-strategic-recommendations)
+    + [7.1 Forecasting the Quantum Horizon (2030-2040)](#71-forecasting-the-quantum-horizon-2030-2040)
+    + [7.2 Envisioning Future Scenarios](#72-envisioning-future-scenarios)
+    + [7.3 Open Research Questions and Frontiers](#73-open-research-questions-and-frontiers)
+    + [7.4 Actionable Recommendations for Stakeholders](#74-actionable-recommendations-for-stakeholders)
+  * [Sources Used in the Report](#sources-used-in-the-report)
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]

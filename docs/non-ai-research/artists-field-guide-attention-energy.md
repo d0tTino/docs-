@@ -5,6 +5,35 @@ project: docs-hub
 updated: 2025-09-16
 ---
 
+--8<-- "_snippets/disclaimer.md"
+
+- [The Artist's Field Guide to Attention & Energy: Navigating Flow, Focus, and Burnout in the Studio](#the-artists-field-guide-to-attention--energy-navigating-flow-focus-and-burnout-in-the-studio)
+  * [Executive Summary](#executive-summary)
+  * [Understanding the Creative Engine](#understanding-the-creative-engine)
+    + [ADHD Attentional Regulation](#adhd-attentional-regulation)
+    + [Monotropism: The Attention Tunnel](#monotropism-the-attention-tunnel)
+    + [Flow: The Optimal Creative State](#flow-the-optimal-creative-state)
+    + [Creative Burnout: The Depletion State](#creative-burnout-the-depletion-state)
+  * [The Causal Pathway: Steering the Attention Tunnel](#the-causal-pathway-steering-the-attention-tunnel)
+    + [Flow vs. Hyperfocus](#flow-vs-hyperfocus)
+    + [Road to Burnout](#road-to-burnout)
+  * [Mid-Session Diagnostic Kit](#mid-session-diagnostic-kit)
+    + [Flow vs. Hyperfocus Decision Checklist](#flow-vs-hyperfocus-decision-checklist)
+    + [Exit Ramp Protocol: Controlled Disengagement](#exit-ramp-protocol-controlled-disengagement)
+  * [Diagram Blueprint: Attention Tunnel ↔ Flow Channel](#diagram-blueprint-attention-tunnel-%E2%86%94-flow-channel)
+  * [Anti-Burnout Studio Protocol](#anti-burnout-studio-protocol)
+    + [Daily Session Architecture](#daily-session-architecture)
+    + [90-Minute Session Recipe](#90-minute-session-recipe)
+    + [Drawing Difficulty Ladder](#drawing-difficulty-ladder)
+  * [Studio Fortification & Commission Management](#studio-fortification--commission-management)
+  * [If-Then Playbook for Common Creative States](#if-then-playbook-for-common-creative-states)
+  * [Studio Metrics: Tiny Scorecard for Sustainable Practice](#studio-metrics-tiny-scorecard-for-sustainable-practice)
+    + [Scorecard Template](#scorecard-template)
+    + [Using the Scorecard](#using-the-scorecard)
+  * [Recovery Toolkit: Refueling Creative Capacity](#recovery-toolkit-refueling-creative-capacity)
+  * [Appendix: Foundational Sources](#appendix-foundational-sources)
+  * [Sources Used in the Report](#sources-used-in-the-report)
+  * [Sources Read but Not Used in the Report](#sources-read-but-not-used-in-the-report)
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]

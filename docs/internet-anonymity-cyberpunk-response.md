@@ -9,7 +9,39 @@ updated: 2025-07-31
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 ## Table of Contents
 
-[[toc]]
+- [Internet Anonymity – Past, Present Crackdowns, and the Cyberpunk Response](#internet-anonymity-%E2%80%93-past-present-crackdowns-and-the-cyberpunk-response)
+  * [Key Points](#key-points)
+  * [Executive Summary](#executive-summary)
+  * [Part I: The Genesis of Digital Ghosts – A History of Online Anonymity](#part-i-the-genesis-of-digital-ghosts-%E2%80%93-a-history-of-online-anonymity)
+    + [1.1 The Primordial Soup: ARPANET Handles and Usenet's Anarchic Democracy](#11-the-primordial-soup-arpanet-handles-and-usenets-anarchic-democracy)
+    + [1.2 The Cypherpunk Revolution: Remailers and the First Crypto War](#12-the-cypherpunk-revolution-remailers-and-the-first-crypto-war)
+    + [1.3 The Dawn of Digital Cash: David Chaum and Blind Signatures](#13-the-dawn-of-digital-cash-david-chaum-and-blind-signatures)
+    + [1.4 Mainstreaming Anonymity: The Tor Project](#14-mainstreaming-anonymity-the-tor-project)
+    + [1.5 The Financial Frontier: Monero and Zero-Knowledge Proofs](#15-the-financial-frontier-monero-and-zero-knowledge-proofs)
+  * [Part II: The Anonymity Paradox – Ideology, Expression, and Extremism](#part-ii-the-anonymity-paradox-%E2%80%93-ideology-expression-and-extremism)
+    + [2.1 The Philosophy of the Ghost: Why Anonymity is Valued](#21-the-philosophy-of-the-ghost-why-anonymity-is-valued)
+    + [2.2 The Cyberpunk Ethos: The Apostate Technologist](#22-the-cyberpunk-ethos-the-apostate-technologist)
+  * [Part III: The Closing Net – A Global Analysis of the Legislative & Technical Crackdown](#part-iii-the-closing-net-%E2%80%93-a-global-analysis-of-the-legislative--technical-crackdown)
+    + [3.1 The UK Model: The Online Safety Act (OSA)](#31-the-uk-model-the-online-safety-act-osa)
+    + [3.2 The US Model: KOSA and State-Level Mandates](#32-the-us-model-kosa-and-state-level-mandates)
+    + [3.3 The EU Model: The Digital Services Act (DSA)](#33-the-eu-model-the-digital-services-act-dsa)
+    + [3.4 The Technical Front: The Threat of Client-Side Scanning (CSS)](#34-the-technical-front-the-threat-of-client-side-scanning-css)
+  * [Part IV: Generational Impacts – The Psychological Fallout](#part-iv-generational-impacts-%E2%80%93-the-psychological-fallout)
+    + [4.1 The Uncensored Cohort: Millennials and Gen-Z](#41-the-uncensored-cohort-millennials-and-gen-z)
+    + [4.2 The Sanitized Generation: The Future of Childhood Online](#42-the-sanitized-generation-the-future-of-childhood-online)
+  * [Part V: Motives & Coordination – Deconstructing the Crackdown](#part-v-motives--coordination-%E2%80%93-deconstructing-the-crackdown)
+    + [5.1 Public Justifications vs. Private Motives](#51-public-justifications-vs-private-motives)
+    + [5.2 Evidence of Cross-Jurisdictional Harmonization](#52-evidence-of-cross-jurisdictional-harmonization)
+  * [Part VI: Prognosis (2025-2030) – The Future of the Digital Ghost](#part-vi-prognosis-2025-2030-%E2%80%93-the-future-of-the-digital-ghost)
+    + [6.1 Scenario A: Anonymity Dies – The Age of Digital ID](#61-scenario-a-anonymity-dies-%E2%80%93-the-age-of-digital-id)
+    + [6.2 Scenario B: Anonymity Adapts – The Rise of Privacy-Preserving Verification](#62-scenario-b-anonymity-adapts-%E2%80%93-the-rise-of-privacy-preserving-verification)
+    + [6.3 Scenario C: Anonymity Fractures – The Parallel Darknets](#63-scenario-c-anonymity-fractures-%E2%80%93-the-parallel-darknets)
+  * [Part VII: The Real-World Cyberpunk Toolkit – A Conclusion](#part-vii-the-real-world-cyberpunk-toolkit-%E2%80%93-a-conclusion)
+    + [7.1 Legal Defense: Know Your Rights, Exploit the Seams](#71-legal-defense-know-your-rights-exploit-the-seams)
+    + [7.2 Technical Defense: Build a FOSS Fortress](#72-technical-defense-build-a-foss-fortress)
+    + [7.3 Social Defense: Architect Trust Networks](#73-social-defense-architect-trust-networks)
+  * [Sources used in the report](#sources-used-in-the-report)
+  * [Sources read but not used in the report](#sources-read-but-not-used-in-the-report)
 
 # Internet Anonymity – Past, Present Crackdowns, and the Cyberpunk Response
 

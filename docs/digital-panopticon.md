@@ -5,7 +5,39 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
-[[toc]]
+* [Executive Summary](#executive-summary)
+- [The Digital Panopticon: Palantir Technologies and the Architecture of the Modern Surveillance State](#the-digital-panopticon-palantir-technologies-and-the-architecture-of-the-modern-surveillance-state)
+  * [Introduction: The New Operating System of Power](#introduction-the-new-operating-system-of-power)
+    + [Historical Context](#historical-context)
+      - [1960s–1970s: Signals Intelligence Takes Shape](#1960s%E2%80%931970s-signals-intelligence-takes-shape)
+      - [2000s: The Post‑9/11 Buildout](#2000s-the-post%E2%80%91911-buildout)
+      - [2010s: The Snowden Reckoning](#2010s-the-snowden-reckoning)
+      - [2020s: Toward a Digital Panopticon](#2020s-toward-a-digital-panopticon)
+    + [Analysis](#analysis)
+  * [Part I: The Foundations of the Watchful State](#part-i-the-foundations-of-the-watchful-state)
+    + [A Legacy of Surveillance: From ECHELON to the PATRIOT Act](#a-legacy-of-surveillance-from-echelon-to-the-patriot-act)
+    + [The CIA's Venture Capitalist: The Symbiotic Birth of Palantir](#the-cias-venture-capitalist-the-symbiotic-birth-of-palantir)
+    + [The Snowden Rupture: A Moment of Public Reckoning](#the-snowden-rupture-a-moment-of-public-reckoning)
+  * [Part II: The Palantir Engine: Technology of Omniscience](#part-ii-the-palantir-engine-technology-of-omniscience)
+    + [Gotham and Foundry: The Two Faces of Data Integration](#gotham-and-foundry-the-two-faces-of-data-integration)
+    + [The Algorithm's Gaze: AI-Driven Prediction and Control](#the-algorithms-gaze-ai-driven-prediction-and-control)
+    + [The Next Frontier: Blockchain and Quantum Challenges](#the-next-frontier-blockchain-and-quantum-challenges)
+  * [Part III: The Web of Influence: Actors, Alliances, and Global Ambitions](#part-iii-the-web-of-influence-actors-alliances-and-global-ambitions)
+    + [The Architects of the Mission: Ideology and Influence](#the-architects-of-the-mission-ideology-and-influence)
+    + [The DOGE Nexus: Engineering a Unified State Database](#the-doge-nexus-engineering-a-unified-state-database)
+    + [A Global Footprint: Exporting the Surveillance Model](#a-global-footprint-exporting-the-surveillance-model)
+  * [Part IV: The Legal and Ethical Crucible](#part-iv-the-legal-and-ethical-crucible)
+    + [Law in the Shadow of Technology](#law-in-the-shadow-of-technology)
+    + [The Panopticon's Modern Form: Philosophical Implications](#the-panopticons-modern-form-philosophical-implications)
+    + [The Disproportionate Burden: Targeting the Marginalized](#the-disproportionate-burden-targeting-the-marginalized)
+  * [Part V: Flashpoints and Fault Lines (Current as of August 2025)](#part-v-flashpoints-and-fault-lines-current-as-of-august-2025)
+    + [Case Study: The Pandemic's Digital Legacy](#case-study-the-pandemics-digital-legacy)
+    + [Case Study: The Insurrection and Its Aftermath](#case-study-the-insurrection-and-its-aftermath)
+    + [Accountability Under Fire](#accountability-under-fire)
+  * [Conclusion: Navigating the Crossroads of Security and Liberty](#conclusion-navigating-the-crossroads-of-security-and-liberty)
+    + [Recommendations for Policy and Oversight](#recommendations-for-policy-and-oversight)
+    + [Recommendations for Individual Resilience](#recommendations-for-individual-resilience)
+  * [Sources used in the report](#sources-used-in-the-report)
 
 ## Executive Summary
 

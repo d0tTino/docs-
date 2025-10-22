@@ -9,7 +9,15 @@ updated: 2025-01-15
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel
 
-[[toc]]
+- [Evolving Perspectives on AGI: A Dialogue Between Francois Chollet and Dwarkesh Patel](#evolving-perspectives-on-agi-a-dialogue-between-francois-chollet-and-dwarkesh-patel)
+  * [Shifting Timelines: From Skepticism to Cautious Optimism](#shifting-timelines-from-skepticism-to-cautious-optimism)
+  * [The Transition to Fluid Intelligence in AI Systems](#the-transition-to-fluid-intelligence-in-ai-systems)
+  * [AGI Milestones: Ideation, Development, and Deployment](#agi-milestones-ideation-development-and-deployment)
+  * [Challenges in On-the-Job Learning and Continual Adaptation](#challenges-in-on-the-job-learning-and-continual-adaptation)
+  * [Superhuman Learning Through Collective Instances](#superhuman-learning-through-collective-instances)
+  * [Debating the Singularity: Bottlenecks and Exponential Narratives](#debating-the-singularity-bottlenecks-and-exponential-narratives)
+  * [ARC-AGI Insights: Inference Scaling and True Intelligence](#arc-agi-insights-inference-scaling-and-true-intelligence)
+  * [Conclusion: A Balanced Horizon for AI Advancement](#conclusion-a-balanced-horizon-for-ai-advancement)
 
 In a riveting discussion hosted on the Dwarkesh Podcast, Francois Chollet, a prominent AI researcher known for his work on the Keras deep learning library and the ARC-AGI benchmark, engages with host Dwarkesh Patel on the trajectory of artificial general intelligence (AGI). Recorded approximately 12 months after their initial debate, this conversation reveals significant shifts in both participants' viewpoints, underscoring the rapid evolution in frontier AI research. Drawing from the transcript of the YouTube video (accessible at https://www.youtube.com/watch?v=1if6XbzD5Yg), this report synthesizes and expounds upon the key ideas, incorporating direct quotations to illuminate the nuanced arguments presented.
 

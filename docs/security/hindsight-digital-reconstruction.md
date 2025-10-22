@@ -4,6 +4,38 @@ tags: [security, research]
 project: docs-hub
 updated: 2025-10-20
 ---
+--8<-- "_snippets/disclaimer.md"
+
+- [Hindsight is 20/20: Why Digital Reconstruction Succeeds Where Predictive Surveillance Fails](#hindsight-is-2020-why-digital-reconstruction-succeeds-where-predictive-surveillance-fails)
+  * [Executive Summary: Why Hindsight Beats Prediction in a Digital Age](#executive-summary-why-hindsight-beats-prediction-in-a-digital-age)
+  * [Section 1: The Tyranny of the Base Rate — Mathematical Barriers to Prediction](#section-1-the-tyranny-of-the-base-rate--mathematical-barriers-to-prediction)
+    + [1.1 Explainer: The Base-Rate Problem in Violence Prediction](#11-explainer-the-base-rate-problem-in-violence-prediction)
+    + [1.2 Modeling PPV and Investigator Workload](#12-modeling-ppv-and-investigator-workload)
+    + [1.3 Distinguishing the "Problem" from the "Fallacy"](#13-distinguishing-the-problem-from-the-fallacy)
+  * [Section 2: The Legal Perimeter — Constitutional and Statutory Guardrails on Proactive Monitoring](#section-2-the-legal-perimeter--constitutional-and-statutory-guardrails-on-proactive-monitoring)
+    + [2.1 The Carpenter Standard and the Warrant Requirement for Location Data](#21-the-carpenter-standard-and-the-warrant-requirement-for-location-data)
+    + [2.2 Section 702: Incidental Collection and "Backdoor Searches"](#22-section-702-incidental-collection-and-backdoor-searches)
+    + [2.3 The Data Broker Loophole and the ODNI CAI Framework](#23-the-data-broker-loophole-and-the-odni-cai-framework)
+    + [2.4 Synthesis: An Asymmetrical Legal Landscape](#24-synthesis-an-asymmetrical-legal-landscape)
+  * [Section 3: The Human Element — How Threats Actually Surface](#section-3-the-human-element--how-threats-actually-surface)
+    + [3.1 The Phenomenon of "Leakage": Attackers Communicate Intent](#31-the-phenomenon-of-leakage-attackers-communicate-intent)
+    + [3.2 Signal Provenance: A Review of Averted and Completed Attacks](#32-signal-provenance-a-review-of-averted-and-completed-attacks)
+    + [3.3 The Bystander Problem: Why Signals Are Missed](#33-the-bystander-problem-why-signals-are-missed)
+  * [Section 4: The Prevention Pipeline in Practice — From Intake to Intervention](#section-4-the-prevention-pipeline-in-practice--from-intake-to-intervention)
+    + [4.1 The BTAM Model: A Multidisciplinary Approach](#41-the-btam-model-a-multidisciplinary-approach)
+    + [4.2 Mapping the Operational Pipeline](#42-mapping-the-operational-pipeline)
+    + [4.3 Throughput Failures and Bottlenecks](#43-throughput-failures-and-bottlenecks)
+    + [4.4 The Impedance Mismatch: Why Dragnet Data Clogs the Pipeline](#44-the-impedance-mismatch-why-dragnet-data-clogs-the-pipeline)
+  * [Section 5: Rights-Compatible Levers — The Promise and Limits of Targeted Intervention](#section-5-rights-compatible-levers--the-promise-and-limits-of-targeted-intervention)
+    + [5.1 Behavioral Threat Assessment as a Primary Lever](#51-behavioral-threat-assessment-as-a-primary-lever)
+    + [5.2 Extreme Risk Protection Orders (ERPOs)](#52-extreme-risk-protection-orders-erpos)
+    + [5.3 Synthesis: A "Scalpel vs. Bludgeon" Approach](#53-synthesis-a-scalpel-vs-bludgeon-approach)
+  * [Section 6: Conclusion — Reconciling Reconstruction and Prevention](#section-6-conclusion--reconciling-reconstruction-and-prevention)
+  * [Appendix A: The Legal Perimeter Map](#appendix-a-the-legal-perimeter-map)
+  * [Appendix B: PPV/NPV Modeling and Triage Workload Plots](#appendix-b-ppvnpv-modeling-and-triage-workload-plots)
+  * [Appendix C: Coded Case Table and Signal Provenance Chart](#appendix-c-coded-case-table-and-signal-provenance-chart)
+  * [Appendix D: Annotated Bibliography](#appendix-d-annotated-bibliography)
+  * [Additional Resources](#additional-resources)
 !!! note "Disclaimer"
     This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]
