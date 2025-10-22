@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-07-27
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Notable Figures
 
 **Jump to:** [AI & Autonomous Agents](#ai--autonomous-agents-ranks-110) · [Product & Entrepreneurship](#product--entrepreneurship-ranks-11-20) · [Knowledge Management & Tools for Thought](#knowledge-management--tools-for-thought-ranks-21-25) · [Community & Social Dynamics](#community--social-dynamics-ranks-26-30) · [Productivity & Self-Improvement](#productivity--self-improvement-ranks-31-36) · [Software & Open Source](#software--open-source-ranks-37-42) · [Sci-Fi & Futurism](#sci-fi--futurism-ranks-43-50)

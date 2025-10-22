@@ -30,7 +30,7 @@ docs(quickstart): add Git LFS instructions
 ## Documentation Style
 
 - Each Markdown file must begin with front matter containing `title`, `tags`, `project`, and `updated` fields.
-- Reuse common content with snippets using `--8<-- "path/to/snippet.md"` syntax.
+- Reuse common content with snippets using `--8<-- "path/to/snippet.md"` syntax, and inline them before committing with `python scripts/expand_snippets.py <file>` (or `npm run preexpand -- <file>`).
 
 ### Images & Diagrams
 

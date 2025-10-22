@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Tino Docs Hub
 
 **Abstract:** The Tino Docs Hub centralizes project documentation with MkDocs and Git submodules,

@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-08-15
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Context Windows Design Matrix
 
 ![Context windows design matrix with methods on the x-axis and typical max effective length in tokens on the y-axis, based on data from the table below](context-windows-design-matrix.svg)

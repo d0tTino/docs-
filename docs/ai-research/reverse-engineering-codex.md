@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-07-26
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Reverse-Engineering Design Report: OpenAI Codex Software Engineering Agent
 
 Document ID: REDR-2025-07-26-001 Version: 1.0 Classification: Technical Analysis

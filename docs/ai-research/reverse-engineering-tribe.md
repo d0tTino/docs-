@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-08-14
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Reverse-Engineering Design Report: facebookresearch/algonauts-2025 (TRIBE)
 
 [[toc]]

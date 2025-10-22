@@ -5,8 +5,8 @@ project: terminal-workflow
 updated: 2025-08-07
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Getting started
 
 This area collects notes on command-line tools and shell tips for daily

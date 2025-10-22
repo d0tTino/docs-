@@ -4,8 +4,8 @@ tags: [security, research]
 project: docs-hub
 updated: 2025-10-20
 ---
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]
 
 # Hindsight is 20/20: Why Digital Reconstruction Succeeds Where Predictive Surveillance Fails

@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-08-10
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Annotated Bibliography
 
 Below is a list of key sources used in the preparation of this report. Each annotation summarises the source’s content, assesses its methodological quality and explains its relevance to the study of the gaze.

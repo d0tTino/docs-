@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-09-15
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The Cognitive Architecture of Artificial Societies: From Individual Minds to Emergent Complexity
 
 ## Part I: Foundations of Cognitive Architectures in Multi-Agent Systems

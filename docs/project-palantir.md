@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 Project Palantír provides a concise overview of Palantir Technologies' evolution, examining how the company grew from PayPal's anti-fraud roots into a platform stack of Gotham, Foundry, Apollo, and the Artificial Intelligence Platform. This paragraph sets the stage for the detailed analysis that follows.
 
 [[toc]]

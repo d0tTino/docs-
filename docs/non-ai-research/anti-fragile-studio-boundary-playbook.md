@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-09-18
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Anti-Fragile Studio Boundary Playbook
 
 Scripts are social scaffolding. They convert expectations from personal

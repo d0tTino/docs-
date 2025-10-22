@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-10-26
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Reverse-Engineering Design Report: GPT-o3 Multi-Turn Reasoning System
 Document ID: REDR-2025-7B4A
 Version: 1.0
