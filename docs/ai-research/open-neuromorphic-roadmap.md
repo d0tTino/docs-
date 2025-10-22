@@ -9,6 +9,23 @@ updated: 2025-08-01
 
 # Democratizing Brain-Inspired AI: A Strategic Analysis and 5-Year Roadmap for an Open Neuromorphic Ecosystem
 
+[[toc]]
+
+!!! info "Roadmap at a glance"
+    This five-year report surveys the open neuromorphic computing ecosystem, contrasting large-scale research platforms with
+    ultra-efficient edge accelerators to highlight the field's performance dichotomy and persistent software/tooling gaps. It
+    outlines strategic investments needed to unify tooling, democratize hardware access, and stimulate application discovery so
+    the ecosystem can scale beyond early adopters.
+
+    - **Time horizon:** 2025–2030 roadmap aligned to upcoming funding cycles
+    - **Scope:** Open and academically accessible neuromorphic hardware, software stacks, and supporting benchmarks
+    - **Top findings:** Performance dichotomy between research-scale simulators and edge accelerators; ecosystem/tooling gaps;
+      talent and access constraints throttling adoption
+    - **Primary audience:** Research program officers, public-interest funders, and ecosystem-builders evaluating investment
+      strategies
+    - **Required tooling:** Familiarity with Lava, PyNN, NeuroBench, and mainstream ML frameworks (PyTorch, TensorFlow) for
+      integration assessments
+
 ## 1 Executive Summary
 Neuromorphic computing has evolved from a specialized academic discipline into a credible, though still developing, paradigm for ultra-low-power artificial intelligence. The current landscape is defined by a handful of pioneering platforms, notably Intel's Loihi 2, the European Union-backed SpiNNaker 2 and BrainScaleS-2 systems, and nascent commercial ventures such as BrainChip's Akida. These systems have demonstrated the potential for orders-of-magnitude improvements in energy efficiency for specific, event-driven workloads. However, the field's progression toward widespread adoption and democratization is critically constrained by a lack of software standardization, fragmented and immature development ecosystems, and highly restricted access to state-of-the-art hardware.
 
