@@ -35,9 +35,9 @@ Access the most frequently used resources at a glance.
 ## Getting Started
 Guides for setting up the docs hub and exploring resources.
 
-!!! info "Get Started"
-    Build the docs with the [Quickstart guide](quickstart.md).
-
+> [!INFO] Get Started
+> Build the docs with the [Quickstart guide](quickstart.md).
+>
 - Review the [threat model](security/threat-model.md) for security considerations.
 - Explore [research docs](#research-docs).
 
@@ -165,10 +165,10 @@ Use the ingestion utility to store and search markdown snippets from existing gu
 For example, the `scripts/ingest.py` helper can store chunks from `docs/quickstart.md` in a simple
 vector database and retrieve them later:
 
-!!! note "Install script dependencies"
-    Install the Python requirements first (e.g., `pip install -r requirements.txt`) so `scripts/ingest.py`
-    can import its dependencies; see the [Quickstart guide](quickstart.md) for the full setup.
-
+> [!NOTE] Install script dependencies
+> Install the Python requirements first (e.g., `pip install -r requirements.txt`) so `scripts/ingest.py`
+> can import its dependencies; see the [Quickstart guide](quickstart.md) for the full setup.
+>
 ```bash
 # Build the database
 python scripts/ingest.py docs/quickstart.md --db vector_db.pkl

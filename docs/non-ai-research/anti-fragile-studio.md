@@ -78,10 +78,10 @@ archive (Figure 1). It functions as a master checklist that guarantees
 each step is completed before moving forward. Keep it in clear view
 within the studio so that the process is always externalised.
 
-!!! info "Deliverable"
-    Provide the lifecycle map as a single-page flowchart or infographic
-    that lists the five stages and their neuroprotective checkpoints.
-
+> [!INFO] Deliverable
+> Provide the lifecycle map as a single-page flowchart or infographic
+> that lists the five stages and their neuroprotective checkpoints.
+>
 <figure>
   <img src="fig/anti-fragile-studio-lifecycle.svg" alt="Lifecycle diagram showing the five client journey stages with their respective neuroprotective checkpoints for the anti-fragile studio." />
   <figcaption><em>Figure 1. The Anti-Fragile Studio lifecycle maps each client stage to a matching neuroprotective checkpoint so the promised deliverable remains visible and actionable.</em></figcaption>
@@ -197,10 +197,10 @@ materials (+0.4), and a rush timeline (+0.4) results in a multiplier of
 1.0 + 0.0 + 0.2 + 0.0 + 0.4 + 0.4 = 2.0. The base fee doubles to cover
 cognitive overhead.
 
-!!! tip "Deliverable"
-    [Download the Anti-Fragile Pricing Calculator template](./templates/anti-fragile-pricing-calculator.csv){:download="anti-fragile-pricing-calculator.csv"}
-    to apply the multiplier formula and cognitive load table directly inside your spreadsheet tool of choice.
-
+> [!TIP] Deliverable
+> [Download the Anti-Fragile Pricing Calculator template](./templates/anti-fragile-pricing-calculator.csv){:download="anti-fragile-pricing-calculator.csv"}
+> to apply the multiplier formula and cognitive load table directly inside your spreadsheet tool of choice.
+>
 *Usage notes:*
 - Update the **Base Hourly Rate** and milestone hours in the template to match your typical project scope—the `Estimated Production Hours` cell automatically sums any changes you make in the milestone table.
 - Set each cognitive load row to `Low`, `Medium`, or `High` (or enter a custom decimal in the final row) to tune the Project Complexity Multiplier before sharing a quote with the client.
@@ -295,10 +295,10 @@ pressure points:
 Each script anchors the conversation in the signed agreement and keeps
 emotional load low, letting the process—not willpower—do the enforcing.
 
-!!! info "Deliverable"
-    Maintain the boundary playbook as a searchable, scenario-organised
-    reference so scripts stay easy to deploy during client communication.
-
+> [!INFO] Deliverable
+> Maintain the boundary playbook as a searchable, scenario-organised
+> reference so scripts stay easy to deploy during client communication.
+>
 ### Preparing Scripts for Quick Access
 
 - Pin the playbook inside your note system (Notion, Obsidian, Google
@@ -354,11 +354,11 @@ Send each draft with an email that embeds the template:
 > Best,
 > [Artist Name]
 
-!!! tip "Deliverable"
-    Host the template in a shared document or form so clients can
-    complete it without friction. Attach it to draft deliveries by
-    default.
-
+> [!TIP] Deliverable
+> Host the template in a shared document or form so clients can
+> complete it without friction. Attach it to draft deliveries by
+> default.
+>
 ### Client-Facing Feedback Template
 
 Copy this structure into a Google Form, Notion page, or shared doc:
@@ -466,11 +466,11 @@ Each project card should include:
 - Export completed cards to a project archive database that stores the
   lifecycle map, contract, feedback, and wrap-up email for future reuse.
 
-!!! info "Deliverable"
-    Download or copy the [Anti-Fragile Studio Dashboard template](templates/anti-fragile-studio-dashboard.md) and recreate the
-    listed columns in your kanban tool. Paste the column table into Notion to auto-generate groups, or mirror the lists in Trello
-    and duplicate the sample cards as starting templates.
-
+> [!INFO] Deliverable
+> Download or copy the [Anti-Fragile Studio Dashboard template](templates/anti-fragile-studio-dashboard.md) and recreate the
+> listed columns in your kanban tool. Paste the column table into Notion to auto-generate groups, or mirror the lists in Trello
+> and duplicate the sample cards as starting templates.
+>
 ### Weekly Review & Admin Blocks
 
 - **Monday Weekly Review (45 minutes):** Triage the Intake Queue, confirm only one card occupies **Active Focus**, refresh due

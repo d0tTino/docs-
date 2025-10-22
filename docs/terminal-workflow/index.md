@@ -35,10 +35,10 @@ overview of the docs repo, see [the main index](../index.md).
     git pull
     ```
 
-!!! tip "Common pitfalls"
-    - SSH keys not loaded? `ssh-add -l` shows active keys.
-    - Tools missing from `PATH`? Check with `echo $PATH`.
-
+> [!TIP] Common pitfalls
+> - SSH keys not loaded? `ssh-add -l` shows active keys.
+> - Tools missing from `PATH`? Check with `echo $PATH`.
+>
 ## tmux
 
 `tmux` is a terminal multiplexer that lets you run multiple sessions and panes in one terminal window.
