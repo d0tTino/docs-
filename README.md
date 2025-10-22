@@ -41,6 +41,7 @@ flowchart LR
     - [Preview Docs Locally](#preview-docs-locally)
     - [Update Submodules](#update-submodules)
     - [Update Research Indexes](#update-research-indexes)
+    - [Testing](#testing)
 - [Contributing](#contributing)
 - [Resources](#resources)
 
