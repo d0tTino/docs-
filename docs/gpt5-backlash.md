@@ -13,14 +13,23 @@ updated: 2025-08-08
 
 [[toc]]
 
-!!! summary
-    Use the table of contents above to jump to key sections of the AMA analysis.
+!!! info "AMA Snapshot"
+    **Author:** Tino  
+    **Published:** August 8, 2025  
+    **Reddit Thread:** [GPT-5 AMA with OpenAI's Sam Altman and some of the team](https://www.reddit.com/r/ChatGPT/search?q=GPT5%20AMA%20with%20OpenAI%27s%20Sam%20Altman%20and%20some%20of%20the%20team&restrict_sr=1)  
+    **Headline Sentiment:** 85% negative vs. 15% positive (see chart and table below for the breakdown)
 
 ## TL;DR
 - GPT-5's debut on Reddit sparked a backlash over the removal of popular models like GPT-4o.
 - The AMA thread saw heavy criticism with little to no response from OpenAI staff.
 - Users expressed emotional and workflow disruptions, rallying under hashtags like #SAVE4o.
 - Early tests suggest GPT-5 underperforms in areas where GPT-4o excelled.
+
+| Quick Signal | Details |
+| --- | --- |
+| Hashtag Rally | `#SAVE4o` |
+| Model Changes | GPT-4o deprecated in favor of GPT-5 rollout |
+| Response Rate | 0 visible replies from OpenAI representatives during the AMA |
 
 By Tino | August 8, 2025
 
