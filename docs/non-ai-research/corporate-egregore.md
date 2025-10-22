@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The Corporate Egregore: An Interdisciplinary Analysis of the Corporation as an Autonomous Collective Entity
 
 ## Part I: Conceptual Foundations: The Duality of the Corporate "Person"

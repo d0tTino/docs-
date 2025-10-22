@@ -5,8 +5,8 @@ project: arduino
 updated: 2025-08-07
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Overview
 
 This section gathers hardware notes and microcontroller sketches. Refer to

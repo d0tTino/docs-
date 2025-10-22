@@ -7,8 +7,8 @@ project: docs-hub
 updated: 2025-08-13
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Evolution as a Computational Process: An Interdisciplinary Investigation into Biological Compute
 
 ![Timeline of key milestones in evolutionary computing](fig/evolutionary-computing-timeline.svg)

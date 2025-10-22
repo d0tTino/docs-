@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-09-15
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Projecting the Next Discontinuity in Agentic Software Engineering: An Analysis of RL Scaling, Pre-training Limits, and Benchmark Forensics
 
 ## Section 1: Executive Summary & The Greenblatt Conjecture

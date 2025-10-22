@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-09-08
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]
 
 > **Contributor note:** Lightweight SVG diagrams now live in `docs/non-ai-research/img/` and the guide embeds them with `<figure>` elements. To swap in your own PNG captures later, replace the `<img data-glightbox src="…">` reference with your filename (and optionally retain a `<!-- image: … -->` comment for clarity).

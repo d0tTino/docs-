@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-07-26
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Neurosymbolic Reasoning Dossier
 
 # The Neuro-Symbolic Landscape: A Unified Taxonomy

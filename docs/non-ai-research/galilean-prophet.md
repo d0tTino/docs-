@@ -6,8 +6,8 @@ project: docs-hub
 updated: 2025-09-02
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The Galilean Prophet: A Critical Maximalist Reconstruction of the Historical Jesus
 
 Part I: The World of Jesus ben Joseph - Galilee and Judea in an Age of Turmoil

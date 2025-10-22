@@ -5,8 +5,8 @@ project: "non-ai-research"
 updated: 2025-09-17
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Non-AI Research
 
 This collection surveys productivity methods, corporate dynamics, and

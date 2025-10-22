@@ -5,8 +5,8 @@ project: ai-research
 updated: 2025-08-05
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # You Weren't Supposed to Invent Infinite Jest
 
 ## Executive Summary: The Uncaging of the Jest

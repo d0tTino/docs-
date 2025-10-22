@@ -6,8 +6,8 @@ project: ai-research
 updated: 2025-08-13
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Appendix: Context Windows Field Guide
 
 This appendix provides supporting material for the [Context Windows Field Guide](context-windows-field-guide.md) and the [Context Windows Deep Dive](context-windows-deep-dive.md).

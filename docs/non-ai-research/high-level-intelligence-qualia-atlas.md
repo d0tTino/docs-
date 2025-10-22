@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-07-29
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The High-Level Intelligence Qualia Atlas: Neurocognition, Lived Experience, and the Architecture of Application
 
 ## Part I: The Inner Cosmos: A Phenomenological Cartography of High-IQ Cognition

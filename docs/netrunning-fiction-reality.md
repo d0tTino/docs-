@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-07-31
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # “Netrunning” — Fiction, Reality, and the Modern Hacker Tool-Chain
 
 ## The Fictional Matrix: Deconstructing the Netrunner Archetype

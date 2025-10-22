@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-09-30
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Internal Parts and Subpersonalities: Theoretical Foundations Across Psychotherapeutic Frameworks
 
 ## Introduction

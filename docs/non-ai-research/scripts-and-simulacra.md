@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-02-15
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # Scripts & Simulacra: How Film and Television (Re)make Italian-American Identity
 
 ## Executive Summary

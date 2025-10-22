@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-09-16
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 [[toc]]
 
 # The Artist's Field Guide to Attention & Energy: Navigating Flow, Focus, and Burnout in the Studio

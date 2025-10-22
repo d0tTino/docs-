@@ -5,8 +5,8 @@ project: docs-hub
 updated: 2025-06-20
 ---
 
---8<-- "_snippets/disclaimer.md"
-
+!!! note "Disclaimer"
+    This document is provided for research purposes only and does not constitute legal advice. It also does not constitute financial advice.
 # The Metaorganism: A New Framework for Organizational Evolution
 
 ## Part I: Defining the Metaorganism: A New Level of Social Organization
