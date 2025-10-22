@@ -17,30 +17,20 @@ directory conventions keep artifacts easy to browse and maintain.
 
 Access the most frequently used resources at a glance.
 
-<div class="grid cards" markdown>
+- 🚀 **Getting Started**
+  - [Quickstart Guide](quickstart.md)
+  - [Threat Model](security/threat-model.md)
 
--   :material-rocket-launch: __Getting Started__
-    ---
+- 📚 **Research**
+  - [AI Research Hub](ai-research/index.md)
+  - [Non-AI Research Hub](non-ai-research/index.md)
+  - [Gaze Research Overview](gaze-research/index.md)
+  - [Security Guidance](security/index.md)
 
-    - [Quickstart Guide](quickstart.md)
-    - [Threat Model](security/threat-model.md)
-
--   :material-book-search: __Research__
-    ---
-
-    - [AI Research Hub](ai-research/index.md)
-    - [Non-AI Research Hub](non-ai-research/index.md)
-    - [Gaze Research Overview](gaze-research/index.md)
-    - [Security Guidance](security/index.md)
-
--   :material-cog-outline: __Playbooks__
-    ---
-
-    - [Terminal Workflow Playbook](terminal-workflow/index.md)
-    - [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
-    - [Local Docker Build Guide](playbooks/local-docker-build.md)
-
-</div>
+- ⚙️ **Playbooks**
+  - [Terminal Workflow Playbook](terminal-workflow/index.md)
+  - [GitHub Actions Workflows](playbooks/github-actions-workflows.md)
+  - [Local Docker Build Guide](playbooks/local-docker-build.md)
 
 ## Getting Started
 Guides for setting up the docs hub and exploring resources.
