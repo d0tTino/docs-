@@ -82,13 +82,13 @@ The race to extend context windows has accelerated dramatically.  Models launche
 | Model / system | Nominal context window | Observed effective context | Notes |
 |---|---|---|---|
 | **GPT‑3** | 2 k | ≈1–1.5 k | Early large model with a 2,048-token limit; retrieval accuracy falls mid-sequence in long-context tests.[@brown2020gpt3; @liu2023lostmiddle] |
-| **GPT‑4 (32 k option)** | 32 k | ≈60 k | Extended GPT‑4 context for long documents; attention concentrates near the beginning and end of prompts.[@openai2023gpt4; @liu2023lostmiddle] |
+| **GPT‑4 (32 k option)** | 32 k | ≈8–16 k | OpenAI’s technical report documents a 32 k-token limit, but Lost-in-the-Middle evaluations show recall collapses for information placed deeper than the first and last ~8 k tokens.[@openai2023gpt4; @liu2023lostmiddle] |
 | **Claude 3 Opus** | 200 k | ≈150 k | Anthropic advertises a 200 k window and reports strong long-document QA benchmarks.[@anthropic2024claude3; @hsieh2024ruler] |
 | **Gemini 1.5 Pro** | 1 M | ≈500 k | Google reports a production million-token window and 10 M-token research demonstrations.[@google2024gemini15] |
 | **Llama 3.1 405B** | 128 k | ≈100 k | Meta’s long-context fine-tuning combines position scaling with curriculum data to reach 128 k.[@meta2024llama31; @peng2023yarn] |
 | **Research prototypes (LongRoPE, Ring Attention)** | 2 M+ | ≈2 M (LongRoPE fine-tuned); >100 M (Ring Attention distributed demo) | LongRoPE extends RoPE models to a 2,048k-token effective window with light fine-tuning, while Ring Attention trains exact attention across sequences exceeding 100 million tokens on TPUv4 clusters.[@ding2024longrope; @liu2023ringattention] |
 
-The progression from 8 k to 100 million tokens has been achieved through a combination of longer pre-training sequences, improved positional encodings, sparse attention, compressive memory and system-level innovations.  However, many of these extremely large contexts are experimental or restricted to certain tiers of customers.  Using them effectively requires careful engineering.
+The progression from 8 k to 100 million tokens has been achieved through a combination of longer pre-training sequences, improved positional encodings, sparse attention, compressive memory and system-level innovations.  However, many of these extremely large contexts are experimental or restricted to certain tiers of customers.  Using them effectively requires careful engineering.  Even at 32 k nominal length, GPT‑4’s behaviour illustrates the gap between theory and practice: OpenAI confirms the 32 k cap, yet Lost-in-the-Middle results show retrieval accuracy sharply declining once evidence is buried beyond the initial and terminal 8 k tokens, motivating the narrower effective range captured in Table 1.[@openai2023gpt4; @liu2023lostmiddle]
 
 ## 3 Why context sizes differ
 
