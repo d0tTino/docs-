@@ -79,9 +79,7 @@ then start MkDocs:
 2. `.\.venv\Scripts\Activate.ps1`
 3. `py -m pip install -r requirements.txt`
 4. `npm install`
-5. `bash scripts/setup_hooks.sh` (run this command from Git Bash or WSL)
-6. `py -m mkdocs serve`
-5. `./scripts/setup_hooks.sh`
+5. `bash scripts/setup_hooks.sh` (must be run from Git Bash or WSL)
 6. `py -m pip install pre-commit`
 7. `pre-commit install`
 8. `py -m mkdocs serve`
