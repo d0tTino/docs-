@@ -15,96 +15,64 @@ broaden and complement AI-focused work.
 
 [[toc]]
 
-## Productivity
+=== "Productivity"
 
-Short, actionable approaches for personal efficiency and time management.
+    <div class="grid cards" markdown>
+    -   :material-timer: **Workflow Foundations**  
+        Quick primers that translate personal productivity theory into weekly planning checklists.
 
-- Efficiency tips from the [Quickstart guide](../quickstart.md) and
-  [Productivity collection](../productivity/index.md).
-- [Add Hours to Your Day? Debunking Productivity Frameworks][add-hours]
-  with insights from [Productivity](../productivity/index.md) and
-  [Terminal Workflow](../terminal-workflow/index.md).
-- [The Artist's Field Guide to Attention & Energy](artists-field-guide-attention-energy.md) maps ADHD-aware session design that channels flow while preventing burnout.
-- [The Anti-Fragile Studio](anti-fragile-studio.md) operationalises contracts, pricing, and dashboards so neurodivergent artists can run commission pipelines without burnout.
+        [:octicons-link-16: Quickstart guide](../quickstart.md) · [:octicons-link-16: Productivity collection](../productivity/index.md)
+    -   :material-lightning-bolt: **Framework Reality Checks**  
+        Comparative briefs that dissect popular efficiency systems so you can keep only the tactics that compound.
 
-## Corporate Studies
+        [:octicons-link-16: Add Hours to Your Day?](add-hours-to-your-day.md) · [:octicons-link-16: Terminal Workflow](../terminal-workflow/index.md)
+    -   :material-heart-pulse: **Energy & Focus for Creatives**  
+        Neurodivergent-aware playbooks showing how to structure client work and studio sessions without burning out.
 
-Insights into organizational behavior, power, and corporate evolution.
+        [:octicons-link-16: Artist's Field Guide](artists-field-guide-attention-energy.md) · [:octicons-link-16: Anti-Fragile Studio](anti-fragile-studio.md)
+    </div>
 
-- Corporate dynamics in the [Culture Project](../culture-project/index.md),
-  including [The Friendly Face of Power](../friendly-face-of-power.md) and
-  [Project Palantir](../project-palantir.md).
-- [Buying the Dip](buying-the-dip-playbook.md) links turnaround signals with
-  [Wave 4: Money & Autonomy](../wave4-money-autonomy.md).
-- [The Corporate Egregore](corporate-egregore.md) portrays firms as cultural
-  entities in the [Culture Project](../culture-project/index.md).
-- [The Metaorganism](metaorganism.md) explores organizational evolution
-  alongside [The Corporate Egregore](corporate-egregore.md).
+=== "Corporate Studies"
 
-## General Research
+    <div class="grid cards" markdown>
+    -   :material-domain: **Power & Culture Diagnostics**  
+        Case studies from the Culture Project unpack the subtle rituals that reinforce—or erode—authority inside firms.
 
-Interdisciplinary explorations across science, philosophy, and culture.
+        [:octicons-link-16: Friendly Face of Power](../friendly-face-of-power.md) · [:octicons-link-16: Project Palantir](../project-palantir.md) · [:octicons-link-16: Culture Project](../culture-project/index.md)
+    -   :material-trending-up: **Crisis Navigation Playbooks**  
+        Financial turnaround cues paired with personal autonomy frameworks to time interventions when organizations wobble.
 
-- Cross-cutting studies tying together the
-  [Culture Project](../culture-project/index.md),
-  [Productivity](../productivity/index.md),
-  [AI Research](../ai-research/index.md), and
-  [Security](../security/index.md).
-- [DNA-Based Archival Storage](dna-archival-storage-tepm.md) with insights from
-  [Audit of an Oracle](../audit-of-an-oracle.md).
-- [Modern Rationalism](modern-rationalism.md) surveys contemporary thought and
-  profiles like [Peter Thiel](../architect-of-disruption-peter-thiel.md).
-- [Evolution as a Computational Process][evolution-process] connects biology to
-  [DNA Archival Storage](dna-archival-storage-tepm.md).
-- [From Qualia to Simulacra](from-qualia-to-simulacra.md) intersects subjective
-  experience with [Netrunning](../netrunning-fiction-reality.md).
-- [Scripts & Simulacra](scripts-and-simulacra.md) charts how mob media and
-  diaspora cuisine co-create hyperreal Italian-American identities alongside
-  [Culture Project](../culture-project/index.md) case studies.
-- [Notable Figures](inspiring-figures.md) highlight influencers in the
-  [Culture Project](../culture-project/index.md).
-- [Concrete Cognition Anthology](concrete-cognition-anthology.md) paired with
-  the [High-Level Intelligence Qualia Atlas][high-qualia].
-- [The Galilean Prophet](galilean-prophet.md) offers historical reconstruction
-  for the [Culture Project](../culture-project/index.md).
-- [High-Level Intelligence Qualia Atlas][high-qualia] informing the
-  [Concrete Cognition Anthology](concrete-cognition-anthology.md).
-- [Jungian Psyche Analysis](jungian-psyche-analysis.md) contrasts models in the
-  [Culture Project](../culture-project/index.md).
-- [The Jungian Shadow](jungian-shadow-analysis.md) complements
-  [Jungian Psyche Analysis](jungian-psyche-analysis.md).
-- [Neuropsychology of Fandom Affinity](neuropsychology-of-fandom-affinity.md)
-  explores neurodivergent benefits of furry communities while linking identity
-  to the [Culture Project](../culture-project/index.md).
-- [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md)
-  focuses on painterly brush workflows for Clip Studio users and outlines
-  expressive digital painting techniques.
-- [An Art-Historical Study of Lawrence Alma-Tadema's _The Roses of
-  Heliogabalus_](roses-of-heliogabalus-art-historical-study.md) examines how
-  Victorian academic painting weaponized beauty, traces the work's reception,
-  and extracts lessons for contemporary digital artists.
-- [From "Technical Debt" to "Under-Resolution"](from-technical-debt-to-under-resolution.md)
-  builds a neutral vocabulary and two-step diagnostic framework for
-  distinguishing selective finish from genuinely under-resolved passages in
-  studio practice.
-- [The Flower-Suffocation Banquet of Emperor Elagabalus](flower-suffocation-
-  banquet-of-emperor-elagabalus.md) surveys the anecdote's late antique sources,
-  contemporary historiography, and Victorian reinterpretations to map how a
-  lethal cascade of petals became a symbol of imperial decadence.
-- [Composition 101 — Chaptered Intro](composition-101-chaptered-intro.md)
-  offers a guided path through scene-building fundamentals and distills
-  classical and modern composition frameworks into linked chapters for fast
-  study.
-- [Dynamic Symmetry and Root Rectangles in Composition](dynamic-symmetry-root-rectangles.md)
-  expands classical proportioning systems into practical layout templates for
-  visual storytelling and design studies.
-- [Internal Parts and Subpersonalities](internal-parts-and-subpersonalities.md)
-  maps parts-based psychotherapies alongside
-  [Jungian Psyche Analysis](jungian-psyche-analysis.md).
-- [Emotion Dysregulation in Adult ADHD](emotion-dysregulation-adult-adhd.md)
-  examines the relational impact of emotion regulation deficits and
-  ADHD-focused interventions.
+        [:octicons-link-16: Buying the Dip](buying-the-dip-playbook.md) · [:octicons-link-16: Wave 4 — Money & Autonomy](../wave4-money-autonomy.md)
+    -   :material-dna: **Corporate Organisms**  
+        Evolutionary metaphors that treat companies as living systems, clarifying how narratives, incentives, and identities cohere.
 
-[add-hours]: add-hours-to-your-day.md
-[evolution-process]: evolution-as-a-computational-process.md
+        [:octicons-link-16: Corporate Egregore](corporate-egregore.md) · [:octicons-link-16: Metaorganism](metaorganism.md)
+    </div>
+
+=== "General Research"
+
+    <div class="grid cards" markdown>
+    -   :material-orbit: **Cross-Disciplinary Bridges**  
+        Synthesis notes connecting productivity, security, and cultural analysis to surface shared mental models across research tracks.
+
+        [:octicons-link-16: Cross-cutting studies](../ai-research/index.md) · [:octicons-link-16: Culture Project](../culture-project/index.md) · [:octicons-link-16: Security collection](../security/index.md)
+    -   :material-flask: **Speculative Science & Memory**  
+        Explorations of computation, biology, and archival futures that translate lab insights into strategy references.
+
+        [:octicons-link-16: DNA Archival Storage](dna-archival-storage-tepm.md) · [:octicons-link-16: Audit of an Oracle](../audit-of-an-oracle.md) · [:octicons-link-16: Evolution as a Computational Process](evolution-as-a-computational-process.md)
+    -   :material-drama-masks: **Philosophy & Narrative Worlds**  
+        Essays on rationalism, simulacra, and identity work that ground creative practice in deep cultural context.
+
+        [:octicons-link-16: Modern Rationalism](modern-rationalism.md) · [:octicons-link-16: From Qualia to Simulacra](from-qualia-to-simulacra.md) · [:octicons-link-16: Netrunning — Fiction & Reality](../netrunning-fiction-reality.md)
+    </div>
+
+    | Theme | Key Briefs | Companion Collections |
+    | --- | --- | --- |
+    | Culture Identities & History | [Scripts & Simulacra](scripts-and-simulacra.md); [Notable Figures](inspiring-figures.md); [Galilean Prophet](galilean-prophet.md) | [Culture Project](../culture-project/index.md) |
+    | Consciousness & Cognition | [Concrete Cognition Anthology](concrete-cognition-anthology.md); [High-Level Intelligence Qualia Atlas][high-qualia]; [Internal Parts & Subpersonalities](internal-parts-and-subpersonalities.md) | [AI Research](../ai-research/index.md) |
+    | Jungian & Depth Psychology | [Jungian Psyche Analysis](jungian-psyche-analysis.md); [Jungian Shadow](jungian-shadow-analysis.md); [Neuropsychology of Fandom Affinity](neuropsychology-of-fandom-affinity.md) | [Culture Project](../culture-project/index.md) |
+    | Visual Storytelling Craft | [Painterly Style in Clip Studio Paint](painterly-style-clip-studio-paint.md); [Composition 101 — Chaptered Intro](composition-101-chaptered-intro.md); [Dynamic Symmetry & Root Rectangles](dynamic-symmetry-root-rectangles.md) | [Productivity](../productivity/index.md) |
+    | Historical Analogies & Ethics | [The Roses of Heliogabalus Study](roses-of-heliogabalus-art-historical-study.md); [Flower-Suffocation Banquet](flower-suffocation-banquet-of-emperor-elagabalus.md); [From "Technical Debt" to "Under-Resolution"](from-technical-debt-to-under-resolution.md) | [Culture Project](../culture-project/index.md) |
+    | Emotional Regulation Research | [Emotion Dysregulation in Adult ADHD](emotion-dysregulation-adult-adhd.md) | [Productivity](../productivity/index.md) |
+
 [high-qualia]: high-level-intelligence-qualia-atlas.md
