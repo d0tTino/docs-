@@ -61,10 +61,16 @@ nav:
       - RAG Techniques:
           - Logical Chunking: ai-research/logical-chunking.md
       - Reverse Engineering:
+          - Reverse Engineering ChatGPT Agent System: ai-research/reverse-engineering-chatgpt-agent-system.md
           - Reverse Engineering Codex: ai-research/reverse-engineering-codex.md
           - Reverse Engineering GPT-o3: ai-research/reverse-engineering-gpt-o3.md
           - Reverse Engineering Grok 4 Heavy: ai-research/reverse-engineering-grok4-heavy.md
           - Reverse Engineering Storm: ai-research/reverse-engineering-storm.md
+          - Reverse Engineering Tribe: ai-research/reverse-engineering-tribe.md
+      - Additional Topics:
+          - Evolving Perspectives on AGI: ai-research/evolving-perspectives-on-agi.md
+          - Grok's Utilization of the X Ecosystem: ai-research/grok-x-ecosystem-utilization.md
+          - KV Cache Chart: ai-research/kv-cache-chart.md
       - Seed Factory Feasibility Dossier: ai-research/seed-factory-feasibility-dossier.md
       - The Cognitive Architecture of Artificial Societies: ai-research/cognitive-architecture-of-artificial-societies.md
       - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
