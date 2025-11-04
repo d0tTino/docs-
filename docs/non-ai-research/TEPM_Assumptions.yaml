@@ -1,0 +1,261 @@
+metadata:
+  baseline_year: 2025
+  currency: "USD 2025"
+  notes: |
+    Baseline parameters supporting the Techno-Economic and Performance Model (TEPM)
+    for DNA archival storage. Values align with the narrative tables in the
+    "DNA Archival Storage TEPM" report.
+
+baseline:
+  write:
+    chemical_synthesis_cost:
+      value: 1.0e-7
+      units: "$/base"
+      confidence: High
+      description: Cost per base for phosphoramidite array synthesis.
+    enzymatic_synthesis_cost:
+      value: 5.0e-7
+      units: "$/base"
+      confidence: Medium
+      description: Cost per base for emerging enzymatic platforms.
+    chemical_error_rate:
+      value: 1.0e-2
+      units: events/base
+      confidence: High
+      description: Aggregate substitution, insertion, and deletion rate per base.
+    synthesis_throughput_per_chip:
+      value: 1000
+      units: bases/s
+      confidence: Medium
+      description: Baseline rate of base synthesis per chip or device.
+  sequencing:
+    illumina_consumables_cost:
+      value: 1.0
+      units: "$/Gb"
+      confidence: High
+      description: Consumables cost per gigabase on a high-throughput Illumina platform.
+    nanopore_consumables_cost:
+      value: 25.0
+      units: "$/Gb"
+      confidence: Medium
+      description: Consumables cost per gigabase on a high-throughput nanopore platform.
+    illumina_error_rate:
+      value: 1.0e-3
+      units: events/base
+      confidence: High
+      description: Aggregate sequencing error rate, dominated by substitutions.
+    nanopore_error_rate:
+      value: 2.0e-2
+      units: events/base
+      confidence: High
+      description: Aggregate sequencing error rate, dominated by insertions and deletions.
+  preservation:
+    dehydrated_half_life:
+      value: 650
+      units: years
+      confidence: Medium
+      description: Modeled half-life for dehydrated DNA stored at 20°C in an anoxic environment.
+    silica_encapsulated_half_life:
+      value: 50000
+      units: years
+      confidence: Low
+      description: Modeled half-life for silica-encapsulated DNA stored at 20°C.
+  comparator_technologies:
+    lto9_media_cost:
+      value: 5.0
+      units: "$/TB"
+      confidence: High
+      description: Cost per native terabyte for an LTO-9 cartridge.
+    lto9_drive_cost:
+      value: 5700
+      units: "$"
+      confidence: High
+      description: Capital cost for a single LTO-9 tape drive.
+    archival_hdd_cost:
+      value: 13.21
+      units: "$/TB"
+      confidence: High
+      description: Cost per terabyte for an archival-grade HDD.
+    archival_hdd_idle_power:
+      value: 5.0
+      units: W
+      confidence: High
+      description: Idle power draw for an archival HDD.
+  labor_overhead:
+    lab_technician_hourly:
+      value: 75
+      units: "$/hour"
+      confidence: High
+      description: Fully burdened labor cost estimate for a lab technician.
+    instrument_amortization_period:
+      value: 5
+      units: years
+      confidence: High
+      description: Standard amortization period applied to capital equipment.
+
+write_platforms:
+  chemical_array:
+    today_2025:
+      cost_per_base_usd:
+        low: 0.5e-7
+        mid: 1.0e-7
+        high: 1.7e-7
+      throughput_bases_per_second_per_chip: 1000
+      error_rates:
+        substitution: 0.002
+        insertion: 0.001
+        deletion: 0.007
+      confidence: High
+    near_term_2028:
+      cost_per_base_usd:
+        low: 0.2e-7
+        mid: 0.5e-7
+        high: 0.9e-7
+      throughput_bases_per_second_per_chip: 5000
+      error_rates:
+        substitution: 0.0015
+        insertion: 0.0008
+        deletion: 0.005
+      confidence: Medium
+    far_term_2030_plus:
+      cost_per_base_usd:
+        low: 0.1e-7
+        mid: 0.3e-7
+        high: 0.5e-7
+      throughput_bases_per_second_per_chip: 10000
+      error_rates:
+        substitution: 0.001
+        insertion: 0.0005
+        deletion: 0.003
+      confidence: Low
+  enzymatic:
+    today_2025:
+      cost_per_base_usd:
+        low: 3.0e-7
+        mid: 5.0e-7
+        high: 8.0e-7
+      throughput_bases_per_second_per_chip: 500
+      error_rates:
+        substitution: 0.005
+        insertion: 0.002
+        deletion: 0.005
+      confidence: Medium
+    near_term_2028:
+      cost_per_base_usd:
+        low: 0.5e-7
+        mid: 1.0e-7
+        high: 2.0e-7
+      throughput_bases_per_second_per_chip: 10000
+      error_rates:
+        substitution: 0.003
+        insertion: 0.001
+        deletion: 0.003
+      confidence: Medium
+    far_term_2030_plus:
+      cost_per_base_usd:
+        low: 1.0e-9
+        mid: 5.0e-9
+        high: 1.0e-8
+      throughput_bases_per_second_per_chip: 1000000
+      error_rates:
+        substitution: 0.001
+        insertion: 0.0005
+        deletion: 0.001
+      confidence: Low
+  mist_target:
+    far_term_2030_plus:
+      cost_per_base_usd: 1.0e-9
+      throughput_bases_per_second_per_chip: 1.0e8
+      error_rates:
+        substitution: 1.0e-3
+        insertion: 5.0e-4
+        deletion: 1.0e-3
+      confidence: Low
+      notes: "Represents IARPA MIST-style moonshot targets referenced in the narrative."
+
+sequencing_platforms:
+  illumina_novaseq_x:
+    today_2025:
+      consumables_cost_per_gb: 1.0
+      amortized_capex_per_run_usd: 50
+      throughput_gb_per_day: 1000
+      max_read_length_nt: 500
+      error_rates:
+        substitution: 1.0e-3
+        insertion: 4.0e-4
+        deletion: 2.0e-3
+      confidence: High
+    near_term_2028:
+      consumables_cost_per_gb: 0.70
+      amortized_capex_per_run_usd: 40
+      throughput_gb_per_day: 1500
+      max_read_length_nt: 600
+      error_rates:
+        substitution: 8.0e-4
+        insertion: 3.0e-4
+        deletion: 1.5e-3
+      confidence: Medium
+    far_term_2030_plus:
+      consumables_cost_per_gb: 0.50
+      amortized_capex_per_run_usd: 30
+      throughput_gb_per_day: 2000
+      max_read_length_nt: 800
+      error_rates:
+        substitution: 5.0e-4
+        insertion: 2.0e-4
+        deletion: 1.0e-3
+      confidence: Low
+  nanopore_promethion:
+    today_2025:
+      consumables_cost_per_gb: 25.0
+      amortized_capex_per_run_usd: 20
+      throughput_gb_per_day: 200
+      max_read_length_nt: 100000
+      error_rates:
+        substitution: 5.0e-3
+        insertion: 1.0e-2
+        deletion: 1.0e-2
+      confidence: High
+    near_term_2028:
+      consumables_cost_per_gb: 15.0
+      amortized_capex_per_run_usd: 15
+      throughput_gb_per_day: 400
+      max_read_length_nt: 100000
+      error_rates:
+        substitution: 3.0e-3
+        insertion: 8.0e-3
+        deletion: 8.0e-3
+      confidence: Medium
+    far_term_2030_plus:
+      consumables_cost_per_gb: 5.0
+      amortized_capex_per_run_usd: 10
+      throughput_gb_per_day: 1000
+      max_read_length_nt: 100000
+      error_rates:
+        substitution: 1.0e-3
+        insertion: 3.0e-3
+        deletion: 3.0e-3
+      confidence: Low
+
+preservation_scenarios:
+  dehydrated_dna:
+    storage_condition: "Dry, anoxic, 20°C"
+    modeled_half_life_years: 650
+    refresh_cadence_years: 250
+    lifecycle_energy_kwh_per_tb_year: 0
+  silica_encapsulated_dna:
+    storage_condition: "Dry, anoxic, 20°C"
+    modeled_half_life_years: 50000
+    refresh_cadence_years: null
+    lifecycle_energy_kwh_per_tb_year: 0
+  lto9_tape:
+    storage_condition: "Climate controlled"
+    modeled_half_life_years: 30
+    refresh_cadence_years: "10-15"
+    lifecycle_energy_kwh_per_tb_year: 0.1
+  archival_hdd:
+    storage_condition: "Powered on, climate controlled"
+    modeled_half_life_years: "5-7"
+    refresh_cadence_years: 5
+    lifecycle_energy_kwh_per_tb_year: 15
+    notes: "Lifecycle energy approximated as the midpoint of the 10-17 kWh/TB-year range."

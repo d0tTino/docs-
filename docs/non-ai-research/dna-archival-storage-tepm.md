@@ -62,7 +62,7 @@ The efficiency and overhead of the system are fundamentally defined by the struc
 
 ### Baseline Assumptions
 
-The entire model is parameterized based on the values defined in the accompanying `TEPM_Assumptions.yaml` file. The baseline values for the current (2025) time horizon are summarized in Table 1. Each parameter is assigned a confidence level (Low, Medium, High) based on the quality, consistency, and recency of the source data. All monetary values are normalized to USD 2025.
+The entire model is parameterized based on the values defined in the accompanying [TEPM_Assumptions.yaml](TEPM_Assumptions.yaml) file. The baseline values for the current (2025) time horizon are summarized in Table 1. Each parameter is assigned a confidence level (Low, Medium, High) based on the quality, consistency, and recency of the source data. All monetary values are normalized to USD 2025.
 
 | Parameter | Description | Value (2025 Baseline) | Units | Confidence | Citation(s) |
 |-----------|-------------|-----------------------|-------|------------|-------------|
