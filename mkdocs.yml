@@ -70,21 +70,37 @@ nav:
       - Thick Band of Possibilities: ai-research/thick-band-of-21st-century-possibilities.md
       - You Weren't Supposed to Invent Infinite Jest: ai-research/you-werent-supposed-to-invent-infinite-jest.md
   - Non-AI Research:
-      - "Add Hours to Your Day?": non-ai-research/add-hours-to-your-day.md
-      - Buying the Dip Playbook: non-ai-research/buying-the-dip-playbook.md
-      - Concrete Cognition Anthology: non-ai-research/concrete-cognition-anthology.md
-      - From Qualia to Simulacra: non-ai-research/from-qualia-to-simulacra.md
-      - High-Level Intelligence Qualia Atlas: non-ai-research/high-level-intelligence-qualia-atlas.md
-      - Notable Figures: non-ai-research/inspiring-figures.md
-      - Roses of Heliogabalus Study: non-ai-research/roses-of-heliogabalus-art-historical-study.md
       - Overview: non-ai-research/index.md
-      - "The Anti-Fragile Studio: An Operational Playbook for the Neurodivergent Artist": non-ai-research/anti-fragile-studio.md
-      - "Anti-Fragile Studio Boundary Playbook": non-ai-research/anti-fragile-studio-boundary-playbook.md
-      - "The Artist's Field Guide to Attention & Energy: Navigating Flow, Focus, and Burnout in the Studio": non-ai-research/artists-field-guide-attention-energy.md
-      - Composition 101 — Chaptered Intro: non-ai-research/composition-101-chaptered-intro.md
-      - Dynamic Symmetry and Root Rectangles: non-ai-research/dynamic-symmetry-root-rectangles.md
-      - Painterly Style in Clip Studio Paint: non-ai-research/painterly-style-clip-studio-paint.md
-      - The Metaorganism: non-ai-research/metaorganism.md
+      - Productivity:
+          - "Add Hours to Your Day?": non-ai-research/add-hours-to-your-day.md
+          - "The Artist's Field Guide to Attention & Energy: Navigating Flow, Focus, and Burnout in the Studio": non-ai-research/artists-field-guide-attention-energy.md
+          - "The Anti-Fragile Studio: An Operational Playbook for the Neurodivergent Artist": non-ai-research/anti-fragile-studio.md
+          - "Anti-Fragile Studio Boundary Playbook": non-ai-research/anti-fragile-studio-boundary-playbook.md
+          - Composition 101 — Chaptered Intro: non-ai-research/composition-101-chaptered-intro.md
+          - Dynamic Symmetry and Root Rectangles: non-ai-research/dynamic-symmetry-root-rectangles.md
+          - Emotion Dysregulation in Adult ADHD: non-ai-research/emotion-dysregulation-adult-adhd.md
+          - Painterly Style in Clip Studio Paint: non-ai-research/painterly-style-clip-studio-paint.md
+      - Corporate Studies:
+          - Buying the Dip Playbook: non-ai-research/buying-the-dip-playbook.md
+          - Corporate Egregore: non-ai-research/corporate-egregore.md
+          - The Metaorganism: non-ai-research/metaorganism.md
+      - General Research:
+          - Concrete Cognition Anthology: non-ai-research/concrete-cognition-anthology.md
+          - DNA Archival Storage (TEPM): non-ai-research/dna-archival-storage-tepm.md
+          - Evolution as a Computational Process: non-ai-research/evolution-as-a-computational-process.md
+          - Flower-Suffocation Banquet of Emperor Elagabalus: non-ai-research/flower-suffocation-banquet-of-emperor-elagabalus.md
+          - From Qualia to Simulacra: non-ai-research/from-qualia-to-simulacra.md
+          - From "Technical Debt" to "Under-Resolution": non-ai-research/from-technical-debt-to-under-resolution.md
+          - Galilean Prophet: non-ai-research/galilean-prophet.md
+          - High-Level Intelligence Qualia Atlas: non-ai-research/high-level-intelligence-qualia-atlas.md
+          - Internal Parts & Subpersonalities: non-ai-research/internal-parts-and-subpersonalities.md
+          - Jungian Psyche Analysis: non-ai-research/jungian-psyche-analysis.md
+          - Jungian Shadow Analysis: non-ai-research/jungian-shadow-analysis.md
+          - Modern Rationalism: non-ai-research/modern-rationalism.md
+          - Neuropsychology of Fandom Affinity: non-ai-research/neuropsychology-of-fandom-affinity.md
+          - Notable Figures: non-ai-research/inspiring-figures.md
+          - Roses of Heliogabalus Study: non-ai-research/roses-of-heliogabalus-art-historical-study.md
+          - Scripts & Simulacra: non-ai-research/scripts-and-simulacra.md
   - Productivity:
       - Arduino: arduino/index.md
       - Culture Project: culture-project/index.md
