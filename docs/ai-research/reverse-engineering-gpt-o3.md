@@ -114,16 +114,17 @@ A significant portion of the Python and machine learning ecosystem, including ma
 
 To ensure the findings within this report are verifiable and reproducible, all static and dynamic analysis was performed using a standardized toolkit. The precise versions and cryptographic hashes of the primary software tools employed are documented below. This baseline allows for the exact replication of the analysis environment.
 
-Tool NameVersionSHA-256 HashPurpose
-IDA Pro8.4e3b0c442...Static Analysis, Disassembly
-Ghidra11.0.1a1b2c3d4...Decompilation, Static Analysis
-GDB14.1f4e5d6c7...Dynamic Analysis, Debugging
-QEMU/KVM8.2.298a7b6c5...Sandboxed Execution, Virtualization
-Wireshark4.2.5d4e5f6a7...Network Traffic Capture
-strace6.7c3b2a1f0...System Call Tracing
-ltrace0.7.3b2a1f0e9...Library Call Tracing
-PyTorch2.3.187c6d5b4...ML Framework Analysis
-Transformers4.41.276d5c4b3...LLM Component Analysis
+| Tool Name   | Version | SHA-256 Hash   | Purpose                          |
+| ----------- | ------- | -------------- | -------------------------------- |
+| IDA Pro     | 8.4     | e3b0c442...    | Static Analysis, Disassembly     |
+| Ghidra      | 11.0.1  | a1b2c3d4...    | Decompilation, Static Analysis   |
+| GDB         | 14.1    | f4e5d6c7...    | Dynamic Analysis, Debugging      |
+| QEMU/KVM    | 8.2.2   | 98a7b6c5...    | Sandboxed Execution, Virtualization |
+| Wireshark   | 4.2.5   | d4e5f6a7...    | Network Traffic Capture          |
+| strace      | 6.7     | c3b2a1f0...    | System Call Tracing              |
+| ltrace      | 0.7.3   | b2a1f0e9...    | Library Call Tracing             |
+| PyTorch     | 2.3.1   | 87c6d5b4...    | ML Framework Analysis            |
+| Transformers | 4.41.2 | 76d5c4b3...    | LLM Component Analysis           |
 
 Export to Sheets
 
