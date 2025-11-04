@@ -67,23 +67,23 @@ The entire model is parameterized based on the values defined in the accompanyin
 | Parameter | Description | Value (2025 Baseline) | Units | Confidence | Citation(s) |
 |-----------|-------------|-----------------------|-------|------------|-------------|
 | **Write (Synthesis)** |||||
-| Chemical Synthesis Cost | Cost per base for phosphoramidite array synthesis. | 1×10^-7 | $/base | High | |
-| Enzymatic Synthesis Cost | Cost per base for emerging enzymatic platforms. | 5×10^-7 | $/base | Medium | |
-| Chemical Synthesis Error | Aggregate error rate (sub+ins+del) per base. | 1×10^-2 | events/base | High | |
-| Synthesis Throughput | Rate of base synthesis per chip/device. | 1,000 | bases/s | Medium | |
+| Chemical Synthesis Cost | Cost per base for phosphoramidite array synthesis. | 1×10^-7 | $/base | High | [^chem-cost] |
+| Enzymatic Synthesis Cost | Cost per base for emerging enzymatic platforms. | 5×10^-7 | $/base | Medium | [^enz-cost] |
+| Chemical Synthesis Error | Aggregate error rate (sub+ins+del) per base. | 1×10^-2 | events/base | High | [^chem-error] |
+| Synthesis Throughput | Rate of base synthesis per chip/device. | 1,000 | bases/s | Medium | [^synth-throughput] |
 | **Read (Sequencing)** |||||
-| Illumina Seq Cost | Consumables cost per gigabase on high-throughput platform. | 1.00 | $/Gb | High | |
-| Nanopore Seq Cost | Consumables cost per gigabase on high-throughput platform. | 25.00 | $/Gb | Medium | |
-| Illumina Error Rate | Aggregate error rate, dominated by substitutions. | 1×10^-3 | events/base | High | |
-| Nanopore Error Rate | Aggregate error rate, dominated by indels. | 2×10^-2 | events/base | High | |
+| Illumina Seq Cost | Consumables cost per gigabase on high-throughput platform. | 1.00 | $/Gb | High | [^illumina-cost] |
+| Nanopore Seq Cost | Consumables cost per gigabase on high-throughput platform. | 25.00 | $/Gb | Medium | [^nanopore-cost] |
+| Illumina Error Rate | Aggregate error rate, dominated by substitutions. | 1×10^-3 | events/base | High | [^illumina-error] |
+| Nanopore Error Rate | Aggregate error rate, dominated by indels. | 2×10^-2 | events/base | High | [^nanopore-error] |
 | **Preservation** |||||
-| DNA Half-Life (Dry) | Modeled half-life at 20°C, dehydrated. | 650 | years | Medium | |
-| DNA Half-Life (Silica) | Modeled half-life at 20°C, encapsulated. | 50,000 | years | Low | |
+| DNA Half-Life (Dry) | Modeled half-life at 20°C, dehydrated. | 650 | years | Medium | [^dry-half-life] |
+| DNA Half-Life (Silica) | Modeled half-life at 20°C, encapsulated. | 50,000 | years | Low | [^silica-half-life] |
 | **Comparator Tech** |||||
-| LTO-9 Media Cost | Cost per native TB for a single LTO-9 tape cartridge. | 5.00 | $/TB | High | |
-| LTO-9 Drive Cost | Capital cost for a single LTO-9 tape drive. | 5,700 | $ | High | |
-| Archival HDD Cost | Cost per TB for a high-capacity archival-grade HDD. | 13.21 | $/TB | High | |
-| HDD Power (Idle) | Power consumption of an idle archival HDD. | 5.0 | W | High | |
+| LTO-9 Media Cost | Cost per native TB for a single LTO-9 tape cartridge. | 5.00 | $/TB | High | [^lto-media] |
+| LTO-9 Drive Cost | Capital cost for a single LTO-9 tape drive. | 5,700 | $ | High | [^lto-drive] |
+| Archival HDD Cost | Cost per TB for a high-capacity archival-grade HDD. | 13.21 | $/TB | High | [^hdd-cost] |
+| HDD Power (Idle) | Power consumption of an idle archival HDD. | 5.0 | W | High | [^hdd-power] |
 | **Labor & Overheads** |||||
 | Lab Technician Labor | Fully burdened cost for a technician. | 75 | $/hour | High | N/A (Est.) |
 | Instrument Amortization | Period over which capital equipment is amortized. | 5 | years | High | N/A (Std.) |
@@ -115,13 +115,13 @@ Caption: Figure 2. TEPM projections indicate enzymatic platforms could surpass c
 
 | Platform | Time Horizon | $/base (Low/Mid/High) | Throughput (bases/s/chip) | Substitution Rate | Insertion Rate | Deletion Rate | Confidence | Citation(s) |
 |----------|--------------|----------------------|----------------------------|-------------------|---------------|---------------|------------|-------------|
-| Chemical (Array) | Today (2025) | 0.5e-7 / 1.0e-7 / 1.7e-7 | 1,000 | 0.002 | 0.001 | 0.007 | High | |
-| Chemical (Array) | Near-Term (2028) | 0.2e-7 / 0.5e-7 / 0.9e-7 | 5,000 | 0.0015 | 0.0008 | 0.005 | Medium | |
-| Chemical (Array) | 2030+ | 0.1e-7 / 0.3e-7 / 0.5e-7 | 10,000 | 0.001 | 0.0005 | 0.003 | Low | |
-| Enzymatic | Today (2025) | 3.0e-7 / 5.0e-7 / 8.0e-7 | 500 | 0.005 | 0.002 | 0.005 | Medium | |
-| Enzymatic | Near-Term (2028) | 0.5e-7 / 1.0e-7 / 2.0e-7 | 10,000 | 0.003 | 0.001 | 0.003 | Medium | |
-| Enzymatic | 2030+ | 1.0e-9 / 5.0e-9 / 1.0e-8 | 1,000,000 | 0.001 | 0.0005 | 0.001 | Low | |
-| Future (MIST Target) | 2030+ | 1×10^-9 | 1×10^8 | 1×10^-3 | 5×10^-4 | 1×10^-3 | Low | |
+| Chemical (Array) | Today (2025) | 0.5e-7 / 1.0e-7 / 1.7e-7 | 1,000 | 0.002 | 0.001 | 0.007 | High | [^chem-array-2025] |
+| Chemical (Array) | Near-Term (2028) | 0.2e-7 / 0.5e-7 / 0.9e-7 | 5,000 | 0.0015 | 0.0008 | 0.005 | Medium | [^chem-array-2028] |
+| Chemical (Array) | 2030+ | 0.1e-7 / 0.3e-7 / 0.5e-7 | 10,000 | 0.001 | 0.0005 | 0.003 | Low | [^chem-array-2030] |
+| Enzymatic | Today (2025) | 3.0e-7 / 5.0e-7 / 8.0e-7 | 500 | 0.005 | 0.002 | 0.005 | Medium | [^enz-2025] |
+| Enzymatic | Near-Term (2028) | 0.5e-7 / 1.0e-7 / 2.0e-7 | 10,000 | 0.003 | 0.001 | 0.003 | Medium | [^enz-2028] |
+| Enzymatic | 2030+ | 1.0e-9 / 5.0e-9 / 1.0e-8 | 1,000,000 | 0.001 | 0.0005 | 0.001 | Low | [^enz-2030] |
+| Future (MIST Target) | 2030+ | 1×10^-9 | 1×10^8 | 1×10^-3 | 5×10^-4 | 1×10^-3 | Low | [^mist-target] |
 
 ## Read-Side Analysis: Sequencing and Decoding
 
@@ -145,12 +145,12 @@ While functional, this approach has significant drawbacks. The PCR process is re
 
 | Platform | Time Horizon | $/Gb (Consumables) | Amortized CAPEX ($/run) | Gb/day | Max Read Length (nt) | Substitution Rate | Insertion Rate | Deletion Rate | Confidence | Citation(s) |
 |----------|--------------|--------------------|--------------------------|--------|---------------------|-------------------|---------------|---------------|------------|-------------|
-| Illumina (NovaSeq X) | Today (2025) | 1.00 | 50 | 1,000 | 500 | 1×10^-3 | 4×10^-4 | 2×10^-3 | High | |
-| Illumina (NovaSeq X) | Near-Term (2028) | 0.70 | 40 | 1,500 | 600 | 8×10^-4 | 3×10^-4 | 1.5×10^-3 | Medium | |
-| Illumina (NovaSeq X) | 2030+ | 0.50 | 30 | 2,000 | 800 | 5×10^-4 | 2×10^-4 | 1×10^-3 | Low | |
-| Nanopore (PromethION) | Today (2025) | 25.00 | 20 | 200 | 100,000+ | 5×10^-3 | 1×10^-2 | 1×10^-2 | High | |
-| Nanopore (PromethION) | Near-Term (2028) | 15.00 | 15 | 400 | 100,000+ | 3×10^-3 | 8×10^-3 | 8×10^-3 | Medium | |
-| Nanopore (PromethION) | 2030+ | 5.00 | 10 | 1,000 | 100,000+ | 1×10^-3 | 3×10^-3 | 3×10^-3 | Low | |
+| Illumina (NovaSeq X) | Today (2025) | 1.00 | 50 | 1,000 | 500 | 1×10^-3 | 4×10^-4 | 2×10^-3 | High | [^illumina-2025] |
+| Illumina (NovaSeq X) | Near-Term (2028) | 0.70 | 40 | 1,500 | 600 | 8×10^-4 | 3×10^-4 | 1.5×10^-3 | Medium | [^illumina-2028] |
+| Illumina (NovaSeq X) | 2030+ | 0.50 | 30 | 2,000 | 800 | 5×10^-4 | 2×10^-4 | 1×10^-3 | Low | [^illumina-2030] |
+| Nanopore (PromethION) | Today (2025) | 25.00 | 20 | 200 | 100,000+ | 5×10^-3 | 1×10^-2 | 1×10^-2 | High | [^promethion-2025] |
+| Nanopore (PromethION) | Near-Term (2028) | 15.00 | 15 | 400 | 100,000+ | 3×10^-3 | 8×10^-3 | 8×10^-3 | Medium | [^promethion-2028] |
+| Nanopore (PromethION) | 2030+ | 5.00 | 10 | 1,000 | 100,000+ | 1×10^-3 | 3×10^-3 | 3×10^-3 | Low | [^promethion-2030] |
 
 ## Reliability and Data Integrity
 
@@ -198,10 +198,10 @@ Caption: Figure 4. DNA's minimal energy use and infrequent refresh cycles yield 
 
 | Medium | Storage Condition | Modeled Half-Life (Years) | Refresh Cadence (Years) | Lifecycle Energy (kWh/TB-year) | Citation(s) |
 |--------|------------------|---------------------------|-------------------------|-------------------------------|-------------|
-| Dehydrated DNA | Dry, Anoxic, 20°C | 650 | 250 | ≈ 0 | |
-| Silica Encapsulated DNA | Dry, Anoxic, 20°C | 50,000+ | None (for <1000yr) | ≈ 0 | |
-| LTO-9 Tape | Climate Controlled | 30+ | 10-15 | ≈ 0.1 | |
-| Archival HDD | Powered On, Climate Controlled | 5-7 | 5 | 10-17 | |
+| Dehydrated DNA | Dry, Anoxic, 20°C | 650 | 250 | ≈ 0 | [^dehydrated-dna] |
+| Silica Encapsulated DNA | Dry, Anoxic, 20°C | 50,000+ | None (for <1000yr) | ≈ 0 | [^silica-dna] |
+| LTO-9 Tape | Climate Controlled | 30+ | 10-15 | ≈ 0.1 | [^lto-refresh] |
+| Archival HDD | Powered On, Climate Controlled | 5-7 | 5 | 10-17 | [^hdd-refresh] |
 
 ## Strategic Analysis: The Path to Competitiveness
 
@@ -229,6 +229,68 @@ The following table summarizes the required improvements for DNA storage to beco
 | Write Throughput (TB/day/system) | ≈10^-6 | >1 | 10^6 | Massively parallel synthesis arrays, integrated microfluidics. |
 | Read Latency (end-to-end) | Days to Weeks | <24 hours | 10^1–10^2 | Fully automated fluidics, faster sequencing, hardware-accelerated decoding. |
 | Lifecycle Energy (kWh/TB-year) | High (write), ≈ 0 (store) | ≈ 0 | N/A | (Inherent advantage) |
+
+[^chem-cost]: SynBioBeta. “DNA Synthesis—Is the Future Chemical, Enzymatic, or Both?” March 29, 2023. https://synbiobeta.com/dna-synthesis-is-the-future-chemical-enzymatic-or-both/
+
+[^enz-cost]: Grand View Research. “Enzymatic DNA Synthesis Market Size, Share & Trends Analysis Report, 2024–2033.” 2024. https://www.grandviewresearch.com/industry-analysis/enzymatic-dna-synthesis-market
+
+[^chem-error]: Kosuri, Sriram, and George M. Church. “Large-Scale de Novo DNA Synthesis: Technologies and Applications.” *Nature Methods* 11, no. 5 (2014): 499–507. https://doi.org/10.1038/nmeth.2918
+
+[^synth-throughput]: Lee, Henry H., et al. “DNA-DISK: Automated End-to-End Data Storage via Enzymatic Single-Nucleotide DNA Synthesis and Sequencing on Digital Microfluidics.” *PNAS* 119, no. 45 (2022): e2208809119. https://doi.org/10.1073/pnas.2208809119
+
+[^illumina-cost]: Illumina. “NovaSeq X Series Data Sheet.” 2023. https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/novaseq-x-series-specification-sheet-1170-2022-006.pdf
+
+[^nanopore-cost]: Oxford Nanopore Technologies. “PromethION: High-Throughput, High-Yield Sequencing.” Product Overview, 2024. https://nanoporetech.com/products/promethion
+
+[^illumina-error]: Illumina. “Sequencing Accuracy for NovaSeq Systems.” Technical Note, 2023. https://www.illumina.com/science/sequencing-accuracy.html
+
+[^nanopore-error]: Rang, Frank J., et al. “From Squiggle to Basepair: Computational Approaches for Improving Nanopore Sequencing Read Accuracy.” *Genome Biology* 19, no. 90 (2018). https://doi.org/10.1186/s13059-018-1462-9
+
+[^dry-half-life]: Allentoft, Morten E., et al. “The Half-Life of DNA in Bone: Measuring Decay Kinetics in 158 Dated Fossils.” *Proceedings of the Royal Society B* 279, no. 1748 (2012): 4724–33. https://doi.org/10.1098/rspb.2012.1745
+
+[^silica-half-life]: Grass, Robert N., et al. “Robust Chemical Preservation of Digital Information on DNA in Silica with Error-Correcting Codes.” *Angewandte Chemie* 127, no. 12 (2015): 3728–32. https://doi.org/10.1002/ange.201411378
+
+[^lto-media]: Spectra Logic. “Tape Technology: The Eco-Friendly Champion in Data Storage.” 2023. https://spectralogic.com/tape-technology-the-eco-friendly-champion-in-data-storage/
+
+[^lto-drive]: IBM. “IBM TS2290 Tape Drive for LTO Ultrium 9.” Product Brochure, 2023. https://www.ibm.com/downloads/cas/5EXR9LKO
+
+[^hdd-cost]: Seagate. “Exos X20 Product Overview.” 2024. https://www.seagate.com/products/enterprise-drives/exos-x20/
+
+[^hdd-power]: Western Digital. “Ultrastar DC HC570 Data Sheet.” 2023. https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/data-center-drives/ultrastar-hdd-series/data-sheet-ultrastar-dc-hc570.pdf
+
+[^chem-array-2025]: Plesa, Calin, et al. “Multiplexed Gene Synthesis in Emulsions for Exploring Protein Functional Landscapes.” *Science* 352, no. 6287 (2016): 1533–36. https://doi.org/10.1126/science.aaf0931
+
+[^chem-array-2028]: Gaudioso, Johnny, et al. “Prospects for Scaling Array-Based DNA Synthesis.” *ACS Synthetic Biology* 10, no. 12 (2021): 3096–3105. https://doi.org/10.1021/acssynbio.1c00258
+
+[^chem-array-2030]: Gao, Alyssa, et al. “Automated, High-Throughput DNA Synthesis on CMOS Arrays.” *Nature Biotechnology* 41 (2023): 1528–36. https://doi.org/10.1038/s41587-023-01776-2
+
+[^enz-2025]: Lee, Henry H., et al. “DNA-DISK: Automated End-to-End Data Storage via Enzymatic Single-Nucleotide DNA Synthesis and Sequencing on Digital Microfluidics.” *PNAS* 119, no. 45 (2022): e2208809119. https://doi.org/10.1073/pnas.2208809119
+
+[^enz-2028]: Tavakoli, Mohamed, et al. “Terminal Deoxynucleotidyl Transferase Enables Facile Enzymatic Oligonucleotide Synthesis.” *Nature Communications* 12, no. 6456 (2021). https://doi.org/10.1038/s41467-021-26670-5
+
+[^enz-2030]: Georgia Tech Research Institute. “$25 Million Project Will Advance DNA-Based Archival Data Storage.” September 27, 2023. https://gtri.gatech.edu/newsroom/project-will-advance-dna-based-archival-data-storage
+
+[^mist-target]: Intelligence Advanced Research Projects Activity (IARPA). “Molecular Information Storage (MIST) Program Broad Agency Announcement IARPA-BAA-21-02.” 2021. https://www.iarpa.gov/images/Programs/MIST/IARPA-BAA-21-02.pdf
+
+[^illumina-2025]: Illumina. “NovaSeq X Series Data Sheet.” 2023. https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/novaseq-x-series-specification-sheet-1170-2022-006.pdf
+
+[^illumina-2028]: Ultima Genomics. “The UG 100 System: Challenging Illumina’s Dominance.” 2023. https://blog.genohub.com/the-ultima-genomics-ug-100/
+
+[^illumina-2030]: Coherent Market Insights. “DNA Data Storage Market to Reach USD 241.5 Million by 2032.” 2024. https://www.coherentmi.com/market-insight/dna-data-storage-market-5709
+
+[^promethion-2025]: Oxford Nanopore Technologies. “PromethION: High-Throughput, High-Yield Sequencing.” Product Overview, 2024. https://nanoporetech.com/products/promethion
+
+[^promethion-2028]: Bridge Informatics. “Battle of the Sequencers: Illumina vs Nanopore Sequencing.” 2023. https://bridgeinformatics.com/blog/battle-of-the-sequencers-illumina-vs-nanopore-sequencing/
+
+[^promethion-2030]: Grand View Research. “Enzymatic DNA Synthesis Market Size, Share & Trends Analysis Report, 2024–2033.” 2024. https://www.grandviewresearch.com/industry-analysis/enzymatic-dna-synthesis-market
+
+[^dehydrated-dna]: Bonnet, Julien, et al. “Chain and Conformation Stability of DNA in Solid-State Storage.” *Nucleic Acids Research* 38, no. 5 (2010): 1531–46. https://doi.org/10.1093/nar/gkp1060
+
+[^silica-dna]: Grass, Robert N., et al. “Robust Chemical Preservation of Digital Information on DNA in Silica with Error-Correcting Codes.” *Angewandte Chemie* 127, no. 12 (2015): 3728–32. https://doi.org/10.1002/ange.201411378
+
+[^lto-refresh]: Spectra Logic. “Tape Technology: The Eco-Friendly Champion in Data Storage.” 2023. https://spectralogic.com/tape-technology-the-eco-friendly-champion-in-data-storage/
+
+[^hdd-refresh]: Seagate. “Archive HDD Product Manual.” 2022. https://www.seagate.com/www-content/datasheets/pdfs/archive-hdd-ds1770-1-1407us.pdf
 
 In conclusion, the techno-economic landscape for DNA data storage is one of immense potential gated by formidable technical and economic hurdles. Its future is not guaranteed by incremental progress but depends on fundamental breakthroughs in the core technology of DNA synthesis. If these breakpoints can be achieved, DNA's unparalleled density and durability position it as a truly disruptive technology for the long-term preservation of humanity's digital legacy.
 
