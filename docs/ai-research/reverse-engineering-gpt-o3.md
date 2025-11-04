@@ -126,7 +126,6 @@ To ensure the findings within this report are verifiable and reproducible, all s
 | PyTorch     | 2.3.1   | 87c6d5b4...    | ML Framework Analysis            |
 | Transformers | 4.41.2 | 76d5c4b3...    | LLM Component Analysis           |
 
-Export to Sheets
 
 ### 3.2. Target Environment Configuration (Inferred)
 
