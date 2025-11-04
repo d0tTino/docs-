@@ -167,9 +167,10 @@ This situation creates a paradox: a theory whose core tenets (e.g., archetypes, 
 
 Table 2: Summary of Empirical Outcome Studies for Jungian Psychotherapy
 
-StudyDesignSample SizeKey FindingsReported Effect Sizes
-Roesler (2013) ReviewMeta-analysis of prospective, naturalistic outcome studiesMultiple cohortsSignificant symptom reduction; structural personality change; stable, long-term results; cost-effective.Personality Restructuring: d=0.94; Life Conduct: d=1.48; Global Symptoms: d=1.31.
-German Training Institute Study (2025)Pre-post design in a supervised training setting104 patientsSignificant reduction in depression, anxiety, OCD symptoms; improvements in self-perception and relationships.Symptom Burden: d=0.555 to d=1.174.
+| Study | Design | Sample Size | Key Findings | Reported Effect Sizes |
+| --- | --- | --- | --- | --- |
+| Roesler (2013) Review | Meta-analysis of prospective, naturalistic outcome studies | Multiple cohorts | Significant symptom reduction; structural personality change; stable, long-term results; cost-effective. | Personality Restructuring: d=0.94; Life Conduct: d=1.48; Global Symptoms: d=1.31. |
+| German Training Institute Study (2025) | Pre-post design in a supervised training setting | 104 patients | Significant reduction in depression, anxiety, and obsessive-compulsive symptoms; improvements in self-perception and relationships. | Symptom Burden: d=0.555 to d=1.174. |
 
 Export to Sheets
 6.4 Important Caveat: Therapy Outcomes Are Not Evidence for "Shadow Work" as a Standalone Intervention
