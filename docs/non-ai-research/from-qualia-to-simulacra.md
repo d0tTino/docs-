@@ -235,8 +235,6 @@ This table provides a synoptic overview, mapping how each major tradition approa
 | Saussurean Semiotics | An undifferentiated "nebula" of thought/sensation. | Arbitrary division of the conceptual plane by a system of differences. | In the abstract linguistic system (langue). | Communication is possible only within the shared, arbitrary conventions of a language system. |
 | Peircean Semiotics | The world of Objects encountered through signs. | A continuous, triadic process of semiosis (Sign-Object-Interpretant). | In the ongoing process of interpretation. | Understanding is an infinite, evolving process; communication is always provisional. |
 | Postmodernism | The hyperreal; a world of models and codes without origin. | Signs do not latch on; they generate what passes for "reality." | In the code; the system of simulation. | The distinction between authentic experience and communication has collapsed. |
-
-Export to Sheets
 #### 8.2 Table 2: Argument Table
 This table formalizes the key philosophical arguments discussed, breaking them down into their constituent parts to clarify their logical structure and the primary points of contention.
 
@@ -247,8 +245,6 @@ This table formalizes the key philosophical arguments discussed, breaking them d
 | The "Myth of the Given" | W. Sellars | Non-inferential experience cannot provide epistemic justification. | 1. Justification requires standing in inferential relations. 2. Only propositionally structured items can stand in inferential relations. 3. "The given" (e.g., a raw feel) is non-propositional. | A red sense-datum justifying the belief "This is red." | Rejects premise 2, arguing for non-conceptual content that can still be reason-giving (McDowell); phenomenology's claim that experience is already structured. |
 | Indeterminacy of Translation | W.V.O. Quine | There is no fact of the matter about the correct translation of a term. | 1. All evidence for translation is behavioral (assent/dissent). 2. All behavioral evidence is compatible with multiple, incompatible translation manuals. | "Gavagai" can be translated as "rabbit," "undetached rabbit part," etc. | Davidson's Principle of Charity can constrain interpretation; the argument's behaviorist premise is too restrictive. |
 | The Twin Earth Argument | H. Putnam | The content of our thoughts is not solely determined by what is in our heads. | 1. A person and their molecular duplicate can be in identical internal states. 2. The reference of their terms (e.g., 'water') can differ due to their environment. 3. Therefore, meaning/content is determined by external factors. | Earth (H₂O) vs. Twin Earth (XYZ). | The argument conflates two different concepts of meaning (narrow vs. broad content); intuitions about sci-fi cases are unreliable. |
-
-Export to Sheets
 ### Section 9: Case Studies in Expression and Ineffability
 Applying these theoretical frameworks to specific domains reveals the complex interplay between what can be shared through language and what may remain unshareable.
 

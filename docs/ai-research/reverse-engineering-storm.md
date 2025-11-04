@@ -139,8 +139,6 @@ Table 3.1: Direct Dependency and License Manifest
 | numpy                    | ==1.26.4    | BSD-3-Clause    | Numerical computation            |
 | toml                     | (unpinned)  | MIT             | Configuration file parsing       |
 | diskcache                | (unpinned)  | Apache-2.0      | Caching mechanism                |
-
-Export to Sheets
 A full analysis, including transitive dependencies, is provided in Appendix 10.1. The prevalence of permissive licenses (MIT, Apache-2.0, BSD) reinforces the feasibility of a commercial open-core model.
 
 # 3.2 Tooling and Runtimes
@@ -511,7 +509,6 @@ Table 7.1: Re-implementation Milestone Schedule
 | 5     | API & Open-Core Shell       | Develop the FastAPI server, including endpoints for user authentication, job submission (via Celery), status polling, and results retrieval. Implement basic database schemas in PostgreSQL.                                   | 4 Weeks            |
 | 6     | Validation & Beta Release   | Conduct full functional parity testing against the original STORM using the FreshWiki benchmark. Perform performance and cost benchmarking. Deploy the complete system to a closed beta environment for user feedback.         | 2 Weeks            |
 
-Export to Sheets
 
 # 8.0 Security & Compliance Assessment
 
@@ -630,7 +627,6 @@ langchain-core0.2.1MITTransitive (via langchain-\*)
 urllib31.26.18MITTransitive (via requests)
 pydantic2.7.1MITTransitive (via qdrant-client, etc.)
 
-Export to Sheets
 (Note: This is a representative subset. The full, automatically generated manifest for the re-implementation should be maintained in the project repository.)
 
 # 10.2 Key Algorithm Pseudocode

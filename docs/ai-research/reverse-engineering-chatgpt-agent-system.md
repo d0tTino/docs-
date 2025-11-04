@@ -241,7 +241,6 @@ OSINT FrameworkN/A (Web)Directory of public information sourcesN/A
 Python3.10.12Automation scripts, data parsingf1b3...c6a5
 Docker Engine26.1.1Containerized sandboxing for tools9e8a...3b4d
 
-Export to Sheets
 
 ## 4.0 Methodology
 

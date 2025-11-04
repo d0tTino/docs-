@@ -175,7 +175,6 @@ Naïve BTD (Any 40% Dip)9.5%0.41-58.4%39%11.8 months
 S&P 500 Buy & Hold10.1%0.55-55.2%N/AN/A
 S&P 500 DCA9.8%0.62-49.7%N/AN/A
 
-Export to Sheets
 The results clearly indicate that a selective, signal-driven approach to buying dips yields superior risk-adjusted returns. The Rehab Score strategy nearly doubles the CAGR of both the S&P 500 and the naïve BTD strategy. Its Sharpe Ratio of 0.85 is significantly higher, indicating better returns per unit of risk. Furthermore, the maximum drawdown is substantially lower than that of the naïve strategy and the S&P 500 during major bear markets. Most importantly, the Hit Rate of 68% demonstrates that the Rehab Score is highly effective at filtering out potential value traps, more than doubling the success rate of indiscriminately buying any major drawdown.
 
 3.3. Identifying the Most Predictive Signals
@@ -319,7 +318,6 @@ Rehab Score FactorAverage Score (Successful Rebounds)Average Score (Value Traps)
 6. Narrative Pivot1.80.5Winners articulate a clear, credible, and tangible path to recovery, often by focusing on a strong core business. Traps often have a confused or purely speculative "hope-based" narrative.
 Total Rehab Score13.45.7The composite score provides a powerful and statistically significant separation between the two groups, demonstrating the framework's efficacy.
 
-Export to Sheets
 This comparative analysis provides the quantitative evidence for the Rehab Score's validity. It confirms that the path to recovery is paved not with cheapness alone, but with tangible improvements in forward-looking fundamentals, driven by decisive and credible management actions. The absence of these signals is the defining characteristic of a value trap.
 
 Section 6: The Playbook and Live Watchlist
@@ -357,7 +355,6 @@ FactorPointsCriteria
 +2Management articulates a credible strategic pivot, refocusing on a profitable core or tangible new growth driver with supporting KPIs.
 Total Score/ 17
 
-Export to Sheets
 Key Principles: The "Do's and Don'ts" of Contrarian Investing
 
 DO prioritize a tangible Earnings Inflection over a low P/E ratio. A cheap stock getting cheaper is a value trap; a cheap stock with improving fundamentals is an opportunity.

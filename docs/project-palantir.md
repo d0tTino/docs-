@@ -746,8 +746,6 @@ A comparative overview of the four platforms provides an immediate, high-level m
 | Apollo | Internal & External Software Developers, DevOps/SecOps Teams | To enable autonomous, continuous software delivery and management across any environment (multi-cloud, on-prem, classified, edge). | Infrastructure Layer: Manages software deployment, updates, and security across heterogeneous environments. Acts as the control plane for Gotham, Foundry, and third-party applications. |
 | AIP | End-Users, Application Builders, Data Scientists (within Gotham/Foundry) | To securely connect Large Language Models (LLMs) and other AI to an organization's data and operations, enabling agentic, automated workflows. | Intelligence Layer: Sits atop the Ontology, providing tools (AIP Logic, Agent Studio) to build, evaluate, and deploy AI agents that can reason over enterprise data and execute actions. |
 
-Export to Sheets
-
 ## Section I: The Foundational Operating Systems: Gotham and Foundry
 Gotham and Foundry are not two entirely separate codebases but rather two highly specialized configurations of the same core architectural philosophy. The foundational primitives—robust data integration, a semantic ontology, granular access controls, and an application-building layer—were first developed and battle-tested in the high-stakes government environments of Gotham. These primitives were then generalized, productized, and rebranded for the commercial market with Foundry. This shared DNA is the key to understanding Palantir's ability to scale its offerings.
 

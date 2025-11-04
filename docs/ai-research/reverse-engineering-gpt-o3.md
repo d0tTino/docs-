@@ -125,7 +125,6 @@ ltrace0.7.3b2a1f0e9...Library Call Tracing
 PyTorch2.3.187c6d5b4...ML Framework Analysis
 Transformers4.41.276d5c4b3...LLM Component Analysis
 
-Export to Sheets
 
 ### 3.2. Target Environment Configuration (Inferred)
 

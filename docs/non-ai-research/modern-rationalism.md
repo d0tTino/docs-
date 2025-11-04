@@ -69,8 +69,6 @@ Classical Rationalism (17th C.)Descartes, Spinoza, LeibnizInnate Ideas, Pure Rea
 Kantian Criticalism (Late 18th C.)Immanuel KantSynthesis of Reason & ExperienceTranscendental CritiqueUnderstand the Limits of ReasonLimited to phenomena, not noumena
 Critical Rationalism (Mid-20th C.)Karl PopperConjecture & Empirical TestingFalsificationEliminate ErrorProvisional, fallible, never certain
 Modern/Bayesian Rationalism (Late 20th C. - Present)Bayes, Carnap, YudkowskyEvidence & Probabilistic InferenceBayesian Updating, Bias MitigationManage Uncertainty, Optimize DecisionsA probability (credence) to be updated
-
-Export to Sheets
 III. Core Principles and Methodological Toolkit
 Modern rationalism is not merely a philosophical stance but a practical discipline—an "art of thinking" that can be learned, practiced, and improved. It comprises a set of principles and a methodological toolkit designed to refine human reasoning, master uncertainty, and overcome the systematic flaws inherent in our cognitive architecture. This approach represents an instrumentalization of epistemology, transforming the abstract pursuit of knowledge into a set of trainable and measurable skills aimed at building more accurate world-models (epistemic rationality) and achieving desired goals (instrumental rationality).
 

@@ -436,4 +436,3 @@ those choices were made.
 - Tate. "Sixty Years: The Unfinished Conversation – Display at Tate Britain."
 - Tate. "'Taking Stock (unfinished)', Hans Haacke, 1983–4."
 
-*Export to Sheets*

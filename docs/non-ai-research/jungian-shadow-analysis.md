@@ -170,8 +170,6 @@ Table 2: Summary of Empirical Outcome Studies for Jungian Psychotherapy
 StudyDesignSample SizeKey FindingsReported Effect Sizes
 Roesler (2013) ReviewMeta-analysis of prospective, naturalistic outcome studiesMultiple cohortsSignificant symptom reduction; structural personality change; stable, long-term results; cost-effective.Personality Restructuring: d=0.94; Life Conduct: d=1.48; Global Symptoms: d=1.31.
 German Training Institute Study (2025)Pre-post design in a supervised training setting104 patientsSignificant reduction in depression, anxiety, OCD symptoms; improvements in self-perception and relationships.Symptom Burden: d=0.555 to d=1.174.
-
-Export to Sheets
 6.4 Important Caveat: Therapy Outcomes Are Not Evidence for "Shadow Work" as a Standalone Intervention
 A final, critical guardrail must be established. The positive outcomes documented in these studies are for Jungian psychotherapy, a formal treatment that occurs within the context of a structured, long-term therapeutic relationship with a highly trained professional. This evidence cannot and should not be extrapolated to validate the effectiveness or safety of decontextualized, do-it-yourself "shadow work" exercises or protocols often found in popular media.
 
@@ -230,8 +228,6 @@ Approach with curiosity and the aim of understanding, not judging, the disowned 
 Take responsibility for your emotional reactions as potential messages from your own unconscious.Mistake integration for acting out. Becoming conscious of an impulse is different from being compelled by it.
 Seek to build a conscious relationship with the Shadow through methods like dream work and reflection.Identify with archetypal contents (inflation). Do not mistake the Shadow's power for your own ego's power.
 Ground the inner work by connecting it to your real-life behavior and ethical responsibilities.Undertake deep, destabilizing work without proper support, especially if you have a history of trauma or psychological instability.
-
-Export to Sheets
 
 Sources used in the report
 

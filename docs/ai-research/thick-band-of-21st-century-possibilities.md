@@ -279,7 +279,6 @@ The following matrix codifies the positions of key thinkers on a range of critic
 | Ian Morris        | +                          | +                | 0                         | +                         | +                     | +                             | -                    | 0                                 |
 | Y. N. Harari      | +                          | ++               | +                         | 0                         | +                     | ++                            | -                    | 0                                 |
 
-Export to Sheets
 This matrix reveals non-obvious intellectual alliances and the precise points of divergence. For example, the techno-optimist Kurzweil and the existential risk pessimist Yudkowsky both agree that AGI is likely this century (++), but they disagree profoundly on whether aligning its goals with ours will be difficult (Yudkowsky: ++, Kurzweil: --). This clarifies that their dispute is not about the timeline of AI development but its fundamental nature and the difficulty of the control problem. Similarly, the matrix shows how a belief in slow energy transitions (Smil, Rockström) correlates with a view that governance is lagging, while those who believe in exponential progress (Kurzweil) tend to view governance as a secondary, less relevant factor. This structured data provides the essential bridge from qualitative analysis to the probabilistic modeling in Part V.
 
 ## Part IV: The Ladder of Futures: From Transcension to Oblivion
