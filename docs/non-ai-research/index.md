@@ -2,7 +2,7 @@
 title: "Non-AI Research"
 tags: [research, docs]
 project: "non-ai-research"
-updated: 2025-09-17
+updated: 2026-11-16
 ---
 
 !!! note "Disclaimer"
@@ -41,7 +41,7 @@ broaden and complement AI-focused work.
 
     - 🧬 **Corporate Organisms**  
       Evolutionary metaphors that treat companies as living systems, clarifying how narratives, incentives, and identities cohere.  
-      [🔗 Corporate Egregore](corporate-egregore.md) · [🔗 Metaorganism](metaorganism.md)
+      [🔗 Corporate Egregore — Original Thesis](corporate-egregore.md) · [🔗 Critical Reassessment (2026)](corporate-egregore-reassessment.md) · [🔗 Metaorganism](metaorganism.md)
 
 === "General Research"
 
